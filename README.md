@@ -42,6 +42,12 @@ Le fichier `index_fiches_cee.csv` contient les memes documents avec des chemins 
 
 Le fichier `index_fiches_uniques.csv` liste une seule ligne par code fiche CEE unique, avec le nombre de documents associes.
 
+## Complements CEE
+
+Le dossier `_CEE_complements` contient les elements importants des autres pages CEE de la rubrique officielle "Energies" : coups de pouce, dispositif general, questions-reponses, operations specifiques, programmes, SARE, lettres d'information et statistiques 2026.
+
+Ce dossier est volontairement selectif : il ne contient pas toutes les archives historiques, seulement les documents utiles et les pages de reference.
+
 ## Note
 
 La page officielle du ministere classe les fiches en six secteurs : agriculture, residentiel, tertiaire, industrie, reseaux et transport.
