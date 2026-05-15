@@ -12,8 +12,8 @@
 - `Transport_TRA/TRA-SE-106 vA19-2 - Annexe 2 à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -37,6 +37,19 @@
 - Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :
 - C’ : consommation énergétique actualisée en kWh cumac/kilomètre, par type de pousseur et par bassin de
 - C’ en kWh cumac par km selon la puissance du pousseur
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-3)
+- 4. Durée de vie conventionnelle (pages 2-2)
+- 5. Montant de certificats en kWh cumac (pages 2-3)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 5
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de variation électronique de vitesse (VEV) sur un moteur asynchrone existant dépourvu\nde ce système, ou neuf, de puissance nominale inférieure ou égale à 3 MW.\n\nEst exclu de l'opération standardisée tout moteur IE2 défini par le règlement (CE) n°640/2009 de la Commission du\n22 juillet 2009 modifié par le règlement (UE) n°4/2014 de la Commission du 6 janvier 2014, acheté :\n- entre le 1er janvier 2015 et le 31 décembre 2016 si sa puissance nominale est comprise entre 7,5 kW inclus et\n375 kW inclus ;\n- à partir du 1er janvier 2017 si sa puissance nominale est comprise entre 0,75 kW inclus et 375 kW inclus.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un système de variation électronique de vitesse.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d'un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence\ninstallé est un système de variation électronique de vitesse.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Application\nMontant kWh cumac par kW\n\nPuissance nominale du\nmoteur en kW\nPompe d’irrigation\n1 600\nX\nP\nVentilateur de bâtiments d’élevage\n19 600\nVentilation d’une serre\n11 500\nPompe à vide d’une salle de traite\n2 800\nChauffage d’une serre (pompe,\nventilateur d’un brûleur)\n7 700\nAutres applications\n2 300\n\nLa puissance nominale à retenir est celle figurant sur la plaque signalétique du moteur ou à défaut celle indiquée sur\nun document issu du fabricant du moteur.\n\nLorsque l’opération concerne l’équipement de plusieurs moteurs de caractéristiques identiques, la puissance\nnominale à prendre en compte dans le calcul est la somme, par type d’application, des puissances nominales de\nchaque moteur équipé de variateur électronique de vitesse.",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -90,7 +127,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -120,10 +158,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-UT-102 vA22-2.pdf"
     }
   ],
@@ -168,10 +211,10 @@
     "Agriculture_AGRI/AGRI-UT-102 vA22-2 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.039110+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

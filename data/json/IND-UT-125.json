@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un traitement d’eau performant pour l’alimentation de chaudière(s) de production de vapeur d’une\nchaufferie dont la puissance thermique nominale totale est inférieure à 20 MW.\n\nLa puissance thermique nominale est définie à la rubrique 2910 de l'annexe à l'article R.511-9 du code de\nl'environnement comme « la puissance thermique fixée et garantie par le constructeur, exprimée en PCI et\nsusceptible d’être consommée en marche continue ».\n\nLe traitement performant de l’eau d’alimentation d’une chaudière est soit un traitement par osmose inverse, soit une\ndéminéralisation sur résines échangeuses d’ions.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa mise en place d’un traitement d’eau performant sur une chaudière de secours n’est pas éligible à l’opération.\n\nLe traitement de l’eau assure une conductivité de l’eau d’appoint après traitement inférieure ou égale à 50 µS/cm.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un traitement d'eau par osmose inverse ou\npar déminéralisation sur résines échangeuses d’ions.\n\nÀ défaut, la preuve de réalisation de l'opération mentionne la mise en place d'un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence\ninstallé est un traitement d'eau par osmose inverse ou par déminéralisation sur résines échangeuses d’ions.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "10 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Le montant de certificats d’économies d’énergie dépend de la zone géographique dans laquelle se situe l’installation.\nQuatre zones sont définies et correspondent aux listes de départements suivantes :\n- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,\n70, 74, 87, 88 et France d’outre-mer ;\n- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;\n- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,\n54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;\n- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91.\n\nMode de fonctionnement\ndu site\nMontant en kWh cumac par kW selon la\nzone géographique d’installation de la\nchaudière\n\nPuissance des\nchaudières en kW\n\nZone A\nZone B\nZone C\nZone D\n\n1x8h\n70\n230\n460\n650\nX\nP\n2x8h\n160\n520\n1 000\n1 400\n3x8h avec arrêt le week-end\n220\n700\n1 400\n1 900\n3x8h sans arrêt le week-end\n300\n990\n2 000\n2 700\n\nP est la somme des puissances utiles nominales des chaudières concernées par le traitement d’eau (en kW).\n\nLa puissance utile nominale à retenir est celle figurant sur la plaque signalétique de la chaudière ou à défaut celle\nindiquée sur un document issu du fabricant. Elle est définie par l’article R.224-20 du code de l’environnement\ncomme « la puissance thermique maximale fixée et garantie par le constructeur comme pouvant être délivrée au\nfluide caloporteur en marche continue ».",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -98,7 +135,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -225,10 +263,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 10,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf"
     }
   ],
@@ -273,10 +316,10 @@
     "Industrie_IND/IND-UT-125 v A14-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.289875+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

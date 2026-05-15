@@ -18,6 +18,7 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -74,7 +75,8 @@
   "calculation": {
     "formula_text": "5- Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -104,10 +106,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": null,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-SE-113 vA14-1.pdf"
     }
   ],
@@ -176,10 +183,10 @@
     "Transport_TRA/TRA-SE-113 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:01.117295+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

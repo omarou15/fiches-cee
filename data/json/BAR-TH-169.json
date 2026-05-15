@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels : appartements existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système centralisé constitué d’une ou plusieurs pompes à chaleur (PAC) associées à un ou\nplusieurs ballons de stockage et de puissance thermique nominale inférieure ou égale à 400 kW pour la production\nd’eau chaude sanitaire collective.\n\nLes sources possibles sont l’air (extérieur ou extrait), l’eau glycolée, l’eau et les eaux grises. Les PAC avec capteurs\nsolaires atmosphériques sont également éligibles.\n\nLa présente fiche n’est pas cumulable avec la fiche d’opération standardisée BAR-TH-166 « Pompe à chaleur\ncollective de type air/eau ou eau/eau » lorsque celle-ci est utilisée pour les usages chauffage et eau chaude sanitaire.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er avril 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe professionnel réalisant l’opération est titulaire d’un signe de qualité conforme aux exigences prévues à l’article\n2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du\ncode général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des\ntextes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 5° ou du 6° du I de l'article\n1er du décret précité.\n\nPour les chauffe-eau thermodynamiques concernés par le règlement (UE) n° 814/2013 de la Commission du 2 août\n2013, l’efficacité énergétique pour le chauffage de l’eau est supérieure ou égale à :\n- 61 % pour un profil de soutirage XXL ;\n- 65 % pour des profils de soutirage 3XL et plus.\n\nPour les PAC concernées par le règlement (UE) n° 813/2013 de la Commission du 2 août 2013, l’efficacité\nénergétique saisonnière est supérieure ou égale à 111 %.\n\nDans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.\n\nLe COP susmentionné est déterminé en appliquant les normes et conditions suivantes :\n1° Pour un chauffe-eau thermodynamique collectif : NF EN 16147, 7°C extérieur pour un équipement utilisant l’air\nextérieur, pour le profil de soutirage concerné ;\n2° Pour les autres PAC :\n\na) NF EN 14511, sous les conditions suivantes de température : température à l’entrée (échangeur extérieur) de\n7°C extérieur/température à la sortie (échangeur intérieur) de 45°C, pour une PAC air extérieur/eau ;\nb) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 20°C/\ntempérature à la sortie (échangeur intérieur) de 45°C, pour une PAC air extrait/eau ;\nc) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 10°C/\ntempérature à la sortie (échangeur intérieur) de 45°C, pour une PAC eau/eau sur eau de nappe ;\nd) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 0°C/\ntempérature à la sortie (échangeur intérieur) de 45°C, pour une PAC eau glycolée /eau sur capteurs enterrés ;\ne) NF EN 14511, sous les conditions de température : 10°C/45°C, pour une PAC à capteur solaire\natmosphérique ;\nf) NF EN 14511, sous les conditions de température : 19°C/45°C, pour une PAC sur eaux grises ;\ng) Arrêté du 6 avril 2022 modifiant les arrêtés pris en application des articles R. 122-22 à R. 122-25 et R. 172-\n1 à R. 172-9 du code de la construction et de l’habitation (intégrant le « Titre V Système » PAC CO2), sous les\nconditions de température : 7°C/T eau entrée = 15°C avec T eau sortie > 55°C, pour une PAC au CO2.\n\nPour les PAC caractérisées en mode chauffage pour des températures à la sortie (échangeur intérieur) de 35°C et\n55°C selon la norme NF EN 14511, le COP à 45°C peut être déterminé par interpolation linéaire entre ces deux\nvaleurs.\n\nLe professionnel rédige une note de dimensionnement du générateur de la PAC. Cette note évalue l’énergie annuelle\ncumulée produite par la PAC sans l’appoint (kWh) pour le chauffage de l’eau, ainsi que les besoins annuels cumulés\nliés au puisage de l’eau chaude sanitaire (kWh) et les pertes de distribution d’eau chaude sanitaire cumulées sur\nl’année (kWh), et indique le volume de stockage d’eau chaude sanitaire (m3). La note indique la valeur des grandeurs\nsusmentionnées ainsi que le rapport (dénommé « Facteur R ») entre l’énergie annuelle cumulée produite par la PAC\nsans l’appoint pour le chauffage de l’eau et la somme des besoins annuels cumulés liés au puisage de l’eau chaude\nsanitaire et des pertes de distribution d’eau chaude sanitaire cumulées sur l’année. Dans le cas où plusieurs PAC\nsont installées, les grandeurs et facteurs R susmentionnés sont indiqués pour chaque PAC, ainsi que la somme des\nfacteurs R. Cette note est remise au bénéficiaire à l’achèvement des travaux.\n\nLa somme des facteurs R susmentionnés est inférieure ou égale à 1.\n\nLa preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une ou plusieurs pompes à chaleur ;\n- le type de pompe à chaleur (chauffe-eau thermodynamique ; PAC air extérieur/eau ; PAC air extrait/eau ; PAC\neau/eau sur eau de nappe ; PAC eau glycolée /eau sur capteurs enterrés ; PAC à capteur solaire atmosphérique ;\nPAC sur eaux grises ; PAC au CO2) ;\n- la puissance thermique nominale de chaque équipement installé ;\n- le COP de chaque équipement installé ;\n- pour ce qui concerne les chauffe-eau thermodynamique concernés par le règlement (UE) n° 814/2013 de la\nCommission du 2 août 2013 : l’efficacité énergétique pour le chauffage de l’eau et le profil de soutirage concerné ;\n- pour ce qui concerne les PAC concernées par le règlement (EU) n° 813/2013 de la commission du 2 août 2013 :\nl’efficacité énergétique saisonnière.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec les\nmarques et références et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace\néconomique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation\n(COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans\nle cadre de la coordination européenne des organismes d'accréditation.\n\nCe document indique :\n- que le ou les équipements de marques et références mis en place sont des pompes à chaleur ;\n- le type de chaque pompe à chaleur (chauffe-eau thermodynamique ; PAC air extérieur/eau ; PAC air extrait/eau ;\nPAC eau/eau sur eau de nappe ; PAC eau glycolée /eau sur capteurs enterrés ; PAC à capteur solaire atmosphérique ;\nPAC sur eaux grises ; PAC au CO2) ;\n- la puissance thermique nominale de chaque équipement installé ;\n- pour ce qui concerne les chauffe-eau thermodynamiques concernés par le règlement (UE) n° 814/2013 de la\nCommission du 2 août 2013 : l’efficacité énergétique pour le chauffage de l’eau et le profil de soutirage concerné ;\n- pour ce qui concerne les PAC concernées par le règlement (UE) n° 813/2013 de la Commission du 2 août 2013 :\nl’efficacité énergétique saisonnière ;\n- le coefficient de performance (COP) de chaque équipement installé, déterminé selon les normes susmentionnées ;\n- l’indication de la norme utilisée pour la détermination du COP de chaque équipement.\n\nLe document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel\ndélivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susmentionné.",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "22 ans.",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "COP de la PAC\ninstallée\nZone\nclimatique\nMontant en\nkWh cumac\npar\nappartement\n\nNombre\nd'appartements\n\nFacteur R\n2,8 ≤ COP < 3,2\nH1\n49 200\nX\nN\nX\nR\nH2\n46 800\nH3\n44 000\n3,2 ≤ COP < 3,6\nH1\n51 000\nH2\n48 500\nH3\n45 500\n3,6 ≤ COP < 4\nH1\n52 400\nH2\n49 800\nH3\n46 800\n4 ≤ COP < 4,4\nH1\n53 500\nH2\n50 900\nH3\n47 800\n4,4 ≤ COP < 4,8\nH1\n54 400\nH2\n51 800\nH3\n48 600\nCOP ≥ 4,8\nH1\n55 000\nH2\n52 300\nH3\n49 200\n\nLe facteur R est défini en partie 3 de la présente fiche.\n\nDans le cas où plusieurs PAC sont installées, il convient de sommer (pour le même nombre d’appartements) les\nmontants de certificats correspondant à chaque PAC.\n\nNB : la somme des facteurs R des PAC installées est inférieure ou égale à 1.",
+      "page_start": 4,
+      "page_end": 4
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -267,7 +304,8 @@
   "calculation": {
     "formula_text": "Dans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -472,10 +510,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 22,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf"
     }
   ],
@@ -520,10 +563,10 @@
     "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.703452+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

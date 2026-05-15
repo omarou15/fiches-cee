@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments tertiaires existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une ou de plusieurs pompe(s) à chaleur (PAC) de type air/eau.\n\nSeuls sont éligibles les appareils dimensionnés pour répondre intégralement ou en partie aux besoins du bâtiment\nen chauffage ou en chauffage et en eau chaude sanitaire (ECS).\n\nNe donnent pas lieu à la délivrance de certificats d’économies d’énergie les pompes à chaleur utilisées uniquement\npour la production d'eau chaude sanitaire.\n\nLa présente fiche s’applique aux opérations engagées jusqu’au 31 décembre 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nPour les pompes à chaleur assurant uniquement le chauffage :\n- pour les émetteurs de type plancher chauffant, plafond chauffant, mur chauffant et les émetteurs localisés du type\nventilo-convecteurs à eau, la pompe à chaleur installée est réputée d’application basse température ;\n- pour tous les autres types d’émetteurs, y compris les solutions mixtes (ex. : radiateurs et plancher chauffant) ainsi\nque les radiateurs dits « basse température » à régime d’eau 45°C, la pompe à chaleur installée est réputée\nd’application moyenne ou haute température.\n\nPour les pompes à chaleur assurant à la fois le chauffage et la production d’eau chaude sanitaire et pour toute\nassociation de système déporté à la pompe à chaleur installée, permettant la production de l’eau chaude sanitaire\npar celle-ci, la pompe à chaleur installée est réputée d’application moyenne ou haute température.\n\n3.1. Cas d’une PAC de puissance thermique nominale ≤ 400 kW\nL’efficacité énergétique saisonnière (Etas) pour le chauffage des locaux selon le règlement (EU) n° 813/2013 de la\ncommission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné)\ndéterminée selon l’application de la PAC installée est supérieure ou égale à :\n- 111% pour une application moyenne et haute température,\n- 126% pour une application basse température au sens du règlement susmentionné.\n\nL’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de\nchauffage des locaux (hors dispositif de régulation).\n\nPour les pompes à chaleur réputées d’application basse température, l’Etas à 35°C (pour les conditions climatiques\nmoyennes définies par le règlement susmentionné) est à considérer. Pour les pompes à chaleur réputées d’application\nmoyenne ou haute température, l’Etas à 55°C (pour les conditions climatiques moyennes définies par le règlement\nsusmentionné) est à considérer.\n\n3.2. Cas d’une PAC de puissance thermique nominale > 400 kW :\nLe coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux\nconditions de performance nominale de la norme EN 14511-2 pour une température à la sortie de l'échangeur\nthermique intérieur de 35°C, est égal ou supérieur à 3,4.\n\n3.3. Quelle que soit la puissance thermique nominale de la PAC :\nPour toute association de système déporté à la pompe à chaleur installée, permettant la production de l’eau chaude\nsanitaire par celle-ci, la régulation priorise la pompe à chaleur pour la production de l’eau chaude sanitaire.\n\nL’installation fait l’objet d’une étude préalable de dimensionnement, datée et signée par le professionnel. Cette\nétude est remise au bénéficiaire à l’engagement de l’opération. Le cas échéant elle est actualisée et remise au\nbénéficiaire à l’achèvement des travaux. La (ou les) pompes à chaleur installée(s) au titre de la présente fiche est\n(sont) conforme(s) aux préconisations de l’étude de dimensionnement.\n\nL’étude préalable de dimensionnement comporte :\na) la raison sociale et l’adresse du bénéficiaire, complétée par l’adresse du lieu de l’opération si différente de\nl’adresse du bénéficiaire ;\nb) la raison sociale et l’adresse du professionnel ou du bureau d’étude ayant réalisé le dimensionnement ;\nc) les caractéristiques techniques des locaux à chauffer (surface chauffée, types d’émetteurs de chaleur) ;\nd) la température de départ au réseau d’émetteurs et la température intérieure de consigne ;\ne) la température de base (Tbase) ;\nf) les déperditions thermiques du bâtiment à Tbase et à la température intérieure de consigne ;\ng) le dimensionnement de la puissance thermique fournie à la température de base et à la température de départ des\németteurs par la (ou les) PAC à installer ;\nh) le taux de couverture annuel de chauffage de la (ou des) PAC installée(s) au titre de la présente fiche, défini\ncomme le rapport de l’énergie fournit par la (ou les) PAC installées au titre de la présente fiche sur les besoins de\nchauffage du bâtiment ;\ni) la description des équipements installés au titre de la présente fiche (marque, référence, efficacité énergétique\n(Etas) (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon\nl’application de la PAC installée ou COP explicitement mesuré selon la norme EN 14511-2 pour une température à\nla sortie de l'échangeur thermique intérieur de 35°C) ;\nj) les caractéristiques des autres systèmes de chauffage éventuels de la chaufferie après travaux pour répondre aux\nbesoins pour le chauffage ou pour le chauffage et la production d’eau chaude sanitaire. Le cas échéant, les\néquipements de la chaufferie conservés ainsi que les raisons justifiant leur conservation.\n\nLa preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une ou de plusieurs pompe(s) à chaleur air/eau avec ses marque(s) et référence(s) ;\n- pour chaque pompe à chaleur installée au titre de la présente opération :\n- l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- le type d’application choisi pour l’installation de la pompe à chaleur (basse, moyenne ou haute\ntempérature) ;\n- la puissance thermique nominale de la pompe à chaleur installée :\n- pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique\nnominale suivant le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les\nconditions climatiques moyennes définies par le règlement susmentionné (soit Prated à la\ntempérature de conception de référence de -10°C) déterminée selon l’application de la PAC\ninstallée ;\n- pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance mesurée aux\nconditions de performance nominale de la norme EN 14511-2, au régime de température d’air à\n+7°C et pour une température à la sortie de l'échangeur thermique intérieur déterminée selon\nl’application de la PAC installée ;\n\n- et la performance énergétique de la pompe à chaleur installée : selon la puissance thermique nominale de\nla pompe à chaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la\ncommission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement\nsusmentionné) déterminée selon l’application de la PAC installée ou le COP explicitement mesuré selon la\nnorme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique\neuropéen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou\ntout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la\ncoordination européenne des organismes d'accréditation.\n\nCe document indique que :\n- l’équipement de marque et référence mis en place est une ou plusieurs pompe(s) à chaleur air/eau ;\n- l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- le type d’application choisi pour l’installation de la pompe à chaleur (basse, moyenne ou haute température) ;\n- la puissance thermique nominale de chaque pompe à chaleur installée :\n- pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique nominale\nselon le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques\nmoyennes définies par le règlement susmentionné (soit Prated à la température de conception de référence\nde -10°C) déterminée selon l’application de la PAC installée ;\n- pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance thermique nominale\nmesurée aux conditions de performance nominale de la norme EN 14511-2, au régime de température d’air\nà +7°C et pour une température à la sortie de l'échangeur thermique intérieur déterminée selon l’application\nde la PAC installée ;\n- et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe à\nchaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août\n2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon\nl’application de la PAC installée ou le COP explicitement mesuré selon la norme EN 14511-2 pour une température\nà la sortie de l'échangeur thermique intérieur de 35°C.\n\nLe document justificatif spécifique à l’opération est l’étude préalable de dimensionnement susmentionnée.",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "22 ans.",
+      "page_start": 3,
+      "page_end": 5
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour une PAC de puissance thermique nominale ≤ 400 kW :\n\nEfficacité\nénergétique\nsaisonnière (Etas)\nZone\nclimatique\nMontant en\nkWh cumac\npar m²\n\nSurface\ntotale\nchauffée\n(m²) par la\n(ou les) PAC\ninstallée(s)\nau titre de la\nprésente\nfiche\n\nSecteur\nFacteur\ncorrectif\n\nFacteur\nR\n111% ≤ Etas <\n126%\nH1\n1100\nX\nS\nX\nHôtellerie,\nrestauration\n0,7\nX\nR\nH2\n900\nSanté\n1,1\nH3\n600\nEnseignement\n0,8\n126% ≤ Etas <\n175%\nH1\n1200\nBureaux\n1,2\nH2\n1000\nCommerces\n0,9\nH3\n700\nAutres\n0,7\n175% ≤ Etas\nH1\n1300\n\n\nH2\n1000\n\n\nH3\n700\n\n\n\nPour une PAC de puissance thermique nominale > 400 kW :\n\nCoefficient de\nperformance\n(COP – EN 14511-\n2\nZone\nclimatique\nMontant en\nkWh cumac\npar m²\n\nSurface\ntotale\nchauffée (m²)\npar la (ou\nles) PAC\ninstallée(s)\nau titre de la\nprésente\nfiche\n\nSecteur\nFacteur\ncorrectif\n\nFacteur\nR\n3,4 ≤ COP < 4,5\nH1\n1100\nX\nS\nX\nHôtellerie,\nrestauration\n0,7\nX\nR\nH2\n900\nSanté\n1,1\nH3\n600\nEnseignement\n0,8\n4,5 ≤ COP\nH1\n1200\nBureaux\n1,2\nH2\n1000\nCommerces\n0,9\nH3\n700\nAutres\n0,7\n\nNB : La surface chauffée par la (ou les) PAC installée(s) correspond à la surface des locaux disposant d’émetteurs\nde chaleur alimentés par la (ou les) PAC installée(s) au titre de la présente fiche.\n\nDans le cas de l’installation d’une seule ou de plusieurs PAC (identiques ou différentes) :\n\n- si la puissance thermique nominale de la PAC nouvellement installée au titre de la présente fiche (ou de la somme\ndes puissances thermiques nominales des PAC nouvellement installées au titre de la présente fiche, dans le cas de\nl’installation de plusieurs PAC identiques ou différentes) est strictement inférieure à 40 % de la puissance utile de\nla chaufferie après travaux, le facteur R est égal au rapport de la puissance thermique nominale de la PAC\nnouvellement installée au titre de la présente fiche (ou de la somme des puissances thermiques nominales de chaque\nPAC éligible nouvellement installée au titre de la présente fiche, dans le cas de l’installation de plusieurs PAC\nidentiques ou différentes), sur la puissance totale utile de la chaufferie après travaux ;\n- dans le cas contraire, le facteur Rest égal à l’unité.\n\nOn entend par puissance utile de la chaufferie après travaux la somme des puissances thermiques nominales des\néquipements de chauffage ou de chauffage et d’eau chaude sanitaire de la chaufferie, après travaux, incluant la (ou\nles) PAC installée(s) au titre de la présente fiche. Dans tous les cas, la puissance de la chaufferie après travaux ne\ncomptabilise pas les équipements de secours.\n\nOn entend par puissance thermique nominale :\n- pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique nominale selon le\nrèglement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques moyennes définies\npar le règlement susmentionné (soit Prated à la température de conception de référence de -10°C) déterminée selon\nl’application de la PAC installée ;\n- pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance mesurée aux conditions de\nperformance nominale de la norme EN 14511-2, au régime de température d’air à +7°C et pour une température à\nla sortie de l'échangeur thermique intérieur déterminée selon l’application de la PAC installée.\n\nOn entend par PAC différentes, des PAC relevant de régimes de puissances différents (puissance thermique\nnominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient\nde performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la\nbase du montant de kWh cumac par m² de la PAC ayant le montant le plus faible.\n\nPendant la durée de vie conventionnelle, aucune opération ultérieure d'installation d'un équipement de production\nthermique dans la chaufferie en remplacement des équipements installés au titre de la présente fiche ne pourra\ndonner lieu à l'obtention de certificats d'économies d'énergie.",
+      "page_start": 4,
+      "page_end": 5
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -283,7 +320,93 @@
   "calculation": {
     "formula_text": "Le coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": [
+      {
+        "etas_min": 111,
+        "etas_max": null,
+        "usage": "chauffage",
+        "zone": "H1",
+        "kwh_cumac_per_apartment": 1100
+      },
+      {
+        "etas_min": 111,
+        "etas_max": null,
+        "usage": "chauffage",
+        "zone": "H2",
+        "kwh_cumac_per_apartment": 900
+      },
+      {
+        "etas_min": 111,
+        "etas_max": null,
+        "usage": "chauffage",
+        "zone": "H3",
+        "kwh_cumac_per_apartment": 600
+      },
+      {
+        "etas_min": 126,
+        "etas_max": null,
+        "usage": "chauffage",
+        "zone": "H1",
+        "kwh_cumac_per_apartment": 1200
+      },
+      {
+        "etas_min": 126,
+        "etas_max": null,
+        "usage": "chauffage",
+        "zone": "H2",
+        "kwh_cumac_per_apartment": 1000
+      },
+      {
+        "etas_min": 126,
+        "etas_max": null,
+        "usage": "chauffage",
+        "zone": "H3",
+        "kwh_cumac_per_apartment": 700
+      },
+      {
+        "etas_min": 175,
+        "etas_max": null,
+        "usage": "chauffage",
+        "zone": "H1",
+        "kwh_cumac_per_apartment": 1300
+      },
+      {
+        "etas_min": 175,
+        "etas_max": null,
+        "usage": "chauffage",
+        "zone": "H2",
+        "kwh_cumac_per_apartment": 1000
+      },
+      {
+        "etas_min": 175,
+        "etas_max": null,
+        "usage": "chauffage",
+        "zone": "H3",
+        "kwh_cumac_per_apartment": 700
+      },
+      {
+        "etas_min": 175,
+        "etas_max": null,
+        "usage": "chauffage_et_ecs",
+        "zone": "H1",
+        "kwh_cumac_per_apartment": 1100
+      },
+      {
+        "etas_min": 175,
+        "etas_max": null,
+        "usage": "chauffage_et_ecs",
+        "zone": "H2",
+        "kwh_cumac_per_apartment": 900
+      },
+      {
+        "etas_min": 175,
+        "etas_max": null,
+        "usage": "chauffage_et_ecs",
+        "zone": "H3",
+        "kwh_cumac_per_apartment": 600
+      }
+    ]
   },
   "formulas": [
     {
@@ -496,10 +619,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2026-04-30",
+    "engagement_deadline": "2030-12-31"
+  },
+  "lifetime_years": 22,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf"
     }
   ],
@@ -544,10 +672,10 @@
     "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.247128+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

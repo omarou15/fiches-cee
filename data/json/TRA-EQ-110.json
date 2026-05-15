@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Transport de marchandises par voie fluviale.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Acquisition (achat ou location) d’un automoteur fluvial neuf dédié au transport de marchandises, hors transport\nd’unité de transport intermodal fluvial-route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance des certificats",
+      "text": "Dans le cas d'une location, la durée du contrat de location est au minimum de 24 mois, hors reconduction tacite.\n\nLa date d'achèvement de l'opération est la date de fin du relevé de trafic prévu ci-dessous.\n\nLe délai entre la date de la preuve de réalisation de l'opération et la date d'achèvement de l'opération est au maximum\nde 12 mois.\n\nLa preuve de réalisation de l'opération mentionne l’immatriculation de l’automoteur et le fait que l'automoteur\nfluvial est neuf.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- le ou les relevé(s) de trafic établi par l’opérateur de transport faisant apparaître les t.km (tonnes.kilomètres)\nfluviales réalisées par l’automoteur identifié par son immatriculation. Ce relevé de trafic est certifié conforme\npar Voies Navigables de France. Seules les t.km réalisées sur le territoire français sont prises en compte ;\n- la copie du titre de navigation permettant de justifier l’immatriculation en France de l’automoteur et sa capacité\nde chargement.\n\nL'ensemble des relevés de trafic (voyages à plein et à vide) couvre une période d’essai d’au maximum 6 mois\nconsécutifs.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "40 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nGa x TK\n\nGa est le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale et le type\nd’automoteur considéré.\n\nType d’automoteur\nGain énergétique Ga\nSeine\nRhône\nNord Pas-de-\nCalais\nRhin/Moselle Interbassin\nBateau Freycinet (350 t)\n1,2\n0,8\n1,2\n0,6\n0,9\nBateau Campinois (600 t)\n1,5\n1,3\n1,5\n0,7\n1,2\nBateau DEK (1000 t)\n1,9\n1,7\n1,7\n1,1\n1,6\nBateau RHK (1350 t)\n3,1\n3,0\n2,0\n1,5\n2,5\nBateau Grand Rhénan (2500 t)\n3,3\n3,1\n2,2\n2,0\n2,7\n\nTK : t.km effectuées par l’automoteur et relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an).\n\nOn considère que le trafic réalisé par l’automoteur sur 6 mois consécutifs est maintenu en moyenne sur la durée de\nvie du matériel.",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -91,7 +128,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -121,29 +159,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Transport_TRA/TRA-EQ-110 vA19-1.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Transport_TRA/TRA-EQ-110 vA19-1.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Transport_TRA/TRA-EQ-110 vA19-1.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -151,10 +167,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 40,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-110 vA19-1.pdf"
     }
   ],
@@ -223,10 +244,10 @@
     "Transport_TRA/TRA-EQ-110 vA19-1 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.468094+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

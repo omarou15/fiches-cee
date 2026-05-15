@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système électronique de pilotage d’un moteur électrique neuf ou existant permettant de récupérer\nl’énergie de freinage d’une application industrielle de levage ou de centrifugation.\n\nLa présente fiche n’est pas cumulable avec l’opération IND-UT-102 « Système de variation électronique de vitesse\nsur un moteur asynchrone ».",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe système électronique de pilotage avec récupération d’énergie est installé sur un moteur électrique triphasé\nasynchrone ou synchrone de puissance utile unitaire inférieure ou égale à 1 MW.\n\nL’électricité produite par récupération de l’énergie de freinage est autoconsommée en totalité uniquement par le site\nbénéficiaire de l’opération.\n\nLa preuve de réalisation de l’opération mentionne l’installation d’un système électronique de pilotage d’un moteur\nélectrique avec récupération d’énergie, pouvant aussi être appelé système de variation électronique réversible à\nquatre quadrants.\n\nA défaut, la preuve de réalisation de l’opération mentionne l’installation d’un équipement permettant de récupérer\nl’énergie de freinage d’une application, avec la marque et la référence de cet équipement. Elle est complétée par un\ndocument issu du fabricant indiquant que l’équipement de marque et référence installé est un système électronique\nde pilotage avec récupération d’énergie.\n\nLa mise en place d’un système électronique de pilotage d’un moteur électrique avec récupération d’énergie fait\nl’objet d’une étude de dimensionnement préalable établie, datée et signée par un professionnel ou un bureau d’étude.\nCette étude précise les caractéristiques principales de l’installation :\n- Le descriptif de l’application ciblée,\n- Le descriptif des équipements à mettre en place,\n- La puissance du système installé,\n- La puissance utile de chaque moteur piloté par le système,\n- La durée annuelle de fonctionnement de chaque moteur piloté par le système et pour chacun le pourcentage de\ntemps passé en mode frein,\n\n- La justification de la capacité du réseau électrique interne du site à réutiliser la totalité de l’énergie de freinage\nproduite par le dispositif à tout instant (100% de l’énergie produite est autoconsommée par le site),\n- L’évaluation des économies d’énergie attendues.\n\nLe document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place du\nsystème électronique de pilotage de moteurs avec récupération d’énergie.\n\nLes installations provisoires (ex : grue de chantier) sont exclues du périmètre de l’opération.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant de certificats en kWh cumac\nH x F x 9,25 x P\n\nH est la durée de fonctionnement annuelle (en heures) de chaque moteur piloté par le système électronique de\npilotage avec récupération d’énergie. Elle correspond à la durée totale d’usage du moteur (durée où le moteur est en\nphase moteur additionnée à la durée où le moteur est en phase de freinage). Cette durée est indiquée dans la note de\ndimensionnement du bureau d’étude ou du professionnel.\n\nF est le pourcentage du temps de fonctionnement où le moteur est en phase de freinage. Ce pourcentage est indiqué\ndans l’étude de dimensionnement du bureau d’étude ou du professionnel. Pour un pourcentage de 5%, la valeur\nprise en compte dans le calcul est de 0,05.\n\nP est la puissance utile du moteur (en kW) qui figure sur la plaque signalétique et qui correspond à la puissance\nmécanique aux conditions de fonctionnement assignées par le constructeur.\n\nRemarque : Dans le cas de plusieurs moteurs pilotés par un même système électronique de pilotage, le calcul est à\nfaire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1  + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent\naux données requises pour le moteur i.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -98,7 +135,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -129,29 +167,7 @@
     }
   ],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": true,
     "dpt_required": null,
@@ -159,10 +175,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf"
     }
   ],
@@ -207,10 +228,10 @@
     "Industrie_IND/IND-UT-133 vA28-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.367975+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Centres de données neufs ou existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place, dans un centre de données neuf ou existant, d’un dispositif performant d’alimentation sans\ninterruption (ASI).\n\nUn centre de données, encore dénommé data center, est un site physique regroupant des installations informatiques\n(serveurs, routeurs, commutateurs, disques durs...) chargées de stocker et de distribuer des données à travers un\nréseau interne ou via un accès Internet. Il ne s'agit pas de salles informatiques avec opérateurs saisissant ou traitant\ndes données informatiques.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er août 2029.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLes dispositifs d’alimentation sans interruption (ASI) éligibles à la présente fiche sont ceux :\n- de classe 1 ;\n- d’une puissance active de sortie assignée supérieure ou égale à 100 kW ;\n- dont le rendement est supérieur ou égal à 98 % pour le mode de conversion répondant à la classe 1.\n\nLe respect des exigences ci-dessus est assuré conformément à la norme NF EN IEC 62040-3 : mai 2021.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un dispositif performant d’alimentation sans\ninterruption (ASI), ainsi que la classe, la puissance active de sortie assignée et le rendement de celui-ci.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Tranche de puissance active de\nsortie assignée de l’ASI (kW)\nMontant en kWh\ncumac par kW\n\nPuissance active de sortie\nassignée de l’ASI (kW)\n100 kW < P ≤ 200 kW\n3 100\nX\nP\nP > 200 kW\n2 500",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -107,7 +144,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -145,10 +183,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-EQ-135 vA65-2 à compter du 01-04-2025_1.pdf"
     }
   ],
@@ -193,10 +236,10 @@
     "Tertiaire_BAT/BAT-EQ-135 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.549253+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

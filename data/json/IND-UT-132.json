@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un moteur asynchrone haut rendement de classe IE4 selon la norme CEI 60034-30-1.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa puissance utile du moteur est supérieure ou égale à 0,12 kW et inférieure ou égale à 1000 kW.\n\nLa preuve de la réalisation de l'opération mentionne la mise en place d'un moteur asynchrone de classe IE4 selon la\nnorme CEI 60034-30-1 et sa puissance utile.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d'un équipement avec ses marques et\nréférence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence\ninstallé est un moteur asynchrone de classe IE4 selon la norme CEI 60034-30-1. Ce document précise la puissance\nutile du moteur.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans pour des moteurs de puissance inférieure ou égale à 15 kW.\n20 ans pour des moteurs de puissance supérieure à 15 kW.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montants en kWh cumac par kW\n0,12 kW ≤ P ≤ 0,75 kW\n0,75 kW < P ≤ 375 kW\n375 kW < P ≤ 1000 kW\n4 900 x P + 2 600\n700 x P + 12 000\n1 600 x P\n\nLa puissance utile P du moteur en kW est celle figurant sur la plaque signalétique et correspond à la puissance\nmécanique à l’arbre aux conditions de fonctionnement assignées par le constructeur. Elle est indiquée sur la preuve\nde réalisation de l’opération ou à défaut sur un document issu du fabricant.",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -155,7 +192,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -185,10 +223,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-132 vA26-1.pdf"
     }
   ],
@@ -233,10 +276,10 @@
     "Industrie_IND/IND-UT-132 vA26-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.354229+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Véhicules de transport en commun de personnes de catégories M2 ou M3, véhicules de transport de marchandises\nde catégories N2 ou N3 selon l’article R311-1 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Utilisation d’un auxiliaire pour optimiser la combustion et le maintien de la propreté des circuits d'alimentation,\nd'injection et des chambres de combustion des moteurs diesel.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "L’auxiliaire utilisé permet un gain (Y) de consommation de carburant supérieur ou égal à 3 %.\nCe gain de consommation de carburant est validé par un programme d’essai selon un cycle de conduite « 60NERV »\nmis au point par l’IFSTTAR ou un cycle équivalent, et réalisé sous contrôle de l’UTAC-CERAM ou par un\norganisme accrédité selon la norme NF EN ISO/CEI 17025:2005 par le Comité français d’accréditation (COFRAC)\nou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans le cadre de\nEuropean co-operation for Accreditation (EA), coordination européenne des organismes d’accréditation.\n\nLa mise en œuvre de l’auxiliaire de combustion ne conduit pas à une augmentation des émissions polluantes\nsuivantes : CO, HC, NOx et particules.\n\nLa preuve de réalisation de l'opération mentionne :\n- l’acquisition d’un volume donné d’auxiliaire d’optimisation de la combustion ou d’un volume de carburant\ntraité avec un auxiliaire d’optimisation de la combustion ;\n- le gain de consommation de carburant obtenu avec cet auxiliaire ;\n- la concentration de la solution de traitement (litre de solution de traitement utilisée / nombre de litres de gazole\ntraités) dans le cas d’un auxiliaire d’optimisation ;\n- la concentration de l’auxiliaire d’optimisation de la combustion dans le carburant utilisé dans le cas de\ncarburant traité.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne :\n- dans le cas d’un auxiliaire d’optimisation, l'acquisition d’un volume donné d’auxiliaire d’optimisation de la\ncombustion avec ses marque et référence, et elle est accompagnée d’un document issu du fabricant qui indique :\n- le gain de consommation de carburant obtenu par l’auxiliaire de marque et référence cité par la preuve de\nréalisation de l'opération ;\n- la concentration de la solution de traitement (litre de solution de traitement utilisée / nombre de litres de gazole\ntraités).\n- dans le cas d’un carburant traité, l’acquisition d’un volume donné de carburant traité avec un auxiliaire\nd’optimisation de la combustion avec ses marque et référence, et elle est accompagnée d’un document issu du\ndistributeur de produits pétroliers qui indique :\n- le gain de consommation de carburant obtenu par l’auxiliaire ou le carburant additivé de marque et référence\ncité par la preuve de réalisation de l'opération ;\n\n- la concentration de l’auxiliaire d’optimisation de la combustion dans le carburant utilisé.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- la copie du rapport d’essai mentionnant le gain (Y) de consommation de carburant mesuré en pourcentage ;\n- dans le cas de l’acquisition d’un volume d’auxiliaire d’optimisation de la combustion, un état récapitulatif issu\ndu professionnel, daté et signé par le bénéficiaire de l’opération, indiquant le volume d’auxiliaire d’optimisation\nde la combustion utilisé par marque et référence, par lieu de distribution (nom du site, numéro de SIRET de\nl’établissement du bénéficiaire, adresse du site), par date d'acquisition, par référence de la preuve de réalisation\nde l’opération, ainsi que la performance de l’auxiliaire ;\n- dans le cas de l’acquisition de carburant traité avec un auxiliaire d’optimisation de la combustion, un état\nrécapitulatif issu du professionnel, daté et signé par le bénéficiaire de l’opération, indiquant le volume de\ncarburant traité avec un auxiliaire d’optimisation de la combustion utilisé par marque et référence, par lieu de\ndistribution (nom du site, numéro de SIRET de l’établissement du bénéficiaire, adresse du site), par date\nd'acquisition, par référence de la preuve de réalisation de l’opération, ainsi que la performance de l’auxiliaire.\n\nLa date d’engagement de l'opération est la date d’acquisition la plus ancienne de l'état récapitulatif. La date\nd’achèvement de l'opération est la date d’acquisition la plus récente de l'état récapitulatif.\nL’écart entre la date d’engagement et la date d’achèvement ne peut excéder 6 mois.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "1 an.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Type d’acquisition\nMontant en kWh cumac\nAuxiliaire d’optimisation de la\ncombustion\n9 700 * X / Z * Y\nCarburant traité avec un auxiliaire\nd’optimisation de la combustion\n9 700 * W * Y\n\nAvec :\n- X = volume  d’auxiliaire d’optimisation de la combustion utilisé (m3) ;\n- W = volume de carburant traité avec un auxiliaire d’optimisation de la combustion utilisé (m3) ;\n- Y = gain de consommation de carburant associé à l’utilisation de l’auxiliaire de combustion (par exemple si le\ngain est de 3 % alors Y=0,03) ;\n- Z = concentration de la solution de traitement utilisée figurant sur la preuve de réalisation de l’opération\n(nombre de litres d’auxiliaire d’optimisation de la combustion / nombre de litres de gazole traités).",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -188,7 +225,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -218,10 +256,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": null,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf"
     }
   ],
@@ -290,10 +333,10 @@
     "Transport_TRA/TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.605058+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

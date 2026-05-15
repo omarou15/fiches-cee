@@ -18,6 +18,50 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "3",
+      "title": "Fermeture des meubles frigorifiques de vente à température négative",
+      "text": "",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments tertiaires existants : locaux de distribution alimentaire, destinés à l'exposition ou la mise en libre-service\nà l'intention du public, de produits frais tels qu’hypermarchés, supermarchés, petits magasins alimentaires à\nl’exception des entrepôts et des plateformes ou points de retrait permettant au public de récupérer ses produits sans\naccéder aux rayons (type magasin « Drive »).",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place de couvercles performants en verre sur les meubles frigorifiques horizontaux neufs ou existants à\ntempérature négative dans les bâtiments existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe vitrage des couvercles a un coefficient de transmission thermique Ug ≤ 3,8 W/m².K (évalué conformément à la\nnorme EN 673).\n\nLa preuve de réalisation de l’opération mentionne l'installation de couvercles performants en verre sur les meubles\nfrigorifiques, leur coefficient de transmission thermique Ug (évalué conformément à la norme EN 673), la longueur\nde couvercles en verre installée, ainsi que l’architecture du meuble (simple, double ou combiné).\n\nA défaut, la preuve de réalisation de l’opération mentionne les marques et références des produits installés ainsi que\nla longueur de meubles frigorifiques équipés de couvercles. Elle est complétée par un document issu du fabricant\nou d’un organisme établi dans l’Espace économique européen et accrédité selon la norme NF EN 45011 par le\nComité français d’accréditation (COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen\nmultilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne\ndes organismes d’accréditation.\n\nCe document indique que l’équipement de marque et référence installé est un couvercle pour meuble frigorifique.\nIl précise ses caractéristiques thermiques (Ug) évaluées selon la norme EN 673, ainsi que l’architecture du meuble\n(simple, double ou combiné) auquel il est destiné. En cas de mention d’une date de validité, ce document est\nconsidéré comme valable jusqu’à un an après sa date de fin de validité.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "7 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Type de meuble\nfrigorifique équipé de\ncouvercles\nMontant unitaire\n(en kWh cumac par mètre de couvercle)\n\nLongueur totale de\ncouvercles installés (m)\nSimple\n6 700\nX\nL\nDouble\n8 200\nCombiné\n4 600",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -29,9 +73,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -131,7 +175,8 @@
   "calculation": {
     "formula_text": "Le vitrage des couvercles a un coefficient de transmission thermique Ug ≤ 3,8 W/m².K (évalué conformément à la",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -177,29 +222,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -207,10 +230,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 7,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf"
     }
   ],
@@ -255,10 +283,10 @@
     "Tertiaire_BAT/BAT-EQ-125 vA22-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.449287+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

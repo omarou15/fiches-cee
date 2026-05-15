@@ -18,7 +18,9 @@ Pour une IA :
 - `data/indexes/documents_cee_index.json` : documents associes aux fiches.
 - `data/indexes/chunks_cee.jsonl` : chunks RAG avec metadonnees.
 - `data/indexes/energyco_priority_index.json` : fiches prioritaires pour les cas Energyco.
+- `data/indexes/keyword_hits_index.json` : fiches detectees par mots-cles, sans validation prioritaire Energyco.
 - `data/indexes/extraction_report.json` : rapport qualite de l'extraction.
+- `data/curated/` : enrichissements metier reproductibles appliques au build.
 - `data/json/` : JSON metier par fiche.
 - `data/markdown/` : Markdown lisible par fiche.
 - `data/text/` : texte brut extrait.
@@ -48,3 +50,13 @@ Pour un MCP Server, les outils minimaux a exposer sont :
 - `list_energyco_priority_fiches()`
 
 Le fichier `data/indexes/chunks_cee.jsonl` peut etre indexe dans une base vectorielle. Les champs `code`, `sector`, `family`, `document_type`, `source_file` et `page_start` doivent rester dans les metadonnees.
+
+## Recherche locale
+
+Exemples :
+
+```bash
+python scripts/search_fiches.py "PAC collective" --sector residentiel --family TH
+python scripts/search_fiches.py "dimensionnement pompe à chaleur" --priority-energyco --markdown
+python scripts/search_fiches.py "facteur R puissance chaufferie" --code BAR-TH-179
+```

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un procédé d’isolation thermique en comble perdu ou en rampant de toiture. Un procédé d'isolation\nest constitué de l'association d'un matériau isolant et de dispositifs de fixation  et de protection (tels que des\nrevêtements, parements, membranes continues si nécessaire) contre des dégradations liées à son exposition aux\nenvironnements extérieurs et intérieurs (telles que le rayonnement solaire, le vent, la pluie, la neige, les chocs,\nl'humidité, le feu).\n\nLa présente fiche est abrogée à compter du 1er mai 2027.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La résistance thermique R de l'isolation installée (la résistance thermique de l’isolation existante n’étant pas, le cas\néchéant, prise en compte) est supérieure ou égale à :\n- 7 m2.K/W en comble perdu ;\n- 6 m².K/W en rampant de toiture.\n\nLa résistance thermique est évaluée selon la norme NF EN 12664, la norme NF EN 12667 ou la norme NF EN\n12939 pour les isolants non réfléchissants et selon la norme NF EN ISO 22097 pour les isolants réfléchissants. La\nprésente fiche respecte, de plus, les dispositions de l’article 2 bis de l’arrêté du 22 décembre 2014 définissant les\nopérations standardisées d’économies d’énergie.\n\nUn pare-vapeur ou tout autre dispositif permettant d'atteindre un résultat équivalent est mis en place, lorsqu'il est\nnécessaire de protéger les matériaux d'isolation thermique contre les transferts d'humidité pour garantir la\nperformance de l'ouvrage.\n\nLa mise en place est réalisée par un professionnel.\n\nLe professionnel effectue, au plus tard avant l’établissement du devis, une visite technique du bâtiment au cours de\nlaquelle il valide que la mise en place du procédé d’isolation dans les combles ou en toiture de ce bâtiment est en\nadéquation avec ce dernier. Le cas échéant, il s’assure, lors de cette visite, que l’isolation existante peut être\nconservée en l’état. Dans le cas contraire, il est procédé, lors des travaux, soit à la remise en état de l’isolation\nexistante, soit à sa dépose.\n\nUn délai minimal de sept jours francs est respecté entre la date d’acceptation du devis et la date de début des travaux\n(pose de l’isolant).\n\nLe professionnel réalisant l’opération est titulaire d’un signe de qualité conforme aux exigences prévues à l’article\n2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du\ncode général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des\n\ntextes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 11°, du 13° ou du 14° du\nI de l'article 1er du décret précité.\n\nLa preuve de la réalisation de l’opération comporte les mentions de :\n- la mise en place d’une isolation de combles ou de toiture ;\n- les marque et référence ainsi que l’épaisseur et la surface d’isolant installé ;\n- la résistance thermique de l'isolation mise en place évaluée, suivant la nature de l’isolant, selon l’une des\nnormes susvisées ;\n- les aménagements nécessaires à la mise en place de l’isolation (coffrage ou écran de protection autour des\nconduits de fumées et des dispositifs d’éclairage encastrés ; rehausse rigide au-dessus de la trappe d’accès ;\npare-vapeur ou tout autre dispositif équivalent lorsqu'il est nécessaire de protéger les matériaux d'isolation\nthermique contre les transferts d'humidité pour garantir la performance de l'ouvrage) ;\n- la date de la visite du bâtiment.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un matériau avec ses marque et\nréférence et la surface de matériau installée ainsi que la date de la visite du bâtiment par le professionnel et elle est\ncomplétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et\naccrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre\norganisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination\neuropéenne des organismes d'accréditation.\n\nCe document indique que le matériau de marque et référence mis en place est un isolant et précise ses\ncaractéristiques thermiques (résistance thermique ; ou conductivité thermique et épaisseur) évaluées, suivant la\nnature de l’isolant, selon l’une des normes susvisées. En cas de mention d’une date de validité, ce document est\nconsidéré comme valable jusqu’à un an après sa date de fin de validité. Pour les références proposées en différentes\népaisseurs, la preuve de réalisation, si elle ne mentionne pas la résistance thermique de l’isolation installée, doit\nimpérativement en préciser l’épaisseur.\n\nLe document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel\nayant réalisé l’opération.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "30 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m² d’isolant en\nfonction de la zone climatique\n\nSurface d’isolant\n(m²)\nH1\nH2\nH3\nX\nS\n1 700\n1 400\n920",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -187,7 +224,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -242,29 +280,7 @@
     }
   ],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -272,10 +288,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-01-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 30,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf"
     }
   ],
@@ -320,10 +341,10 @@
     "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.812578+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

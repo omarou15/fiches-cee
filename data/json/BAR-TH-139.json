@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Appartements existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place, dans un système collectif de chauffage, de conditionnement d’ambiance ou de surpression d’eau,\nd’un système de variation électronique de vitesse (VEV) sur le moteur d’une pompe existante dépourvue de VEV\nou neuve, de puissance nominale inférieure ou égale à 630 kW.\n\nEst exclue de l'opération standardisée toute pompe équipée d’un moteur IE2 défini par le règlement (CE) n°640/2009\nde la Commission du 22 juillet 2009 modifié par le règlement (UE) n°4/2014 de la Commission du 6 janvier 2014,\nachetée :\n-\nentre le 1er janvier 2015 et le 31 décembre 2016 si sa puissance nominale est comprise entre 7,5 kW inclus\net 375 kW inclus ;\n-\nà partir du 1er janvier 2017 si sa puissance nominale est comprise entre 0,75 kW inclus et 375 kW inclus.\n\nLes circulateurs à rotor noyé avec variation de vitesse embarquée sont exclus.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un système de variation électronique de\nvitesse sur le moteur d’une pompe existante ou neuve.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d'un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence\ninstallé est un système de variation électronique de vitesse ou une pompe intégrant un système de variation\nélectronique de vitesse.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant unitaire en\nkWh cumac par kW\n\n\nX\nPuissance nominale du moteur\nde la pompe en kW\n 14 600\nP\n\nLa puissance nominale P à retenir est celle figurant sur la plaque signalétique du moteur de la pompe ou à défaut\ncelle indiquée sur un document issu du fabricant.\n\nLorsque l’opération concerne l’équipement de plusieurs pompes, la puissance nominale à prendre en compte dans\nle calcul est la somme des puissances nominales de chaque moteur des pompes, équipé de variateur électronique de\nvitesse.",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -98,7 +135,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -136,10 +174,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-139 v A23-2 après 01-02-2017_0.pdf"
     }
   ],
@@ -184,10 +227,10 @@
     "Residentiel_BAR/BAR-TH-139 v A23-2 après 01-02-2017 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.452741+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

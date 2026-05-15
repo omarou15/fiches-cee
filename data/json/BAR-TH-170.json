@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Appartements neufs ou existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système neuf de récupération de la chaleur fatale issue de serveurs informatiques pour répondre\naux besoins en eau chaude sanitaire collective, accompagnée d’un contrat assurant l’exploitation et la maintenance\nde l’installation.\n\nLes opérations relevant de la présente fiche ne sont pas cumulables avec celles relevant de fiches relatives à\nl’installation de systèmes de production d’eau chaude sanitaire ou de chauffage et de production d’eau chaude\nsanitaire.\n\nSont exclues de la présente fiche les installations fonctionnant avec des systèmes de refroidissement auxiliaires ou\nles installations intégrant dans leur circuit un autre moyen de consommation de la chaleur récupérée que la\ndistribution d’eau chaude sanitaire.\n\nLa présente fiche est applicable aux opérations engagées avant le 1er juillet 2028.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe système de récupération de la chaleur fatale issue de serveurs informatiques installé permet d’atteindre une\ntempérature de 55 °C d’eau chaude sanitaire.\n\nL’ensemble constitué du système de récupération de chaleur et des serveurs informatiques possède un PUE ≤ 1,15\net un ERE ≤ 0,20, définis selon la norme ISO 30134.\n\nLa mise en place du système de récupération de chaleur fait l’objet d’une étude préalable de dimensionnement\nétablie, datée et signée par un professionnel ou un bureau d’études. Cette étude de dimensionnement, remise au\nbénéficiaire à l’achèvement de l’opération, comporte :\n- l’identification du bénéficiaire (pour un particulier : ses prénom, nom et adresse ; pour une personne morale : sa\nraison sociale, son numéro SIREN et l’adresse du siège social) ;\n- l’adresse du bâtiment où est mise en place l’installation constituée du système de récupération de chaleur et des\nserveurs informatiques ;\n- les caractéristiques des serveurs informatiques (marque, référence et puissance électrique en kW) ;\n- un descriptif des équipements mis en place (équipements de récupération, production d’appoint, stockage, etc.) ;\n- le schéma hydraulique de l’installation (hors distribution) ;\n- la puissance thermique récupérée en kW ;\n- le nombre d’appartements concernés par la production d’eau chaude sanitaire ;\n\n- une évaluation des besoins annuels en eau chaude sanitaire du bâtiment concerné par l’opération couverts par la\nchaleur fatale récupérée de l’installation (celle-ci doit être inférieure ou égale à 90 % des besoins annuels en eau\nchaude sanitaire) et la précision du ou des modes de production complémentaires d’eau chaude sanitaire ;\n- la valeur du PUE et de l’ERE de l’installation, tels que définis selon la norme ISO 30134.\n\nL’installation constituée du système de récupération de chaleur et des serveurs informatiques est l’objet d’un contrat\nd’exploitation et de maintenance, incluant le cas échéant l’installation, d’une durée minimale de quatre ans (hors\nreconduction tacite), par lequel le prestataire assure le bon fonctionnement de cette installation, y compris le\nremplacement, sans frais, des serveurs informatiques, garantissant la fourniture de la puissance thermique évaluée\ndans l’étude préalable de dimensionnement. L’entrée en vigueur du contrat intervient au plus tard à la date de la\npreuve de réalisation de l’opération.\n\nLa preuve de réalisation de l’opération mentionne l’installation d’un système de récupération de la chaleur fatale\nissue de serveurs informatiques pour la production d’eau chaude sanitaire, la puissance électrique des serveurs\ninformatiques en kW, la puissance thermique récupérée en kW ainsi que la valeur du PUE et de l’ERE de\nl’installation, tels que définis selon la norme ISO 30134.\n\nA défaut, la preuve de réalisation de l’opération mentionne l’installation d’un équipement avec ses marque et\nréférence et la puissance électrique des serveurs informatiques en kW, et est complétée par un document issu du\nfabricant indiquant que l’équipement de marque et référence installé est un système de récupération de la chaleur\nfatale issue de serveurs informatiques, sa puissance thermique récupérable en kW compte tenu de la puissance\nélectrique des serveurs informatiques, ainsi que la valeur du PUE et de l’ERE de l’installation, tels que définis selon\nla norme ISO 30134.\n\nLes documents justificatifs spécifiques à l’opération sont les suivants :\na) L’étude préalable de dimensionnement susmentionnée ;\nb) Les extraits d’intérêts du contrat d’exploitation et de maintenance mentionnant :\n- la référence du contrat ;\n- l’identification du bénéficiaire (pour un particulier : ses prénom, nom et adresse ; pour une personne morale :\nsa raison sociale, son numéro SIREN et l’adresse du siège social) ;\n- l’adresse du bâtiment où est située l’installation constituée du système de récupération de chaleur et des serveurs\ninformatiques ;\n- une prestation d’exploitation et de maintenance de l’installation incluant le remplacement, sans frais, des\nserveurs informatiques ;\n- la puissance thermique garantie en kW ;\n- les dates de signature et d’entrée en vigueur du contrat ;\n- la date de fin du contrat ou la durée du contrat (hors reconduction tacite).",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "14 ans.",
+      "page_start": 2,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par\nkW de puissance électrique\nde l’installation\n\nPuissance électrique de\nl’installation en kW\n82 300\nX\nPélec\n\nLa puissance électrique de l’installation est la puissance électrique plaquée des serveurs informatiques.",
+      "page_start": 3,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -131,7 +168,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -161,10 +199,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2023-10-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 14,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-170 vA54-1 à compter du 01-10-2023_1.pdf"
     }
   ],
@@ -209,10 +252,10 @@
     "Residentiel_BAR/BAR-TH-170 vA54-1 à compter du 01-10-2023 - Partie A à compter du 01-07-2026 - Partie D.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.723860+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

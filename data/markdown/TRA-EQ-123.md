@@ -10,8 +10,8 @@
 - `Transport_TRA/TRA-EQ-123 v A38-2 à compter du 01-11-2021 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -33,6 +33,25 @@
 ## Formules / calcul detectes
 - 5. Montant de certificats en kWh cumac
 - kWh cumac pour un
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-1)
+- 1. De restituer un environnement réaliste avec notamment l'utilisation d'un poste de conduite de véhicule léger (pages 1-1)
+- 2. De proposer un large éventail de situations pédagogiques telles que conduite, manœuvres par tous les temps (pages 1-1)
+- 3. D'exercer un suivi et un contrôle personnalisé de l'action de chaque stagiaire en offrant au formateur un outil (pages 1-2)
+- 1. De restituer un environnement réaliste avec notamment l'utilisation d'une cabine réelle ou d'un poste de (pages 2-2)
+- 2. De proposer un large éventail de situations pédagogiques telles que conduite, manœuvres par tous les temps (pages 2-2)
+- 3. D'exercer un suivi et un contrôle personnalisé de l'action de chaque stagiaire en offrant au formateur un outil (pages 2-2)
+- 4. Durée de vie conventionnelle (pages 2-2)
+- 5. Montant de certificats en kWh cumac (pages 2-2)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 3
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

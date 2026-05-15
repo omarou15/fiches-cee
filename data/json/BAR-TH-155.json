@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Appartements existants équipés d’une ventilation naturelle ou sans système de ventilation en France métropolitaine.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une ventilation hybride hygroréglable de type A ou B.\n\nOn entend par système de ventilation hybride hygroréglable, un ensemble d’équipements composés d’un extracteur\npouvant fonctionner en mode naturel ou avec une assistance mécanique, d’entrées d’air et de bouches d’extraction.\n\nLe système de ventilation hybride hygroréglable est appelé :\n- de type A si seules les bouches d’extraction d’air sont hygroréglables ;\n- de type B si les bouches d’extraction d’air et les entrées d’air sont hygroréglables.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe professionnel réalisant l’opération est titulaire d’un signe de qualité conforme aux exigences prévues à l’article\n2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du\ncode général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des\ntextes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 8° du I de l'article 1er du\ndécret précité.\n\nLe système de ventilation hybride hygroréglable bénéficie d’un avis technique, en cours de validité, délivré par la\nCommission chargée de formuler des avis techniques (CCFAT), ou possède des caractéristiques de performance et\nde qualité équivalentes établies par un organisme implanté dans l’Espace économique européen et accrédité selon\nla norme NF EN ISO/CEI 17065 par le comité français d’accréditation (COFRAC) ou tout autre organisme\nd’accréditation signataire de l’accord européen multilatéral pertinent dans le cadre de la coordination européenne\ndes organismes d’accréditation.\n\nLa puissance spécifique de l’extracteur est inférieure à 0,25 Wh/m3. Un extracteur est dit à basse consommation si\nsa puissance spécifique est inférieure ou égale à 0,1 Wh/m3. Dans le cas contraire, l’extracteur est dit standard.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un système de ventilation hybride\nhygroréglable de type A ou B et la puissance spécifique de l’extracteur.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’équipements avec leurs marques et\nréférences et elle est accompagnée d’un ou plusieurs document(s) issu(s) du fabricant indiquant que les équipements\ninstallés constituent un système de ventilation hybride hygroréglable composé d’un extracteur de ventilation, de\nbouches d’extraction hygroréglables et, le cas échéant, d’entrées d’air hygroréglables. Ce document précise la\npuissance spécifique de l’extracteur et s’il s’agit d’une ventilation hybride hygroréglable de type A ou B.\n\nLe document justificatif spécifique à l’opération est l’avis technique, en cours de validité, du système de ventilation\nhybride hygroréglable, délivré par la CCFAT, ou les éléments de preuves équivalents.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "17 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone\nclimatique\nMontant en kWh\ncumac par appartement\n\nNombre\nd’appartements\n\nFacteur correctif\nR lié au type\nd’installation\n\n\nH1\n17 700\nX\nN\nX\nR\nH2\n14 500\nH3\n9 700\n\nTableau des valeurs du facteur correctif R :\nVentilation hybride hygroréglable de type A\nVentilation hybride hygroréglable de type B\nExtracteur basse\nconsommation\nExtracteur standard\nExtracteur basse\nconsommation\nExtracteur standard\n0,98\n0,93\n1\n0,95",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": true,
     "district_heating": false,
@@ -123,7 +160,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -186,29 +224,7 @@
     }
   ],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -216,10 +232,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2022-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 17,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf"
     }
   ],
@@ -264,10 +285,10 @@
     "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.536019+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -26,6 +26,7 @@ def main() -> int:
     json_dir = REPO_ROOT / "data" / "json"
     index_path = REPO_ROOT / "data" / "indexes" / "fiches_cee_index.json"
     chunks_path = REPO_ROOT / "data" / "indexes" / "chunks_cee.jsonl"
+    report_path = REPO_ROOT / "data" / "indexes" / "extraction_report.json"
 
     fiche_files = sorted(json_dir.glob("*.json"))
     if not fiche_files:
@@ -63,6 +64,17 @@ def main() -> int:
                         errors.append(f"chunk line {line_no}: missing {field}")
     else:
         errors.append("Missing data/indexes/chunks_cee.jsonl")
+
+    if report_path.exists() and jsonschema:
+        try:
+            jsonschema.validate(
+                load_json(report_path),
+                load_json(REPO_ROOT / "schemas" / "extraction_report.schema.json"),
+            )
+        except Exception as exc:
+            errors.append(f"extraction_report.json: schema error: {exc}")
+    elif not report_path.exists():
+        errors.append("Missing data/indexes/extraction_report.json")
 
     if errors:
         print("Validation failed:")

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Transport, en eaux intérieures, de marchandises ou de passagers, exploitation-maintenance, et plaisance.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Remotorisation en propulsion 100% électrique ou hybride d’un bateau naviguant en eaux intérieures, en\nremplacement d’une propulsion thermique ou diésel-électrique (utilisant du gasoil non routier ou de l’essence).\n\nLa propulsion hybride désigne une hybridation série avec une propulsion électrique, par opposition à une hybridation\nparallèle.\n\nN’est pas éligible à la présente fiche la remotorisation des bateaux neufs, des paquebots de croisière fluviale et des\nbateaux dont la motorisation initiale est électrique ou hybride avec des parcs batteries ou avec des briques\nénergétiques fonctionnant avec de l’hydrogène, ou avec des groupes électrogènes au gaz (GNC, GNV, GNL).\n\nLa présente fiche est abrogée à compter du 1er mars 2027.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place de l’opération est réalisée par un professionnel.\n\nL’installation d’un horamètre ou d’un Battery Management System (BMS) est requise dans le cadre de l’opération\nde remotorisation aux fins du relevé mentionné ci-dessous.\n\nLa/les preuve(s) de réalisation de l’opération mentionne(nt) :\n- la remotorisation en propulsion électrique ou hybride d’un bateau naviguant en eaux intérieures ;\n- le numéro ENI du bateau ou à défaut le numéro d’immatriculation du bateau, mentionnés sur le titre de navigation\nou la carte de circulation du bateau ;\n- le type de bateau, tel que défini ci-dessous ;\n- la présence à bord d’un horamètre ou d’un Battery Management System (BMS) ;\n- le type de motorisation initiale (thermique ou diesel-électrique) ;\n- la puissance de la motorisation initiale avant l’opération ;\n- la saisonnalité ou l’absence de saisonnalité de la navigation, telle que définie ci-dessous.\n\nLes types de bateaux considérés dans la présente fiche sont les suivants :\n(i) Automoteur ;\n(ii) Bateau de travail ;\n(iii) Petit bateau à passagers ;\n(iv) Bateau promenade ;\n(v) Péniche-hôtel ;\n(vi) Bateau restaurant ;\n\n(vii) Bateau de réception destiné à un usage principalement privatif (au regard du nombre de sorties, de la durée\nd’utilisation et des revenus financiers) ;\n(viii) Bateau de plaisance.\n\nUn relevé du nombre d’heures totales d’utilisation du bateau est fourni par le propriétaire ou l’exploitant du bateau.\nLe relevé est réalisé sur le moteur électrique ou hybride post-opération à partir de l’horamètre ou à partir du BMS\n(Battery Management System). Le relevé est réalisé sur une période maximum de six mois consécutifs pour les\nbateaux sans saisonnalité et une période maximum de quatre mois consécutifs pour les bateaux avec saisonnalité.\nLes bateaux avec saisonnalité sont les bateaux dont 90 % ou plus de leur activité est réalisée entre mars et octobre\ninclus, en termes de durée d’utilisation ou de chiffre d’affaires. Ce relevé est établi sous la forme de photos\nhorodatées de l’horamètre le premier jour et le dernier jour du relevé ou d’un justificatif issu du BMS établi par un\nprofessionnel (fournisseur, intégrateur, professionnel en charge de la maintenance des équipements électriques, par\nexemple).\n\nLes documents justificatifs spécifiques à l’opération sont :\n- Le relevé du nombre total d’heures d’utilisation susmentionné ;\n- La preuve du type de bateaux concerné :\n(i) Automoteur : titre de navigation du bateau avant remotorisation faisant apparaître la mention : « automoteur »\n(pouvant préciser « automoteur ordinaire » ou « automoteur-citerne »), et précisant la puissance de la motorisation\ninitiale ;\n(ii) Bateau de travail : titre de navigation du bateau avant remotorisation faisant apparaître l’une des mentions\nsuivantes : « remorqueur », « pousseur », « chaland », « chaland-citerne », « engin flottant », « canot de service »\nou « bâtiment de chantier », et précisant la puissance de la motorisation initiale ;\n(iii) Petit bateau à passagers : titre de navigation du bateau avant remotorisation faisant apparaître la mention :\n« Transport de passagers », le nombre maximum de passagers, qui est inférieur ou égal à douze, ainsi que la taille\nmaximale du bateau, qui est inférieure ou égale à vingt mètres, et précisant la puissance de la motorisation initiale ;\n(iv) Bateau promenade : titre de navigation du bateau avant remotorisation faisant apparaître la mention :\n« Transport de passagers », pouvant préciser « Bateau d’excursions journalières », et précisant la puissance de la\nmotorisation initiale ;\n(v) Péniche-hôtel : titre de navigation du bateau avant remotorisation faisant apparaître la mention : « Transport de\npassagers », pouvant préciser « Bateau à cabines », et précisant la puissance de la motorisation initiale ;\n(vi) Bateau restaurant : titre de navigation du bateau avant remotorisation faisant apparaître la mention : « Transport\nde passagers », pouvant préciser : « Bateau d’excursions journalières », et précisant la puissance de la motorisation\ninitiale ;\n(vii) Bateau de réception : titre de navigation du bateau avant remotorisation faisant apparaître la mention :\n« Transport de passagers », et précisant la puissance de la motorisation initiale ;\n(viii) Bateau de plaisance : carte de circulation du bateau avant remotorisation faisant apparaître la mention :\n« Plaisance », et précisant la puissance de la motorisation initiale.\n\nLa date d’achèvement de l’opération est la date de fin de relevé de la durée d’utilisation du bateau remotorisé.\n\nLe délai entre la date de preuve de réalisation et la date d’achèvement de l’opération est au maximum de douze\nmois.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "17 ans.",
+      "page_start": 2,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Cas d’une remotorisation en propulsion électrique ou hybride d’un bateau initialement thermique :\n\nType de bateau\nMontant en kWh cumac\npar bateau\nBateau de réception destiné à un usage principalement\nprivatif * et bateau de travail\n147,567 x R x Wi\nPetit bateau à passagers\n103,285 x R x Wi\nBateau restaurant, bateau promenades, automoteur,\nbateau de plaisance et péniche-hôtel\n71,655 x R x Wi\n\nCas d’une remotorisation en propulsion électrique ou hybride d’un bateau initialement diésel-électrique :\n\nType de bateau\nMontant en kWh cumac\npar bateau\nBateau de réception destiné à un usage principalement\nprivatif * et bateau de travail\n54,024 x R x Wi\nPetit bateau à passagers\n40,809 x R x Wi\nBateau restaurant, bateau promenades, automoteur,\nbateau de plaisance et péniche-hôtel\n29,212 x R x Wi\n\nR est le nombre total d’heures relevées sur la période d’utilisation du bateau, exprimé en heures.\n*NB : Pour le bateau de réception destiné à un usage principalement privatif, le nombre total d’heures relevées sur\nla période d’utilisation du bateau, R, est plafonné à 275 heures.\n\nWi est la puissance de la motorisation initiale remplacée, exprimée en kW, justifiée par le titre de navigation ou la\ncarte de circulation du bateau avant remotorisation.\n\nSi la puissance mentionnée sur le titre de navigation ou la carte de circulation est indiquée en chevaux, il convient\nde multiplier cette puissance par 0,7355 et arrondir à l’unité.",
+      "page_start": 3,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -98,7 +135,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -136,10 +174,15 @@
     "photos_required": true,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2022-02-23",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 17,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf"
     }
   ],
@@ -208,10 +251,10 @@
     "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.752370+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

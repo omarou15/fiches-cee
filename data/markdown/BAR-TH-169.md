@@ -10,8 +10,8 @@
 - `Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -57,6 +57,19 @@
 - Montant en
 - kWh cumac
 - montants de certificats correspondant à chaque PAC.
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-3)
+- 4. Durée de vie conventionnelle (pages 3-4)
+- 5. Montant de certificats en kWh cumac (pages 4-4)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 22
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

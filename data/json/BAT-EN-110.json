@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Locaux du secteur tertiaire existants ou neufs, de surface totale inférieure ou égale à 10 000 m2, en France d’outre-\nmer.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place de protections de baie(s) fixes ou mobiles contre le rayonnement solaire.\n\nLes stores de toile, les écrans de végétation, les murs, les films pour vitrage et tous les systèmes de protection\nopaques mobiles non projetables sont exclus.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLes baies sont en contact avec l’extérieur. Le facteur solaire de la baie protégée est inférieur ou égal à 0,4.\n\nPour la Réunion et la Guyane, le facteur solaire est calculé conformément aux dispositions de l’arrêté du\n17 avril 2009 modifié définissant les caractéristiques thermiques minimales des bâtiments d’habitation neufs dans\nles départements de la Guadeloupe, de la Martinique, de la Guyane et de La Réunion. Pour la Martinique et la\nGuadeloupe, cette détermination est effectuée sur la base des réglementations thermiques qui leurs sont propres.\nPour Mayotte, le facteur solaire est déterminé selon l’une des méthodes susvisées ou une méthode reconnue\néquivalente.\n\nLa preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une protection solaire de baie ;\n- le facteur solaire de la baie protégée ;\n- la surface de baies protégées.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’une protection de baie contre les\napports solaires avec ses marque et référence et la surface de baie protégée, et elle est complétée par un document\nissu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN\n45011 par le Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de\nl'accord européen multilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA),\ncoordination européenne des organismes d'accréditation.\n\nCe document indique que le dispositif de marque et référence mis en place est un système de protection des baies\ncontre les apports solaires et précise le facteur solaire de la baie protégée. En cas de mention d’une date de validité,\nce document est considéré comme valable jusqu’à un an après sa date de fin de validité.\n\nLe facteur solaire de la baie protégée est soit fourni par le constructeur soit déterminé par le calcul. Le document\njustificatif spécifique à l’opération est, selon le cas, la justification du constructeur de la valeur du facteur solaire de\nla baie protégée ou la note de calcul, établie, datée et signée par le professionnel ou un bureau d’étude reprenant le\ncalcul du facteur solaire de la baie protégée selon les règles de calcul précitées ou à partir d’une méthode reconnue\ncomme par exemple « Mayénergie » ou  « Batipays ».",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m2 de surface de baie protégée\n\n\nFacteur solaire\n(FS)\nBâtiment\nexistant\nBâtiment neuf\n\nSurface totale\nde baie selon\nson facteur\nsolaire (m²)\nBureau ou commerce en\nMartinique et Guadeloupe\nAutres\n\n0,25 < FS ≤ 0,4\n1 100\n330\n760\nX\nS\nFS ≤ 0,25\n1 600\n640\n1 100",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -29,9 +66,9 @@
     "overseas": true
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -115,7 +152,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -137,29 +175,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Tertiaire_BAT/BAT-EN-110 vA25-1.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Tertiaire_BAT/BAT-EN-110 vA25-1.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Tertiaire_BAT/BAT-EN-110 vA25-1.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -167,10 +183,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-EN-110 vA25-1.pdf"
     }
   ],
@@ -215,10 +236,10 @@
     "Tertiaire_BAT/BAT-EN-110 vA25-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.269854+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

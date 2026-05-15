@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture : élevage laitier.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un récupérateur de chaleur dans une exploitation agricole laitière, au niveau du groupe frigorifique\ndu tank à lait, pour le chauffage de l'eau utilisée dans la laiterie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe récupérateur de chaleur est validé par le Comité Technique dédié et composé du Centre National\nInterprofessionnel de l’Economie Laitière (CNIEL), de l’Institut de l’Elevage et du GIE Elevages de Bretagne.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un récupérateur de chaleur sur un tank à lait.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place, sur un tank à lait, d’un équipement\navec ses marque et référence et elle est complétée par un document issu du fabricant indiquant que l’équipement de\nmarque et référence installé est un récupérateur de chaleur.\n\nLe document justificatif spécifique à l’opération est le document attestant que le récupérateur de chaleur sur le tank\nà lait est validé par le Comité Technique dédié.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "14 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par litre de lait\n\nProduction laitière annuelle de\nl’exploitation (litres/an)\n0,138\nX\nP\n\nLa production laitière annuelle P à considérer est celle de l’année civile précédant la date d’engagement de\nl’opération.",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -90,7 +127,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -120,10 +158,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 14,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-TH-105 vA16-1.pdf"
     }
   ],
@@ -168,10 +211,10 @@
     "Agriculture_AGRI/AGRI-TH-105 vA16-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:56.925742+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

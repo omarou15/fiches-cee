@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Flottes de véhicules de catégories M1, L6E, L7E et N1 selon l’article R311.1 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Abonnement à un service d’autopartage en boucle.\n\nL'activité d'autopartage est définie par la mise en commun, par un opérateur et au profit d'utilisateurs abonnés, d'une\nflotte de véhicules de transports terrestres à moteur. Chaque abonné peut accéder à un véhicule sans conducteur mis\nà sa disposition par l’opérateur pour le trajet de son choix et pour une durée limitée.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le service d’autopartage est géré par un opérateur qui possède ou loue les véhicules. Ce service est en boucle\nfermée : le véhicule est rendu à son lieu de prise en charge.\n\nSont éligibles les abonnements ayant été utilisés au moins une fois dans les 12 mois suivants leur création ou leur\nrenouvellement et dont la durée est au minimum de 12 mois consécutifs.\n\nUn seul abonnement ou renouvellement par personne est éligible sur la durée de vie conventionnelle de l’opération\n\nLe bénéficiaire et le professionnel sont l’opérateur mettant en œuvre l’opération.\n\nLa preuve de réalisation de l’opération est l’état récapitulatif des abonnements au service d’autopartage,  daté et\nsigné par l'opérateur, mentionnant a minima :\n- l’identité (nom et prénom) et l’adresse de l’abonné ;\n- la date de premier abonnement ou de renouvellement de l’abonnement ;\n- la date de première utilisation au cours des 12 derniers mois.\n\nLa date d’engagement est la date la plus ancienne de première création ou de renouvellement d’un abonnement et\nla date d’achèvement est la date la plus récente de première création ou de renouvellement d’un abonnement. L’écart\nentre ces deux dates ne peut dépasser 6  mois.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "5 ans",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac pour un abonnement\nannuel à un service d’autopartage\n\n\n\nX\nNombre d’abonnements annuels au\nservice d’autopartage\n 6 000\nN",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -82,7 +119,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -112,10 +150,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 5,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-SE-112 vA15-1.pdf"
     }
   ],
@@ -184,10 +227,10 @@
     "Transport_TRA/TRA-SE-112 vA15-1 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:01.102267+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

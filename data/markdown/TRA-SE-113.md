@@ -12,8 +12,8 @@
 - `Transport_TRA/TRA-SE-113 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -29,6 +29,15 @@ _Non detecte automatiquement._
 ## Formules / calcul detectes
 - 5- Montant de certificats en kWh cumac
 - Montant en kWh cumac
+
+## Sections officielles detectees
+_Non detecte automatiquement._
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

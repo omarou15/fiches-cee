@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie : machines industrielles existantes.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Installation d’un dispositif de mise en veille automatique pour une machine industrielle existante utilisant de l’air\ncomprimé.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er janvier 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa machine industrielle de production concernée utilise de l’air comprimé dans le cadre d’un processus de\nproduction discontinu.\n\nLa pression de service (dans la présente fiche, le terme « pression » fait référence à la pression absolue) de la\nmachine industrielle est comprise entre 6 et 6,5 bars. Le dispositif de mise en veille automatique permet d’obtenir\nune pression de l’air comprimé d’au plus 3 bars pendant les phases d’inutilisation de la machine.\n\nLe dispositif de mise en veille automatique inclut un débitmètre, un régulateur proportionnel (par exemple, une\nvanne proportionnelle pression, un électro-régulateur, etc.) et un manomètre.\n\nDans le cas où la machine sur laquelle est installé le dispositif de mise en veille n’est pas équipée d’un automate\nprogrammable, le dispositif de mise en veille installé comprend un automate programmable afin d’assurer\nl’automatisation de la mise en veille de l’air comprimé.\n\nLe dispositif de mise en veille est paramétrable (pression de veille, temporisation avant déclenchement de la veille,\nseuil de débit de déclenchement suite au changement d’état de la machine) en fonction du type de machine sur lequel\nil est installé et dispose d’un filtre accessible permettant de vérifier la bonne qualité de l’air comprimé.\n\nLe débit, à la pression de service, à l’entrée de la machine sur laquelle est installé le dispositif de mise en veille est\ncompris entre 200 L/min ANR (atmosphère normale de référence) et 4 000 L/min ANR.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un dispositif de mise en veille automatique\nde l’air comprimé pour une machine industrielle. Elle mentionne également le débit, à la pression de service, d’air\ncomprimé de la machine sur laquelle est installé l’équipement ou, le cas échéant, la plage de débit du système de\ntraitement de l’air situé directement en amont de la machine ainsi que le débit nominal du système de traitement\nd’air. Elle précise, de plus, que l’équipement inclut un débitmètre, un régulateur proportionnel, un manomètre et un\nfiltre ainsi que, le cas échéant, un automate programmable afin d’assurer l’automatisation de la mise en veille de\nl’air comprimé.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nD (en L/min) est le débit d’air comprimé, à la pression de service, entrant dans la machine.\n\nDébit d’air\ncomprimé (L/min)\n\nDurée de fonctionnement de\nla machine\nMontant du forfait\n(kWhc/(L/min))\nD\nX\n1x8h avec arrêt le weekend\n71\n2x8h avec arrêt le weekend\n57\n3x8h avec arrêt le weekend\n45\n3x8h sans arrêt le weekend\n30",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -75,7 +112,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -113,10 +151,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-01-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf"
     }
   ],
@@ -161,10 +204,10 @@
     "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.604028+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

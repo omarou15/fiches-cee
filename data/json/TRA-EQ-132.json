@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Pêche professionnelle maritime et formation aux métiers de la mer.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Installation à bord d’un navire de pêche ou d’un navire-école d’un appareil de mesure, d’analyse et d’optimisation\nde la consommation de carburant.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er janvier 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "L’installation de l’appareil est réalisée par un professionnel œuvrant dans le secteur naval.\n\nL’appareil installé est couplé au moteur principal du navire, via des débitmètres ou câbles de connexion spécifiques,\nafin de mesurer la consommation instantanée de carburant.\n\nL’appareil installé inclut les fonctionnalités suivantes :\n- affichage de la consommation instantanée de carburant pour l’utilisateur ;\n- enregistrement des données de consommation en carburant et de vitesse de navigation sur une période donnée ;\nles données enregistrées sont conservées dans l’appareil pendant au moins six ans ;\n- export des données enregistrées (consommation et vitesse) dans un format exploitable pour une analyse. L’export\nmentionne notamment les nom et numéro d’immatriculation du navire, ainsi que, par date de jour de mer, la\nconsommation de carburant du navire.\n\nLe format des données est tel qu’elles peuvent être importées sur une plateforme numérique dédiée afin que\nl’utilisateur puisse les analyser sur une échelle de temps plus longue qu’une marée. Un fichier comprenant\nl’ensemble des données brutes enregistrées peut également être récupéré à partir de l’appareil installé.\n\nL’approvisionnement en carburant du navire est réalisé à plus de 50 % en volume en France.\n\nLes bénéficiaires de l’opération sont :\n- les armateurs de navires de pêche professionnelle battant pavillon français ;\n- les organismes français de formation aux métiers de la mer propriétaires d’un navire-école.\n\nLa date d’engagement de l’opération est la date de mise en service de l’appareil à bord du navire.\n\nLa date d’achèvement de l’opération correspond à la date de fin du relevé d’activité du navire. Ce relevé d’activité\ncorrespond au nombre de jours de mer du navire sur six mois maximum. Il couvre 183 jours de mer du navire au\nmaximum. Ce relevé, établi à partir de l’export de données issues de l’appareil installé, mentionne les nom et numéro\nd’immatriculation du navire, ainsi que, par date de jour de mer, la consommation de carburant du navire et le nombre\ntotal de jours de mer durant la période couverte par le relevé.\n\nLa durée comprise entre la date d’engagement et la date d’achèvement de l'opération ne peut excéder douze mois.\n\nLa preuve de réalisation de l’opération mentionne les marque et référence de l’appareil acquis et installé à bord du\nnavire, sa date de mise en service, les nom et numéro d’immatriculation du navire, ainsi que les fonctionnalités de\nl’appareil requises par la présente fiche. A défaut, la preuve de réalisation de l’opération mentionne les marque et\nréférence de l’appareil acquis et installé à bord du navire, sa date de mise en service et les nom et numéro\nd’immatriculation du navire et est accompagné par un document issu du fabricant mentionnant que l’équipement de\nmarque et référence installé possède les fonctionnalités requises par la présente fiche.\n\nLes documents justificatifs spécifiques à l’opération sont les suivants :\n- une copie de l’acte de francisation du navire justifiant qu’il est immatriculé sous pavillon français à la date\nd’engagement de l’opération. Ce document mentionne le propriétaire, le type de navire (art dormant ; art traînant ;\nnavire-école) et la longueur du navire en mètres ;\n- pour les navires de pêche professionnelle, les factures d’avitaillement en carburant du navire pendant la période\ncouverte par le relevé d’activité, mentionnant le volume de carburant acheté, le lieu d’avitaillement, le pays\nd’avitaillement s’il ne s’agit pas de la France, les nom et numéro d’immatriculation du navire ;\n- le relevé d’activité du navire susmentionné.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "4 ans pour les navires de pêche professionnelle.\n6 ans pour les navires-écoles.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\n\nMontant en kWh cumac par jour de mer du navire\n\nNombre de\njours de mer\ndu relevé\nd’activité du\nnavire\nLongueur du navire\nArt traînant\nArt dormant\nNavire-école\nX\nN\n≤ 16 m\n2 600\n1 000\n1 400\n> 16 m et < 24 m\n6 200\n1 800\n2 600\n≥ 24 m\n7 800\n4 000\n\nAnnexe 1 à la fiche d’opération standardisée TRA-EQ-132,\ndéfinissant le contenu de la partie A de l’attestation sur l’honneur\n\nA/ TRA-EQ-132 (v. A65.1) : Installation à bord d’un navire de pêche ou d’un navire-école d’un appareil de\nmesure, d’analyse et d’optimisation de la consommation de carburant.\n\n* Date d’engagement de l’opération (facture de mise en service de l’appareil installé) : ……/........./............\n* Date de début de l’opération (date du début du relevé d’activité) : ……/........./............\n* Date d’achèvement de l’opération (date de fin du relevé d’activité) : ……/........./............\n\n*Le bénéficiaire de l’opération est (cocher une seule case) :\n□ un armateur de navire de pêche professionnelle battant pavillon français\n□ un organisme français de formation aux métiers de la mer propriétaire d’un navire-école\n\n*Le professionnel ayant réalisé l’opération œuvre dans le secteur naval :   □ OUI         □ NON\n\nNB : Le délai entre la date d’engagement et la date d'achèvement de l'opération est au maximum de douze mois.\n\n*Référence de la preuve de réalisation (facture relative à l’installation de l’appareil) : ………….\n\n*L’appareil installé inclut les fonctionnalités requises par la fiche d’opération standardisée TRA-EQ-132 :   □ OUI         □ NON\n\n*Nom du navire :………………………………….\n*Numéro d’immatriculation du navire : ………………………….\n\n*L’approvisionnement en carburant du navire est réalisé à plus de 50 % en volume en France :     □ OUI         □ NON\n\n* Type de navire (cocher une seule case) :\n□ Art traînant              □ Art dormant              □ Navire-école\n\n* Longueur du navire :\n□ ≤ 16 m              □ 16 < L < 24 m              □ ≥ 24 m\n\n*Nombre de jours passés en mer indiqué par le relevé d’activité du navire : ……………",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -139,7 +176,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -169,10 +207,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-01-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 4,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf"
     }
   ],
@@ -217,10 +260,10 @@
     "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.895696+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

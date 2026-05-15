@@ -10,8 +10,8 @@
 - `Tertiaire_BAT/BAT-TH-143 vA16-1 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -40,6 +40,22 @@
 - Montant en kWh
 - cumac par m2
 - Le montant des certificats d’économies d’énergie de l’opération est égal à Mch + Mra
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-1)
+- 1. la dépose des ventilo-convecteurs existants, (pages 1-1)
+- 2. la mise en place de ventilo-convecteurs, (pages 1-1)
+- 3. le label énergétique des ventilo-convecteurs selon EUROVENT. (pages 1-1)
+- 4. Durée de vie conventionnelle (pages 1-2)
+- 5. Montant de certificats en kWh cumac (pages 2-2)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 15
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

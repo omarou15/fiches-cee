@@ -1,452 +1,21 @@
 [
   {
-    "code": "AGRI-EQ-106",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "régulation",
-      "ventilation"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Agriculture_AGRI/AGRI-EQ-106 vA32-1.pdf"
-      }
-    ],
-    "json_path": "data/json/AGRI-EQ-106.json",
-    "markdown_path": "data/markdown/AGRI-EQ-106.md"
-  },
-  {
-    "code": "AGRI-EQ-107",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "isolation"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Agriculture_AGRI/AGRI-EQ-107 vA38-1 à compter du 31-07-2021.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Agriculture_AGRI/AGRI-EQ-107 vA38-1 à compter du 31-07-2021.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Agriculture_AGRI/AGRI-EQ-107 vA38-1 à compter du 31-07-2021.pdf"
-      }
-    ],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Agriculture_AGRI/AGRI-EQ-107 vA38-1 à compter du 31-07-2021.pdf"
-      }
-    ],
-    "json_path": "data/json/AGRI-EQ-107.json",
-    "markdown_path": "data/markdown/AGRI-EQ-107.md"
-  },
-  {
-    "code": "AGRI-EQ-110",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "système hybride PAC + gaz"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Agriculture_AGRI/AGRI-EQ-110 vA38-1 à compter du 31-07-2021.pdf"
-      }
-    ],
-    "json_path": "data/json/AGRI-EQ-110.json",
-    "markdown_path": "data/markdown/AGRI-EQ-110.md"
-  },
-  {
-    "code": "AGRI-TH-108",
-    "priority": "high",
-    "energyco_use_cases": [
-      "PAC"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf"
-      }
-    ],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf"
-      }
-    ],
-    "json_path": "data/json/AGRI-TH-108.json",
-    "markdown_path": "data/markdown/AGRI-TH-108.md"
-  },
-  {
-    "code": "AGRI-TH-110",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "chaudière"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024_0.pdf"
-      }
-    ],
-    "json_path": "data/json/AGRI-TH-110.json",
-    "markdown_path": "data/markdown/AGRI-TH-110.md"
-  },
-  {
-    "code": "AGRI-TH-118",
-    "priority": "high",
-    "energyco_use_cases": [
-      "chauffage collectif"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "medium",
-        "source_file": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf"
-      }
-    ],
-    "json_path": "data/json/AGRI-TH-118.json",
-    "markdown_path": "data/markdown/AGRI-TH-118.md"
-  },
-  {
-    "code": "AGRI-UT-103",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "régulation"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Agriculture_AGRI/AGRI-UT-103 vA19-1.pdf"
-      }
-    ],
-    "json_path": "data/json/AGRI-UT-103.json",
-    "markdown_path": "data/markdown/AGRI-UT-103.md"
-  },
-  {
-    "code": "AGRI-UT-104",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "régulation"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Agriculture_AGRI/AGRI-UT-104 vA23-1.pdf"
-      }
-    ],
-    "json_path": "data/json/AGRI-UT-104.json",
-    "markdown_path": "data/markdown/AGRI-UT-104.md"
-  },
-  {
-    "code": "IND-BA-117",
-    "priority": "high",
-    "energyco_use_cases": [
-      "chauffage collectif"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-BA-117.json",
-    "markdown_path": "data/markdown/IND-BA-117.md"
-  },
-  {
-    "code": "IND-EN-101",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "isolation"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Industrie_IND/IND-EN-101 vA23-1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Industrie_IND/IND-EN-101 vA23-1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Industrie_IND/IND-EN-101 vA23-1.pdf"
-      }
-    ],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-EN-101 vA23-1.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-EN-101.json",
-    "markdown_path": "data/markdown/IND-EN-101.md"
-  },
-  {
-    "code": "IND-EN-102",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "isolation"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Industrie_IND/IND-EN-102 vA64-3 à compter du 01-01-2025_0.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Industrie_IND/IND-EN-102 vA64-3 à compter du 01-01-2025_0.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Industrie_IND/IND-EN-102 vA64-3 à compter du 01-01-2025_0.pdf"
-      }
-    ],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-EN-102 vA64-3 à compter du 01-01-2025_0.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-EN-102.json",
-    "markdown_path": "data/markdown/IND-EN-102.md"
-  },
-  {
-    "code": "IND-UT-104",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "chaudière",
-      "système hybride PAC + gaz"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-UT-104 vA14-1.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-UT-104.json",
-    "markdown_path": "data/markdown/IND-UT-104.md"
-  },
-  {
-    "code": "IND-UT-105",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "chaudière"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-UT-105 vA14-1.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-UT-105.json",
-    "markdown_path": "data/markdown/IND-UT-105.md"
-  },
-  {
-    "code": "IND-UT-115",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "régulation"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-UT-115 v A15-1.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-UT-115.json",
-    "markdown_path": "data/markdown/IND-UT-115.md"
-  },
-  {
-    "code": "IND-UT-116",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "régulation"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-UT-116 vA14-1.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-UT-116.json",
-    "markdown_path": "data/markdown/IND-UT-116.md"
-  },
-  {
-    "code": "IND-UT-125",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "chaudière"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-UT-125.json",
-    "markdown_path": "data/markdown/IND-UT-125.md"
-  },
-  {
-    "code": "IND-UT-129",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "système hybride PAC + gaz"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-UT-129.json",
-    "markdown_path": "data/markdown/IND-UT-129.md"
-  },
-  {
-    "code": "IND-UT-130",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "chaudière",
-      "système hybride PAC + gaz"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-UT-130 v A19-1.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-UT-130.json",
-    "markdown_path": "data/markdown/IND-UT-130.md"
-  },
-  {
-    "code": "IND-UT-131",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "isolation"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf"
-      }
-    ],
-    "json_path": "data/json/IND-UT-131.json",
-    "markdown_path": "data/markdown/IND-UT-131.md"
-  },
-  {
     "code": "RES-CH-103",
     "priority": "medium",
     "energyco_use_cases": [
       "tertiaire"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Reseaux_RES/RES-CH-103 vA36-3 à compter du 12-10-2020_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/RES-CH-103.json",
     "markdown_path": "data/markdown/RES-CH-103.md"
   },
@@ -456,15 +25,17 @@
     "energyco_use_cases": [
       "résidentiel collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Reseaux_RES/RES-CH-104 vA36-3 à compter du 12-10-2020_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/RES-CH-104.json",
     "markdown_path": "data/markdown/RES-CH-104.md"
   },
@@ -474,15 +45,17 @@
     "energyco_use_cases": [
       "réseau de chaleur"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/RES-CH-105.json",
     "markdown_path": "data/markdown/RES-CH-105.md"
   },
@@ -493,7 +66,7 @@
       "calorifugeage",
       "réseau de chaleur"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "longueur_reseau_isole",
@@ -510,13 +83,15 @@
         "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/RES-CH-106.json",
     "markdown_path": "data/markdown/RES-CH-106.md"
   },
@@ -526,15 +101,17 @@
     "energyco_use_cases": [
       "réseau de chaleur"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/RES-CH-108.json",
     "markdown_path": "data/markdown/RES-CH-108.md"
   },
@@ -544,37 +121,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-EN-101.json",
     "markdown_path": "data/markdown/BAR-EN-101.md"
   },
@@ -584,37 +141,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-EN-102 vA65-4 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-EN-102 vA65-4 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-EN-102 vA65-4 à compter du 01-01-2025_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-EN-102 vA65-4 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-EN-102.json",
     "markdown_path": "data/markdown/BAR-EN-102.md"
   },
@@ -624,37 +161,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-EN-103 vA64-6 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-EN-103 vA64-6 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-EN-103 vA64-6 à compter du 01-01-2025_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-EN-103 vA64-6 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-EN-103.json",
     "markdown_path": "data/markdown/BAR-EN-103.md"
   },
@@ -664,37 +181,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-EN-105 vA64-4 à compter du 01-01-2025_2.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-EN-105 vA64-4 à compter du 01-01-2025_2.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-EN-105 vA64-4 à compter du 01-01-2025_2.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-EN-105 vA64-4 à compter du 01-01-2025_2.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-EN-105.json",
     "markdown_path": "data/markdown/BAR-EN-105.md"
   },
@@ -704,37 +201,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-EN-106 vA64-5 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-EN-106 vA64-5 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-EN-106 vA64-5 à compter du 01-01-2025_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-EN-106 vA64-5 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-EN-106.json",
     "markdown_path": "data/markdown/BAR-EN-106.md"
   },
@@ -744,37 +221,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-EN-107 vA64-4 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-EN-107 vA64-4 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-EN-107 vA64-4 à compter du 01-01-2025_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-EN-107 vA64-4 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-EN-107.json",
     "markdown_path": "data/markdown/BAR-EN-107.md"
   },
@@ -784,15 +241,17 @@
     "energyco_use_cases": [
       "chauffage collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-SE-104 vA19-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-SE-104.json",
     "markdown_path": "data/markdown/BAR-SE-104.md"
   },
@@ -802,15 +261,17 @@
     "energyco_use_cases": [
       "réseau de chaleur"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-SE-107 vA37-1 à compter du 31-12-2020_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-SE-107.json",
     "markdown_path": "data/markdown/BAR-SE-107.md"
   },
@@ -820,7 +281,7 @@
     "energyco_use_cases": [
       "chauffage collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -844,13 +305,15 @@
         "source_file": "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-SE-108.json",
     "markdown_path": "data/markdown/BAR-SE-108.md"
   },
@@ -862,37 +325,17 @@
       "chauffage collectif",
       "résidentiel collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-TH-102 vA17-1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-TH-102 vA17-1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-TH-102 vA17-1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-102 vA17-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-102.json",
     "markdown_path": "data/markdown/BAR-TH-102.md"
   },
@@ -902,15 +345,17 @@
     "energyco_use_cases": [
       "chauffage collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-110 vA16-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-110.json",
     "markdown_path": "data/markdown/BAR-TH-110.md"
   },
@@ -920,15 +365,17 @@
     "energyco_use_cases": [
       "régulation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-111 vA17-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-111.json",
     "markdown_path": "data/markdown/BAR-TH-111.md"
   },
@@ -938,37 +385,17 @@
     "energyco_use_cases": [
       "chauffage collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-112.json",
     "markdown_path": "data/markdown/BAR-TH-112.md"
   },
@@ -978,37 +405,17 @@
     "energyco_use_cases": [
       "chaudière"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-TH-113 vA79-4 à compter du 01-01-2026_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-TH-113 vA79-4 à compter du 01-01-2026_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-TH-113 vA79-4 à compter du 01-01-2026_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-113 vA79-4 à compter du 01-01-2026_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-113.json",
     "markdown_path": "data/markdown/BAR-TH-113.md"
   },
@@ -1020,15 +427,17 @@
       "chauffage collectif",
       "résidentiel collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-123.json",
     "markdown_path": "data/markdown/BAR-TH-123.md"
   },
@@ -1038,37 +447,17 @@
     "energyco_use_cases": [
       "ventilation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-125.json",
     "markdown_path": "data/markdown/BAR-TH-125.md"
   },
@@ -1078,37 +467,17 @@
     "energyco_use_cases": [
       "ventilation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-127.json",
     "markdown_path": "data/markdown/BAR-TH-127.md"
   },
@@ -1118,7 +487,7 @@
     "energyco_use_cases": [
       "PAC"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -1142,13 +511,15 @@
         "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-129.json",
     "markdown_path": "data/markdown/BAR-TH-129.md"
   },
@@ -1160,37 +531,17 @@
       "chauffage collectif",
       "résidentiel collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-135.json",
     "markdown_path": "data/markdown/BAR-TH-135.md"
   },
@@ -1201,15 +552,17 @@
       "réseau de chaleur",
       "résidentiel collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026_2.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-137.json",
     "markdown_path": "data/markdown/BAR-TH-137.md"
   },
@@ -1220,37 +573,17 @@
       "système hybride PAC + gaz",
       "ventilation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-155.json",
     "markdown_path": "data/markdown/BAR-TH-155.md"
   },
@@ -1260,37 +593,17 @@
     "energyco_use_cases": [
       "régulation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-TH-158 vA73-3 à compter du 01-11-2025_0.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-TH-158 vA73-3 à compter du 01-11-2025_0.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-TH-158 vA73-3 à compter du 01-11-2025_0.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-158 vA73-3 à compter du 01-11-2025_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-158.json",
     "markdown_path": "data/markdown/BAR-TH-158.md"
   },
@@ -1301,7 +614,7 @@
       "PAC",
       "système hybride PAC + gaz"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -1325,13 +638,15 @@
         "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-159.json",
     "markdown_path": "data/markdown/BAR-TH-159.md"
   },
@@ -1341,15 +656,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-161.json",
     "markdown_path": "data/markdown/BAR-TH-161.md"
   },
@@ -1360,37 +677,17 @@
       "PAC collective",
       "chaudière"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-TH-165 vA34-1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-TH-165 vA34-1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-TH-165 vA34-1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-165 vA34-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-165.json",
     "markdown_path": "data/markdown/BAR-TH-165.md"
   },
@@ -1402,7 +699,7 @@
       "PAC collective",
       "ECS"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -1426,13 +723,15 @@
         "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-169.json",
     "markdown_path": "data/markdown/BAR-TH-169.md"
   },
@@ -1443,15 +742,17 @@
       "PAC collective",
       "ECS"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-170 vA54-1 à compter du 01-10-2023_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-170.json",
     "markdown_path": "data/markdown/BAR-TH-170.md"
   },
@@ -1461,7 +762,7 @@
     "energyco_use_cases": [
       "PAC"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -1485,13 +786,15 @@
         "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-171.json",
     "markdown_path": "data/markdown/BAR-TH-171.md"
   },
@@ -1501,7 +804,7 @@
     "energyco_use_cases": [
       "PAC"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -1525,13 +828,15 @@
         "source_file": "Residentiel_BAR/BAR-TH-172 vA78-4 à compter du 01-01-2026.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-172 vA78-4 à compter du 01-01-2026.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-172.json",
     "markdown_path": "data/markdown/BAR-TH-172.md"
   },
@@ -1541,15 +846,17 @@
     "energyco_use_cases": [
       "régulation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-173.json",
     "markdown_path": "data/markdown/BAR-TH-173.md"
   },
@@ -1559,15 +866,17 @@
     "energyco_use_cases": [
       "régulation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-176.json",
     "markdown_path": "data/markdown/BAR-TH-176.md"
   },
@@ -1579,37 +888,17 @@
       "chauffage collectif",
       "résidentiel collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-177.json",
     "markdown_path": "data/markdown/BAR-TH-177.md"
   },
@@ -1620,7 +909,7 @@
       "PAC",
       "PAC collective"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -1644,12 +933,38 @@
         "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
       }
     ],
+    "energyco_site_data_requirements": [
+      "nombre d'appartements chauffés par la PAC",
+      "zone climatique",
+      "usage PAC : chauffage ou chauffage et ECS",
+      "Etas",
+      "application basse, moyenne ou haute température",
+      "puissance nominale PAC Prated à -10°C",
+      "puissance utile chaufferie après travaux",
+      "équipements de secours à exclure",
+      "surface chauffée",
+      "types d'émetteurs",
+      "Tbase",
+      "déperditions",
+      "température de départ",
+      "température intérieure de consigne"
+    ],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
       }
+    ],
+    "energyco_risks": [
+      "PAC ECS seule non éligible",
+      "mauvaise application Etas 35°C/55°C",
+      "absence d'étude de dimensionnement signée/datée",
+      "puissance PAC < 40% sans application du facteur R",
+      "prise en compte erronée des équipements de secours dans la puissance chaufferie",
+      "absence de preuve marque/référence/Prated/Etas",
+      "non-respect de la qualification professionnelle",
+      "cumul erroné avec BAR-TH-169"
     ],
     "json_path": "data/json/BAR-TH-179.json",
     "markdown_path": "data/markdown/BAR-TH-179.md"
@@ -1661,7 +976,7 @@
       "PAC",
       "PAC collective"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -1685,13 +1000,15 @@
         "source_file": "Residentiel_BAR/BAR-TH-180 vA81-2 à compter du 30-04-2026.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Residentiel_BAR/BAR-TH-180 vA81-2 à compter du 30-04-2026.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAR-TH-180.json",
     "markdown_path": "data/markdown/BAR-TH-180.md"
   },
@@ -1701,37 +1018,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-EN-101 vA64-4 à compter du 01-01-2025_2.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-EN-101 vA64-4 à compter du 01-01-2025_2.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-EN-101 vA64-4 à compter du 01-01-2025_2.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-EN-101 vA64-4 à compter du 01-01-2025_2.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-EN-101.json",
     "markdown_path": "data/markdown/BAT-EN-101.md"
   },
@@ -1741,37 +1038,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-EN-102 vA64-3 à compter du 01-01-2025_2.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-EN-102 vA64-3 à compter du 01-01-2025_2.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-EN-102 vA64-3 à compter du 01-01-2025_2.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-EN-102 vA64-3 à compter du 01-01-2025_2.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-EN-102.json",
     "markdown_path": "data/markdown/BAT-EN-102.md"
   },
@@ -1781,37 +1058,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-EN-103 vA64-4 à compter du 01-01-2025_2.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-EN-103 vA64-4 à compter du 01-01-2025_2.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-EN-103 vA64-4 à compter du 01-01-2025_2.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-EN-103 vA64-4 à compter du 01-01-2025_2.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-EN-103.json",
     "markdown_path": "data/markdown/BAT-EN-103.md"
   },
@@ -1821,37 +1078,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-EN-106 vA64-3 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-EN-106 vA64-3 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-EN-106 vA64-3 à compter du 01-01-2025_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-EN-106 vA64-3 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-EN-106.json",
     "markdown_path": "data/markdown/BAT-EN-106.md"
   },
@@ -1861,37 +1098,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-EN-107 vA64-3 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-EN-107 vA64-3 à compter du 01-01-2025_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-EN-107 vA64-3 à compter du 01-01-2025_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-EN-107 vA64-3 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-EN-107.json",
     "markdown_path": "data/markdown/BAT-EN-107.md"
   },
@@ -1901,37 +1118,17 @@
     "energyco_use_cases": [
       "isolation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-EN-108 vA19-1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-EN-108 vA19-1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-EN-108 vA19-1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-EN-108 vA19-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-EN-108.json",
     "markdown_path": "data/markdown/BAT-EN-108.md"
   },
@@ -1941,15 +1138,17 @@
     "energyco_use_cases": [
       "chauffage collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-SE-103 vA19-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-SE-103.json",
     "markdown_path": "data/markdown/BAT-SE-103.md"
   },
@@ -1959,37 +1158,17 @@
     "energyco_use_cases": [
       "chauffage collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-SE-104 vA31-1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-SE-104 vA31-1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-SE-104 vA31-1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-SE-104 vA31-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-SE-104.json",
     "markdown_path": "data/markdown/BAT-SE-104.md"
   },
@@ -1999,15 +1178,17 @@
     "energyco_use_cases": [
       "réseau de chaleur"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-SE-105 vA32-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-SE-105.json",
     "markdown_path": "data/markdown/BAT-SE-105.md"
   },
@@ -2017,7 +1198,7 @@
     "energyco_use_cases": [
       "régulation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "classe_gtb",
@@ -2027,13 +1208,15 @@
         "source_file": "Tertiaire_BAT/BAT-TH-108 v A22-1.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-108 v A22-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-108.json",
     "markdown_path": "data/markdown/BAT-TH-108.md"
   },
@@ -2045,7 +1228,7 @@
       "chauffage collectif",
       "résidentiel collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "classe_gtb",
@@ -2055,13 +1238,15 @@
         "source_file": "Tertiaire_BAT/BAT-TH-109 vA54-3 à compter du 01-01-2024_2.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-109 vA54-3 à compter du 01-01-2024_2.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-109.json",
     "markdown_path": "data/markdown/BAT-TH-109.md"
   },
@@ -2073,37 +1258,17 @@
       "chauffage collectif",
       "résidentiel collectif"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-111.json",
     "markdown_path": "data/markdown/BAT-TH-111.md"
   },
@@ -2115,7 +1280,7 @@
       "ECS",
       "GTB"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "classe_gtb",
@@ -2125,13 +1290,15 @@
         "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-116.json",
     "markdown_path": "data/markdown/BAT-TH-116.md"
   },
@@ -2141,37 +1308,17 @@
     "energyco_use_cases": [
       "ventilation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-125.json",
     "markdown_path": "data/markdown/BAT-TH-125.md"
   },
@@ -2181,37 +1328,17 @@
     "energyco_use_cases": [
       "ventilation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-126.json",
     "markdown_path": "data/markdown/BAT-TH-126.md"
   },
@@ -2222,15 +1349,17 @@
       "réseau de chaleur",
       "tertiaire"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-127.json",
     "markdown_path": "data/markdown/BAT-TH-127.md"
   },
@@ -2240,15 +1369,17 @@
     "energyco_use_cases": [
       "régulation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-134.json",
     "markdown_path": "data/markdown/BAT-TH-134.md"
   },
@@ -2258,15 +1389,17 @@
     "energyco_use_cases": [
       "régulation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-135 vA26-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-135.json",
     "markdown_path": "data/markdown/BAT-TH-135.md"
   },
@@ -2276,15 +1409,17 @@
     "energyco_use_cases": [
       "régulation"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-145 vA23-1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-145.json",
     "markdown_path": "data/markdown/BAT-TH-145.md"
   },
@@ -2295,37 +1430,17 @@
       "PAC collective",
       "chaudière"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [
-      {
-        "field": "puissance_pac",
-        "unit": "kW",
-        "required": true,
-        "reason": "dimensionnement et controle de coherence",
-        "source_file": "Tertiaire_BAT/BAT-TH-157 vA50-2 à compter du 01-04-2023_1.pdf"
-      },
-      {
-        "field": "cop_etou_etasp",
-        "unit": null,
-        "required": true,
-        "reason": "performance technique de la pompe a chaleur",
-        "source_file": "Tertiaire_BAT/BAT-TH-157 vA50-2 à compter du 01-04-2023_1.pdf"
-      },
-      {
-        "field": "surface_ou_nombre_logements",
-        "unit": null,
-        "required": true,
-        "reason": "perimetre de l'operation et calcul",
-        "source_file": "Tertiaire_BAT/BAT-TH-157 vA50-2 à compter du 01-04-2023_1.pdf"
-      }
-    ],
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+    "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-157 vA50-2 à compter du 01-04-2023_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-157.json",
     "markdown_path": "data/markdown/BAT-TH-157.md"
   },
@@ -2335,7 +1450,7 @@
     "energyco_use_cases": [
       "PAC"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -2359,13 +1474,15 @@
         "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-158.json",
     "markdown_path": "data/markdown/BAT-TH-158.md"
   },
@@ -2375,15 +1492,17 @@
     "energyco_use_cases": [
       "tertiaire"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-159 vA40-1 à compter du 29-12-2021_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-159.json",
     "markdown_path": "data/markdown/BAT-TH-159.md"
   },
@@ -2393,7 +1512,7 @@
     "energyco_use_cases": [
       "PAC"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -2417,13 +1536,15 @@
         "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-161.json",
     "markdown_path": "data/markdown/BAT-TH-161.md"
   },
@@ -2434,7 +1555,7 @@
       "PAC",
       "PAC collective"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -2458,13 +1579,15 @@
         "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-163.json",
     "markdown_path": "data/markdown/BAT-TH-163.md"
   },
@@ -2475,7 +1598,7 @@
       "PAC",
       "PAC collective"
     ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+    "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
     "required_site_data": [
       {
         "field": "puissance_pac",
@@ -2499,50 +1622,16 @@
         "source_file": "Tertiaire_BAT/BAT-TH-164 vA81-2 à compter du 30-04-2026.pdf"
       }
     ],
+    "energyco_site_data_requirements": [],
     "risk_points": [
       {
         "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
+        "severity": "medium",
         "source_file": "Tertiaire_BAT/BAT-TH-164 vA81-2 à compter du 30-04-2026.pdf"
       }
     ],
+    "energyco_risks": [],
     "json_path": "data/json/BAT-TH-164.json",
     "markdown_path": "data/markdown/BAT-TH-164.md"
-  },
-  {
-    "code": "TRA-EQ-126",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "système hybride PAC + gaz"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf"
-      }
-    ],
-    "json_path": "data/json/TRA-EQ-126.json",
-    "markdown_path": "data/markdown/TRA-EQ-126.md"
-  },
-  {
-    "code": "TRA-EQ-127",
-    "priority": "medium",
-    "energyco_use_cases": [
-      "système hybride PAC + gaz"
-    ],
-    "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
-    "required_site_data": [],
-    "risk_points": [
-      {
-        "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-        "severity": "low",
-        "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf"
-      }
-    ],
-    "json_path": "data/json/TRA-EQ-127.json",
-    "markdown_path": "data/markdown/TRA-EQ-127.md"
   }
 ]

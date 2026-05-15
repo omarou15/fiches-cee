@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment résidentiel existant.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place, sur une installation de chauffage neuve ou existante, d’un dispositif centralisé assurant une fonction\nde programmation et régulation différenciée de la température intérieure (quatre allures au moins selon les besoins :\nconfort, économie, hors-gel et arrêt) selon les normes EN 12098-1 et EN 12098-3 dans toutes les pièces équipées\nd’un émetteur de chaleur sans exception du logement, selon des plages horaires.\n\nLa présente fiche ne s’applique pas aux systèmes de chauffage collectif.\n\nLes logements éligibles à la présente fiche sont ceux disposant d’au moins 2 émetteurs de chaleur pilotables faisant\npartie du système de chauffage principal.\n\nL’installation de têtes thermostatiques seules n’est pas éligible au titre de la présente fiche.\n\nLes systèmes de chauffage « mixte » (hydraulique et électrique) sont éligibles à la présente fiche si le système de\nrégulation gère l’ensemble des émetteurs de chaleur du logement.\n\nLa présente fiche n’est pas cumulable avec les fiches portant la référence BAR-TH-117 et BAR-TH-158.\n\nLa présente fiche est abrogée à compter du 1er janvier 2027.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe professionnel réalisant l’opération est titulaire d’un signe de qualité conforme aux exigences prévues à l’article\n2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du\ncode général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des\ntextes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 7° du I de l'article 1er du\ndécret précité pour le chauffage à émetteurs électriques, ou à la catégorie de travaux correspondant au système de\nchauffage installé relevant du 1°, 2°, 3° ou 5° du I de l'article 1er du décret précité pour le chauffage à boucle d’eau\nchaude.\n\nDans d’une installation de chauffage « mixte » (hydraulique et électrique), le professionnel réalisant l’opération est\ntitulaire des signes de qualité pour le chauffage à émetteurs électrique et pour le chauffage à boucle d’eau chaude.\n\nUn délai minimal de sept jours francs est respecté entre la date d’acceptation du devis et la date de début des travaux\n(pose du système de régulation par programmation horaire pièce par pièce).\n\nLa présente fiche concerne :\n- l’achat et la mise en place d’un système neuf de régulation sur un système de chauffage n’en disposant pas ; ou\n\n- l’achat et la mise en place d’un système neuf de régulation en remplacement d’un système de régulation existant\nd’au plus de classe C selon la norme NF EN ISO 52120-1 pour les bâtiments résidentiels.\n\nOn entend par classe C au sens de la norme NF EN ISO 52120-1 une régulation individuelle par pièce au moyen\nde robinets thermostatiques ou de régulateurs électroniques.\n\nLe dispositif de régulation répond aux fonctionnalités de la classe B ou de la classe A de la norme NF EN ISO\n52120-1 pour les bâtiments résidentiels.\n\nOn entend par classe B au sens de la norme NF EN ISO 52120-1 une régulation modulante individuelle par pièce\ndu signal de régulation et communication entre les dispositifs régulant l'émission et l’appareil central. On entend\npar classe A au sens de la norme NF EN ISO 52120-1, une régulation modulante individuelle par pièce du signal de\nrégulation entre les dispositifs régulant l'émission et l’appareil central, avec une détection d’occupation par pièce.\n\nLe dispositif de régulation est composé :\n-  d'un appareil central qui collecte les informations des dispositifs déportés dans les pièces équipées d’un émetteur\nde chaleur, pilote ces dispositifs, gère la programmation d'intermittence et les consignes de températures associées.\nL’appareil central est un boitier communicant physique, distinct des robinets thermostatiques électroniques\ncommunicants pour le chauffage à boucle d’eau chaude et distinct des boitiers électroniques sur les émetteurs pour\nle chauffage à émetteurs électriques, permettant de récupérer les informations des dispositifs de régulation déportés\ndans chaque pièce ;\n- d'une sonde de mesure de la température ambiante dans chaque pièce équipée d’un émetteur de chaleur ;\n- d'un dispositif régulant l'émission de chaque émetteur de chaleur selon la consigne émise par l'appareil central. Le\ndispositif de régulation est ici entendu comme le dispositif permettant d’exécuter les réglages et programmes de\nchauffage définis par l’usager. Pour le chauffage à boucle d’eau chaude, le dispositif régulant l’émission correspond\nà un robinet thermostatique électronique communiquant avec l’appareil central. Pour le chauffage à émetteurs\nélectriques, le dispositif régulant l’émission correspond à un boîtier électronique sur l’émetteur communiquant avec\nl’appareil central.\n- d’une interface, intégrée à l’appareil central ou sur un terminal fixe ou mobile, permettant à l’usager d’effectuer\ntous les réglages de programmation et de visualiser les informations collectées par l’appareil central ;\n- tous les réglages, y compris les programmations horaires par pièce et l’exécution de ces programmes, peuvent\ns’effectuer en local a minima, c’est-à-dire dans le logement que ce soit par l’intermédiaire de l’appareil central, d’un\nterminal fixe ou mobile. Les équipements permettent à l’occupant de déroger localement à ces consignes.\n\nLe dispositif de régulation continue de fonctionner en cas de perte de connexion Internet (perte de toute connexion\navec l’extérieur du logement (Wifi, 4G, 3G, …)). Dans un tel cas, les programmes qui ont été définis continuent\nd’être exécutés afin que la régulation de température dans chaque pièce puisse continuer à s’effectuer. La définition\nde nouveaux réglages ou programmes de chauffage, ainsi que la dérogation à ces programmes n’est pas incluse dans\ncette exigence en cas de perte de connexion Internet.\n\nLa température de chaque pièce du logement équipée d’un émetteur de chaleur, est régulée de façon différenciée\nselon sa destination et son utilisation.\n\nPour les installations de chauffage à boucle à eau chaude :\n- il est possible, qu’au plus un émetteur ne soit pas équipé d’un dispositif régulant l’émission de chaleur selon la\nconsigne émise par l’appareil central, afin de maintenir un débit d’eau minimum en permanence ;\n- dans le cas d’un générateur sans régulateur ou avec un régulateur tout ou rien, un régulateur de température du\ngénérateur est mis en place (conformément aux exigences du règlement (UE) n°811/2013 de la Commission du 18\nfévrier 2013) ;\n\n- dans le cas d’un générateur modulant et en cas de remplacement du régulateur de température du générateur, la\nclasse du régulateur de température n’est pas dégradée entre l’état existant et l’état rénové (définis conformément\naux exigences du règlement (UE) n°811/2013 de la Commission du 18 février 2013).\n\nDans le cas d’une installation de chauffage à émetteurs électriques, les émetteurs à effet Joule direct peuvent ne pas\nêtre inclus parmi les équipements à équiper au titre de la présente fiche, s'ils possèdent déjà un dispositif embarqué\nde régulation conforme aux exigences cumulatives :\n- du règlement (EU) n° 2015/1188 de la commission du 28 avril 2015 ; et\n- de la certification NF performance catégories 3 étoiles œil.\n\nLes dispositifs de type sèche-serviette ne faisant pas partie du système de chauffage principal ou les dispositifs de\ntype sèche-serviette électrique déjà régulés, n’ont pas nécessité à être inclus parmi les équipements à équiper au titre\nde la présente fiche.\n\nDans le cas des planchers ou plafonds chauffants (hydrauliques ou électriques), la régulation est mise en œuvre\nselon le maillage le plus fin techniquement atteignable, avec un minimum de deux boucles. Chaque boucle pilotable\nest considérée comme un émetteur de chaleur au titre de la présente fiche et est équipée d’un dispositif régulant\nl’émission de chaleur selon la consigne émise par l’appareil central.\n\nLa preuve de réalisation de l’opération mentionne :\n- la mise en place d’un programmateur horaire pièce par pièce avec action (commande) sur chaque émetteur de\nchaleur par pièce chauffée, assurant les fonctions de régulation de la classe B ou A de la norme NF EN ISO 52120-\n1, et comprenant un appareil central ;\n- la mesure de la température ambiante, par des sondes de température, de chaque pièce chauffée ;\n- le nombre d’émetteurs de chaleur équipés du dispositif régulant l’émission.\n\nA défaut, la preuve de la réalisation mentionne la mise en place d’un système avec ses marques et références, le\nnombre d’émetteurs de chaleur équipés du dispositif de régulation. Elle est accompagnée d’un document issu du\nfabricant indiquant que le système de marque et référence installé est un système de régulation de classe B ou A au\nsens de la norme NF EN ISO 52120-1 pour les bâtiments résidentiels, comprenant un appareil central et assurant les\nfonctionnalités requises par la présente fiche.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- un document du fournisseur d'énergie du bénéficiaire faisant figurer le nom du bénéficiaire, l'adresse du\nbénéficiaire et le PDL (Point de Livraison), le PRM (Point de Référence et Mesure) ou le PCE (Point de Comptage\net d'Estimation) du logement ;\n- la décision de certification du professionnel délivrée selon les mêmes exigences que celles prévues à l’article 2 du\ndécret susvisé,\n- dans le cas d’une installation de chauffage à émetteurs électriques, pour les émetteurs à effet Joule direct possédant\nun dispositif embarqué de régulation et qui ne sont pas inclus parmi les équipements équipés au titre de la présente\nfiche : la déclaration de conformité UE et la certification NF Electricité-performance catégorie 3 étoiles œil de ces\németteurs,\n- dans le cas de flexibilité explicite de consommation d’électricité du système de chauffage à émetteurs électriques :\nle contrat d’effacement entre l’opérateur d’effacement et le bénéficiaire de l’opération.",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 3,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Forfait (kWhc)\nX\n\nZone Climatique\nMaison\nAppartement\nNombre\nd'émetteurs équipés*\nH1\n3200\n2500\nN\nH2\n2600\n2100\nH3\n1900\n1500\n\n* Le dispositif de régulation est installé sur tous les émetteurs de chaleur pilotables du logement.\n* Le nombre d’émetteurs équipés valorisables au titre de la présente fiche (N), est supérieur ou égal à 2 et strictement\ninférieur à 10.",
+      "page_start": 3,
+      "page_end": 4
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -227,7 +264,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -290,10 +328,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-07-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf"
     }
   ],
@@ -338,10 +381,10 @@
     "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.831670+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

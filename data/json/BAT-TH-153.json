@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment tertiaire : centre de traitement de données (ou Data Center) interne ou d'hébergement, neuf ou existant.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de confinement des allées froides et allées chaudes dans un Data Center interne ou\nd’hébergement, neuf ou existant.\n\nNB: Un data center ou centre de données est un site physique regroupant des installations informatiques (serveurs,\nrouteurs, commutateurs, disques durs...) chargées de stocker et de distribuer des données à travers un réseau interne\nou via un accès Internet. Il ne s'agit pas de salles informatiques avec opérateurs saisissant ou traitant des données\ninformatiques.\n\nLe réaménagement de l’implantation ou le remplacement des baies de serveurs d’un Datacenter ne donne pas lieu à\nune nouvelle délivrance de certificats d’économies d’énergie pour le confinement des allées chaudes et des allées\nfroides si l’aménagement initial ou un aménagement précédent avait déjà fait l’objet d’un tel confinement. En cas\nd’extension, seule la partie nouvelle pourra donner lieu à la délivrance de CEE au regard de la puissance électrique\nnécessaire pour la production de froid de cette extension déterminée dans l’étude de dimensionnement.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe système de confinement permet simultanément de séparer les flux d’air chaud et d’air froid par des parois rigides\net étanches.\n\nLa température de soufflage après travaux est mesurée à chaque point de soufflage et n’est pas inférieure à 22 °C.\n\nLa mise en place du système de confinement fait l’objet d’une étude préalable de dimensionnement établie, datée et\nsignée par un professionnel ou un bureau d’étude. Cette étude comporte :\n- La raison sociale et l’adresse du bénéficiaire ;\n- L’adresse du chantier si différente de l’adresse du bénéficiaire ;\n- Le descriptif des installations informatiques avant et après travaux et des moyens de conditionnement de l’air\n(notamment la puissance des groupes de production de froid et des batteries froides) ;\n- La modélisation par simulation des flux d'air avant et après travaux ;\n- la localisation des points chauds avant et après travaux ;\n- un plan d’implantation daté des baies de serveurs et des systèmes de confinement associés ;\n- la température de soufflage avant et après travaux et la localisation des points de mesure de cette température.\n\nLa réalisation des travaux est faite selon les recommandations de l'étude de dimensionnement.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un système de confinement des allées froides\net allées chaudes constitué par des parois rigides et étanches ainsi que la température de soufflage avant et après\ntravaux\n\nÀ défaut, la preuve de la réalisation de l’opération mentionne la mise en place d'un équipement avec ses marques et\nréférences, et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et\nréférence installé est une paroi rigide et étanche permettant le confinement des allées chaudes et allées froides et\nmentionne la température de soufflage avant et après travaux.\n\nLe document justificatif spécifique à l’opération est l’étude de dimensionnement préalable définissant le\nconfinement des installations.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en\nkWhcumac par\n(kW.°C)\n\nGain sur les températures de\nconsigne (°C)\n\nPuissance électrique\nnominale du groupe de\nproduction de froid (ou\nbatteries froides*) (kW)\n1 500\nX\nΔT\nX\nP\n\nLa puissance électrique à prendre en compte est celle figurant sur la plaque signalétique du ou des compresseur(s)\nou à défaut celle indiquée sur un document issu du fabricant.\n\n*Dans le cas où le groupe de production de froid n’alimente pas uniquement le Data Center, la puissance nominale\nélectrique à prendre en compte est celle de la ou des batterie(s) froide(s) installée(s).\nNB : T représente soit l’augmentation moyenne en °C de la température de consigne de la production d’eau glacée\nalimentant la boucle d’eau des unités de conditionnement d’air (CRAC), soit l’augmentation moyenne en °C de la\ntempérature de batterie froide (détente directe).",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -130,7 +167,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -168,10 +206,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-153 vA28-1.pdf"
     }
   ],
@@ -216,10 +259,10 @@
     "Tertiaire_BAT/BAT-TH-153 vA28-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.033706+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

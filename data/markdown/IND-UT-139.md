@@ -10,8 +10,8 @@
 - `Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -38,6 +38,19 @@
 - système (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la capacité maximale du
 - 5. Montant de certificats en kWh cumac
 - - C est la capacité maximale de stockage de chaleur du système (en kWh) ;
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-3)
+- 4. Durée de vie conventionnelle (pages 3-3)
+- 5. Montant de certificats en kWh cumac (pages 3-3)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 20
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

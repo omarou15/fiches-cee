@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une pompe à chaleur (PAC) de type air/air.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa puissance nominale de la PAC air/air est inférieure ou égale à 12 kW et son coefficient de performance saisonnier\n(SCOP) est supérieur ou égal à 3,9.\nLa preuve de réalisation de l’opération mentionne :\n- la mise en place d’une pompe à chaleur air/air ;\n- et la puissance nominale de la pompe à chaleur ;\n- et le coefficient de performance saisonnier (SCOP) de l’équipement.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique\neuropéen et accrédité selon la norme NF EN 45011 par le Comité français d'accréditation (COFRAC) ou tout autre\norganisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de European co-\noperation for Accreditation (EA), coordination européenne des organismes d'accréditation.\n\nCe document indique que l’équipement de marque et référence mis en place est une pompe à chaleur de type air/air\net précise le SCOP de l’équipement installé ainsi que sa puissance nominale. En cas de mention d'une date de\nvalidité, ce document est considéré comme valable jusqu’à un an après sa date de fin de validité.\n\nLa puissance nominale de la PAC air/air ainsi que son coefficient de performance saisonnier sont déterminés selon\nle règlement n°206/2012 de la commission du 6 mars 2012.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "17 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour un appartement :\n\nSCOP\nZone\nclimatique\nMontant unitaire en\nkWh cumac\n\n\n\nX\nFacteur\ncorrectif\nSurface chauffée S\nen m²\n3,9 ≤ SCOP\nH1\n21 300\n0,5\nS < 35\n0,7\n35 ≤ S < 60\n1\n60 ≤ S < 70\nH2\n17 400\n1,2\n70 ≤ S < 90\n1,5\n90 ≤ S < 110\nH3\n11 600\n1,9\n110 ≤ S ≤ 130\n2,5\n> 130\n\nLa surface S prise en compte dans le calcul est la surface exclusivement chauffée par la pompe à chaleur installée.\n\nPour une maison individuelle :\n\nSCOP\nZone\nclimatique\nMontant unitaire en\nkWh cumac\n\n\n\nX\nFacteur\ncorrectif\nSurface chauffée S\nen m²\n3,9 ≤ SCOP < 4,3\nH1\n77 900\n0,3\n< 35\n0,5\n35 ≤ S < 60\nH2\n63 700\n0,6\n60 ≤ S < 70\nH3\n42 500\n0,7\n70 ≤ S < 90\n4,3 ≤ SCOP\nH1\n80 200\n1\n90 ≤ S < 110\nH2\n65 600\n1,1\n110 ≤ S ≤ 130\nH3\n43 700\n1,6\n> 130\n\nLa surface S prise en compte dans le calcul est la surface exclusivement chauffée par la pompe à chaleur installée.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -187,7 +224,8 @@
   "calculation": {
     "formula_text": "La puissance nominale de la PAC air/air est inférieure ou égale à 12 kW et son coefficient de performance saisonnier",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -376,10 +414,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2018-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 17,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf"
     }
   ],
@@ -424,10 +467,10 @@
     "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.386359+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

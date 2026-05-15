@@ -18,6 +18,64 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Locaux du secteur tertiaire existants, de surface totale inférieure ou égale à 10 000 m².",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Remplacement de ventilo-convecteurs existants par des ventilo-convecteurs haute performance pour assurer le\nchauffage et le rafraîchissement des locaux.\n\nOn entend par ventilo-convecteur toute la plage des unités de confort, à savoir les ventilo-convecteurs, mais\négalement les cassettes et les unités gainables à pression.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLes ventilo-convecteurs ont le label énergétique EUROVENT de classe A ou possèdent des caractéristiques de\nperformance et de qualité équivalentes établies par un organisme établi dans l’Espace économique européen et\naccrédité selon les normes NF EN ISO/CEI 17025 et NF EN 45011 par le comité français d’accréditation\n(COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans\nle cadre de European cooperation for Accreditation (EA), coordination européenne des organismes d’accréditation.\n\nLa preuve de réalisation de l’opération mentionne :",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "1",
+      "title": "la dépose des ventilo-convecteurs existants,",
+      "text": "",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "la mise en place de ventilo-convecteurs,",
+      "text": "",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "le label énergétique des ventilo-convecteurs selon EUROVENT.",
+      "text": "Par dérogation aux points 2 et 3, la preuve de réalisation de l’opération mentionne la mise en place d’équipements\navec leur marque et référence et elle est complétée par un document issu du fabricant indiquant que les équipements\nde marque et référence installés sont des ventilo-convecteurs.\nCe document indique que les équipements possèdent le label énergétique d’EUROVENT de classe A ou justifie de\nl’équivalence à ce label.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant des certificats d’économies d’énergie en mode chauffage Mch\n\nMontant en kWh\ncumac par m2\n\n\n\n\nX\nSurface\ntotale\nchauffée\n(m2)\n\n\n\n\nX\n\nFacteur correctif\n(chauffage)\n\nH1\n65\nS\n\nH1\nH2\nH3\nSanté avec hébergement\n2,30\n2,35\n2,35\nH2\n57\nHôtels et autres\nhébergements\n2,20\n2,20\n2,20\nSanté sans hébergement\n0,65\n0,60\n0,65\nH3\n48\nBureaux, restauration,\ncommerces\n0,60\n0,60\n0,60\nAutres secteurs\n0,45\n0,45\n0,40\n\n\nMontant des certificats d’économies d’énergie en mode rafraîchissement Mra\n\nMontant en kWh\ncumac par m2\n\n\n\n\nX\nSurface\ntotale\nrafraîchie\n(m2)\n\n\n\n\nX\n\nFacteur correctif\n(rafraîchissement)\nH1\n9\nS\n\nH1\nH2\nH3\nSanté avec hébergement\n2,05\n2,10\n2,05\nH2\n13\nHôtels et autres\nhébergements\n3,10\n3,35\n2,60\nSanté sans hébergement\n0\n0\n0,80\nH3\n24\nBureaux, restauration,\ncommerces\n1,85\n1,55\n0,95\nAutres secteurs\n0\n0\n0\n\nLe montant des certificats d’économies d’énergie de l’opération est égal à Mch + Mra",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -31,7 +89,7 @@
   "systems": {
     "heating": true,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -139,7 +197,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -306,29 +365,7 @@
     }
   ],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -336,10 +373,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf"
     }
   ],
@@ -384,10 +426,10 @@
     "Tertiaire_BAT/BAT-TH-143 vA16-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.997259+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

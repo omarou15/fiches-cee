@@ -18,6 +18,50 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "3",
+      "title": "Brûleur avec dispositif de récupération de chaleur sur four industriel",
+      "text": "",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un brûleur auto-récupérateur ou d’un brûleur régénératif (autorégénératif ou paire de brûleurs\nrégénératifs) ou d’un récupérateur de chaleur sur les fumées pour préchauffer l’air comburant sur un four industriel.\n\nDans le cas de la mise en place d’un récupérateur de chaleur sur les fumées, le four industriel est existant.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe four fonctionne au gaz naturel et à une température des fumées à la sortie du four supérieure ou égale à 600°C.\n\nLa preuve de la réalisation de l'opération mentionne la mise en place d'un brûleur auto-récupérateur, d’un brûleur\nrégénératif ou d’un récupérateur de chaleur sur les fumées, ce dernier étant associé à la modification ou au\nchangement des brûleurs en place, et dans le cas de la mise en place d'un brûleur auto-récupérateur ou d’un brûleur\nrégénératif, sa puissance thermique nominale.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d'un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence\ninstallé est un brûleur auto-récupérateur, un brûleur régénératif ou un récupérateur de chaleur sur les fumées. Dans\nle cas de la mise en place d'un brûleur auto-récupérateur ou d’un brûleur régénératif, ce document précise la\npuissance thermique nominale du brûleur. Dans le cas de la mise en place d’un récupérateur de chaleur sur les\nfumées, la preuve de réalisation de l’opération mentionne la modification ou le changement des brûleurs en place.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Mise en place d’un ou plusieurs brûleurs auto-récupérateurs :\n\nTempérature des\nfumées T à la sortie\ndu four en °C\nMontant en\nkWh cumac\npar kW\n Coefficient multiplicateur selon le\nmode de fonctionnement du site\n\nSomme des puissances\nthermiques nominales des\nbrûleurs neufs en kW\n600 ≤ T ≤ 750\n1 600\n\nX\n1x8\n1\n\nX\n\nP\n750 < T ≤ 1000\n2 500\n2x8\n2,2\n1000 < T ≤ 1250\n4 100\n3x8 avec arrêt le week-end\n3\n1250 < T\n5 800\n3x8 sans arrêt le week-end\n4,2\n\nMise en place d’un ou plusieurs brûleurs régénératifs (autorégénératif ou paire de brûleurs régénératifs) :\n\nTempérature des\nfumées T à la sortie\ndu four en °C\nMontant en\nkWh cumac\npar kW\n\nCoefficient multiplicateur selon le\nmode de fonctionnement du site\n\nSomme des puissances\nthermiques nominales des\nbrûleurs neufs en kW\n600 ≤ T ≤ 750\n2 300\nX\n1x8\n1\nX\nP\n750 < T ≤ 1000\n3 500\n2x8\n2,2\n1000 < T ≤ 1250\n5 600\n3x8 avec arrêt le week-end\n3\n1250 < T\n7 800\n3x8 sans arrêt le week-end\n4,2\n\nTransformation d’un ou plusieurs brûleurs existants par l’installation d’un récupérateur de chaleur sur les fumées\ndu four pour préchauffer l’air comburant :\n\nMode de fonctionnement du\nsite\nMontant en\nkWh cumac\npar kW\n\nSomme des puissances\nthermiques nominales des\nbrûleurs transformés en kW\n1x8\n1 000\nX\nP\n2x8\n2 300\n3x8 avec arrêt le week-end\n3 100\n3x8 sans arrêt le week-end\n4 300\n\nLa puissance à retenir est celle figurant sur la plaque signalétique du brûleur ou à défaut celle indiquée sur un\ndocument issu du fabricant.",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -106,7 +150,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -192,10 +237,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf"
     }
   ],
@@ -240,10 +290,10 @@
     "Industrie_IND/IND-UT-118 v A14-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.249577+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

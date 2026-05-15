@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise à disposition, via internet ou une application mobile, d’un service de suivi, par un ménage habitant en maison\nindividuelle ou en appartement, de ses consommations individuelles de gaz naturel et/ou d’électricité.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le dispositif permet de collecter l’ensemble des données de consommations individuelles de gaz naturel et/ou\nd’électricité du logement.\n\nCe service de suivi permet au ménage :\n-\nde suivre sa consommation d'énergie en kWh et valorisée en euros ;\n-\nde visualiser ses évolutions à un pas minimum de 30 minutes pour l’électricité et une journée pour le gaz ;\n-\nde décomposer les consommations (analyse personnalisée par usage) ;\n-\nd’accéder à différents cumuls (heure pour l’électricité uniquement / journée / mois / année) ;\n-\nde comparer ses consommations à celle de foyers similaires ;\n-\nde l’alerter en cas de dépassement de seuils de consommations de référence ;\n-\nd’accéder à un historique de tous les cumuls sur au moins 3 mois et de ceux supérieurs ou égaux à la journée\npendant 2 années glissantes.\n\nLe service apporte de plus au ménage bénéficiaire des conseils personnalisés adaptés à sa situation pour agir sur ses\nconsommations et faire des économies d’énergie. Le service permet de comparer les consommations réalisées à des\nconsommations types et à des seuils. A minima, la comparaison doit être effectuée par rapport à des statistiques de\nconsommations extraites de l’historique disponible. Les consommations types sont établies à partir de moyennes\nnationales et locales pour des profils de consommations comparables à ceux de l’utilisateur.\n\nUn logement ne peut pas bénéficier de plusieurs services de suivi de consommation pour la même énergie (gaz\nnaturel, électricité). Dans le cas où le logement possède un fournisseur différent pour le gaz et l'électricité, il peut\nbénéficier d’un service de suivi pour chaque type d’énergie. Dans le cas où le mode de chauffage principal du\nlogement est électrique, le suivi englobe les consommations d’électricité spécifique et de chauffage.\n\nEn cas de dépassement d’un seuil de consommation de référence, le dispositif émet une alarme explicite (par\nexemple SMS, mail, notification…).\n\nLe dispositif permet l’affichage des informations de suivi et des statistiques des consommations via un support\nnumérique de type espace Web ou via une application mobile.\n\nLa date d’engagement de l’opération est la date de souscription au service de suivi de consommation au travers\nd’une autorisation du ménage à transmettre ses données de consommation dans le cadre de l’utilisation de cette\n\nfiche. La durée de souscription est d’au minimum un an. La date d’achèvement est la date du premier anniversaire\nde la souscription.\n\nLe service doit avoir été consulté par le bénéficiaire en moyenne au moins quatre fois sur la période de souscription.\nPour être prises en compte dans ce décompte, les consultations doivent être espacées d’au moins un mois.\n\nLa preuve de la réalisation de l’opération mentionne la mise à disposition d’un service de suivi des consommations\nmesurées par les compteurs communicants et transmises par les gestionnaires de réseau.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- le descriptif du dispositif issu du prestataire du service indiquant la présence des fonctions détaillées dans la\nprésente fiche ;\n- un justificatif du nombre de connexions au service de suivi des consommations sur la durée de souscription, établi\npar l’opérateur assurant ce suivi.\n\nLe nombre de renouvellements de souscription au service de suivi des consommations pouvant donner lieu à la\ndélivrance de certificats d’économies d’énergie est limité à trois pour un même ménage bénéficiaire dans un même\nlogement.\n\nCette opération n’est pas applicable aux ménages ayant bénéficié d’une opération relevant des fiches BAR-EQ-113,\nBAR-EQ-114 ou BAR-EQ-115.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "1 an.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour une maison individuelle :\nZone\nclimatique\nMontant en kWh cumac selon l’usage\nChauffage électrique\nChauffage gaz\nElectricité spécifique\nH1\n400\n620\n90\nH2\n340\n510\n90\nH3\n250\n380\n90\nPour un appartement :\nZone\nclimatique\nMontant en kWh cumac selon l’usage\nChauffage électrique\nChauffage gaz\nElectricité spécifique\nH1\n160\n340\n60\nH2\n140\n290\n60\nH3\n110\n220\n60\n\nNB : la mise à disposition de l’affichage des consommations peut se faire soit sur la totalité des consommations\nélectriques (montant « chauffage électrique » + montant « Electricité spécifique ») soit sur les consommations de\ngaz et d’électricité spécifique (montant « chauffage gaz » + montant « Electricité spécifique ») soit sur les\nconsommations spécifiques uniquement en fonction des énergies couvertes par le bénéficiaire de la fiche.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -31,7 +68,7 @@
   "systems": {
     "heating": true,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -82,7 +119,8 @@
   "calculation": {
     "formula_text": "de suivre sa consommation d'énergie en kWh et valorisée en euros ;",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -201,29 +239,7 @@
     }
   ],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -231,10 +247,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": null,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf"
     }
   ],
@@ -279,10 +300,10 @@
     "Residentiel_BAR/BAR-SE-106 vA32-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.122806+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

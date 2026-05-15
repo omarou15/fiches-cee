@@ -13,8 +13,8 @@
 - `Transport_TRA/TRA-EQ-128 vA68-3 Feuille récapitulative_0.xlsx`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -39,6 +39,19 @@
 - Montant en kWh cumac
 - *Les montants de certificats indiqués concernent les autobus achetés ou loués ou issus d’une opération de rétrofit
 - **Les montants de certificats indiqués concernent les autobus achetés ou loués ou issus d’une opération de rétrofit
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-2)
+- 4. Durée de vie conventionnelle (pages 2-3)
+- 5. Montant de certificats en kWh cumac (pages 3-3)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 20
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

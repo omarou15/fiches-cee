@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels existants en France d’outre-mer.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Remplacement d’un climatiseur existant par un climatiseur fixe, de classe d’efficacité énergétique supérieure ou\négale à A.\n\nLes climatiseurs à simple ou à double conduit ne sont pas éligibles.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er août 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le climatiseur est de classe A à A+++, selon la classification définie dans le règlement délégué (UE) n° 626/2011\nde la Commission Européenne du 4 mai 2011, individuel (monosplit) ou regroupé (multisplit).\n\nLa puissance frigorifique installée est limitée à 2,64 kW (9000 BTU/h).\n\nLe logement où a lieu l’opération est un appartement.\n\nLa mise en place est réalisée par un professionnel.\n\nLa preuve de réalisation de l’opération mentionne :\n1 - la dépose de l’ancien climatiseur ;\n2 - la mise en place d’un climatiseur ;\n3 - sa puissance frigorifique et sa classe d’efficacité énergétique ou le SEER*.\n\nPar dérogation aux points 2 et 3 ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un\néquipement avec ses marque et référence et elle est complétée par un document issu du fabricant ou d’un organisme\nétabli dans l’Espace économique européen et accrédité selon la norme NF EN 45011 par le Comité français\nd’accréditation (COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral\npertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne des\norganismes d’accréditation.\n\nCe document indique que l’équipement de marque et référence mis en place est un climatiseur et précise sa puissance\nfrigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)\npermettant de déterminer la classe d’efficacité énergétique du climatiseur installé.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "9 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac\nType de logement\nPuissance frigorifique\nde l’appareil en kW\n(ou BTU/h)\n Classe A\n(5,1 ≤ SEER < 5,6)\nClasse A+\n(5,6 ≤ SEER < 6,1)\nClasse A++\n(6,1 ≤ SEER < 8,5)\nClasse A+++\nSEER ≥ 8,5\nAppartement\n2,05    (7000)\n1 300\n2 500\n3 400\n6 300\n2,64    (9000)\n1 600\n2 900\n4 000\n7 400\n\nDans le cas où le bénéficiaire remplace dans un logement des climatiseurs existants par plusieurs climatiseurs de\ncaractéristiques et classe d’efficacité identiques, le montant des certificats d’économies d’énergie, calculé par\nclimatiseur, est multiplié par le nombre de climatiseurs.\n\n*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": true
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -195,7 +232,8 @@
   "calculation": {
     "formula_text": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -241,29 +279,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -271,10 +287,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-08-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 9,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf"
     }
   ],
@@ -319,10 +340,10 @@
     "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.466698+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

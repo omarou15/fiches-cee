@@ -10,8 +10,8 @@
 - `Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -46,6 +46,19 @@
 - - la consommation conventionnelle (en kWh/m².an) du bâtiment (sans déduction de la production d’électricité
 - 5. Montant de certificats en kWh cumac
 - Montants en kWh cumac/m²
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-3)
+- 4. Durée de vie conventionnelle (pages 3-3)
+- 5. Montant de certificats en kWh cumac (pages 3-3)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 30
+- Date limite engagement: 2030-12-31
 
 ## Texte extrait
 Certificats d’économies d’énergie

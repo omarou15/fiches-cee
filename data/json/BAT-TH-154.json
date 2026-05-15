@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment tertiaire existant à usage suivant :\n- Hôtellerie ;\n- Établissement sportif ;\n- Santé ;\n- Terrain de camping équipé de blocs sanitaires collectifs ;\n- Salon de coiffure ;\n- Piscine recevant du public.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de récupération instantanée de la chaleur sur les eaux grises pour la production d’eau\nchaude sanitaire ou le préchauffage des eaux de bassin de piscine.\n\nPour les secteurs hôtellerie, établissement sportif, santé, terrain de camping et salon de coiffure, les eaux grises sont\nles eaux issues des douches, des baignoires, des lavabos ou des éviers. Pour les piscines recevant du public, les eaux\ngrises sont les eaux de bassin évacuées lors du processus de renouvellement de l’eau et/ou du nettoyage des filtres.\nLes forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur\nEtablissement sportif.\n\nLe système de récupération instantanée de chaleur sur les eaux grises permet la récupération de l'énergie perdue\nsous forme de chaleur lors de l'évacuation des eaux grises grâce à un échangeur passif qui transfère cette énergie\ndirectement à l'eau froide alimentant le système de production d'eau chaude sanitaire du bâtiment ou, pour les\npiscines, l’eau froide sanitaire alimentant les bassins. Le puisage de l’eau et son rejet se font de manière simultanée.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe montage de l’installation est configuré soit en débits égaux soit en débits inégaux. Le montage est dit configuré\nen débits égaux si la quantité d’eau froide circulant dans l’échangeur est égale à la quantité d’eaux grises évacuées.\nDans le cas contraire, le montage est dit configuré en débits inégaux.\n\nRécupération instantanée de chaleur sur eaux grises pour la production d’eau chaude sanitaire :\nLe taux d’efficacité nominal ε du système de récupération de chaleur doit être supérieur ou égal à 35%. Ce taux\nd’efficacité nominal est mesuré par un organisme indépendant accrédité selon la norme NF EN ISO/IEC 17025 par\nle COFRAC ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans\nle cadre de la coordination européenne des organismes d'accréditation. Il est mesuré sur la base du référentiel\nCAPE/RECADO-PQE pour la mesure des performances de système de récupération de chaleur sur des eaux grises.\n\nLa preuve de la réalisation de l’opération mentionne :\n- La mise en place d’un système de récupération instantanée de chaleur sur eaux grises pour la production d’eau\nchaude sanitaire,\n\n- Le mode d’installation du système de récupération en débits égaux ou inégaux,\n- Le nombre d’unités propre à l’opération (selon le cas, il s’agit du nombre de douches raccordées au système, du\nnombre de chambres équipées du système ou du nombre de salons équipés)\n- L’efficacité du système de récupération de chaleur mesuré selon le protocole de test CAPE/RECADO-PQE.\n\nLe document justificatif spécifique à l’opération est le document attestant l’efficacité du système de récupération de\nchaleur mesurée selon le protocole de test CAPE/RECADO-PQE par l’organisme indépendant accrédité.\n\nRécupération instantanée de chaleur sur eaux grises pour le préchauffage des eaux de bassin de piscine :\nLe taux d’efficacité nominal ε du système de récupération de chaleur doit être supérieur ou égal à 35%. Il est mesuré\nen prenant en compte les paramètres suivants : le fluide du circuit primaire et secondaire est de l’eau ; la température\nd’entrée du circuit primaire est de 28°C, la température d’entrée du circuit secondaire est de 12,3°C ; les débits du\nfluide du circuit primaire et du circuit secondaire sont de 20 l/min.\nL’essai et le matériel de mesurage sont certifiés COFRAC selon la norme NF EN ISO/IEC 17025.\n\nLa mesure sur l’échangeur thermique est réalisée conformément aux normes NF EN 247 Décembre 1997\n(Échangeurs thermiques - Terminologie), NF EN 305 Novembre 1997 (Échangeurs thermiques - Définitions de la\nperformance des échangeurs thermiques et procédure générale d'essai pour la détermination de la performance de\ntous les échangeurs thermiques) et NF EN 306 Novembre 1997 (Échangeurs thermiques - Méthodes de mesurage\ndes paramètres nécessaires à l'évaluation des performances).\n\nLa preuve de la réalisation de l’opération mentionne :\n- La mise en place d’un système de récupération instantanée de chaleur sur eaux grises pour le préchauffage des\neaux de bassin de piscine,\n- Le mode d’installation du système de récupération en débits égaux ou inégaux,\n- L’efficacité du système de récupération de chaleur.\n\nLes documents justificatifs spécifiques à l’opération sont d’une part le document attestant l’efficacité du système de\nrécupération de chaleur mesurée selon les normes NF 247, NF 305 et NF 306 et selon le protocole de test présenté\nci-dessus et d’autre part une copie du carnet sanitaire ainsi qu’un bilan de la fréquentation (nombre de baigneurs)\nfournis par le gestionnaire de la piscine couvrant la dernière année d’activité précédant la date d’engagement de\nl’opération.\n\nN.B : Dans le cas où tous les bassins d’une piscine ne seraient pas équipés du système de récupération, le bilan de\nla fréquentation ne portera que sur les baigneurs ayant fréquenté les bassins équipés. Cette donnée pourra être\ndéterminée via une étude d’implantation réalisée par un professionnel et validée par le gestionnaire de la piscine.\nCette étude sera ajoutée aux documents justificatifs spécifiques à l’opération.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Cas 1 : Débits inégaux*\nUsage du\nBâtiment\nZone\nclimatique\nVolume\nunitaire en\nkWh cumac\n\nNombres\nd’unités\nTypes\nd’unités\n\nEfficacité du\nrécupérateur\n(ε) en %\nHôtellerie\nH1\n13 000\nX\nN\nChambres\néquipées\nX\nε\nH2\n12 200\nH3\n10 900\nEtablissement\nsportif\nH1\n18 100\nN\nDouches\nraccordées\nau système\nH2\n17 100\nH3\n15 300\nSanté\nH1\n6 400\nN\nChambres\néquipées\nH2\n6 000\nH3\n5 300\nTerrain de\ncamping\nH1\n72 200\nN\nDouches\nraccordées\nau système\nH2\n67 900\nH3\n60 900\nSalon de\ncoiffure\nH1\n33 300\nN\nSalons\néquipés\nH2\n27 100\nH3\n17 900\n\n*En préchauffage du système de production d’eau chaude sanitaire ou en préchauffage du mitigeur d’eau froide de\nla douche.\n\nCas 2 : Débits égaux**\nUsage du Bâtiment\nZone\nclimatique\nVolume\nunitaire en\nkWh cumac\n\nNombres\nd’unités\nTypes\nd’unités\n\nEfficacité du\nrécupérateur\n(ε) en %\nHôtellerie\nH1\n16 500\nX\nN\nChambres\néquipées\nX\nε\nH2\n15 500\nH3\n13 800\nEtablissement sportif\nH1\n22 900\nN\nDouches\nraccordées\nau système\nH2\n21 600\nH3\n19 300\nSanté\nH1\n8 100\nN\nChambres\néquipées\nH2\n7 600\nH3\n6 800\nTerrain de camping\nH1\n91 400\nN\nDouches\nraccordées\nau système\nH2\n86 000\nH3\n77 000\nSalon de coiffure\nH1\n42 100\nN\nSalons\néquipés\nH2\n34 300\nH3\n22 700\nPiscines recevant du public\n(renouvellement bassin +\nlavages des filtres\nH1\n35\nN\nBaigneurs/an\nH2\n32\nH3\n27\nPiscines recevant du public\n(renouvellement bassin seul)\nH1\n11\nN\nBaigneurs/an\nH2\n10\nH3\n8\n\n**En préchauffage à la fois du système de production d’eau chaude sanitaire et du mitigeur d’eau froide de la douche\net en préchauffage des eaux de bassin de piscines recevant du public.\n\nNB : Les forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur\nétablissement sportif.\nNB : Pour une efficacité énergétique ε du récupérateur de 35%, la valeur prise en compte dans le calcul est de 0,35.",
+      "page_start": 3,
+      "page_end": 4
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -195,7 +232,8 @@
   "calculation": {
     "formula_text": "Les forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -346,10 +384,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-154 vA28-1.pdf"
     }
   ],
@@ -394,10 +437,10 @@
     "Tertiaire_BAT/BAT-TH-154 vA28-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.062938+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

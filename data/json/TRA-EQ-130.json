@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Transport de voyageurs ou de marchandises par des véhicules électriques neufs de catégorie L7e-C et L6e-B (au\nsens de l’article R. 311-1 du code de la route).",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Achat ou location longue durée de quadricycles électriques neufs par des collectivités territoriales, leurs\ngroupements et leurs établissements publics, par d’autres personnes morales ou des particuliers.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er janvier 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La présente fiche concerne :\na) L’achat d’un ou plusieurs quadricycles électriques neufs ; ou\nb) La location d’une durée minimale de vingt-quatre mois, hors reconduction tacite, d’un ou plusieurs quadricycles\nélectriques neufs.\n\nUn quadricycle électrique neuf au sens de la présente fiche appartient aux catégories L6e-B et L7e-C mentionnées\nà l’article R. 311-1 du code de la route.\n\nEst considéré dans la présente fiche comme étant un véhicule électrique un véhicule qui utilise l'électricité comme\nsource exclusive d'énergie.\n\nLe bénéficiaire est une collectivité locale, un groupement de collectivités locales, un de leurs établissements publics,\nune autre personne morale ou un particulier.\n\nLorsque le bénéficiaire est une personne physique, le nombre de véhicules valorisables au titre de la présente fiche\nest inférieur ou égal à 2 véhicules, toutes catégories confondues, par personne physique.\nUn véhicule précédemment affecté à la démonstration par un concessionnaire ou un agent de marque, au sens de\nl’arrêté du 9 février 2009 relatif aux modalités d'immatriculation des véhicules, est éligible à la présente fiche si\nl’achat ou la prise en location intervient dans un délai compris entre trois et douze mois suivant sa première\nimmatriculation.\n\nLe véhicule acquis ne peut être revendu à une personne physique résidant en dehors du territoire national ou une\npersonne morale ayant son activité principale en dehors du territoire national sur la durée de vie conventionnelle\ndéfinie dans la présente fiche.\n\nLa preuve de la réalisation de l’opération mentionne l’achat ou la location d’un (ou plusieurs) quadricycle(s)\nélectrique(s) neuf(s), ainsi que la catégorie à laquelle appartient chacun des véhicules achetés ou loués (L6e-B ou\nL7e-C), mentionne le numéro d’immatriculation des véhicules acquis et identifie les véhicules précédemment\naffectés à la démonstration.\nIl est également mentionné si ces véhicules sont achetés ou loués par un particulier, l’Etat ou une collectivité locale\n(ou groupement de collectivités) ou une autre personne morale.\n\nLes documents justificatifs spécifiques à l’opération sont les suivants :\n- la copie du certificat provisoire ou définitif d’immatriculation définitive des véhicules achetés ou loués ;\n- pour les véhicules précédemment affectés à la démonstration, le premier certificat d'immatriculation et le récépissé\nde fin de démonstration ;\n- pour un achat groupé : la feuille récapitulative, disponible sur le site internet du ministère chargé de l’énergie,\nmentionnant les caractéristiques des véhicules achetés ou loués dès lors que plusieurs véhicules sont concernés pour\nun même bénéficiaire.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "12 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Catégorie du véhicule\nMontant en kWh cumac\npar véhicule\n\nNombre de\nvéhicules\nVéhicule acheté ou loué par un particulier, un vendeur ou un loueur de\nvéhicules\n\nN\nL7e-C\n36 400\nX\nL6e-B\n19 000\nVéhicule acheté ou loué par une collectivité locale ou l’Etat\nL7e-C\n86 100\nL6e-B\n48 800\nVéhicule acheté ou loué par une autre personne morale\nL7e-C\n72 900\nL6e-B\n41 300",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -91,7 +128,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -121,10 +159,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-09-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 12,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-130 vA73-3 à compter du 01-09-2025.pdf"
     }
   ],
@@ -205,10 +248,10 @@
     "Transport_TRA/TRA-EQ-130 vA73-3 Feuille récapitulative.xls"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.856694+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

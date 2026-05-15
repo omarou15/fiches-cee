@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment tertiaire existant.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place ou intégration dans une installation de climatisation existante ou neuve d’un système de freecooling\npar eau de refroidissement, en substitution d’un groupe froid, permettant de refroidir un réseau hydraulique de\nclimatisation en utilisant l’air extérieur.\n\nLe système peut être constitué d’un aéroréfrigérant neuf avec ou sans échangeur ou d’une tour aéroréfrigérante\n(TAR) neuve avec échangeurs, et comporte dans tous les cas un système d’automatisme et de régulation.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe système de freecooling installé est dimensionné pour couvrir, lorsqu’il fonctionne, 100% du besoin nominal en\nfroid quand la température extérieure est au moins 3°C inférieure à la température de consigne.\n\nLa mise en place du système de freecooling fait l’objet d’une étude de dimensionnement préalable établie, datée et\nsignée par un professionnel ou un bureau d’étude précisant :\n- les besoins en froid du bâtiment en fonction des périodes de l’année,\n- le descriptif des installations avant et après travaux,\n- le descriptif des équipements installés en vue de permettre le refroidissement de l’eau en substitution du\ngroupe froid,\n- la justification que le système installé est capable de couvrir 100% du besoin nominal en froid du bâtiment,\n- les caractéristiques (marque, référence et puissance électrique nominale en kW) du groupe de production de\nfroid (mono-compresseur ou multi-compresseurs),\n- et une évaluation des économies d’énergie attendues en fonction de la marche prévisible des installations\n(heures de fonctionnement, taux de charge…).\n\nLa preuve de réalisation de l’opération mentionne l’installation d’un système de freecooling par eau de\nrefroidissement utilisant l’air extérieur.\n\nÀ défaut, la preuve de réalisation de l'opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence\ninstallé est un système de freecooling par eau de refroidissement utilisant l’air extérieur.\n\nLe document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place du\nsystème de freecooling par eau de refroidissement, en substitution d’un groupe froid, utilisant l’air extérieur.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "14 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone climatique\nMontant en kWh cumac par kW\n\nPuissance\nélectrique\nnominale du\ngroupe de\nproduction de froid\n(en kW)\n\nSecteur\nCoefficient\nmultiplicateur\nPlages de températures de\nconsigne du réseau\n\n\n[15°C ; 18°C[\n[18°C ; 20°C]\n\n\nClimatisation\nhors Data Center\n1\nH1\n5 100\n6 400\nX\nPcompresseur(s)\nX\nH2\n4 200\n5 900\nClimatisation\nData Center\n4,5\nH3\n3 000\n4 700\n\nLa température de consigne du réseau hydraulique correspond à la température de départ du groupe de production\nde froid.\n\nPcompresseurs est la puissance électrique nominale (en kW) figurant sur la plaque signalétique du groupe mono-\ncompresseur ou multi-compresseurs raccordé au système de freecooling pour la plage de température de consigne\ndu réseau concernée ou à défaut celle indiquée sur un document issu du fabricant du groupe mono-compresseur ou\nmulti-compresseurs raccordé au système de freecooling pour la plage de température de consigne du réseau\nconcernée. La puissance du ou des compresseurs de secours n’est pas à comptabiliser.\n\nUn groupe de production de froid ne peut faire l’objet que d’une seule délivrance de certificats d’économies\nd’énergie pour la mise en place d’un système de freecooling.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -106,7 +143,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -177,10 +215,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 14,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-156 vA31-1.pdf"
     }
   ],
@@ -225,10 +268,10 @@
     "Tertiaire_BAT/BAT-TH-156 vA31-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.079944+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

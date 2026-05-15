@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture : serres maraîchères, neuves ou existantes.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de déshumidification thermodynamique fixe pour gérer l’hygrométrie dans une ou\nplusieurs serres maraîchères chauffées.\n\nUne serre est considérée comme chauffée lorsque sa température de consigne minimale pour le chauffage est\nsupérieure à 12°C sur la période de culture.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er septembre 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe système de déshumidification thermodynamique peut être composé d’une ou plusieurs unités de\ndéshumidification fixes. En particulier, la mise en place d’unités de déshumidification montées sur roulettes n’est\npas éligible.\n\nLe système de déshumidification est piloté via un ordinateur climatique.\n\nLe système de déshumidification peut être installé à l’intérieur ou à l’extérieur de la serre chauffée et peut être\nconnecté ou non à des gaines aérauliques.\n\nLes unités de déshumidification installées sont reliées exclusivement au réseau public de distribution d’électricité.\n\nChaque unité de déshumidification installée respecte les conditions suivantes à 20 °C et 80 % d’humidité relative\n(Hr) :\n- capacité de déshumidification (C) : C > 9 L/h ;\n- performance (R) définie comme le rapport entre la capacité de déshumidification, exprimée en L/h, et la puissance\nélectrique absorbée exprimée en kW : R > 2 L/kWh.\n\nLes caractéristiques de chaque modèle ou référence d’unité de déshumidification installée sont attestées par un\nrapport d’essai établi par un laboratoire certifié par l’ILAC (International Laboratory Accreditation Cooperation)\ndont fait partie l’organisme français COFRAC et l’organisme européen EA (European accreditation) selon la norme\nISO 17025. Ce rapport indique la marque ainsi que le modèle ou la référence de l’unité de déshumidification et ses\ncaractéristiques à 20°C et 80 % (Hr) : capacité de déshumidification (C) exprimée en L/h et puissance électrique\nabsorbée exprimée en kW. Ce rapport inclut une photo de chaque unité de déshumidification et de sa plaque\nsignalétique.\n\nAu sens de la présente fiche, un bloc de serre est un volume délimité par des parois de serre.\n\nPour chaque bloc de serre chauffée, la capacité de déshumidification pour 1 000 m2 de serre chauffée (D) du système\nde déshumidification installé est supérieure à 9 L/h à 20 °C et 80 % (Hr).\n\nChaque bloc de serre est équipé d’au moins une unité de déshumidification permettant le respect des conditions\nsusmentionnées propres aux grandeurs R, C et D.\n\nLa mise en place d’un système de déshumidification thermodynamique fait l’objet d’une étude préalable de\ndimensionnement, datée et signée par le professionnel ou par un bureau d’études. Cette étude comporte les\ncoordonnées du professionnel ou du bureau d’études (adresse de courriel, numéro de téléphone) ainsi que, le cas\néchéant, leur numéro SIREN.\n\nCette étude identifie les besoins de déshumidification nécessaires pour garantir une déshumidification performante\net la maîtrise des consommations d’énergie. Elle comporte, pour chaque bloc de serre chauffée, le nombre d’unités\nde déshumidification, ainsi que le plan d’implantation de chaque unité. Elle justifie, pour chaque bloc de serre\nchauffée et chaque modèle ou référence d’unité de déshumidification, le respect des conditions susmentionnées\npropres aux grandeurs R, C et D. Elle mentionne, pour chaque bloc de serre chauffée, la température de consigne\nen période de culture avec des relevés mensuels de température, ou, à défaut, toute pièce justificative permettant de\nvérifier cette température de consigne.\n\nLa preuve de réalisation de l’opération mentionne :\n- la mise en place d’un système de déshumidification thermodynamique fixe, avec les marques, ainsi que les modèles\nou références concernés et, pour chaque modèle ou référence, le nombre d’unités de déshumidification installées ;\n- la surface, exprimée en mètre carré, de chaque bloc de serre chauffée ;\n- pour chaque bloc de serre chauffée, la capacité de déshumidification pour 1 000 m² de serre chauffée (D) du\nsystème de déshumidification installé à 20°C et 80 % (Hr).\n\nLes documents justificatifs spécifiques à l’opération sont les suivants :\n- l’étude de dimensionnement susmentionnée ; et\n- le rapport d’essai susmentionné de chaque modèle ou référence d’unité de déshumidification installée.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "17 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant du gain en\nkWh cumac par m²\n\nSurface de serre\néquipée (m²)\n710\nX\nS\n\nAnnexe 1 à la fiche d’opération standardisée AGRI-TH-117,\ndéfinissant le contenu de la partie A de l’attestation sur l’honneur\n\nA/ AGRI-TH-117 (v. A73.3) : Mise en place d’un système de déshumidification thermodynamique pour gérer\nl’hygrométrie dans les serres maraîchères.\n\n*Date d’engagement de l'opération (ex : date d’acceptation du devis) : …..........................\nDate de preuve de réalisation de l’opération (ex : date de la facture) : ….........................\nRéférence de la facture : ….........................\n*Nom du site des travaux : ….........................\n*Adresse des travaux : ……......................\nComplément d’adresse : ……......................\n*Code postal : ……......................\n*Ville : ……......................\n\n*Serres maraîchères :    □ OUI      □ NON\n\n*Nombre de blocs de serre chauffée concernés par l’opération :……………\nNB : un bloc de serre est un volume délimité par des parois de serre.\n\n*Le système de déshumidification thermodynamique est fixe et est piloté via un ordinateur climatique :      □ OUI     □ NON\n\n*La température de consigne minimale pour le chauffage est supérieure à 12 °C sur la période de culture :       □ OUI     □\nNON\n\nL’ensemble des éléments ci-dessous sont à reproduire et renseigner pour chaque bloc de serre chauffée équipé dans le cadre de\nl’opération.\n\n*Numéro du bloc de serre chauffée (numéro attribué par le bénéficiaire) :……………\n\n*Surface du bloc de serre chauffée considéré (m²) : ……......................\n\n*Nombre d’unités de déshumidification installées pour le bloc de serre chauffée considéré : ……......................\n\n*Caractéristiques des unités de déshumidification installées pour le bloc de serre chauffée considéré :\n\n\nModèle / Référence 1\nModèle / Référence 2\nMarque et modèle / référence\n\n\nNuméros de série (noter tous les numéros de série\ndes unités de déshumidifcation installées pour un\nmême modèle/référence)\n\n\nC (L/h) par unité de déshumidification\n\n\nPuissance électrique P (kW) par unité de\ndéshumidification\n\n\nPerformance R (L/kWh) par unité de\ndéshumidification\n\n\nNombre d’unités de déshumidification par\nréférence / modèle\n\n\nCapacité totale (L/h) des unités de\ndéshumidification du même modèle / référence\n\nCapacité totale du système CT (L/h) pour le bloc de\nserre chauffée considéré\n\nD (L/h) pour 1 000 m2\n\n\nDans le tableau ci-dessus :\n- C est la capacité de déshumidification exprimée en litres/heure à 20°C et 80 % d’humidité relative (Hr). C > 9 L/h.\n- P est la puissance électrique consommée exprimée en kW à 20°C et 80 % d’humidité relative (Hr).\n- R est le rapport C/P exprimé en litres/kWh à 20°C et 80 % d’humidité relative (Hr). R > 2 L/kWh.\n- CT est la capacité totale du système, c’est-à-dire la somme des capacités C des unités de déshumidification du même\nmodèle / référence.\n- D est la capacité totale du système CT ramenée à une surface de 1 000 m2. D > 9 L/h.\n\nIl convient d’ajouter autant de colonnes au tableau ci-dessus que de modèles/références d’unités de déshumidification aux\ncaractéristiques identiques.\n\n*Coordonnées de l’entité ayant établi l’étude de dimensionnement préalable :\n*Raison sociale : …..........……….....................\n*Numéro SIREN : ….......……….....................\n*Référence de l’étude de dimensionnement : ……………………….\n*Date de l’étude de dimensionnement préalable :  …..../............/.............\n*Adresse de courriel :………………………………………\n*Numéro de téléphone :…………………………………",
+      "page_start": 2,
+      "page_end": 4
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -31,7 +68,7 @@
   "systems": {
     "heating": true,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -172,7 +209,8 @@
   "calculation": {
     "formula_text": "électrique absorbée exprimée en kW : R > 2 L/kWh.",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -226,29 +264,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": true,
     "dpt_required": null,
@@ -256,10 +272,15 @@
     "photos_required": true,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-09-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 17,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf"
     }
   ],
@@ -304,10 +325,10 @@
     "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:56.985363+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

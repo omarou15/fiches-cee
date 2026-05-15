@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment résidentiel (appartement ou maison individuelle) existant.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Raccordement d’un bâtiment résidentiel existant à un réseau de chaleur.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nL’opération respecte les conditions cumulatives suivantes :\n- le bâtiment n’a jamais été raccordé à un réseau de chaleur dans le délai de cinq ans précédant la date de\nl'engagement de l'opération ;\n- le cas échéant, le ou les raccordements précédents n'ont pas fait l'objet d'une demande de certificats d’économies\nd’énergie.\n\nLa preuve de réalisation de l’opération est le contrat de fourniture de chaleur entre le bénéficiaire de l’opération et\nle gestionnaire du réseau.\n\nLa date d’achèvement de l’opération est la date de prise d’effet du contrat de fourniture de chaleur ou de première\nlivraison de chaleur mentionnée au contrat.\n\nLe document de preuve de réalisation de l’opération produit à l’appui de la demande de certificats d’économies\nd’énergie comporte les extraits d’intérêt du contrat de fourniture de chaleur mentionnant :\n- les parties signataires et leurs signatures (nom ou raison sociale, adresse et représentants) ;\n- la date de signature du contrat et celle de sa prise d’effet ou de la première livraison de chaleur ;\n- la désignation, l’adresse et le nombre de logements desservis par le réseau de chaleur lors de ce raccordement.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "30 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour un logement collectif :\nZone climatique\nMontant en kWh cumac par\nappartement\n\n\nX\nNombre d’appartements\nraccordés\nH1\n47 700\nN\nH2\n39 500\nH3\n30 800\n\nPour une maison individuelle :\nZone climatique\nMontant en kWh cumac\nX\nFacteur\ncorrectif\nSurface habitable S\nen m²\nH1\n48 300\n0,5\nS < 70\nH2\n40 200\n0,7\n70 ≤ S < 90\nH3\n29 600\n1\n90 ≤ S",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -82,7 +119,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -185,10 +223,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2026-01-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 30,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026_2.pdf"
     }
   ],
@@ -257,10 +300,10 @@
     "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.438698+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -10,8 +10,8 @@
 - `Residentiel_BAR/BAR-TH-178 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -62,6 +62,19 @@
 - Montant kWh cumac par
 - nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient
 - de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination de l’opération (pages 1-7)
+- 3. Conditions pour la délivrance de certificats (pages 2-6)
+- 4. Durée de vie conventionnelle (pages 6-6)
+- 5. Montant de certificats en kWh cumac (pages 6-7)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 25
+- Date limite engagement: 2030-12-31
 
 ## Texte extrait
 Certificats d’économies d’énergie

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment résidentiel existant.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place, sur un chauffe-eau électrique à effet Joule individuel existant, d’un système de régulation\nde la consommation électrique du chauffe-eau selon les besoins.\n\nCe système de régulation permet, grâce à un apprentissage en continu, d’identifier les besoins du foyer\net les niveaux de température de stockage de l’eau dans le chauffe-eau pour ensuite optimiser ce niveau\nde température par rapport au besoin.\n\nLe système de régulation pilote la consommation électrique du chauffe-eau en modifiant la température\nde consigne de l’eau et/ou en ordonnant directement à l’appareil de maintenir ou d’interrompre sa\nconsommation pour une période donnée.\n\nLa présente fiche s’applique aux opérations engagées jusqu’au 31 décembre 2028.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa présente fiche concerne l’achat et la mise en place d’un système neuf de régulation sur un chauffe-\neau individuel existant à effet Joule n’en disposant pas.\n\nLe dispositif de régulation acquis, répondant aux fonctionnalités de classe A de la norme\nNF EN ISO 52120-1 pour les bâtiments résidentiels, est composé :\n- d’une sonde qui mesure la température de stockage de l’eau dans le chauffe-eau ;\n- d’un service d’analyse de données et de pilotage du chauffe-eau ;\n- d’un équipement de pilotage du chauffe-eau ;\n- d’un moyen de mesure ou d’estimation de la consommation d’eau chaude.\n\nOn entend par classe A au sens de la norme NF EN ISO 52120-1 une régulation permettant une\ncommande automatique de marche/arrêt du chauffe-eau, une programmation du temps de charge et une\ngestion du stockage avec capteurs.\n\nLa preuve de réalisation mentionne la mise en place d’un système de régulation de la consommation\nélectrique d’un chauffe-eau électrique à effet Joule à des fins d'économies d'énergie, permettant la\nmesure de la consommation d'ECS et la programmation des périodes de chauffe en fonction du stock\nd'ECS et du besoin identifié.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par logement\n\n\n\nZone\nclimatique\nMaison\nAppartement\n\nFacteur correctif en fonction de la taille\ndu ballon d’eau chaude\nVchauffe-eau (Litres)\n\n\nH1\n9 000\n7 100\nX\n10 L ≤ Vchauffe-eau ≤ 150 L\n0,96\nH2\n8 600\n7 100\n\nVchauffe-eau > 150 L\n1,04\nH3\n8 000\n6 500",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -83,7 +120,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -146,10 +184,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2023-12-29",
+    "engagement_deadline": "2028-12-31"
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf"
     }
   ],
@@ -194,10 +237,10 @@
     "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.920553+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

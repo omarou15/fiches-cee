@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments tertiaires en France métropolitaine.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de régulation sur un groupe de production de froid permettant d’avoir une haute pression\nflottante.\nCe système de régulation calcule en continu la consigne optimale de pression de condensation en fonction de la\ntempérature extérieure mesurée et régule la pression de condensation en ajustant la puissance de refroidissement au\ncondenseur.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa mise en place d’un système de régulation permettant d’avoir une haute pression flottante sur un groupe de\nproduction de froid pour la climatisation de confort des occupants, hors centre de données informatiques (ou\nDatacenter), ne s’applique pas aux bâtiments neufs relevant de la catégorie CE1 telle que définie par les arrêtés du\n26 octobre 2010 et du 28 décembre 2012 relatifs aux caractéristiques thermiques et aux exigences de performance\nénergétique des bâtiments nouveaux et des parties nouvelles de bâtiments.\n\nUn centre de données informatiques (ou datacenter) est un bâtiment ou un local au sein d’un bâtiment regroupant\ndes équipements informatiques (serveurs, baies de stockage, équipements réseaux, etc.) permettant le stockage, le\ntraitement et la protection des données informatiques.\n\nLa mise en place du système de régulation permettant d’avoir une haute pression flottante fait l’objet d’une étude\ntechnique préalable établie par un professionnel ou un bureau d’étude précisant les besoins en froid de l’installation\net la puissance électrique nominale nécessaire à son fonctionnement. Cette étude mentionne les caractéristiques du\ngroupe de production de froid (mono-compresseur ou multi-compresseurs) et sa puissance électrique nominale totale\nen kW.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un système de régulation sur un groupe de\nproduction de froid.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d'un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence\ninstallé est un système de régulation sur un groupe de production de froid.\n\nLe document justificatif spécifique à l’opération est l’étude technique préalable à la mise en place de la régulation.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "14 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Climatisation de confort d’un local (hors datacenter) :\nZone\nclimatique\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ntotale du groupe de\nproduction de froid en kW\nCondensation par\nrapport à l’atmosphère\nCondensation\nà eau seul\n\n\nX\nH1\n2 000\n670\nP\nH2\n1 800\n480\nH3\n1 600\n290\n\nClimatisation d’un datacenter :\nZone\nclimatique\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ntotale du groupe de\nproduction de froid en kW\nCondensation par\nrapport à l’atmosphère\nCondensation à\neau seul\n\n\nX\nH1\n22 800\n14 500\nP\nH2\n20 500\n13 900\nH3\n20 200\n11 300\n\nAutres applications de type réfrigération ou conditionnement d’ambiance hors confort des occupants :\nZone\nclimatique\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ntotale du groupe de\nproduction de froid en kW\nCondensation par\nrapport à l’atmosphère\nCondensation à\neau seul\n\n\nX\nH1\n19 100\n13 400\nP\nH2\n17 000\n12 800\nH3\n16 400\n10 500\n\nDans chaque cas, la puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du groupe\nde production de froid (mono-compresseur ou multi-compresseurs) ou à défaut celle indiquée sur un document issu\ndu fabricant du groupe mono-compresseur ou multi-compresseurs. La puissance des compresseurs de secours n’est\npas comptabilisée.\n\nSont considérés comme systèmes de condensation par rapport à l’atmosphère, les condenseurs suivants :\n- condenseur à air sec adiabatique ou non,\n- condenseur à eau plus aéroréfrigérant à air sec adiabatique ou non,\n- condenseur évaporatif hybride ou non,\n- condenseur à eau plus tour ouverte hybride ou non,\n- condenseur à eau plus tour fermée hybride ou non.\n\nSont considérés comme systèmes de condensation à eau seule, les condenseurs à eau provenant d’une nappe ou d’un\ncours d’eau.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -115,7 +152,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -258,10 +296,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 14,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf"
     }
   ],
@@ -306,10 +349,10 @@
     "Tertiaire_BAT/BAT-TH-134 v A22-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.910068+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

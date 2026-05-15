@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T15:30:01.254232+00:00",
+  "generated_at": "2026-05-15T00:00:00+00:00",
   "tool_version": "0.1.0",
   "summary": {
     "total_documents": 746,
@@ -11,14 +11,25 @@
     "fiches_with_json": 217,
     "fiches_with_markdown": 217,
     "fiches_with_empty_text": 0,
-    "fiches_needing_review": 1,
+    "fiches_needing_review": 216,
     "fiches_missing_required_documents": 0,
     "fiches_missing_calculation": 1,
     "extracted": 217,
     "failed": 0,
-    "needs_review": 1
+    "needs_review": 216
   },
-  "priority_failures": [],
+  "priority_failures": [
+    {
+      "code": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "reason": "needs review",
+      "severity": "high"
+    },
+    {
+      "code": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "reason": "needs review",
+      "severity": "high"
+    }
+  ],
   "items": [
     {
       "source_file": "Agriculture_AGRI/AGRI-EQ-101 vA14-1.pdf",
@@ -27,7 +38,7 @@
         "data/markdown/AGRI-EQ-101.md",
         "data/json/AGRI-EQ-101.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1201,
       "warnings": [],
       "error": null
@@ -39,7 +50,7 @@
         "data/markdown/AGRI-EQ-102.md",
         "data/json/AGRI-EQ-102.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1266,
       "warnings": [],
       "error": null
@@ -51,7 +62,7 @@
         "data/markdown/AGRI-EQ-104.md",
         "data/json/AGRI-EQ-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1095,
       "warnings": [],
       "error": null
@@ -63,7 +74,7 @@
         "data/markdown/AGRI-EQ-105.md",
         "data/json/AGRI-EQ-105.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1635,
       "warnings": [],
       "error": null
@@ -75,7 +86,7 @@
         "data/markdown/AGRI-EQ-106.md",
         "data/json/AGRI-EQ-106.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5692,
       "warnings": [],
       "error": null
@@ -87,7 +98,7 @@
         "data/markdown/AGRI-EQ-107.md",
         "data/json/AGRI-EQ-107.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2492,
       "warnings": [],
       "error": null
@@ -99,7 +110,7 @@
         "data/markdown/AGRI-EQ-108.md",
         "data/json/AGRI-EQ-108.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2936,
       "warnings": [],
       "error": null
@@ -111,7 +122,7 @@
         "data/markdown/AGRI-EQ-109.md",
         "data/json/AGRI-EQ-109.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3088,
       "warnings": [],
       "error": null
@@ -123,7 +134,7 @@
         "data/markdown/AGRI-EQ-110.md",
         "data/json/AGRI-EQ-110.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3385,
       "warnings": [],
       "error": null
@@ -135,7 +146,7 @@
         "data/markdown/AGRI-EQ-111.md",
         "data/json/AGRI-EQ-111.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1299,
       "warnings": [],
       "error": null
@@ -147,7 +158,7 @@
         "data/markdown/AGRI-EQ-112.md",
         "data/json/AGRI-EQ-112.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1771,
       "warnings": [],
       "error": null
@@ -159,7 +170,7 @@
         "data/markdown/AGRI-SE-101.md",
         "data/json/AGRI-SE-101.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1650,
       "warnings": [],
       "error": null
@@ -171,7 +182,7 @@
         "data/markdown/AGRI-TH-101.md",
         "data/json/AGRI-TH-101.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1075,
       "warnings": [],
       "error": null
@@ -183,7 +194,7 @@
         "data/markdown/AGRI-TH-102.md",
         "data/json/AGRI-TH-102.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 963,
       "warnings": [],
       "error": null
@@ -195,7 +206,7 @@
         "data/markdown/AGRI-TH-103.md",
         "data/json/AGRI-TH-103.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1568,
       "warnings": [],
       "error": null
@@ -207,7 +218,7 @@
         "data/markdown/AGRI-TH-104.md",
         "data/json/AGRI-TH-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8918,
       "warnings": [],
       "error": null
@@ -219,7 +230,7 @@
         "data/markdown/AGRI-TH-105.md",
         "data/json/AGRI-TH-105.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1565,
       "warnings": [],
       "error": null
@@ -231,7 +242,7 @@
         "data/markdown/AGRI-TH-108.md",
         "data/json/AGRI-TH-108.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4341,
       "warnings": [],
       "error": null
@@ -243,7 +254,7 @@
         "data/markdown/AGRI-TH-109.md",
         "data/json/AGRI-TH-109.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1556,
       "warnings": [],
       "error": null
@@ -255,7 +266,7 @@
         "data/markdown/AGRI-TH-110.md",
         "data/json/AGRI-TH-110.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2228,
       "warnings": [],
       "error": null
@@ -267,7 +278,7 @@
         "data/markdown/AGRI-TH-113.md",
         "data/json/AGRI-TH-113.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1869,
       "warnings": [],
       "error": null
@@ -279,7 +290,7 @@
         "data/markdown/AGRI-TH-117.md",
         "data/json/AGRI-TH-117.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8172,
       "warnings": [],
       "error": null
@@ -303,7 +314,7 @@
         "data/markdown/AGRI-TH-119.md",
         "data/json/AGRI-TH-119.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2183,
       "warnings": [],
       "error": null
@@ -315,7 +326,7 @@
         "data/markdown/AGRI-UT-101.md",
         "data/json/AGRI-UT-101.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2450,
       "warnings": [],
       "error": null
@@ -327,7 +338,7 @@
         "data/markdown/AGRI-UT-102.md",
         "data/json/AGRI-UT-102.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2160,
       "warnings": [],
       "error": null
@@ -339,7 +350,7 @@
         "data/markdown/AGRI-UT-103.md",
         "data/json/AGRI-UT-103.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1508,
       "warnings": [],
       "error": null
@@ -351,7 +362,7 @@
         "data/markdown/AGRI-UT-104.md",
         "data/json/AGRI-UT-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2862,
       "warnings": [],
       "error": null
@@ -363,7 +374,7 @@
         "data/markdown/IND-BA-110.md",
         "data/json/IND-BA-110.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8670,
       "warnings": [],
       "error": null
@@ -375,7 +386,7 @@
         "data/markdown/IND-BA-113.md",
         "data/json/IND-BA-113.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3762,
       "warnings": [],
       "error": null
@@ -387,7 +398,7 @@
         "data/markdown/IND-BA-114.md",
         "data/json/IND-BA-114.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2669,
       "warnings": [],
       "error": null
@@ -399,7 +410,7 @@
         "data/markdown/IND-BA-117.md",
         "data/json/IND-BA-117.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4398,
       "warnings": [],
       "error": null
@@ -411,7 +422,7 @@
         "data/markdown/IND-EN-101.md",
         "data/json/IND-EN-101.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2048,
       "warnings": [],
       "error": null
@@ -423,7 +434,7 @@
         "data/markdown/IND-EN-102.md",
         "data/json/IND-EN-102.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2676,
       "warnings": [],
       "error": null
@@ -435,7 +446,7 @@
         "data/markdown/IND-UT-102.md",
         "data/json/IND-UT-102.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2063,
       "warnings": [],
       "error": null
@@ -447,7 +458,7 @@
         "data/markdown/IND-UT-103.md",
         "data/json/IND-UT-103.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2734,
       "warnings": [],
       "error": null
@@ -459,7 +470,7 @@
         "data/markdown/IND-UT-104.md",
         "data/json/IND-UT-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1892,
       "warnings": [],
       "error": null
@@ -471,7 +482,7 @@
         "data/markdown/IND-UT-105.md",
         "data/json/IND-UT-105.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2560,
       "warnings": [],
       "error": null
@@ -483,7 +494,7 @@
         "data/markdown/IND-UT-113.md",
         "data/json/IND-UT-113.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4330,
       "warnings": [],
       "error": null
@@ -495,7 +506,7 @@
         "data/markdown/IND-UT-114.md",
         "data/json/IND-UT-114.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2344,
       "warnings": [],
       "error": null
@@ -507,7 +518,7 @@
         "data/markdown/IND-UT-115.md",
         "data/json/IND-UT-115.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1500,
       "warnings": [],
       "error": null
@@ -519,7 +530,7 @@
         "data/markdown/IND-UT-116.md",
         "data/json/IND-UT-116.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2038,
       "warnings": [],
       "error": null
@@ -531,7 +542,7 @@
         "data/markdown/IND-UT-118.md",
         "data/json/IND-UT-118.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3340,
       "warnings": [],
       "error": null
@@ -543,7 +554,7 @@
         "data/markdown/IND-UT-120.md",
         "data/json/IND-UT-120.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1368,
       "warnings": [],
       "error": null
@@ -555,7 +566,7 @@
         "data/markdown/IND-UT-122.md",
         "data/json/IND-UT-122.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1776,
       "warnings": [],
       "error": null
@@ -567,7 +578,7 @@
         "data/markdown/IND-UT-124.md",
         "data/json/IND-UT-124.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2272,
       "warnings": [],
       "error": null
@@ -579,7 +590,7 @@
         "data/markdown/IND-UT-125.md",
         "data/json/IND-UT-125.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3236,
       "warnings": [],
       "error": null
@@ -591,7 +602,7 @@
         "data/markdown/IND-UT-127.md",
         "data/json/IND-UT-127.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2551,
       "warnings": [],
       "error": null
@@ -603,7 +614,7 @@
         "data/markdown/IND-UT-129.md",
         "data/json/IND-UT-129.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5121,
       "warnings": [],
       "error": null
@@ -615,7 +626,7 @@
         "data/markdown/IND-UT-130.md",
         "data/json/IND-UT-130.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2036,
       "warnings": [],
       "error": null
@@ -627,7 +638,7 @@
         "data/markdown/IND-UT-131.md",
         "data/json/IND-UT-131.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6365,
       "warnings": [],
       "error": null
@@ -639,7 +650,7 @@
         "data/markdown/IND-UT-132.md",
         "data/json/IND-UT-132.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1602,
       "warnings": [],
       "error": null
@@ -651,7 +662,7 @@
         "data/markdown/IND-UT-133.md",
         "data/json/IND-UT-133.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4062,
       "warnings": [],
       "error": null
@@ -663,7 +674,7 @@
         "data/markdown/IND-UT-134.md",
         "data/json/IND-UT-134.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 11527,
       "warnings": [],
       "error": null
@@ -675,7 +686,7 @@
         "data/markdown/IND-UT-135.md",
         "data/json/IND-UT-135.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3888,
       "warnings": [],
       "error": null
@@ -687,7 +698,7 @@
         "data/markdown/IND-UT-137.md",
         "data/json/IND-UT-137.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 15667,
       "warnings": [],
       "error": null
@@ -699,7 +710,7 @@
         "data/markdown/IND-UT-138.md",
         "data/json/IND-UT-138.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 10947,
       "warnings": [],
       "error": null
@@ -711,7 +722,7 @@
         "data/markdown/IND-UT-139.md",
         "data/json/IND-UT-139.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 9053,
       "warnings": [],
       "error": null
@@ -723,7 +734,7 @@
         "data/markdown/IND-UT-140.md",
         "data/json/IND-UT-140.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3203,
       "warnings": [],
       "error": null
@@ -735,7 +746,7 @@
         "data/markdown/RES-CH-103.md",
         "data/json/RES-CH-103.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2404,
       "warnings": [],
       "error": null
@@ -747,7 +758,7 @@
         "data/markdown/RES-CH-104.md",
         "data/json/RES-CH-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2316,
       "warnings": [],
       "error": null
@@ -759,7 +770,7 @@
         "data/markdown/RES-CH-105.md",
         "data/json/RES-CH-105.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3079,
       "warnings": [],
       "error": null
@@ -771,7 +782,7 @@
         "data/markdown/RES-CH-106.md",
         "data/json/RES-CH-106.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5837,
       "warnings": [],
       "error": null
@@ -783,7 +794,7 @@
         "data/markdown/RES-CH-108.md",
         "data/json/RES-CH-108.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3690,
       "warnings": [],
       "error": null
@@ -795,7 +806,7 @@
         "data/markdown/RES-EC-104.md",
         "data/json/RES-EC-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 7586,
       "warnings": [],
       "error": null
@@ -807,7 +818,7 @@
         "data/markdown/BAR-EN-101.md",
         "data/json/BAR-EN-101.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5195,
       "warnings": [],
       "error": null
@@ -819,7 +830,7 @@
         "data/markdown/BAR-EN-102.md",
         "data/json/BAR-EN-102.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4190,
       "warnings": [],
       "error": null
@@ -831,7 +842,7 @@
         "data/markdown/BAR-EN-103.md",
         "data/json/BAR-EN-103.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5199,
       "warnings": [],
       "error": null
@@ -843,7 +854,7 @@
         "data/markdown/BAR-EN-104.md",
         "data/json/BAR-EN-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4559,
       "warnings": [],
       "error": null
@@ -855,7 +866,7 @@
         "data/markdown/BAR-EN-105.md",
         "data/json/BAR-EN-105.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3663,
       "warnings": [],
       "error": null
@@ -867,7 +878,7 @@
         "data/markdown/BAR-EN-106.md",
         "data/json/BAR-EN-106.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4013,
       "warnings": [],
       "error": null
@@ -879,7 +890,7 @@
         "data/markdown/BAR-EN-107.md",
         "data/json/BAR-EN-107.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3556,
       "warnings": [],
       "error": null
@@ -891,7 +902,7 @@
         "data/markdown/BAR-EN-108.md",
         "data/json/BAR-EN-108.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2638,
       "warnings": [],
       "error": null
@@ -903,7 +914,7 @@
         "data/markdown/BAR-EN-109.md",
         "data/json/BAR-EN-109.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5390,
       "warnings": [],
       "error": null
@@ -915,7 +926,7 @@
         "data/markdown/BAR-EN-110.md",
         "data/json/BAR-EN-110.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4880,
       "warnings": [],
       "error": null
@@ -927,7 +938,7 @@
         "data/markdown/BAR-EQ-115.md",
         "data/json/BAR-EQ-115.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5912,
       "warnings": [],
       "error": null
@@ -939,7 +950,7 @@
         "data/markdown/BAR-SE-104.md",
         "data/json/BAR-SE-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2249,
       "warnings": [],
       "error": null
@@ -951,7 +962,7 @@
         "data/markdown/BAR-SE-105.md",
         "data/json/BAR-SE-105.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 7239,
       "warnings": [],
       "error": null
@@ -963,7 +974,7 @@
         "data/markdown/BAR-SE-106.md",
         "data/json/BAR-SE-106.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4934,
       "warnings": [],
       "error": null
@@ -975,7 +986,7 @@
         "data/markdown/BAR-SE-107.md",
         "data/json/BAR-SE-107.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3180,
       "warnings": [],
       "error": null
@@ -987,7 +998,7 @@
         "data/markdown/BAR-SE-108.md",
         "data/json/BAR-SE-108.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3319,
       "warnings": [],
       "error": null
@@ -999,7 +1010,7 @@
         "data/markdown/BAR-TH-101.md",
         "data/json/BAR-TH-101.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6372,
       "warnings": [],
       "error": null
@@ -1011,7 +1022,7 @@
         "data/markdown/BAR-TH-102.md",
         "data/json/BAR-TH-102.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3039,
       "warnings": [],
       "error": null
@@ -1023,7 +1034,7 @@
         "data/markdown/BAR-TH-110.md",
         "data/json/BAR-TH-110.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1291,
       "warnings": [],
       "error": null
@@ -1035,7 +1046,7 @@
         "data/markdown/BAR-TH-111.md",
         "data/json/BAR-TH-111.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1178,
       "warnings": [],
       "error": null
@@ -1047,7 +1058,7 @@
         "data/markdown/BAR-TH-112.md",
         "data/json/BAR-TH-112.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4813,
       "warnings": [],
       "error": null
@@ -1059,7 +1070,7 @@
         "data/markdown/BAR-TH-113.md",
         "data/json/BAR-TH-113.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6135,
       "warnings": [],
       "error": null
@@ -1071,7 +1082,7 @@
         "data/markdown/BAR-TH-116.md",
         "data/json/BAR-TH-116.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1636,
       "warnings": [],
       "error": null
@@ -1083,7 +1094,7 @@
         "data/markdown/BAR-TH-117.md",
         "data/json/BAR-TH-117.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1101,
       "warnings": [],
       "error": null
@@ -1095,7 +1106,7 @@
         "data/markdown/BAR-TH-122.md",
         "data/json/BAR-TH-122.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2600,
       "warnings": [],
       "error": null
@@ -1107,7 +1118,7 @@
         "data/markdown/BAR-TH-123.md",
         "data/json/BAR-TH-123.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2114,
       "warnings": [],
       "error": null
@@ -1119,7 +1130,7 @@
         "data/markdown/BAR-TH-124.md",
         "data/json/BAR-TH-124.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 7202,
       "warnings": [],
       "error": null
@@ -1131,7 +1142,7 @@
         "data/markdown/BAR-TH-125.md",
         "data/json/BAR-TH-125.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8345,
       "warnings": [],
       "error": null
@@ -1143,7 +1154,7 @@
         "data/markdown/BAR-TH-127.md",
         "data/json/BAR-TH-127.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 7916,
       "warnings": [],
       "error": null
@@ -1155,7 +1166,7 @@
         "data/markdown/BAR-TH-129.md",
         "data/json/BAR-TH-129.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2647,
       "warnings": [],
       "error": null
@@ -1167,7 +1178,7 @@
         "data/markdown/BAR-TH-130.md",
         "data/json/BAR-TH-130.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4940,
       "warnings": [],
       "error": null
@@ -1179,7 +1190,7 @@
         "data/markdown/BAR-TH-135.md",
         "data/json/BAR-TH-135.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6945,
       "warnings": [],
       "error": null
@@ -1191,7 +1202,7 @@
         "data/markdown/BAR-TH-137.md",
         "data/json/BAR-TH-137.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1974,
       "warnings": [],
       "error": null
@@ -1203,7 +1214,7 @@
         "data/markdown/BAR-TH-139.md",
         "data/json/BAR-TH-139.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2231,
       "warnings": [],
       "error": null
@@ -1215,7 +1226,7 @@
         "data/markdown/BAR-TH-141.md",
         "data/json/BAR-TH-141.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2782,
       "warnings": [],
       "error": null
@@ -1227,7 +1238,7 @@
         "data/markdown/BAR-TH-143.md",
         "data/json/BAR-TH-143.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3754,
       "warnings": [],
       "error": null
@@ -1239,7 +1250,7 @@
         "data/markdown/BAR-TH-148.md",
         "data/json/BAR-TH-148.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2775,
       "warnings": [],
       "error": null
@@ -1251,7 +1262,7 @@
         "data/markdown/BAR-TH-155.md",
         "data/json/BAR-TH-155.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3642,
       "warnings": [],
       "error": null
@@ -1263,7 +1274,7 @@
         "data/markdown/BAR-TH-158.md",
         "data/json/BAR-TH-158.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4633,
       "warnings": [],
       "error": null
@@ -1275,7 +1286,7 @@
         "data/markdown/BAR-TH-159.md",
         "data/json/BAR-TH-159.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6221,
       "warnings": [],
       "error": null
@@ -1287,7 +1298,7 @@
         "data/markdown/BAR-TH-161.md",
         "data/json/BAR-TH-161.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8799,
       "warnings": [],
       "error": null
@@ -1299,7 +1310,7 @@
         "data/markdown/BAR-TH-162.md",
         "data/json/BAR-TH-162.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3625,
       "warnings": [],
       "error": null
@@ -1311,7 +1322,7 @@
         "data/markdown/BAR-TH-165.md",
         "data/json/BAR-TH-165.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8151,
       "warnings": [],
       "error": null
@@ -1323,7 +1334,7 @@
         "data/markdown/BAR-TH-168.md",
         "data/json/BAR-TH-168.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 9231,
       "warnings": [],
       "error": null
@@ -1335,7 +1346,7 @@
         "data/markdown/BAR-TH-169.md",
         "data/json/BAR-TH-169.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8412,
       "warnings": [],
       "error": null
@@ -1347,7 +1358,7 @@
         "data/markdown/BAR-TH-170.md",
         "data/json/BAR-TH-170.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5710,
       "warnings": [],
       "error": null
@@ -1359,7 +1370,7 @@
         "data/markdown/BAR-TH-171.md",
         "data/json/BAR-TH-171.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8673,
       "warnings": [],
       "error": null
@@ -1371,7 +1382,7 @@
         "data/markdown/BAR-TH-172.md",
         "data/json/BAR-TH-172.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 9225,
       "warnings": [],
       "error": null
@@ -1383,7 +1394,7 @@
         "data/markdown/BAR-TH-173.md",
         "data/json/BAR-TH-173.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 10624,
       "warnings": [],
       "error": null
@@ -1395,7 +1406,7 @@
         "data/markdown/BAR-TH-174.md",
         "data/json/BAR-TH-174.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 14154,
       "warnings": [],
       "error": null
@@ -1407,7 +1418,7 @@
         "data/markdown/BAR-TH-175.md",
         "data/json/BAR-TH-175.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 14279,
       "warnings": [],
       "error": null
@@ -1419,7 +1430,7 @@
         "data/markdown/BAR-TH-176.md",
         "data/json/BAR-TH-176.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2546,
       "warnings": [],
       "error": null
@@ -1431,7 +1442,7 @@
         "data/markdown/BAR-TH-177.md",
         "data/json/BAR-TH-177.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8285,
       "warnings": [],
       "error": null
@@ -1443,7 +1454,7 @@
         "data/markdown/BAR-TH-178.md",
         "data/json/BAR-TH-178.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 23836,
       "warnings": [],
       "error": null
@@ -1455,7 +1466,7 @@
         "data/markdown/BAR-TH-179.md",
         "data/json/BAR-TH-179.json"
       ],
-      "status": "extracted",
+      "status": "validated",
       "text_length": 11807,
       "warnings": [],
       "error": null
@@ -1467,7 +1478,7 @@
         "data/markdown/BAR-TH-180.md",
         "data/json/BAR-TH-180.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 13392,
       "warnings": [],
       "error": null
@@ -1479,7 +1490,7 @@
         "data/markdown/BAT-EN-101.md",
         "data/json/BAT-EN-101.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3558,
       "warnings": [],
       "error": null
@@ -1491,7 +1502,7 @@
         "data/markdown/BAT-EN-102.md",
         "data/json/BAT-EN-102.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2635,
       "warnings": [],
       "error": null
@@ -1503,7 +1514,7 @@
         "data/markdown/BAT-EN-103.md",
         "data/json/BAT-EN-103.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3529,
       "warnings": [],
       "error": null
@@ -1515,7 +1526,7 @@
         "data/markdown/BAT-EN-104.md",
         "data/json/BAT-EN-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3680,
       "warnings": [],
       "error": null
@@ -1527,7 +1538,7 @@
         "data/markdown/BAT-EN-106.md",
         "data/json/BAT-EN-106.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2815,
       "warnings": [],
       "error": null
@@ -1539,7 +1550,7 @@
         "data/markdown/BAT-EN-107.md",
         "data/json/BAT-EN-107.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2659,
       "warnings": [],
       "error": null
@@ -1551,7 +1562,7 @@
         "data/markdown/BAT-EN-108.md",
         "data/json/BAT-EN-108.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2152,
       "warnings": [],
       "error": null
@@ -1563,7 +1574,7 @@
         "data/markdown/BAT-EN-109.md",
         "data/json/BAT-EN-109.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5123,
       "warnings": [],
       "error": null
@@ -1575,7 +1586,7 @@
         "data/markdown/BAT-EN-110.md",
         "data/json/BAT-EN-110.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3342,
       "warnings": [],
       "error": null
@@ -1587,7 +1598,7 @@
         "data/markdown/BAT-EN-111.md",
         "data/json/BAT-EN-111.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4060,
       "warnings": [],
       "error": null
@@ -1599,7 +1610,7 @@
         "data/markdown/BAT-EN-112.md",
         "data/json/BAT-EN-112.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2519,
       "warnings": [],
       "error": null
@@ -1611,7 +1622,7 @@
         "data/markdown/BAT-EN-113.md",
         "data/json/BAT-EN-113.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2785,
       "warnings": [],
       "error": null
@@ -1623,7 +1634,7 @@
         "data/markdown/BAT-EQ-117.md",
         "data/json/BAT-EQ-117.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8230,
       "warnings": [],
       "error": null
@@ -1635,7 +1646,7 @@
         "data/markdown/BAT-EQ-123.md",
         "data/json/BAT-EQ-123.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2443,
       "warnings": [],
       "error": null
@@ -1647,7 +1658,7 @@
         "data/markdown/BAT-EQ-124.md",
         "data/json/BAT-EQ-124.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2070,
       "warnings": [],
       "error": null
@@ -1659,7 +1670,7 @@
         "data/markdown/BAT-EQ-125.md",
         "data/json/BAT-EQ-125.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2570,
       "warnings": [],
       "error": null
@@ -1671,7 +1682,7 @@
         "data/markdown/BAT-EQ-129.md",
         "data/json/BAT-EQ-129.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3830,
       "warnings": [],
       "error": null
@@ -1683,7 +1694,7 @@
         "data/markdown/BAT-EQ-130.md",
         "data/json/BAT-EQ-130.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6186,
       "warnings": [],
       "error": null
@@ -1695,7 +1706,7 @@
         "data/markdown/BAT-EQ-131.md",
         "data/json/BAT-EQ-131.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2750,
       "warnings": [],
       "error": null
@@ -1707,7 +1718,7 @@
         "data/markdown/BAT-EQ-134.md",
         "data/json/BAT-EQ-134.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5074,
       "warnings": [],
       "error": null
@@ -1719,7 +1730,7 @@
         "data/markdown/BAT-EQ-135.md",
         "data/json/BAT-EQ-135.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1763,
       "warnings": [],
       "error": null
@@ -1731,7 +1742,7 @@
         "data/markdown/BAT-SE-103.md",
         "data/json/BAT-SE-103.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2237,
       "warnings": [],
       "error": null
@@ -1743,7 +1754,7 @@
         "data/markdown/BAT-SE-104.md",
         "data/json/BAT-SE-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8549,
       "warnings": [],
       "error": null
@@ -1755,7 +1766,7 @@
         "data/markdown/BAT-SE-105.md",
         "data/json/BAT-SE-105.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3320,
       "warnings": [],
       "error": null
@@ -1767,7 +1778,7 @@
         "data/markdown/BAT-TH-103.md",
         "data/json/BAT-TH-103.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1509,
       "warnings": [],
       "error": null
@@ -1779,7 +1790,7 @@
         "data/markdown/BAT-TH-105.md",
         "data/json/BAT-TH-105.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1611,
       "warnings": [],
       "error": null
@@ -1791,7 +1802,7 @@
         "data/markdown/BAT-TH-108.md",
         "data/json/BAT-TH-108.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1913,
       "warnings": [],
       "error": null
@@ -1803,7 +1814,7 @@
         "data/markdown/BAT-TH-109.md",
         "data/json/BAT-TH-109.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2463,
       "warnings": [],
       "error": null
@@ -1815,7 +1826,7 @@
         "data/markdown/BAT-TH-110.md",
         "data/json/BAT-TH-110.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3930,
       "warnings": [],
       "error": null
@@ -1827,7 +1838,7 @@
         "data/markdown/BAT-TH-111.md",
         "data/json/BAT-TH-111.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3025,
       "warnings": [],
       "error": null
@@ -1839,7 +1850,7 @@
         "data/markdown/BAT-TH-112.md",
         "data/json/BAT-TH-112.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2072,
       "warnings": [],
       "error": null
@@ -1851,7 +1862,7 @@
         "data/markdown/BAT-TH-115.md",
         "data/json/BAT-TH-115.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2775,
       "warnings": [],
       "error": null
@@ -1863,7 +1874,7 @@
         "data/markdown/BAT-TH-116.md",
         "data/json/BAT-TH-116.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4759,
       "warnings": [],
       "error": null
@@ -1875,7 +1886,7 @@
         "data/markdown/BAT-TH-121.md",
         "data/json/BAT-TH-121.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6998,
       "warnings": [],
       "error": null
@@ -1887,7 +1898,7 @@
         "data/markdown/BAT-TH-122.md",
         "data/json/BAT-TH-122.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1754,
       "warnings": [],
       "error": null
@@ -1899,7 +1910,7 @@
         "data/markdown/BAT-TH-125.md",
         "data/json/BAT-TH-125.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3854,
       "warnings": [],
       "error": null
@@ -1911,7 +1922,7 @@
         "data/markdown/BAT-TH-126.md",
         "data/json/BAT-TH-126.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5593,
       "warnings": [],
       "error": null
@@ -1923,7 +1934,7 @@
         "data/markdown/BAT-TH-127.md",
         "data/json/BAT-TH-127.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2572,
       "warnings": [],
       "error": null
@@ -1935,7 +1946,7 @@
         "data/markdown/BAT-TH-134.md",
         "data/json/BAT-TH-134.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4413,
       "warnings": [],
       "error": null
@@ -1947,7 +1958,7 @@
         "data/markdown/BAT-TH-135.md",
         "data/json/BAT-TH-135.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3347,
       "warnings": [],
       "error": null
@@ -1959,7 +1970,7 @@
         "data/markdown/BAT-TH-139.md",
         "data/json/BAT-TH-139.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8846,
       "warnings": [],
       "error": null
@@ -1971,7 +1982,7 @@
         "data/markdown/BAT-TH-142.md",
         "data/json/BAT-TH-142.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 9484,
       "warnings": [],
       "error": null
@@ -1983,7 +1994,7 @@
         "data/markdown/BAT-TH-143.md",
         "data/json/BAT-TH-143.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2809,
       "warnings": [],
       "error": null
@@ -1995,7 +2006,7 @@
         "data/markdown/BAT-TH-145.md",
         "data/json/BAT-TH-145.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2933,
       "warnings": [],
       "error": null
@@ -2007,7 +2018,7 @@
         "data/markdown/BAT-TH-153.md",
         "data/json/BAT-TH-153.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4368,
       "warnings": [],
       "error": null
@@ -2019,7 +2030,7 @@
         "data/markdown/BAT-TH-154.md",
         "data/json/BAT-TH-154.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 7520,
       "warnings": [],
       "error": null
@@ -2031,7 +2042,7 @@
         "data/markdown/BAT-TH-156.md",
         "data/json/BAT-TH-156.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3826,
       "warnings": [],
       "error": null
@@ -2043,7 +2054,7 @@
         "data/markdown/BAT-TH-157.md",
         "data/json/BAT-TH-157.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8318,
       "warnings": [],
       "error": null
@@ -2055,7 +2066,7 @@
         "data/markdown/BAT-TH-158.md",
         "data/json/BAT-TH-158.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4847,
       "warnings": [],
       "error": null
@@ -2067,7 +2078,7 @@
         "data/markdown/BAT-TH-159.md",
         "data/json/BAT-TH-159.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2215,
       "warnings": [],
       "error": null
@@ -2079,7 +2090,7 @@
         "data/markdown/BAT-TH-161.md",
         "data/json/BAT-TH-161.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6859,
       "warnings": [],
       "error": null
@@ -2091,7 +2102,7 @@
         "data/markdown/BAT-TH-162.md",
         "data/json/BAT-TH-162.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 22944,
       "warnings": [],
       "error": null
@@ -2103,7 +2114,7 @@
         "data/markdown/BAT-TH-163.md",
         "data/json/BAT-TH-163.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 13332,
       "warnings": [],
       "error": null
@@ -2115,7 +2126,7 @@
         "data/markdown/BAT-TH-164.md",
         "data/json/BAT-TH-164.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 15656,
       "warnings": [],
       "error": null
@@ -2127,7 +2138,7 @@
         "data/markdown/TRA-EQ-101.md",
         "data/json/TRA-EQ-101.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2222,
       "warnings": [],
       "error": null
@@ -2139,7 +2150,7 @@
         "data/markdown/TRA-EQ-103.md",
         "data/json/TRA-EQ-103.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4581,
       "warnings": [],
       "error": null
@@ -2151,7 +2162,7 @@
         "data/markdown/TRA-EQ-104.md",
         "data/json/TRA-EQ-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4809,
       "warnings": [],
       "error": null
@@ -2163,7 +2174,7 @@
         "data/markdown/TRA-EQ-106.md",
         "data/json/TRA-EQ-106.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3256,
       "warnings": [],
       "error": null
@@ -2175,7 +2186,7 @@
         "data/markdown/TRA-EQ-107.md",
         "data/json/TRA-EQ-107.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2616,
       "warnings": [],
       "error": null
@@ -2187,7 +2198,7 @@
         "data/markdown/TRA-EQ-108.md",
         "data/json/TRA-EQ-108.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5686,
       "warnings": [],
       "error": null
@@ -2199,7 +2210,7 @@
         "data/markdown/TRA-EQ-109.md",
         "data/json/TRA-EQ-109.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2192,
       "warnings": [],
       "error": null
@@ -2211,7 +2222,7 @@
         "data/markdown/TRA-EQ-110.md",
         "data/json/TRA-EQ-110.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2393,
       "warnings": [],
       "error": null
@@ -2223,7 +2234,7 @@
         "data/markdown/TRA-EQ-111.md",
         "data/json/TRA-EQ-111.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3409,
       "warnings": [],
       "error": null
@@ -2235,7 +2246,7 @@
         "data/markdown/TRA-EQ-113.md",
         "data/json/TRA-EQ-113.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3586,
       "warnings": [],
       "error": null
@@ -2247,7 +2258,7 @@
         "data/markdown/TRA-EQ-114.md",
         "data/json/TRA-EQ-114.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 7117,
       "warnings": [],
       "error": null
@@ -2259,7 +2270,7 @@
         "data/markdown/TRA-EQ-115.md",
         "data/json/TRA-EQ-115.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3071,
       "warnings": [],
       "error": null
@@ -2271,7 +2282,7 @@
         "data/markdown/TRA-EQ-117.md",
         "data/json/TRA-EQ-117.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5611,
       "warnings": [],
       "error": null
@@ -2283,7 +2294,7 @@
         "data/markdown/TRA-EQ-118.md",
         "data/json/TRA-EQ-118.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6911,
       "warnings": [],
       "error": null
@@ -2295,7 +2306,7 @@
         "data/markdown/TRA-EQ-119.md",
         "data/json/TRA-EQ-119.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5350,
       "warnings": [],
       "error": null
@@ -2307,7 +2318,7 @@
         "data/markdown/TRA-EQ-120.md",
         "data/json/TRA-EQ-120.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4383,
       "warnings": [],
       "error": null
@@ -2319,7 +2330,7 @@
         "data/markdown/TRA-EQ-121.md",
         "data/json/TRA-EQ-121.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5526,
       "warnings": [],
       "error": null
@@ -2331,7 +2342,7 @@
         "data/markdown/TRA-EQ-122.md",
         "data/json/TRA-EQ-122.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2760,
       "warnings": [],
       "error": null
@@ -2343,7 +2354,7 @@
         "data/markdown/TRA-EQ-123.md",
         "data/json/TRA-EQ-123.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4704,
       "warnings": [],
       "error": null
@@ -2355,7 +2366,7 @@
         "data/markdown/TRA-EQ-124.md",
         "data/json/TRA-EQ-124.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3498,
       "warnings": [],
       "error": null
@@ -2367,7 +2378,7 @@
         "data/markdown/TRA-EQ-125.md",
         "data/json/TRA-EQ-125.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3342,
       "warnings": [],
       "error": null
@@ -2379,7 +2390,7 @@
         "data/markdown/TRA-EQ-126.md",
         "data/json/TRA-EQ-126.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 7254,
       "warnings": [],
       "error": null
@@ -2391,7 +2402,7 @@
         "data/markdown/TRA-EQ-127.md",
         "data/json/TRA-EQ-127.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 13877,
       "warnings": [],
       "error": null
@@ -2403,7 +2414,7 @@
         "data/markdown/TRA-EQ-128.md",
         "data/json/TRA-EQ-128.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6473,
       "warnings": [],
       "error": null
@@ -2415,7 +2426,7 @@
         "data/markdown/TRA-EQ-129.md",
         "data/json/TRA-EQ-129.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 8896,
       "warnings": [],
       "error": null
@@ -2427,7 +2438,7 @@
         "data/markdown/TRA-EQ-130.md",
         "data/json/TRA-EQ-130.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3741,
       "warnings": [],
       "error": null
@@ -2439,7 +2450,7 @@
         "data/markdown/TRA-EQ-131.md",
         "data/json/TRA-EQ-131.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 4948,
       "warnings": [],
       "error": null
@@ -2451,7 +2462,7 @@
         "data/markdown/TRA-EQ-132.md",
         "data/json/TRA-EQ-132.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 6391,
       "warnings": [],
       "error": null
@@ -2463,7 +2474,7 @@
         "data/markdown/TRA-SE-101.md",
         "data/json/TRA-SE-101.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3111,
       "warnings": [],
       "error": null
@@ -2475,7 +2486,7 @@
         "data/markdown/TRA-SE-102.md",
         "data/json/TRA-SE-102.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2563,
       "warnings": [],
       "error": null
@@ -2487,7 +2498,7 @@
         "data/markdown/TRA-SE-104.md",
         "data/json/TRA-SE-104.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2961,
       "warnings": [],
       "error": null
@@ -2499,7 +2510,7 @@
         "data/markdown/TRA-SE-105.md",
         "data/json/TRA-SE-105.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 1176,
       "warnings": [],
       "error": null
@@ -2511,7 +2522,7 @@
         "data/markdown/TRA-SE-106.md",
         "data/json/TRA-SE-106.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 5128,
       "warnings": [],
       "error": null
@@ -2523,7 +2534,7 @@
         "data/markdown/TRA-SE-107.md",
         "data/json/TRA-SE-107.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3839,
       "warnings": [],
       "error": null
@@ -2535,7 +2546,7 @@
         "data/markdown/TRA-SE-108.md",
         "data/json/TRA-SE-108.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3161,
       "warnings": [],
       "error": null
@@ -2547,7 +2558,7 @@
         "data/markdown/TRA-SE-109.md",
         "data/json/TRA-SE-109.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2771,
       "warnings": [],
       "error": null
@@ -2559,7 +2570,7 @@
         "data/markdown/TRA-SE-110.md",
         "data/json/TRA-SE-110.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 3062,
       "warnings": [],
       "error": null
@@ -2571,7 +2582,7 @@
         "data/markdown/TRA-SE-111.md",
         "data/json/TRA-SE-111.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2685,
       "warnings": [],
       "error": null
@@ -2583,7 +2594,7 @@
         "data/markdown/TRA-SE-112.md",
         "data/json/TRA-SE-112.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2068,
       "warnings": [],
       "error": null
@@ -2595,7 +2606,7 @@
         "data/markdown/TRA-SE-113.md",
         "data/json/TRA-SE-113.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 2490,
       "warnings": [],
       "error": null
@@ -2607,7 +2618,7 @@
         "data/markdown/TRA-SE-116.md",
         "data/json/TRA-SE-116.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 10208,
       "warnings": [],
       "error": null
@@ -2619,7 +2630,7 @@
         "data/markdown/TRA-SE-117.md",
         "data/json/TRA-SE-117.json"
       ],
-      "status": "extracted",
+      "status": "needs_review",
       "text_length": 13011,
       "warnings": [],
       "error": null

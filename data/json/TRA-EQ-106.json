@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Flotte professionnelle de véhicules de catégories M1 ou N1 selon l’article R311.1 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Acquisition et montage de pneumatiques de remplacement ayant une classification d’efficacité en carburant au\nmoins égale à C sur des véhicules de catégories M1 ou N1.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Les pneumatiques ont une classification d’efficacité en carburant au moins égale à C ainsi qu’une classification en\nadhérence sur sol mouillé au moins égale à C (classification au sens du règlement européen n°1222/2009 du 25\nnovembre 2009 sur l’étiquetage des pneumatiques en relation avec l’efficacité en carburant et d’autres paramètres\nessentiels).\n\nLa preuve de réalisation de l’opération mentionne :\n- l’achat et le montage de pneumatiques ;\n- la quantité de pneumatiques :\n- la classe d’efficacité en carburant et la classe en adhérence sur sol mouillé des pneumatiques livrés.\n\nA défaut, la preuve de réalisation de l’opération mentionne l'acquisition d’un nombre donné de pneumatiques avec\nleur marque et référence, et elle est accompagnée d’un document issu du fabricant indiquant la classe d’efficacité\nen carburant et la classe en adhérence sur sol mouillé des pneumatiques de marque et référence livrés.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- un document, daté et signé par le bénéficiaire de l’opération, justifiant le kilométrage annuel moyen parcouru par\nles véhicules de catégories M1 et N1 de sa flotte. Le kilométrage annuel moyen parcouru par les véhicules pour la\nflotte considérée est égal à la somme des kilométrages de tous les véhicules de catégories M1 ou N1 de la flotte\n(éléments issus de l’outil de gestion et de suivi de la flotte) divisée par le nombre total de véhicules de la flotte.\nCette valeur est déterminée sur l’année calendaire précédant la demande de certificats ;\n\n- un état récapitulatif issu du professionnel, daté et signé par le bénéficiaire de l’opération, indiquant le nombre de\npneumatiques par marque et référence, par lieu de distribution (nom du site, numéro de SIRET de l’établissement\ndu bénéficiaire, adresse du site), par date d’acquisition, par référence de la preuve de réalisation de l’opération ainsi\nque la classe d’efficacité en carburant et la classe en adhérence sur sol mouillé des pneumatiques livrés.\n\nLa date d’engagement de l'opération est la date d’acquisition la plus ancienne de l'état récapitulatif. La date\nd’achèvement de l'opération est la date d’acquisition la plus récente de l'état récapitulatif.\n\nL’écart entre la date d’engagement et la date d’achèvement ne peut excéder 6 mois.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "1 an.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Classe d’efficacité en\ncarburant des pneumatiques\nmontés\nMontant en\nkWh cumac\n\n\n\nX\nNombre de\npneumatiques\n\n\n\nX\nKilométrage annuel\nmoyen parcouru par\nles véhicules\nA\n0,011\nNA\nY\nB\n0,008\nNB\nC\n0,006\nNC\n\nNA est le nombre de pneumatiques de classe d’efficacité en carburant A\nNB est le nombre de pneumatiques de classe d’efficacité en carburant B\nNC est le nombre de pneumatiques de classe d’efficacité en carburant C",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -195,7 +232,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -233,10 +271,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": null,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf"
     }
   ],
@@ -305,10 +348,10 @@
     "Transport_TRA/TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2026_0.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.396353+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

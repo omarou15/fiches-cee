@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Locaux du secteur tertiaire existants réservés à une utilisation professionnelle, en France métropolitaine.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une pompe à chaleur (PAC) réversible de type air/air de puissances calorifique et frigorifique\nnominales inférieures ou égales à 1 MW.\n\nLa présente fiche est applicable aux opérations engagées avant le 1er janvier 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nPour les PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de\nperformance selon le règlement (UE) 206/2012 de la Commission du 6 mars 2012 portant application de la directive\n2009/125/CE du Parlement européen et du Conseil en ce qui concerne les exigences d'écoconception applicables\naux climatiseurs et aux ventilateurs de confort sont supérieurs ou égaux à :\n- 4,2 pour le coefficient de performance saisonnier (SCOP) ;\n- 6,1 pour l’efficacité énergétique saisonnière (SEER).\n\nPour les PAC de type air/air d’une puissance calorifique nominale supérieure à 12 kW, les efficacités énergétiques\nsaisonnières (Etas) selon le règlement (UE) 2016/2281 de la Commission du 30 novembre 2016 mettant en oeuvre\nla directive 2009/125/CE du Parlement européen et du Conseil établissant un cadre pour la fixation d'exigences en\nmatière d'écoconception applicables aux produits liés à l'énergie, en ce qui concerne les exigences d'écoconception\napplicables aux appareils de chauffage à air, aux appareils de refroidissement, aux refroidisseurs industriels haute\ntempérature et aux ventilo-convecteurs sont supérieures ou égales à :\n- Pour une PAC (hors PAC en toiture) :\n- 145 % pour le chauffage des locaux ;\n- 250 % pour le refroidissement des locaux.\n- Pour une PAC en toiture (rooftop) intégrant le chauffage, le refroidissement, la ventilation, le rafraîchissement par\nsurventilation nocturne et la filtration :\n- 130 % pour le chauffage des locaux ;\n- 150 % pour le refroidissement des locaux.\n\nLa preuve de réalisation de l’opération mentionne :\n- la mise en place d’une pompe à chaleur réversible de type air/air ;\n- les puissances frigorifique et calorifique nominales de la pompe à chaleur ;\n- pour une PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de\nperformance SCOP et SEER de l’équipement ;\n- pour une PAC de type air/air de puissance calorifique nominale supérieure à 12 kW, le type de PAC (PAC en\ntoiture, ou « rooftop » ; autre PAC), les efficacités énergétiques saisonnières (Etas) de l’équipement pour le\nchauffage et le refroidissement des locaux.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique\neuropéen et accrédité selon la norme NF EN 45011 par le Comité français d'accréditation (COFRAC) ou tout autre\norganisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de European co-\noperation for Accreditation (EA), coordination européenne des organismes d'accréditation.\n\nCe document indique que l’équipement de marque et référence mis en place est une PAC réversible de type air/air.\nIl précise les puissances calorifique et frigorifique nominales de la PAC ainsi que les performances énergétiques de\nl’équipement installé : SCOP et SEER pour une PAC de puissance calorifique nominale inférieure ou égale à\n12 kW ; Etas pour le chauffage des locaux et Etas pour le refroidissement des locaux, pour une PAC de puissance\ncalorifique nominale supérieure à 12 kW. Dans ce dernier cas, il indique également le type de PAC (PAC en toiture,\nou « rooftop » ; autre PAC).",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "22 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Cas d’une PAC de puissance calorifique nominale inférieure ou égale à 12 kW :\n\nZone\ngéographique\nMontant en\nkWhc/m²\nSurface totale\nchauffée par\nla PAC (m²)\nSecteur\nFacteur\ncorrectif\nH1\n860\nS\nHôtellerie,\nrestauration\n0,7\nH2\n760\nX\nX Santé\n1,1\nH3\n620\nEnseignement\n0,8\nBureaux\n1,2\nCommerces\n0,9\nAutres\n0,7\n\nCas d’une PAC de puissance calorifique nominale supérieure à 12 kW :\n\nZone\ngéographique\nMontant en\nkWhc/m²\nSurface totale\nchauffée par la\nPAC (m²)\nSecteur\nFacteur\ncorrectif\nH1\n870\nS\nHôtellerie,\nrestauration\n0,7\nH2\n770\nX\nX Santé\n1,1\nH3\n630\nEnseignement\n0,8\nBureaux\n1,2\nCommerces\n0,9\n\nAutres\n0,7\n\nCas d’une PAC en toiture (« rooftop ») :\n\nZone\ngéographique\nMontant en\nkWhc/m²\nSurface totale\ntraitée (m²)\nSecteur\nFacteur\ncorrectif\nH1\n660\nS\nHôtellerie,\nrestauration\n0,7\nH2\n540\nX\nX Santé\n1,1\nH3\n360\nEnseignement\n0,8\nBureaux\n1,2\nCommerces\n0,9\nAutres\n0,7",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -163,7 +200,8 @@
   "calculation": {
     "formula_text": "Pour les PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -376,10 +414,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-01-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 22,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf"
     }
   ],
@@ -424,10 +467,10 @@
     "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.122561+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

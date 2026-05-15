@@ -16,6 +16,7 @@ Ce dossier est reserve au futur pipeline reproductible.
 3. `normalize_fiche.py`
    - regroupe fiche principale, partie A, annexes et feuilles recapitulatives ;
    - produit un JSON par code fiche.
+   - applique les enrichissements de `data/curated/` quand ils existent.
 
 4. `build_indexes.py`
    - construit les index globaux ;
@@ -48,6 +49,8 @@ Chercher une fiche ou un sujet :
 ```bash
 python scripts/search_fiches.py "BAR-TH-179"
 python scripts/search_fiches.py "PAC collective"
+python scripts/search_fiches.py "PAC collective" --sector residentiel --family TH
+python scripts/search_fiches.py "dimensionnement pompe à chaleur" --priority-energyco --markdown
 ```
 
 ## Regle

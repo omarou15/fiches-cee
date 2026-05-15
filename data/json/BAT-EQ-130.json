@@ -18,6 +18,50 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "3",
+      "title": "Système de condensation frigorifique à haute efficacité",
+      "text": "",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments tertiaires.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de condensation frigorifique sur une installation frigorifique permettant d’avoir une\nfaible différence de température T entre le fluide frigorigène à la pression de condensation et le medium de\nrefroidissement (air ou eau) en entrée du condenseur.\n\nPar système de condensation, on entend « condenseur plus tour », « condenseur seul » ou « tour seule » si celle-ci\nalimente un condenseur frigorifique à eau.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLes systèmes de condensation éligibles sont :\n1/ système de condensation par rapport à l’atmosphère :\n- à air sec avec T inférieure ou égale à 12°C :\n- condenseur à air sec ;\n- condenseur à eau plus aéro-réfrigérant à air sec (adiabatique ou non) ;\n- à air humide avec T inférieure ou égale à 22°C :\n- condenseur évaporatif ;\n- condenseur à eau plus tour ouverte (hybride ou non) ;\n- condenseur à eau plus tour fermée (hybride ou non).\n2/ système de condensation à eau « seul » (sur nappe ou cours d’eau) avec T inférieure ou égale à 8°C.\n\nLe système de condensation est dimensionné par une note de calcul établie par un professionnel ou un bureau d’étude\nprécisant les caractéristiques de l’installation et en particulier celles du fluide frigorigène, sa température de\ncondensation et la température du médium de refroidissement en entrée du condenseur ainsi que les caractéristiques\ndu groupe de production de froid (groupe mono-compresseur ou multi-compresseurs) et sa puissance électrique\nnominale totale en kW.\n\nLa mise en place d’un système de condensation frigorifique à haute efficacité sur une installation frigorifique pour\nla climatisation de confort des occupants, hors centre de données informatiques (ou Datacenter), ne s’applique pas\naux bâtiments neufs relevant de la catégorie CE1 telle que définie par les arrêtés du 26 octobre 2010 et du\n28 décembre 2012 relatifs aux caractéristiques thermiques et aux exigences de performance énergétique des\nbâtiments nouveaux et des parties nouvelles de bâtiments.\n\nUn centre de données informatiques (ou Datacenter) est un bâtiment ou un local au sein d’un bâtiment regroupant\ndes équipements informatiques (serveurs, baies de stockage, équipements réseaux, etc…) permettant le stockage, le\ntraitement et la protection des données informatiques.\n\nLa preuve de réalisation de l'opération mentionne la mise en place d’un système de condensation sur une installation\nfrigorifique et la valeur de T.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d'un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence\ninstallé est un système de condensation sur une installation frigorifique. Ce document précise la valeur de T.\n\nLe document justificatif spécifique de l’opération est la note de calcul ayant permis le dimensionnement du système\nde condensation.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Mise en place d’un système de condensation à eau seul (sur nappe ou cours d’eau) permettant un T, différence\nentre la température de condensation du fluide frigorigène et celle de l’eau en entrée du condenseur, inférieure ou\négale à 8°C :\n\nT\nen °C\nMontant en kWh cumac par kW\nselon l’application\n\nPuissance électrique\nnominale totale du\ngroupe de production\nde froid en kW\nClimatisation de confort\nhors datacenter\nClimatisation\nen datacenter\nRéfrigération ou\nconditionnement\nd’ambiance hors confort\n\n8\n500\n1 900\n1 300\nX\nP\n7\n770\n3 000\n2 000\n6\n1 100\n4 100\n2 700\n\nMise en place d’un condenseur à air sec (adiabatique ou non) ou d’un condenseur à eau et d’un aéroréfrigérant à air\nsec (adiabatique ou non) permettant une différence T entre la température de condensation du fluide frigorigène et\ncelle de l’air sec, inférieure ou égale à 12°C :\n\nT\nen °C\nMontant en kWh cumac par kW\nselon l’application\n\nPuissance électrique\nnominale totale du\ngroupe de production\nde froid en kW\nClimatisation de confort\nhors datacenter\nClimatisation\nen datacenter\nRéfrigération ou\nconditionnement\nd’ambiance hors confort\n\n12\n580\n2 300\n1 600\nX\nP\n11\n790\n3 100\n2 200\n10\n1 000\n3 900\n2 800\n9\n1 200\n4 800\n3 400\n8\n1 500\n5 800\n4 000\n7\n1 700\n6 800\n4 700\n6\n2 000\n7 800\n5 300\n5\n2 300\n8 900\n6 000\n4\n2 600\n10 100\n6 800\n3\n2 900\n11 300\n7 500\n2\n3 200\n12 600\n8 300\n1\n3 600\n14 000\n9 100\n0\n4 000\n15 500\n10 000\n\nMise en place d’un condenseur évaporatif (hybride ou non) ou d’un condenseur à eau et d’une tour aéroréfrigérante\nouverte (hybride ou non) ou d’un condenseur à eau et d’une tour aéroréfrigérante fermée (hybride ou non) permettant\nune différence T entre la température de condensation du fluide frigorigène et celle de l’air au bulbe humide,\ninférieure ou égale à 22°C :\n\nT\nen °C\nMontant en kWh cumac par kW\nselon l’application\n\nPuissance électrique\nnominale totale du\ngroupe de production\nde froid en kW\nClimatisation de confort\nhors datacenter\nClimatisation\nen datacenter\nRéfrigération ou\nconditionnement\nd’ambiance hors confort\n\n22\n580\n2 300\n1 600\nX\nP\n21\n790\n3 100\n2 200\n20\n1 000\n3 900\n2 800\n19\n1 200\n4 800\n3 400\n18\n1 500\n5 800\n4 000\n17\n1 700\n6 800\n4 700\n16\n2 000\n7 800\n5 300\n15\n2 300\n8 900\n6 000\n14\n2 600\n10 100\n6 800\n13\n2 900\n11 300\n7 500\n12\n3 200\n12 600\n8 300\n11\n3 600\n14 000\n9 100\n10\n4 000\n15 500\n10 000\n\nEn cas d’utilisation d’un fluide frigorigène à « glissement », la température de condensation du fluide à retenir est\ncelle au point de rosée.\n\nPour une valeur de ΔT du système de condensation ne figurant pas dans les tableaux ci-dessus, il convient de retenir\nla valeur de ∆T immédiatement supérieure.\n\nDans chaque cas, la puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du groupe\nde production de froid (mono-compresseur ou multi-compresseurs) ou à défaut celle indiquée sur un document issu\ndu fabricant du groupe mono-compresseur ou multi-compresseurs. La puissance des compresseurs de secours n’est\npas comptabilisée.",
+      "page_start": 2,
+      "page_end": 4
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -163,7 +207,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -209,10 +254,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-EQ-130 vA22-1.pdf"
     }
   ],
@@ -257,10 +307,10 @@
     "Tertiaire_BAT/BAT-EQ-130 vA22-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.498281+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

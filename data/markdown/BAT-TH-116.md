@@ -10,8 +10,8 @@
 - `Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -38,6 +38,19 @@
 - 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac par m2 de surface gérée par le système pour l’usage
 - Montant en kWh cumac par m2 de surface gérée par le système pour l’usage
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-2)
+- 4. Durée de vie conventionnelle (pages 2-2)
+- 5. Montant de certificats en kWh cumac (pages 2-3)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 15
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

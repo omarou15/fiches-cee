@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment tertiaire.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un moto-variateur synchrone à aimants permanents ou à réluctance de puissance nominale inférieure\nou égale à 1 MW.\n\nSelon les définitions de la norme CEI 60050-411/A1 : 2007, sont considérés comme :\n- machine synchrone : une machine à courant alternatif dans laquelle la fréquence des tensions engendrées et la\nvitesse sont dans un rapport constant ;\n- machine à aimants permanents : une machine dont l'inducteur est constitué d'un ou de plusieurs aimants ;\n- moteur à réluctance : un moteur synchrone avec un rotor non excité portant un nombre de saillies régulières qui\npeut éventuellement être muni d'un enroulement à cage pour le démarrage.\n\nLes moteurs « EC », les moteurs « pas à pas » et les moteurs « à reluctance variable » ne sont pas éligibles à la\nprésente fiche.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un moto-variateur synchrone à aimants\npermanents ou à réluctance et sa puissance électrique nominale.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d'un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence\ninstallé est un moto-variateur synchrone à aimants permanents ou à réluctance. Ce document précise la puissance\nélectrique nominale du moto-variateur.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "20 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Application\nMontant en kWh cumac\npar kW\n\nPuissance électrique\nnominale du moto-\nvariateur en kW\nChauffage, pompage\n13 700\nX\nP\nVentilation, renouvellement d’air\n16 300\nRéfrigération\n8 000\nClimatisation\n2 000\nAutres applications\n2 000\n\nLa puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du moto-variateur ou à défaut\ncelle indiquée sur un document issu du fabricant.\n\nLorsque l’opération concerne la mise en place de plusieurs moto-variateurs synchrones à aimants permanents ou à\nreluctance de caractéristiques identiques, la puissance électrique nominale à prendre en compte dans le calcul est la\nsomme, par type d’application, des puissances électriques nominales de chaque moto-variateur.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -115,7 +152,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -145,10 +183,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 20,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-EQ-123 vA25-2 après le 01-04-2017.pdf"
     }
   ],
@@ -193,10 +236,10 @@
     "Tertiaire_BAT/BAT-EQ-123 vA25-2 après le 01-04-2017 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.419661+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

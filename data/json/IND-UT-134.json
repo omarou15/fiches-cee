@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de mesurage d’Indicateurs de Performance Energétique (IPE) sur un ou plusieurs\néquipements ou ensembles d’équipements constituant un usage énergétique.\n\nCe système a pour fonction :\n-\nde mesurer, relever et conserver les données nécessaires au calcul des IPE ;\n-\nde communiquer vers l’utilisateur les résultats obtenus afin de réaliser un suivi des IPE ;\n-\nd’alerter l’utilisateur en cas de dérive des IPE.\n\nSont éligibles à l’opération les systèmes de mesurage mis en place sur les équipements ou ensembles d’équipements\nconstituant un des usages énergétiques suivants : production et distribution de chaleur, production et distribution\nd’air comprimé, production et distribution de froid, procédé industriel thermique ou électrique, autres systèmes\nmotorisés.\n\nUn même équipement ne peut pas faire l’objet de plusieurs demandes de certificats d’économies d’énergie sauf\nlorsque l’équipement considéré utilise plusieurs énergies de manière concomitante, sous réserve que la somme des\npuissances nominales utilisées pour chaque demande ne dépasse pas la puissance nominale de l’ensemble de\nl’installation. La présente opération peut alors être utilisée indépendamment pour chacune des énergies utilisées.\n\nLes systèmes de mesurage d’indicateurs de performance énergétique mis en place sur les équipements de secours\nne sont pas éligibles à l’opération.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Un système de mesurage se compose de plusieurs éléments : les appareils de mesure, les moyens de relevé et\nd’historisation et les moyens de calcul et d’affichage des données. Ces éléments peuvent être existants à condition\nde s’assurer du bon fonctionnement des éléments existants et de leur compatibilité avec les nouveaux éléments du\nsystème de mesurage mis en place. Les éléments ajoutés en complément de l’existant doivent répondre aux\nexigences suivantes :\n-\nLes nouveaux éléments de mesure (appareils de mesure, moyens de relevé et d’historisation) font l’objet\nd’une acquisition par le bénéficiaire de l’opération ;\n-\nLe logiciel de gestion énergétique est acquis par le bénéficiaire ou fait l’objet d’une location ou d’un\nabonnement. Les outils de bureautique classique type « tableur » ne sont pas considérés comme logiciel de\ngestion énergétique.\n\nLa puissance nominale d’un équipement ou d’un ensemble d’équipements constituant un usage énergétique faisant\nl’objet de mesures nécessaires au calcul d’un IPE est strictement inférieur à 10 MW.\n\nLes IPE sont calculés sous forme d’une fonction dépendant d’une part de la mesure de la consommation d’énergie\nd’un équipement ou d’un ensemble d’équipements constituant un usage énergétique et d’autre part de la mesure de\nla production ou le niveau de service assuré par l’équipement ou l’ensemble d’équipements constituant un usage\nénergétique sur une même période de temps.\n\nLa mise en place d’un système de mesurage d’Indicateurs de Performance Energétique fait l’objet avant\nl’engagement de l’opération d’une étude, préalable à l’intégration du système de mesurage sur le site concerné par\nl’opération, réalisée par un professionnel ou un bureau d’étude. Cette étude identifie les usages énergétiques et décrit\nles équipements constituant chacun de ces usages. Elle décrit le système de mesurage adapté à chaque usage, les\nindicateurs de performances pertinentes pour le suivi des équipements, les moyens de mesurage installés (existants\net nouveaux) et les modalités d’exploitation et de restitution des données collectées. Elle reprend a minima les étapes\n1 à 6 du plan de mesurage et de surveillance défini dans la norme NF EN 17267.\n\nLe système doit permettre, en fonction de l’usage énergétique, de calculer à minima les indicateurs suivants :\n\nProcédé industriel thermique ou électrique\nRendement (kWh/Unité de production)\nProduction et/ou distribution de chaleur\nRendement spécifique de chauffage (%)\nProduction et/ou distribution d’air comprimé\nConsommation d’énergie spécifique (Wh/Nm3)\nProduction et/ou distribution de froid\nCOP (kWhfrigo/kWhelec)\nAutres systèmes motorisés*\nRendement (%)\n\n*Cette catégorie concerne les systèmes motorisés autres que la production de froid et d’air comprimé (pompes,\nbroyeurs, ventilateurs, convoyeurs…).\n\nLe système de mesurage permet de mesurer et collecter les consommations d’énergie et les données de production\nd’un équipement ou d’un ensemble d’équipements constituant les IPE à un pas de temps inférieur ou égal à 10\nminutes. Pour l’usage « Procédé industriel thermique ou électrique » uniquement, le pas de collecte de l’unité de\nproduction peut être porté à une journée.\n\nLa collecte de consommations issues des compteurs de fournisseurs d’énergie pour le calcul d’IPE n’est pas éligible.\n\nLes informations et statistiques restituées par le système de mesurage d’IPE et portées à la connaissance de\nl’utilisateur comprennent a minima les éléments suivants :\n-\naffichage des IPE sur l’intervalle de temps entre deux pas de délivrance ;\n-\npossibilité d’accès par l’utilisateur à différents cumuls des IPE (heure / journée / semaine / mois / année) ;\n-\nhistorique de tous les cumuls, disponible sur une année glissante ;\n-\nhistorique des cumuls, pour une durée supérieure ou égale à la journée, disponible pendant la durée du\ncontrat de location du logiciel ou à défaut la durée de vie conventionnelle (6 ans) ;\n-\nréalisation de calculs statistiques pertinents (moyenne, valeur minimale, valeur maximale) sur les différents\ncumuls des IPE ;\n-\nélaboration de synthèses sous forme de rapports périodiques de suivi des IPE ;\n-\nla comparaison des IPE à des valeurs de référence et à des seuils. A minima, la comparaison est effectuée\npar rapport à des statistiques de consommations extraites de l’historique disponible. En cas de dépassement\nd’un seuil fixé, le système de mesurage émet une alarme explicite (par exemple SMS, courriel,\nnotification…).\n\nLe système de mesurage permet l’affichage des IPE sur au moins un support numérique tel que :\n-\nécran dédié ;\n-\nsite web ;\n\n-\ntablette ou Smartphone (applications) ;\n-\napplication logicielle dédiée.\n\nLa mise en place est réalisée par un professionnel. Lorsque les travaux sont mis en œuvre par les services techniques\ninternes du bénéficiaire, le bon fonctionnement du système de mesurage et la comptabilité des équipements devront\nêtre attestés par le professionnel fournissant les équipements de mesures et/ou le logiciel.\n\nLa preuve de la réalisation de l’opération mentionne :\n-\nla mise en place d’un système de mesurage et de suivi d’Indicateurs de Performance Energétique (IPE) pour\nun ou plusieurs équipements ou ensembles d’équipements constituant un usage énergétique ;\n-\nl’acquisition des éléments de mesure (appareils de mesure, moyens de relevé et d’historisation) ;\n-\nen cas d’acquisition du logiciel de gestion énergétique, l’achat de ce dernier ;\n-\nles usages énergétiques concernés (Procédé industriel thermique ou électrique, Production et/ou distribution\nde chaleur, Production et/ou distribution d’air comprimé…), et les puissances nominales (en kW) de chaque\néquipement constituant un usage énergétique faisant l’objet des mesures.\n\nLes documents justificatifs spécifiques à l’opération sont :\n-\nle rapport de l’étude préalable à l’intégration du système de mesurage sur le site concerné par l’opération\ndaté et signé par le professionnel ou le bureau d’étude l’ayant établi ;\n-\nun descriptif du logiciel de gestion énergétique issu du fabricant ou de l’installateur indiquant la présence\ndes fonctions détaillées dans la présente fiche et portant sur :\n-\nle traitement des données nécessaires au calcul des IPE ;\n-\nl’affichage des IPE, de leurs cumuls et de leurs historiques ainsi que les modalités d’affichage et\nles moyens utilisés ;\n-\nl’alerte de l’utilisateur en cas de dérive des IPE et les moyens d’alertes ;\n-\nla communication de synthèses sous forme de rapports périodiques.\n-\nle contrat dans le cas d’une location ou d’un abonnement du logiciel de gestion énergétique, avec mention\nde la durée ;\n-\nun descriptif des instruments de mesure mis en place par équipement ou ensembles d’équipements\npermettant le calcul des IPE. Ce descriptif indique pour chaque instrument de mesure :\n-\nsa marque et référence\n-\nle nombre d’instruments de mesure,\n-\nla grandeur physique mesurée\n-\nl’équipement concerné par la mesure ;\n-\nson caractère existant ou neuf ;\n-\nPour les instruments de mesures existants, un inventaire de ces équipements précisant leur\nutilisation, les mesures effectuées, leur emplacement, la vérification de leur bon fonctionnement,\nque la fréquence des relevés est adaptée à la grandeur mesurée et que les résultats et les valeurs\nobtenus sont plausibles. Cet inventaire est établi, daté et signé par l’intervenant, par le responsable\nd’exploitation ou est documenté au sein d’un enregistrement du système de management de la\nqualité\n-\nun rapport de suivi des IPE issu du logiciel, daté et signé par le bénéficiaire et basé sur un historique des\ndonnées de fonctionnement d’au moins un mois, mentionnant le(s) équipement(s) ou usage(s)\nénergétique(s) faisant l’objet d’un suivi de leurs IPE par le système de mesurage mis en place. Pour chaque\nsystème de mesurage d’IPE valorisé, le rapport fait apparaître le suivi de l’IPE et une comparaison entre\nl’IPE réel et des valeurs de référence et des seuils.\n-\nun tableau récapitulatif, pour chacun des usages couverts par un ou des IPE, mentionnant :\n- l’usage énergétique concerné (procédé industriel thermique ou électrique, production et/ou distribution\nde chaleur, production et/ou distribution d’air comprimé…) ;\n- la puissance nominale de l’équipement constituant un usage énergétique faisant l’objet des mesures ;\n\n- le type d’équipement (brûleurs, moteurs, compresseur…) et les informations permettant son\nidentification sur le site (exemples : moteur 1 process 1, compresseur A groupe froid bâtiment 3) ;\n- l’IPE concerné (rendement, rendement spécifique chauffage, consommation d’énergie spécifique ou\nCOP) et le pas de collecte.",
+      "page_start": 1,
+      "page_end": 4
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "6 ans",
+      "page_start": 4,
+      "page_end": 4
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en\nkWh cumac\npar kW\n\nMode de fonctionnement\ndu site industriel\nCoefficient\nmultiplicateur\n\nPuissance\nnominale P\nen kW\n\nFacteur\ncorrectif\nF\n29,4\nX\n1x8h, avec ou sans arrêt le week-end\n1\nX\nP\nX\nF\n2x8h, avec ou sans arrêt le week-end\n2,2\n3x8h avec arrêt le week-end\n3\n3x8h sans arrêt le week-end\n4,2\n\nP est la puissance nominale (en kW) de l’ensemble des équipements faisant l’objet d’un suivi d’un indicateur de\nperformance énergétique (IPE). Ainsi, lorsque la mesure est effectuée sur un ensemble d’équipements, la puissance\nnominale P à considérer est la somme des puissances nominales des équipements instrumentés. La puissance\nnominale est la puissance indiquée sur la plaque du ou des équipements ou à défaut celle indiquée sur un document\nissu du fabricant. Pour un équipement thermodynamique, la puissance à considérer est la puissance électrique\nnominale.\n\nLe facteur correctif F est lié à la durée du contrat de location du logiciel de gestion énergétique. Il est déterminé en\nse référant au tableau ci-dessous. En cas d’achat ou d’abonnement d’une durée supérieure à 6 ans, le facteur correctif\nà prendre en compte est égal à 5,45.\n\nFacteur correctif F\nDurée du contrat\n(années)\nValeur du facteur\ncorrectif\n1\n1\n2\n1,96\n3\n2,89\n4\n3,78\n5\n4,63\n6\n5,45",
+      "page_start": 4,
+      "page_end": 4
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -227,7 +264,8 @@
   "calculation": {
     "formula_text": "Rendement (kWh/Unité de production)",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -289,10 +327,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2020-10-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 6,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf"
     }
   ],
@@ -337,10 +380,10 @@
     "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.388737+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

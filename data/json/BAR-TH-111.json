@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Maisons individuelles existantes.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une sonde de température extérieure reliée à une régulation d’un système de chauffage existant sur\nboucle à eau chaude.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’une sonde de température extérieure.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est accompagnée d’un document issu du fabricant indiquant que l’équipement de marque et\nréférence mis en place est une sonde de température extérieure.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "11 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac\n\nFacteur\ncorrectif\nSurface habitable\nS en m²\nZone climatique\nEnergie de chauffage\n\nElectricité\nCombustible\n\nH1\n2 200\n3 300\n\n0,3\nS < 35\n\n0,5\n35 ≤ S < 60\nH2\n1 800\n2 700\nX\n0,6\n60 ≤ S < 70\n0,7\n70 ≤ S < 90\nH3\n1 200\n1 800\n\n1\n90 ≤ S < 110\n\n1,1\n110 ≤ S ≤ 130\n\n1,6\nS > 130",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -82,7 +119,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -145,10 +183,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 11,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-111 vA17-1.pdf"
     }
   ],
@@ -193,10 +236,10 @@
     "Residentiel_BAR/BAR-TH-111 vA17-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.221645+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

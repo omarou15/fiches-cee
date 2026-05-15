@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Locaux du secteur tertiaire existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une ventilation mécanique simple flux à débit d’air constant ou modulée.\n\nLa ventilation mécanique est dite modulée si le débit d’air de ventilation est variable et asservi à une détection de\nprésence ou proportionnelle en fonction du nombre d’occupants (avec détection de CO2 ou capteurs de présence,\nmono- ou multizones).",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe système de ventilation mécanique simple flux modulée bénéficie d’un avis technique de la Commission chargée\nde formuler des Avis Techniques (CCFAT) en cours de validité à la date d’engagement de l’opération ou possède\ndes caractéristiques de performance et de qualité équivalentes établies par un organisme implanté dans l’Espace\néconomique européen et accrédité selon la norme NF EN ISO/CEI 17065 par le comité français d’accréditation\n(COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans\nle cadre de la coordination européenne des organismes d’accréditation.\n\nLe caisson de ventilation a une puissance électrique absorbée inférieure ou égale à 0,3 W/(m3/h) au débit nominal.\n\nLa preuve de réalisation de l’opération mentionne :\n- la mise en place d’une ventilation mécanique simple flux à débit d’air constant ou modulée (proportionnelle ou\nà détection de présence) ;\n- la puissance électrique absorbée du caisson de ventilation au débit nominal.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’équipements avec leurs marques et\nréférences et elle est accompagnée d’un ou plusieurs document(s) issu(s) du fabricant indiquant que les équipements\ninstallés constituent un système de ventilation mécanique simple flux à débit d’air constant ou modulée\n(proportionnelle ou à détection de présence). Un des documents précise la puissance électrique absorbée du caisson\nde ventilation au débit nominal.\n\nDans le cas d’une ventilation mécanique simple flux modulée (proportionnelle ou à détection de présence), le\ndocument justificatif spécifique à l’opération est l’avis technique de la Commission chargée de formuler des avis\ntechniques (CCFAT), en cours de validité à la date d’engagement de l’opération ou les éléments de preuve\néquivalents.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "17 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Dans les tableaux ci-après, on entend par surface ventilée en m2, la surface totale du bâtiment couverte par le système\nde ventilation mécanique simple flux à débit d’air constant ou modulée.\n\nL’installation d’une ventilation mécanique hygroréglable dans le secteur de l’hôtellerie, quelle que soit sa catégorie,\nest assimilée à une ventilation mécanique simple flux modulée proportionnelle du secteur « Autres locaux ».\n\nInstallation d’une ventilation mécanique simple flux modulée proportionnelle :\n\nZone\nclimatique\nMontant en kWh cumac\npar m² de surface ventilée\nSecteur\nFacteur\ncorrectif\n\nSurface\nventilée\n(m²)\nH1\n770\nX\nBureaux\n0,48\nX\nS\nH2\n630\nEnseignement\n1\nH3\n420\nRestauration\n0,59\nAutres locaux\n0,54\n\nInstallation d’une ventilation mécanique simple flux modulée à détection de présence :\n\nZone\nclimatique\nMontant en kWh cumac\npar m² de surface\nventilée\n\nSecteur\nFacteur\ncorrectif\n\nSurface\nventilée\n(m²)\nH1\n690\nX\nBureaux\n0,4\nX\nS\nH2\n560\nEnseignement\n1\nH3\n380\nRestauration\n0,45\nAutres locaux\n0,51\n\nInstallation d’une ventilation mécanique simple flux à débit d’air constant :\n\nZone\nclimatique\nMontant en kWh cumac\npar m² de surface\nventilée\n\nSecteur\nFacteur\ncorrectif\n\nSurface\nventilée\n(m²)\nH1\n400\nX\nBureaux\n0,4\nX\nS\nH2\n330\nEnseignement\n1\nH3\n220\nRestauration\n0,53\nAutres locaux\n0,58",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -123,7 +160,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -258,29 +296,7 @@
     }
   ],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -288,10 +304,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2020-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 17,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf"
     }
   ],
@@ -336,10 +357,10 @@
     "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.848145+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

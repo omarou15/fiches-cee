@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments tertiaires existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Raccordement d’un bâtiment tertiaire existant à un réseau de froid.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe bâtiment n’a jamais été raccordé à un réseau de froid avant la réalisation de l’opération.\n\nLa preuve de réalisation de l’opération est le contrat de fourniture de froid entre le bénéficiaire de l’opération et le\ngestionnaire du réseau.\n\nLa date d’achèvement de l’opération est la date de prise d’effet du contrat de fourniture de froid ou de première\nlivraison de froid mentionnée au contrat.\n\nLe document de preuve de réalisation de l’opération produit à l’appui de la demande de certificats d’économies\nd’énergie comporte les extraits d’intérêt du contrat de fourniture de froid mentionnant :\n-\nles parties signataires et leurs signatures (nom ou raison sociale, adresse et représentants) ;\n-\nla puissance souscrite ;\n-\nla date de signature du contrat et celle de sa prise d’effet ou de la première livraison de froid ;\n-\nla désignation, l’adresse et le secteur d’activité desservi par le réseau de froid lors de ce raccordement.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "36 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Secteur\nMontant en\nkWh cumac\npar kW\n\n\n\n\n\nData Center\n26 000\n\n\n\n\n\nCafés, hôtels, restaurants\n10 400\n\nZone climatique\n\nPuissance thermique\nen kW\nSanté\n26 000\n\nH1\n1\n\nP\nEnseignement, recherche\n4 900\nX\nH2\n1,3\nX\nSport, loisirs, culture\n19 800\n\nH3\n1,8\n\n\nBureaux\n7 800\n\n\n\n\n\nCommerces\n11 300\n\n\n\n\n\nAutres\n4 900\n\n\n\n\n\n\nNB1 : Un data center ou centre de données est un site physique regroupant des installations informatiques (serveurs,\nrouteurs, commutateurs, disques durs…) chargées de stocker et de distribuer des données à travers un réseau interne\nou via un accès Internet. Il ne s’agit pas de salles informatiques avec opérateurs saisissant ou traitant des données\ninformatiques.\nNB2 : La puissance thermique est la puissance souscrite dans le contrat de fourniture de froid entre le bénéficiaire\nde l’opération et le gestionnaire du réseau.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -74,7 +111,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -145,10 +183,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2021-12-29",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 36,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-159 vA40-1 à compter du 29-12-2021_1.pdf"
     }
   ],
@@ -193,10 +236,10 @@
     "Tertiaire_BAT/BAT-TH-159 vA40-1 à compter du 29-12-2021 - Partie A à compter du 01-07-2026 - Parties B, C et D.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.138019+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

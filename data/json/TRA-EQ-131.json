@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Transport de marchandises, fournitures et outils dans tous les secteurs d’activités.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Acquisition ou location longue durée, par une personne morale ou physique disposant d’un numéro SIREN depuis\nplus de trois mois, de vélos-cargos (encore dénommés cargos-cycles) à assistance électrique neufs.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er août 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Un vélo-cargo à assistance électrique est un cycle à pédalage assisté au sens de la catégorie 6.11 de l’article R. 311-\n1 du code de la route, dont le cadre est spécifiquement conçu par le fabricant pour permettre le transport de\nmarchandises, fournitures et outils et disposant, à cette fin, d’une caisse ou d’une plateforme à l’arrière ou à l’avant\ndu conducteur. Il est inscrit au fichier national unique des cycles identifiés prévu par l’article L. 1271-3 du code des\ntransports. La capacité de la batterie du vélo-cargo est supérieure ou égale à 400 Wh.\n\nLe vélo-cargo est certifié conforme à la norme EN 15194 et à au moins une des normes suivantes, ou normes\néquivalentes en vigueur, pour un poids total maximal supérieur ou égal à 175 kg (charge transportée et conducteur\ncompris) :\n- NF R30-050 ;\n- DIN 79010 ;\n- EN 17860.\n\nLe vélo-cargo est également certifié conforme aux directives 2006/42/CE, 2011/65/UE, 2014/30/UE et\n2023/1542/UE.\n\nLa présente fiche concerne l’achat ou la location de vélos-cargos, neufs, achetés ou loués par une personne morale\nou physique disposant d’un numéro SIREN depuis plus de 3 mois. Le bénéficiaire ne peut acheter ou louer un\nnombre de vélos-cargos supérieur à son effectif déclaré sur son dernier exercice clos, ou document équivalent\npermettant de justifier son effectif, sur la durée de vie conventionnelle définie dans la présente fiche. Dans le cas\nd’une personne morale de droit public ou association ne pouvant produire de liasse fiscale ou document équivalent,\nle bénéficiaire ne peut acheter ou louer un nombre de vélos-cargos supérieur à son effectif salarié ou bénévole attesté\nsur l’honneur par le responsable légal, dans la limite de 15 vélos-cargos, sur la durée de vie conventionnelle définie\ndans la présente fiche.\n\nDans le cas d’une location, la durée du contrat de location est au minimum de vingt-quatre mois, hors reconduction\ntacite.\n\nLa preuve de la réalisation de l’opération mentionne l’achat ou la location longue durée d’un ou plusieurs vélos-\ncargos neufs ainsi que l’identifiant unique FNUCI correspondant au marquage du ou des vélos-cargos.\n\nLes documents justificatifs spécifiques à l’opération sont les suivants :\n- le certificat d’identification du cycle au nom de l’acquéreur (ou du loueur en cas de location longue durée) au sens\nde l’article 3 de l’arrêté du 29 décembre 2020 relatif à l’identification des cycles ;\n- la déclaration de conformité CE du fabricant attestant la conformité à la norme EN 15194, à la norme NF R30-\n050, DIN 79010 ou EN 17860, ainsi qu’aux directives 2006/42/CE, 2011/65/UE, 2014/30/UE et 2023/1542/UE ;\n- le rapport de tests de conformité aux normes, rédigé en français ou anglais, démontrant que le poids total maximal\ndu vélo-cargo est supérieur ou égal à 175 kg (charge transportée et conducteur compris) ;\n- la documentation technique du vélo-cargo incluant : photo contractuelle du modèle, désignation du modèle,\ncapacité de la batterie, cadre (matière), longueur, largueur, hauteur, poids total autorisé en charge, roues\n(dimensions), freins (caractéristiques ou référence) ;\n- la liasse fiscale du dernier exercice clos à la date d’engagement de l’opération, ou document équivalent permettant\nde justifier l’effectif, ou une attestation sur l’honneur signée par le responsable légal mentionnant les effectifs\nrapportés en équivalent temps plein dans le cas d’une personne morale de droit public ou association ne pouvant\nproduire de liasse fiscale ;\n- L’extrait K ou Kbis, ou extrait RNE, ou document équivalent permettant d’attester de la date de création de l’entité\nbénéficiaire ;\n- une photo de chaque vélo-cargo acheté ou loué apparaissant entièrement ainsi qu’une photo faisant apparaître\nl’identifiant unique FNUCI correspondant au marquage du vélo-cargo ;\n- la feuille récapitulative, disponible sur le site internet du ministère chargé de l’énergie, mentionnant les\ncaractéristiques des vélos-cargos achetés ou loués.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "6 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac\n\nNombre de vélos-cargos (*)\n83 000\nX\nN\n\n(*) Le nombre de vélos-cargos valorisables au titre de la présente fiche ( N) est inférieur ou égal à l’effectif salarié\ndéclaré sur le dernier exercice clos, ou document équivalent permettant de justifier l’effectif, ou inférieur ou égal à\n15 dans les autres cas.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -155,7 +192,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -177,29 +215,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -207,10 +223,15 @@
     "photos_required": true,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-08-23",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 6,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf"
     }
   ],
@@ -291,10 +312,10 @@
     "Transport_TRA/TRA-EQ-131 vA73-2 Feuille récapitulative_0.xlsx"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.872745+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

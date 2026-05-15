@@ -10,8 +10,8 @@
 - `Industrie_IND/IND-UT-118 v A14-1 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -38,6 +38,20 @@ _Non detecte automatiquement._
 - Coefficient multiplicateur selon le
 - Montant en
 - kWh cumac
+
+## Sections officielles detectees
+- 3. Brûleur avec dispositif de récupération de chaleur sur four industriel (pages 1-1)
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-1)
+- 4. Durée de vie conventionnelle (pages 1-1)
+- 5. Montant de certificats en kWh cumac (pages 1-2)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 15
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

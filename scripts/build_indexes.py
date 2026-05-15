@@ -5,8 +5,9 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import re
-from datetime import datetime, timezone
+import unicodedata
 from pathlib import Path
 
 from extract_office import extract_office
@@ -20,6 +21,8 @@ TEXT_DIR = DATA_DIR / "text"
 MARKDOWN_DIR = DATA_DIR / "markdown"
 JSON_DIR = DATA_DIR / "json"
 INDEX_DIR = DATA_DIR / "indexes"
+CURATED_DIR = DATA_DIR / "curated"
+DEFAULT_BUILD_TIMESTAMP = "2026-05-15T00:00:00+00:00"
 
 
 def read_csv(path: Path) -> list[dict]:
@@ -30,6 +33,39 @@ def read_csv(path: Path) -> list[dict]:
 def write_json(path: Path, data: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")
+
+
+def load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def deep_merge(base: dict, override: dict) -> dict:
+    for key, value in override.items():
+        if isinstance(value, dict) and isinstance(base.get(key), dict):
+            deep_merge(base[key], value)
+        else:
+            base[key] = value
+    return base
+
+
+def apply_curated_override(fiche: dict) -> dict:
+    path = CURATED_DIR / f"{fiche['code']}.json"
+    if not path.exists():
+        return fiche
+    return deep_merge(fiche, load_json(path))
+
+
+def normalize_ascii(text: str) -> str:
+    normalized = unicodedata.normalize("NFKD", text)
+    return "".join(char for char in normalized if not unicodedata.combining(char)).lower()
+
+
+def term_matches(text: str, term: str) -> bool:
+    if term == "PAC":
+        return re.search(r"\bPAC\b", text) is not None or "pompe à chaleur" in text.lower() or "pompe a chaleur" in normalize_ascii(text)
+    if term in {"ECS", "GTB"}:
+        return re.search(rf"\b{term}\b", text) is not None
+    return normalize_ascii(term) in normalize_ascii(text)
 
 
 def classify_document(label: str, path: str) -> str:
@@ -159,15 +195,24 @@ def markdown_for_fiche(fiche: dict, main_text: str) -> str:
         "## Formules / calcul detectes",
         "\n".join(f"- {item['text']}" for item in fiche.get("formulas", [])) or "_Non detecte automatiquement._",
         "",
+        "## Sections officielles detectees",
+        "\n".join(f"- {section['number']}. {section['title']} (pages {section.get('page_start')}-{section.get('page_end')})" for section in fiche.get("sections", [])) or "_Non detecte automatiquement._",
+        "",
+        "## Donnees Energyco structurees",
+        f"- Titre propre: {fiche.get('title_clean') or ''}",
+        f"- Secteur d'application: {fiche.get('application_sector') or ''}",
+        f"- Duree de vie: {fiche.get('lifetime_years') or ''}",
+        f"- Date limite engagement: {(fiche.get('validity') or {}).get('engagement_deadline') or ''}",
+        "",
         "## Texte extrait",
         main_text,
     ]
     return "\n".join(sections).strip() + "\n"
 
 
-def build_energyco_priority(fiches: list[dict]) -> list[dict]:
+def build_keyword_hits_index(fiches: list[dict]) -> list[dict]:
     priority_terms = {
-        "PAC": ["pompe à chaleur", "pompe a chaleur", "PAC"],
+        "PAC": ["PAC", "pompe à chaleur", "pompe a chaleur"],
         "PAC collective": ["collective", "collectif"],
         "chaudière": ["chaudière", "chaudiere"],
         "système hybride PAC + gaz": ["hybride", "gaz"],
@@ -184,17 +229,45 @@ def build_energyco_priority(fiches: list[dict]) -> list[dict]:
     }
     entries: list[dict] = []
     for fiche in fiches:
-        blob = f"{fiche['code']} {fiche['title']}".lower()
-        tags = [tag for tag, terms in priority_terms.items() if any(term.lower() in blob for term in terms)]
-        explicit_high = fiche["code"] in {"BAR-TH-179", "BAR-TH-163", "BAR-TH-137", "BAT-TH-116", "RES-CH-106"}
-        if tags or explicit_high:
+        blob = f"{fiche['code']} {fiche['title']} {fiche.get('title_clean', '')}"
+        tags = [tag for tag, terms in priority_terms.items() if any(term_matches(blob, term) for term in terms)]
+        if tags:
             entries.append({
                 "code": fiche["code"],
-                "priority": "high" if explicit_high or {"PAC", "chauffage collectif", "GTB", "calorifugeage"} & set(tags) else "medium",
+                "sector": fiche["sector"],
+                "family": fiche["family"],
+                "keyword_hits": tags,
+                "title": fiche["title"],
+                "json_path": f"data/json/{fiche['code']}.json",
+                "markdown_path": f"data/markdown/{fiche['code']}.md",
+            })
+    return entries
+
+
+def build_energyco_priority(fiches: list[dict], keyword_hits: list[dict]) -> list[dict]:
+    allowed_prefixes = {"BAR", "BAT", "RES"}
+    explicit_high = {"BAR-TH-179", "BAR-TH-163", "BAR-TH-137", "BAT-TH-116", "BAT-TH-163", "BAT-TH-164", "RES-CH-106"}
+    hit_by_code = {item["code"]: item["keyword_hits"] for item in keyword_hits}
+    entries: list[dict] = []
+    for fiche in fiches:
+        prefix = fiche["code"].split("-", 1)[0]
+        tags = hit_by_code.get(fiche["code"], [])
+        in_scope = prefix in allowed_prefixes
+        has_energyco_tag = any(tag in tags for tag in [
+            "PAC", "chaudière", "système hybride PAC + gaz", "chauffage collectif", "ECS",
+            "calorifugeage", "réseau de chaleur", "régulation", "GTB", "ventilation",
+            "isolation", "résidentiel collectif", "tertiaire",
+        ])
+        if fiche["code"] in explicit_high or (in_scope and has_energyco_tag):
+            entries.append({
+                "code": fiche["code"],
+                "priority": "high" if fiche["code"] in explicit_high or {"PAC", "chauffage collectif", "GTB", "calorifugeage"} & set(tags) else "medium",
                 "energyco_use_cases": tags,
-                "why_important": "Fiche liee aux cas Energyco chauffage, PAC, regulation, reseaux ou enveloppe.",
+                "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
                 "required_site_data": fiche.get("site_data_requirements", []),
+                "energyco_site_data_requirements": fiche.get("energyco_site_data_requirements", []),
                 "risk_points": fiche.get("risks", []),
+                "energyco_risks": fiche.get("energyco_risks", []),
                 "json_path": f"data/json/{fiche['code']}.json",
                 "markdown_path": f"data/markdown/{fiche['code']}.md",
             })
@@ -237,6 +310,7 @@ def main() -> int:
         main_text, main_pages, warnings = extract_text(main_path)
         (TEXT_DIR / f"{code}.txt").write_text(main_text, encoding="utf-8", newline="\n")
         fiche = normalize_fiche(row, related, main_text, main_pages)
+        fiche = apply_curated_override(fiche)
         write_json(JSON_DIR / f"{code}.json", fiche)
         (MARKDOWN_DIR / f"{code}.md").write_text(markdown_for_fiche(fiche, main_text), encoding="utf-8", newline="\n")
         fiches.append(fiche)
@@ -254,12 +328,14 @@ def main() -> int:
             "sector": fiche["sector"],
             "family": fiche["family"],
             "title": fiche["title"],
+            "title_clean": fiche.get("title_clean"),
             "version": fiche.get("document_version"),
             "effective_date": fiche.get("effective_date"),
             "json_path": f"data/json/{code}.json",
             "markdown_path": f"data/markdown/{code}.md",
             "text_path": f"data/text/{code}.txt",
             "source_files": fiche["source_files"],
+            "extraction_status": fiche["extraction"]["status"],
             "needs_human_review": fiche["extraction"]["needs_human_review"],
         })
         for doc in fiche["related_documents"]:
@@ -280,12 +356,14 @@ def main() -> int:
         encoding="utf-8",
         newline="\n",
     )
-    write_json(INDEX_DIR / "energyco_priority_index.json", build_energyco_priority(fiches))
+    keyword_hits = build_keyword_hits_index(fiches)
+    write_json(INDEX_DIR / "keyword_hits_index.json", keyword_hits)
+    write_json(INDEX_DIR / "energyco_priority_index.json", build_energyco_priority(fiches, keyword_hits))
 
     failed = [item for item in report_items if item["status"] == "failed"]
     needs_review = [item for item in report_items if item["status"] == "needs_review"]
     report = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": os.environ.get("CEE_BUILD_TIMESTAMP", DEFAULT_BUILD_TIMESTAMP),
         "tool_version": "0.1.0",
         "summary": {
             "total_documents": len(doc_rows),

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Flottes professionnelles de véhicules de transport de marchandises de catégories N2 ou N3 ou de véhicules de\ntransport de personnes de catégories M2 ou M3 selon l’article R311.1 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Utilisation d’un lubrifiant économiseur d’énergie pour des véhicules de transport de personnes ou de marchandises.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La performance « Fuel Economy » du lubrifiant (Y) est donnée en pourcentage et est supérieure ou égale à 1 %.\n\nElle est mesurée par rapport à une huile moteur de grade 15W-40 répondant au standard ACEA E7 selon l’essai\nOM501FE par un organisme accrédité selon la norme NF EN ISO/CEI 17025 2005 par le Comité français\nd'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral\npertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne des\norganismes d'accréditation,\n\nLa preuve de réalisation de l'opération mentionne :\n- l’acquisition d’un volume donné de lubrifiant ;\n- la performance « Fuel Economy » du lubrifiant ;\n- le fait que cette performance est mesurée selon l’essai OM501FE par un organisme donné accrédité selon la norme\nNF EN ISO/CEI 17025 2005 par le COFRAC ou un organisme d'accréditation donné.\n\nA défaut, la preuve de réalisation de l’opération mentionne l'acquisition d’un volume donné de lubrifiant avec ses\nmarque, référence ou appellation commerciale,\n\nLes documents justificatifs spécifiques à l’opération sont :\n- les procès verbaux des résultats des tests d’économies de carburant réalisés selon l’essai OM501FE par un\norganisme accrédité.\n- lorsque la désignation des lubrifiants dans la preuve de réalisation de l’opération est différente de celle des\nformulations testées, un tableau de correspondance entre les marques, références ou appellations commerciales des\nproduits utilisés et les références des formulations testées par l’organisme accrédité pour mesurer l’économie\nd’énergie et pour chaque lubrifiant sa performance « Fuel Economy ». Ce document est établi et signé par le\nfabricant du lubrifiant,\n- un état récapitulatif issu du professionnel, daté et signé par le bénéficiaire de l’opération, indiquant le volume de\nlubrifiants utilisé par marque, référence ou appellation commerciale, par lieu de distribution (nom du site, numéro\nde SIRET de l’établissement du bénéficiaire, adresse du site), par date d'acquisition, par référence de la preuve de\nréalisation de l’opération, ainsi que la performance « Fuel Economy » des lubrifiants.\n\nLa date d’engagement de l’opération est définie comme la date d’acquisition du premier litre de lubrifiant et la date\nd’achèvement de l’opération correspond à la date d’acquisition du dernier litre lubrifiant. L’écart entre ces deux\ndates ne peut dépasser 6 mois.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "1 an.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "38 700 * X * Y\nAvec :\nX = volume de lubrifiant utilisé en m3.\nY% : performance « Fuel Economy » du lubrifiant.\nExemple : pour une performance de 1,5 %, Y = 1,5\n\nY% = Y2%-Y1%\n\nY1 en % : économie de carburant de l’huile de référence 15W-40 répondant au standard ACEA E7 utilisée, mesurée\npar rapport à l’huile étalon de l’essai OM501FE (Y1 : valeur attendue négative)\nY2 en % : économie de carburant de l’huile à tester, mesurée par rapport à l’huile étalon de l’essai OM501FE (Y2 :\nvaleur attendue positive)",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -171,7 +208,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -193,10 +231,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": null,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-113 vA14-1.pdf"
     }
   ],
@@ -265,10 +308,10 @@
     "Transport_TRA/TRA-EQ-113 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.502387+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

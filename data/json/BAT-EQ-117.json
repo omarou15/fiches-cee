@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments tertiaires existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "L’opération consiste :\n- soit en le remplacement d’une installation frigorifique centralisée utilisant un hydrofluorocarbure (HFC) par une\ninstallation neuve centralisée utilisant le CO2 comme fluide frigoporteur diphasique ou frigorigène. On distingue\ndans cette situation trois cas d’opérations éligibles dont les conditions sont détaillées dans le tableau ci-dessous, en\nfonction du type d’installations existantes et du type d’installations neuves mises en place en remplacement de\nl’installation existante (cf. colonne « Solution éligible ») ;\n- soit en la mise en place d’une installation frigorifique neuve utilisant le CO2 comme fluide frigorigène de puissance\nfrigorifique inférieure à 40 kW. Dans ce cas il n’est pas procédé au remplacement d’une installation existante.\nL’installation neuve installée satisfait aux conditions des solutions éligibles « Cas 2 » et « Cas 3 » détaillées dans la\ncolonne « Solution éligible » du tableau ci-dessous.\n\nOpération\néligible\nInstallation existante\nSolution éligible\nCas 1\nFroid positif, un seul étage de\ncompression, fluide HFC de\nPRG > 150 en détente directe ou\nindirecte\nFluide frigorigène de PRG < 150 (hors CO2) et CO2\nfrigoporteur diphasique moyenne température\nCas 2\nFroid négatif seul, en un seul étage\nde compression, fluide HFC de\nPRG > 150 en détente directe ou\nindirecte\nCascade avec étage positif avec fluide frigorigène de\nPRG < 150 (hors CO2) et étage négatif au CO2 subcritique\nCas 3\nDeux circuits séparés :\n- étage positif : HFC de PRG > 150\nmonoétagé détente directe ;\n- et\nétage\nnégatif :\nHFC\nde\nPRG > 150 monoétagé détente\ndirecte\n\nou :\n\nCascade :\n- étage positif : HFC de PRG > 150\nmonoétagé détente directe ;\n- et étage négatif : CO2 subcritique\nmonoétagé détente directe ou\nindirecte\nOption 0 : Installation au CO2 transcritique (avec ou sans\nétage CO2 négatif ; avec ou sans évaporateur positif\nutile) ;\nOption 1 : Installation au CO2 transcritique avec\ncompresseur CO2 parallèle (avec ou sans étage CO2\nnégatif ; avec ou sans évaporateur positif utile) ;\nOption 1 bis : Installation au CO2 transcritique avec\néjecteur gaz CO2 (sans compresseur parallèle) (avec ou\nsans étage CO2 négatif ; avec ou sans évaporateur\npositif utile) ;\nOption 2 (non cumulable avec les options 1 ou 1 bis) :\nInstallation au CO2 transcritique avec compresseur CO2\nparallèle et éjecteur gaz CO2 (ou MT) (avec ou sans\nétage CO2 négatif ; avec ou sans évaporateur positif\nutile) ;\nOption 3 : Alimentation des évaporateurs en régime\nsaturé grâce à :\n- éjecteur liquide CO2 (cumulable avec options 0, 1 ou\n2) ;\n- ou système permettant la suralimentation des\névaporateurs (cumulable avec options 0, 1 ou 2).\n\nNB : « PRG » signifie : « Potentiel de Réchauffement Global ».\n\nLes groupes de condensation sont éligibles à la présente fiche. Ils comprennent le compresseur, le\ncondenseur / gascooler et tous les organes annexes nécessaires, hormis le ou les évaporateurs. Ces groupes de\ncondensation sont à raccorder aux évaporateurs et/ou meubles frigorifiques.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa mise en place de l’installation frigorifique au CO2 fait l’objet d’un rapport daté et signé par un professionnel\n(installateur, bureau d’études,…). Ce rapport mentionne :\n- la raison sociale et l’adresse du bénéficiaire ;\n- l’adresse du chantier si différente de l’adresse du bénéficiaire ;\n- les températures des besoins en froid positif et négatif de l’installation ; une justification des valeurs des\ntempératures au regard de l’utilisation faite du froid (par exemple : « Tnég = -30°C pour meubles frigorifiques de\nvente négatifs ») ;\n\n- les puissances des besoins en froid positif et négatif de l’installation ; une justification des valeurs des puissances\nau regard de l’utilisation faite du froid (par exemple : « Pfnég = 50 kWf pour X ml de meubles frigorifiques de vente\nnégatifs ») ;\n- les caractéristiques du groupe existant de production de froid : nature des fluides frigorigènes, puissances installées\ndes compresseurs positifs et négatifs, architecture (cascade, circuits séparés, détente directe, nature du\nfrigoporteur…) ;\n- les marque et référence du groupe de production de froid neuf installé (mono-compresseur ou multi-\ncompresseurs) ;\n- la puissance frigorifique utile positive totale en kW délivrée par les compresseurs positifs neufs, la puissance\nfrigorifique utile négative totale en kW délivrée par les compresseurs négatifs CO2 neufs, ainsi que le point de\nfonctionnement (températures négative, positive et extérieure) auquel ont été déterminées ces puissances. Ce point\nde fonctionnement doit être cohérent avec les températures du besoin en froid de l’installation et la zone climatique\ndans laquelle se situe l’opération ;\n- le cas retenu parmi  les cas 1, 2 et 3 et, si le cas 3 est retenu, l’option retenue parmi les options 0, 1, 1 bis, 2 et 3,\ntels que mentionnés dans le tableau de la partie 2 de la présente fiche ;\n- dans les cas 1 et 2, le fluide utilisé pour l’étage positif (le CO2 n’est pas éligible) ;\n- le cas échéant, les marques et références des éjecteurs ;\n- le cas échéant, le fait que l’installation comporte un système permettant l’alimentation des évaporateurs CO2\npositifs en régime saturé, et les marques et références des bouteilles principale et secondaire utilisées.\n\nLe document justificatif spécifique à l’opération est le rapport susmentionné.",
+      "page_start": 2,
+      "page_end": 3
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 3,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Cas 1 : CO2 frigoporteur diphasique pour production de froid positif :\n\nMontant en kWh cumac / kW\n\nPuissance frigorifique utile délivrée\npar les compresseurs Positifs neufs\nmoyenne température au CO2\nen kW\n\n7 300\n\nx\n\nPf +\n\n\nLa puissance frigorifique à retenir est la puissance frigorifique positive utile au besoin de froid et délivrée par les\ncompresseurs positifs neufs au CO2. Elle figure sur le document issu de l’installateur frigoriste.\n\nLa puissance du ou des compresseurs de secours est exclue.\n\nL’installation n’inclut pas de compresseurs négatifs.\n\nCas 2 : froid négatif seul en cascade avec CO2 subcritique :\n\nMontant en kWhcumac / kW\n\nPuissance frigorifique utile délivrée\npar les compresseurs négatifs neufs\nbasse température au CO2 en kW\n\n8 400\n\nx\n\nPf -\n\nLa puissance frigorifique à retenir est la puissance frigorifique négative utile au besoin de froid négatif et délivrée\npar les compresseurs négatifs neufs au CO2. Elle figure sur le document issu de l’installateur frigoriste.\n\nLa puissance frigorifique des compresseurs moyenne température n’est pas prise en compte.\n\nL’utilisation d’un circuit frigoporteur pour alimenter les évaporateurs positifs et pour condenser le CO2 négatif est\nautorisée. L’utilisation d’un circuit frigoporteur pour alimenter les évaporateurs négatifs n’est pas autorisée.\n\nLa puissance du ou des compresseurs de secours est exclue.\n\nCas 3 : froid positif et négatif ou positif seul ou négatif seul, mise en place d’une installation au CO2 transcritique :\n\nMontants en kWh cumac / kW\nSomme des puissances\nfrigorifiques utiles\ndélivrées par les\ncompresseurs CO2 en\nkW\nSans alimentation\ndes évaporateurs\nen régime saturé\n\nAvec alimentation\ndes évaporateurs\nen régime saturé\n(Option 3)\nOption 0\n8 500\n12 500\nPf + + Pf -\nOption 1 ou 1 bis\n10 300\n14 100\nx\nOption 2\n12 700\n16 300\n\nLa somme des puissances frigorifiques à retenir est la somme de la puissance frigorifique positive utile délivrée par\nles compresseurs neufs au CO2 positifs (moyenne température) et de la puissance frigorifique négative utile délivrée\npar les compresseurs neufs au CO2 négatifs (basse température). Les valeurs figurent sur le document issu de\nl’installateur frigoriste.\n\nLa puissance des compresseurs moyenne et basse températures est à prendre en compte même si la production ne\npermet de délivrer qu’une puissance frigorifique négative.\n\nLa puissance du ou des compresseurs de secours est exclue.\n\nLes cas et options susmentionnés sont ceux indiqués dans le tableau de la partie 2 de la présente fiche.",
+      "page_start": 3,
+      "page_end": 5
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -154,7 +191,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -209,10 +247,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2022-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf"
     }
   ],
@@ -257,10 +300,10 @@
     "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.403647+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -10,8 +10,8 @@
 - `Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -44,6 +44,19 @@
 - 5. Montant de certificats en kWh cumac
 - Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système, calculée au
 - Eélec (en kWh/an) est l’énergie électrique annuelle absorbée par le système, qui est la somme des énergies
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-6)
+- 4. Durée de vie conventionnelle (pages 6-6)
+- 5. Montant de certificats en kWh cumac (pages 6-6)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 14
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

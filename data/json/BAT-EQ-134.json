@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment tertiaire : locaux de distribution alimentaire au public de produits frais et surgelés tels qu’hypermarchés,\nsupermarchés, petits magasins alimentaires.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un meuble frigorifique de vente équipé d’un groupe de production de froid intégré, appelé également\n« groupe logé », performant, dans un bâtiment tertiaire neuf ou existant.\n\nL’échangeur permettant l’évacuation de la chaleur générée par le meuble (unité de condensation) peut être propre\nau meuble frigorifique ou commun à plusieurs meubles. L’évacuation de la chaleur peut s’opérer à l’intérieur ou à\nl’extérieur du magasin.\n\nLes armoires à boissons (cannettes, bouteilles d’eau…), les conservateurs ou armoires mis à disposition par location\nou de manière temporaire par des prestataires ou industriels, et toute armoire réfrigérée utilisée pour des usages\nautres que le respect de la chaîne du froid, ne sont pas éligibles à la présente fiche.\n\nLes meubles bi-tempérés ne sont pas éligibles à la présente fiche.\n\nL’opération n’est pas cumulable avec les fiches BAT-EQ-124 et BAT-EQ-125.\n\nLa présente fiche s’applique aux opérations engagées jusqu’au 31 décembre 2028.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe meuble frigorifique de vente équipé d’un groupe de production de froid intégré mis en place possède a minima\nune classe d’efficacité énergétique D évaluée conformément au règlement délégué (UE) 2019/2018 de la\nCommission du 11 mars 2019 complétant le règlement (UE) 2017/1369 du Parlement européen et du Conseil en ce\nqui concerne l’étiquetage énergétique des appareils de réfrigération disposant d’une fonction de vente directe.\n\nLa preuve de réalisation de l’opération mentionne les marques et références du ou des produits installés et, pour une\nmarque et une référence données, la longueur de meubles installée.\n\nLe document justificatif spécifique à l’opération, issu d’un organisme établi dans l'Espace économique européen et\naccrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre\norganisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination\neuropéenne des organismes d'accréditation, ou tout organisme signataire du MRA ILAC (exemple : COFRAC,\nDAKKS, etc.), atteste des performances énergétiques des produits installés selon la norme ISO 23953-2 (2023 ou\n\npostérieure) pour une classe d’ambiance 3 (à 25°C et 60 % d’humidité relative). Pour ce faire, l’organisme\ncertificateur s’appuie sur un laboratoire d’essais accrédité selon la norme NF EN ISO/IEC 17025.\n\nCe document indique que l’équipement de marque et référence installé est un meuble frigorifique de vente équipé\nd’un groupe de production de froid intégré. Il précise le type de meuble frigorifique installé (armoire frigorifique\nverticale, semi-verticale ou mixte ; armoire frigorifique horizontale ; congélateur vertical ou mixte ; congélateur\nhorizontal) et la classe d’efficacité énergétique évaluée conformément au règlement délégué (UE) 2019/2018 de la\nCommission du 11 mars 2019 susmentionné.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "10 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour la mise en place d’un meuble frigorifique de vente de classe énergétique D :\n\nType de meuble frigorifique de vente\ninstallé\nMontant en kWh\ncumac par ml installé\n\nLongueur totale de\nmeubles frigorifiques\nde vente installés (m)\nArmoires frigorifiques verticales, semi-\nverticales et mixtes\n22 600\nX\nL\nArmoires frigorifiques horizontales\n6 300\nCongélateurs verticaux et mixtes\n18 400\nCongélateurs horizontaux\n9 900\n\nPour la mise en place d’un meuble frigorifique de vente de classe énergétique C :\n\nType de meuble frigorifique de vente\ninstallé\nMontant en kWh\ncumac par ml installé\n\nLongueur totale de\nmeubles frigorifiques\nde vente installés (m)\nArmoires frigorifiques verticales, semi-\nverticales et mixtes\n31 000\nX\nL\nArmoires frigorifiques horizontales\n8 700\nCongélateurs verticaux et mixtes\n30 800\nCongélateurs horizontaux\n14 700\n\nPour la mise en place d’un meuble frigorifique de vente de classe énergétique B :\n\nType de meuble frigorifique de vente\ninstallé\nMontant en kWh\ncumac par ml installé\n\nLongueur totale de\nmeubles frigorifiques\nde vente installés (m)\nArmoires frigorifiques verticales, semi-\nverticales et mixtes\n38 200\nX\nL\nArmoires frigorifiques horizontales\n10 500\nCongélateurs verticaux et mixtes\n41 200\nCongélateurs horizontaux\n18 800\n\nPour la mise en place d’un meuble frigorifique de vente de classe énergétique A :\n\nType de meuble frigorifique de vente\ninstallé\nMontant en kWh\ncumac par ml installé\n\nLongueur totale de\nmeubles frigorifiques\nde vente installés (m)\nArmoires frigorifiques verticales, semi-\nverticales et mixtes\n43 800\nX\nL\nArmoires frigorifiques horizontales\n12 100\nCongélateurs verticaux et mixtes\n49 400\nCongélateurs horizontaux\n21 900",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -179,7 +216,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -257,29 +295,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -287,10 +303,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2024-04-01",
+    "engagement_deadline": "2028-12-31"
+  },
+  "lifetime_years": 10,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf"
     }
   ],
@@ -335,10 +356,10 @@
     "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.534241+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

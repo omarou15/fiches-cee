@@ -58,6 +58,14 @@ Le depot contient maintenant une couche de conception pour transformer cette arc
 - `scripts/README.md` : pipeline reproductible recommande ;
 - `data/README.md` : structure cible des donnees derivees.
 
+Le pipeline produit maintenant des donnees derivees exploitables :
+
+- `data/json/` : un JSON par fiche unique ;
+- `data/markdown/` : une version Markdown par fiche ;
+- `data/text/` : texte extrait ;
+- `data/indexes/chunks_cee.jsonl` : chunks RAG ;
+- `data/curated/` : enrichissements metier verifies, reappliques a chaque build.
+
 ## Note
 
 La page officielle du ministere classe les fiches en six secteurs : agriculture, residentiel, tertiaire, industrie, reseaux et transport.

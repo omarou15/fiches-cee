@@ -10,8 +10,8 @@
 - `Tertiaire_BAT/BAT-TH-108 v A22-1.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -30,6 +30,19 @@
 ## Formules / calcul detectes
 - 5. Montant de certificats en kWh cumac
 - Montant unitaire en kWh cumac
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-1)
+- 4. Durée de vie conventionnelle (pages 1-2)
+- 5. Montant de certificats en kWh cumac (pages 2-2)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 12
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

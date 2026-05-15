@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture : véhicules de catégorie T (à roues) ou C (à chenilles) selon l’article R. 311-1 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Contrôle du moteur d’un tracteur sur banc d’essai mobile et préconisations de réglages.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "L’opération comprend le contrôle du moteur sur banc d’essai mobile et les conseils délivrés à l’agriculteur ou au\nchauffeur sur la conduite, l’entretien du matériel et les réglages.\n\nLe contrôle est effectué par un professionnel.\n\nLa preuve de réalisation de l’opération mentionne le contrôle du moteur sur banc d’essai et l’identification du\nvéhicule contrôlé.\n\nLe document justificatif spécifique de l’opération est le rapport de contrôle du moteur du tracteur agricole sur banc\nd’essai, daté et signé par le professionnel, et mentionnant :\n- le contrôle du moteur sur banc d’essai, le numéro de châssis du véhicule contrôlé et les résultats du contrôle (avec\na minima les courbes des relevés de couple, de puissance, de consommation spécifique et de débit de la pompe\nd’injection) ;\n- l’immatriculation du tracteur contrôlé ;\n- les conseils délivrés à l’agriculteur ou au chauffeur sur la conduite, l’entretien du matériel et les réglages à\neffectuer.\n\nLe contrôle précédent est daté de plus de deux ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "2 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Puissance du moteur du tracteur\nen chevaux\nMontant en kWh cumac\npar tracteur contrôlé\nde 0 à 78\n8 000\nde 79 à 133\n16 800\nà compter de 134\n22 400",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -187,7 +224,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -217,10 +255,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2022-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 2,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf"
     }
   ],
@@ -289,10 +332,10 @@
     "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:56.869033+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

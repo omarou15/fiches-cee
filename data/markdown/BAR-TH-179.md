@@ -10,40 +10,24 @@
 - `Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
+- Statut: validated
 - Revue humaine requise: False
-- Notes: 
+- Notes: Fiche Energyco modèle structurée depuis le PDF source et les sections extraites.
 
 ## Conditions detectees
-- Seuls sont éligibles les pompes à chaleur dimensionnées pour répondre intégralement ou en partie aux besoins du
-- Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie les PAC utilisées uniquement pour la
-- 3. Conditions pour la délivrance de certificats
-- commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné),
-- (pour les conditions climatiques moyennes définies par le règlement susmentionné) est à considérer ;
-- moyenne ou haute température et l’Etas à 55°C (pour les conditions climatiques moyennes définies par le règlement
-- (pour les conditions climatiques moyennes définies par le règlement susmentionné) est à considérer.
-- (Etas) (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon
-- commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement
-- août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée
-- commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné (soit
-- (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon l’application
+- La PAC doit être de type air/eau, de puissance thermique nominale inférieure ou égale à 400 kW, pour un système de chauffage collectif.
+- La PAC doit répondre intégralement ou en partie aux besoins du bâtiment en chauffage ou en chauffage et eau chaude sanitaire.
+- Les PAC utilisées uniquement pour la production d'eau chaude sanitaire sont exclues.
 
 ## Exigences techniques detectees
-- L’efficacité énergétique saisonnière pour le chauffage des locaux (Etas) selon le règlement (EU) n° 813/2013 de la
-- L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de
-- i) la description des équipements installés au titre de la présente fiche (marque, référence, efficacité énergétique
-- - l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2
-- européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou
-- - l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013
-- Efficacité énergétique
-- On entend par PAC différentes, des PAC relevant de classes d'efficacité énergétique saisonnière (Etas) différentes.
+- La mise en place est réalisée par un professionnel titulaire d’un signe de qualité adapté.
+- Etas minimale : 111 % pour application moyenne ou haute température, 126 % pour application basse température.
+- L’Etas prise en compte est celle de la PAC seule pour les besoins de chauffage des locaux, hors dispositif de régulation.
 
 ## Pieces justificatives detectees
-- La preuve de la réalisation de l’opération mentionne :
-- A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et
-- référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique
-- Ce document indique que :
-- Les documents justificatifs spécifiques à l’opération sont :
+- Étude préalable de dimensionnement datée et signée.
+- Preuve de réalisation mentionnant marque, référence, Prated à -10°C, usage, type d’application et Etas.
+- Décision de qualification ou de certification du professionnel.
 
 ## Formules / calcul detectes
 - 5. Montant de certificats en kWh cumac
@@ -51,6 +35,19 @@
 - cumac par
 - Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la base du montant de kWh cumac par
 - appartement de la PAC ayant le montant le plus faible.
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-3)
+- 4. Durée de vie conventionnelle (pages 3-3)
+- 5. Montant de certificats en kWh cumac (pages 3-4)
+
+## Donnees Energyco structurees
+- Titre propre: Pompe à chaleur collective de type air/eau
+- Secteur d'application: Bâtiments résidentiels collectifs existants
+- Duree de vie: 22
+- Date limite engagement: 2030-12-31
 
 ## Texte extrait
 Certificats d’économies d’énergie

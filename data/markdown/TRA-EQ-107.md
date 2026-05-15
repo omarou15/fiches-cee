@@ -12,8 +12,8 @@
 - `Transport_TRA/TRA-EQ-107 - Annexe 2 à compter du 01-07-2026_0.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -32,6 +32,19 @@ _Non detecte automatiquement._
 - 5. Montant de certificats en kWh cumac
 - Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :
 - Ga = gain net actualisé en kWh cumac de l’UTI selon le bassin de navigation et le type de bateaux :
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance des certificats (pages 1-1)
+- 4. Durée de vie conventionnelle (pages 1-1)
+- 5. Montant de certificats en kWh cumac (pages 1-2)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 12
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

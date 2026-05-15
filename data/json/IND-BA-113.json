@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments industriels existants en France métropolitaine.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place de lanterneaux d’éclairage zénithal, avec costière, ponctuels ou continus avec pilotage automatique\nde l’éclairage électrique.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa conductance thermique des lanterneaux Urc est :\n- inférieure ou égale à 2 W/m².K pour les lanterneaux d’éclairage ponctuels fixes ;\n- inférieure ou égale à 2,5 W/m².K pour les lanterneaux ponctuels ouvrants et les lanterneaux continus fixes et\nouvrants.\n\nLa classe de durabilité des lanterneaux est ΔA.\n\nLe facteur de transmission lumineuse totale τD65 est compris entre 45% et 65%.\n\nLes spécifications des lanterneaux (conductance thermique, classe de durabilité, facteur de transmission lumineuse\ntotale) sont déterminées suivant la norme européenne EN1873+A1 pour les lanterneaux d’éclairage zénithal\nponctuels et suivant la norme européenne EN14963 pour les lanterneaux d’éclairage zénithal continus.\n\nLa mise en place des lanterneaux s’accompagne d’un pilotage automatique de l’éclairage électrique sur détection\nde lumière en fonction des apports de lumière naturelle.\n\nLa mise en place des lanterneaux d’éclairage zénithal fait l’objet d’une étude préalable de dimensionnement des\nouvrages d’éclairage naturel effectuée par un professionnel ou un bureau d’étude. Cette étude précise les\ncaractéristiques des lanterneaux (conductance thermique, durabilité, facteur de transmission lumineuse), leur\nnombre, leur destination (éclairage, évacuation des fumées), leur implantation et conditions d’installation dans le\nbâtiment ainsi que l’aire de la projection horizontale de la surface éclairante de la paroi translucide de chaque\néquipement.\n\nLa preuve de réalisation mentionne :\n- la mise en place de lanterneaux d'éclairage zénithal et leur nombre ;\n- la conductance thermique Urc des lanterneaux ;\n- le facteur de transmission lumineuse totale τD65 des lanterneaux ;\n- l’aire de la projection horizontale de la surface éclairante de la paroi translucide (At flat) des lanterneaux ;\n\n- la mise en place d’un pilotage automatique de l’éclairage électrique sur détection de lumière en fonction des\napports de lumière naturelle ;\n- la classe de durabilité des lanterneaux.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipement(s) avec\nleur marque et référence, leur nombre, l’aire de la projection horizontale de la surface éclairante de la paroi\ntranslucide (At flat) des équipements installés et le pilotage automatique de l’éclairage électrique sur détection de\nlumière en fonction des apports de lumière naturelle. Elle est complétée par un document issu du fabricant indiquant\nque les équipements de marque et référence installés sont des lanterneaux d’éclairage zénithal et mentionnant la\nconductance thermique, le facteur de transmission lumineuse totale τD65 et la classe de durabilité des lanterneaux\ninstallés.\n\nLe document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place des\nlanterneaux.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "20 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone climatique\nMontant en kWh\ncumac par m²\n\nAire de la projection horizontale de la surface\néclairante de la paroi translucide (At flat) de\nl’ensemble des lanterneaux installés en m²\nH1\n3 400\nX\nS\nH2\n4 000\nH3\n6 400\n\nL’aire de la projection horizontale de la surface éclairante de la paroi translucide (At flat) est égale à la projection\nhorizontale de la plus petite section de passage de la lumière naturelle.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -147,7 +184,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -218,10 +256,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 20,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-BA-113 vA26-1.pdf"
     }
   ],
@@ -266,10 +309,10 @@
     "Industrie_IND/IND-BA-113 vA26-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.096661+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un pré-refroidisseur de lait dans une exploitation agricole laitière existante, entre l’installation de\ntraite et le tank à lait.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe pré-refroidisseur de lait est validé par le Comité Technique dédié et composé du Centre National\nInterprofessionnel de l’Economie Laitière (CNIEL), de l’institut de l’Elevage et du GIE Elevages de Bretagne. Sa\nperformance énergétique est supérieure ou égale à 35 % d’économies d’énergie électrique sur la consommation du\ntank à lait.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un pré-refroidisseur de lait et sa performance\nénergétique en % d’économies d’énergie électrique sur la consommation du tank à lait.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence\ninstallé est un pré-refroidisseur de lait.\n\nLe document justificatif spécifique à l’opération est le document attestant de la performance énergétique du\nprérefroidisseur, validé par le Comité Technique dédié.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "14 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant unitaire en kWh cumac par litre de lait\n\nProduction laitière annuelle de\nl’exploitation (litres/an)\n0,113\nX\nP",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -115,7 +152,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -145,10 +183,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 14,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-TH-103 vA15-1.pdf"
     }
   ],
@@ -193,10 +236,10 @@
     "Agriculture_AGRI/AGRI-TH-103 vA15-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:56.896739+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un chauffe-eau thermodynamique individuel à accumulation.\n\nLa présente opération n’est pas cumulable avec les opérations relevant des fiches BAR-TH-171 « Pompe à chaleur\nde type air/eau » et BAR-TH-172 « Pompe à chaleur de type eau/eau ou eau glycolée/eau ».\n\nLa présente fiche s’applique aux opérations engagées avant le 1er janvier 2031.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe professionnel réalisant l’opération est titulaire d’un signe de qualité répondant aux mêmes exigences que celles\nprévues à l’article 2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article\n200 quater du code général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des\nimpôts et des textes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 6° du I de\nl’article 1er du décret précité.\n\nL’efficacité énergétique pour le chauffage de l'eau, définie selon le règlement délégué (UE) n° 814/2013 de la\nCommission du 2 août 2013 portant application de la directive 2009/125/CE du Parlement européen et du Conseil\nen ce qui concerne les exigences d’écoconception applicables aux chauffe-eau et aux ballons d’eau chaude,\ncorrespond à un profil de soutirage déclaré M, L ou XL et est supérieure ou égale à :\n\nProfil de soutirage\nM\nL\nXL\nEfficacité énergétique\n95 %\n100 %\n110 %\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un chauffe-eau thermodynamique à\naccumulation et l’efficacité énergétique pour le chauffage de l’eau de l’équipement installé selon le règlement\ndélégué (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence\ninstallé est un chauffe-eau thermodynamique à accumulation. Ce document précise l’efficacité énergétique pour le\nchauffage de l’eau de l’équipement installé selon le règlement délégué (UE) n° 814/2013 susmentionné pour le\nprofil de soutirage déclaré.\n\nLe document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel\ndélivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "17 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Type de logement\nMontant unitaire en\nkWh cumac\nMaison individuelle\n14 700\nAppartement\n11 800",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -131,7 +168,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -191,10 +229,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2026-01-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 17,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-148 vA78-4 à compter du 01-01-2026.pdf"
     }
   ],
@@ -239,10 +282,10 @@
     "Residentiel_BAR/BAR-TH-148 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.495698+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

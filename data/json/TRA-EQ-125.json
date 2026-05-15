@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Les véhicules ferroviaires dédiés aux opérations de fret, de travaux sur voies ou de manoeuvres/triage.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système « Stop & Start » neuf sur un véhicule ferroviaire fonctionnant au diesel et dédié aux\nopérations de fret, de travaux sur voies ou de manoeuvres/triage.\n\nLe système « Stop & Start » est un système qui permet l’arrêt automatique du moteur lorsque l’engin est à l’arrêt et\nle moteur au ralenti. L’arrêt automatique est programmé pour que ces conditions n’excèdent pas 15 minutes. Le\nredémarrage du moteur est rendu possible par actionnement volontaire de l’opérateur.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa preuve de la réalisation de l’opération mentionne l’installation d’un système « Stop & Start » neuf, ses marque\net référence, son numéro de série et le numéro d’immatriculation EVN du véhicule ferroviaire sur lequel le système\nest installé.\n\nLes documents justificatifs spécifiques à l’opération sont :\n1) Une photographie lisible de la plaque constructeur du système « Stop & Start », avec les indications minimales\nsuivantes :\n1.1. La raison sociale et l'adresse complète du fabricant du système « Stop & Start » et, le cas échéant, de son\nmandataire ;\n1.2. Le numéro de série du système « Stop & Start » ;\n1.3. Le numéro EVN du véhicule ferroviaire sur lequel le système est installé ;\n1.4. L'année de construction du système « Stop & Start », à savoir l'année au cours de laquelle le processus\nde fabrication a été achevé.\nUne copie papier ou numérique lisible de cette photographie peut être acceptée.\n2) Un relevé du nombre total d’heures de fonctionnement du système « Stop & Start » actif et du nombre total\nd’heures de fonctionnement du moteur du véhicule ferroviaire, sur le territoire français, établi par le gestionnaire ou\nl’exploitant du véhicule ferroviaire sur une période maximale de six mois consécutifs. Le relevé précise, en outre,\nle numéro EVN du véhicule ferroviaire, les dates d’utilisation du véhicule, le temps journalier de fonctionnement\ndu moteur du véhicule exprimé en minutes, le temps journalier de fonctionnement du système « Stop & Start » actif\nexprimé en minutes, le nombre journalier d’activation du système « Stop & Start », la date de début et de fin du\nrelevé.\n\nIl y a activation du système « Stop & Start » dès lors que ce système procède à l’arrêt du moteur. La durée pendant\nlaquelle le système « Stop & Start » est considéré comme actif est la durée s’écoulant entre un arrêt du moteur\ndéclenché par le système et le redémarrage du moteur. Cette durée n’est pas comptabilisée si l’arrêt du moteur\ndéclenché par le système est définitif pour la journée considérée.\n\nLa date d’achèvement de l’opération est la date de fin du relevé susmentionné.\n\nLe délai entre la date de la preuve de réalisation et la date d’achèvement de l’opération est au maximum de 18 mois.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Type de véhicule\nferroviaire\nMontant en kWh cumac\n\nNombre total d’heures de\nfonctionnement du moteur du véhicule\nferroviaire indiqué dans le relevé\nFret\n800\nX\nN\nTravaux sur voies\n1 800\nManœuvres/triage\n950",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -99,7 +136,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -129,10 +167,15 @@
     "photos_required": true,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2022-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-125 vA40-2 à compter du 01-04-2022_0.pdf"
     }
   ],
@@ -201,10 +244,10 @@
     "Transport_TRA/TRA-EQ-125 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.729367+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

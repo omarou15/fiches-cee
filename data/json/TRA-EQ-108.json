@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Transport ferroviaire de semi-remorques (ou « autoroute ferroviaire ») destiné au transport de marchandises entre\ndeux terminaux de transbordement dont l’un au moins est situé en France métropolitaine.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Achat ou location d’un wagon d'autoroute ferroviaire neuf.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Dans le cas d'une location, la durée du contrat de location est au minimum de 24 mois, hors reconduction tacite.\n\nLa date d'achèvement de l'opération est la date de fin du relevé de trafic prévu ci-dessous.\n\nLe délai entre la date d’autorisation de mise en exploitation commerciale du wagon et la date d'achèvement de\nl'opération est au maximum de 18 mois.\n\nLa preuve de réalisation de l’opération mentionne l’achat ou la location d’un wagon d’autoroute ferroviaire neuf.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- le certificat d’immatriculation du wagon comportant son numéro d’immatriculation Numéro Européen de\nVéhicule (NEV) ;\n- l’autorisation de mise en exploitation commerciale incluant le numéro d’identification du wagon obtenu auprès\nde l’autorité nationale compétente (à titre d’exemple, ERA – Agence de l’Union européenne pour les chemins\nde fer) ;\n- le ou les relevé(s) de trafic, issu(s) de l'opérateur de transport combiné, ou de l’entreprise ferroviaire, listant les\ndifférents voyages1 réalisés sur le territoire français par le wagon d’autoroute ferroviaire, l’identification des\ndifférentes autoroutes ferroviaires (lieux de départ et d’arrivée : ville, code postal, pays) et le numéro\nd’immatriculation du wagon, la date des voyages et pour chaque voyage effectué, les références de la demande\nde sillon auprès du gestionnaire du réseau ferré emprunté et les références de la facture émise par ce gestionnaire ;\n- un tableau de synthèse du ou des relevé(s) de trafic comportant les distances routière et ferroviaire pour chaque\nligne2 d’autoroute ferroviaire hors ligne Calais - Folkstone et conforme au modèle dans l’attestation sur\nl’honneur ;\n- hors ligne Calais - Folkstone, les captures d’écran d’un site internet de calcul des distances routières indiquant,\nparmi les itinéraires routiers en France par des voies ouvertes à la circulation des poids lourds de plus de 12\ntonnes, la distance la plus courte et la distance la plus rapide entre le point de départ et le point d’arrivée de\nchaque ligne ;\n\n1 Un voyage correspond à une circulation, à une date donnée et un horaire donné, effectuée par un wagon sur une ligne d’autoroute ferroviaire.\n2 Une ligne correspond à une liaison d’une autoroute ferroviaire. Exemple : la ligne Calais – Le Boulou (désignation générique du service\ncommercial entre deux terminaux).\n\n- la déclaration de la consommation d’énergie et des émissions de gaz à effet de serre selon la norme\nNF EN 16258 obtenue à partir du site https://ecotransit.org ou un équivalent entre le point de départ et le point\nd’arrivée de chaque ligne empruntée, en France, par le wagon.\n\nL'ensemble des relevés de trafic couvre une période d’essai d’au maximum 6 mois consécutifs.\n\nSeuls sont pris en compte les voyages de wagons à plein ou à vide, effectués au départ ou à l’arrivée d’au moins un\nterminal de transport combiné en France adapté pour le chargement / déchargement des semi-remorques. On entend\npar « chargement » l’action de positionner la semi-remorque sur le wagon et par « déchargement » l’action de sortir\nla semi-remorque du wagon.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "30 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour un wagon effectuant un ou plusieurs voyages sur une ligne i, hors ligne Calais - Folkstone, le montant de\ncertificats d’économies d’énergie est déterminé selon la formule suivante :\n\n\nn : nombre total de lignes empruntées par un même wagon durant le relevé de trafic ;\nVi : nombre de voyages effectués sur une ligne i durant le relevé de trafic ;\ndri : distance routière moyenne effectuée en France par une semi-remorque liant le terminal de transbordement\nmultimodal de départ (ou depuis le point frontière si le terminal de départ se trouve hors de France) et le terminal\nde transbordement multimodal d’arrivée (ou jusqu’au point frontière si le terminal final se trouve hors de France)\nde la ligne i. Elle correspond à la moyenne entre la distance la plus courte et la distance la plus rapide, entre ces\ndeux points, par des voies ouvertes à la circulation routière des poids lourds de plus de 12 tonnes, relevées à partir\nd’un site internet de calcul des distances routières ;\ndfi : distance ferroviaire parcourue en France par le wagon d’autoroute ferroviaire liant les points de départ (terminal\nde transbordement multimodal de départ ou depuis le point frontière si le terminal de départ se trouve hors de France)\net d’arrivée (terminal de transbordement multimodal final ou jusqu’au point frontière si le terminal final se trouve\nhors de France) de la ligne i. Elle correspond à la distance relevée à partir du site internet https://ecotransit.org ou\nun équivalent entre ces deux points.\n\nOn considère que le trafic réalisé par le wagon sur 6 mois consécutifs au maximum est maintenu en moyenne sur la\ndurée de vie du wagon.\n\nPour un wagon effectuant un ou plusieurs voyages sur la ligne Calais - Folkstone, le montant de certificats\nd’économies d’énergie est déterminé selon la formule suivante :\n\n6 290 * 2 * V\n\nV : nombre de voyages effectués sur la ligne Calais - Folkstone durant le relevé de trafic.\n\nOn considère que le trafic réalisé par le wagon sur 6 mois consécutifs au maximum est maintenu en moyenne sur la\ndurée de vie du wagon.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -99,7 +136,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -137,10 +175,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2020-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 30,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020_0.pdf"
     }
   ],
@@ -209,10 +252,10 @@
     "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.434025+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

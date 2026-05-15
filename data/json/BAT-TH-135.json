@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment tertiaire en France d’outre-mer.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de régulation sur un groupe de production de froid permettant d’avoir une haute pression\nflottante.\n\nCe système de régulation calcule en continu la consigne optimale de pression de condensation en fonction de la\ntempérature extérieure mesurée et régule la pression de condensation en ajustant la puissance de refroidissement au\ncondenseur.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa mise en place du système de régulation permettant d’avoir une haute pression flottante fait l’objet d’une étude\ntechnique préalable établie par un professionnel ou un bureau d’étude précisant les besoins de froid liés à l'usage de\nl'installation. Ce document comporte un descriptif des équipements installés ou à mettre en place indiquant les\ncaractéristiques du groupe de production de froid (mono-compresseur ou multi-compresseurs) et sa puissance\nélectrique nominale totale en kW et dimensionne les économies d'énergie attendues.\n\nLa présente opération concerne uniquement les groupes de production de froid dotés de systèmes de condensation\npar rapport à l’atmosphère, c’est-à-dire les condenseurs suivants : condenseur à air sec adiabatique ou non,\ncondenseur à eau plus aéroréfrigérant à air sec adiabatique ou non, condenseur évaporatif hybride ou non,\ncondenseur à eau plus tour ouverte hybride ou non, condenseur à eau plus tour fermée hybride ou non.\n\nUn centre de données informatiques (ou datacenter) est un bâtiment ou un local au sein d’un bâtiment regroupant\ndes équipements informatiques (serveurs, baies de stockage, équipements réseaux, etc.) permettant le stockage, le\ntraitement et la protection des données informatiques.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un système de régulation permettant d’avoir\nune haute pression flottante sur un groupe de production de froid.\n\nÀ défaut, la preuve de la réalisation de l’opération mentionne la mise en place d'un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence\ninstallé est un système de régulation sur un groupe de production de froid permettant d’avoir une haute pression\nflottante.\n\nLe document justificatif spécifique à l’opération est l’étude technique préalable à la mise en place de la régulation.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "10 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW\n\nPuissance électrique nominale\ntotale du groupe de production\nde froid en kW\nRéfrigération\nClimatisation hors\ndatacenter\nClimatisation\ndatacenter\n\n\n\n\nX\n2 700\n2 500\n4 700\nP\n\nDans chaque cas, la puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du groupe\nde production de froid (mono-compresseur ou multi-compresseurs). A défaut, la puissance à retenir est la puissance\nélectrique absorbée mentionnée sur un document issu du fabricant du groupe mono-compresseur ou multi-\ncompresseurs. La puissance du ou des compresseurs de secours n’est pas comptabilisée.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -106,7 +143,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -136,10 +174,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 10,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-135 vA26-1.pdf"
     }
   ],
@@ -184,10 +227,10 @@
     "Tertiaire_BAT/BAT-TH-135 vA26-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.928297+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

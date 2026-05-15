@@ -10,8 +10,8 @@
 - `Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -36,6 +36,19 @@
 - Montant de certificats pour une serre maraîchère :
 - Montant en kWh cumac par m² de
 - La surface de serre chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-1)
+- 4. Durée de vie conventionnelle (pages 1-1)
+- 5. Montant de certificats en kWh cumac (pages 1-2)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 22
+- Date limite engagement: 2028-06-30
 
 ## Texte extrait
 Certificats d’économies d’énergie

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Véhicules de transport routier de marchandises de catégorie N2 ou N3 jusqu’à 44 tonnes et véhicules remorqués de\ncatégorie O3 ou O4 selon l’article R.311.1 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Acquisition (achat ou location) d’un véhicule neuf équipé d’un groupe frigorifique diesel neuf à haute efficacité\nénergétique, de type autonome.\nLe groupe est installé soit sur un porteur routier neuf équipé d'une caisse frigorifique, soit sur une semi-remorque\nneuve, ou une remorque neuve.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport\nde la puissance frigorifique (kW) sur la consommation de carburant du groupe (l/h).\n\nLa valeur du coefficient de performance pondéré ou Rgpondéré est obtenue à partir de quatre mesures distinctes du\nrendement global aux conditions suivantes (puissance nominale et charge partielle en régime réfrigéré et régime\nsurgelé) et pondérées comme suit :\na) puissance nominale à 0°C/+30°C (pondération de 14%)\nb) puissance nominale à -20°C/+30°C (pondération de 6%)\nc) puissance à charge partielle 0°C/+30°C (pondération de 56%)\nd) puissance à charge partielle -20°C/+30°C (pondération de 24%).\n\nLes puissances nominales sont mesurées suivant le référentiel ATP, les puissances à charge partielle sont mesurées\nsuivant la norme EN-16440-1.\n\nLe groupe frigorifique est un groupe frigorifique à compression autonome, entraîné par un moteur thermique\nindépendant dont le coefficient de performance pondéré Rgpondéré est supérieur à 1,93 kWh frigorifiques/l de gasoil.\n\nLe groupe frigorifique est installé sur un véhicule neuf immatriculé en France.\n\nDans le cas d’une location, la durée du contrat de location du véhicule sur lequel est installé le groupe frigorifique\nest au minimum de 24 mois, hors reconduction tacite.\n\nLa preuve de réalisation de l’opération mentionne l’achat ou la location d’un véhicule neuf équipé d’un groupe\nfrigorifique à haute efficacité énergétique neuf, de type autonome, le numéro d’identification ou d’immatriculation\ndu véhicule équipé de ce groupe frigorifique et la valeur de Rgpondéré.\n\nLes documents spécifiques à l’opération sont :\n- une attestation datée et signée par le constructeur du groupe frigorifique indiquant :\n- les valeurs du rendement global (Rg) à puissance nominale et à charge partielle déterminées pour les\nrégimes de températures 0°C/+30°C et -20°C/+30°C ;\n- les références des rapports d’essais du groupe frigorifique dans lesquels figurent les puissances\nfrigorifiques à puissance nominale (valeur ATP) et à charge partielle (norme EN-16440-1) ainsi que les\nvaleurs de consommations correspondantes.\nL’ensemble de ces éléments (valeurs Rg et rapports d’essais) est établi par une station d’essais officielle ATP\n(Accord relatif aux transports internationaux de denrées périssables) figurant sur la liste officielle de l’UNECE\net reconnue par le Cemafroid, Autorité compétente bénéficiant de la délégation de service public en France.\n- le certificat d’immatriculation du véhicule équipé.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "10 ans",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "187 700 * (Rgpondéré - 1,93)",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -171,7 +208,8 @@
   "calculation": {
     "formula_text": "Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -217,10 +255,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 10,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf"
     }
   ],
@@ -289,10 +332,10 @@
     "Transport_TRA/TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.485390+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

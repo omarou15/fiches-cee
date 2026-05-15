@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Transport routier professionnel pour les véhicules de catégories N2, N3, M2 ou M3 selon l’article R.311-1 du code\nde la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Formation d’un chauffeur de transport à la conduite économe.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La formation est réalisée sous la responsabilité d’un organisme de formation déclaré auprès des pouvoirs publics.\n\nCette formation comporte :\n- une partie théorique portant sur le fonctionnement du moteur et les principes de la conduite économe (anticipation,\njuste sollicitation de la mécanique) ;\n- une partie pratique sur véhicule comprenant deux conduites comparées de la personne formée.\n\nLa date d’engagement de l’opération est la date de début de la formation du chauffeur. La date d’achèvement de\nl’opération est la date de fin de la formation du chauffeur.\n\nLe bénéficiaire est la personne morale employant la personne formée. Le professionnel est l’organisme de formation.\n\nLa preuve de réalisation de l’opération mentionne la réalisation d’une formation à la conduite économe, la référence\nde la formation dispensée, la période de réalisation de la ou des formations et le nombre de personnes formées par\ntype de formation (transport de personnes ou de marchandises). La période de réalisation des formations ne peut\nexcéder 6 mois.\n\nLes documents spécifiques à l’opération sont :\n- le descriptif des modules de la formation, identifiée par sa référence ;\n- l’accusé de réception de la déclaration d’existence de l’organisme de formation délivré par la préfecture et valide\npendant les périodes des formations concernées ;\n- un état récapitulatif issu de l’organisme de formation ou de l’entreprise formant ses salariés à la conduite économe\ncomprenant la liste des personnes formées et, pour chaque personne formée, le type de formation (véhicules destinés\naux transports de marchandises de catégories N2 ou N3 ou véhicules destinés aux transports de personnes de\ncatégories M2 ou M3), la référence de la formation, le nom et SIRET de l’établissement de rattachement de la\npersonne formée et les dates de début et de fin de sa formation. Ces dates doivent être incluses dans la période de\nréalisation des formations indiquée sur la preuve de réalisation de l’opération.\n\nSont exclues du périmètre d’éligibilité de la fiche :\n- les formations sur simulateurs ;\n\n- les formations initiales ou continues obligatoires des chauffeurs de transport effectuées dans le cadre du décret\nn°2007-1340 du 11 septembre 2007 relatif à la qualification initiale et à la formation continue des conducteurs de\ncertains véhicules affectés aux transports routiers de marchandises ou de voyageurs.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "3 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Type de formation\n\nkWh cumac par personne\nformée\n\n\nNombre de personnes\nformées\n\nVéhicules destinés au transport de\nmarchandises de catégories N2 ou N3\n\n\n12 400\nX\nN\n\nVéhicules destinés au transport de\npersonnes de catégories M2 ou M3\n\n\n9 100",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -82,7 +119,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -112,10 +150,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 3,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-SE-101 vA14-1.pdf"
     }
   ],
@@ -184,10 +227,10 @@
     "Transport_TRA/TRA-SE-101 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.908703+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

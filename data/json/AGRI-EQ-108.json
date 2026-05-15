@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture : serres maraîchères et horticoles neuves ou existantes.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un dispositif de stockage d’eau dans une serre isolée thermiquement, pour capter l’énergie solaire\ndurant la journée et la restituer durant la nuit.\n\nLa présente fiche s’applique aux opérations engagées jusqu’au 31 décembre 2028.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa capacité du dispositif de stockage d’eau est d'au moins 60 litres par m² de surface de serre, soit sous forme de fût\n(au plus 250 litres par unité), soit de jerrican (au plus 50 litres par unité), soit de gaines plastique (au plus 40 cm de\nhauteur et au plus 1 m de large). Ce dispositif n’est utilisé que dans le but de capter l’énergie solaire ; en particulier,\nil n’est pas utilisé à des fins d’irrigation.\n\nLes réserves d’eau de type IBC (conteneur à emballage souple ou rigide), citernes supérieures à 250 litres, toutes\ninstallations liées à la ferti-irrigation et les ballons de stockage de type « Open Buffer » et autres réserves d’eau\nisolées sont exclus.\n\nLe dispositif de stockage d’eau est disposé dans la serre le long du mur Nord si la serre est orientée selon un axe\nEst-Ouest (+/- 25°) ou, quelle que soit l’orientation de la serre, sous les gouttières, sous les tablettes de culture ou\nle long des rangs de culture.\n\nLa serre est isolée, a minima au niveau de sa couverture, au moyen d’une double paroi gonflable, d’un double\nvitrage, d’une double paroi verre - éthylène tétrafluoroéthylène (ETFE), d’une double paroi ETFE, d’une paroi\npolycarbonate alvéolaire, d’une simple paroi verre à faible émissivité, d’un écran thermique ou d’une voile de type\nP17 ou P30.\n\nLa preuve de la réalisation de l’opération mentionne :\n- la mise en place d’un dispositif de stockage d’eau et sa capacité totale de stockage (en litres) ;\n- la surface de serre équipée ;\n- le type d’unité de stockage utilisée : fût (au plus 250 litres par unité), jerrican (au plus 50 litres par unité) ou gaine\nplastique (au plus 40 cm de hauteur et 1 m de large) ;\n- la disposition du dispositif de stockage d’eau (soit le long du mur Nord selon un axe Est-Ouest (+/- 25°), soit sous\nles gouttières, soit sous les tablettes de culture, soit le long des rangs de culture) ;\n- le fait que la serre est isolée, a minima au niveau de sa couverture, et le type d’isolant utilisé (double paroi\ngonflable, double vitrage, double paroi verre - éthylène tétrafluoroéthylène (ETFE), double paroi ETFE, paroi\npolycarbonate alvéolaire, simple paroi verre à faible émissivité, écran thermique ou voile de type P17 ou P30).",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "10 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant de kWh cumac par m²\nde serre équipée\n\nSurface de la serre\néquipée (m²)\n390\nX\nS",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -66,7 +103,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -88,29 +126,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -118,10 +134,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2024-02-01",
+    "engagement_deadline": "2028-12-31"
+  },
+  "lifetime_years": 10,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf"
     }
   ],
@@ -166,10 +187,10 @@
     "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:56.818334+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

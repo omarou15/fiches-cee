@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de condensation frigorifique sur une installation frigorifique permettant d’avoir une\nfaible différence de température ∆T entre le fluide frigorigène à la pression de condensation et le medium de\nrefroidissement (air ou eau) en entrée du condenseur.\n\nPar système de condensation, on entend « condenseur plus tour », « condenseur seul » ou « tour seule » si celle-ci\nalimente un condenseur frigorifique à eau.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLes systèmes de condensation éligibles sont :\n1/ système de condensation par rapport à l’atmosphère :\n- à air sec avec un ∆T inférieur ou égal à 12°C :\n- condenseur à air sec ;\n- condenseur à eau plus aéroréfrigérant à air sec (adiabatique ou non).\n- à air humide avec un ∆T inférieur ou égal à 22°C :\n- condenseur évaporatif ;\n- condenseur à eau plus tour ouverte (hybride ou non) ;\n- condenseur à eau plus tour fermée (hybride ou non).\n\n2/ système de condensation à eau « seul » (sur nappe ou cours d’eau) avec un ∆T inférieur ou égal à 8°C.\n\nLa preuve de la réalisation de l'opération mentionne la mise en place d’un système de condensation sur une\ninstallation frigorifique et la valeur de ∆T.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d'un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence\ninstallé est un système de condensation sur une installation frigorifique. Ce document précise la valeur de ∆T.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Mise en place d’un système de condensation à eau seul (sur nappe ou cours d’eau) permettant une différence ∆T\nentre la température de condensation du fluide frigorigène et celle de l’eau en entrée du condenseur, inférieure ou\négale à 8°C :\n\n∆T\nen °C\nMontant en\nkWh cumac\npar kW\n\n\n\nX\nMode de fonctionnement\ndu site industriel\nCoefficient\nmultiplicateur\n\n\n\nX\nPuissance électrique\nnominale de\nl’installation\nfrigorifique en kW\n8\n680\n1x8h\n1\nP\n7\n1 000\n2x8h\n2,2\n6\n1 400\n3x8h avec arrêt le week-end\n3\n\n\n3x8h sans arrêt le week-end\n4,2\n\nMise en place d’un condenseur à air sec (adiabatique ou non) ou d’un condenseur à eau et d’un aéroréfrigérant à air\nsec (adiabatique ou non) permettant une différence ∆T entre la température de condensation du fluide frigorigène et\ncelle de l’air sec, inférieure ou égale à 12°C :\n\n∆T\nen °C\nMontant en\nkWh cumac\npar kW\n\nMode de fonctionnement\ndu site industriel\nCoefficient\nmultiplicateur\n\nPuissance électrique\nnominale de\nl’installation\nfrigorifique en kW\n12\n790\nX\n1x8h\n1\nX\nP\n11\n1 100\n2x8h\n2,2\n10\n1 400\n3x8h avec arrêt le week-end\n3\n9\n1 700\n3x8h sans arrêt le week-end\n4,2\n8\n2 000\n\n\n\n\n\n7\n2 400\n\n\n\n\n\n6\n2 800\n\n\n\n\n\n5\n3 100\n\n\n\n\n\n4\n3 600\n\n\n\n\n\n3\n4 000\n\n\n\n\n\n2\n4 400\n\n\n\n\n\n1\n4 900\n\n\n\n\n\n0\n5 400\n\n\n\n\n\n\nMise en place d’un condenseur évaporatif (hybride ou non) ou d’un condenseur à eau et d’une tour aéroréfrigérante\nouverte (hybride ou non) ou d’un condenseur à eau et d’une tour aéroréfrigérante fermée (hybride ou non) permettant\nune différence ∆T entre la température de condensation du fluide frigorigène et celle de l’air au bulbe humide,\ninférieure ou égale à 22°C :\n\n∆T\nen °C\nMontant en\nkWh cumac\npar kW\n\nMode de fonctionnement\ndu site industriel\nCoefficient\nmultiplicateur\n\nPuissance électrique\nnominale de\nl’installation\nfrigorifique en kW\n22\n790\nX\n1x8h\n1\nX\nP\n21\n1 100\n2x8h\n2,2\n20\n1 400\n3x8h avec arrêt le week-end\n3\n19\n1 700\n3x8h sans arrêt le week-end\n4,2\n18\n2 000\n\n\n\n\n\n17\n2 400\n\n\n\n\n\n16\n2 800\n\n\n\n\n\n15\n3 100\n\n\n\n\n\n14\n3 600\n\n\n\n\n\n13\n4 000\n\n\n\n\n\n12\n4 400\n\n\n\n\n\n11\n4 900\n\n\n\n\n\n10\n5 400\n\n\n\n\n\n\nEn cas d’utilisation d’un fluide frigorigène à « glissement », la température de condensation du fluide à retenir est\ncelle au point de rosée.\n\nPour une valeur de ΔT du système de condensation ne figurant pas dans les tableaux ci-dessus, il convient de retenir\nla valeur de ∆T immédiatement supérieure.\n\nLa puissance électrique nominale à retenir est celle figurant sur la plaque signalétique de l’installation frigorifique\nou, à défaut, celle indiquée sur un document issu du fabricant.",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -115,7 +152,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -209,10 +247,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf"
     }
   ],
@@ -257,10 +300,10 @@
     "Industrie_IND/IND-UT-113 vA14-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.203661+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Transport : tous véhicules de catégorie M1 ou N1 selon l’article R.311-1 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un contrat d’entretien pour de nouvelles stations de gonflage ou pour le maintien d’installations\nexistantes conformément au cahier des charges Travaux de Normalisation des pneumatiques pour la France (TNPF).",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Les prestations de gonflage de l’installation ne sont pas tarifées.\n\nLa station de gonflage respecte les conditions du cahier des charges Travaux de Normalisation des Pneumatiques\npour la France (TNPF):\n- facilité d’accès aux utilisateurs ;\n- affichage visible dans la station de gonflage du panneau avec le message du TNPF :\n« Des pneus bien gonflés : les 10 conseils pour rouler en toute sécurité » ;\n- l’opération de gonflage doit se faire en toute sécurité pour tous les utilisateurs ;\n- le maintien des installations est conforme au cahier des charges du TNPF.\n\nLa date d’engagement de l’opération est la date de signature du contrat d’entretien. La date d’achèvement de\nl’opération est la date anniversaire de signature du contrat d’entretien.\n\nLe professionnel est le prestataire de service signataire du contrat d’entretien.\n\nLa preuve de réalisation de l’opération est le contrat en cours de validité (hors reconduction tacite) signé entre le\nbénéficiaire et le professionnel, le cas échéant avec ses avenants, qui prouve de l’entretien de la station de gonflage\net dans lequel le remplacement des organes défectueux est garanti dans un délai maximal de 15 jours.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- la procédure de contrôle quotidien ;\n- l’état récapitulatif, issu du professionnel et signé par le bénéficiaire de l'opération, des stations de gonflage des\npneumatiques, sous contrat d’entretien, mentionnant par station son type, A, B ou C, son nom et son adresse.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "1 an.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant des certificats en kWh cumac",
+      "text": "Trois types de stations de gonflage sont définis :\n\nStations de gonflage de type A (NA) : implantées sur des autoroutes ou des voies de grande circulation de type\nautoroutier avec des aires de stationnement/repos.\n\nStations de gonflage de type B (NB) : implantées dans des zones urbaines ou des agglomérations (zones\nindustrielles, d’activité, parkings grands publics) et hors agglomération, hors parkings privés d’entreprises ou de\ncollectivités locales.\n\nStations de gonflage de type C (NC) : implantées dans les parkings privés d’entreprises ou de collectivités locales,\nces parkings hébergeant les véhicules des employés et/ou ceux appartenant à l’entreprise ou à la collectivité locale\n(au sens de flotte professionnelle).\n\n\nType de station\n\nMontant en kWh\ncumac par station\n\n\n\n\nX\nNombre de stations de\ngonflage\nType A\n534 200\nNA\nType B\n148 400\nNB\nType C\n39 600\nNC",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -99,7 +136,8 @@
   "calculation": {
     "formula_text": "5. Montant des certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -146,10 +184,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": null,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-SE-104 vA14-1.pdf"
     }
   ],
@@ -218,10 +261,10 @@
     "Transport_TRA/TRA-SE-104 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.964722+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

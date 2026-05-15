@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une isolation thermique sur les surfaces planes ou cylindriques d’une installation industrielle fixe\nutilisant un fluide à des températures comprises entre -80°C et 10°C, ou supérieures à 40°C.\nSont compris dans l’installation industrielle, les équipements de production, de transfert, de stockage ou d’utilisation\ndu fluide.\nNe sont pas éligibles l’isolation des points singuliers couverte par la fiche d’opération standardisée IND-UT-121,\nl’isolation par injection et l’isolation d’une installation industrielle en système ouvert.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel et respecte les exigences de la norme NF DTU 45.2, avril 2018\n« Travaux d'isolation — Isolation thermique des circuits, appareils et accessoires de – 80 °C à +650 °C », ou toute\nnorme équivalente.\n\nL’isolation est effectuée sur un réseau non isolé ou sur une installation dont l’isolation existante dispose d’une\nrésistance thermique simplifiée inférieure d’un facteur deux, de celle attendue par la présente fiche.\n\nLes performances de l’isolation thermique des installations sont déterminées à partir de la résistance thermique\nsimplifiée R’ définie comme le ratio entre l’épaisseur d’isolant installée et sa conductivité thermique à\nrespectivement - 10, 10, 50, 100 et 200°C selon la plage de température du fluide de l’installation calorifugée.\n\nPour les tuyauteries ou les équipements cylindriques de diamètre inférieur à 508 mm (ou 20’’), la résistance\nthermique simplifiée R’ est supérieure ou égale à :\n- 2,1 m2.K/W pour une température de fluide T telle que  -80°C < T ≤  -10°C ;\n- 0,8 m2.K/W pour une température de fluide T telle que  -10°C < T ≤ 10°C ;\n- 1,8 m2.K/W pour une température de fluide T telle que  40°C < T ≤ 100°C ;\n- 1,8 m2.K/W pour une température de fluide T telle que  100°C < T ≤ 300°C ;\n- 1,4 m2.K/W pour une température de fluide T telle que T > 300°C.\n\nPour les surfaces planes ou les tuyauteries et équipements cylindriques de diamètre supérieur ou égal à 508 mm (ou\n20’’), la résistance thermique simplifiée R’ est supérieure ou égale à :\n- 2,8 m2.K/W pour une température de fluide T telle que  -80°C < T ≤ -10°C ;\n- 1,0 m2.K/W pour une température de fluide T telle que  -10°C < T ≤ 10°C ;\n- 2,8 m2.K/W pour une température de fluide T telle que  40°C < T ≤ 100°C ;\n- 2,8 m2.K/W pour une température de fluide T telle que  100°C < T ≤ 300°C ;\n- 2,4 m2.K/W pour une température de fluide T telle que T > 300°C.\n\nLorsque l’isolant est mis en œuvre avec un isolant multicouche ou nécessite la pose de plusieurs couches du même\nisolant, la surface, en m², ou les mètres linéaires, en m, seront égaux à la surface, ou aux mètres linéaires, de la\npremière couche d’isolant.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’une isolation sur une installation industrielle\navec la marque, la nature et les références du matériau isolant ainsi que, selon le cas, la quantité posée en mètres\ncarrés (pour les surfaces planes ou pour les tuyauteries et équipements cylindriques de diamètre supérieur ou égal à\n508 mm) ou en mètres linéaires (pour les tuyauteries et équipements cylindriques de diamètre inférieur à 508 mm).\n\nElle est accompagnée d’un document issu du fabricant précisant la nature du matériel posé et sa référence, les\ncaractéristiques thermiques (conductivité thermique en fonction de la température selon la plage de température du\nfluide de l’installation calorifugée) de l’isolant installé.\n\nA défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques,\nnatures et références ainsi que les quantités en surface, ou en longueurs posées, et elle est complétée par un document\nissu du fabricant stipulant que le matériau posé est un isolant. Ce document précise la nature de l’isolant constitutif\nainsi que ses caractéristiques thermiques (conductivité thermique en fonction de la température selon la plage de\ntempérature du fluide de l’installation calorifugée).\n\nUn état récapitulatif des isolants mis en place est établi par le professionnel à l’issue des travaux. Cet état\nrécapitulatif est daté et signé par le professionnel et le bénéficiaire de l’opération. Il comporte :\n- les conductivités, épaisseurs, les résistances thermiques simplifiées et références ou numéros de repérage\ninternes des surfaces isolées ;\n- la plage de températures de service de l’installation industrielle ;\n- le total en surface (m²), ou en mètre linéaire (m) isolés ;\n- le mode de fonctionnement de l’installation industrielle.\n\nLes documents justificatifs spécifiques à l’opération sont (i) le document issu du fabricant, (ii) l’état récapitulatif\nétabli, signé et daté par le professionnel et le bénéficiaire à l’issue des travaux.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "10 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Mise en place d’une isolation thermique sur une tuyauterie ou un équipement cylindrique de diamètre inférieur à\n508 mm (20’’) :\n\nTempérature du\nfluide (°C)\nMontant en\nkWh cumac\npar m\n\nCoefficient multiplicateur selon le\nmode de fonctionnement de\nl’installation industrielle qui a été\nisolée\n\nLongueur\nisolée en m\n- 80°C < T ≤ -10°C\n300\nX\n1x8h\n1\nX\nL\n- 10°C < T ≤ 10°C\n180\n2x8h\n2,2\n40°C < T ≤ 100°C\n1050\n3x8h avec arrêt le week-end\n3\n100°C < T ≤ 300°C\n1900\n3x8h sans arrêt le week-end\n4,2\nT > 300°C\n1850\n\nMise en place d’une isolation thermique sur une surface plane, une tuyauterie ou un équipement cylindrique de\ndiamètre supérieur ou égal à 508 mm (20’’) :\n\nTempérature du\nfluide (°C)\nMontant en\nkWh cumac\npar m2\n\nCoefficient multiplicateur selon le\nmode de fonctionnement du\nl’installation industrielle qui a été\nisolée\n\nSurface\nd’isolant\nposé en m2\n- 80°C < T ≤ - 10°C\n450\nX\n1x8h\n1\nX\nS\n- 10°C < T ≤ 10°C\n400\n2x8h\n2,2\n40°C < T ≤ 100°C\n1300\n3x8h avec arrêt le week-end\n3\n100°C < T≤ 300°C\n2050\n3x8h sans arrêt le week-end\n4,2\nT > 300°C\n1850\n\n\nLorsque l’isolant est mis en œuvre avec un isolant multicouche ou nécessite la pose de plusieurs couches du même\nisolant, la surface, en m², ou les mètres linéaires, en m, sont égaux à la surface, ou aux mètres linéaires, de la\npremière couche d’isolant.",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -139,7 +176,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -209,10 +247,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2021-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 10,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf"
     }
   ],
@@ -257,10 +300,10 @@
     "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.347185+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

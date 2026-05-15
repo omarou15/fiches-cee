@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de stockage de chaleur fatale afin de couvrir un besoin de chaleur sur le site. Le système\nde stockage est fixe et connecté au réseau de distribution de chaleur.\n\nLa chaleur fatale est une chaleur générée par une installation qui n’en constitue pas une des finalités premières, et\nqui n’est pas récupérée. Dans le cadre de la présente fiche, est considérée comme chaleur fatale un effluent liquide\nou gazeux, répondant à la définition précédente et ayant une température supérieure à 25°C.\n\nLa chaleur fatale est générée par le site industriel concerné par l’opération.\n\nLa chaleur fatale annuelle valorisée est inférieure ou égale à 16 GWh/an.\n\nLa présente fiche n’est pas cumulable avec les fiches IND-UT-103, IND-UT-118, IND-UT-137 et IND-UT-138.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er septembre 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nAu sens de la présente fiche, un système de stockage de chaleur fatale désigne une ou plusieurs batteries thermiques,\nmontées en parallèle ou en série, ainsi que le ou les systèmes de récupération et de distribution de chaleur associés.\n\nLa mise en place du système de stockage fait l’objet d’une étude préalable de dimensionnement établie, datée et\nsignée par le professionnel ou un bureau d’étude. Cette étude vise à évaluer les économies d’énergie attendues via\nla chaleur valorisée au regard de la source de chaleur fatale et des besoins de chaleur mais également à justifier la\ncohérence entre la récupération de chaleur et les besoins de chaud en présentant les calculs et hypothèses de calcul.\n\nL’étude de dimensionnement est à réaliser sur deux années représentatives. Pour les sites existants ne disposant pas\nde données historiques sur deux ans, et sous réserve de justification de l’indisponibilité de ces données, l’étude de\ndimensionnement s’appuie sur une période représentative du fonctionnement du site supérieure ou égale à deux\nmois. La représentativité de la durée choisie est justifiée. Pour le neuf, une simulation thermique peut être utilisée.\n\nL’étude de dimensionnement comporte les éléments suivants :\n\nI. Identification de l’opération :\na) Raison sociale et adresse du bénéficiaire ;\nb) Adresse du chantier si différente de l’adresse du bénéficiaire.\n\nII. Description des caractéristiques techniques des flux suivants :\n\nII.1 Chaleur fatale\na) Indication de la nature de la chaleur fatale récupérable et récupérée (buées de séchage, fumées de fours ou de\nchaudières, condenseurs froids, autres effluents ou fluides caloporteurs) ;\nb) Evaluation de la quantité de chaleur fatale récupérée par l’opération, température et courbe de charge\ncorrespondant à la disponibilité de la chaleur fatale récupérable (en y soustrayant l’éventuelle chaleur fatale déjà\nrécupérée avant l’opération) sur une année représentative ; si les sources de chaleur fatale sont multiples, alors la\ncourbe de charge correspondant à la disponibilité de la chaleur fatale récupérable est la somme des courbes\nindividuelles de chaque source et la température de la chaleur fatale est la moyenne des températures de chaque\nsource pondérée par le volume associé ;\nc) Description des équipements existants avant l’étude de dimensionnement permettant déjà une récupération de\nchaleur provenant de la source concernée par l’opération et ceux qui sont mis en place dans le cadre de l’opération.\n\nII.2 Besoin de chaleur\na) Indication de la nature des besoins de chaleur à couvrir pour les usages : procédés industriels, eau chaude sanitaire\net/ou chauffage des locaux ;\nb) Evaluation de la quantité de chaleur nécessaire pour couvrir les besoins identifiés, température et courbe de charge\ncorrespondante sur une année représentative ; si les besoins en chaleur identifiés sont multiples, alors la courbe de\ncharge correspondante est la somme des courbes individuelles de chaque besoin.\nc) Justification du besoin de stockage par rapport à une autre forme de valorisation de la chaleur fatale :\ni. Justification de la non-simultanéité dans le temps de la source de chaleur fatale et du besoin ;\nii. Justification de l’adaptation de la puissance disponible à la puissance nécessaire au besoin.\n\nII.3 Dimensionnement du système de stockage\nLa présente partie présente la justification argumentée du bon dimensionnement du système de stockage au\nregard des besoins à couvrir et de la chaleur valorisable. Elle précise notamment :\na) La capacité maximale, C, de stockage de chaleur du système (en kWh) ;\nb) La puissance nominale de charge (kW) ;\nc) La puissance moyenne de charge (kW) sur une année représentative ;\nd) La puissance nominale de décharge (kW) ;\ne) La puissance moyenne de décharge (kW) sur une année représentative ;\nf) Le taux d’utilisation moyen, t, du système (%) sur une année représentative (le taux d’utilisation moyen du\nsystème est le rapport entre l’énergie thermique libérée en moyenne à chaque cycle par le système et la capacité\nmaximale de stockage de chaleur du système, sur une année représentative) ; un cycle correspond à une phase de\ncharge et une phase de décharge, partielles ou complètes, du système de stockage ;\ng) η, le rendement du système de stockage proposé (en %). Ce rendement prend en compte les conditions\nd’utilisation prévisionnelles du système de stockage (temps de charge et de décharge et taux d’utilisation) et les\npertes de distribution de la chaleur ;\nh) Le nombre annuel, Nc, de cycles équivalents à 100 % de la capacité maximale du système de stockage,\neffectués sur une année représentative ;\ni) La description du système de stockage accompagnée d’un schéma simplifié de l’installation ; ce schéma fait\napparaitre au minimum la solution de stockage, les éventuelles pompes de distribution et ventilateurs, la ou les\nsource(s) de chaleur fatale, le ou les besoin(s) alimentés, le circuit de distribution et les puissances, températures\ndes différents réseaux ; la description des équipements précise les équipements existants avant la mise en place du\nsystème de stockage et ceux qui sont mis en place dans le cadre de l’opération ;\nj) Une évaluation de la chaleur fatale annuelle valorisée au moyen du système de stockage, selon la formule\nsuivante : η x C x Nc ;\nk) Une évaluation de l’impact économique de l’opération sur la facture énergétique du bénéficiaire.\n\nLe système de stockage installé est tel que :\n- la capacité maximale de stockage de chaleur du système installé est supérieure ou égale à celle issue de l’étude de\ndimensionnement ;\n- le nombre annuel, Nc, de cycles équivalents à 100 % de la capacité maximale du système installé est supérieur ou\négal au nombre Nc issu de l’étude de dimensionnement ;\n- le rendement du système installé est supérieur ou égal au rendement issu de l’étude de dimensionnement.\n\nDans le cas où le site industriel nécessiterait l’installation de plusieurs systèmes de stockage, la présente fiche peut\nêtre utilisée à plusieurs reprises.\n\nLes instruments de mesure suivants sont installés :\n- pour mesurer la quantité de chaleur récupérée : un dispositif de mesure d’énergie thermique en amont du système\nde stockage ;\n- pour mesurer la consommation d’énergie des éventuels auxiliaires ;\n- pour mesurer la quantité de chaleur libérée : un dispositif de mesure d’énergie thermique en aval du système de\nstockage situé à l’amont immédiat du besoin, c’est-à-dire prenant en compte les pertes de distribution de la chaleur.\n\nLes mesures sont enregistrées et conservées par le bénéficiaire pendant neuf ans à compter de la date d’achèvement\nde l’opération. Le bénéficiaire s’engage à transmettre ses mesures à des fins de traitements statistiques et de contrôle.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un système de stockage de chaleur, sa capacité\nmaximale de stockage de chaleur (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la\ncapacité maximale et son rendement (en %).\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un système de stockage de chaleur et\nelle est accompagnée d’un document issu du fabricant mentionnant la capacité maximale de stockage de chaleur du\nsystème (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la capacité maximale du\nsystème de stockage et son rendement (en %).",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "20 ans.",
+      "page_start": 3,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\n\n14,134 x η x C x Nc\n\nη, C et Nc sont des paramètres dont les valeurs sont indiquées dans l’étude de dimensionnement :\n- η est le rendement du système de stockage (en %) ;\n- C est la capacité maximale de stockage de chaleur du système (en kWh) ;\n- Nc est le nombre annuel de cycles équivalents à 100 % de la capacité maximale du système de stockage,\neffectués sur une année représentative.",
+      "page_start": 3,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -31,7 +68,7 @@
   "systems": {
     "heating": true,
     "domestic_hot_water": true,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": true,
     "hybrid_system": false,
     "district_heating": false,
@@ -156,7 +193,8 @@
   "calculation": {
     "formula_text": "a) La capacité maximale, C, de stockage de chaleur du système (en kWh) ;",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -202,29 +240,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": true,
     "dpt_required": null,
@@ -232,10 +248,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-11-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 20,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf"
     }
   ],
@@ -280,10 +301,10 @@
     "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.585021+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

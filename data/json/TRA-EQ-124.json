@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Gestionnaires fluviaux ou maritimes et opérateurs économiques de quai.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une infrastructure d’alimentation électrique à quai permettant l'approvisionnement en électricité\nd'un navire ou d’un bateau fluvial en escale.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Les systèmes de connexion haute tension pour les navires nécessitant une puissance supérieure à 1 MW sont\nconformes à l’arrêté du 8 décembre 2017 relatif aux spécifications techniques des installations d’alimentation\nélectrique à quai pour les transports maritimes.\n\nL’infrastructure permet au navire ou bateau à quai de couvrir l’ensemble de ses besoins en électricité pour maintenir\nses fonctions vitales en rapport avec la sécurité (incendie, voie d’eau), la cargaison (maintien des conditions à bord),\nl’équipage et, le cas échéant, les passagers.\n\nL’infrastructure d’alimentation électrique est raccordée à un compteur individualisé de distribution d’électricité.\n\nLes besoins de recharge de batteries de bateaux et navires à propulsion 100 % électriques sont exclus de la présente\nfiche. Pour les navires et bateaux ne disposant pas d’une propulsion 100 % électrique, une tolérance est acceptée\npour les besoins de recharge des batteries.\n\nLes infrastructures permettant l'alimentation électrique lors des opérations de mise en cale sèche et de réparation\ndes navires ne sont pas éligibles à la présente fiche.\n\nLa preuve de réalisation de l’opération mentionne l’installation d’une infrastructure complète permettant\nl’alimentation électrique de navires ou bateaux à quai et raccordée à un compteur individualisé de distribution\nd’électricité.\n\nUn relevé de consommation d’électricité est établi par le gestionnaire ou l’exploitant de l’infrastructure\nd’alimentation électrique sur une période de six mois consécutifs maximum et approuvé par l’autorité portuaire.\n\nCe relevé comporte les informations suivantes :\na) Numéro du compteur de distribution d’électricité ;\nb) Pour chaque navire ou bateau :\n- numéro d’immatriculation du navire ou du bateau ;\n- identité et adresse de l’armateur ;\n- type de motorisation (thermique ou mixte : batterie et appoint à la propulsion thermique) ;\n- dates et heures de début et de fin de consommation d’électricité à quai ;\n- quantité d’énergie électrique consommée par le navire ou bateau lors du branchement à quai, exprimée en kWh ;\n- références des factures d’électricité afférentes.\n\nLa date d’achèvement de l’opération est la date de fin du relevé de consommation d’électricité.\n\nLe délai entre la date de preuve de réalisation et la date d’achèvement de l’opération est au maximum de 24 mois.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- le relevé de consommation d’électricité susmentionné ;\n- les factures de distribution d’électricité afférentes.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "16 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Type de port\nMontant en kWh cumac par kWh\nélectrique consommé à quai\n\nConsommation en kWh par\ninfrastructure d’alimentation\nélectrique sur 6 mois maximum\nMaritime\n13,4\nX\nQ\nFluvial\n45\n\nQ est la consommation d’énergie électrique, exprimée en kWh, relevée sur six mois consécutif maximum, délivrée\npar une infrastructure d’alimentation électrique à quai. La consommation des navires et bateaux à propulsion 100%\nélectriques est exclue des relevés de consommation.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -114,7 +151,8 @@
   "calculation": {
     "formula_text": "- quantité d’énergie électrique consommée par le navire ou bateau lors du branchement à quai, exprimée en kWh ;",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -168,10 +206,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2020-08-03",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 16,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf"
     }
   ],
@@ -240,10 +283,10 @@
     "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.712842+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

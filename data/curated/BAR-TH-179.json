@@ -1,0 +1,282 @@
+{
+  "title_clean": "Pompe à chaleur collective de type air/eau",
+  "application_sector": "Bâtiments résidentiels collectifs existants",
+  "operation_description": "Mise en place d’une ou de plusieurs pompes à chaleur de type air/eau de puissance thermique nominale inférieure ou égale à 400 kW pour un système de chauffage collectif.",
+  "eligible_uses": [
+    "chauffage",
+    "chauffage et eau chaude sanitaire"
+  ],
+  "excluded_uses": [
+    "PAC utilisées uniquement pour la production d'eau chaude sanitaire"
+  ],
+  "non_cumulation": [
+    {
+      "code": "BAR-TH-169",
+      "condition": "Non cumulable avec BAR-TH-169 si la pompe à chaleur installée est utilisée pour le chauffage et l’eau chaude sanitaire.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 1
+    }
+  ],
+  "validity": {
+    "effective_date": "2026-04-30",
+    "engagement_deadline": "2030-12-31"
+  },
+  "technical_requirements_structured": {
+    "professional_required": true,
+    "rge_quality_sign_required": true,
+    "etas_thresholds": [
+      {
+        "application": "moyenne_haute_temperature",
+        "etas_min_percent": 111
+      },
+      {
+        "application": "basse_temperature",
+        "etas_min_percent": 126
+      }
+    ],
+    "etas_excludes_regulation": true,
+    "pac_nominal_power_max_kw": 400,
+    "heating_only_low_temperature_emitters_etas_temperature_c": 35,
+    "heating_only_other_emitters_etas_temperature_c": 55,
+    "heating_and_dhw_etas_temperature_c": 55,
+    "dhw_remote_system_requires_pac_priority": true
+  },
+  "dimensioning_study": {
+    "required": true,
+    "signed_and_dated": true,
+    "given_to_beneficiary_at_engagement": true,
+    "updated_at_completion_if_needed": true,
+    "pac_must_follow_study_recommendations": true,
+    "required_fields": [
+      "raison sociale et adresse bénéficiaire",
+      "adresse lieu opération si différente",
+      "raison sociale et adresse professionnel ou bureau d'étude",
+      "surface chauffée",
+      "types d'émetteurs de chaleur",
+      "température de départ réseau émetteurs",
+      "température intérieure de consigne",
+      "température de base Tbase",
+      "déperditions thermiques à Tbase",
+      "puissance thermique PAC à Tbase",
+      "taux de couverture annuel chauffage",
+      "marque et référence PAC",
+      "Etas",
+      "autres systèmes de chauffage conservés",
+      "raisons de conservation des équipements existants"
+    ],
+    "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+    "page_start": 2,
+    "page_end": 3
+  },
+  "proof_of_completion": {
+    "required_mentions": [
+      "marque et référence PAC",
+      "puissance thermique nominale Prated à -10°C",
+      "usage chauffage ou chauffage et eau chaude sanitaire",
+      "type d'application basse, moyenne ou haute température",
+      "Etas"
+    ],
+    "manufacturer_document_fallback": true,
+    "cofrac_or_equivalent_required_if_fallback": true,
+    "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+    "page_start": 3,
+    "page_end": 3
+  },
+  "specific_supporting_documents": [
+    "étude préalable de dimensionnement",
+    "décision de qualification ou de certification du professionnel"
+  ],
+  "lifetime_years": 22,
+  "eligibility_conditions": [
+    {
+      "text": "La PAC doit être de type air/eau, de puissance thermique nominale inférieure ou égale à 400 kW, pour un système de chauffage collectif.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 1,
+      "section_title": "Dénomination",
+      "quote": "Mise en place d’une ou de plusieurs pompe(s) à chaleur (PAC) de type air/eau de puissance thermique nominale inférieure ou égale à 400 kW pour un système de chauffage collectif.",
+      "confidence": "high"
+    },
+    {
+      "text": "La PAC doit répondre intégralement ou en partie aux besoins du bâtiment en chauffage ou en chauffage et eau chaude sanitaire.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 1,
+      "section_title": "Dénomination",
+      "quote": "Seuls sont éligibles les pompes à chaleur dimensionnées pour répondre intégralement ou en partie aux besoins du bâtiment en chauffage ou en chauffage et en eau chaude sanitaire (ECS).",
+      "confidence": "high"
+    },
+    {
+      "text": "Les PAC utilisées uniquement pour la production d'eau chaude sanitaire sont exclues.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 1,
+      "section_title": "Dénomination",
+      "quote": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie les PAC utilisées uniquement pour la production d'eau chaude sanitaire.",
+      "confidence": "high"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "La mise en place est réalisée par un professionnel titulaire d’un signe de qualité adapté.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 1,
+      "section_title": "Conditions pour la délivrance de certificats",
+      "quote": "La mise en place est réalisée par un professionnel.",
+      "confidence": "high"
+    },
+    {
+      "text": "Etas minimale : 111 % pour application moyenne ou haute température, 126 % pour application basse température.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 1,
+      "section_title": "Conditions pour la délivrance de certificats",
+      "quote": "est supérieure ou égale à : - 111 % pour une application moyenne et haute température ; - 126 % pour une application basse température",
+      "confidence": "high"
+    },
+    {
+      "text": "L’Etas prise en compte est celle de la PAC seule pour les besoins de chauffage des locaux, hors dispositif de régulation.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 2,
+      "section_title": "Conditions pour la délivrance de certificats",
+      "quote": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de chauffage des locaux (hors dispositif de régulation).",
+      "confidence": "high"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "Étude préalable de dimensionnement datée et signée.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 2,
+      "section_title": "Conditions pour la délivrance de certificats",
+      "quote": "L’installation fait l’objet d’une étude préalable de dimensionnement, datée et signée par le professionnel.",
+      "confidence": "high"
+    },
+    {
+      "text": "Preuve de réalisation mentionnant marque, référence, Prated à -10°C, usage, type d’application et Etas.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 3,
+      "section_title": "Conditions pour la délivrance de certificats",
+      "quote": "La preuve de la réalisation de l’opération mentionne : - la mise en place ... avec ses marque(s) et référence(s)",
+      "confidence": "high"
+    },
+    {
+      "text": "Décision de qualification ou de certification du professionnel.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 3,
+      "section_title": "Conditions pour la délivrance de certificats",
+      "quote": "la décision de qualification ou de certification du professionnel",
+      "confidence": "high"
+    }
+  ],
+  "control_points": [
+    {
+      "text": "Vérifier que la PAC n’est pas utilisée uniquement pour l’ECS.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 1,
+      "section_title": "Dénomination",
+      "quote": "PAC utilisées uniquement pour la production d'eau chaude sanitaire",
+      "confidence": "high"
+    },
+    {
+      "text": "Vérifier l’étude de dimensionnement datée, signée, remise à l’engagement et actualisée si nécessaire.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 2,
+      "section_title": "Conditions pour la délivrance de certificats",
+      "quote": "Cette étude est remise au bénéficiaire à l’engagement de l’opération. Le cas échéant elle est actualisée",
+      "confidence": "high"
+    },
+    {
+      "text": "Vérifier l’application du facteur R si la puissance PAC installée est strictement inférieure à 40 % de la puissance utile de chaufferie après travaux.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "est strictement inférieure à 40 % de la puissance utile de la chaufferie après travaux",
+      "confidence": "high"
+    }
+  ],
+  "calculation": {
+    "unit": "kWh cumac par appartement",
+    "formula_text": "Montant CEE = montant_kWh_cumac_par_appartement × N × R",
+    "variables": [
+      {
+        "name": "N",
+        "label": "Nombre d'appartements chauffés par la ou les PAC",
+        "unit": "appartement",
+        "value_type": "number",
+        "description": "Appartements disposant d’émetteurs de chaleur alimentés par la ou les PAC installées au titre de la fiche."
+      },
+      {
+        "name": "R",
+        "label": "Facteur correctif lié à la part de puissance PAC dans la chaufferie",
+        "unit": null,
+        "value_type": "number",
+        "description": "R vaut 1 sauf si la puissance PAC installée est strictement inférieure à 40 % de la puissance utile de chaufferie après travaux."
+      },
+      {
+        "name": "zone_climatique",
+        "label": "Zone climatique",
+        "unit": null,
+        "value_type": "enum",
+        "values": ["H1", "H2", "H3"],
+        "description": "Zone climatique utilisée dans le tableau de montant."
+      },
+      {
+        "name": "usage",
+        "label": "Usage de la PAC",
+        "unit": null,
+        "value_type": "enum",
+        "values": ["chauffage", "chauffage_et_ecs"],
+        "description": "Usage retenu dans le tableau de montant."
+      },
+      {
+        "name": "etas_range",
+        "label": "Plage Etas",
+        "unit": "%",
+        "value_type": "enum",
+        "values": ["111_126", "126_150", "150_175", "175_190", "190_plus"],
+        "description": "Plage d’efficacité énergétique saisonnière."
+      }
+    ],
+    "r_factor": {
+      "condition": "si puissance thermique nominale PAC installée / puissance utile chaufferie après travaux < 40%",
+      "formula": "R = puissance thermique nominale PAC installée / puissance totale utile chaufferie après travaux",
+      "otherwise": "R = 1",
+      "exclude_backup_equipment": true
+    }
+  },
+  "energyco_site_data_requirements": [
+    "nombre d'appartements chauffés par la PAC",
+    "zone climatique",
+    "usage PAC : chauffage ou chauffage et ECS",
+    "Etas",
+    "application basse, moyenne ou haute température",
+    "puissance nominale PAC Prated à -10°C",
+    "puissance utile chaufferie après travaux",
+    "équipements de secours à exclure",
+    "surface chauffée",
+    "types d'émetteurs",
+    "Tbase",
+    "déperditions",
+    "température de départ",
+    "température intérieure de consigne"
+  ],
+  "energyco_risks": [
+    "PAC ECS seule non éligible",
+    "mauvaise application Etas 35°C/55°C",
+    "absence d'étude de dimensionnement signée/datée",
+    "puissance PAC < 40% sans application du facteur R",
+    "prise en compte erronée des équipements de secours dans la puissance chaufferie",
+    "absence de preuve marque/référence/Prated/Etas",
+    "non-respect de la qualification professionnelle",
+    "cumul erroné avec BAR-TH-169"
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": true,
+    "attestation_required": true,
+    "photos_required": null,
+    "manufacturer_datasheet_required": true
+  },
+  "extraction": {
+    "status": "validated",
+    "needs_human_review": false,
+    "notes": "Fiche Energyco modèle structurée depuis le PDF source et les sections extraites."
+  }
+}

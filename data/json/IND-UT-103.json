@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de récupération de chaleur sur un compresseur d'air pour une valorisation sur site en\nchauffage de locaux, production d’eau chaude sanitaire ou dans un procédé industriel.\n\nEst exclu de l'opération standardisée tout système de récupération de chaleur interne au compresseur d’air pour la\nrégénération d'un sécheur d’air.\n\nCette opération n’est pas cumulable avec les opérations relevant de la fiche standardisée IND-BA-112 si le\ncompresseur d’air est connecté à la tour aéroréfrigérante.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nDans le cas où le système de récupération de chaleur inclut un échangeur, la preuve de réalisation de l'opération\nmentionne la mise en place d'un échangeur et sa puissance thermique. À défaut, la preuve de réalisation de\nl'opération mentionne la mise en place d'un échangeur avec ses marque et référence et elle est complétée par une\nnote de dimensionnement établie par l'installateur ou un document issu du fabricant. Ce document ou cette note\nindique que l’équipement de marque et référence installé est un échangeur et mentionne sa puissance thermique.\n\nDans le cas où le système de récupération de chaleur n’inclut pas d’échangeur et qu’il consiste en la pose de\ntuyauterie ou gainage, la preuve de la réalisation de l’opération mentionne la mise en place d’un système de\nrécupération de chaleur sur un compresseur d'air.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "13 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Usage de la\nchaleur\nMode de\nfonctionnement\ndu site\nMontant de certificats en kWh cumac\npar kW selon la zone climatique\n\nPuissance thermique de\nl’échangeur en kW (thermique)\nou\nPuissance électrique nominale du\ncompresseur en kW (électrique) en\nl’absence d’échangeur\nH1\nH2\nH3\nChauffage\nde locaux\nou\neau chaude\nsanitaire\n1x8h\n6 400\n6 000\n5 000\nX\nP\n\nLimitée dans tous les cas à la\npuissance électrique nominale du\ncompresseur\n2x8h\n15 900\n15 000\n12 600\n3x8h avec arrêt\nle week-end\n19 700\n18 600\n15 600\n3x8h sans arrêt\nle week-end\n26 700\n25 200\n21 100\nProcédé\nindustriel\n1x8h\n10 300\n2x8h\n25 600\n3x8h avec arrêt\nle week-end\n31 800\n3x8h sans arrêt\nle week-end\n43 100\n\nLa puissance thermique à retenir est celle figurant sur la plaque signalétique de l'échangeur ou à défaut celle indiquée\nsur la note de dimensionnement de l’installateur ou sur un document issu du fabricant.\n\nLa puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du compresseur ou à défaut\ncelle indiquée sur un document issu du fabricant.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -106,7 +143,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -169,10 +207,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 13,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-103 vA17-2.pdf"
     }
   ],
@@ -217,10 +260,10 @@
     "Industrie_IND/IND-UT-103 vA17-2 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.166665+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

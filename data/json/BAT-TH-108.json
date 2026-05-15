@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Locaux du secteur tertiaire existants de surface totale chauffée inférieure ou égale à 10 000 m².",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place, sur un système de chauffage existant, d’un équipement ayant la fonction de programmation\nd’intermittence à heures fixes (thermostat programmable).",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nL’équipement possède les fonctions de programmation d’intermittence au sens de la norme EN 12098 Régulation\npour les systèmes de chauffage partie 5 : programmateurs d’intermittences pour les systèmes de chauffage.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un programmateur d’intermittence au sens de\nla norme EN 12098-5.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est accompagnée d’un document issu du fabricant indiquant que l’équipement de marque et\nréférence mis en place est un programmateur d’intermittence au sens de la norme EN 12098-5.\n\nCette opération n’est pas cumulable avec les opérations relevant des fiches BAT-TH-109 « Optimiseur de relance\nen chauffage collectif » et BAT-TH-116 « Système de gestion technique du bâtiment pour le chauffage et l’eau\nchaude sanitaire ».",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "12 ans",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Secteur activité\nMontant unitaire en kWh cumac\npar m² selon l’énergie de\nchauffage\n\n\n\n\nSurface\nchauffée (m²)\n\nZone climatique\nCombustible\nÉlectricité\nBureaux\n66\n37\nX\nS\nX\nH1\n1,1\nEnseignement\n43\n24\nH2\n0,9\nCommerces\n47\n27\nH3\n0,6\nHôtellerie-Restauration\n78\n29\n\nSanté\n54\n31\nAutres secteurs\n43\n24\n\nLa surface chauffée à prendre en compte est celle gérée par le système de régulation par programmation\nd’intermittence.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -107,7 +144,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -178,10 +216,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 12,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-108 v A22-1.pdf"
     }
   ],
@@ -226,10 +269,10 @@
     "Tertiaire_BAT/BAT-TH-108 v A22-1.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.650796+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

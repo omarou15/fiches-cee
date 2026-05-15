@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Réseaux de chaleur existants.\n\nLa présente opération s’applique à un réseau de chaleur primaire alimentant des bâtiments appartenant à au moins deux\nabonnés distincts.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un calorifugeage des canalisations d’un réseau de chaleur enterré ou en caniveau dans tout ou partie du\nréseau primaire.\n\nEst considéré comme existant un réseau de chaleur dont la date de première livraison de chaleur est antérieure d’au\nmoins un an à la date d’engagement de l’opération.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Les canalisations enterrées ou en caniveau concernées sont :\n- les canalisations aller ou les canalisations retour pour les réseaux d’eau chaude (basse température ≤ 110°C) ou d’eau\nsurchauffée (haute température > 110°C) ;\n- les canalisations aller pour les réseaux de vapeur.\n\nLa mise en place est réalisée par un professionnel.\n\nLa conductivité thermique λ de l’isolant est inférieure ou égale à 0,06 W/m.K.\n\nL’isolant installé garantit que le coefficient de perte thermique Umax (W/m².K) est inférieur aux valeurs du tableau\nsuivant (où « DN » est le diamètre nominal de la canalisation) :\n\nDN (mm)\nUmax (W/m².K)\nClasse 4\nSéries 1, 2 et 3\n32\n0,21\n0,17\n40\n0,22\n0,19\n50\n0,24\n0,21\n60\n0,25\n0,24\n65\n0,26\n0,25\n80\n0,28\n0,26\n100\n0,31\n0,28\n125\n0,35\n0,32\n150\n0,39\n0,37\n175\n0,42\n0,39\n200\n0,46\n0,41\n250\n0,54\n0,4\n300\n0,61\n0,46\n\n350\n0,69\n0,45\n≥ 400\n0,76\n0,48\n\nLa colonne « Classe 4 » du tableau ci-dessus s’applique aux canalisations respectant les exigences relatives à la classe\nd’isolation thermique 4 définie par la norme NF EN 12828.\n\nLa colonne « Séries 1, 2 et 3 » du tableau ci-dessus s’applique aux canalisations respectant les exigences relatives aux\nséries d’isolation thermique 1, 2 et 3 définies par la norme NF EN 253.\n\nPour des diamètres nominaux intermédiaires, une extrapolation linéaire peut être réalisée.\n\nLe coefficient de perte thermique Umax (W/m².K) est calculé au moyen de la formule suivante :\n\n𝑈𝑚𝑎𝑥=\n𝜋\n1\n2 ∗𝜆𝐷ln (𝑑𝑎\n𝑑𝑖) +\n1\n10 ∗ 𝑑𝑎\n\n\noù,\nλD (W/m.K) est le coefficient de conductivité thermique de l’isolant,\nda (m) est le diamètre de la conduite avec isolant,\ndi (m) est le diamètre de la conduite sans isolant.\n\nLa mise en place d’une canalisation pré-isolée dont le calorifugeage garantit que le coefficient de perte thermique est\ninférieur aux valeurs du tableau ci-dessus est également éligible à la présente fiche.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un calorifugeage sur les canalisations du réseau\nde chaleur primaire, la nature du fluide caloporteur (eau chaude, eau surchauffée, vapeur), la longueur (en m), le diamètre\nnominal (en mm) des canalisations isolées et les marques et références ainsi que les caractéristiques de l’isolant\n(coefficient de conductivité thermique en W/m.K et épaisseur).\n\nLe document justificatif spécifique à l’opération est le descriptif de la portion concernée par l’isolation du réseau de\nchaleur primaire, précisant sa longueur (en m), son diamètre nominal (en mm), le type de fluide caloporteur (eau chaude,\neau surchauffée ou vapeur) et la durée annuelle d’utilisation du réseau. Ce document identifie le réseau de chaleur\nconcerné ; il est daté et signé par le bénéficiaire de l’opération et le gestionnaire de ce réseau.\n\nLa durée annuelle d’utilisation du réseau de chaleur est celle de l’année calendaire précédant la date d’achèvement de\nl’opération.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "30 ans.",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Le montant de certificats est calculé pour chaque élément de canalisation de diamètre nominal DN de la tuyauterie\nconcernée et de longueur L, et selon la durée annuelle d’utilisation du réseau :\n\nPour les canalisations respectant les exigences relatives à la classe d’isolation thermique 4 définie par la norme\nNF EN 12828 :\n\n\n\nDurée\nannuelle\nd'utilisation\ndu réseau\nFacteur correctif\ntenant compte de\nl’utilisation du\nréseau\n\nMontant unitaire en kWh cumac selon le\ndiamètre nominal DN (en mm) du réseau\n\n\n\nLongueur\n(en m)\n\n\n\n\nDN\nEau\nchaude\nEau\nsurchauffée\nVapeur\nL\nX\n12 mois\n1,00\nX\n32\n3 300\n5 000\n8 700\n\n\n11 mois\n0,92\n\n40\n3 800\n5 900\n10 800\n\n\n10 mois\n0,83\n\n50\n4 500\n6 800\n13 000\n\n\n9 mois\n0,75\n\n60\n5 000\n7 700\n-\n\n\n8 mois\n0,67\n\n65\n5 300\n8 100\n13 600\n\n\n7 mois\n0,58\n\n80\n6 000\n9 100\n15 900\n\n\n6 mois\n0,50\n\n100\n6 800\n10 400\n19 700\n\n\n\n\n\n125\n7 600\n11 700\n21 400\n\n\n\n\n\n150\n8 400\n12 900\n24 900\n\n\n\n\n\n175\n9 100\n14 000\n28 400\n\n\n\n\n\n200\n9 800\n15 100\n31 700\n\n\n\n\n\n250\n11 100\n17 000\n38 400\n\n\n\n\n\n300\n12 300\n18 800\n41 600\n\n\n\n\n\n350\n13 400\n20 600\n43 000\n\n\n\n\n\n≥ 400\n14 600\n22 400\n44 800\n\nPour les canalisations respectant les exigences relatives aux séries d’isolation thermique 1, 2 et 3 définies par la norme\nNF EN 253 :\n\n\n\nDurée\nannuelle\nd'utilisation\ndu réseau\nFacteur correctif\ntenant compte de\nl’utilisation du\nréseau\n\nMontant unitaire en kWh cumac selon le\ndiamètre nominal DN (en mm) du réseau\n\n\n\nLongueur\n(en m)\n\n\n\n\nDN\nEau\nchaude\nEau\nsurchauffée\nVapeur\nL\nX\n12 mois\n1,00\nX\n32\n3 800\n5 800\n8 700\n\n\n11 mois\n0,92\n\n40\n4 400\n6 700\n10 800\n\n\n10 mois\n0,83\n\n50\n4 900\n7 600\n13 000\n\n\n9 mois\n0,75\n\n60\n5 400\n8 300\n-\n\n\n8 mois\n0,67\n\n65\n5 700\n8 700\n13 600\n\n\n7 mois\n0,58\n\n80\n6 500\n10 000\n15 900\n\n\n6 mois\n0,50\n\n100\n7 500\n11 500\n19 700\n\n\n\n\n\n125\n8 300\n12 800\n21 400\n\n\n\n\n\n150\n9 100\n14 000\n24 900\n\n\n\n\n\n175\n10 100\n15 500\n28 400\n\n\n\n\n\n200\n11 000\n16 900\n31 700\n\n\n\n\n\n250\n12 900\n19 900\n38 400\n\n\n\n\n\n300\n14 300\n22 000\n41 600\n\n\n\n\n\n350\n16 200\n24 900\n43 000\n\n\n\n\n\n≥ 400\n17 800\n27 300\n44 800\n\nN.B. : Le diamètre nominal (DN) de la canalisation correspond à la désignation de dimension commune à tous les\néléments d'une même tuyauterie autres que ceux désignés par leur diamètre extérieur ou intérieur. C'est un nombre\nentier utilisé aux fins de référence.",
+      "page_start": 3,
+      "page_end": 4
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -139,7 +176,8 @@
   "calculation": {
     "formula_text": "L’isolant installé garantit que le coefficient de perte thermique Umax (W/m².K) est inférieur aux valeurs du tableau",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -240,10 +278,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2024-03-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 30,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf"
     }
   ],
@@ -288,10 +331,10 @@
     "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024 - Partie A à compter du 01-07-2026 - Parties B, C et D.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.748595+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments tertiaires : locaux, neufs ou existants, d’un centre de données, interne ou d'hébergement, ou d’un hôpital.\n\nUn centre de données, encore dénommé data center, est un site physique regroupant des installations informatiques\n(serveurs, routeurs, commutateurs, disques durs, etc.) chargées de stocker et de distribuer des données à travers un\nréseau interne ou via un accès Internet. Il ne s'agit pas de salles informatiques avec opérateurs saisissant ou traitant\ndes données informatiques.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une pompe à chaleur (PAC) de type air/eau en remplacement des résistances électriques de\nréchauffage et de maintien en température du moteur thermique d’un groupe électrogène de secours existant ou mise\nen place d’un groupe électrogène de secours neuf équipé d’une PAC de type air/eau pour le réchauffage et le maintien\nen température du moteur thermique du groupe électrogène.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er août 2029.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place, selon le cas, de la pompe à chaleur (PAC) de type air/eau sur un groupe électrogène existant ou\ndu groupe électrogène neuf équipé d’une PAC de type air/eau est réalisée par un professionnel.\n\nLe groupe électrogène est un équipement de secours. A ce titre, il n’est utilisé qu’en cas d’absence de fourniture\nd’électricité par le système normal d’alimentation électrique des locaux ou lors des essais visant à s’assurer du bon\nfonctionnement du groupe électrogène.\n\nLe groupe électrogène a une puissance nominale d’au moins 800 kW.\n\nPour les PAC concernées par le règlement (UE) n° 813/2013 de la Commission du 2 août 2013, l’efficacité\nénergétique saisonnière est supérieure ou égale à 111 %.\n\nDans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :\na) 4,1 pour une PAC utilisant l'air à l’extérieur du local technique contenant le groupe électrogène ;\nb) 5,2 pour une PAC utilisant l'air à l’intérieur du local technique contenant le groupe électrogène.\n\nLe COP susmentionné est déterminé en appliquant les norme et conditions suivantes :\na) NF EN 14511, sous les conditions suivantes de température : température à l’entrée (échangeur extérieur) de 7°C\nextérieur/température à la sortie (échangeur intérieur) de 45°C, pour une PAC utilisant l'air à l’extérieur du local\ntechnique contenant le groupe électrogène ;\n\nb) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 20°C/\ntempérature à la sortie (échangeur intérieur) de 45°C, pour une PAC utilisant l'air à l’intérieur du local technique\ncontenant le groupe électrogène.\n\nEn cas d’opération sur un groupe électrogène existant, la PAC se substitue à un système de maintien en température\npar résistance électrique et le maintien en température est réalisé intégralement par la PAC. La puissance thermique\nde la PAC est au moins égale à la puissance thermique réelle qui était produite par la résistance électrique et ne peut\npas être inférieure à 75 % de la puissance électrique nominale de la résistance remplacée.\n\nEn cas de mise en place d’un groupe électrogène neuf, le maintien en température est réalisé intégralement par une\nPAC.\n\nLa preuve de la réalisation de l’opération mentionne :\na) Dans le cas d’une opération portant sur un groupe électrogène existant :\n- la mise en place d’une PAC de type air/eau assurant intégralement le maintien en température du moteur thermique\nd’un groupe électrogène ;\n- la puissance thermique réelle (en kW) produite par la résistance remplacée et la puissance électrique nominale (en\nkW) de cette résistance ;\n- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;\n- la puissance nominale du groupe électrogène (en kW) ;\nb) Dans le cas de la mise en place d’un groupe électrogène neuf :\n- la mise en place d’un groupe électrogène neuf comportant une PAC de type air/eau assurant intégralement le\nmaintien en température du moteur thermique du groupe électrogène ;\n- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;\n- la puissance nominale du groupe électrogène (en kW).\n\nA défaut, dans le cas du a ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un\néquipement avec ses marque et référence, la puissance thermique réelle (en kW) produite par la résistance remplacée\net la puissance électrique nominale (en kW) de cette résistance, la puissance nominale du groupe électrogène (en\nkW) et le fait que l’équipement mis en place assure intégralement le maintien en température du moteur thermique\nd’un groupe électrogène et elle est complétée par un document issu du fabricant ou d’un organisme établi dans\nl'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français\nd'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral\npertinent pris dans le cadre de European cooperation for Accreditation (EA), coordination européenne des\norganismes d'accréditation.\n\nCe document indique :\n- que l’équipement de marque et référence est une pompe à chaleur de type air/eau ;\n- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.\n\nA défaut, dans le cas du b ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un\néquipement avec ses marque et référence et la puissance nominale du groupe électrogène (en kW) et elle est\ncomplétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et\naccrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre\norganisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de European co-\noperation for Accreditation (EA), coordination européenne des organismes d'accréditation.\n\nCe document indique :\n- que l’équipement de marque et référence est un groupe électrogène dont le maintien en température du moteur\nthermique est assuré intégralement par une PAC de type air/eau ;\n- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.\n\nEn cas de mention d’une date de validité, ces documents sont considérés comme valables jusqu’à un an après leur\ndate de fin de validité.",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "11 ans.",
+      "page_start": 3,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Puissance nominale du groupe\nélectrogène équipé d’une PAC pour le\nmaintien en température du moteur\nMontant en kWh cumac\npar groupe électrogène\n800 kW ≤ P ≤ 1 200 kW\n167 800\n1 200 kW < P\n279 600",
+      "page_start": 3,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -219,7 +256,8 @@
   "calculation": {
     "formula_text": "Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -311,10 +349,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2024-08-31",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 11,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf"
     }
   ],
@@ -359,10 +402,10 @@
     "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.161278+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

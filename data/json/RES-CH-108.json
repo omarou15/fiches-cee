@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Tous secteurs.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de récupération de chaleur fatale valorisée vers un réseau de chaleur ou un site tiers.\n\nEst considéré comme un réseau de chaleur, un réseau alimentant des bâtiments appartenant à au moins deux abonnés\ndistincts.\n\nLa chaleur fatale (ou aussi perdue) est une chaleur générée par une installation existante qui n’en constitue pas une\ndes finalités premières, et qui n’est pas récupérée.\n\nLa présente fiche est abrogée le 1er octobre 2028.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La chaleur nette valorisée est strictement inférieure à 12 GWh/an.\n\nLa mise en place est réalisée par un professionnel.\n\nLa preuve de réalisation de l'opération est le contrat de fourniture de chaleur entre le fournisseur de la chaleur et\nl'utilisateur de la chaleur récupérée. Il mentionne la mise en place d'un système de récupération de chaleur fatale et\nle type de chaleur fatale (incinération, chaleur industrielle, chaleur eaux grises, etc.). La date d'achèvement de\nl'opération est la date de prise d'effet du contrat de fourniture de chaleur.\n\nLe document de preuve de réalisation de l'opération produit à l'appui de la demande de certificats d'économies\nd'énergie comporte les extraits d'intérêt du contrat de fourniture de chaleur mentionnant :\n- les parties signataires et leurs signatures (nom ou raison sociale, adresse et représentants) ;\n- la date de signature du contrat et celle de sa prise d'effet ;\n- l'adresse du tiers utilisant la chaleur fatale ou celle du gestionnaire du réseau de chaleur ;\n- la quantité de chaleur fatale nette fournie par le procédé de récupération (Q).\n\nLa mise en place du système de récupération de chaleur fatale fait l'objet d'une étude préalable de dimensionnement\nétablie, datée et signée par un professionnel ou un bureau d'étude et précisant les besoins de chaleur à récupérer.\nCette étude de dimensionnement, remise au bénéficiaire à l’achèvement des travaux, comporte :\n- la raison sociale et l'adresse du bénéficiaire ;\n- l'adresse du chantier si différente de l'adresse du bénéficiaire ;\n- la nature de la chaleur fatale récupérée et la nature du besoin de chaleur à valoriser, accompagnée d'une\ndescription des installations en place et des équipements nécessaires à la récupération et la valorisation de la\nchaleur ;\n\n- dans le cas d'un raccordement à un réseau de chaleur, l'étude permet d'identifier le réseau de chaleur concerné,\ndécrit par la zone géographique – quartier(s), ville(s) –, qu'il dessert et fournit la liste des bâtiments concernés,\nraccordés au réseau à la date d'achèvement de l'opération ou prévus dans un délai de 3 ans après cette date. Ce\ndocument indique leur date prévisionnelle de raccordement ;\n- dans le cas d’une valorisation vers un site tiers, l’étude permet d’identifier les installations raccordées à la date\nd’achèvement de l’opération ou prévus dans un délai de 3 ans après cette date. Ce document indique leur date\nprévisionnelle de raccordement ;\n- la quantité de chaleur nette valorisée par l'opération (Q en kWh/an, déduction faite des pertes liées au réseau et\nà ses équipements).\n\nLe document justificatif spécifique à l'opération est l'étude de dimensionnement préalable du système de\nrécupération de chaleur fatale.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "20 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Quantité de chaleur nette utilisée ou valorisée\ndans le réseau de chaleur ou sur le site tiers\n(kWh/an)\n\nCoefficient d’actualisation\nQ\nX\n14,134",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -98,7 +135,8 @@
   "calculation": {
     "formula_text": "- la quantité de chaleur nette valorisée par l'opération (Q en kWh/an, déduction faite des pertes liées au réseau et",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -153,10 +191,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2023-10-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 20,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf"
     }
   ],
@@ -201,10 +244,10 @@
     "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.766596+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

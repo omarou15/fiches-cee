@@ -10,8 +10,8 @@
 - `Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020 - Partie A à compter du 01-07-2026 - Parties B et C.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -30,6 +30,19 @@ _Non detecte automatiquement._
 - Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller
 - Montant unitaire en kWh cumac
 - kWh cumac/m
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-1)
+- 4. Durée de vie conventionnelle (pages 1-2)
+- 5. Montant de certificats en kWh cumac (pages 2-2)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 30
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

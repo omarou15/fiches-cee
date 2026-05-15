@@ -13,8 +13,8 @@
 - `Transport_TRA/TRA-EQ-114 vA68-3 Feuille récapitulative_0.xls`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -33,6 +33,19 @@
 ## Formules / calcul detectes
 - 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-2)
+- 4. Durée de vie conventionnelle (pages 2-4)
+- 5. Montant de certificats en kWh cumac (pages 3-4)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 16
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

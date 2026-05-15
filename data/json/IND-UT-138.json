@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d'un système de récupération de chaleur fatale sur les effluents d'un équipement industriel ou d'un\nensemble d'équipements industriels (fours, sécheurs, groupes frigorifiques, traitements humides, traitements\nthermiques, etc.) pour conversion en électricité ou en air comprimé autoconsommés sur site, via un échangeur\nthermique et une machine thermodynamique.\n\nLa chaleur fatale est une chaleur générée par une installation qui n’en constitue pas une des finalités premières, et\nqui n’est pas récupérée. Dans le cadre de la présente fiche, est considérée comme chaleur fatale un effluent liquide\nou gazeux répondant à la définition précédente et ayant une température de rejet supérieure à 25°C.\n\nLa chaleur fatale est générée par le site industriel concerné par l’opération.\n\nNe sont pas éligibles à la présente fiche :\n- l’installation d’un système de récupération et de conversion de chaleur fatale sur les effluents d’un équipement de\nsecours ;\n- la production d’électricité ou d'air comprimé pour vente à un tiers ;\n- les installations valorisant une quantité de chaleur fatale prélevée supérieure à 16 GWh/an.\n\nLa présente fiche n'est pas cumulable avec les fiches IND-BA-112, IND-UT-103, IND-UT-117, IND-UT-118, IND-\nUT-137 et IND-UT-139.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er janvier 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place du système de récupération et de conversion de chaleur fatale fait l’objet d’une étude préalable de\ndimensionnement établie, datée et signée par le professionnel ou un bureau d’étude.\n\nCette étude comporte les éléments suivants :\n\nI. Identification de l’opération\na) Raison sociale et adresse du bénéficiaire ;\nb) Adresse du chantier si différente de l’adresse du bénéficiaire.\n\nII. Identification des équipements émetteurs de chaleur fatale et des auxiliaires\na) Identification du ou des équipement(s) émetteur(s) de chaleur fatale concerné(s) par l'opération :\ni. Type d'équipement (ex : four, sécheur…) ;\nii. Marque et référence ;\niii. Durée et mode de fonctionnement annuels ;\n\niv. Sur la base de l’historique de fonctionnement des deux dernières années a minima, ou à défaut, de\nsimulations, évalue la puissance de chaleur fatale récupérable, c’est-à-dire le gisement total disponible en y\nsoustrayant l’éventuelle puissance de chaleur fatale déjà récupérée avant l’opération ;\nb) Identification des équipements auxiliaires préexistants nécessaires à l’évacuation de la chaleur fatale avant\nl’opération :\ni. Type d’équipement (ventilateur, pompe) ;\nii. Evaluation de leur consommation électrique sur la base de l’historique de fonctionnement des deux\ndernières années a minima, ou à défaut, de simulations ;\nc) Identification des équipements auxiliaires supplémentaires à installer dans le cadre de l’opération (incluant les\néventuels auxiliaires servant au respect des textes en vigueur en matière de réglementation des dilutions sur les\neffluents en sortie de machine thermodynamique) :\ni. Type d’équipement ;\nii. Evaluation de leur consommation électrique.\n\nIII. Validation du projet et dimensionnement des équipements\na) Validation et justification de la pertinence technique d'une valorisation de la chaleur fatale en électricité / en air\ncomprimé plutôt qu'en chaleur utile ou en froid, sur la base d'une évaluation des besoins du site industriel et de son\nenvironnement local (sites industriels voisins, réseaux de chaleur urbains, etc.) ;\nb) Dimensionnement de l'échangeur et de la machine thermodynamique en fonction des caractéristiques des\neffluents valorisés (puissance de chaleur récupérée, gamme de température, caractéristiques physico-chimiques,\npuissance électrique absorbée par la machine thermodynamique et, selon le cas, puissance électrique produite ou\nvolume d’air comprimé produit) ; dans le cas d'effluents encrassants ou corrosifs, l’étude de dimensionnement inclut\nla définition d'un plan de maintenance de l'échangeur ;\nc) Evaluation des économies d’énergie attendues en calculant :\ni. Précup (kW), la puissance thermique apportée en entrée de la machine thermodynamique, en cohérence avec\nle dimensionnement de l’échangeur et de la machine thermodynamique ;\nii. Le rendement brut de la machine thermodynamique (ne prenant pas en compte les auxiliaires) η (%) :\n- dans le cas de la production d’électricité :\n\nη =\nPuissance électrique produite\npar la machine thermodynamique −\nPuissance électrique absorbée\npar la machine thermodynamique\nPuissance thermique absorbée\n\n\n- dans le cas de la production d’air comprimé :\n\nη =\n(\nVolume d′air\ncomprimé produit [Nm3/h] × 0,15) −\nPuissance électrique absorbée\npar la machine thermodynamique\nPuissance thermique absorbée\n\n\niii. La puissance électrique absorbée par les auxiliaires avant et après l’opération, et Pconso (kW), la variation\nde la puissance électrique absorbée par les auxiliaires avant et après l’opération ;\niv. D (heures), la durée annuelle de fonctionnement de la machine thermodynamique, fonction du rythme de\nfonctionnement et des arrêts de maintenance des sources de chaleur, ainsi que des arrêts de maintenance du\nsystème de récupération de chaleur ;\nv. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;\nd) Evaluation de l’impact économique de l’opération sur la facture énergétique du bénéficiaire.\n\nL'installation des équipements est réalisée par un professionnel.\n\nLa machine thermodynamique installée présente un rendement énergétique brut (ne prenant pas en compte les\nconsommations des auxiliaires), η, respectant la condition suivante :\n\nη ≥0,1 × (1 −T°source froide\nT°chaleur en entrée\nde la machine\n )\n\nDans le cadre de la présente fiche, le terme « auxiliaires » désigne les pompes et/ou ventilateurs utilisés pour :\n- évacuer l’effluent porteur de chaleur fatale préalablement à l’opération ;\n- transférer tout ou partie de l’effluent porteur de chaleur fatale vers la machine thermodynamique ;\n- évacuer l’effluent porteur de la chaleur fatale résiduelle issue de la machine thermodynamique.\n\nLe système de récupération de chaleur fatale installé est tel que :\n- la puissance de chaleur récupérée nominale du système installé est supérieure ou égale à Précup issue de l’étude de\ndimensionnement ;\n- selon le cas, la puissance électrique nominale produite par le système installé est supérieure ou égale à la puissance\nélectrique produite par le système issue de l’étude de dimensionnement ou le volume d’air comprimé produit par le\nsystème installé est supérieur ou égal à celui issu de l’étude de dimensionnement ;\n- la puissance électrique absorbée nominale du système installé (ne prenant pas en compte les auxiliaires) est\ninférieure ou égale à celle issue de l’étude de dimensionnement ;\n- le rendement brut du système installé est supérieur ou égal au rendement brut, η, issu de l’étude de\ndimensionnement ;\n- la variation de la puissance électrique absorbée par les auxiliaires induite par le système installé est inférieure ou\négale à Pconso issue de l’étude de dimensionnement.\n\nLes équipements installés sont équipés d'un système de mesure permettant de suivre :\n- la quantité de chaleur absorbée par la machine thermodynamique ;\n- la quantité d'énergie électrique absorbée par la machine thermodynamique ;\n- la quantité d'énergie électrique absorbée par les auxiliaires ;\n- la quantité d’énergie électrique ou de volume normé d’air comprimé produite en sortie de la machine\nthermodynamique.\n\nLes données de suivi issues du système de mesure susmentionné sont archivées par le bénéficiaire sous forme de\nbilans annuels et mensuels et sont conservées pendant neuf ans à compter de la date d’achèvement de l’opération.\nLe bénéficiaire s’engage à transmettre ses données à des fins de traitements statistiques et de contrôle, ou sur\ndemande de l’agence de l'environnement et de la maîtrise de l'énergie afin de contribuer à l’amélioration des\nconnaissances.\n\nLe document justificatif spécifique à l’opération est l’étude de dimensionnement susmentionnée. Cette étude est\ntenue à disposition par le bénéficiaire en cas de contrôle.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d'un système de récupération de chaleur fatale\npour conversion, selon le cas, en électricité ou en air comprimé. Elle précise également :\n- la marque, la référence et la puissance de chaleur récupérée nominale (kW) du ou des échangeurs installés ;\n- la puissance électrique absorbée nominale de la machine thermodynamique hors auxiliaires (kW) ;\n- la marque, la référence et la puissance électrique absorbée nominale des auxiliaires, en distinguant les auxiliaires\npréexistants à l’opération et les auxiliaires installés dans le cadre de l’opération ;\n- selon le cas, la puissance électrique nominale produite (kW) ou le volume d’air comprimé produit (Nm3/h) par la\nmachine thermodynamique installée.\n\nÀ défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques et\nréférences et la marque, la référence et la puissance électrique absorbée nominale des auxiliaires préexistants à\nl’opération. Elle est complétée par un document issu du fabricant indiquant que les équipements de marques et\nréférences installés constituent un système de récupération et de conversion de chaleur, selon le cas, en électricité\n\nou en air comprimé, mentionnant sa puissance de chaleur récupérée nominale (kW), sa puissance électrique absorbée\nnominale hors auxiliaires (kW) et, selon le cas, sa puissance électrique nominale produite (kW) ou le volume d’air\ncomprimé produit (Nm3/h), et précisant la liste des auxiliaires devant être installés et leur puissance électrique\nnominale absorbée (kW).\n\nDans le cas d’une machine thermodynamique modulaire mise en œuvre en deux étapes (installation initiale de faible\npuissance puis installation complémentaire pour atteindre la puissance finale), la demande de certificats\nd’économies d’énergie ne peut être déposée qu’après l’installation finale. Le demandeur de certificats d’économies\nd’énergie archive les preuves des dates d’engagement et d’achèvement des deux installations.",
+      "page_start": 1,
+      "page_end": 4
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "20 ans.",
+      "page_start": 4,
+      "page_end": 4
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\n\n14,134 x D x (Précup x η – Pconso)\n\nD, Précup, η et Pconso sont des paramètres dont les valeurs sont indiquées dans l’étude de dimensionnement :\n- D est la durée annuelle de fonctionnement (en heures) ;\n- Précup est la puissance thermique apportée par le fluide caloporteur à la machine thermodynamique (en kW\nthermique) ;\n- η est le rendement brut estimé de la machine thermodynamique (en %) ;\n- Pconso est la puissance électrique absorbée par les auxiliaires (en kW électrique).",
+      "page_start": 4,
+      "page_end": 4
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -188,7 +225,8 @@
   "calculation": {
     "formula_text": "v. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -210,29 +248,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": true,
     "dpt_required": null,
@@ -240,10 +256,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-01-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 20,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf"
     }
   ],
@@ -288,10 +309,10 @@
     "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.550026+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

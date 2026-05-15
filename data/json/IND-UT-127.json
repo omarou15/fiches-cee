@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Industrie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une transmission par poulie et courroie synchrone (dentée) ou d’une transmission directe dans le\ncas d’une pompe, d’un ventilateur ou d’un compresseur en remplacement d’un système de transmission par\nadhérence (par poulie et courroie plate, trapézoïdale ou striée) existant.\n\nUn système de transmission directe est un système de transmission en liaison directe sans changement du rapport\nde vitesse entre le moteur et l’organe entrainé.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa preuve de la réalisation de l’opération mentionne :\n1/ la dépose du système de transmission par adhérence existant ;\n2/ la mise en place d’une transmission par poulie et courroie synchrone (dentée) ou d’une transmission directe ;\n3/ dans le cas de la mise en place d’une transmission par poulie et courroie synchrone (dentée), la puissance\nélectrique nominale du moteur associé ;\n4/ dans le cas de la mise en place d’une transmission directe, la mise en place d’un accouplement mécanique, le\ntype d’application (pompe, ventilateur ou compresseur) et la puissance électrique nominale du moteur associé.\n\nPar dérogation aux points 2, 3 et 4 ci-dessus, la preuve de la réalisation de l’opération mentionne la mise en place\nd'un équipement avec ses marque et référence et le type d’application (pompe, ventilateur ou compresseur) dans le\ncas de la mise en place d’une transmission directe. Elle est complétée par un document issu du fabricant indiquant\nque l'équipement de marque et référence installé est un système de transmission par poulie et courroie synchrone\n(dentée) ou un système de transmission directe. Dans les deux cas, ce document précise la puissance électrique\nnominale du moteur associé.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "3 ans pour une transmission par poulie et courroie synchrone (dentée).\n15 ans pour une transmission directe.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Cas de la transmission par poulie et courroie synchrone (dentée) :\n\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ndu moteur associé en kW\n820\nX\nP\n\nCas de la transmission directe :\n\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ndu moteur associé en kW\n1900\nX\nP\n\nLa puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du moteur ou, à défaut, celle\nindiquée sur un document issu du fabricant du moteur.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -98,7 +135,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -136,10 +174,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 3,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-UT-127 v A25-2 après le 01-04-2017_0.pdf"
     }
   ],
@@ -184,10 +227,10 @@
     "Industrie_IND/IND-UT-127 v A25-2 après le 01-04-2017 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.302629+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

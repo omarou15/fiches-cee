@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Réseaux de chaleur existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Passage d’une utilisation d’un réseau de chaleur en haute pression (eau surchauffée), ou d’une partie d’un réseau de\nchaleur haute pression, à une utilisation du réseau de chaleur en basse pression et basse température (eau chaude\ninférieure à 120°C).\n\nEst considéré comme existant un réseau de chaleur dont la date de première livraison de chaleur est antérieure d’au\nmoins un an à la date d’engagement de l’opération.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa température maximale de service (TMS) est abaissée à une valeur inférieure à 120°C dans la totalité du réseau\nou la partie de celui-ci passée en basse pression et basse température.\n\nLa preuve de réalisation de l’opération est apportée par le courrier de déclaration à l’administration compétente du\npassage total ou partiel du réseau de chaleur en basse pression et basse température.\n\nLe document justificatif spécifique à l’opération est le descriptif des portions du réseau de chaleur existant passées\nen basse pression. Il identifie le réseau de chaleur concerné et précise la durée annuelle d’utilisation et, pour chaque\nportion de diamètre différent, la longueur du réseau passée en basse pression et basse température et son diamètre\nnominal initial. Ce document est daté et signé par le bénéficiaire de l’opération et le gestionnaire de ce réseau.\n\nLa date d’achèvement de l’opération est la date du passage du réseau de chaleur en basse pression et basse\ntempérature.\n\nLa durée annuelle d’utilisation du réseau de chaleur est celle de l’année calendaire précédant la date d’achèvement\nde l’opération.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "30 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller\nde diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau :\n\nMontant unitaire en kWh cumac\nselon le diamètre initial DN du\nréseau\n\nDurée annuelle\nd'utilisation du\nréseau\nFacteur correctif tenant\ncompte de l’utilisation\ndu réseau\n\n\n\n\n\n\nDN\nkWh cumac/m\n\n\n32\n3 200\n\n12 mois\n1,00\n\n\n40\n3 500\n\n11 mois\n0,92\n\nLongueur\nen m\n50\n3 900\n\n10 mois\n0,83\n\n65\n4 500\nX\n9 mois\n0,75\nX\nL\n80\n5 000\n\n8 mois\n0,67\n\n100\n5 800\n\n7 mois\n0,58\n\n\n125\n6 500\n\n6 mois\n0,50\n\n\n150\n7 200\n\n\n\n\n\n175\n8 000\n\n\n\n\n\n200\n8 700\n\n\n\n\n\n250\n10 000\n\n\n\n\n\n300\n11 300\n\n\n\n\n\n350\n12 600\n\n\n\n\n\n400\n13 800\n\n\n\n\n\n450\n14 900\n\n\n\n\n\n500\n16 100\n\n\n\n\n\n550\n17 300\n\n\n\n\n\n600\n18 400\n\n\n\n\n\n700\n20 700\n\n\n\n\n\n800\n22 900\n\n\n\n\n\n900\n25 300\n\n\n\n\n\n1000\n27 800\n\n\n\n\n\n\nNota : Le diamètre nominal (DN) correspond à la désignation de dimension commune à tous les éléments d'une\nmême tuyauterie autre que ceux désignés par leur diamètre extérieur ou intérieur. C'est un nombre entier utilisé aux\nfins de référence. Il correspond au diamètre nominal de la canalisation du réseau de chaleur avant son passage en\nbasse température.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -82,7 +119,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -128,10 +166,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2020-10-12",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 30,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf"
     }
   ],
@@ -176,10 +219,10 @@
     "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020 - Partie A à compter du 01-07-2026 - Parties B et C.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.665869+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -13,8 +13,8 @@
 - `Transport_TRA/TRA-EQ-129 vA73-3 Feuille récapitulative.xlsx`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -41,6 +41,19 @@
 - cumac par véhicule
 - *Le montant de certificats indiqué concerne les véhicules spéciaux achetés ou loués ou issus d’une opération de
 - **Les montants de certificats indiqués concernent les véhicules spéciaux achetés ou loués ou issus d’une opération
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-3)
+- 4. Durée de vie conventionnelle (pages 3-3)
+- 5. Montant de certificats en kWh cumac (pages 3-4)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 12
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

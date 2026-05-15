@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment tertiaire existant : activité correspondant à la zone d’implantation du groupe de production de froid.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de récupération de chaleur sur un groupe de production de froid afin de chauffer ou\npréchauffer un fluide caloporteur (e.g. de l’eau), sur site, pour le chauffage du bâtiment, la production d’eau chaude\nsanitaire ou un besoin en procédé.\n\nEst exclu de l’opération tout système de récupération de chaleur sur un groupe de production de froid afin de chauffer\nou préchauffer de l’air.\n\nLa mise en place d’un système de récupération de chaleur sur un groupe de production de froid de secours ou sur\nune pompe à chaleur n’est pas éligible à cette opération.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa fiche s’applique au groupe de production de froid par compression mécanique utilisant un fluide frigorigène,\ncirculant en circuit fermé, dont la température d’évaporation est inférieure ou égale à 18°C.\n\nLa mise en place du système de récupération de chaleur fait l’objet d’une étude préalable de dimensionnement\nétablie, datée et signée par un professionnel ou un bureau d’étude. Elle vise à évaluer les économies d’énergie\nattendues, via la chaleur récupérée, au regard des installations de production de froid et des besoins de chaleur mais\négalement à démontrer la bonne adaptation entre les besoins de froid et la production de froid puis entre le système\nde récupération de chaleur et les besoins de chaud en présentant les calculs et leurs hypothèses.\n\nL’étude de dimensionnement définit une période représentative des besoins de chaleur et des besoins de froid qui\nne peut pas être inférieure à 24h et qui considère les usages, a minima, sur les deux dernières années, les arrêts de\nsaisonnalité ainsi que de la concomitance des besoins tertiaires de froid et des besoins de chaleur. Il en est déduit\nsur cette base une durée annuelle.\n\nL’étude de dimensionnement comporte les éléments suivants :\na) l’identification de l’opération :\ni.\nla raison sociale et l’adresse du bénéficiaire ;\nii. l’adresse du chantier si différente de l’adresse du bénéficiaire.\n\n\n\n\nb) la description des caractéristiques techniques des équipements suivants :\n\ni.\ndes installations de production de froid : marques, références, usage(s) du froid, puissances frigorifique\n(évaporateurs) et électrique (compresseurs) installées, température d’évaporation du fluide frigorigène,\ndurées de fonctionnement annuel des compresseurs, sur la période représentative ;\nii. des systèmes de récupération de chaleur : équipements (condenseur, désurchauffeur et/ou\nrefroidissement d’huile), pompes ou ventilateurs de distribution, longueur du circuit de distribution,\néventuels stockages, etc. accompagné d’un schéma simplifié de l’installation, marques et références des\nsystèmes, usage(s) de la chaleur, puissance, température, durées annuelles d’utilisation de la chaleur sur\nla période représentative.\n\nLa description des équipements précisera les équipements existants avant l’étude de dimensionnement et ceux\nqui sont mis en place dans le cadre de l’opération.\n\nc) la justification et le dimensionnement de l’opération :\ni.\nla justification de l’usage et de la puissance installée du système de production de froid au regard des\nbesoins en froid ainsi que de la durée moyenne de fonctionnement annuel des compresseurs frigorifiques,\nsur la période représentative dans le cas de compresseurs existants et sur la durée moyenne prévisionnelle\ndans le cas de compresseurs neufs ;\n\nii. la nature des besoins de chaleur à couvrir pour les usages : procédés, eau chaude sanitaire ou chauffage\ndes locaux ;\n\niii. pour chacun des besoins de chaleur à couvrir :\n•\nla puissance thermique à couvrir,\n•\nla température demandée,\n•\nla durée annuelle du besoin de chaleur sur la base de la période représentative.\n\nAinsi, pour les besoins de chaleur, l’étude précise :\n•\nla somme des puissances thermiques unitaires à couvrir,\n•\nla moyenne pondérée des durées annuelles des besoins unitaires affectée des puissances respectives\n(c’est-à-dire (d1*P1 +...+ dn*Pn)/(P1+...+Pn)).\n\niv. la simultanéité des besoins en froid et des besoins de chaleur sur la période représentative ;\n\nv. la justification du bon dimensionnement du système de récupération de chaleur au regard des besoins de\nchaleur à couvrir et de la simultanéité avec les besoins en froid, qui précise en particulier :\n•\nla puissance maximale de réjection de l’installation de production de froid ;\n•\nPdéjà récupérée en kW (thermique) qui est la puissance thermique déjà récupérée par un ou plusieurs\nsystèmes de récupération de chaleur sur le groupe de production de froid concerné par l’opération ;\n•\nla puissance thermique du système de récupération de chaleur ;\n•\nPrécupérée en kW (thermique) qui est le minimum entre la puissance thermique du système de récupération\nde chaleur et la somme des puissances thermiques à couvrir ;\nPcompresseur(s) en kW (électrique) qui est la somme des puissances électriques nominales indiquées sur les\nplaques du ou des compresseur(s) raccordé(s) au système de récupération de chaleur ou à défaut celles\nindiquées sur un document issu du fabricant.\n\nvi. une évaluation des économies d’énergie attendues, sur une période annuelle.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un système de récupération de chaleur sur\nun groupe de production de froid et la puissance du système de récupération de chaleur en kW thermique.\n\nÀ défaut, la preuve de réalisation de l'opération mentionne la mise en place, sur un groupe de production de froid,\nd'un équipement avec ses marque et référence et elle est complétée par un document issu du fabricant indiquant que\nl'équipement de marque et référence installé est un système de récupération de chaleur et mentionnant sa puissance\nen kW thermique.\n\nLe document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place du\nsystème de récupération de chaleur répondant aux attendus ci-dessus.\n\nDans le cas où la récupération de chaleur nécessiterait l’installation de plusieurs systèmes de récupération de chaleur,\nla fiche sera utilisée à plusieurs reprises.",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "14 ans.",
+      "page_start": 3,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant de certificats\n(M), en kWh cumac\n‘\nDurée annuelle\nd’utilisation de la\nchaleur récupérée (D),\nen heures\n\nFacteur\nmultiplicatif\n\nPuissance thermique\nrécupérée en kW\nM\n=\nD\nX\n‘9,9\nX\nPrécupérée\nlimitée à\n(2 x Pcompresseurs) – Pdéjà récupérée\n\nAvec, les données suivantes déterminées dans l’étude de dimensionnement préalable, notamment dans ses parties\nbi, bii, ciii, cv :\n•\nLa durée annuelle d’utilisation de la chaleur récupérée (D) est le minimum entre la moyenne pondérée des\ndurées annuelles des besoins unitaires affectée des puissances respectives (c’est-à-dire (d1*P1 +...+\ndn*Pn)/(P1+...+Pn)) et la durée moyenne de fonctionnement annuel des compresseurs frigorifiques ;\n•\nLa puissance thermique récupérée (Précupérée) est le minimum entre la puissance thermique du système de\nrécupération de chaleur et la somme des puissances thermiques à couvrir ;\n•\nLa puissance thermique déjà récupérée (Pdéjà récupérée) est la puissance thermique déjà récupérée par un ou\nplusieurs systèmes de récupération de chaleur sur le groupe de production de froid concerné par l’opération ;\n•\nLa puissance électrique des compresseurs (Pcompresseur(s)) est la somme des puissances électriques nominales\nindiquées sur les plaques du ou des compresseur(s) raccordé(s) au système de récupération de chaleur ou, à\ndéfaut, celles indiquées sur un document issu du fabricant du ou des compresseur(s).\n\nNota 1 : Lorsque le groupe de production de froid est une installation frigorifique à deux étages, alors :\n•\nPour des compresseurs compound (un (des) compresseur(s) assurant les 2 niveaux de pressions d’aspiration)\nou booster (un (des) compresseur(s) basse pression (BP) et un (des) compresseur (s) haute pression (HP))\nalors Pcompresseur(s) est la somme des puissances électriques nominales des compresseurs BP et HP ;\n•\nPour des compresseurs en cascades (2 fluides frigorigènes différents et/ou présence d’un échangeur\nintermédiaire faisant évaporateur de la partie HP et condenseur de la partie BP) alors Pcompresseur(s) est la\nsomme des puissances électriques nominales du (des) seul(s) compresseur(s) HP.\n\nNota 2 : Si Précupérée excède la limite imposée dans le tableau ci-dessus ((2 x Pcompresseur(s)) – Pdéjà récupérée), le calcul du\nmontant des certificats d’économies d’énergie est effectué en considérant que Précupérée est égale à\n((2 x Pcompresseur(s)) – Pdéjà récupérée)",
+      "page_start": 3,
+      "page_end": 4
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -114,7 +151,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -191,10 +229,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2020-10-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 14,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf"
     }
   ],
@@ -239,10 +282,10 @@
     "Tertiaire_BAT/BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.953286+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

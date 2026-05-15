@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Transport de marchandises par voie fluviale.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise à sec d’un automoteur, d’un pousseur ou d’une barge, nettoyage des salissures de la coque et de l’hélice (ou\ndes hélices), et application d’une peinture anti-salissures.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le carénage est réalisé par un professionnel.\n\nLa date d'achèvement de l'opération est la date de fin du relevé de trafic prévu ci-dessous.\n\nLe délai entre la date de la preuve de réalisation de l'opération et la date d'achèvement de l'opération est au maximum\nde 12 mois.\n\nLa preuve de la réalisation de l'opération mentionne :\n- le n° d’identification de l’unité de transport ;\n\n- la mise à sec de l’unité de transport ;\n\n- le nettoyage des salissures de la coque et de l’hélice (ou des hélices) ;\n\n- l’application d’une peinture anti-salissures.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- pour un automoteur ou une barge, le ou les relevé(s) de trafic établis par l’opérateur de transport faisant\napparaître les t.km (tonnes.kilomètres) fluviales réalisées sur au maximum 6 mois consécutifs par cette unité de\ntransport ; le relevé doit être certifié conforme par Voies Navigables de France et les t.km doivent être réalisées\nsur le territoire français ;\n\n- pour un pousseur, le relevé de trafic faisant apparaître les trajets fluviaux en km réalisés sur au maximum 6\nmois consécutifs par le pousseur ; le relevé doit être attesté sur l’honneur par le bénéficiaire et les kilomètres\ndoivent être réalisés sur le territoire français ;\n\n- la copie du titre de navigation permettant de justifier l’immatriculation en France de l’unité de transport fluvial\net de sa capacité de chargement dans le cas d’un automoteur ou de sa puissance dans le cas d’un pousseur.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "3 ans.",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Cas du carénage des automoteurs et des barges fluviales :\nLe montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\nGa x TK\n\nGa est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh\ncumac / t.km.\n\n\nCaractéristiques de l’unité de\ntransport\nGain énergétique Ga\nSeine\nRhône\nNord\nPas-de-Calais\nRhin /\nMoselle\nInterbassin\nAutomoteur\nM ≤ 400\n0,025\n0,028\n0,025\n0,030\n0,027\n400 < M ≤ 650\n0,023\n0,025\n0,023\n0,029\n0,025\n650 < M ≤ 1 000\n0,020\n0,021\n0,021\n0,026\n0,022\n1 000 < M ≤ 1 500\n0,011\n0,012\n0,020\n0,023\n0,016\n1 500 < M\n0,009\n0,011\n0,018\n0,019\n0,014\nBarge fluviale\n0,009\n0,01\n0,01\n0,014\n0,011\n\nM : capacité maximale de chargement de l’automoteur (en tonnes)\n\nTK : t.km effectuées par l’unité de transport et relevées sur une période maximale de 6 mois à compter du carénage\nx 2 (t.km réalisées par an).\n\nOn considère que le trafic réalisé par l’unité de transport fluvial sur 6 mois consécutifs est maintenu en moyenne\nsur la durée de vie des équipements.\n\nCas du carénage des pousseurs :\nLe montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nGp x K\n\nGp est le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km.\n\nGamme en puissance\n(en kW)\nGain énergétique Gp\nSeine\nRhône\nNord /\nPas-de-Calais Rhin / Moselle\nInterbassin\nPousseurs\n295 ≤ P ≤ 590\n12\n13\n10\n-\n12\n590 < P ≤ 880\n19\n20\n13\n-\n18\n880 < P\n24\n23\n19\n39\n26\n\nP est la puissance maximale du moteur du pousseur (en kW).\n\nK : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2\n(kilométrage réalisé par an)\n\nOn considère que le trafic réalisé par l’unité de transport fluvial sur 6 mois consécutifs est maintenu en moyenne\nsur la durée de vie des équipements.",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -91,7 +128,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -145,29 +183,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -175,10 +191,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 3,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf"
     }
   ],
@@ -247,10 +268,10 @@
     "Transport_TRA/TRA-SE-107 vA19-1 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:01.016154+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

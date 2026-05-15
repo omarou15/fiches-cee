@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment résidentiel collectif existant raccordé à un réseau de chaleur existant.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Réhabilitation d’un poste de livraison de chaleur par le remplacement de la totalité des éléments constitutifs du\nprimaire du poste de livraison.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe remplacement des éléments constitutifs du primaire du poste de livraison porte sur :\n- l’échangeur ;\n- la régulation primaire ;\n- les pompes sur fluide primaire (lorsque le poste de livraison en est équipé) ;\n- l’isolation thermique.\n\nLe pincement aux bornes du nouvel échangeur est inférieur à 5°C.\n\nLa preuve de la réalisation de l’opération mentionne le remplacement des équipements constitutifs du primaire du\nposte de livraison : échangeurs dont le pincement est inférieur à 5°C, éléments de régulation, éléments d'isolation\nthermique et pompes (lorsque le poste de livraison en est équipé).\n\nA défaut, la preuve de réalisation de l’opération mentionne le remplacement des équipements constitutifs du\nprimaire du poste de livraison avec leurs marque et référence et est accompagnée d’un ou plusieurs documents\nissu(s) du fabricant indiquant que les équipements installés sont des échangeurs et leur performance (niveau de\npincement), des éléments de régulation, des éléments d’isolation thermique et des pompes (lorsque le poste de\nlivraison en est équipé).",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "20 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone climatique\nMontant en kWh cumac\npar appartement\n\nNombre\nd’appartements\nH1\n18 300\n\nN\nH2\n15 200\nX\nH3\n11 200\n\nLe nombre d’appartements pris en compte correspond au nombre de logements des bâtiments résidentiels raccordés\nau poste de livraison réhabilité.\n\nSi plusieurs postes de livraisons alimentent un même bâtiment alors :\n- soit la totalité des postes est réhabilitée pour être éligible pour le nombre total d’appartements ;\n- soit, chaque poste réhabilité peut être éligible à une partie du nombre d’appartements du bâtiment, en appliquant\nun prorata en fonction de la puissance de chaque poste de livraison par rapport à la puissance totale raccordée.",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -107,7 +144,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -170,10 +208,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2020-10-12",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 20,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Reseaux_RES/RES-CH-104 vA36-3 à compter du 12-10-2020_0.pdf"
     }
   ],
@@ -218,10 +261,10 @@
     "Reseaux_RES/RES-CH-104 vA36-3 à compter du 12-10-2020 - Partie A à compter du 01-07-2026 - Parties B et C.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.639856+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

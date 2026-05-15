@@ -18,6 +18,7 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -81,7 +82,8 @@
   "calculation": {
     "formula_text": null,
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [],
   "zones": [],
@@ -94,6 +96,11 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": null,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
@@ -144,7 +151,7 @@
   "extraction": {
     "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.005444+00:00",
+    "extracted_at": "2026-05-15T00:00:00+00:00",
     "needs_human_review": true,
     "notes": "Formule non detectee automatiquement. Conditions d'eligibilite non detectees automatiquement."
   }

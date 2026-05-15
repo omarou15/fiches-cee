@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments industriels.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un (ou plusieurs) appareil(s) performant(s) de chauffage décentralisé.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Les appareils produisent et émettent la chaleur directement à l’intérieur du volume à chauffer du bâtiment. Ils sont\nde type panneau radiant lumineux, tube radiant, aérotherme à condensation ou générateur d’air chaud à\ncondensation.\n\nLa mise en place d’un appareil radiant pour chauffer un poste de travail isolé dans un bâtiment non chauffé n’est\npas éligible.\n\nLa preuve de réalisation de l’opération mentionne la mise en place de panneaux radiants lumineux ou de tubes\nradiants ou d’aérothermes à condensation, modulants le cas échéant ou de générateurs d'air chaud à condensation,\nmodulants le cas échéant ainsi que le nombre et la puissance respective de chaque équipement installé.\n\nA défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques,\nréférences et nombre et elle est complétée par un document issu du fabricant indiquant que les équipements de\nmarques et références installés sont des panneaux radiants lumineux ou des tubes radiants ou des aérothermes à\ncondensation, modulants le cas échéant ou des générateurs d'air chaud à condensation, modulants le cas échéant\nainsi que la puissance de ces équipements.\n\nLa mise en place est réalisée par un professionnel.\n\nLa mise en place des appareils de chauffage décentralisé fait l’objet d’une étude préalable de dimensionnement\nétablie, datée et signée par un professionnel ou un bureau d’étude qui identifie les besoins de chauffage selon le type\nd’occupation des locaux et les températures désirées afin de garantir la maîtrise des consommations d’énergie,\nprécise les dimensions du volume à chauffer et les déperditions du bâtiment, décrit les équipements à mettre en\nplace ainsi que la puissance utile de chauffage à installer.\n\nL’efficacité énergétique saisonnière (ηs) des panneaux radiants lumineux et des tubes radiants, selon le règlement\n(UE) n° 2015/1188 de la Commission du 28 avril 2015 est supérieure ou égale à :\n- pour les panneaux radiants lumineux : 88 %\n- pour les tubes radiants : 77 %\n\nL’efficacité énergétique saisonnière (ηs) des aérothermes à condensation et des générateurs d’air chaud à\ncondensation, selon le règlement (UE) n° 2016/2281 de la Commission du 30 novembre 2016 est supérieure ou\négale à :\n- pour les aérothermes à condensation modulants et les générateurs d’air chaud à condensation modulants : 78%\n\n- pour les aérothermes à condensation non modulants et les générateurs d’air chaud à condensation non modulants :\n75 %\n\nLa plage de modulation des appareils modulants commence à une valeur inférieure à 60% de la puissance nominale\net couvre jusqu’à 100 % de cette puissance.\n\nLa densité de puissance de chauffage installée dans le bâtiment n’excède pas 400 W/m2.\n\nLe document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place des\nappareils de chauffage décentralisé.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "17 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Panneaux et tubes  radiants\nZone\nclimatique\nMontant unitaire en\nkWh cumac par kW\n\nMode d’occupation\ndes locaux\nCoefficient\nmultiplicateur\n\nPuissance utile totale\ninstallée en kW\nH1\n650\nX\n1 x 8\n1\nX\nP\nH2\n740\n2 x 8\n2,2\nH3\n790\n3 x 8 avec arrêt\nle week-end\n3\n\n\n\n3 x 8 sans arrêt\nle week-end\n4,2\n\nAérothermes à condensation non modulants - Générateurs d'air chaud à condensation non  modulants\nZone\nclimatique\nMontant unitaire en\nkWh cumac par kW\n\nMode d’occupation\ndes locaux\nCoefficient\nmultiplicateur\n\nPuissance utile totale\ninstallée en kW\nH1\n1300\nX\n1 x 8\n1\nX\nP\nH2\n1100\n2 x 8\n2,2\nH3\n590\n3 x 8 avec arrêt\nle week-end\n3\n\n\n\n3 x 8 sans arrêt\nle week-end\n4,2\n\nAérothermes à condensation modulants - Générateurs d'air chaud à condensation modulants\nZone\nclimatique\nMontant unitaire en\nkWh cumac par kW\n\nMode d’occupation\ndes locaux\nCoefficient\nmultiplicateur\n\nPuissance utile totale\ninstallée en kW\nH1\n2100\nX\n1 x 8\n1\nX\nP\nH2\n1700\n2 x 8\n2,2\nH3\n1000\n3 x 8 avec arrêt\nle week-end\n3\n\n\n\n3 x 8 sans arrêt\nle week-end\n4,2\n\nLa puissance utile à retenir est celle figurant sur la plaque signalétique de l'appareil ou à défaut celle indiquée sur\nun document du fabricant.",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -123,7 +160,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -314,10 +352,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 17,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf"
     }
   ],
@@ -362,10 +405,10 @@
     "Industrie_IND/IND-BA-117 vA27-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:57.121641+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

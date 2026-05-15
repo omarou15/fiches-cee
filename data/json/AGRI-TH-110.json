@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture : serres horticoles ou maraîchères, neuves ou existantes.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une chaudière à haute performance énergétique d’une puissance thermique nominale supérieure à\n400 kW pour le chauffage de serres horticoles ou maraîchères.\n\nLa présente fiche n’est pas cumulable avec la fiche AGRI-TH-109 « Récupérateur de chaleur à condensation pour\nserres ».\n\nLa présente fiche s’applique aux opérations engagées jusqu’au 30 juin 2028.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa chaudière utilise un combustible liquide ou gazeux. Son rendement PCI à pleine charge et son rendement PCI à\n30 % de charge sont supérieurs ou égaux à 92 %.\n\nLa preuve de réalisation de l’opération mentionne :\n- l’installation d’une chaudière ;\n- la puissance nominale de la chaudière installée ;\n- et le rendement PCI à pleine charge et le rendement PCI à 30 % de charge de la chaudière installée.\n\nA défaut, la preuve de réalisation de l’opération mentionne l’installation d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence\ninstallé est une chaudière et précisant le rendement PCI à pleine charge et le rendement PCI à 30 % de charge de\nl’équipement installé.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "22 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant de certificats pour une serre horticole :\n\nMontant en kWh cumac par m² de\nserre chauffée\n\nSurface de serre chauffée\nen m²\n150\nX\nSmin\n\nMontant de certificats pour une serre maraîchère :\n\nMontant en kWh cumac par m² de\nserre chauffée\n\nSurface de serre chauffée\nen m²\n19\nX\nSmin\n\nLa surface de serre chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie\nest la plus petite des valeurs suivantes (entre crochets), où S est la surface de la serre chauffée par la chaudière (en\nm2) et P est la puissance thermique nominale de cet équipement (en kW) :\n- [S] et [31 x P] pour une serre horticole,\n- [S] et [5,9 x P] pour une serre maraîchère.",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -123,7 +160,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -185,10 +223,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2024-01-01",
+    "engagement_deadline": "2028-06-30"
+  },
+  "lifetime_years": 22,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024_0.pdf"
     }
   ],
@@ -233,10 +276,10 @@
     "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:56.958650+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

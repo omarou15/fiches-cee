@@ -12,8 +12,8 @@
 - `Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -37,6 +37,19 @@ _Non detecte automatiquement._
 - Montant en kWh cumac par kWh
 - Consommation en kWh par
 - Q est la consommation d’énergie électrique, exprimée en kWh, relevée sur six mois consécutif maximum, délivrée
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-2)
+- 4. Durée de vie conventionnelle (pages 2-2)
+- 5. Montant de certificats en kWh cumac (pages 2-2)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 16
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

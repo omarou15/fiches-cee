@@ -10,8 +10,8 @@
 - `Tertiaire_BAT/BAT-TH-121 vA35-3 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -43,6 +43,19 @@
 - 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac
 - B : besoin annuel en eau chaude sanitaire à produire par l’énergie solaire, exprimé en kWh par an et issu de l’étude
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-3)
+- 4. Durée de vie conventionnelle (pages 3-3)
+- 5. Montant de certificats en kWh cumac (pages 3-3)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 20
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

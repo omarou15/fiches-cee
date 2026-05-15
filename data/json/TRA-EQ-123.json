@@ -18,6 +18,85 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "La formation à la conduite routière mentionnés aux articles L. 213-1 et L. 213-7 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Achat ou location d’un simulateur neuf d’apprentissage de la conduite doté d’un poste de conduite pour la formation\nà la conduite routière.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le simulateur de conduite est utilisé par un organisme de formation titulaire de l’agrément prévu à l’article L. 213-\n1 ou L. 213-7 du code de la route en cours de validité à la date d’engagement de l’opération.\n\nLe simulateur de conduite est dédié à l’une des deux formations suivantes :\n\na) Formation à la conduite d’un véhicule de catégorie M1 ou N1 définie à l’article R. 311-1 du code de la\nroute :\nLe simulateur est utilisé pour l’apprentissage de la conduite des véhicules à moteur de la catégorie B visée à\nl’article R. 221.4 du code de la route, dans les conditions précisées dans l’arrêté du 22 décembre 2009 modifié\nrelatif à l’apprentissage de la conduite des véhicules à moteur de la catégorie B dans un établissement\nd’enseignement agréé.\n\nLe simulateur est également utilisé à la formation passerelle entre boîte automatique et boîte manuelle, telle que\ndétaillée dans l’arrêté du 14 octobre 2016 modifié relatif à la formation des titulaires de la catégorie B du permis\nde conduire limité aux véhicules à changement de vitesses automatique pour des raisons non médicales en vue\nde conduire des véhicules à changement de vitesses manuel relevant de cette même catégorie.\n\nLe simulateur de conduite permet :",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "1",
+      "title": "De restituer un environnement réaliste avec notamment l'utilisation d'un poste de conduite de véhicule léger",
+      "text": "de catégorie M1 ou N1, une restitution visuelle à 120 degrés, la rétro-vision, la restitution sonore du monde\nextérieur, l'animation du trafic routier ;",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "De proposer un large éventail de situations pédagogiques telles que conduite, manœuvres par tous les temps",
+      "text": "et dans des situations variées en offrant une approche pédagogique souple, progressive et adaptable à chaque\nconducteur des différentes situations de conduite ;",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "D'exercer un suivi et un contrôle personnalisé de l'action de chaque stagiaire en offrant au formateur un outil",
+      "text": "permettant de tester et d'évaluer les performances du stagiaire.\n\nb) Formation à la conduite d’un véhicule de catégorie M2, M3, N2 ou N3 définie à l’article R. 311-1 du code\nde la route :\nLe simulateur est utilisé à la formation professionnelle des conducteurs du transport routier de marchandises ou\nde voyageurs, telle que détaillée dans l’arrêté du 3 janvier 2008 modifié relatif au programme et aux modalités\nde mise en œuvre de la formation professionnelle initiale et continue des conducteurs du transport routier de\n\nmarchandises et de voyageurs. Le simulateur est également utilisé dans le cadre des formations dites « Titres\nprofessionnels » et « Passerelle ».\n\nLe simulateur de conduite permet :",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "1",
+      "title": "De restituer un environnement réaliste avec notamment l'utilisation d'une cabine réelle ou d'un poste de",
+      "text": "conduite réel du véhicule dont l'ensemble, y compris le siège du conducteur, est asservi aux mouvements\nd'accélérations tant longitudinales que transversales, la restitution visuelle à 180 degrés, la rétro-vision, la\nrestitution sonore du monde extérieur, l'animation du trafic routier ;",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "2",
+      "title": "De proposer un large éventail de situations pédagogiques telles que conduite, manœuvres par tous les temps",
+      "text": "et dans des situations extrêmes en offrant une approche pédagogique souple, progressive et adaptable à\nchaque conducteur des différentes situations de conduite ;",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "3",
+      "title": "D'exercer un suivi et un contrôle personnalisé de l'action de chaque stagiaire en offrant au formateur un outil",
+      "text": "permettant de tester et d'évaluer les performances du stagiaire.\n\nDans le cas d’une location, la durée de la location est de 36 mois minimum (hors reconduction tacite).\n\nLa preuve de réalisation de l'opération mentionne l’achat ou la location ainsi que l’installation d’un simulateur de\nconduite neuf identifié par ses marque et référence et son numéro de série.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- un document issu du fabricant décrivant les fonctions du simulateur et précisant les marque et référence de cet\néquipement ainsi que les catégories de véhicules auxquelles il est destiné ;\n- une copie de l’agrément accordé à l’organisme de formation.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "3 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Type de véhicule\nkWh cumac pour un\nsimulateur\n\nNombre de\nsimulateurs\nVéhicules de catégories M1 et N1\n87 400\nX\nN\nAutres véhicules\n(catégories M2, M3, N2 et N3)\n39 000",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -148,7 +227,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -178,10 +258,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2021-11-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 3,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-123 v A38-2 à compter du 01-11-2021_0.pdf"
     }
   ],
@@ -226,10 +311,10 @@
     "Transport_TRA/TRA-EQ-123 v A38-2 à compter du 01-11-2021 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.692765+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

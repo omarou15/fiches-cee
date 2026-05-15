@@ -29,6 +29,15 @@ _Non detecte automatiquement._
 ## Formules / calcul detectes
 _Non detecte automatiquement._
 
+## Sections officielles detectees
+_Non detecte automatiquement._
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 
+- Date limite engagement: 
+
 ## Texte extrait
 Annexe 1 à la fiche d’opération standardisée AGRI-TH-118,
 définissant le contenu de la partie A de l’attestation sur l’honneur

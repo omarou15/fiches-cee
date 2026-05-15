@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment résidentiel nouveau ou partie nouvelle de bâtiment résidentiel en France métropolitaine au sens de la\nréglementation environnementale 2020 (« RE2020 »).",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Amélioration des performances énergétiques d’un bâtiment neuf par rapport aux exigences réglementaires en\nvigueur au moment du dépôt du permis de construire.\n\nLa présente fiche est abrogée à compter du 1er janvier 2028.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le bâtiment atteint les performances énergétiques suivantes :\n- Bbio < 0,9 Bbiomax ;\n- Icénergie < Icénergie_max.\n\nIcénergie_max correspond au seuil de la RE2020 applicable :\n- au 1er janvier 2025 pour les opérations engagées avant cette date ;\n- au 1er janvier 2028 pour les opérations engagées à compter du 1er janvier 2025 jusqu’au 31 décembre 2027.\n\nLes dates d’engagement et d’achèvement de l'opération sont respectivement définies comme :\n- la date du récépissé de dépôt du permis de construire initial ;\n- la déclaration d’achèvement et de conformité des travaux (DAACT) reçue en mairie, établie selon le document\nCerfa n°13408*03 (la date de réception en mairie fait foi de la date d’achèvement de l’opération).\n\nLes documents justificatifs spécifiques à l’opération sont :\n- le récépissé du dépôt du permis de construire ;\n- la synthèse de l’étude énergétique et environnementale réglementaire datée et signée par le maître d’ouvrage ;\n- l’attestation de la prise en compte de la RE2020 au moment du dépôt du permis de construire en application de\nl’article R. 122-24-1 du code de la construction et de l’habitation datée et signée par le maître d’ouvrage ;\n- l’attestation de la prise en compte de la RE2020 à l’achèvement des travaux en application de l’article R. 122-24-\n3 du code de la construction et de l’habitation datée et signée par l’une des personnes prévues à l’article R. 122-25\nde ce même code ;\n- la déclaration d’achèvement et de conformité des travaux (DAACT).\n\nLa synthèse de l’étude énergétique et environnementale comporte les mentions des valeurs suivantes :\n- Consommation conventionnelle en énergie primaire du bâtiment : Cepbat (sans déduction de la production\nd’électricité) ;\n- Consommation conventionnelle en énergie primaire maximale : Cepmax (sans déduction de la production\nd’électricité) ;\n\n- Consommation conventionnelle d’énergie du bâtiment exprimée en énergie finale : Cef ;\n- Consommation conventionnelle d’énergie maximale exprimée en énergie finale ; Cefmax ;\n- Besoin bioclimatique du bâtiment : Bbio ;\n- Besoin bioclimatique maximal : Bbiomax ;\n- Impact sur le changement climatique des consommations d'énergie pendant la vie du bâtiment : Icénergie ;\n- Impact sur le changement climatique des consommations d'énergie pendant la vie du bâtiment maximal (valeur\ndéterminée dans les conditions de la partie 3 de la présente fiche) : Icénergie_max ;\n- Surface de référence au sens de la RE2020 du bâtiment ou de la partie de bâtiment : Sref.\n\nLes valeurs de Bbio, Bbiomax, Cep, Cepmax, Icénergie, Icénergie_max et la surface de référence Sref sont déterminées selon\nles modalités mentionnées en annexe de l'article R. 172-4 du code de la construction et de l'habitation.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "30 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant de certificats en kWh cumac\n(Cefmax - Cef)*Sref* 17,984\n\nCefmax : consommation conventionnelle d’énergie maximale exprimée en énergie finale.\nCef : consommation conventionnelle d’énergie du bâtiment exprimée en énergie finale.\nSref : Surface de référence au sens de la RE2020 du bâtiment ou de la partie de bâtiment.\n\nLe coefficient Cefmax est calculé d’après les formules suivantes, selon les solutions de chauffage utilisées (où Cepmax\nest considéré sans déduction de la production d’électricité) :\n\n- Dans le cas où le mode de production du chauffage et de l’ECS est électrique :\n𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥\n2,3\n\n\n- Dans le cas où le mode de production du chauffage et de l’ECS est combustible :\n𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,90 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1\n2,3\n\n\n- Dans le cas où le mode de production du chauffage est combustible et le mode de production de l’ECS est\nélectrique :\n𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,65 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,25\n2,3\n+ 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1\n2,3\n\n\n- Dans le cas où le mode de production du chauffage est électrique et le mode de production de l’ECS est\ncombustible :\n𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,3\n2,3\n+ 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,6 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1\n2,3\n\n\n- Dans le cas d’un module hybride :\nCalcul de la quote-part combustible et électricité à valoriser selon la partie 16.4 FA_PAC_hybrides electriques gaz\nde l’annexe III de l’arrêté du 4 août 2021 modifié relatif aux exigences de performance énergétique et\n\nenvironnementale des constructions de bâtiments en France métropolitaine et portant approbation de la méthode de\ncalcul prévue à l’article R. 172-6 du code de la construction et de l’habitation.",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -31,7 +68,7 @@
   "systems": {
     "heating": true,
     "domestic_hot_water": true,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": true,
     "district_heating": false,
@@ -131,7 +168,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -161,29 +199,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -191,10 +207,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2024-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 30,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf"
     }
   ],
@@ -239,10 +260,10 @@
     "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.404860+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

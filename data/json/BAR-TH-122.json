@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Appartements existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un récupérateur de chaleur à condensation sur une chaudière existante pour un système de chauffage\ncollectif à combustible.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un récupérateur de chaleur à condensation.\n\nÀ défaut, la preuve de la réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence\ninstallé est un récupérateur de chaleur à condensation.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "11 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone\nclimatique\nMontant unitaire\npour un\nappartement en\nkWh cumac\n\nNombre\nd’appartements\n\nCoefficient R\nH1\n16 300\n\nN\n\nR\nH2\n14 000\nX\nX\nH3\n10 200\n\n\n\nLorsque la rénovation de la chaufferie ne met en oeuvre que des équipements relevant de la fiche BAR-TH-122,\nalors :\n- si la puissance de la (des) chaudière(s) nouvellement équipée(s) du (des) condenseur(s) est strictement inférieure\nau tiers de la puissance de la nouvelle chaufferie, le facteur R est égal au rapport de la puissance de la (des)\nchaudière(s) nouvellement équipée(s) du (des) condenseur(s) sur la puissance totale de la chaufferie après travaux ;\n- dans le cas contraire, il est égal à l’unité. Pendant la durée de vie conventionnelle, aucune opération ultérieure\nd’installation d’un équipement de production thermique dans la chaufferie ne pourra donner lieu à l’obtention de\ncertificats d’économies d’énergie.\n\nDans le cas où la rénovation de la chaufferie met en œuvre des équipements relevant de la fiche BAR-TH-122 et de\nla fiche BAR-TH-150 alors :\n\n- si la puissance de la ou des PAC nouvellement installée est strictement inférieure à 40 % de la puissance de la\nnouvelle chaufferie, le facteur R est égal au rapport de la puissance de la (des) chaudière(s) installée(s) sur la\npuissance totale de la chaufferie après travaux ;\n- dans le cas contraire, aucun certificat n’est délivré pour la fiche BAR-TH-122. Pendant la durée de vie\nconventionnelle, aucune opération ultérieure d'installation d'un équipement de production thermique dans la\nchaufferie ne pourra donner lieu à l'obtention de certificats d'économies d'énergie.\n\nNota : la puissance de la nouvelle chaufferie ne doit pas comptabiliser les éventuels équipements de secours.",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -82,7 +119,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -183,10 +221,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 11,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-122 vA15-1.pdf"
     }
   ],
@@ -231,10 +274,10 @@
     "Residentiel_BAR/BAR-TH-122 vA15-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.295045+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

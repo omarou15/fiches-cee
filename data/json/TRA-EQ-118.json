@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Pêche professionnelle.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Utilisation d’un lubrifiant économiseur d’énergie pour la pêche professionnelle.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La performance en économie de carburant du lubrifiant (ou gain de consommation du lubrifiant en %) est supérieure\nou égale à 1 %.\n\nL’approvisionnement en carburant du navire se fait à plus de 50 % en volume en France.\n\nCette performance du lubrifiant économiseur d’énergie (Y %) est calculée et justifiée par un test validé par un expert\nmaritime référencé, à la date de délivrance du rapport d’expert, dans l’annuaire de l’Union Professionnelle des\nExperts Maritimes (UPEM), du Comité d'Études et de Services des Assureurs Maritimes et Transports (CESAM)\nou bien dans la liste d’experts indépendants établie par le Conseil d’Orientation de la Recherche et de l’Innovation\npour la Construction et les Activités Navales (CORICAN). Elle est mesurée selon le protocole annexé à cette fiche.\n\nLe bénéficiaire de l'opération est l'acheteur du lubrifiant en vue de son utilisation : soit la coopérative\nd’avitaillement, soit l'armateur, ou soit le patron pêcheur.\n\nLe professionnel est la personne morale distribuant le lubrifiant économiseur d’énergie.\n\nLa preuve de réalisation de l’opération mentionne l’acquisition d’un lubrifiant identifié par ses marque et référence,\nle volume acquis et sa performance en économie de carburant.\n\nLes documents justificatifs spécifiques à l’opération sont :\n-\nune copie de l’acte de francisation du navire de pêche maritime professionnelle justifiant qu'il est\nimmatriculé sous pavillon français à la date d’engagement de l’opération ;\n-\nun état récapitulatif issu du professionnel, daté et signé par le bénéficiaire de l’opération, indiquant pour le\nlubrifiant économiseur d’énergie, ses marque et référence, le volume de lubrifiant par  navire (nom et\nnuméro d’immatriculation du navire, façade maritime, type de pêche et longueur), par date d'acquisition et\nréférence de la preuve de réalisation de l’opération ;\n-\nle rapport de test réalisé selon le protocole défini et validé par l’expert maritime, mentionnant la valeur du\ngain obtenu en utilisant le lubrifiant désigné dans l’état récapitulatif et précisant qu’il agit en tant qu’expert\nréférencé soit dans l’annuaire de l’UPEM, du CESAM ou du CORICAN.\n\nUne opération peut viser plusieurs navires à condition que le même lubrifiant soit utilisé.\n\nLa date d’engagement de l’opération est définie comme la date d’acquisition du premier litre de lubrifiant et la date\nd’achèvement de l’opération correspond à la date d’acquisition du dernier litre de lubrifiant. L’écart entre ces deux\ndates ne peut dépasser 6 mois.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "1 an",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac\nY * Σi (Gi * Xi)\n\nGi = Gain en kWh par m3 par catégorie (cf. tableau ci-dessous) pour chacun des navires\nXi = Volumes du lubrifiant économiseur d’énergie en m3 pour chacun des navires\nY = Gain de consommation du lubrifiant (en %). Exemple : pour un gain de 1,5 %, Y = 1,5\n\nLe gain G en kWh cumac/m3/navire pour 1 % d’économies d’énergie est mentionné dans le tableau suivant :\n\nFaçade Maritime\nManche\nAtlantique\nMéditerranée\nDOM\nTaille des navires\n(en mètres)\nArts\nTrainants\nArts\nDormants\nArts\nTrainants\nArts\nDormants\nArts\nTrainants\nArts\nDormants\nArts\nTrainants\nArts\nDormants\nL < 12\n10 100\n4 500\n12 700\n3700\n7 400\n1 100\n11 300\n2 600\n12 ≤ L <16\n12 400\n6 000\n14 000\n6 100\n13 200\n6 100\n 0\n6 100\n16 ≤  L < 20\n13 700\n5 700\n18 500\n6 100\n19 100\n3 600\n17 400\n5 800\n20 ≤ L < 24\n20 300\n5 800\n18 900\n6 400\n13 600\n6 200\n18 800\n6 200\n24 ≤  L\n23 700\n0\n29 500\n7 900\n16 800\n6 500\n22 900\n7 000\n\nLa taille du navire est définie par sa longueur de coque L mentionnée sur l’acte de francisation.\n\n\nAnnexe définissant le protocole de test d’évaluation des lubrifiants économiseurs de carburant\npour la pêche professionnelle\n\nPrincipe\nLe test consiste à comparer sur une période de 6 mois deux échantillons de navires homogènes et représentatifs de\nla flotte (tels que définis ci-dessous). Le test est divisé en deux séquences égales de 3 mois :\n- la première période dite « période blanche » permet de mesurer la consommation de carburant de tous les\nnavires ;\n- la seconde période consiste à remplacer les lubrifiants utilisés par l’un des échantillons, par un lubrifiant\néconomiseur de carburant.\nAucun des participants au test ne sait à quel échantillon il appartient.\n\nÉchantillon et conditions d’essai\nLe test doit porter sur un minimum de 6 navires (3 référents et 3 testeurs). Pour assurer une bonne représentativité\nde la flotte, l’échantillon doit compter des navires hauturiers et au moins un navire côtier. De préférence, les bateaux\nappartiennent à la classe des 20-24 m pour les hauturiers et 12-20 m pour les côtiers. Tous ces navires doivent\n\nfonctionner avec le même carburant (gazole) et utiliser le même mode de propulsion. Pendant la période de test,\ntous ces navires doivent être équipés d’économètres pour mesurer les consommations.\n\nDurant toute la période, les navires des deux échantillons doivent pratiquer le même type de pêche dans des zones\nde pêche identiques.\n\nTout navire subissant des interventions techniques pendant la période de test est soit exclu de l’échantillon, soit fait\nl’objet d’une correction des résultats dûment justifiée.\n\nMesure et évaluation\nPour les deux groupes, les conditions d’exploitation sont identiques et la fréquence des vidanges est conservée avec\nanalyse d’huiles à chaque changement. Seule la qualité du lubrifiant étant modifiée pour le groupe des navires\ntesteurs. La durée de chaque activité est relevée à bord : heures de route, de pêche, de manœuvre et temps d’arrêt.\nLa mesure de la consommation de chaque activité est mesurée par économètre et relevée. Elle est contrôlée par le\nsuivi des prises de carburants (sur relevé de facture). Ces relevés permettent de calculer le coefficient de pondération\nde consommation sur chaque période d’activité. Pour garantir le fonctionnement dans de bonnes conditions du\nsystème propulsif, d’autres paramètres sont aussi relevés : température d’échappement, pression turbo, régime\nmoteur.\n\nÀ l’issue des tests, la mesure par comparaison des écarts de consommation entre les deux échantillons, permet de\ncalculer le gain de consommation induit par l’utilisation du lubrifiant économiseur de carburant testé.\n\nLes résultats des tests sont consignés dans un rapport validé par un expert maritime selon le présent protocole.\nL'expert maritime est référencé dans l'annuaire de l'Union Professionnelle des Experts Maritimes, du CESAM ou\nbien dans la liste d'experts indépendants élaborée par le Conseil d’Orientation de la Recherche et de l’Innovation\npour la Construction et les Activités Navales (CORICAN).",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -171,7 +208,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -234,10 +272,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": null,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf"
     }
   ],
@@ -306,10 +349,10 @@
     "Transport_TRA/TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.586066+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

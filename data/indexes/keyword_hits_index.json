@@ -1,0 +1,968 @@
+[
+  {
+    "code": "AGRI-EQ-106",
+    "sector": "agriculture",
+    "family": "EQ",
+    "keyword_hits": [
+      "régulation",
+      "ventilation"
+    ],
+    "title": "AGRI-EQ-106 vA32-1 : Régulation de la ventilation des silos et des installations de stockage en vrac de céréales PDF – 123.51 Ko",
+    "json_path": "data/json/AGRI-EQ-106.json",
+    "markdown_path": "data/markdown/AGRI-EQ-106.md"
+  },
+  {
+    "code": "AGRI-EQ-107",
+    "sector": "agriculture",
+    "family": "EQ",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "AGRI-EQ-107 vA38-1 à compter du 31-07-2021 : Isolation des parois de serre PDF – 130.41 Ko",
+    "json_path": "data/json/AGRI-EQ-107.json",
+    "markdown_path": "data/markdown/AGRI-EQ-107.md"
+  },
+  {
+    "code": "AGRI-EQ-110",
+    "sector": "agriculture",
+    "family": "EQ",
+    "keyword_hits": [
+      "système hybride PAC + gaz"
+    ],
+    "title": "AGRI-EQ-110 vA38-1 à compter du 31-07-2021 : Séchage solaire par insufflation des produits et co-produits agricoles et forestiers utilisant des panneaux solaires hybrides PDF – 129.54 Ko",
+    "json_path": "data/json/AGRI-EQ-110.json",
+    "markdown_path": "data/markdown/AGRI-EQ-110.md"
+  },
+  {
+    "code": "AGRI-TH-108",
+    "sector": "agriculture",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC"
+    ],
+    "title": "AGRI-TH-108 vA35-2 à compter du 01-10-2020 : Pompe à chaleur de type air/eau ou eau/eau PDF – 132.25 Ko",
+    "json_path": "data/json/AGRI-TH-108.json",
+    "markdown_path": "data/markdown/AGRI-TH-108.md"
+  },
+  {
+    "code": "AGRI-TH-110",
+    "sector": "agriculture",
+    "family": "TH",
+    "keyword_hits": [
+      "chaudière"
+    ],
+    "title": "AGRI-TH-110 vA54-3 à compter du 01-01-2024 : Chaudière à haute performance énergétique pour serres horticoles PDF – 119.87 Ko",
+    "json_path": "data/json/AGRI-TH-110.json",
+    "markdown_path": "data/markdown/AGRI-TH-110.md"
+  },
+  {
+    "code": "AGRI-TH-118",
+    "sector": "agriculture",
+    "family": "TH",
+    "keyword_hits": [
+      "chauffage collectif"
+    ],
+    "title": "AGRI-TH-118 vA14-1 - Partie A : Double tube de chauffage pour serres PDF – 103.91 Ko",
+    "json_path": "data/json/AGRI-TH-118.json",
+    "markdown_path": "data/markdown/AGRI-TH-118.md"
+  },
+  {
+    "code": "AGRI-UT-103",
+    "sector": "agriculture",
+    "family": "UT",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "AGRI-UT-103 vA19-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une basse pression flottante PDF – 107.22 Ko",
+    "json_path": "data/json/AGRI-UT-103.json",
+    "markdown_path": "data/markdown/AGRI-UT-103.md"
+  },
+  {
+    "code": "AGRI-UT-104",
+    "sector": "agriculture",
+    "family": "UT",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "AGRI-UT-104 vA23-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une haute pression flottante PDF – 147.21 Ko",
+    "json_path": "data/json/AGRI-UT-104.json",
+    "markdown_path": "data/markdown/AGRI-UT-104.md"
+  },
+  {
+    "code": "IND-BA-117",
+    "sector": "industrie",
+    "family": "BA",
+    "keyword_hits": [
+      "chauffage collectif"
+    ],
+    "title": "IND-BA-117 vA27-1 : Chauffage décentralisé performant PDF – 128.56 Ko",
+    "json_path": "data/json/IND-BA-117.json",
+    "markdown_path": "data/markdown/IND-BA-117.md"
+  },
+  {
+    "code": "IND-EN-101",
+    "sector": "industrie",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "IND-EN-101 vA23-1 : Isolation des murs (France d’outre-mer) PDF – 107.6 Ko",
+    "json_path": "data/json/IND-EN-101.json",
+    "markdown_path": "data/markdown/IND-EN-101.md"
+  },
+  {
+    "code": "IND-EN-102",
+    "sector": "industrie",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "IND-EN-102 vA64-3 à compter du 01-01-2025 : Isolation de combles ou de toitures (France d’outre-mer) PDF – 118.43 Ko",
+    "json_path": "data/json/IND-EN-102.json",
+    "markdown_path": "data/markdown/IND-EN-102.md"
+  },
+  {
+    "code": "IND-UT-104",
+    "sector": "industrie",
+    "family": "UT",
+    "keyword_hits": [
+      "chaudière",
+      "système hybride PAC + gaz"
+    ],
+    "title": "IND-UT-104 vA14-1 : Économiseur sur les effluents gazeux d’une chaudière de production de vapeur PDF – 111.68 Ko",
+    "json_path": "data/json/IND-UT-104.json",
+    "markdown_path": "data/markdown/IND-UT-104.md"
+  },
+  {
+    "code": "IND-UT-105",
+    "sector": "industrie",
+    "family": "UT",
+    "keyword_hits": [
+      "chaudière"
+    ],
+    "title": "IND-UT-105 vA14-1 : Brûleur micromodulant sur chaudière industrielle PDF – 143.24 Ko",
+    "json_path": "data/json/IND-UT-105.json",
+    "markdown_path": "data/markdown/IND-UT-105.md"
+  },
+  {
+    "code": "IND-UT-115",
+    "sector": "industrie",
+    "family": "UT",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "IND-UT-115 v A15-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une basse pression flottante PDF – 99.85 Ko",
+    "json_path": "data/json/IND-UT-115.json",
+    "markdown_path": "data/markdown/IND-UT-115.md"
+  },
+  {
+    "code": "IND-UT-116",
+    "sector": "industrie",
+    "family": "UT",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "IND-UT-116 vA14-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une haute pression flottante PDF – 138.09 Ko",
+    "json_path": "data/json/IND-UT-116.json",
+    "markdown_path": "data/markdown/IND-UT-116.md"
+  },
+  {
+    "code": "IND-UT-125",
+    "sector": "industrie",
+    "family": "UT",
+    "keyword_hits": [
+      "chaudière"
+    ],
+    "title": "IND-UT-125 v A14-1 : Traitement d’eau performant sur chaudière de production de vapeur PDF – 150.62 Ko",
+    "json_path": "data/json/IND-UT-125.json",
+    "markdown_path": "data/markdown/IND-UT-125.md"
+  },
+  {
+    "code": "IND-UT-129",
+    "sector": "industrie",
+    "family": "UT",
+    "keyword_hits": [
+      "système hybride PAC + gaz"
+    ],
+    "title": "IND-UT-129 v A32-3 : Presse à injecter tout électrique ou hybride PDF – 126.44 Ko",
+    "json_path": "data/json/IND-UT-129.json",
+    "markdown_path": "data/markdown/IND-UT-129.md"
+  },
+  {
+    "code": "IND-UT-130",
+    "sector": "industrie",
+    "family": "UT",
+    "keyword_hits": [
+      "chaudière",
+      "système hybride PAC + gaz"
+    ],
+    "title": "IND-UT-130 v A19-1 : Condenseur sur les effluents gazeux d’une chaudière de production de vapeur PDF – 112.42 Ko",
+    "json_path": "data/json/IND-UT-130.json",
+    "markdown_path": "data/markdown/IND-UT-130.md"
+  },
+  {
+    "code": "IND-UT-131",
+    "sector": "industrie",
+    "family": "UT",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "IND-UT-131 vA37-2 à compter du 01-04-2021 : Isolation thermique des parois planes ou cylindriques sur des installations industrielles (France métropolitaine) PDF – 142.01 Ko",
+    "json_path": "data/json/IND-UT-131.json",
+    "markdown_path": "data/markdown/IND-UT-131.md"
+  },
+  {
+    "code": "RES-CH-103",
+    "sector": "reseaux",
+    "family": "CH",
+    "keyword_hits": [
+      "tertiaire"
+    ],
+    "title": "RES-CH-103 vA36-3 à compter du 12-10-2020 : Réhabilitation d’un poste de livraison de chaleur d’un bâtiment tertiaire PDF – 113.31 Ko",
+    "json_path": "data/json/RES-CH-103.json",
+    "markdown_path": "data/markdown/RES-CH-103.md"
+  },
+  {
+    "code": "RES-CH-104",
+    "sector": "reseaux",
+    "family": "CH",
+    "keyword_hits": [
+      "résidentiel collectif"
+    ],
+    "title": "RES-CH-104 vA36-3 à compter du 12-10-2020 : Réhabilitation d’un poste de livraison de chaleur d’un bâtiment résidentiel PDF – 106.43 Ko",
+    "json_path": "data/json/RES-CH-104.json",
+    "markdown_path": "data/markdown/RES-CH-104.md"
+  },
+  {
+    "code": "RES-CH-105",
+    "sector": "reseaux",
+    "family": "CH",
+    "keyword_hits": [
+      "réseau de chaleur"
+    ],
+    "title": "RES-CH-105 vA36-3 à compter du 12-10-2020 : Passage d'un réseau de chaleur en basse température PDF – 129.03 Ko",
+    "json_path": "data/json/RES-CH-105.json",
+    "markdown_path": "data/markdown/RES-CH-105.md"
+  },
+  {
+    "code": "RES-CH-106",
+    "sector": "reseaux",
+    "family": "CH",
+    "keyword_hits": [
+      "calorifugeage",
+      "réseau de chaleur"
+    ],
+    "title": "RES-CH-106 vA60-4 à compter du 01-03-2024 : Mise en place d’un calorifugeage des canalisations d’un réseau de chaleur PDF – 235.6 Ko",
+    "json_path": "data/json/RES-CH-106.json",
+    "markdown_path": "data/markdown/RES-CH-106.md"
+  },
+  {
+    "code": "RES-CH-108",
+    "sector": "reseaux",
+    "family": "CH",
+    "keyword_hits": [
+      "réseau de chaleur"
+    ],
+    "title": "RES-CH-108 vA53-4 à compter du 01-10-2023 : Récupération de chaleur fatale pour valorisation sur un réseau de chaleur ou vers un tiers (France métropolitaine) PDF – 109.04 Ko",
+    "json_path": "data/json/RES-CH-108.json",
+    "markdown_path": "data/markdown/RES-CH-108.md"
+  },
+  {
+    "code": "BAR-EN-101",
+    "sector": "residentiel",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAR-EN-101 vA64-6 à compter du 01-01-2025 : Isolation de combles ou de toitures PDF – 150.44 Ko",
+    "json_path": "data/json/BAR-EN-101.json",
+    "markdown_path": "data/markdown/BAR-EN-101.md"
+  },
+  {
+    "code": "BAR-EN-102",
+    "sector": "residentiel",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAR-EN-102 vA65-4 à compter du 01-01-2025 : Isolation des murs PDF – 135.13 Ko",
+    "json_path": "data/json/BAR-EN-102.json",
+    "markdown_path": "data/markdown/BAR-EN-102.md"
+  },
+  {
+    "code": "BAR-EN-103",
+    "sector": "residentiel",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAR-EN-103 vA64-6 à compter du 01-01-2025 : Isolation d’un plancher PDF – 126.73 Ko",
+    "json_path": "data/json/BAR-EN-103.json",
+    "markdown_path": "data/markdown/BAR-EN-103.md"
+  },
+  {
+    "code": "BAR-EN-105",
+    "sector": "residentiel",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAR-EN-105 vA64-4 à compter du 01-01-2025 : Isolation des toitures terrasses PDF – 148.04 Ko",
+    "json_path": "data/json/BAR-EN-105.json",
+    "markdown_path": "data/markdown/BAR-EN-105.md"
+  },
+  {
+    "code": "BAR-EN-106",
+    "sector": "residentiel",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAR-EN-106 vA64-5 à compter du 01-01-2025 : Isolation de combles ou de toitures (France d’outre-mer) PDF – 125.38 Ko",
+    "json_path": "data/json/BAR-EN-106.json",
+    "markdown_path": "data/markdown/BAR-EN-106.md"
+  },
+  {
+    "code": "BAR-EN-107",
+    "sector": "residentiel",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAR-EN-107 vA64-4 à compter du 01-01-2025 : Isolation des murs (France d’outre-mer) PDF – 126.51 Ko",
+    "json_path": "data/json/BAR-EN-107.json",
+    "markdown_path": "data/markdown/BAR-EN-107.md"
+  },
+  {
+    "code": "BAR-SE-104",
+    "sector": "residentiel",
+    "family": "SE",
+    "keyword_hits": [
+      "chauffage collectif"
+    ],
+    "title": "BAR-SE-104 vA19-1 : Réglage des organes d’équilibrage d’une installation de chauffage à eau chaude PDF – 109.08 Ko",
+    "json_path": "data/json/BAR-SE-104.json",
+    "markdown_path": "data/markdown/BAR-SE-104.md"
+  },
+  {
+    "code": "BAR-SE-107",
+    "sector": "residentiel",
+    "family": "SE",
+    "keyword_hits": [
+      "réseau de chaleur"
+    ],
+    "title": "BAR-SE-107 vA37-1 à compter du 31-12-2020 : Abaissement de la température de retour vers un réseau de chaleur PDF – 118.45 Ko",
+    "json_path": "data/json/BAR-SE-107.json",
+    "markdown_path": "data/markdown/BAR-SE-107.md"
+  },
+  {
+    "code": "BAR-SE-108",
+    "sector": "residentiel",
+    "family": "SE",
+    "keyword_hits": [
+      "chauffage collectif"
+    ],
+    "title": "BAR-SE-108 vA71-3 à compter du 01-08-2025 : Désembouage d’un réseau hydraulique individuel de chauffage en France métropolitaine PDF – 115.32 Ko",
+    "json_path": "data/json/BAR-SE-108.json",
+    "markdown_path": "data/markdown/BAR-SE-108.md"
+  },
+  {
+    "code": "BAR-TH-102",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC collective",
+      "chauffage collectif",
+      "résidentiel collectif"
+    ],
+    "title": "BAR-TH-102 vA17-1 : Chauffe-eau solaire collectif (France métropolitaine) PDF – 113 Ko",
+    "json_path": "data/json/BAR-TH-102.json",
+    "markdown_path": "data/markdown/BAR-TH-102.md"
+  },
+  {
+    "code": "BAR-TH-110",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "chauffage collectif"
+    ],
+    "title": "BAR-TH-110 vA16-1 : Radiateur basse température pour un chauffage central PDF – 112.21 Ko",
+    "json_path": "data/json/BAR-TH-110.json",
+    "markdown_path": "data/markdown/BAR-TH-110.md"
+  },
+  {
+    "code": "BAR-TH-111",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "BAR-TH-111 vA17-1 : Régulation par sonde de température extérieure PDF – 114.01 Ko",
+    "json_path": "data/json/BAR-TH-111.json",
+    "markdown_path": "data/markdown/BAR-TH-111.md"
+  },
+  {
+    "code": "BAR-TH-112",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "chauffage collectif"
+    ],
+    "title": "BAR-TH-112 vA46-3 à compter du 01-10-2022 : Appareil indépendant de chauffage au bois PDF – 128.4 Ko",
+    "json_path": "data/json/BAR-TH-112.json",
+    "markdown_path": "data/markdown/BAR-TH-112.md"
+  },
+  {
+    "code": "BAR-TH-113",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "chaudière"
+    ],
+    "title": "BAR-TH-113 vA79-4 à compter du 01-01-2026 : Chaudière biomasse individuelle PDF – 133.58 Ko",
+    "json_path": "data/json/BAR-TH-113.json",
+    "markdown_path": "data/markdown/BAR-TH-113.md"
+  },
+  {
+    "code": "BAR-TH-123",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC collective",
+      "chauffage collectif",
+      "résidentiel collectif"
+    ],
+    "title": "BAR-TH-123 vA54-2 à compter du 01-01-2024 : Optimiseur de relance en chauffage collectif PDF – 113.1 Ko",
+    "json_path": "data/json/BAR-TH-123.json",
+    "markdown_path": "data/markdown/BAR-TH-123.md"
+  },
+  {
+    "code": "BAR-TH-125",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "ventilation"
+    ],
+    "title": "BAR-TH-125 vA54-5 à compter du 01-01-2024 : Système de ventilation double flux autoréglable ou modulé à haute performance (France métropolitaine) PDF – 146.04 Ko",
+    "json_path": "data/json/BAR-TH-125.json",
+    "markdown_path": "data/markdown/BAR-TH-125.md"
+  },
+  {
+    "code": "BAR-TH-127",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "ventilation"
+    ],
+    "title": "BAR-TH-127 vA58-6 à compter du 01-01-2024 : Ventilation mécanique simple flux hygroréglable (France métropolitaine) PDF – 148.34 Ko",
+    "json_path": "data/json/BAR-TH-127.json",
+    "markdown_path": "data/markdown/BAR-TH-127.md"
+  },
+  {
+    "code": "BAR-TH-129",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC"
+    ],
+    "title": "BAR-TH-129 vA27-3 à compter du 01-04-2018 : Pompe à chaleur de type air/air PDF – 128.69 Ko",
+    "json_path": "data/json/BAR-TH-129.json",
+    "markdown_path": "data/markdown/BAR-TH-129.md"
+  },
+  {
+    "code": "BAR-TH-135",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC collective",
+      "chauffage collectif",
+      "résidentiel collectif"
+    ],
+    "title": "BAR-TH-135 v A35-2 à compter du 01-10-2020 : Chauffe-eau solaire collectif (France d'outre mer) PDF – 145.85 Ko",
+    "json_path": "data/json/BAR-TH-135.json",
+    "markdown_path": "data/markdown/BAR-TH-135.md"
+  },
+  {
+    "code": "BAR-TH-137",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "réseau de chaleur",
+      "résidentiel collectif"
+    ],
+    "title": "BAR-TH-137 vA79-4 à compter du 01-01-2026 : Raccordement d'un bâtiment résidentiel à un réseau de chaleur PDF – 120.85 Ko",
+    "json_path": "data/json/BAR-TH-137.json",
+    "markdown_path": "data/markdown/BAR-TH-137.md"
+  },
+  {
+    "code": "BAR-TH-155",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "système hybride PAC + gaz",
+      "ventilation"
+    ],
+    "title": "BAR-TH-155 vA40-4 à compter du 01-04-2022 : Ventilation hybride hygroréglable (France métropolitaine) PDF – 131.38 Ko",
+    "json_path": "data/json/BAR-TH-155.json",
+    "markdown_path": "data/markdown/BAR-TH-155.md"
+  },
+  {
+    "code": "BAR-TH-158",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "BAR-TH-158 vA73-3 à compter du 01-11-2025 : Émetteur électrique à régulation électronique à fonctions avancées PDF – 129.81 Ko",
+    "json_path": "data/json/BAR-TH-158.json",
+    "markdown_path": "data/markdown/BAR-TH-158.md"
+  },
+  {
+    "code": "BAR-TH-159",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC",
+      "système hybride PAC + gaz"
+    ],
+    "title": "BAR-TH-159 vA50-4 à compter du 01-04-2023 : Pompe à chaleur hybride individuelle PDF – 156.91 Ko",
+    "json_path": "data/json/BAR-TH-159.json",
+    "markdown_path": "data/markdown/BAR-TH-159.md"
+  },
+  {
+    "code": "BAR-TH-161",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAR-TH-161 vA71-3 à compter du 01-08-2025 : Isolation de points singuliers d’un réseau PDF – 134.27 Ko",
+    "json_path": "data/json/BAR-TH-161.json",
+    "markdown_path": "data/markdown/BAR-TH-161.md"
+  },
+  {
+    "code": "BAR-TH-165",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC collective",
+      "chaudière"
+    ],
+    "title": "BAR-TH-165 vA34-1 : Chaudière biomasse collective PDF – 134.71 Ko",
+    "json_path": "data/json/BAR-TH-165.json",
+    "markdown_path": "data/markdown/BAR-TH-165.md"
+  },
+  {
+    "code": "BAR-TH-169",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC",
+      "PAC collective",
+      "ECS"
+    ],
+    "title": "BAR-TH-169 vA65-2 à compter du 01-04-2025 : Pompe à chaleur collective de type air/eau ou eau/eau pour l’eau chaude sanitaire PDF – 131.8 Ko",
+    "json_path": "data/json/BAR-TH-169.json",
+    "markdown_path": "data/markdown/BAR-TH-169.md"
+  },
+  {
+    "code": "BAR-TH-170",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC collective",
+      "ECS"
+    ],
+    "title": "BAR-TH-170 vA54-1 à compter du 01-10-2023 : Récupération de chaleur fatale issue de serveurs informatiques pour l’eau chaude sanitaire collective PDF – 109.98 Ko",
+    "json_path": "data/json/BAR-TH-170.json",
+    "markdown_path": "data/markdown/BAR-TH-170.md"
+  },
+  {
+    "code": "BAR-TH-171",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC"
+    ],
+    "title": "BAR-TH-171 vA78-4 à compter du 01-01-2026 : Pompe à chaleur de type air/eau PDF – 133.79 Ko",
+    "json_path": "data/json/BAR-TH-171.json",
+    "markdown_path": "data/markdown/BAR-TH-171.md"
+  },
+  {
+    "code": "BAR-TH-172",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC"
+    ],
+    "title": "BAR-TH-172 vA78-4 à compter du 01-01-2026 : Pompe à chaleur de type eau/eau ou sol/eau PDF – 132.28 Ko",
+    "json_path": "data/json/BAR-TH-172.json",
+    "markdown_path": "data/markdown/BAR-TH-172.md"
+  },
+  {
+    "code": "BAR-TH-173",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "BAR-TH-173 vA69-2 à compter du 01-07-2025 : Système de régulation par programmation horaire pièce par pièce PDF – 154.48 Ko",
+    "json_path": "data/json/BAR-TH-173.json",
+    "markdown_path": "data/markdown/BAR-TH-173.md"
+  },
+  {
+    "code": "BAR-TH-176",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "BAR-TH-176 vA58-1 à compter du 29-12-2023 : Système de régulation de la consommation d’un chauffe-eau électrique à effet Joule PDF – 170.76 Ko",
+    "json_path": "data/json/BAR-TH-176.json",
+    "markdown_path": "data/markdown/BAR-TH-176.md"
+  },
+  {
+    "code": "BAR-TH-177",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC collective",
+      "chauffage collectif",
+      "résidentiel collectif"
+    ],
+    "title": "BAR-TH-177 vA80-2 à compter du 17-01-2026 : Rénovation globale d’un bâtiment résidentiel collectif (France métropolitaine) PDF – 185.37 Ko",
+    "json_path": "data/json/BAR-TH-177.json",
+    "markdown_path": "data/markdown/BAR-TH-177.md"
+  },
+  {
+    "code": "BAR-TH-179",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC",
+      "PAC collective"
+    ],
+    "title": "BAR-TH-179 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type air/eau PDF – 140.74 Ko",
+    "json_path": "data/json/BAR-TH-179.json",
+    "markdown_path": "data/markdown/BAR-TH-179.md"
+  },
+  {
+    "code": "BAR-TH-180",
+    "sector": "residentiel",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC",
+      "PAC collective"
+    ],
+    "title": "BAR-TH-180 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type eau/eau ou eau glycolée/eau PDF – 145.2 Ko",
+    "json_path": "data/json/BAR-TH-180.json",
+    "markdown_path": "data/markdown/BAR-TH-180.md"
+  },
+  {
+    "code": "BAT-EN-101",
+    "sector": "tertiaire",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAT-EN-101 vA64-4 à compter du 01-01-2025 : Isolation de combles ou de toitures PDF – 125.45 Ko",
+    "json_path": "data/json/BAT-EN-101.json",
+    "markdown_path": "data/markdown/BAT-EN-101.md"
+  },
+  {
+    "code": "BAT-EN-102",
+    "sector": "tertiaire",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAT-EN-102 vA64-3 à compter du 01-01-2025 : Isolation des murs PDF – 124 Ko",
+    "json_path": "data/json/BAT-EN-102.json",
+    "markdown_path": "data/markdown/BAT-EN-102.md"
+  },
+  {
+    "code": "BAT-EN-103",
+    "sector": "tertiaire",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAT-EN-103 vA64-4 à compter du 01-01-2025 : Isolation d’un plancher PDF – 125.58 Ko",
+    "json_path": "data/json/BAT-EN-103.json",
+    "markdown_path": "data/markdown/BAT-EN-103.md"
+  },
+  {
+    "code": "BAT-EN-106",
+    "sector": "tertiaire",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAT-EN-106 vA64-3 à compter du 01-01-2025 : Isolation de combles ou de toitures (France d’outre-mer) PDF – 124.38 Ko",
+    "json_path": "data/json/BAT-EN-106.json",
+    "markdown_path": "data/markdown/BAT-EN-106.md"
+  },
+  {
+    "code": "BAT-EN-107",
+    "sector": "tertiaire",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAT-EN-107 vA64-3 à compter du 01-01-2025 : Isolation des toitures terrasses PDF – 124.12 Ko",
+    "json_path": "data/json/BAT-EN-107.json",
+    "markdown_path": "data/markdown/BAT-EN-107.md"
+  },
+  {
+    "code": "BAT-EN-108",
+    "sector": "tertiaire",
+    "family": "EN",
+    "keyword_hits": [
+      "isolation"
+    ],
+    "title": "BAT-EN-108 vA19-1 : Isolation des murs (France d’outre-mer) PDF – 114.19 Ko",
+    "json_path": "data/json/BAT-EN-108.json",
+    "markdown_path": "data/markdown/BAT-EN-108.md"
+  },
+  {
+    "code": "BAT-SE-103",
+    "sector": "tertiaire",
+    "family": "SE",
+    "keyword_hits": [
+      "chauffage collectif"
+    ],
+    "title": "BAT-SE-103 vA19-1 : Réglage des organes d’équilibrage d’une installation de chauffage à eau chaude PDF – 108.35 Ko",
+    "json_path": "data/json/BAT-SE-103.json",
+    "markdown_path": "data/markdown/BAT-SE-103.md"
+  },
+  {
+    "code": "BAT-SE-104",
+    "sector": "tertiaire",
+    "family": "SE",
+    "keyword_hits": [
+      "chauffage collectif"
+    ],
+    "title": "BAT-SE-104 vA31-1 : Contrat de performance énergétique Services (CPE Services) Chauffage PDF – 202.33 Ko",
+    "json_path": "data/json/BAT-SE-104.json",
+    "markdown_path": "data/markdown/BAT-SE-104.md"
+  },
+  {
+    "code": "BAT-SE-105",
+    "sector": "tertiaire",
+    "family": "SE",
+    "keyword_hits": [
+      "réseau de chaleur"
+    ],
+    "title": "BAT-SE-105 vA32-1 : Abaissement de la température de retour vers un réseau de chaleur PDF – 119.72 Ko",
+    "json_path": "data/json/BAT-SE-105.json",
+    "markdown_path": "data/markdown/BAT-SE-105.md"
+  },
+  {
+    "code": "BAT-TH-108",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "BAT-TH-108 v A22-1 : Système de régulation par programmation d’intermittence PDF – 133.01 Ko",
+    "json_path": "data/json/BAT-TH-108.json",
+    "markdown_path": "data/markdown/BAT-TH-108.md"
+  },
+  {
+    "code": "BAT-TH-109",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC collective",
+      "chauffage collectif",
+      "résidentiel collectif"
+    ],
+    "title": "BAT-TH-109 vA54-3 à compter du 01-01-2024 : Optimiseur de relance en chauffage collectif comprenant une fonction auto-adaptative PDF – 124.33 Ko",
+    "json_path": "data/json/BAT-TH-109.json",
+    "markdown_path": "data/markdown/BAT-TH-109.md"
+  },
+  {
+    "code": "BAT-TH-111",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC collective",
+      "chauffage collectif",
+      "résidentiel collectif"
+    ],
+    "title": "BAT-TH-111 vA17-1 : Chauffe-eau solaire collectif (France métropolitaine) PDF – 115.06 Ko",
+    "json_path": "data/json/BAT-TH-111.json",
+    "markdown_path": "data/markdown/BAT-TH-111.md"
+  },
+  {
+    "code": "BAT-TH-116",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "chauffage collectif",
+      "ECS",
+      "GTB"
+    ],
+    "title": "BAT-TH-116 vA62-6 à compter du 01-01-2025 : Système de gestion technique du bâtiment pour le chauffage, l’eau chaude sanitaire, le refroidissement / climatisation, l’éclairage et les auxiliaires PDF – 166.13 Ko",
+    "json_path": "data/json/BAT-TH-116.json",
+    "markdown_path": "data/markdown/BAT-TH-116.md"
+  },
+  {
+    "code": "BAT-TH-125",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "ventilation"
+    ],
+    "title": "BAT-TH-125 v A32-2 à compter du 01-04-2020 : Ventilation mécanique simple flux à débit d’air constant ou modulé PDF – 146.09 Ko",
+    "json_path": "data/json/BAT-TH-125.json",
+    "markdown_path": "data/markdown/BAT-TH-125.md"
+  },
+  {
+    "code": "BAT-TH-126",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "ventilation"
+    ],
+    "title": "BAT-TH-126 v A32-2 à compter du 01-04-2020 : Ventilation mécanique double flux avec échangeur à débit d’air constant ou modulé PDF – 157.38 Ko",
+    "json_path": "data/json/BAT-TH-126.json",
+    "markdown_path": "data/markdown/BAT-TH-126.md"
+  },
+  {
+    "code": "BAT-TH-127",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "réseau de chaleur",
+      "tertiaire"
+    ],
+    "title": "BAT-TH-127 vA79-5 à compter du 01-01-2026 : Raccordement d'un bâtiment tertiaire à un réseau de chaleur PDF – 131.77 Ko",
+    "json_path": "data/json/BAT-TH-127.json",
+    "markdown_path": "data/markdown/BAT-TH-127.md"
+  },
+  {
+    "code": "BAT-TH-134",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "BAT-TH-134 vA22-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une haute pression flottante (France métropolitaine) PDF – 157.16 Ko",
+    "json_path": "data/json/BAT-TH-134.json",
+    "markdown_path": "data/markdown/BAT-TH-134.md"
+  },
+  {
+    "code": "BAT-TH-135",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "BAT-TH-135 vA26-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une haute pression flottante (France d’outre-mer) PDF – 146.88 Ko",
+    "json_path": "data/json/BAT-TH-135.json",
+    "markdown_path": "data/markdown/BAT-TH-135.md"
+  },
+  {
+    "code": "BAT-TH-145",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "régulation"
+    ],
+    "title": "BAT-TH-145 vA23-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une basse pression flottante (France métropolitaine) PDF – 110.14 Ko",
+    "json_path": "data/json/BAT-TH-145.json",
+    "markdown_path": "data/markdown/BAT-TH-145.md"
+  },
+  {
+    "code": "BAT-TH-157",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC collective",
+      "chaudière"
+    ],
+    "title": "BAT-TH-157 vA50-2 à compter du 01-04-2023 : Chaudière biomasse collective PDF – 134.77 Ko",
+    "json_path": "data/json/BAT-TH-157.json",
+    "markdown_path": "data/markdown/BAT-TH-157.md"
+  },
+  {
+    "code": "BAT-TH-158",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC"
+    ],
+    "title": "BAT-TH-158 vA62-3 à compter du 01-01-2025 : Pompe à chaleur réversible de type air/air PDF – 168.42 Ko",
+    "json_path": "data/json/BAT-TH-158.json",
+    "markdown_path": "data/markdown/BAT-TH-158.md"
+  },
+  {
+    "code": "BAT-TH-159",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "tertiaire"
+    ],
+    "title": "BAT-TH-159 vA40-1 à compter du 29-12-2021 : Raccordement d’un bâtiment tertiaire à un réseau de froid PDF – 127.36 Ko",
+    "json_path": "data/json/BAT-TH-159.json",
+    "markdown_path": "data/markdown/BAT-TH-159.md"
+  },
+  {
+    "code": "BAT-TH-161",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC"
+    ],
+    "title": "BAT-TH-161 vA62-1 à compter du 31-08-2024 : Maintien en température des groupes électrogènes de secours par pompe à chaleur de type air/eau PDF – 159.29 Ko",
+    "json_path": "data/json/BAT-TH-161.json",
+    "markdown_path": "data/markdown/BAT-TH-161.md"
+  },
+  {
+    "code": "BAT-TH-163",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC",
+      "PAC collective"
+    ],
+    "title": "BAT-TH-163 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type air/eau PDF – 141.35 Ko",
+    "json_path": "data/json/BAT-TH-163.json",
+    "markdown_path": "data/markdown/BAT-TH-163.md"
+  },
+  {
+    "code": "BAT-TH-164",
+    "sector": "tertiaire",
+    "family": "TH",
+    "keyword_hits": [
+      "PAC",
+      "PAC collective"
+    ],
+    "title": "BAT-TH-164 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type eau/eau ou eau glycolée/eau PDF – 146.35 Ko",
+    "json_path": "data/json/BAT-TH-164.json",
+    "markdown_path": "data/markdown/BAT-TH-164.md"
+  },
+  {
+    "code": "TRA-EQ-126",
+    "sector": "transport",
+    "family": "EQ",
+    "keyword_hits": [
+      "système hybride PAC + gaz"
+    ],
+    "title": "TRA-EQ-126 vA43-1 à compter du 23-02-2022 : Remotorisation en propulsion électrique ou hybride d’un bateau naviguant en eaux intérieures PDF – 120.58 Ko",
+    "json_path": "data/json/TRA-EQ-126.json",
+    "markdown_path": "data/markdown/TRA-EQ-126.md"
+  },
+  {
+    "code": "TRA-EQ-127",
+    "sector": "transport",
+    "family": "EQ",
+    "keyword_hits": [
+      "système hybride PAC + gaz"
+    ],
+    "title": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 : Acquisition d’un bateau neuf à propulsion électrique ou hybride, naviguant en eaux intérieures PDF – 142.11 Ko",
+    "json_path": "data/json/TRA-EQ-127.json",
+    "markdown_path": "data/markdown/TRA-EQ-127.md"
+  }
+]

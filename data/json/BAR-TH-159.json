@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une pompe à chaleur air/eau individuelle comportant un dispositif d’appoint utilisant un\ncombustible liquide ou gazeux et une régulation qui les pilote.\n\nLes pompes à chaleur utilisées uniquement pour le chauffage de l’eau chaude sanitaire et les pompes à chaleur basse\ntempérature ne sont pas éligibles à cette opération.\n\nLa présente fiche est abrogée à compter du 1er avril 2028.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe dispositif est équipé d’un régulateur relevant de l’une des classes IV, V, VI, VII ou VIII telles que définies au\nparagraphe 6.1 de la communication de la Commission 2014/C 207/02 dans le cadre du règlement (UE) n°813/2013.\n\nLe professionnel ayant réalisé l’opération est titulaire d’un signe de qualité répondant aux mêmes exigences que\ncelles prévues à l’article 2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de\nl’article 200 quater du code général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code\ngénéral des impôts et des textes pris pour son application. Ce signe de qualité correspond à des travaux relevant du\n5° (dans le cas d’une PAC assurant uniquement le chauffage du logement) ou du 5° et du 6° (dans le cas d’une PAC\nassurant le chauffage du logement et de l’eau chaude sanitaire) du I de l’article 1er du décret précité.\n\nL’efficacité énergétique saisonnière (ηS) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 est\nsupérieure ou égale à 111 % pour la pompe à chaleur munie de son dispositif d’appoint (hors dispositif de régulation\nde la température).\n\nL’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur munie de son dispositif\nd’appoint (hors dispositif de régulation de la température).\n\nLe taux de couverture (en %) de la pompe à chaleur hors dispositif d’appoint, défini comme le rapport entre la\nquantité d’énergie fournie par la PAC hors dispositif d’appoint et les besoins annuels de chaleur, pour le chauffage\ndu logement, est supérieur ou égal à 70 %.\n\nLe taux de couverture est calculé pour le mode de régulation (coût des énergies,…) choisi par le professionnel\nréalisant l’opération.\n\nLe professionnel rédige une note de dimensionnement du générateur par rapport aux déperditions calculées à\nT = Tbase. Les déperditions concernent les pièces du logement desservies par le réseau de chauffage, sans\n\nconsidération des éventuels autres générateurs présents. La note inclut également le calcul du taux de couverture\nsusmentionné. Elle mentionne notamment le mode de régulation choisi par le professionnel réalisant l’opération, la\nvaleur des déperditions à T = Tbase (kW), la quantité d’énergie fournie par la PAC hors dispositif d’appoint (kWh)\nainsi que les besoins annuels de chaleur (kWh), pour le chauffage du logement. Cette note est remise au bénéficiaire\nà l’achèvement des travaux.\n\nLa preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une pompe à chaleur air/eau avec un dispositif d’appoint par combustible liquide ou gazeux ;\n- le type de pompe à chaleur (moyenne ou haute température) ;\n- son efficacité énergétique saisonnière (ηS) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 ;\n- et l’installation d’un régulateur ainsi que la classe de celui-ci.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement et d’un régulateur\navec leurs marques et références et elle est complétée par un document issu du fabricant ou d’un organisme établi\ndans l'Espace économique européen et accrédité selon la norme NF EN 45011 par le Comité français d'accréditation\n(COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans\nle cadre de European co-operation for Accreditation (EA), coordination européenne des organismes d'accréditation.\n\nCe document indique :\n- que l’équipement de marque et référence mis en place est une pompe à chaleur air/eau avec un dispositif d’appoint\npar combustible liquide ou gazeux ;\n- le type de pompe à chaleur (moyenne ou haute température) ;\n- l’efficacité énergétique saisonnière (ηs) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 de\nla pompe à chaleur munie de son dispositif d’appoint (hors dispositif de régulation de la température) ;\n- la classe du régulateur.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- la note de dimensionnement susmentionnée ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "17 ans.",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour un appartement :\n\nEfficacité\nénergétique\nsaisonnière ηS (%)\nZone\nclimatique\nMontant unitaire\nkWh cumac\n\nFacteur\ncorrectif\nSurface\nchauffée en m²\n111 ≤ ηS < 120\nH1\n39 600\nX\n0,5\nS < 35\nH2\n33 900\n0,7\n35 ≤ S < 60\nH3\n25 600\n1\n60 ≤ S < 70\n120 ≤ ηS < 130\nH1\n48 200\n1,2\n70 ≤ S < 90\nH2\n41 300\n1,5\n90 ≤ S < 110\nH3\n31 200\n1,9\n110 ≤ S ≤ 130\n130 ≤ ηS < 140\nH1\n55 900\n2,5\n130 < S\nH2\n47 900\n\n\n\nH3\n36 200\n\n\n\n140 ≤ ηS < 150\nH1\n62 600\n\n\n\nH2\n53 600\n\n\n\nH3\n40 500\n\n\n\n150 ≤ ηS < 160\nH1\n68 400\n\n\n\nH2\n58 600\n\n\n\nH3\n44 200\n\n\n\n160 ≤ ηS\nH1\n73 400\n\n\n\nH2\n62 900\n\n\n\nH3\n47 500\n\n\n\n\nNB : la surface prise en compte est la surface chauffée par la pompe à chaleur hybride installée.\n\nPour une maison individuelle :\n\nEfficacité\nénergétique\nsaisonnière ηS (%)\nZone\nclimatique\nMontant unitaire\nkWh cumac\n\nFacteur\ncorrectif\nSurface\nchauffée en m²\n111 ≤ ηS < 120\nH1\n74 100\nX\n0,5\nS < 70\nH2\n62 800\n0,7\n70 ≤ S < 90\nH3\n45 600\n1\n90 ≤ S < 110\n120 ≤ ηS < 130\nH1\n90 300\n1,1\n110 ≤ S ≤ 130\nH2\n76 500\n1,6\n130 < S\nH3\n55 400\n\n\n130 ≤ ηS < 140\nH1\n104 800\n\n\nH2\n88 800\n\n\n\nH3\n64 400\n\n\n\n140 ≤ ηS < 150\nH1\n117 200\n\n\n\nH2\n99 400\n\n\n\nH3\n72 000\n\n\n\n150 ≤ ηS < 160\nH1\n128 000\n\n\n\nH2\n108 500\n\n\n\nH3\n78 700\n\n\n\n160 ≤ ηS\nH1\n137 500\n\n\n\nH2\n116 600\n\n\n\nH3\n84 500\n\n\n\n\nNB : la surface prise en compte est la surface chauffée par la pompe à chaleur hybride installée.",
+      "page_start": 3,
+      "page_end": 4
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -187,7 +224,8 @@
   "calculation": {
     "formula_text": "valeur des déperditions à T = Tbase (kW), la quantité d’énergie fournie par la PAC hors dispositif d’appoint (kWh)",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -376,10 +414,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2023-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 17,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf"
     }
   ],
@@ -424,10 +467,10 @@
     "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.582643+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

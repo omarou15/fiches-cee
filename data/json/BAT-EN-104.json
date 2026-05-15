@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Locaux du secteur tertiaire existants réservés à une utilisation professionnelle.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une fenêtre, fenêtre de toiture ou porte-fenêtre complète avec vitrage isolant, les baies fixes étant\npermises, pour le remplacement d’une fenêtre, fenêtre de toiture ou porte-fenêtre équipée de simple vitrage avant\ntravaux ou mise en place d’une double fenêtre sur une fenêtre équipée de simple vitrage avant travaux. L’opération\ninclut le remplacement du dormant existant, sauf dans le cas de l’installation d’une double fenêtre.\n\nLe simple remplacement de vitrages sur une fenêtre ou porte-fenêtre existante, la fermeture d’une loggia par parois\nvitrées, la construction d’une véranda à parois vitrées ou la création d’une ouverture dans une paroi opaque ne\ndonnent pas lieu à la délivrance de certificats d’économies d’énergie. De même, le remplacement de fenêtres ou\nportes-fenêtres existantes sur murs façades rideaux ne donne pas lieu à la délivrance de certificats d’économies\nd’énergie.\n\nLa présente fiche s’applique aux opérations engagées jusqu’au 30 juin 2028.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Hors double fenêtre, le coefficient de transmission surfacique, Uw, des fenêtres et portes-fenêtres est inférieur ou\négal à 1,5 W/m².K et évalué selon la norme NF EN 14351-1+A2.\n\nL’installation d’une double fenêtre consiste en la pose, sur la baie existante, d'une seconde fenêtre à double vitrage\nrenforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et évalué selon la\nnorme NF EN 14351-1+A2.\n\nLa mise en place est réalisée par un professionnel.\n\nLa surface de fenêtre inclut la surface de l’ensemble de profilés, fixes, dormants ou ouvrants (incluant les joints,\nmastics et produits d’étanchéité) pouvant encadrer l’élément de remplissage.\n\nLa preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une ou plusieurs fenêtre(s), double(s) fenêtre(s), fenêtre(s) de toiture ou porte(s)-fenêtre(s) ;\n- et la surface de fenêtre, double fenêtre ou porte-fenêtre ;\n- et les Uw des équipements installés évalués selon la norme susmentionnée.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec\nleur marque et référence et leur surface installée et elle est complétée par un document issu du fabricant ou d’un\norganisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le\nComité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen\nmultilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne\ndes organismes d'accréditation.\n\nCe document indique que l’équipement de marque et référence installé est une fenêtre, double fenêtre, fenêtre de\ntoiture ou porte-fenêtre complète et précise ses caractéristiques thermiques (Uw) évaluées selon la norme\nsusmentionnée. En cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an\naprès sa date de fin de validité.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "30 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone\nclimatique\nMontant en kWh cumac par\nm² de fenêtre, double fenêtre\nou porte-fenêtre complète\navec vitrage isolant\n\nSecteur\nd’activité\nFacteur\ncorrectif\n\nSurface totale des\nfenêtres, doubles\nfenêtres et portes-\nfenêtres (m²)\nH1\n5 300\n\nBureaux,\nEnseignement,\nCommerces\n0,6\n\nS\n\n\nH2\n4 300\nX\nHôtellerie-\nrestauration\n0,7\nX\n\nSanté\n1,3\n\nH3\n2 900\n\nAutres\nsecteurs\n0,6",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -155,7 +192,8 @@
   "calculation": {
     "formula_text": "Hors double fenêtre, le coefficient de transmission surfacique, Uw, des fenêtres et portes-fenêtres est inférieur ou",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -226,29 +264,7 @@
     }
   ],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024_2.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024_2.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024_2.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -256,10 +272,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2024-01-01",
+    "engagement_deadline": "2028-06-30"
+  },
+  "lifetime_years": 30,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024_2.pdf"
     }
   ],
@@ -304,10 +325,10 @@
     "Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.190109+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

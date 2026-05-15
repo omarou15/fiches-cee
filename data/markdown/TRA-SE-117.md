@@ -13,8 +13,8 @@
 - `Transport_TRA/TRA-SE-117 vA65-1 Feuille récapitulative_0.xlsx`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -56,6 +56,19 @@
 - - Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux
 - kWh cumac par
 - kWh cumac par
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-3)
+- 4. Durée de vie conventionnelle (pages 3-3)
+- 5. Montant de certificats en kWh cumac (pages 3-5)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

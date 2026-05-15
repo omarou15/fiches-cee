@@ -16,6 +16,36 @@
     "title": {
       "type": "string"
     },
+    "title_clean": {
+      "type": ["string", "null"]
+    },
+    "application_sector": {
+      "type": ["string", "null"]
+    },
+    "operation_description": {
+      "type": ["string", "null"]
+    },
+    "eligible_uses": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "excluded_uses": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "non_cumulation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": { "type": ["string", "null"] },
+          "condition": { "type": "string" },
+          "source_file": { "type": ["string", "null"] },
+          "page": { "type": ["integer", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
     "family": {
       "type": "string"
     },
@@ -28,6 +58,14 @@
     "effective_date": {
       "type": ["string", "null"],
       "format": "date"
+    },
+    "validity": {
+      "type": "object",
+      "properties": {
+        "effective_date": { "type": ["string", "null"], "format": "date" },
+        "engagement_deadline": { "type": ["string", "null"], "format": "date" }
+      },
+      "additionalProperties": false
     },
     "dates": {
       "type": "object",
@@ -47,6 +85,21 @@
       "type": ["object", "string", "null"],
       "additionalProperties": true
     },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["number", "title", "text"],
+        "properties": {
+          "number": { "type": "string" },
+          "title": { "type": "string" },
+          "text": { "type": "string" },
+          "page_start": { "type": ["integer", "null"] },
+          "page_end": { "type": ["integer", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
     "applicability": {
       "type": "object",
       "additionalProperties": { "type": ["boolean", "null"] }
@@ -62,6 +115,22 @@
     "technical_requirements": {
       "type": "array",
       "items": { "$ref": "#/$defs/text_item" }
+    },
+    "technical_requirements_structured": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "dimensioning_study": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "proof_of_completion": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "specific_supporting_documents": {
+      "type": "array",
+      "items": { "type": "string" }
     },
     "required_documents": {
       "type": "array",
@@ -106,9 +175,20 @@
       "type": "array",
       "items": { "$ref": "#/$defs/site_data_requirement" }
     },
+    "energyco_site_data_requirements": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
     "output_documents": {
       "type": "object",
       "additionalProperties": { "type": ["boolean", "null"] }
+    },
+    "energyco_risks": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "lifetime_years": {
+      "type": ["integer", "null"]
     },
     "risks": {
       "type": "array",
@@ -186,6 +266,10 @@
           "type": "string",
           "enum": ["number", "string", "boolean", "enum", "unknown"],
           "default": "unknown"
+        },
+        "values": {
+          "type": "array",
+          "items": { "type": ["string", "number", "boolean", "null"] }
         },
         "description": { "type": ["string", "null"] }
       },

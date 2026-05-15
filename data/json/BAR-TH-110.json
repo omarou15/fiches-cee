@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un radiateur basse température pour un système de chauffage central.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLes radiateurs sont dimensionnés à un delta de température nominal DTnom ≤ 40 K suivant la norme EN 442.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs radiateur(s) basse température\net le nombre de radiateurs installés.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipement(s) avec\nleur marque et référence et la quantité installée et elle est accompagnée d’un document issu du fabricant indiquant\nque les équipements de marque et référence installés sont des radiateurs basse température.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "35 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone\nclimatique\nMontant en kWh cumac par radiateur installé\n\nNombre de\nradiateurs\nType de logements\nMaison\nindividuelle\nAppartement avec\nchauffage individuel\nAppartement avec\nchauffage collectif\nH1\n1700\n1100\n1000\nX\nN\nH2\n1400\n880\n850\nH3\n910\n590\n560",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -91,7 +128,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -154,10 +192,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 35,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-110 vA16-1.pdf"
     }
   ],
@@ -202,10 +245,10 @@
     "Residentiel_BAR/BAR-TH-110 vA16-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.208045+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

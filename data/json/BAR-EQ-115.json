@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels existants.\n\nDans le cas de logements équipés d’un chauffage collectif par combustible, seuls les logements équipés de\ncompteurs individuels d’énergie ou de répartiteurs sont éligibles à la présente fiche.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Acquisition ou location d’un dispositif d’affichage et d’interprétation des consommations d’énergie électrique et\ncombustible couplé à un système de mesure de l’énergie fournie au logement lorsque celui-ci est dépourvu d’un tel\ndispositif.\n\nCe dispositif a pour fonction :\n- d’exploiter la mesure des consommations d’énergie pour les interpréter ;\n- de communiquer vers l’utilisateur les résultats obtenus et des conseils adaptés de façon à l’inciter à réduire sa\nconsommation d’énergie ;\n- d’alerter l’utilisateur en cas de dépassement de seuils de consommation de référence.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le dispositif permet de collecter l’ensemble des données de consommations d’énergie du logement.\n\n\nLes informations et statistiques élaborées par le dispositif et restituées à l’utilisateur comprennent a minima les\néléments suivants :\n- affichage de l’ensemble des consommations d’énergie mesurées à un pas inférieur ou égal à une heure. Les données\ncollectées sont mises à jour au moins toutes les heures, et idéalement en temps réel ;\n- affichage des consommations d’énergie en m3 et/ou en kWh selon l’énergie et valorisées en euros ;\n- possibilité d’accès par l’utilisateur à différents cumuls (heure / journée / semaine / mois / année) ;\n- historique de tous les cumuls disponibles sur 3 mois ;\n- historique des cumuls, pour une durée supérieure ou égale à la journée, disponible pendant 2 années glissantes.\n\nLe dispositif permet de comparer les consommations réalisées à des consommations types et à des seuils. A minima,\nla comparaison doit être effectuée par rapport à des statistiques de consommations extraites de l’historique\ndisponible. Les consommations types sont établies à partir de moyennes nationales et locales pour des profils de\nconsommations comparables à ceux de l’utilisateur.\n\nEn cas de dépassement d’un seuil de consommation de référence, le dispositif émet une alarme explicite (par\nexemple SMS, mail, notification...).\nLe dispositif permet l’affichage de statistiques de consommation sur au moins un support numérique de la liste\nsuivante :\n- écran dédié ;\n- site Web ;\n\n- tablette ou Smartphone (via des applications dédiées) ;\n- télévision.\n\nLe dispositif informe l’utilisateur de manière régulière, à un pas inférieur ou égal à un mois, des données disponibles\nsur l’affichage en lui adressant un bilan de la période écoulée et en l’invitant à consulter l’affichage pour davantage\nde détails. Le dispositif apporte à l’utilisateur des conseils adaptés à sa situation, l’aide à interpréter les données\naffichées et à réduire ses consommations d’énergie.\n\nDans le cas d’une location du dispositif d’affichage et d’interprétation des consommations d’énergie, la durée du\ncontrat de location est égale ou supérieure à 24 mois.\n\nLe dispositif peut inclure une option « suivi du confort », lorsqu’il inclut la collecte locale et l’affichage des données\nde température et d’hygrométrie intérieures et extérieures au logement.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un dispositif d’affichage et d’interprétation\ndes consommations relié à un système de mesure d’énergie électrique si le logement est chauffé à l’électricité ou à\nun système de mesure d’énergie électrique et à un système de mesure d’énergie du combustible si le logement est\nchauffé avec un combustible. La preuve de la réalisation de l’opération mentionne la présence de l’option « suivi\ndu confort » lorsque celle-ci est présente.\n\nLe document justificatif spécifique à l’opération est un descriptif du dispositif issu du fabricant indiquant la présence\ndes fonctions détaillées dans la présente fiche et portant sur :\n- la collecte des données des consommations d’énergie du logement ;\n- l’affichage des consommations, de leurs cumuls et de leurs historiques ainsi que les modalités d’affichage et les\nmoyens utilisés ;\n- la communication vers l’utilisateur des résultats obtenus et des conseils adaptés de façon à l’inciter à réduire ses\nconsommations d’énergie ;\n- l’alerte de l’utilisateur en cas de dépassement d’un ou plusieurs seuil(s) de consommation(s) de référence et les\nmoyens d’alerte ;\n- la communication de bilans réguliers des données disponibles à un pas inférieur ou égal à un mois ;\n- dans le cas de l’option « suivi du confort », la collecte locale et l’affichage des données de température et\nd’hygrométrie intérieures et extérieures au logement.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "4 ans",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour une maison individuelle :\nZone\nclimatique\nMontant en\nkWh cumac\n\nOption\n« suivi du\nconfort »\nCoefficient\n\nFacteur\ncorrectif\nSurface\nhabitable S\n(m²)\n\nPart fixe à\najouter en\nkWh cumac\nH1\n4 400\nx\nOui\n1\nx\n0,3\nS < 35\n+\n650\nH2\n3 700\nNon\n0,8\n0,5\n35 ≤ S < 60\nH3\n2 700\n\n\n\n\n0,6\n60 ≤ S < 70\n\n\n\n\n\n\n\n\n0,7\n70 ≤ S < 90\n\n\n\n\n\n\n\n\n1\n90 ≤ S < 110\n\n\n\n\n\n\n\n\n1,1\n110 ≤ S ≤ 130\n\n\n\n\n\n\n\n\n1,6\n>130\n\nPour un appartement :\nZone\nclimatique\nMontant en\nkWh cumac\n\nOption\n« suivi du\nconfort »\nCoefficient\n\nFacteur\ncorrectif\nSurface\nhabitable S\n(m²)\n\nPart fixe à\najouter en\nkWh cumac\nH1\n2 600\nx\nOui\n1\nx\n0,5\nS < 35\n+\n410\nH2\n2 200\nNon\n0,8\n0,7\n35 ≤ S < 60\nH3\n1 700\n\n\n\n\n1\n60 ≤ S < 70\n\n\n\n\n\n\n\n\n1,2\n70 ≤ S < 90\n\n\n\n\n\n\n\n\n1,5\n90 ≤ S < 110\n\n\n\n\n\n\n\n\n1,9\n110 ≤ S ≤ 130\n\n\n\n\n\n\n\n\n2,5\n>130\n\n\n\nDans le cas où le bénéficiaire est une personne morale équipant plusieurs logements à la même adresse, le montant\ndes certificats d’économies d’énergie, calculé pour un appartement, est multiplié par le nombre N d’appartements,\nde même surface, équipés du dispositif.",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -90,7 +127,8 @@
   "calculation": {
     "formula_text": "- affichage des consommations d’énergie en m3 et/ou en kWh selon l’énergie et valorisées en euros ;",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -257,10 +295,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 4,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf"
     }
   ],
@@ -305,10 +348,10 @@
     "Residentiel_BAR/BAR-EQ-115 vA28-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.056053+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

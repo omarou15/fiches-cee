@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture : véhicule de catégorie T (à roues) ou C (à chenilles) selon l’article R.311-1 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Acquisition d’un véhicule neuf équipé d’un système d’arrêt et redémarrage automatique du moteur lors de l’arrêt\ndu véhicule de type « Stop & Start ».",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le véhicule est immatriculé en France.\n\nLa preuve de réalisation de l’opération mentionne l’achat d’un véhicule agricole neuf à moteur et le fait qu’il est\néquipé d’un système d’arrêt et redémarrage automatique du moteur de type « Stop & Start ». Le montage du système\nsur le véhicule peut être fait de série par le constructeur ou, avant la première mise en circulation, par un\nprofessionnel. Dans ce dernier cas, la preuve de réalisation du montage du dispositif mentionne les éléments\nd’identification du véhicule ainsi que la marque et référence du systèm e d’arrêt et redémarrage automatique du\nmoteur.\n\nLe document justificatif spécifique à l’opération est une copie du certificat d’immatriculation du véhicule agricole\net en cas d’adjonction du dispositif « Stop & Start » sur un véhicule non réceptionné d’o rigine avec ce système le\nprocès verbal de réception du véhicule délivré conformément aux dispositions de l’arrêté du 19 juillet 1954 relatif\nà la réception des véhicules automobiles.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "10 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par véhicule\n\nNombre de véhicules concernés\npar l’opération\n18 400\nX\nN",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -91,7 +128,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -121,10 +159,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2018-12-19",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 10,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf"
     }
   ],
@@ -193,10 +236,10 @@
     "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:56.774298+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture : produits et co-produits agricoles et forestiers.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système complet de séchage par insufflation d’air des produits et co-produits agricoles et\nforestiers utilisant des panneaux solaires hybrides (à la fois photovoltaïques et thermiques), ou d’une toiture solaire\nen panneaux solaires hybrides venant se coupler à un système d’insufflation d’air existant.\n\nUn panneau solaire hybride dispose d’un échangeur de chaleur appliqué sur sa face arrière pour transmettre l’énergie\nthermique solaire au flux d’air circulant en sous-face du panneau solaire.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe bâtiment utilisé pour le séchage est fermé.\n\nLes panneaux solaires hybrides utilisés pour le séchage sont certifiés selon les normes photovoltaïques IEC 61215\n« Modules photovoltaïques (PV) pour applications terrestres » et IEC 61730 « Qualification pour la sûreté de\nfonctionnement des modules photovoltaïques (PV) ». La puissance thermique installée est mesurée selon la norme\nISO 9806 ou la norme européenne ETV.\n\nLa productivité des capteurs solaires hybrides est supérieure ou égale à 500 W/m2 de surface d’entrée des capteurs,\ncalculée en additionnant la puissance électrique selon la norme IEC 61215 et la puissance thermique selon la norme\nISO 9806.\n\nL’opération consiste :\n- soit en la mise en place d’un système complet neuf de séchage par insufflation d’air à basse température (25-40°C)\nutilisant des panneaux solaires hybrides ;\n- soit en la mise en place d’une toiture solaire en panneaux solaires hybrides venant se coupler à un système\nd’insufflation d’air existant à haute température (60-80°C).\n\nLa mise en place d’un système complet neuf de séchage comprend a minima :\n- des panneaux solaires hybrides ;\n- un ou plusieurs ventilateurs ;\n- une chambre d’aspiration où est implanté le ou les ventilateur(s) de séchage ;\n- une chambre de compression (couloir de ventilation).\n\nLa preuve de la réalisation de l’opération mentionne :\n- dans le cas de la mise en place d’un système complet neuf de séchage, la mise en place d’un système de séchage\nsolaire à basse température (25-40°C) par insufflation d’air utilisant des panneaux solaires hybrides, avec leurs\nmarques et références, un ou plusieurs ventilateurs, une chambre d’aspiration et une chambre de compression ;\n- dans l’autre cas, la mise en place d’une toiture solaire en panneaux solaires hybrides, avec leurs marques et\nréférences, couplée au système d’insufflation d’air existant à haute température (60-80°C).\n\nLe document justificatif spécifique à l’opération est le document justifiant de la certification des panneaux solaires\nhybrides installés.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone Climatique\nMontant en kWh cumac par\nkW thermique installé\n\nPuissance thermique\ntotale installée (kW)\n\nProduits et co-produits\n\n\nAgricoles\nForestiers\n\nSystème complet neuf\nde séchage\nH1\n42 700\n102 600\nx\nP\nH2\n48 500\n116 600\nH3\n55 700\n134 100\nToiture solaire couplée\nau système\nd’insufflation d’air\nexistant\nH1\n12 200\n16 900\nH2\n13 900\n19 300\nH3\n17 400\n24 100",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -107,7 +144,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -194,10 +232,15 @@
     "photos_required": true,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2021-07-31",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-EQ-110 vA38-1 à compter du 31-07-2021.pdf"
     }
   ],
@@ -242,10 +285,10 @@
     "Agriculture_AGRI/AGRI-EQ-110 vA38-1 à compter du 31-07-2021 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:56.842399+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

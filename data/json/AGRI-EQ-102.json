@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture : serres maraîchères et horticoles neuves ou existantes.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place, au-dessus des cultures d’une serre chauffée, d’un double écran thermique ou d’un second écran en\ncomplément d’un premier existant.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er avril 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nL’écran thermique ou le double écran thermique est piloté automatiquement.\n\nLa preuve de la réalisation de l’opération mentionne, selon le cas, la mise en place d’un double écran thermique ou\nd’un écran thermique.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence\ninstallé est, selon le cas, un double écran thermique ou un écran thermique.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "8 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Type de serres\nMontant en kWh cumac\npar m² de serre équipée\n\nSurface de la serre\néquipée (m²)\nSerres maraîchères\n290\nX\nS\nSerres horticoles\n240",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -82,7 +119,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -112,10 +150,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 8,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-EQ-102 vA65-2 à compter du 01-04-2025_0.pdf"
     }
   ],
@@ -160,10 +203,10 @@
     "Agriculture_AGRI/AGRI-EQ-102 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:56.748045+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

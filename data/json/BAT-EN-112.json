@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment du secteur tertiaire à usage commercial.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un revêtement réflectif en toiture pour la réduction des apports solaires.\n\nLa présente fiche n’est pas cumulable avec la fiche portant la référence BAT-EN-109.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La production de chaud et de froid pour le bâtiment concerné est assurée par un dispositif de type pompe à chaleur.\n\nLa toiture avant l’opération est dépourvue de revêtement réflectif.\n\nLa mise en place est réalisée par un professionnel.\n\nLe revêtement réflectif est posé sur une surface de toit située au droit d’un volume fermé et climatisé.\n\nLe produit mis en œuvre possède un indice de réflectance solaire (SRI) supérieur à 100 à l’état neuf et supérieur à\n90 à l’état vieilli, évalué selon la norme ASTM E1980-11. L’état vieilli s’entend selon la norme ISO 2810 :2021\nappliquée avec une inclinaison à 5° après vingt années de vieillissement ou selon la norme ISO 16474-3 :2020 après\n4 000 heures de vieillissement artificiel.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un revêtement avec ses marque, référence\net numéro de lot, la surface de toiture couverte par le revêtement ainsi que l’indice de réflectance solaire à l’état\nneuf et après vieillissement selon les normes susmentionnées.\n\nLe document justificatif spécifique à l’opération est le document issu du fabricant relatif au lot utilisé en tout ou\npartie pour l’opération :\n- attestant que le revêtement de marque et référence est un revêtement réflectif et a été acheté par le professionnel,\navec mention de sa raison sociale, et de son numéro SIRET ;\n- précisant le numéro du lot, la date de vente au professionnel et la quantité, exprimée en litres ou en m² (pour les\nmembranes, tôles et autres types de support de revêtement acheté par le professionnel) ;\n- indiquant, pour le lot considéré, l’indice de réflectance solaire à l’état neuf et à l’état vieilli du revêtement selon\nles normes susmentionnées, et pour les durées susmentionnées.\n\nLe document justificatif susmentionné est présenté au bénéficiaire avant l’engagement de l’opération.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "20 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac pour un m² de toiture couvert par un\nrevêtement réflectif\n\nSurface de\ntoiture en m²\ncouvert par un\nrevêtement\nréflectif\nZone climatique\nH1\n160\nx\nS\nH2\n170\nH3\n270",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -115,7 +152,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -200,10 +238,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2021-07-31",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 20,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-EN-112 vA38-1 à compter du 31-07-2021.pdf"
     }
   ],
@@ -248,10 +291,10 @@
     "Tertiaire_BAT/BAT-EN-112 vA38-1 à compter du 31-07-2021 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.299735+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

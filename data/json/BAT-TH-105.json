@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment tertiaire existant.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place de radiateurs basse température pour un système de chauffage central.\n\nCette opération n’est pas éligible si l’installation de chauffage collectif a été remplacée depuis le 1er janvier 2018.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLes radiateurs sont dimensionnés à une différence de température au débit nominal inférieure ou égale à 30 K\nsuivant la norme NF EN 442.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs radiateurs basse température\net leur nombre. A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs\néquipements avec leurs marques et références et leur nombre et elle est accompagnée d’un (ou des) document(s)\nissu(s) du fabricant indiquant que l’équipement de marque et référence mis en place est un radiateur basse\ntempérature.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "35 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone\nclimatique\nMontant en kWh cumac par\nm2 de surface de bâtiment\nchauffée par les radiateurs\nbasse température\n\nSurface\nchauffée\nen m²\n\nSecteur d’activité\nFacteur\ncorrectif\nH1\n56\n\nS\n\nBureaux\n1,2\nH2\n46\nX\nX\nEnseignement\n0,8\nH3\n31\n\n\nSanté\n1\n\n\n\n\n\nCommerces\n0,9\n\n\n\n\n\nHôtellerie,\nrestauration\n1,3\n\n\n\n\n\nAutres secteurs\n0,8\n\nS est la surface de bâtiment chauffée par les radiateurs basse température installés dans le cadre de la présente\nopération.",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -99,7 +136,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -162,10 +200,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2020-04-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 35,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-105 v A32-2 à compter du 01-04-2020_0.pdf"
     }
   ],
@@ -210,10 +253,10 @@
     "Tertiaire_BAT/BAT-TH-105 v A32-2 à compter du 01-04-2020 - Partie A_0.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.634519+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Maisons individuelles existantes en France métropolitaine.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système énergétique composé de capteurs solaires hybrides (à la fois photovoltaïques et\nthermiques) avec circulation d’eau permettant de récupérer la chaleur produite par les capteurs et de l’utiliser pour\nla préparation d’eau chaude sanitaire ou le chauffage de la maison.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nSi le bénéficiaire est une personne physique, le professionnel ayant réalisé l’opération est titulaire d’un signe de\nqualité répondant aux mêmes exigences que celles prévues à l’article 2 du décret n° 2014-812 du 16 juillet 2014\npris pour l’application du second alinéa du 2 de l’article 200 quater du code général des impôts et du dernier alinéa\ndu 2 du I de l’article 244 quater U du code général des impôts et des textes pris pour son application. Ce signe de\nqualité correspond à des travaux relevant du 5 du I de l'article 46 AX de l'annexe III du code général des impôts.\nDe plus, le professionnel possède une qualification RGE (Reconnu Garant de l’Environnement) pour le domaine\ncorrespondant à l’installation de systèmes photovoltaïques.\n\nLes capteurs solaires sont des capteurs à la fois photovoltaïques et thermiques à circulation d’eau. Ils ont une\nproductivité supérieure ou égale à 500 W/m2 de surface d’entrée des capteurs calculée en multipliant le rendement\noptique du capteur mesuré en condition ΔT=0 par un rayonnement (G) de 1000W/m2. Ils possèdent une certification\nCSTBat ou SolarKeymark, ou une certification des caractéristiques de performances et de qualité équivalentes dès\nlors que cette certification repose sur les normes NF EN 12975 ou NF EN 12976 et qu’elle est mentionnée comme\ntelle sur la facture ou une attestation fournie par l’entreprise.\n\nLa surface totale de capteurs installés est au minimum de 6 m2.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un système composé de capteurs solaires\nhybrides (à la fois photovoltaïques et thermiques) avec circulation d’eau, la surface de capteurs hybrides mise en\nplace, la productivité de ces capteurs en W/m2 et l’usage de la chaleur récupérée (eau chaude sanitaire et/ou\nchauffage des locaux).\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement composé de capteurs\navec ses marque et référence, la surface de capteurs mise en place et l’usage de la chaleur récupérée (eau chaude\nsanitaire et/ou chauffage des locaux) et elle est complétée par un document issu du fabricant indiquant que\nl’équipement de marque et référence installé est un système énergétique composé de capteurs solaires hybrides (à\nla fois photovoltaïques et thermiques) et mentionnant la productivité de ces capteurs en W/ m2.\n\nLes documents justificatifs spécifiques à l’opération sont :\n\n- la certification CSTBat ou SolarKeymark des capteurs hybrides (capteurs solaires photovoltaïques et thermiques),\nou les pièces justifiant d’une certification équivalente ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé ainsi que la qualification RGE du professionnel pour l’installation des\nsystèmes photovoltaïques.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "20 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac\n20 900",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -131,7 +168,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -161,10 +199,15 @@
     "photos_required": true,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 20,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf"
     }
   ],
@@ -209,10 +252,10 @@
     "Residentiel_BAR/BAR-TH-162 vA28-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.624053+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

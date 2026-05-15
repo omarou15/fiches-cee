@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Engins automoteurs non routiers : matériels automoteurs spécialement conçus pour le terrassement, le transport ou\nla manutention et ne servant pas normalement sur route au transport de marchandises ou de personnes et dont la\nliste figure ci-dessous.\n\nLes engins automoteurs non routiers éligibles au sens de cette fiche, appartiennent à l’une des catégories suivantes :\nmini-pelle (< 6t), chargeuse télescopique, pelle sur chenilles ou sur pneus (> 6t), chargeuse sur chenilles ou sur\npneus, chargeuse-pelleteuse (backhoe loader ou tracto-pelle), chargeuse compacte à direction par glissement (skid\nsteer loaders) ou sur pneus, tombereau articulé (moto-basculeur), tombereau rigide (dumper), bouteur (bulldozer),\nchariot télescopique tout-terrain, chariot de manutention à mât, nacelle (plate-forme élévatrice mobile de personnes),\nfraiseuse, finisseur, niveleuse, compacteur, stabilisatrice de sols.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Achat ou location d’un engin automoteur non routier neuf équipé d’un système « Stop & Start ».\n\nLe système « Stop & Start » est un système qui permet l’arrêt automatique du moteur, lorsque l’engin est à l’arrêt\net le moteur au ralenti, et son redémarrage par actionnement volontaire de l’opérateur.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La preuve de réalisation de l’opération mentionne l’achat ou la location d’un engin automoteur neuf non routier à\nmoteur thermique équipé d’un système « Stop & Start » et le numéro de série (ou code PIN1) de l’engin.\n\nDans le cas de la location, la durée du contrat de location est égale ou supérieure à 24 mois, hors reconduction tacite.\n\nLe document justificatif spécifique à l’opération est une photographie lisible de la plaque constructeur\nd’identification de l’engin comportant, en application de la directive européenne 2006/42/CE du 17 mai 2016, les\nindications minimales suivantes :\n- la raison sociale et l'adresse complète du fabricant et, le cas échéant, de son mandataire ;\n- la désignation de la machine ;\n- le marquage « CE » ;\n- la désignation de la série ou du type ;\n- le numéro de série (ou code PIN) ;\n- l'année de construction.\n\nUne copie papier ou numérique lisible de cette photographie peut être acceptée.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "8 ans.\n\n1 PIN (i.e. Product Identification Number) est une codification internationale comprenant 17 caractères et répondant aux exigences de la\nnorme ISO 10261 Engins de terrassement - Système de numérotation pour l'identification des produits.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac\nX\nNombre d’engins automoteurs non routiers\nconcernés par l’opération\n72 900\nN",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -115,7 +152,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -137,29 +175,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Transport_TRA/TRA-EQ-122 vA32-1 à compter du 31-01-2020.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Transport_TRA/TRA-EQ-122 vA32-1 à compter du 31-01-2020.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Transport_TRA/TRA-EQ-122 vA32-1 à compter du 31-01-2020.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -167,10 +183,15 @@
     "photos_required": true,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2020-01-31",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 8,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-122 vA32-1 à compter du 31-01-2020.pdf"
     }
   ],
@@ -239,10 +260,10 @@
     "Transport_TRA/TRA-EQ-122 vA32-1 à compter du 31-01-2020 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.669758+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

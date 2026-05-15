@@ -10,8 +10,8 @@
 - `Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -62,6 +62,19 @@
 - kWh cumac
 - Pour les travaux de la seconde étape, le montant de certificats d’économies d’énergie attribué lors de la seconde
 - étape correspond au montant de certificats d’économies d’énergie correspondant à la somme des sauts de classes
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-4)
+- 4. Durée de vie conventionnelle (pages 4-4)
+- 5. Montant de certificats en kWh cumac (pages 4-4)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 30
+- Date limite engagement: 2030-12-31
 
 ## Texte extrait
 Certificats d’économies d’énergie

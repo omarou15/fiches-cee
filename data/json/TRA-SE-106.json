@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Transport de marchandises par voie fluviale.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Acquisition pour un automoteur ou un pousseur d’un matériel de mesure et d’optimisation de la consommation de\ncarburant.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le matériel de mesure et d’optimisation de la consommation de carburant est composé soit :\n- d’un économètre ou d’un débitmètre seulement ;\n- d’un économètre ou d’un débitmètre complété par les équipements de navigation comprenant un loch, un\nanémomètre, un GPS, un compte-tours et un sondeur.\n\nLa mise en place est réalisée par un professionnel.\n\nLa date d'achèvement de l'opération est la date de fin du relevé de trafic prévu ci-dessous.\n\nLe délai entre la date de la preuve de réalisation de l'opération et la date d'achèvement de l'opération est au maximum\nde 12 mois.\n\nLa preuve de réalisation de l’opération mentionne l’achat et l’installation d’un économètre ou d’un débitmètre et le\ncas échéant l’achat et l’installation des équipements de navigation comprenant un loch, un anémomètre, un GPS, un\ncompte-tours et un sondeur.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne que l’automoteur ou le pousseur a été équipé de matériels\nde mesure et d’optimisation de la consommation de carburant, avec leurs marques et références et elle est\naccompagnée des documents issus des fabricants indiquant que les matériels de marque et référence mis en place\nsont selon le cas : un économètre, un débitmètre, un loch, un anémomètre, un GPS, un compte-tours ou un sondeur.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- pour un automoteur, le ou les relevé(s) de trafic faisant apparaître les t.km (tonnes.kilomètres) fluviales\nréalisées au maximum sur 6 mois consécutifs par cette unité de transport : le relevé doit être certifié conforme\npar Voies navigables de France et les t.km doivent être réalisées sur le territoire français ;\n- pour un pousseur, le relevé de trafic, faisant apparaître les trajets fluviaux en km réalisés au maximum sur 6\nmois consécutifs par le pousseur : le relevé doit être attesté sur l’honneur par le bénéficiaire et les kilomètres\ndoivent être réalisés sur le territoire français ;\n- la copie du titre de navigation permettant de justifier l’immatriculation en France de l’unité de transport fluvial\net de sa capacité de chargement dans le cas d’un automoteur ou de sa puissance dans le cas d’un pousseur.",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "5 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Cas du matériel installé sur un automoteur :\nLe montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nC x Y x TK\n\nC : consommation énergétique actualisée, en kWh cumac/tonne.kilomètre, par type d’unité de transport fluvial et\npar bassin de navigation, donnée par le tableau suivant :\n\n\nC en kWh cumac par t.km selon\n la capacité de chargement de l’automoteur et le bassin de navigation\nGamme de port en lourd\n(tonne)\nSeine\nRhône\nNord Pas-\nde-Calais\nRhin /\nMoselle\nInterbassin\nM ≤ 400 t\n0,80\n0,91\n0,81\n0,95\n0,87\n400 t < M ≤ 650 t\n0,74\n0,80\n0,74\n0,94\n0,81\n650 t < M ≤ 1000 t\n0,65\n0,69\n0,68\n0,83\n0,71\n1000 t < M ≤ 1500 t\n0,36\n0,38\n0,63\n0,73\n0,52\n1500 t < M\n0,32\n0,36\n0,58\n0,63\n0,47\n\nM capacité maximale de chargement de l’automoteur (en tonnes).\n\nY : gain dû à l’équipement\nY = 0,05 pour l’installation d’un débitmètre ou d’un économètre,\nY = 0,07 pour l’installation d’un débitmètre ou d’un économètre, et d'un ensemble\nd’équipements de navigation composé d’un loch, d’un anémomètre, d’un GPS, d’un\ncompte-tours et d’un sondeur.\n\nTK : t.km relevées sur une période maximale de 6 mois x 2.\n\nOn considère que le trafic réalisé par l’unité de transport fluvial sur six mois consécutifs est maintenu en moyenne\nsur la durée de vie des équipements.\n\n\nCas du matériel installé sur un pousseur :\nLe montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nC’ x Y x K\n\nC’ : consommation énergétique actualisée en kWh cumac/kilomètre, par type de pousseur et par bassin de\nnavigation, donnée par le tableau suivant :\n\nC’ en kWh cumac par km selon la puissance du pousseur\net le bassin de navigation\nGamme de puissance\n(en kW)\nSeine\nRhône\nNord Pas-\nde-Calais\nRhin /\nMoselle\nInterbassin\n295 kW ≤ P ≤ 590 kW\n400\n420\n310\n-\n370\n590 kW < P ≤ 880 kW\n610\n650\n430\n-\n560\n880 kW < P\n770\n750\n600\n1 300\n840\n\nP est la puissance maximale du moteur du pousseur (en kW).\n\nY : gain dû à l’équipement\nY = 0,05 pour l’installation d’un débitmètre ou d’un économètre,\nY = 0,07 pour l’installation d’un débitmètre ou d’un économètre, et d'un ensemble\nd’équipements de navigation composé d’un loch, d’un anémomètre, d’un GPS, d’un\ncompte-tours et d’un sondeur.\n\nK : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2.\n\nOn considère que le trafic réalisé par l’unité de transport fluvial sur six mois consécutifs est maintenu en moyenne\nsur la durée de vie des équipements.",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -29,9 +66,9 @@
     "overseas": null
   },
   "systems": {
-    "heating": true,
+    "heating": false,
     "domestic_hot_water": false,
-    "heat_pump": true,
+    "heat_pump": false,
     "boiler": false,
     "hybrid_system": false,
     "district_heating": false,
@@ -107,7 +144,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -169,29 +207,7 @@
   ],
   "zones": [],
   "bonifications": [],
-  "site_data_requirements": [
-    {
-      "field": "puissance_pac",
-      "unit": "kW",
-      "required": true,
-      "reason": "dimensionnement et controle de coherence",
-      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf"
-    },
-    {
-      "field": "cop_etou_etasp",
-      "unit": null,
-      "required": true,
-      "reason": "performance technique de la pompe a chaleur",
-      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf"
-    },
-    {
-      "field": "surface_ou_nombre_logements",
-      "unit": null,
-      "required": true,
-      "reason": "perimetre de l'operation et calcul",
-      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf"
-    }
-  ],
+  "site_data_requirements": [],
   "output_documents": {
     "note_dimensionnement_required": false,
     "dpt_required": null,
@@ -199,10 +215,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 5,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf"
     }
   ],
@@ -271,10 +292,10 @@
     "Transport_TRA/TRA-SE-106 vA19-2 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.998758+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

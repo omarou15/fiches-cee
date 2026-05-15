@@ -12,8 +12,8 @@
 - `Transport_TRA/TRA-EQ-120 vA27-1 - Annexe 2 à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -36,6 +36,19 @@
 - Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante :
 - Gp est le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km
 - Gain énergétique Gp en kWh cumac par km selon la puissance du
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-1)
+- 4. Durée de vie conventionnelle (pages 1-3)
+- 5. Montant de certificats en kWh cumac (pages 2-3)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 30
+- Date limite engagement: 
 
 ## Texte extrait
 Certificats d’économies d’énergie

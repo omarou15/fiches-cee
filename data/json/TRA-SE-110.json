@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Véhicules de transport de marchandises de catégories N2 ou N3 de plus de 7,5t jusqu’à 44t (ensembles articulés et\nporteurs) selon l’article R.311-1 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Gestion optimisée de la globalité du poste pneumatique sur une flotte de véhicules de catégories N2 ou N3.\n\nCette opération n’est cumulable ni avec la fiche d’opération standardisée TRA-SE-105 ni avec la fiche d’opération\nstandardisée TRA-SE-108.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Les pneumatiques en gestion optimisée équipent des véhicules de poids maximal P tel que : 7.5 tonnes ≤ P ≤ 44\ntonnes (ensembles articulés et porteurs).\n\nLa gestion optimisée de la globalité du poste pneumatique est confiée à un professionnel et elle comporte au moins\nles opérations suivantes : réglage des géométries, contrôle des pressions, recreusage, permutation et/ou\nretournement sur jante et suivi des usures.\n\nLa preuve de réalisation de l’opération est le contrat tripartite en cours de validité (hors reconduction tacite) signé\nentre le bénéficiaire, le manufacturier des pneumatiques et le professionnel, le cas échéant avec ses avenants, qui\nprouve de l’entretien des pneumatiques et des services réalisés sur les pneumatiques.\n\nCe contrat inclut :\n- pour chaque établissement du bénéficiaire, identifié par son nom, SIRET et adresse, le nombre et le type de\nvéhicules concernés (ensemble articulé ou porteur) ;\n- les services suivants : réglage des géométries, contrôle des pressions, recreusage, permutation et/ou retournement\nsur jante et suivi des usures :\n- le recreusage de 50 % minimum des pneus quittant l’entreprise pour rechapage ou valorisation ;\n- la vérification de la pression des pneus des véhicules trois fois par an en moyenne (sur vérification ou remplacement\ndu pneu) ;\n- le fait que l’ensemble des véhicules sous contrat subissent au moins une fois par an une opération de permutation\net/ou de retournement sur jante.\n\nLa date d’engagement de l'opération est définie comme la date de signature du contrat, ou, lorsque le contrat originel\narrive à échéance ou lorsqu’il ne respecte pas l’intégralité des exigences ci-dessus, la date de signature de l’avenant\nprolongeant le contrat ou permettant de respecter l’ensemble des exigences ci-dessus.\n\nLa date d’achèvement de l’opération est définie comme la date de signature du contrat (pour la première année de\ncontrat) puis comme la date anniversaire de signature du contrat (pour les années suivantes). Le contrat est encore\nvalide minimum un an après la date d’achèvement de l'opération.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "1 an.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant des certificats en kWh cumac",
+      "text": "Type de véhicules\n\nMontant en kWh\ncumac par ensemble\n\n\nNombre d’ensembles articulés\nen gestion optimisée\nEnsemble articulé\n3 900\nX\nN\n\n\nType de véhicules\n\nMontant en kWh\ncumac par porteur\n\n\nNombre de porteurs en gestion\noptimisée\nPorteur\n1 400\nX\nN",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -99,7 +136,8 @@
   "calculation": {
     "formula_text": "5. Montant des certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -153,10 +191,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": null,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-SE-110 vA14-1.pdf"
     }
   ],
@@ -225,10 +268,10 @@
     "Transport_TRA/TRA-SE-110 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:01.075270+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

@@ -10,8 +10,8 @@
 - `Residentiel_BAR/BAR-TH-113 vA79-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf`
 
 ## Extraction automatique
-- Statut: extracted
-- Revue humaine requise: False
+- Statut: needs_review
+- Revue humaine requise: True
 - Notes: 
 
 ## Conditions detectees
@@ -39,6 +39,19 @@
 ## Formules / calcul detectes
 - 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac
+
+## Sections officielles detectees
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-2)
+- 4. Durée de vie conventionnelle (pages 2-3)
+- 5. Montant de certificats en kWh cumac (pages 3-3)
+
+## Donnees Energyco structurees
+- Titre propre: 
+- Secteur d'application: 
+- Duree de vie: 17
+- Date limite engagement: 2030-12-31
 
 ## Texte extrait
 Certificats d’économies d’énergie

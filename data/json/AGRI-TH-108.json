@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Agriculture : serres maraîchères et horticoles neuves ou existantes.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une pompe à chaleur (PAC) de type eau/eau ou air/eau pour le chauffage de serres maraîchères et\nhorticoles.\n\nLes PAC installées en relève d'une chaudière à haute performance énergétique ne donnent pas lieu à la délivrance\nde certificats d’économies d’énergie.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\n3.1 - Cas d’une PAC de puissance thermique nominale ≤ 400 kW\nL’efficacité énergétique saisonnière (ηs) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 est\nsupérieure ou égale à :\n- 111% pour les PAC moyenne et haute température,\n- 126% pour les PAC basse température.\n\nL’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de\nchauffage des serres (hors dispositif de régulation).\n\n3.2 - Cas d’une PAC de puissance thermique nominale > 400 kW :\nLe coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance\nnominales de la norme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C, est\négal ou supérieur à 3,4.\n\n3.3 - Quelle que soit la puissance thermique nominale de la PAC :\nLa preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une pompe à chaleur air/eau ou eau/eau ainsi que sa puissance thermique nominale et, pour\nles PAC de puissance thermique ≤ 400 kW, le type de pompe à chaleur (basse, moyenne ou haute température) ;\n- et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe à\nchaleur, le COP explicitement mesuré selon la norme EN 14511-2 pour une température à la sortie de\nl'échangeur thermique intérieur de 35°C, ou l’efficacité énergétique saisonnière (ηs) mesurée conformément au\nrèglement (EU) n°813/2013 du 2 août 2013.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique\neuropéen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou\ntout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la\ncoordination européenne des organismes d'accréditation.\n\nCe document indique :\n- que l’équipement de marque et référence mis en place est une pompe à chaleur air/eau ou eau/eau ainsi que\nsa puissance thermique nominale et, pour les PAC de puissance ≤ 400 kW, le type de pompe à chaleur (basse,\nmoyenne ou haute température) ;\n- et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe\nà chaleur, le COP explicitement mesuré selon la norme EN 14511-2 pour une température à la sortie de\nl'échangeur thermique intérieur de 35°C, ou l’efficacité énergétique saisonnière (ηs) mesurée conformément\nau règlement (EU) n° 813/2013 du 2 août 2013.\n\nEn cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après sa date de\nfin de validité.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "17 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour une PAC de puissance thermique nominale ≤ 400 kW :\nEfficacité énergétique\nsaisonnière (ηs)\nType de serre\nMontant en kWh cumac par\nm2 de serre chauffée\n\nSurface de serre\nchauffée (m2)\n111% ≤ ηs < 126%\nMaraîchère\n800\nX\nSmin\nHorticole\n380\n126% ≤  ηs\nMaraîchère\n970\nHorticole\n460\n\nPour une PAC de puissance thermique nominale > 400 kW :\nCOP\nType de serre\nMontant en kWh cumac par\nm2 de serre chauffée\n\nSurface de serre\nchauffée (m2)\n3,4 ≤ COP < 4\nMaraîchère\n780\nX\nSmin\nHorticole\n370\n4 ≤ COP\nMaraîchère\n1 040\nHorticole\n490\n\nLa surface chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie est la\nplus petite des valeurs suivantes (entre crochets), où S est la surface de la serre chauffée par la pompe à chaleur\n(en m2) et P est la puissance thermique nominale de cet équipement (en kW) :\n- pour une serre maraichère : [S] ou [15 x P] ;\n- pour une serre horticole : [S] ou [31 x P].",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -211,7 +248,8 @@
   "calculation": {
     "formula_text": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -287,10 +325,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2020-10-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 17,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf"
     }
   ],
@@ -335,10 +378,10 @@
     "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:56.938182+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

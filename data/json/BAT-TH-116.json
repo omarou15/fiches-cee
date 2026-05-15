@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment tertiaire existant.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un système de gestion technique du bâtiment pour un usage chauffage et, le cas échéant, eau chaude\nsanitaire, refroidissement/climatisation, éclairage et auxiliaires.\n\nDans le cas de l’outre-mer, l’usage principal à considérer est l’usage refroidissement/climatisation, et, le cas échéant,\neau chaude sanitaire, éclairage et auxiliaires.\n\nLe simple raccordement d’un bâtiment à un système existant de gestion technique du bâtiment n’est pas éligible à\nla présente fiche.\n\nS’agissant de l’usage éclairage, la présente fiche n’est pas cumulable avec la fiche portant la référence BAT-EQ-\n127.\n\nS’agissant de l’usage chauffage, la présente fiche n’est pas cumulable avec les fiches portant les références BAT-\nSE-103, BAT-TH-108 et BAT-TH-109.\n\nS’agissant de l’usage climatisation, la présente fiche n’est pas cumulable avec la fiche portant la référence BAT-TH-\n122.\n\nLa présente fiche est applicable aux opérations engagées avant le 1er janvier 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa présente fiche concerne soit l’achat d’un système neuf de gestion technique du bâtiment, soit l’amélioration d’un\nsystème existant de gestion technique du bâtiment. Dans le cas de l’amélioration d’un système existant de gestion\ntechnique du bâtiment, le système existant avant l’opération est au plus de classe C au sens de la norme\nNF EN ISO 52120-1 : 2022.\n\nLe système de gestion technique du bâtiment acquis ou amélioré assure, par un système d’automatisation centralisé,\nles fonctions de régulation de classe B ou A au sens de la norme susmentionnée pour l’usage chauffage et, le cas\néchéant, les usages eau chaude sanitaire, refroidissement/climatisation, éclairage ou auxiliaires. Dans le cas de\nl’outre-mer, l’usage principal à considérer est l’usage refroidissement/climatisation, et le cas échéant, eau chaude\nsanitaire, éclairage et auxiliaires.\n\nLa preuve de la réalisation de l’opération mentionne la mise en place d’un système de gestion technique du bâtiment\nassurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la\nnorme NF EN ISO 52120-1 : 2022.\n\nA défaut, la preuve de la réalisation mentionne la mise en place d’un système avec ses marque et référence et elle\nest accompagnée d’un document issu du professionnel réalisant l’opération.\n\nCe document indique que le système de marque et référence installé est un système de gestion technique du bâtiment\nassurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la\nnorme NF EN ISO 52120-1 : 2022.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour un système de gestion technique du bâtiment installé de classe A :\n\nMontant en kWh cumac par m2 de surface gérée par le système pour l’usage\nconsidéré\n\nZone\nClimatique\n\nSurface\ngérée par\nle\nsystème\npour\nl’usage\nconsidéré\n(m²)\nSecteur\nd’activité\n\nChauffage Refroidissement\nClimatisation\nECS* Eclairage Auxiliaire\nX\nH1\n1,1\nX\nS\n\nBureaux\n360\n233\n15\n184\n19\nH2\n0,9\n\nEnseignement**\n170\n60\n82\n46\n6\n\nCommerces***\n520\n150\n30\n-\n6\n\nHôtellerie,\nrestauration\n400\n60\n32\n65\n6\nH3\n0,6\n\nSanté\n150\n60\n87\n-\n19\n\n\n*La surface à prendre en compte pour l’usage eau chaude sanitaire (ECS) est la surface chauffée gérée par le\nsystème.\n**L’enseignement inclut les amphithéâtres, c’est-à-dire les salles de cours aménagées en gradins.\n***Les surfaces gérées par le système concernant les entrepôts de logistique, les réserves, les entrepôts (frigorifiques\nou non) et les locaux de stockage sont exclues.\n\nPour un système de gestion technique du bâtiment installé de classe B :\n\nMontant en kWh cumac par m2 de surface gérée par le système pour l’usage\nconsidéré\n\nZone\nClimatique\n\nSurface\ngérée par\nle\nsystème\npour\nl’usage\nconsidéré\n(m²)\nSecteur\nd’activité\n\nChauffage Refroidissement\nClimatisation\nECS* Eclairage Auxiliaire\nX\nH1\n1,1\nX\nS\n\nBureaux\n240\n97\n7\n90\n8\nH2\n0,9\n\nEnseignement**\n100\n23\n38\n21\n3\n\nCommerces***\n250\n44\n13\n-\n3\n\nHôtellerie,\nrestauration\n200\n23\n14\n30\n3\nH3\n0,6\n\nSanté\n90\n23\n40\n-\n9\n\n\n*La surface à prendre en compte pour l’usage eau chaude sanitaire (ECS) est la surface chauffée gérée par le\nsystème.\n**L’enseignement inclut les amphithéâtres, c’est-à-dire les salles de cours aménagées en gradins.\n***Les surfaces gérées par le système concernant les entrepôts de logistique, les réserves, les entrepôts (frigorifiques\nou non) et les locaux de stockage sont exclues.",
+      "page_start": 2,
+      "page_end": 3
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": true,
@@ -163,7 +200,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -274,10 +312,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-01-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
     }
   ],
@@ -322,10 +365,10 @@
     "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:59.784579+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

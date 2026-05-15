@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels existants en France métropolitaine.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Désembouage de l’ensemble du système de distribution par boucle d'eau d’une installation individuelle de chauffage\ndont la puissance thermique nominale est inférieure ou égale à 70 kW.\n\nLes boucles d’eau chauffées, en tout ou partie, par une pompe à chaleur de type air/eau, eau/eau ou sol/eau ou une\npompe à chaleur hybride sont exclues.\n\nLa présente fiche s’applique aux opérations engagées avant le 1er août 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe professionnel ayant réalisé l’opération est titulaire d’une qualification ou d'une certification couvrant l'entretien,\nla maintenance ou l'exploitation d'installations de chauffage hydrauliques ou de réseaux de chaleur délivrée par un\norganisme accrédité par le Comité français d'accréditation ou disposant d'un agrément tel que défini à l'article R.125-\n40 du code de la construction et de l'habitation, ou d'un signe de qualité équivalent. La liste exhaustive des\nqualifications ou certifications répondant à ces exigences est publiée sur le site du ministère chargé de l'énergie.\n\nLe désembouage comporte les étapes successives suivantes :\na) Rinçage à l’eau du système de distribution par boucle d’eau (général puis réseau par réseau) ;\nb) Injection d’un réactif désembouant et circulation selon le dosage et le temps de contact préconisés, avec\nl’utilisation d’une pompe de désembouage (général puis réseau par réseau ; dans les deux sens de circulation) ;\nc) Rinçage des circuits à l’eau claire (général puis réseau par réseau) ;\nd) Vérification du filtre (ou pot à boues) existant et/ou installation d’un ou plusieurs filtre(s) sur le ou les circuits de\nretour au générateur, ainsi que l’injection d’un réactif inhibiteur au dosage préconisé.\n\nLa preuve de la réalisation de l’opération mentionne le désembouage d’un réseau hydraulique de chauffage et, le\ncas échéant, le nombre et l’emplacement de filtres.\n\nLes documents justificatifs spécifiques à l’opération sont les suivants :\na) Un document établi, daté et signé par le professionnel réalisant l’opération, mentionnant :\n- l’adresse du bâtiment concerné par l’opération ;\n- le fait que l’opération concerne le désembouage du système de distribution par boucle d'eau d’une installation\nindividuelle de chauffage ;\n- le descriptif des étapes de l’opération de désembouage, conformément à la présente fiche ;\n- le type de générateur (chaudière, chaudière biomasse, équipement solaire thermique) et sa puissance nominale ;\n- le nombre d’émetteurs désemboués ;\n\n- la nature du réseau (cuivre, acier, multicouche, matériaux de synthèse) ;\n- le volume d’eau total du circuit ;\n- le réactif désembouant et le réactif inhibiteur utilisés.\nb) La décision de qualification ou de certification du professionnel.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "12 ans.",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "En maison individuelle :\n\nZone climatique\nMontant en kWh cumac\npar maison\nH1\n23 600\nH2\n19 700\nH3\n14 100\n\nEn appartement :\n\nZone climatique\nMontant en kWh cumac\npar appartement\nH1\n12 200\nH2\n10 200\nH3\n7 300",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -82,7 +119,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -207,10 +245,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2025-08-01",
+    "engagement_deadline": null
+  },
+  "lifetime_years": 12,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025.pdf"
     }
   ],
@@ -255,10 +298,10 @@
     "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.157986+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

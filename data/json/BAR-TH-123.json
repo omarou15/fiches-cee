@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Appartements existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un optimiseur de relance comprenant une fonction auto-adaptative sur un circuit de chauffage\ncollectif à combustible existant.\n\nLa présente opération n’est pas cumulable avec les opérations relevant de la fiche BAR-TH-118 « Système de\nrégulation par programmation d’intermittence ».\n\nLa présente fiche s’applique aux opérations engagées jusqu’au 30 juin 2028.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le dispositif est équipé d’une fonction basée sur l’apprentissage adaptatif de l’arrêt et du démarrage optimisé du\nsystème de chauffage, au sens de la norme NF EN 12098-1 « Performance énergétique des bâtiments - Régulation\npour les systèmes de chauffage - Partie 1 : Equipement de régulation pour les systèmes de chauffage à eau chaude »,\nqui recalcule les paramètres utilisés pour déterminer l'heure d'arrêt et de mise en marche, en se basant sur la\ntempérature ambiante mesurée, l’inertie du bâtiment, les paramètres d’occupation ou la météorologie locale.\n\nLe dispositif intègre une fonction « descente de température (réduit de nuit) » et une fonction « commutateur\nété/hiver » au sens de la norme NF EN 12098-1.\n\nLa mise en place est réalisée par un professionnel.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un optimiseur de relance comprenant une\nfonction auto-adaptative au sens de la norme NF EN 12098-1.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est accompagnée d’un document issu du fabricant indiquant que l’équipement de marque et\nréférence mis en place est un optimiseur de relance comprenant une fonction auto-adaptative au sens de la norme\nNF EN 12098-1.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "15 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone\nclimatique\nMontant en kWh cumac par\nappartement\nNombre\nd’appartements\nH1\n6 400\nX\nN\nH2\n5 200\nH3\n3 500",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -115,7 +152,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -178,10 +216,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": "2024-01-01",
+    "engagement_deadline": "2028-06-30"
+  },
+  "lifetime_years": 15,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf"
     }
   ],
@@ -226,10 +269,10 @@
     "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.306055+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

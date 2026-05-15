@@ -3,7 +3,8 @@
 from __future__ import annotations
 
 import re
-from datetime import datetime, timezone
+import os
+import unicodedata
 from pathlib import Path
 
 
@@ -17,9 +18,9 @@ SECTOR_MAP = {
 }
 
 SYSTEM_KEYWORDS = {
-    "heating": ["chauffage", "chaudiere", "chaudière", "pompe a chaleur", "pompe à chaleur", "pac"],
+    "heating": ["chauffage", "chaudiere", "chaudière", "pompe a chaleur", "pompe à chaleur", r"\bPAC\b"],
     "domestic_hot_water": ["eau chaude sanitaire", "ecs"],
-    "heat_pump": ["pompe a chaleur", "pompe à chaleur", "pac"],
+    "heat_pump": ["pompe a chaleur", "pompe à chaleur", r"\bPAC\b"],
     "boiler": ["chaudiere", "chaudière"],
     "hybrid_system": ["hybride"],
     "district_heating": ["reseau de chaleur", "réseau de chaleur", "raccordement"],
@@ -28,6 +29,10 @@ SYSTEM_KEYWORDS = {
     "regulation": ["regulation", "régulation", "programmateur"],
     "gtb": ["gestion technique du batiment", "gestion technique du bâtiment", "gtb"],
 }
+
+SECTION_RE = re.compile(r"(?m)^([1-5])\.\s+(.+?)\s*$")
+ETAS_RANGE_RE = re.compile(r"(?P<min>\d+)\s*%\s*(?:≤|<=)\s*Etas(?:\s*<\s*(?P<max>\d+)\s*%)?")
+DEFAULT_BUILD_TIMESTAMP = "2026-05-15T00:00:00+00:00"
 
 
 def fiche_family(code: str) -> str:
@@ -59,6 +64,114 @@ def text_item(text: str, source_file: str | None = None, page: int | None = None
     }
 
 
+def strip_accents(text: str) -> str:
+    normalized = unicodedata.normalize("NFKD", text)
+    return "".join(char for char in normalized if not unicodedata.combining(char))
+
+
+def contains_term(blob: str, term: str) -> bool:
+    if term.startswith(r"\b"):
+        return re.search(term, blob, re.I) is not None
+    return strip_accents(term).lower() in strip_accents(blob).lower()
+
+
+def parse_sections(pages: list[dict]) -> list[dict]:
+    """Parse official numbered sections and keep page spans."""
+    text_parts: list[str] = []
+    offsets: list[tuple[int, int, int]] = []
+    cursor = 0
+    for page in pages:
+        page_text = page.get("text") or ""
+        start = cursor
+        text_parts.append(page_text)
+        cursor += len(page_text)
+        offsets.append((start, cursor, int(page.get("page") or 1)))
+        text_parts.append("\n\n")
+        cursor += 2
+    full_text = "".join(text_parts)
+    matches = list(SECTION_RE.finditer(full_text))
+    sections: list[dict] = []
+    for index, match in enumerate(matches):
+        start = match.start()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(full_text)
+        section_text = full_text[match.end():end].strip()
+        sections.append({
+            "number": match.group(1),
+            "title": match.group(2).strip(),
+            "text": section_text,
+            "page_start": page_for_offset(offsets, start),
+            "page_end": page_for_offset(offsets, max(start, end - 1)),
+        })
+    return sections
+
+
+def page_for_offset(offsets: list[tuple[int, int, int]], offset: int) -> int | None:
+    for start, end, page in offsets:
+        if start <= offset <= end:
+            return page
+    return offsets[-1][2] if offsets else None
+
+
+def parse_lifetime_years(sections: list[dict]) -> int | None:
+    section = next((item for item in sections if item["number"] == "4"), None)
+    if not section:
+        return None
+    match = re.search(r"(\d+)\s+ans", section["text"], re.I)
+    return int(match.group(1)) if match else None
+
+
+def parse_engagement_deadline(text: str) -> str | None:
+    match = re.search(r"engagées jusqu’au\s+(\d{1,2})\s+([a-zéû]+)\s+(\d{4})", text, re.I)
+    if not match:
+        return None
+    months = {
+        "janvier": "01", "février": "02", "fevrier": "02", "mars": "03", "avril": "04",
+        "mai": "05", "juin": "06", "juillet": "07", "août": "08", "aout": "08",
+        "septembre": "09", "octobre": "10", "novembre": "11", "décembre": "12", "decembre": "12",
+    }
+    day, month_name, year = match.groups()
+    month = months.get(strip_accents(month_name).lower())
+    if not month:
+        return None
+    return f"{year}-{month}-{int(day):02d}"
+
+
+def parse_amount_table(text: str) -> list[dict]:
+    """Parse the common CEE amount table shape found in BAR-TH-179-like fiches."""
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    range_indexes = [(index, line, ETAS_RANGE_RE.search(line)) for index, line in enumerate(lines) if ETAS_RANGE_RE.search(line)]
+    rows: list[dict] = []
+    for pos, (start, label, match) in enumerate(range_indexes):
+        if not match:
+            continue
+        end = range_indexes[pos + 1][0] if pos + 1 < len(range_indexes) else len(lines)
+        segment = lines[start + 1:end]
+        zone_values: list[tuple[str, int]] = []
+        for idx, line in enumerate(segment[:-1]):
+            if line in {"H1", "H2", "H3"}:
+                value = parse_int(segment[idx + 1])
+                if value is not None:
+                    zone_values.append((line, value))
+        if len(zone_values) < 3:
+            continue
+        etas_min = int(match.group("min"))
+        etas_max = int(match.group("max")) if match.group("max") else None
+        for index, (zone, amount) in enumerate(zone_values[:6]):
+            rows.append({
+                "etas_min": etas_min,
+                "etas_max": etas_max,
+                "usage": "chauffage" if index < 3 else "chauffage_et_ecs",
+                "zone": zone,
+                "kwh_cumac_per_apartment": amount,
+            })
+    return rows
+
+
+def parse_int(text: str) -> int | None:
+    digits = re.sub(r"\D", "", text)
+    return int(digits) if digits else None
+
+
 def find_lines(text: str, patterns: list[str], limit: int = 12) -> list[str]:
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     found: list[str] = []
@@ -87,13 +200,13 @@ def infer_applicability(code: str, title: str, text: str) -> dict:
 
 def infer_systems(title: str, text: str) -> dict:
     blob = f"{title} {text}".lower()
-    return {key: any(keyword in blob for keyword in keywords) for key, keywords in SYSTEM_KEYWORDS.items()}
+    return {key: any(contains_term(blob, keyword) for keyword in keywords) for key, keywords in SYSTEM_KEYWORDS.items()}
 
 
 def infer_site_data_requirements(title: str, text: str, source_file: str | None) -> list[dict]:
     blob = f"{title} {text}".lower()
     requirements: list[dict] = []
-    if "pompe a chaleur" in blob or "pompe à chaleur" in blob or "pac" in blob:
+    if contains_term(blob, "pompe a chaleur") or contains_term(blob, "pompe à chaleur") or contains_term(blob, r"\bPAC\b"):
         requirements.extend([
             {"field": "puissance_pac", "unit": "kW", "required": True, "reason": "dimensionnement et controle de coherence", "source_file": source_file},
             {"field": "cop_etou_etasp", "unit": None, "required": True, "reason": "performance technique de la pompe a chaleur", "source_file": source_file},
@@ -128,6 +241,10 @@ def normalize_fiche(unique_row: dict, document_rows: list[dict], main_text: str,
     main_file = unique_row.get("CheminDepot") or (source_files[0] if source_files else None)
     version = extract_version(title) or extract_version(main_text)
     effective_date = extract_effective_date(title) or extract_effective_date(main_text)
+    sections = parse_sections(main_pages)
+    amount_table = parse_amount_table(main_text)
+    lifetime_years = parse_lifetime_years(sections)
+    engagement_deadline = parse_engagement_deadline(main_text)
 
     eligibility = [text_item(line, main_file, None, "eligibility", "low") for line in find_lines(main_text, ["condition", "eligible", "éligible", "delivrance", "délivrance"])]
     technical = [text_item(line, main_file, None, "technical_requirements", "low") for line in find_lines(main_text, ["performance", "rendement", "classe", "norme", "cop", "etasp", "efficacite", "efficacité"])]
@@ -136,7 +253,14 @@ def normalize_fiche(unique_row: dict, document_rows: list[dict], main_text: str,
     formulas = [text_item(line, main_file, None, "formula", "low") for line in find_lines(main_text, ["cumac", "kwh", "coefficient", "montant", "forfait"])]
     zones = [text_item(line, main_file, None, "zones", "low") for line in find_lines(main_text, ["zone", "h1", "h2", "h3"])]
 
-    needs_review = not formulas or not eligibility
+    critical_items = eligibility + technical + required_docs + formulas
+    needs_review = (
+        not eligibility
+        or not technical
+        or not required_docs
+        or not formulas
+        or any(item.get("confidence") == "low" for item in critical_items)
+    )
     notes = []
     if not formulas:
         notes.append("Formule non detectee automatiquement.")
@@ -163,6 +287,7 @@ def normalize_fiche(unique_row: dict, document_rows: list[dict], main_text: str,
             "operation_types": [],
             "energy_systems": [],
         },
+        "sections": sections,
         "applicability": infer_applicability(code, title, main_text),
         "systems": infer_systems(title, main_text),
         "eligibility_conditions": eligibility,
@@ -174,12 +299,18 @@ def normalize_fiche(unique_row: dict, document_rows: list[dict], main_text: str,
             "formula_text": formulas[0]["text"] if formulas else None,
             "variables": [],
             "tables": [],
+            "amount_table": amount_table,
         },
         "formulas": formulas,
         "zones": zones,
         "bonifications": [],
         "site_data_requirements": infer_site_data_requirements(title, main_text, main_file),
         "output_documents": infer_output_documents(main_text),
+        "validity": {
+            "effective_date": effective_date,
+            "engagement_deadline": engagement_deadline,
+        },
+        "lifetime_years": lifetime_years,
         "risks": [
             {
                 "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
@@ -206,7 +337,7 @@ def normalize_fiche(unique_row: dict, document_rows: list[dict], main_text: str,
         "extraction": {
             "status": "needs_review" if needs_review else "extracted",
             "tool": "scripts/build_indexes.py",
-            "extracted_at": datetime.now(timezone.utc).isoformat(),
+            "extracted_at": os.environ.get("CEE_BUILD_TIMESTAMP", DEFAULT_BUILD_TIMESTAMP),
             "needs_human_review": needs_review,
             "notes": " ".join(notes) if notes else None,
         },

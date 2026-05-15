@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Transport combiné fluvial-route appliqué au transport de marchandises.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Acquisition (achat ou location) d’une unité de transport intermodal (UTI) neuve (caisse mobile ou semi-remorque\nà prise par pinces) de toute taille (de 20 à 45 pieds) dédiée au transport combiné fluvial-route.\n\nLes containers maritimes de type ISO ne sont pas éligibles à cette opération.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance des certificats",
+      "text": "L’unité de transport intermodal est identifiée par son n° de série délivré par le constructeur de l’UTI.\n\nDans le cas d'une location, la durée du contrat de location est au minimum de 36 mois, hors reconduction tacite.\n\nLa date d'achèvement de l'opération est la date de fin du relevé de trafic prévu ci-dessous.\n\nLe délai entre la date de la preuve de réalisation de l'opération et la date d'achèvement de l'opération est au maximum\nde 12 mois.\n\nLa preuve de réalisation de l'opération mentionne :\n- le n° de série de l'UTI ;\n- le fait que l'UTI est neuve.\n\nLe document justificatif spécifique à l’opération est le ou les relevé(s) de trafic, issu de l'opérateur de transport\ncombiné listant les trajets réalisés par l’UTI, identifiée par son numéro de série, et précisant pour chaque trajet les\nlieux de départ et d’arrivée : ville, code postal, pays et la catégorie de bateaux utilisés.\n\nL'ensemble des relevés de trafic couvre une période d’essai au maximum de 6 mois consécutifs. Seuls sont pris en\ncompte les voyages, à plein ou à vide de l’UTI, effectués au départ ou à l’arrivée d’au moins un terminal de transport\ncombiné fluvial-route en France.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "12 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nGa x V\n\nAvec :\nGa = gain net actualisé en kWh cumac de l’UTI selon le bassin de navigation et le type de bateaux :\n\nType de bateaux\nSeine\nRhône\nNord\nPas-de-Calais Rhin/Moselle\nInterbassin\nBateau DEK (1 000 t)\n3 800\n3 200\n3 300\n1 200\n2 900\nBateau RHK (1 350 t)\n7 900\n7 500\n4 000\n2 600\n5 500\nBateau Grand Rhénan (2 500 t)\n8 500\n7 800\n4 700\n4 100\n6300\nBateau Convois (4 400 t)\n9 000\n8 500\n8 300\n6 500\n8 000\n\nV = nombre de voyages de l’UTI achetée ou louée relevés sur 6 mois x 2 (soit le nombre de voyages par an réalisés\npar l’UTI en transport combiné fluvial-route)\n\nOn considère que le trafic réalisé par l’UTI sur 6 mois consécutifs est maintenu en moyenne sur la durée de vie du\nmatériel.",
+      "page_start": 1,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -90,7 +127,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -128,10 +166,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 12,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Transport_TRA/TRA-EQ-107 vA17-1_0.pdf"
     }
   ],
@@ -200,10 +243,10 @@
     "Transport_TRA/TRA-EQ-107 - Annexe 2 à compter du 01-07-2026_0.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:30:00.414412+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }

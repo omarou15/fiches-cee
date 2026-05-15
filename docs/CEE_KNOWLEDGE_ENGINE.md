@@ -60,6 +60,8 @@ scripts/
 7. Construire les index de recherche.
 8. Exposer les outils via RAG ou MCP.
 
+Les enrichissements metier verifies fiche par fiche sont stockes dans `data/curated/` puis reappliques par le pipeline. Une correction metier ne doit pas etre faite uniquement dans `data/json/`, car elle serait ecrasee au prochain build.
+
 ## JSON metier ideal
 
 Une fiche CEE normalisee doit viser ces champs :
@@ -126,3 +128,5 @@ Pour eviter les reponses fragiles :
 4. Ajouter validation et rapports d'extraction.
 5. Construire un premier MCP en lecture seule.
 6. Ajouter les outils d'eligibilite et de calcul.
+
+Priorite Energyco actuelle : utiliser `BAR-TH-179` comme fiche modele, puis reproduire le meme niveau de structuration sur les autres fiches chauffage/PAC/GTB/reseaux prioritaires.

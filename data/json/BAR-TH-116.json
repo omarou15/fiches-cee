@@ -18,6 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un plancher chauffant hydraulique à basse température associé à un dispositif de régulation.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLa température de l’eau dans le réseau est inférieure ou égale à 40°C.\n\nLe dispositif de régulation permet une régulation de la température de l’eau dans le réseau, et est commandé par une\nsonde de température placée au départ de chaque réseau depuis le collecteur.\n\nLa preuve de réalisation de l’opération mentionne la mise en place d’un plancher chauffant hydraulique à basse\ntempérature associé à une régulation thermique.\n\nÀ défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est accompagnée d’un document issu du fabricant indiquant que l’équipement de marque et\nréférence installé est un plancher chauffant hydraulique à basse température avec une régulation thermique.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "50 ans.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m2 de surface de bâtiment\nchauffée par un plancher chauffant à basse température\n\nSurface\nchauffée\nen m2\nType de logement\nMaison\nindividuelle\nAppartement\navec chauffage\nindividuel\nAppartement\navec chauffage\ncollectif\nZone\nclimatique\nH1\n300\n210\n280\n\nS\nH2\n250\n170\n230\nX\nH3\n160\n110\n150\n\n\nS est la surface de bâtiment chauffée par un plancher chauffant basse température (en m2).",
+      "page_start": 1,
+      "page_end": 1
+    }
+  ],
   "applicability": {
     "residential": true,
     "tertiary": false,
@@ -82,7 +119,8 @@
   "calculation": {
     "formula_text": "5. Montant de certificats en kWh cumac",
     "variables": [],
-    "tables": []
+    "tables": [],
+    "amount_table": []
   },
   "formulas": [
     {
@@ -145,10 +183,15 @@
     "photos_required": false,
     "manufacturer_datasheet_required": false
   },
+  "validity": {
+    "effective_date": null,
+    "engagement_deadline": null
+  },
+  "lifetime_years": 50,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
-      "severity": "low",
+      "severity": "medium",
       "source_file": "Residentiel_BAR/BAR-TH-116 vA17-1.pdf"
     }
   ],
@@ -193,10 +236,10 @@
     "Residentiel_BAR/BAR-TH-116 vA17-1 - Partie A à compter du 01-07-2026.pdf"
   ],
   "extraction": {
-    "status": "extracted",
+    "status": "needs_review",
     "tool": "scripts/build_indexes.py",
-    "extracted_at": "2026-05-15T15:29:58.269003+00:00",
-    "needs_human_review": false,
+    "extracted_at": "2026-05-15T00:00:00+00:00",
+    "needs_human_review": true,
     "notes": null
   }
 }
