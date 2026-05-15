@@ -158,59 +158,51 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "- [S] et [31 x P] pour une serre horticole, ; - [S] et [5,9 x P] pour une serre maraîchère.",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant de certificats pour une serre horticole :\n\nMontant en kWh cumac par m² de\nserre chauffée\n\nSurface de serre chauffée\nen m²\n150\nX\nSmin\n\nMontant de certificats pour une serre maraîchère :\n\nMontant en kWh cumac par m² de\nserre chauffée\n\nSurface de serre chauffée\nen m²\n19\nX\nSmin\n\nLa surface de serre chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie\nest la plus petite des valeurs suivantes (entre crochets), où S est la surface de la serre chauffée par la chaudière (en\nm2) et P est la puissance thermique nominale de cet équipement (en kW) :\n- [S] et [31 x P] pour une serre horticole,\n- [S] et [5,9 x P] pour une serre maraîchère.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant de certificats pour une serre horticole : Montant en kWh cumac par m² de serre chauffée",
+    "expressions": [
+      "- [S] et [31 x P] pour une serre horticole,",
+      "- [S] et [5,9 x P] pour une serre maraîchère."
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "- [S] et [31 x P] pour une serre horticole,",
       "source_file": "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "- [S] et [31 x P] pour une serre horticole,",
+      "confidence": "medium"
     },
     {
-      "text": "Montant de certificats pour une serre horticole :",
+      "text": "- [S] et [5,9 x P] pour une serre maraîchère.",
       "source_file": "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant de certificats pour une serre horticole :",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "- [S] et [5,9 x P] pour une serre maraîchère.",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh cumac par m² de",
+      "text": "Montant de certificats pour une serre horticole : Montant en kWh cumac par m² de serre chauffée",
       "source_file": "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par m² de",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant de certificats pour une serre maraîchère :",
-      "source_file": "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant de certificats pour une serre maraîchère :",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par m² de",
-      "source_file": "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par m² de",
-      "confidence": "low"
-    },
-    {
-      "text": "La surface de serre chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie",
-      "source_file": "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "La surface de serre chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats pour une serre horticole : Montant en kWh cumac par m² de serre chauffée",
+      "confidence": "medium"
     }
   ],
   "zones": [],

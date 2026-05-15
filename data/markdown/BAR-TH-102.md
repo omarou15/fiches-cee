@@ -31,10 +31,9 @@
 - de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après la date de fin de
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- B x T x 0,196
+- T est le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100
 - Montant en kWh cumac
-- B est le besoin annuel en eau chaude sanitaire à produire par l’énergie solaire exprimé en kWh par an.
-- PES est la production solaire utile (exprimée en kWh/an).
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

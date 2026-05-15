@@ -254,67 +254,29 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :",
+    "formula_text": "Montant en kWh cumac",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Puissance nominale du groupe\nélectrogène équipé d’une PAC pour le\nmaintien en température du moteur\nMontant en kWh cumac\npar groupe électrogène\n800 kW ≤ P ≤ 1 200 kW\n167 800\n1 200 kW < P\n279 600",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :",
-      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :",
-      "confidence": "low"
-    },
-    {
-      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
-      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
-      "confidence": "low"
-    },
-    {
-      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
-      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
-      "confidence": "low"
-    },
-    {
-      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
-      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
-      "confidence": "low"
-    },
-    {
-      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
-      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
       "text": "Montant en kWh cumac",
       "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

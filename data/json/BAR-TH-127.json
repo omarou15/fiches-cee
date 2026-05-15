@@ -246,51 +246,54 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "0,10 WThC/(m3/h) au débit pondéré et sa courbe aéraulique est montante (la pression croît avec le débit, la pression",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × N × R",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      },
+      {
+        "name": "R",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Installation collective (plusieurs logements desservis) :\n\nZone\nclimatique\nMontant en kWh cumac\npar logement\n\nNombre de\nlogements\n\nFacteur correctif R\nlié au type\nd’installation\n\n\nH1\n21 800\nX\nN\nX\nR\nH2\n17 800\nH3\n11 900\n\nInstallation individuelle (un seul logement desservi) :\n\nZone\nclimatique\nMontant en\nkWh cumac\n\nFacteur correctif\nselon la surface\nhabitable\nSurface\nhabitable (m²)\n\n\nX\nFacteur correctif\nR lié au type\nd’installation\nH1\n31 600\nX\n0,3\n< 35\nR\n0,5\n35 ≤ S < 60\nH2\n25 900\n0,6\n60 ≤ S < 70\n0,7\n70 ≤ S < 90\nH3\n17 200\n1\n90 ≤ S < 110\n1,1\n110 ≤ S ≤ 130\n\n\n\n\n1,6\n>130\n\nTableau des valeurs du facteur correctif R selon le type d’installation :\n\n\nType A\nType B\n\nCaisson Basse\nConsommation\nCaisson\nstandard\nCaisson\nBasse\nPression\nCaisson Basse\nConsommation\nCaisson\nstandard\nCaisson\nBasse\nPression\nInstallation\ncollective\n\n0,96\n\n0,91\n0,76\n1\n0,95\n0,78\nInstallation\nindividuelle\n\n0,9\n\nNon\napplicable\nNon\napplicable\n1\nNon\napplicable\nNon\napplicable",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 4,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "0,10 WThC/(m3/h) au débit pondéré et sa courbe aéraulique est montante (la pression croît avec le débit, la pression",
+      "text": "Montant en kWh cumac × N × R",
       "source_file": "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "0,10 WThC/(m3/h) au débit pondéré et sa courbe aéraulique est montante (la pression croît avec le débit, la pression",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × N × R",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

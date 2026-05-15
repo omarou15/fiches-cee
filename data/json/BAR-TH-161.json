@@ -279,35 +279,47 @@
     }
   ],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWhcumac × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Diamètre\nnominal (DN)\nde la canalisation\n(mm)\nZone\nclimatique\nMontant en kWhcumac\npar housse isolante mise\nen place\n50°C ≤ Tfluide ≤ 120°C\nMontant en kWhcumac\npar housse isolante mise\nen place\nTfluide > 120°C\n\nNombre de\nhousses\nisolantes mises\nen place\n20 ≤ DN ≤ 65\nH1\n11 700\n12 900\nX\nN\nH2\n10 500\n11 600\nH3\n8 800\n9 700\n65 < DN ≤ 100\nH1\n25 100\n27 800\nH2\n22 700\n25 100\nH3\n18 900\n20 900\n100 < DN\nH1\n40 900\n45 400\nH2\n37 000\n41 000\nH3\n30 800\n34 100\n\nTfluide est la température du fluide caloporteur.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWhcumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWhcumac × N",
       "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWhcumac × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWhcumac",
       "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWhcumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWhcumac",
-      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWhcumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

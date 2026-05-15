@@ -159,35 +159,29 @@
     }
   ],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant en kWh cumac par véhicule Véhicule léger neuf M1",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Catégorie du véhicule au sens de l’article R. 311-1 du code\nde la route\nMontant en kWh\ncumac par véhicule\nVéhicule léger neuf M1\n49 100\nVéhicule utilitaire léger neuf N1 ou N2 bénéficiant de la\ndérogation de poids\n94 800\nVéhicule léger M1 issu d’une opération de rétrofit\n39 500\nVéhicule utilitaire léger N1 ou N2 bénéficiant de la\ndérogation de poids issu d’une opération de rétrofit\n76 400",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par véhicule Véhicule léger neuf M1",
+    "expressions": [],
+    "calculation_methods": [],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-117 vA76-5 à compter du 01-10-2025.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par véhicule Véhicule léger neuf M1",
       "source_file": "Transport_TRA/TRA-EQ-117 vA76-5 à compter du 01-10-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Transport_TRA/TRA-EQ-117 vA76-5 à compter du 01-10-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par véhicule",
-      "source_file": "Transport_TRA/TRA-EQ-117 vA76-5 à compter du 01-10-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par véhicule",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par véhicule Véhicule léger neuf M1",
+      "confidence": "medium"
     }
   ],
   "zones": [],

@@ -29,7 +29,7 @@
 - Le document justificatif susmentionné est présenté au bénéficiaire avant l’engagement de l’opération.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac pour un m² de toiture couvert par un × S
 - Montant en kWh cumac pour un m² de toiture couvert par un
 
 ## Sections officielles detectees

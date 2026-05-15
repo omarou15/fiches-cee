@@ -30,12 +30,9 @@
 - référence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant de certificats pour une serre horticole :
-- Montant en kWh cumac par m² de
-- Montant de certificats pour une serre maraîchère :
-- Montant en kWh cumac par m² de
-- La surface de serre chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie
+- - [S] et [31 x P] pour une serre horticole,
+- - [S] et [5,9 x P] pour une serre maraîchère.
+- Montant de certificats pour une serre horticole : Montant en kWh cumac par m² de serre chauffée
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

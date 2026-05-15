@@ -32,15 +32,8 @@
 - - pour les véhicules ayant fait l’objet d’une opération de rétrofit électrique, l’attestation de transformation, telle que
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Pour les opérations d’achat ou de location de véhicules lourds neufs, le montant de certificats d’économie d’énergie
-- Montant en kWh
-- cumac par véhicule
-- Pour les opérations de rétrofit électrique, le montant de certificats d’économie d’énergie s’établit comme suit :
-- Montant en kWh
-- cumac par véhicule
-- *Le montant de certificats indiqué concerne les véhicules spéciaux achetés ou loués ou issus d’une opération de
-- **Les montants de certificats indiqués concernent les véhicules spéciaux achetés ou loués ou issus d’une opération
+- Montant en kWh cumac par véhicule Nombre de × N
+- Montant en kWh cumac par véhicule Nombre de
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

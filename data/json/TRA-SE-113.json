@@ -18,7 +18,43 @@
     "operation_types": [],
     "energy_systems": []
   },
-  "sections": [],
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Flottes professionnelles de véhicules de catégories M1 ou N1 selon l’article R.311.1 du code de la route.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Équipement de véhicules d’une flotte professionnelle par des cartes privatives pour le carburant, associé à un\nsystème de gestion et de suivi des consommations.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "Le bénéficiaire de l'opération est la personne morale gestionnaire de la flotte de véhicule qui utilise le système de\ngestion et de suivi des consommations de carburant.\nLe professionnel mettant en œuvre l’opération est le professionnel mettant les cartes privatives à disposition du\nbénéficiaire.\n\nSont exclus :\n-\nles systèmes où plusieurs cartes d’un même professionnel sont affectées à un même véhicule ;\n-\nles systèmes où une carte est affectée à plusieurs véhicules ;\n-\nle cumul de l'opération standardisée pour plusieurs cartes provenant de plusieurs professionnels différents\npour la même flotte.\n\nL’opération inclut l’activation de la saisie du kilométrage à chaque plein, afin de mesurer les consommations.\n\nLes dates d’engagement et d’achèvement de l’opération sont confondues et correspondent à la date de création ou\nde renouvellement de chaque carte privative.\n\nLa preuve de réalisation de l’opération est le contrat conclu entre le bénéficiaire et le professionnel pour\nl’équipement de la flotte avec des cartes privatives pour le carburant comportant la possibilité de l’activation de la\nsaisie du kilométrage à chaque plein, afin de mesurer les consommations.\n\nLe document justificatif spécifique à l’opération est l’état récapitulatif, issu du professionnel et signé par le\nbénéficiaire de l'opération, des cartes privatives diffusées mentionnant pour chaque carte :\n- la carte par son numéro unique, sa date de création ou, le cas échéant, sa date de renouvellement, et le statut de la\ncarte : en création ou en renouvellement ;\n- et le véhicule associé (immatriculation ou numéro d’identification unique) avec sa catégorie (M1 ou N1), et la\nmention de l'activation de la saisie du kilométrage.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "4 ans.",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Catégories des véhicules\n\nMontant en kWh cumac\npar véhicule\n\n\n\nX\nNombre de cartes\naffectées à un seul\nvéhicule\n\nM1 ou N1\n\n750\nN\n\nNB : le nombre de cartes est identique au nombre de véhicules équipés de cartes.",
+      "page_start": 2,
+      "page_end": 2
+    }
+  ],
   "applicability": {
     "residential": false,
     "tertiary": false,
@@ -73,27 +109,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5- Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Catégories des véhicules\n\nMontant en kWh cumac\npar véhicule\n\n\n\nX\nNombre de cartes\naffectées à un seul\nvéhicule\n\nM1 ou N1\n\n750\nN\n\nNB : le nombre de cartes est identique au nombre de véhicules équipés de cartes.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-SE-113 vA14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5- Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × N",
       "source_file": "Transport_TRA/TRA-SE-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5- Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Transport_TRA/TRA-SE-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],
@@ -110,7 +166,7 @@
     "effective_date": null,
     "engagement_deadline": null
   },
-  "lifetime_years": null,
+  "lifetime_years": 4,
   "risks": [
     {
       "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",

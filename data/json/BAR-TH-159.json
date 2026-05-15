@@ -222,67 +222,31 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "valeur des déperditions à T = Tbase (kW), la quantité d’énergie fournie par la PAC hors dispositif d’appoint (kWh)",
+    "formula_text": "Montant unitaire kWh cumac Facteur",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour un appartement :\n\nEfficacité\nénergétique\nsaisonnière ηS (%)\nZone\nclimatique\nMontant unitaire\nkWh cumac\n\nFacteur\ncorrectif\nSurface\nchauffée en m²\n111 ≤ ηS < 120\nH1\n39 600\nX\n0,5\nS < 35\nH2\n33 900\n0,7\n35 ≤ S < 60\nH3\n25 600\n1\n60 ≤ S < 70\n120 ≤ ηS < 130\nH1\n48 200\n1,2\n70 ≤ S < 90\nH2\n41 300\n1,5\n90 ≤ S < 110\nH3\n31 200\n1,9\n110 ≤ S ≤ 130\n130 ≤ ηS < 140\nH1\n55 900\n2,5\n130 < S\nH2\n47 900\n\n\n\nH3\n36 200\n\n\n\n140 ≤ ηS < 150\nH1\n62 600\n\n\n\nH2\n53 600\n\n\n\nH3\n40 500\n\n\n\n150 ≤ ηS < 160\nH1\n68 400\n\n\n\nH2\n58 600\n\n\n\nH3\n44 200\n\n\n\n160 ≤ ηS\nH1\n73 400\n\n\n\nH2\n62 900\n\n\n\nH3\n47 500\n\n\n\n\nNB : la surface prise en compte est la surface chauffée par la pompe à chaleur hybride installée.\n\nPour une maison individuelle :\n\nEfficacité\nénergétique\nsaisonnière ηS (%)\nZone\nclimatique\nMontant unitaire\nkWh cumac\n\nFacteur\ncorrectif\nSurface\nchauffée en m²\n111 ≤ ηS < 120\nH1\n74 100\nX\n0,5\nS < 70\nH2\n62 800\n0,7\n70 ≤ S < 90\nH3\n45 600\n1\n90 ≤ S < 110\n120 ≤ ηS < 130\nH1\n90 300\n1,1\n110 ≤ S ≤ 130\nH2\n76 500\n1,6\n130 < S\nH3\n55 400\n\n\n130 ≤ ηS < 140\nH1\n104 800\n\n\nH2\n88 800\n\n\n\nH3\n64 400\n\n\n\n140 ≤ ηS < 150\nH1\n117 200\n\n\n\nH2\n99 400\n\n\n\nH3\n72 000\n\n\n\n150 ≤ ηS < 160\nH1\n128 000\n\n\n\nH2\n108 500\n\n\n\nH3\n78 700\n\n\n\n160 ≤ ηS\nH1\n137 500\n\n\n\nH2\n116 600\n\n\n\nH3\n84 500\n\n\n\n\nNB : la surface prise en compte est la surface chauffée par la pompe à chaleur hybride installée.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 4,
+    "unit": "Montant unitaire kWh cumac Facteur",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "valeur des déperditions à T = Tbase (kW), la quantité d’énergie fournie par la PAC hors dispositif d’appoint (kWh)",
+      "text": "Montant unitaire kWh cumac Facteur",
       "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "valeur des déperditions à T = Tbase (kW), la quantité d’énergie fournie par la PAC hors dispositif d’appoint (kWh)",
-      "confidence": "low"
-    },
-    {
-      "text": "ainsi que les besoins annuels de chaleur (kWh), pour le chauffage du logement. Cette note est remise au bénéficiaire",
-      "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "ainsi que les besoins annuels de chaleur (kWh), pour le chauffage du logement. Cette note est remise au bénéficiaire",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire",
-      "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire",
-      "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire kWh cumac Facteur",
+      "confidence": "medium"
     }
   ],
   "zones": [

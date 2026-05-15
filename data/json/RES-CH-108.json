@@ -133,43 +133,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "- la quantité de chaleur nette valorisée par l'opération (Q en kWh/an, déduction faite des pertes liées au réseau et",
-    "variables": [],
+    "formula_text": "Montant de certificats en kWh cumac × Q",
+    "variables": [
+      {
+        "name": "Q",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Quantité de chaleur nette utilisée ou valorisée\ndans le réseau de chaleur ou sur le site tiers\n(kWh/an)\n\nCoefficient d’actualisation\nQ\nX\n14,134",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "- la quantité de chaleur nette valorisée par l'opération (Q en kWh/an, déduction faite des pertes liées au réseau et",
+      "text": "Montant de certificats en kWh cumac × Q",
       "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- la quantité de chaleur nette valorisée par l'opération (Q en kWh/an, déduction faite des pertes liées au réseau et",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats en kWh cumac × Q",
+      "confidence": "medium"
     },
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant de certificats en kWh cumac",
       "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "(kWh/an)",
-      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "(kWh/an)",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient d’actualisation",
-      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient d’actualisation",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats en kWh cumac",
+      "confidence": "medium"
     }
   ],
   "zones": [

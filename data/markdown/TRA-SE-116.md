@@ -36,15 +36,8 @@ _Non detecte automatiquement._
 - correspondant au contrat de renouvellement. Ces factures comportent les mêmes mentions que celles prévues pour
 
 ## Formules / calcul detectes
-- Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que
-- Lorsqu’il est demandé un montant de certificats relevant de la partie 5.2 ci-dessous, le chargeur atteste que les
-- résultat final, avec le calcul, du montant des certificats d’économies d’énergie.
-- résultat final, avec le calcul, du montant des certificats d’économies d’énergie.
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh
-- cumac par t.km
-- Montant en kWh
-- cumac par t.km
+- Montant en kWh cumac par t.km Durée du contrat × C × R
+- Montant en kWh cumac par t.km Durée du contrat
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

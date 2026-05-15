@@ -29,7 +29,7 @@
 - Le facteur solaire de la baie protégée est soit fourni par le constructeur soit déterminé par le calcul. Le document
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par m2 de surface de baie protégée × S
 - Montant en kWh cumac par m2 de surface de baie protégée
 
 ## Sections officielles detectees

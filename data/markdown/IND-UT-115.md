@@ -27,7 +27,7 @@ _Non detecte automatiquement._
 - froid ou à défaut celle indiquée sur un document issu du fabricant du groupe de production de froid.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × P
 - Montant en kWh cumac
 
 ## Sections officielles detectees

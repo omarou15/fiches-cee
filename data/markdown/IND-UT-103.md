@@ -29,7 +29,10 @@ _Non detecte automatiquement._
 - celle indiquée sur un document issu du fabricant.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- 1x8h
+- 2x8h
+- 3x8h avec arrêt
+- 3x8h sans arrêt
 - Montant de certificats en kWh cumac
 
 ## Sections officielles detectees

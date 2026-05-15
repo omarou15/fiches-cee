@@ -134,27 +134,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Type de véhicule\nferroviaire\nMontant en kWh cumac\n\nNombre total d’heures de\nfonctionnement du moteur du véhicule\nferroviaire indiqué dans le relevé\nFret\n800\nX\nN\nTravaux sur voies\n1 800\nManœuvres/triage\n950",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-125 vA40-2 à compter du 01-04-2022_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × N",
       "source_file": "Transport_TRA/TRA-EQ-125 vA40-2 à compter du 01-04-2022_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Transport_TRA/TRA-EQ-125 vA40-2 à compter du 01-04-2022_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

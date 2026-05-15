@@ -166,67 +166,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "- un coefficient de transmission thermique inférieur ou égal à 4 W/m².K évalué selon les normes NF EN 673 pour",
-    "variables": [],
+    "formula_text": "Montant de kWh cumac par m² × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Mise en place d’une double paroi ETFE, d’une double paroi verre – ETFE ou d’une simple paroi verre :\n\n\n\n\n\n\n\n\n\nMise en place d’une double paroi en verre :\n\n\n\n\n\n\n\n\n\n\nMontant de kWh cumac par m²\nde serre équipée\n\nSurface de la serre\néquipée (m²)\nSerre maraîchère\n1 060\nX\nS\nSerre horticole\n490\n\nMontant de kWh cumac par m²\nde serre équipée\n\nSurface de la serre\néquipée (m²)\nSerre maraîchère\n1 930\nX\nS\nSerre horticole\n900",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant de kWh cumac par m²",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "- un coefficient de transmission thermique inférieur ou égal à 4 W/m².K évalué selon les normes NF EN 673 pour",
+      "text": "Montant de kWh cumac par m² × S",
       "source_file": "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- un coefficient de transmission thermique inférieur ou égal à 4 W/m².K évalué selon les normes NF EN 673 pour",
-      "confidence": "low"
-    },
-    {
-      "text": "- un coefficient de transmission lumineuse supérieur ou égal à 80 % évalué selon la norme NF EN 410.",
-      "source_file": "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- un coefficient de transmission lumineuse supérieur ou égal à 80 % évalué selon la norme NF EN 410.",
-      "confidence": "low"
-    },
-    {
-      "text": "- le coefficient de transmission thermique et le coefficient de transmission lumineuse de la couverture de serre",
-      "source_file": "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- le coefficient de transmission thermique et le coefficient de transmission lumineuse de la couverture de serre",
-      "confidence": "low"
-    },
-    {
-      "text": "ses caractéristiques (coefficient de transmission thermique et coefficient de transmission lumineuse) évaluées,",
-      "source_file": "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "ses caractéristiques (coefficient de transmission thermique et coefficient de transmission lumineuse) évaluées,",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de kWh cumac par m² × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant de kWh cumac par m²",
       "source_file": "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant de kWh cumac par m²",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant de kWh cumac par m²",
-      "source_file": "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant de kWh cumac par m²",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

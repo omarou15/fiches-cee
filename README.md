@@ -64,6 +64,7 @@ Le pipeline produit maintenant des donnees derivees exploitables :
 - `data/markdown/` : une version Markdown par fiche ;
 - `data/text/` : texte extrait ;
 - `data/indexes/chunks_cee.jsonl` : chunks RAG ;
+- `data/indexes/formulas_cee_index.json` : formules de calcul extraites des sections 5 ;
 - `data/curated/` : enrichissements metier verifies, reappliques a chaque build.
 
 ## Note

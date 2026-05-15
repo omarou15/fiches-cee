@@ -117,43 +117,55 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "kWh cumac Nombre d’appartements × N × R",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "R",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone\nclimatique\nMontant unitaire\npour un\nappartement en\nkWh cumac\n\nNombre\nd’appartements\n\nCoefficient R\nH1\n16 300\n\nN\n\nR\nH2\n14 000\nX\nX\nH3\n10 200\n\n\n\nLorsque la rénovation de la chaufferie ne met en oeuvre que des équipements relevant de la fiche BAR-TH-122,\nalors :\n- si la puissance de la (des) chaudière(s) nouvellement équipée(s) du (des) condenseur(s) est strictement inférieure\nau tiers de la puissance de la nouvelle chaufferie, le facteur R est égal au rapport de la puissance de la (des)\nchaudière(s) nouvellement équipée(s) du (des) condenseur(s) sur la puissance totale de la chaufferie après travaux ;\n- dans le cas contraire, il est égal à l’unité. Pendant la durée de vie conventionnelle, aucune opération ultérieure\nd’installation d’un équipement de production thermique dans la chaufferie ne pourra donner lieu à l’obtention de\ncertificats d’économies d’énergie.\n\nDans le cas où la rénovation de la chaufferie met en œuvre des équipements relevant de la fiche BAR-TH-122 et de\nla fiche BAR-TH-150 alors :\n\n- si la puissance de la ou des PAC nouvellement installée est strictement inférieure à 40 % de la puissance de la\nnouvelle chaufferie, le facteur R est égal au rapport de la puissance de la (des) chaudière(s) installée(s) sur la\npuissance totale de la chaufferie après travaux ;\n- dans le cas contraire, aucun certificat n’est délivré pour la fiche BAR-TH-122. Pendant la durée de vie\nconventionnelle, aucune opération ultérieure d'installation d'un équipement de production thermique dans la\nchaufferie ne pourra donner lieu à l'obtention de certificats d'économies d'énergie.\n\nNota : la puissance de la nouvelle chaufferie ne doit pas comptabiliser les éventuels équipements de secours.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "kWh cumac Nombre d’appartements",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-122 vA15-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "kWh cumac Nombre d’appartements × N × R",
       "source_file": "Residentiel_BAR/BAR-TH-122 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "kWh cumac Nombre d’appartements × N × R",
+      "confidence": "medium"
     },
     {
-      "text": "Montant unitaire",
+      "text": "kWh cumac Nombre d’appartements",
       "source_file": "Residentiel_BAR/BAR-TH-122 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-122 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient R",
-      "source_file": "Residentiel_BAR/BAR-TH-122 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient R",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "kWh cumac Nombre d’appartements",
+      "confidence": "medium"
     }
   ],
   "zones": [

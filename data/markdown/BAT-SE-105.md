@@ -29,9 +29,8 @@ _Non detecte automatiquement._
 - du réseau approuve ce document en le signant.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant unitaire en kWh
-- cumac par m2
+- Montant unitaire en kWh cumac par m2 Bureaux × S
+- Montant unitaire en kWh cumac par m2 Bureaux
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

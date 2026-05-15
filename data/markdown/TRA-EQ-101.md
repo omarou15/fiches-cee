@@ -29,9 +29,8 @@ _Non detecte automatiquement._
 - Le document justificatif spécifique à l’opération est le ou les relevé(s) de trafic, issu de l'opérateur de transport
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh
-- cumac par voyage
+- Montant en kWh cumac par voyage Nombre de voyages moyen × N
+- Montant en kWh cumac par voyage Nombre de voyages moyen
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

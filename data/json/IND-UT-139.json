@@ -191,51 +191,41 @@
     }
   ],
   "calculation": {
-    "formula_text": "a) La capacité maximale, C, de stockage de chaleur du système (en kWh) ;",
+    "formula_text": "14,134 x η x C x Nc",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\n\n14,134 x η x C x Nc\n\nη, C et Nc sont des paramètres dont les valeurs sont indiquées dans l’étude de dimensionnement :\n- η est le rendement du système de stockage (en %) ;\n- C est la capacité maximale de stockage de chaleur du système (en kWh) ;\n- Nc est le nombre annuel de cycles équivalents à 100 % de la capacité maximale du système de stockage,\neffectués sur une année représentative.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [
+      "14,134 x η x C x Nc"
+    ],
+    "calculation_methods": [
+      "direct_expression"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "a) La capacité maximale, C, de stockage de chaleur du système (en kWh) ;",
+      "text": "14,134 x η x C x Nc",
       "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "a) La capacité maximale, C, de stockage de chaleur du système (en kWh) ;",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "14,134 x η x C x Nc",
+      "confidence": "medium"
     },
     {
-      "text": "maximale de stockage de chaleur (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la",
+      "text": "Montant de certificats en kWh cumac",
       "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "maximale de stockage de chaleur (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la",
-      "confidence": "low"
-    },
-    {
-      "text": "système (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la capacité maximale du",
-      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "système (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la capacité maximale du",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "- C est la capacité maximale de stockage de chaleur du système (en kWh) ;",
-      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- C est la capacité maximale de stockage de chaleur du système (en kWh) ;",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats en kWh cumac",
+      "confidence": "medium"
     }
   ],
   "zones": [],

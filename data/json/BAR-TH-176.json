@@ -118,27 +118,31 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant en kWh cumac par logement",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh cumac par logement\n\n\n\nZone\nclimatique\nMaison\nAppartement\n\nFacteur correctif en fonction de la taille\ndu ballon d’eau chaude\nVchauffe-eau (Litres)\n\n\nH1\n9 000\n7 100\nX\n10 L ≤ Vchauffe-eau ≤ 150 L\n0,96\nH2\n8 600\n7 100\n\nVchauffe-eau > 150 L\n1,04\nH3\n8 000\n6 500",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par logement",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
       "text": "Montant en kWh cumac par logement",
       "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par logement",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

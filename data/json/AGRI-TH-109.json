@@ -126,51 +126,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant de certificats pour une serre horticole : Montant unitaire en kWh cumac par m² de serre horticole chauffée × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": "la surface de serre chauffée par la chaudière équipée du récupérateur de chaleur à condensation.",
+        "unit": null,
+        "value_type": "number",
+        "description": "la surface de serre chauffée par la chaudière équipée du récupérateur de chaleur à condensation."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant de certificats pour une serre horticole :\n\nMontant unitaire en kWh cumac par m²\nde serre horticole chauffée\n\nSurface de serre chauffée en m²\n86\nX\nS\n\nMontant de certificats pour une serre maraîchère :\n\nMontant unitaire en kWh cumac par m² de\nserre maraîchère chauffée\n\nSurface de serre chauffée en m²\n9\nX\nS\n\nS est la surface de serre chauffée par la chaudière équipée du récupérateur de chaleur à condensation.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant de certificats pour une serre horticole : Montant unitaire en kWh cumac par m² de serre horticole chauffée",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant de certificats pour une serre horticole : Montant unitaire en kWh cumac par m² de serre horticole chauffée × S",
       "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats pour une serre horticole : Montant unitaire en kWh cumac par m² de serre horticole chauffée × S",
+      "confidence": "medium"
     },
     {
-      "text": "Montant de certificats pour une serre horticole :",
+      "text": "Montant de certificats pour une serre horticole : Montant unitaire en kWh cumac par m² de serre horticole chauffée",
       "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant de certificats pour une serre horticole :",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire en kWh cumac par m²",
-      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en kWh cumac par m²",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant de certificats pour une serre maraîchère :",
-      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant de certificats pour une serre maraîchère :",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire en kWh cumac par m² de",
-      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en kWh cumac par m² de",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats pour une serre horticole : Montant unitaire en kWh cumac par m² de serre horticole chauffée",
+      "confidence": "medium"
     }
   ],
   "zones": [],

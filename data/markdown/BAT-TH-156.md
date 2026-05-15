@@ -29,9 +29,7 @@ _Non detecte automatiquement._
 - du réseau concernée ou à défaut celle indiquée sur un document issu du fabricant du groupe mono-compresseur ou
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac par kW
-- Coefficient
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

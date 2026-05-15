@@ -198,43 +198,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "- la liste des éléments constituant la toiture et leurs caractéristiques techniques (couleur ou coefficient d’absorption,",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Type de logement\nMontant en kWh cumac\npar m² de toiture protégée\n\nSurface de toiture\nprotégée (en m²)\nMaison individuelle\n400\nX\nS\nBâtiment collectif\n520",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "- la liste des éléments constituant la toiture et leurs caractéristiques techniques (couleur ou coefficient d’absorption,",
+      "text": "Montant en kWh cumac × S",
       "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- la liste des éléments constituant la toiture et leurs caractéristiques techniques (couleur ou coefficient d’absorption,",
-      "confidence": "low"
-    },
-    {
-      "text": "(couleur ou coefficient d’absorption, résistance thermique, émissivité, … selon la nature des matériaux).",
-      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "(couleur ou coefficient d’absorption, résistance thermique, émissivité, … selon la nature des matériaux).",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

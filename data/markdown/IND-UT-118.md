@@ -29,18 +29,13 @@ _Non detecte automatiquement._
 - document issu du fabricant.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWh cumac
-- Coefficient multiplicateur selon le
-- Montant en
-- kWh cumac
-- Coefficient multiplicateur selon le
-- Montant en
-- kWh cumac
+- 1x8
+- 2x8
+- 3x8 avec arrêt le week-end
+- 3x8 sans arrêt le week-end
+- Montant en kWh cumac par kW
 
 ## Sections officielles detectees
-- 3. Brûleur avec dispositif de récupération de chaleur sur four industriel (pages 1-1)
 - 1. Secteur d’application (pages 1-1)
 - 2. Dénomination (pages 1-1)
 - 3. Conditions pour la délivrance de certificats (pages 1-1)

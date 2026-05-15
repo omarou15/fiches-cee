@@ -142,67 +142,77 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "C x Y x TK ; TK : t.km relevées sur une période maximale de 6 mois x 2. ; C’ x Y x K ; K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2.",
+    "variables": [
+      {
+        "name": "P",
+        "label": "la puissance maximale du moteur du pousseur (en kW). Y : gain dû à l’équipement Y = 0,05 pour l’installation d’un débitmètre ou d’un économètre, Y = 0,07 pour l’installation d’un débitmètre ou d’un économètre, et d'un ensemble d’équipements de navigation composé d’un loch, d’un anémomètre, d’un GPS, d’un compte-tours et d’un sondeur. K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2. On considère que le trafic réalisé par l’unité de transport flu",
+        "unit": "m",
+        "value_type": "number",
+        "description": "la puissance maximale du moteur du pousseur (en kW). Y : gain dû à l’équipement Y = 0,05 pour l’installation d’un débitmètre ou d’un économètre, Y = 0,07 pour l’installation d’un débitmètre ou d’un économètre, et d'un ensemble d’équipements de navigation composé d’un loch, d’un anémomètre, d’un GPS, d’un compte-tours et d’un sondeur. K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2. On considère que le trafic réalisé par l’unité de transport flu"
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Cas du matériel installé sur un automoteur :\nLe montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nC x Y x TK\n\nC : consommation énergétique actualisée, en kWh cumac/tonne.kilomètre, par type d’unité de transport fluvial et\npar bassin de navigation, donnée par le tableau suivant :\n\n\nC en kWh cumac par t.km selon\n la capacité de chargement de l’automoteur et le bassin de navigation\nGamme de port en lourd\n(tonne)\nSeine\nRhône\nNord Pas-\nde-Calais\nRhin /\nMoselle\nInterbassin\nM ≤ 400 t\n0,80\n0,91\n0,81\n0,95\n0,87\n400 t < M ≤ 650 t\n0,74\n0,80\n0,74\n0,94\n0,81\n650 t < M ≤ 1000 t\n0,65\n0,69\n0,68\n0,83\n0,71\n1000 t < M ≤ 1500 t\n0,36\n0,38\n0,63\n0,73\n0,52\n1500 t < M\n0,32\n0,36\n0,58\n0,63\n0,47\n\nM capacité maximale de chargement de l’automoteur (en tonnes).\n\nY : gain dû à l’équipement\nY = 0,05 pour l’installation d’un débitmètre ou d’un économètre,\nY = 0,07 pour l’installation d’un débitmètre ou d’un économètre, et d'un ensemble\nd’équipements de navigation composé d’un loch, d’un anémomètre, d’un GPS, d’un\ncompte-tours et d’un sondeur.\n\nTK : t.km relevées sur une période maximale de 6 mois x 2.\n\nOn considère que le trafic réalisé par l’unité de transport fluvial sur six mois consécutifs est maintenu en moyenne\nsur la durée de vie des équipements.\n\n\nCas du matériel installé sur un pousseur :\nLe montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nC’ x Y x K\n\nC’ : consommation énergétique actualisée en kWh cumac/kilomètre, par type de pousseur et par bassin de\nnavigation, donnée par le tableau suivant :\n\nC’ en kWh cumac par km selon la puissance du pousseur\net le bassin de navigation\nGamme de puissance\n(en kW)\nSeine\nRhône\nNord Pas-\nde-Calais\nRhin /\nMoselle\nInterbassin\n295 kW ≤ P ≤ 590 kW\n400\n420\n310\n-\n370\n590 kW < P ≤ 880 kW\n610\n650\n430\n-\n560\n880 kW < P\n770\n750\n600\n1 300\n840\n\nP est la puissance maximale du moteur du pousseur (en kW).\n\nY : gain dû à l’équipement\nY = 0,05 pour l’installation d’un débitmètre ou d’un économètre,\nY = 0,07 pour l’installation d’un débitmètre ou d’un économètre, et d'un ensemble\nd’équipements de navigation composé d’un loch, d’un anémomètre, d’un GPS, d’un\ncompte-tours et d’un sondeur.\n\nK : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2.\n\nOn considère que le trafic réalisé par l’unité de transport fluvial sur six mois consécutifs est maintenu en moyenne\nsur la durée de vie des équipements.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
+    "expressions": [
+      "C x Y x TK",
+      "TK : t.km relevées sur une période maximale de 6 mois x 2.",
+      "C’ x Y x K",
+      "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2."
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "C x Y x TK",
       "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "C x Y x TK",
+      "confidence": "medium"
+    },
+    {
+      "text": "TK : t.km relevées sur une période maximale de 6 mois x 2.",
+      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "TK : t.km relevées sur une période maximale de 6 mois x 2.",
+      "confidence": "medium"
+    },
+    {
+      "text": "C’ x Y x K",
+      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "C’ x Y x K",
+      "confidence": "medium"
+    },
+    {
+      "text": "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2.",
+      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2.",
+      "confidence": "medium"
     },
     {
       "text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
       "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
-      "confidence": "low"
-    },
-    {
-      "text": "C : consommation énergétique actualisée, en kWh cumac/tonne.kilomètre, par type d’unité de transport fluvial et",
-      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "C : consommation énergétique actualisée, en kWh cumac/tonne.kilomètre, par type d’unité de transport fluvial et",
-      "confidence": "low"
-    },
-    {
-      "text": "C en kWh cumac par t.km selon",
-      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "C en kWh cumac par t.km selon",
-      "confidence": "low"
-    },
-    {
-      "text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
-      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
-      "confidence": "low"
-    },
-    {
-      "text": "C’ : consommation énergétique actualisée en kWh cumac/kilomètre, par type de pousseur et par bassin de",
-      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "C’ : consommation énergétique actualisée en kWh cumac/kilomètre, par type de pousseur et par bassin de",
-      "confidence": "low"
-    },
-    {
-      "text": "C’ en kWh cumac par km selon la puissance du pousseur",
-      "source_file": "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "C’ en kWh cumac par km selon la puissance du pousseur",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

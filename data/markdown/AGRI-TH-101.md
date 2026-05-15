@@ -25,9 +25,8 @@ _Non detecte automatiquement._
 - La preuve de la réalisation de l’opération mentionne la mise en place d'un dispositif de stockage d'eau chaude de
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant unitaire en kWh
-- cumac par m²
+- Montant unitaire en kWh cumac par m² Surface de serres chauffée × S
+- Montant unitaire en kWh cumac par m² Surface de serres chauffée
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

@@ -41,19 +41,14 @@
 - Les documents justificatifs spécifiques à l’opération sont :
 
 ## Formules / calcul detectes
-- garantie par le contrat est respectée et dans le cas contraire le montant de la pénalité due. Le plan de
-- 5. Montant de certificats en kWh cumac
+- Montant unitaire en kWh cumac par m² de surface chauffée × S × F
 - Montant unitaire en kWh cumac par m² de surface chauffée
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)
 - 2. Dénomination (pages 1-1)
-- 3. Conditions pour la délivrance de certificats (pages 1-1)
-- 1. Le contrat est un contrat de services pour la maintenance, l’exploitation et l’optimisation des (pages 1-1)
-- 2. La situation de référence permet de déterminer la consommation de référence pour la performance (pages 1-4)
-- 3. L'économie d'énergie garantie par le CPE Services et décrite au point 1 est supérieure ou égale à (pages 3-3)
+- 3. Conditions pour la délivrance de certificats (pages 1-3)
 - 4. L'engagement de résultat est garanti sur une durée déterminée contractuellement. La durée éligible (pages 3-3)
-- 5. Le CPE comporte un plan de mesure et de vérification de la performance énergétique, faisant l'objet (pages 3-3)
 - 4. Durée de vie conventionnelle (pages 3-4)
 - 5. Montant de certificats en kWh cumac (pages 4-4)
 

@@ -101,27 +101,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m2 de × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": "la surface de bâtiment chauffée par un plancher chauffant basse température (en m2).",
+        "unit": "m2",
+        "value_type": "number",
+        "description": "la surface de bâtiment chauffée par un plancher chauffant basse température (en m2)."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone\nclimatique\nMontant en kWh cumac par m2 de\nsurface de bâtiment chauffée par un\nplancher chauffant basse température\n\nSurface\nchauffée\n(m²)\n\nSecteur d'activité\nFacteur\ncorrectif\nH1\n210\n\nS\n\nBureaux\n1,2\nH2\n170\nX\nX Enseignement\n0,8\nH3\n110\n\n\nCommerce\n0,9\n\n\n\n\n\nHôtellerie, restauration\n1,3\n\n\n\n\n\nSanté\n0,9\n\n\n\n\n\nAutres secteurs\n0,8\n\nS est la surface de bâtiment chauffée par un plancher chauffant basse température (en m2).",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 1,
+    "unit": "Montant en kWh cumac par m2 de",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-103 v A31-2 à compter du 01-10-2019_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m2 de × S",
       "source_file": "Tertiaire_BAT/BAT-TH-103 v A31-2 à compter du 01-10-2019_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m2 de × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par m2 de",
       "source_file": "Tertiaire_BAT/BAT-TH-103 v A31-2 à compter du 01-10-2019_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par m2 de",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

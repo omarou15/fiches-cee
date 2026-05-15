@@ -158,35 +158,54 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par appartement Nombre × N × R",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      },
+      {
+        "name": "R",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone\nclimatique\nMontant en kWh\ncumac par appartement\n\nNombre\nd’appartements\n\nFacteur correctif\nR lié au type\nd’installation\n\n\nH1\n17 700\nX\nN\nX\nR\nH2\n14 500\nH3\n9 700\n\nTableau des valeurs du facteur correctif R :\nVentilation hybride hygroréglable de type A\nVentilation hybride hygroréglable de type B\nExtracteur basse\nconsommation\nExtracteur standard\nExtracteur basse\nconsommation\nExtracteur standard\n0,98\n0,93\n1\n0,95",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par appartement Nombre",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par appartement Nombre × N × R",
       "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par appartement Nombre × N × R",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "Montant en kWh cumac par appartement Nombre",
       "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par appartement",
-      "source_file": "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par appartement",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par appartement Nombre",
+      "confidence": "medium"
     }
   ],
   "zones": [

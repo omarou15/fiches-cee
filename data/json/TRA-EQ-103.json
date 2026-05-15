@@ -165,27 +165,61 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant des certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par véhicule × M1 × N × N1",
+    "variables": [
+      {
+        "name": "M1",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "N1",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant des certificats en kWh cumac",
+    "formula_section_text": "Catégorie des\nvéhicules\nMontant en kWh cumac par véhicule\néquipé de télématique embarquée\n\n\n\n\n\nX\nNombre de véhicules\néquipés par catégorie\nM1\n1 600\nN\nN1\n2 700\nN\nN2 et N3\n27 000\nN\nM2 et M3\n19 900\n\nN",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par véhicule",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-103 vA14-1_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant des certificats en kWh cumac",
+      "text": "Montant en kWh cumac par véhicule × M1 × N × N1",
       "source_file": "Transport_TRA/TRA-EQ-103 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant des certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant des certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par véhicule × M1 × N × N1",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par véhicule",
       "source_file": "Transport_TRA/TRA-EQ-103 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant des certificats en kWh cumac",
       "quote": "Montant en kWh cumac par véhicule",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

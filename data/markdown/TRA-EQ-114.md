@@ -31,7 +31,7 @@
 - - pour les véhicules ayant fait l’objet d’une opération de rétrofit électrique, l’attestation de
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × N
 - Montant en kWh cumac
 
 ## Sections officielles detectees

@@ -198,91 +198,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Pour les PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
-    "variables": [],
+    "formula_text": "Montant en kWhc/m² Surface totale × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Cas d’une PAC de puissance calorifique nominale inférieure ou égale à 12 kW :\n\nZone\ngéographique\nMontant en\nkWhc/m²\nSurface totale\nchauffée par\nla PAC (m²)\nSecteur\nFacteur\ncorrectif\nH1\n860\nS\nHôtellerie,\nrestauration\n0,7\nH2\n760\nX\nX Santé\n1,1\nH3\n620\nEnseignement\n0,8\nBureaux\n1,2\nCommerces\n0,9\nAutres\n0,7\n\nCas d’une PAC de puissance calorifique nominale supérieure à 12 kW :\n\nZone\ngéographique\nMontant en\nkWhc/m²\nSurface totale\nchauffée par la\nPAC (m²)\nSecteur\nFacteur\ncorrectif\nH1\n870\nS\nHôtellerie,\nrestauration\n0,7\nH2\n770\nX\nX Santé\n1,1\nH3\n630\nEnseignement\n0,8\nBureaux\n1,2\nCommerces\n0,9\n\nAutres\n0,7\n\nCas d’une PAC en toiture (« rooftop ») :\n\nZone\ngéographique\nMontant en\nkWhc/m²\nSurface totale\ntraitée (m²)\nSecteur\nFacteur\ncorrectif\nH1\n660\nS\nHôtellerie,\nrestauration\n0,7\nH2\n540\nX\nX Santé\n1,1\nH3\n360\nEnseignement\n0,8\nBureaux\n1,2\nCommerces\n0,9\nAutres\n0,7",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWhc/m² Surface totale",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Pour les PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
+      "text": "Montant en kWhc/m² Surface totale × S",
       "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Pour les PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWhc/m² Surface totale × S",
+      "confidence": "medium"
     },
     {
-      "text": "- 4,2 pour le coefficient de performance saisonnier (SCOP) ;",
+      "text": "Montant en kWhc/m² Surface totale",
       "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- 4,2 pour le coefficient de performance saisonnier (SCOP) ;",
-      "confidence": "low"
-    },
-    {
-      "text": "- pour une PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
-      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- pour une PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWhc/m²",
-      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWhc/m²",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWhc/m²",
-      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWhc/m²",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWhc/m²",
-      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWhc/m²",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWhc/m² Surface totale",
+      "confidence": "medium"
     }
   ],
   "zones": [

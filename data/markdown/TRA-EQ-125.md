@@ -29,7 +29,7 @@
 - Le délai entre la date de la preuve de réalisation et la date d’achèvement de l’opération est au maximum de 18 mois.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × N
 - Montant en kWh cumac
 
 ## Sections officielles detectees

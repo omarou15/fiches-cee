@@ -174,67 +174,85 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "1x8h ; 2x8h ; 3x8h avec arrêt le week-end ; 3x8h sans arrêt le week-end",
+    "variables": [
+      {
+        "name": "L",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      },
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Mise en place d’une isolation thermique sur une tuyauterie ou un équipement cylindrique de diamètre inférieur à\n508 mm (20’’) :\n\nTempérature du\nfluide (°C)\nMontant en\nkWh cumac\npar m\n\nCoefficient multiplicateur selon le\nmode de fonctionnement de\nl’installation industrielle qui a été\nisolée\n\nLongueur\nisolée en m\n- 80°C < T ≤ -10°C\n300\nX\n1x8h\n1\nX\nL\n- 10°C < T ≤ 10°C\n180\n2x8h\n2,2\n40°C < T ≤ 100°C\n1050\n3x8h avec arrêt le week-end\n3\n100°C < T ≤ 300°C\n1900\n3x8h sans arrêt le week-end\n4,2\nT > 300°C\n1850\n\nMise en place d’une isolation thermique sur une surface plane, une tuyauterie ou un équipement cylindrique de\ndiamètre supérieur ou égal à 508 mm (20’’) :\n\nTempérature du\nfluide (°C)\nMontant en\nkWh cumac\npar m2\n\nCoefficient multiplicateur selon le\nmode de fonctionnement du\nl’installation industrielle qui a été\nisolée\n\nSurface\nd’isolant\nposé en m2\n- 80°C < T ≤ - 10°C\n450\nX\n1x8h\n1\nX\nS\n- 10°C < T ≤ 10°C\n400\n2x8h\n2,2\n40°C < T ≤ 100°C\n1300\n3x8h avec arrêt le week-end\n3\n100°C < T≤ 300°C\n2050\n3x8h sans arrêt le week-end\n4,2\nT > 300°C\n1850\n\n\nLorsque l’isolant est mis en œuvre avec un isolant multicouche ou nécessite la pose de plusieurs couches du même\nisolant, la surface, en m², ou les mètres linéaires, en m, sont égaux à la surface, ou aux mètres linéaires, de la\npremière couche d’isolant.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac par m",
+    "expressions": [
+      "1x8h",
+      "2x8h",
+      "3x8h avec arrêt le week-end",
+      "3x8h sans arrêt le week-end"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1x8h",
       "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8h",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en",
+      "text": "2x8h",
       "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8h",
+      "confidence": "medium"
     },
     {
-      "text": "kWh cumac",
+      "text": "3x8h avec arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h avec arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "Coefficient multiplicateur selon le",
+      "text": "3x8h sans arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient multiplicateur selon le",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h sans arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en",
+      "text": "Montant en kWh cumac par m",
       "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient multiplicateur selon le",
-      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient multiplicateur selon le",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m",
+      "confidence": "medium"
     }
   ],
   "zones": [],

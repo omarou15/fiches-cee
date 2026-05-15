@@ -150,27 +150,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Application\nMontant en kWh cumac\npar kW\n\nPuissance nominale du\nmoto-variateur en kW\nPompage\n17 800\nX\nP\nVentilation\n17 600\nCompresseur d’air\n9 200\nCompresseur frigorifique\n14 500\nAutre application\n11 400\n\nLa puissance nominale à retenir est celle figurant sur la plaque signalétique du moto-variateur ou à défaut celle\nindiquée sur un document issu du fabricant.\n\nLorsque l’opération concerne la mise en place de plusieurs moto-variateurs synchrones à aimants permanents ou à\nreluctance de caractéristiques identiques, la puissance nominale à prendre en compte dans le calcul est la somme,\npar type d’application, des puissances nominales de chaque équipement.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-114 v A24-2 après le 01-04-2017_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × P",
       "source_file": "Industrie_IND/IND-UT-114 v A24-2 après le 01-04-2017_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × P",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Industrie_IND/IND-UT-114 v A24-2 après le 01-04-2017_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

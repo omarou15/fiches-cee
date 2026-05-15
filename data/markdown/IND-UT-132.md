@@ -34,7 +34,9 @@
 - de réalisation de l’opération ou à défaut sur un document issu du fabricant.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- 4 900 x P + 2 600
+- 700 x P + 12 000
+- 1 600 x P
 - Montants en kWh cumac par kW
 
 ## Sections officielles detectees

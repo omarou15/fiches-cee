@@ -27,7 +27,7 @@ _Non detecte automatiquement._
 - du dispositif. Elle est complétée par un document issu du fabricant indiquant que le dispositif de marque et référence
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par m² × S
 - Montant en kWh cumac par m²
 
 ## Sections officielles detectees

@@ -28,8 +28,7 @@ _Non detecte automatiquement._
 - - les services suivants : réglage des géométries, contrôle des pressions, recreusage, permutation et/ou retournement
 
 ## Formules / calcul detectes
-- 5. Montant des certificats en kWh cumac
-- Montant en kWh cumac
+- Montant en kWh cumac × N
 - Montant en kWh cumac
 
 ## Sections officielles detectees

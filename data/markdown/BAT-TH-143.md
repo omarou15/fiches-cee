@@ -32,22 +32,13 @@
 - Ce document indique que les équipements possèdent le label énergétique d’EUROVENT de classe A ou justifie de
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant des certificats d’économies d’énergie en mode chauffage Mch
-- Montant en kWh
-- cumac par m2
-- Montant des certificats d’économies d’énergie en mode rafraîchissement Mra
-- Montant en kWh
-- cumac par m2
-- Le montant des certificats d’économies d’énergie de l’opération est égal à Mch + Mra
+- Montant des certificats d’économies d’énergie en mode chauffage Mch Montant en kWh cumac par m2 × S
+- Montant des certificats d’économies d’énergie en mode chauffage Mch Montant en kWh cumac par m2
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)
 - 2. Dénomination (pages 1-1)
 - 3. Conditions pour la délivrance de certificats (pages 1-1)
-- 1. la dépose des ventilo-convecteurs existants, (pages 1-1)
-- 2. la mise en place de ventilo-convecteurs, (pages 1-1)
-- 3. le label énergétique des ventilo-convecteurs selon EUROVENT. (pages 1-1)
 - 4. Durée de vie conventionnelle (pages 1-2)
 - 5. Montant de certificats en kWh cumac (pages 2-2)
 

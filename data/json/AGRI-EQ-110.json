@@ -142,27 +142,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kW thermique installé Puissance thermique × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone Climatique\nMontant en kWh cumac par\nkW thermique installé\n\nPuissance thermique\ntotale installée (kW)\n\nProduits et co-produits\n\n\nAgricoles\nForestiers\n\nSystème complet neuf\nde séchage\nH1\n42 700\n102 600\nx\nP\nH2\n48 500\n116 600\nH3\n55 700\n134 100\nToiture solaire couplée\nau système\nd’insufflation d’air\nexistant\nH1\n12 200\n16 900\nH2\n13 900\n19 300\nH3\n17 400\n24 100",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW thermique installé Puissance thermique",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-EQ-110 vA38-1 à compter du 31-07-2021.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW thermique installé Puissance thermique × P",
       "source_file": "Agriculture_AGRI/AGRI-EQ-110 vA38-1 à compter du 31-07-2021.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW thermique installé Puissance thermique × P",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh cumac par",
+      "text": "Montant en kWh cumac par kW thermique installé Puissance thermique",
       "source_file": "Agriculture_AGRI/AGRI-EQ-110 vA38-1 à compter du 31-07-2021.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW thermique installé Puissance thermique",
+      "confidence": "medium"
     }
   ],
   "zones": [

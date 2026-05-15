@@ -31,19 +31,13 @@
 - - un document issu du fabricant décrivant les fonctions du simulateur et précisant les marque et référence de cet
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- kWh cumac pour un
+- kWh cumac pour un simulateur Nombre de × N
+- kWh cumac pour un simulateur Nombre de
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)
 - 2. Dénomination (pages 1-1)
-- 3. Conditions pour la délivrance de certificats (pages 1-1)
-- 1. De restituer un environnement réaliste avec notamment l'utilisation d'un poste de conduite de véhicule léger (pages 1-1)
-- 2. De proposer un large éventail de situations pédagogiques telles que conduite, manœuvres par tous les temps (pages 1-1)
-- 3. D'exercer un suivi et un contrôle personnalisé de l'action de chaque stagiaire en offrant au formateur un outil (pages 1-2)
-- 1. De restituer un environnement réaliste avec notamment l'utilisation d'une cabine réelle ou d'un poste de (pages 2-2)
-- 2. De proposer un large éventail de situations pédagogiques telles que conduite, manœuvres par tous les temps (pages 2-2)
-- 3. D'exercer un suivi et un contrôle personnalisé de l'action de chaque stagiaire en offrant au formateur un outil (pages 2-2)
+- 3. Conditions pour la délivrance de certificats (pages 1-2)
 - 4. Durée de vie conventionnelle (pages 2-2)
 - 5. Montant de certificats en kWh cumac (pages 2-2)
 

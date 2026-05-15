@@ -198,35 +198,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour un système de gestion technique du bâtiment installé de classe A :\n\nMontant en kWh cumac par m2 de surface gérée par le système pour l’usage\nconsidéré\n\nZone\nClimatique\n\nSurface\ngérée par\nle\nsystème\npour\nl’usage\nconsidéré\n(m²)\nSecteur\nd’activité\n\nChauffage Refroidissement\nClimatisation\nECS* Eclairage Auxiliaire\nX\nH1\n1,1\nX\nS\n\nBureaux\n360\n233\n15\n184\n19\nH2\n0,9\n\nEnseignement**\n170\n60\n82\n46\n6\n\nCommerces***\n520\n150\n30\n-\n6\n\nHôtellerie,\nrestauration\n400\n60\n32\n65\n6\nH3\n0,6\n\nSanté\n150\n60\n87\n-\n19\n\n\n*La surface à prendre en compte pour l’usage eau chaude sanitaire (ECS) est la surface chauffée gérée par le\nsystème.\n**L’enseignement inclut les amphithéâtres, c’est-à-dire les salles de cours aménagées en gradins.\n***Les surfaces gérées par le système concernant les entrepôts de logistique, les réserves, les entrepôts (frigorifiques\nou non) et les locaux de stockage sont exclues.\n\nPour un système de gestion technique du bâtiment installé de classe B :\n\nMontant en kWh cumac par m2 de surface gérée par le système pour l’usage\nconsidéré\n\nZone\nClimatique\n\nSurface\ngérée par\nle\nsystème\npour\nl’usage\nconsidéré\n(m²)\nSecteur\nd’activité\n\nChauffage Refroidissement\nClimatisation\nECS* Eclairage Auxiliaire\nX\nH1\n1,1\nX\nS\n\nBureaux\n240\n97\n7\n90\n8\nH2\n0,9\n\nEnseignement**\n100\n23\n38\n21\n3\n\nCommerces***\n250\n44\n13\n-\n3\n\nHôtellerie,\nrestauration\n200\n23\n14\n30\n3\nH3\n0,6\n\nSanté\n90\n23\n40\n-\n9\n\n\n*La surface à prendre en compte pour l’usage eau chaude sanitaire (ECS) est la surface chauffée gérée par le\nsystème.\n**L’enseignement inclut les amphithéâtres, c’est-à-dire les salles de cours aménagées en gradins.\n***Les surfaces gérées par le système concernant les entrepôts de logistique, les réserves, les entrepôts (frigorifiques\nou non) et les locaux de stockage sont exclues.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage × S",
       "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage",
       "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage",
-      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

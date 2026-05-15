@@ -41,9 +41,8 @@
 - du bénéficiaire, adresse du site), par date d’acquisition, par référence de la preuve de réalisation de l’opération ainsi
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWh cumac
+- Montant en kWh cumac X × NA × NB × NC × A × Y × B × C
+- Montant en kWh cumac X
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

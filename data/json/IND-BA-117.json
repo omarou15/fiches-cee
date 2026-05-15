@@ -158,91 +158,78 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "1 x 8 ; 2 x 8 ; 3 x 8 avec arrêt ; 3 x 8 sans arrêt",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Panneaux et tubes  radiants\nZone\nclimatique\nMontant unitaire en\nkWh cumac par kW\n\nMode d’occupation\ndes locaux\nCoefficient\nmultiplicateur\n\nPuissance utile totale\ninstallée en kW\nH1\n650\nX\n1 x 8\n1\nX\nP\nH2\n740\n2 x 8\n2,2\nH3\n790\n3 x 8 avec arrêt\nle week-end\n3\n\n\n\n3 x 8 sans arrêt\nle week-end\n4,2\n\nAérothermes à condensation non modulants - Générateurs d'air chaud à condensation non  modulants\nZone\nclimatique\nMontant unitaire en\nkWh cumac par kW\n\nMode d’occupation\ndes locaux\nCoefficient\nmultiplicateur\n\nPuissance utile totale\ninstallée en kW\nH1\n1300\nX\n1 x 8\n1\nX\nP\nH2\n1100\n2 x 8\n2,2\nH3\n590\n3 x 8 avec arrêt\nle week-end\n3\n\n\n\n3 x 8 sans arrêt\nle week-end\n4,2\n\nAérothermes à condensation modulants - Générateurs d'air chaud à condensation modulants\nZone\nclimatique\nMontant unitaire en\nkWh cumac par kW\n\nMode d’occupation\ndes locaux\nCoefficient\nmultiplicateur\n\nPuissance utile totale\ninstallée en kW\nH1\n2100\nX\n1 x 8\n1\nX\nP\nH2\n1700\n2 x 8\n2,2\nH3\n1000\n3 x 8 avec arrêt\nle week-end\n3\n\n\n\n3 x 8 sans arrêt\nle week-end\n4,2\n\nLa puissance utile à retenir est celle figurant sur la plaque signalétique de l'appareil ou à défaut celle indiquée sur\nun document du fabricant.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant unitaire en kWh cumac par kW Mode d’occupation",
+    "expressions": [
+      "1 x 8",
+      "2 x 8",
+      "3 x 8 avec arrêt",
+      "3 x 8 sans arrêt"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1 x 8",
       "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1 x 8",
+      "confidence": "medium"
     },
     {
-      "text": "Montant unitaire en",
+      "text": "2 x 8",
       "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2 x 8",
+      "confidence": "medium"
     },
     {
-      "text": "kWh cumac par kW",
+      "text": "3 x 8 avec arrêt",
       "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac par kW",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3 x 8 avec arrêt",
+      "confidence": "medium"
     },
     {
-      "text": "Coefficient",
+      "text": "3 x 8 sans arrêt",
       "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3 x 8 sans arrêt",
+      "confidence": "medium"
     },
     {
-      "text": "Montant unitaire en",
+      "text": "Montant unitaire en kWh cumac par kW Mode d’occupation",
       "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac par kW",
-      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire en",
-      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac par kW",
-      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac par kW Mode d’occupation",
+      "confidence": "medium"
     }
   ],
   "zones": [

@@ -28,8 +28,10 @@ _Non detecte automatiquement._
 - indiquée sur un document issu du fabricant. Elle est définie par l’article R.224-20 du code de l’environnement
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Le montant de certificats d’économies d’énergie dépend de la zone géographique dans laquelle se situe l’installation.
+- 1x8h
+- 2x8h
+- 3x8h avec arrêt le week-end
+- 3x8h sans arrêt le week-end
 - Montant en kWh cumac par kW selon la
 
 ## Sections officielles detectees

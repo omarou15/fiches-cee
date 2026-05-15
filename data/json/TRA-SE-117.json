@@ -278,75 +278,29 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que",
+    "formula_text": "- Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux des parties 5.1 et 5.2 ci-dessous, selon le type de bateaux considéré et la voie fluviale utilisée ; - t.km(i,j) est le nombre de tonnes kilomètres mentionné dans le relevé de trafic selon le type de bateaux considéré",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\nC\nR x ∑(Ga(i, j) x t. km(i, j))\ni\n\nOù :\n- C est la durée, exprimée en mois, du contrat initial ou du contrat de renouvellement. C est inférieure ou égale à\ndouze mois ;\n- R est la durée, exprimée en mois, du relevé de trafic fluvial ;\n- « i » désigne le type de bateaux considéré ;\n- « j » désigne la voie fluviale utilisée ;\n- Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux\ndes parties 5.1 et 5.2 ci-dessous, selon le type de bateaux considéré et la voie fluviale utilisée ;\n- t.km(i,j) est le nombre de tonnes kilomètres mentionné dans le relevé de trafic selon le type de bateaux considéré\net la voie fluviale utilisée.\n\n5.1 Pour les flux de marchandises existants (et précédemment transportés par route)\n\nValeur de Ga en\nkWh cumac par\nt.km\nVoies fluviales\nBassins de navigation\nCanaux\nSeine\nPetite\nOise/Oise\nRhône\nSaône\nRhin\nMoselle\nCanal\ngrand\ngabarit\nCanal\nmoyen\ngabarit\nAutomoteur\n< 400 t\n0,1156\n0,1541\n0,1043\n0,2930\n0,1005\n0,2753\n0,1748\nAutomoteur\n≥ 400 et < 650 t\n0,1391\n0,1522\n0,1353\n0,2930\n0,1325\n0,2930\n0,1794\nAutomoteur\n≥ 650 et < 1 000 t\n0,1823\n0,2133\n0,1794\n0,2930\n0,1776\n0,2930\n0,1841\nAutomoteur\n≥ 1 000 et < 1 500 t\n0,2217\n0,2311\n0,1982\n0,1738\n0,1964\n0,1428\n0,2930\nAutomoteur\n≥ 1 500 et < 3 000 t\n0,2358\n0,2321\n0,2067\n0,2123\n0,2170\n0,1926\n-\nAutomoteur\n≥ 3 000 t\n0,2508\n-\n0,2930\n-\n0,2396\n0,1926\n-\nPousseur < 880 kW\n0,1735\n-\n0,1725\n-\n-\n-\n0,2120\nPousseur ≥ 880 kW\n0,2514\n-\n0,2458\n0,2449\n0,2458\n0,2449\n0,2749\n\nLe canal à grand gabarit correspond à une voie fluviale de type canal de classe IV à VII (plus de 1 000 tonnes).\n\nLe canal moyen gabarit correspond à une voie fluviale de type canal de classe II à III (pour des bateaux jusque\n1 000 tonnes).\n\n5.2 Pour les nouveaux flux de marchandises (non préexistants)\n\nValeur de Ga en\nkWh cumac par\nt.km\nVoies fluviales\nBassins de navigation\nCanaux\nSeine\nPetite\nOise/Oise\nRhône\nSaône\nRhin\nMoselle\nCanal\ngrand\ngabarit\nCanal\nmoyen\ngabarit\nAutomoteur\n< 400 t\n0,1133\n0,1510\n0,1022\n0,2872\n0,0985\n0,2698\n0,1713\nAutomoteur\n≥ 400 et < 650 t\n0,1363\n0,1492\n0,1326\n0,2872\n0,1298\n0,2872\n0,1759\nAutomoteur\n≥ 650 et < 1 000 t\n0,1786\n0,2090\n0,1759\n0,2872\n0,1740\n0,2872\n0,1805\nAutomoteur\n≥ 1 000 et < 1 500 t\n0,2173\n0,2265\n0,1943\n0,1703\n0,1924\n0,1400\n0,2872\nAutomoteur\n≥ 1 500 et < 3 000 t\n0,2311\n0,2274\n0,2026\n0,2081\n0,2127\n0,1887\n-\nAutomoteur\n≥ 3 000 t\n0,2458\n-\n0,2872\n-\n0,2348\n0,1887\n-\nPousseur < 880 kW\n0,1700\n-\n0,1691\n-\n-\n-\n0,2078\nPousseur ≥ 880 kW\n0,2464\n-\n0,2409\n0,2400\n0,2409\n0,2400\n0,2694\n\nLe canal à grand gabarit correspond à une voie fluviale de type canal de classe IV à VII (plus de 1 000 tonnes).\n\nLe canal moyen gabarit correspond à une voie fluviale de type canal de classe II à III (pour des bateaux jusque\n1 000 tonnes).",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 5,
+    "unit": "- Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux des parties 5.1 et 5.2 ci-dessous, selon le type de bateaux considéré et la voie fluviale utilisée ; - t.km(i,j) est le nombre de tonnes kilomètres mentionné dans le relevé de trafic selon le type de bateaux considéré",
+    "expressions": [],
+    "calculation_methods": [],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que",
+      "text": "- Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux des parties 5.1 et 5.2 ci-dessous, selon le type de bateaux considéré et la voie fluviale utilisée ; - t.km(i,j) est le nombre de tonnes kilomètres mentionné dans le relevé de trafic selon le type de bateaux considéré",
       "source_file": "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que",
-      "confidence": "low"
-    },
-    {
-      "text": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.2 ci-dessous, le chargeur atteste que les",
-      "source_file": "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.2 ci-dessous, le chargeur atteste que les",
-      "confidence": "low"
-    },
-    {
-      "text": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie ;",
-      "source_file": "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie ;",
-      "confidence": "low"
-    },
-    {
-      "text": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie ;",
-      "source_file": "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie ;",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "- Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux",
-      "source_file": "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac par",
-      "source_file": "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac par",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac par",
-      "source_file": "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac par",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "- Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux des parties 5.1 et 5.2 ci-dessous, selon le type de bateaux considéré et la voie fluviale utilisée ; - t.km(i,j) est le nombre de tonnes kilomètres mentionné dans le relevé de trafic selon le type de bateaux considéré",
+      "confidence": "medium"
     }
   ],
   "zones": [],

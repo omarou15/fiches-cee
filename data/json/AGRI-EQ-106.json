@@ -125,27 +125,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × V",
+    "variables": [
+      {
+        "name": "V",
+        "label": "- Dans le cas d’un silo ou d’une installation de stockage en vrac de céréales existant : le volume de grains de céréales ayant transité dans le silo ou l’installation de stockage en vrac de céréales au cours de l’année civile précédant la date d’engagement de l’opération ; - Dans le cas d’un silo ou d’une installation de stockage en vrac de céréales neuf : le volume de grains de céréales ayant transité dans le silo ou l’installation de stockage en vrac de céréales au cours des 12 mois suivant la",
+        "unit": null,
+        "value_type": "number",
+        "description": "- Dans le cas d’un silo ou d’une installation de stockage en vrac de céréales existant : le volume de grains de céréales ayant transité dans le silo ou l’installation de stockage en vrac de céréales au cours de l’année civile précédant la date d’engagement de l’opération ; - Dans le cas d’un silo ou d’une installation de stockage en vrac de céréales neuf : le volume de grains de céréales ayant transité dans le silo ou l’installation de stockage en vrac de céréales au cours des 12 mois suivant la"
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Type de régulation\nMontant en kWh cumac\npar m3 de céréales\n\nVolume de céréales\n(m3)\nPar capteurs thermiques seulement\n10\nX\nV\nPar capteurs thermiques couplés à une\nrégulation de vitesse\n12\n\n« V » est :\n- Dans le cas d’un silo ou d’une installation de stockage en vrac de céréales existant : le volume de grains de céréales\nayant transité dans le silo ou l’installation de stockage en vrac de céréales au cours de l’année civile précédant la\ndate d’engagement de l’opération ;\n- Dans le cas d’un silo ou d’une installation de stockage en vrac de céréales neuf : le volume de grains de céréales\nayant transité dans le silo ou l’installation de stockage en vrac de céréales au cours des 12 mois suivant la date de\npreuve de réalisation de l’opération.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-EQ-106 vA32-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × V",
       "source_file": "Agriculture_AGRI/AGRI-EQ-106 vA32-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × V",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Agriculture_AGRI/AGRI-EQ-106 vA32-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

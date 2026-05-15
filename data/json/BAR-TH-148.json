@@ -166,35 +166,29 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant unitaire en kWh cumac Maison individuelle",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Type de logement\nMontant unitaire en\nkWh cumac\nMaison individuelle\n14 700\nAppartement\n11 800",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant unitaire en kWh cumac Maison individuelle",
+    "expressions": [],
+    "calculation_methods": [],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-148 vA78-4 à compter du 01-01-2026.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant unitaire en kWh cumac Maison individuelle",
       "source_file": "Residentiel_BAR/BAR-TH-148 vA78-4 à compter du 01-01-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire en",
-      "source_file": "Residentiel_BAR/BAR-TH-148 vA78-4 à compter du 01-01-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-148 vA78-4 à compter du 01-01-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac Maison individuelle",
+      "confidence": "medium"
     }
   ],
   "zones": [],

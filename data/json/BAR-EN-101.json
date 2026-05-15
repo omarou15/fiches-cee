@@ -222,27 +222,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m² d’isolant en × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh cumac par m² d’isolant en\nfonction de la zone climatique\n\nSurface d’isolant\n(m²)\nH1\nH2\nH3\nX\nS\n1 700\n1 400\n920",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par m² d’isolant en",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m² d’isolant en × S",
       "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m² d’isolant en × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par m² d’isolant en",
       "source_file": "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par m² d’isolant en",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

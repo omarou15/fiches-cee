@@ -25,7 +25,6 @@
 - La preuve de réalisation mentionne la mise en place d’un système de régulation de la consommation
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac par logement
 
 ## Sections officielles detectees

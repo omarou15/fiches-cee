@@ -38,13 +38,7 @@
 - Les documents justificatifs spécifiques à l’opération sont :
 
 ## Formules / calcul detectes
-- valeur des déperditions à T = Tbase (kW), la quantité d’énergie fournie par la PAC hors dispositif d’appoint (kWh)
-- ainsi que les besoins annuels de chaleur (kWh), pour le chauffage du logement. Cette note est remise au bénéficiaire
-- 5. Montant de certificats en kWh cumac
-- Montant unitaire
-- kWh cumac
-- Montant unitaire
-- kWh cumac
+- Montant unitaire kWh cumac Facteur
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

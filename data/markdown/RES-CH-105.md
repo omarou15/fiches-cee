@@ -26,10 +26,8 @@ _Non detecte automatiquement._
 - nominal initial. Ce document est daté et signé par le bénéficiaire de l’opération et le gestionnaire de ce réseau.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller
-- Montant unitaire en kWh cumac
-- kWh cumac/m
+- Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller de diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau : Montant unitaire en kWh cumac × L
+- Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller de diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau : Montant unitaire en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

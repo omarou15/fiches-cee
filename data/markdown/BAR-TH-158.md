@@ -37,7 +37,7 @@
 - électronique à fonctions avancées et précise ses caractéristiques (amplitude et dérive de la régulation, contrôle
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par émetteur × N
 - Montant en kWh cumac par émetteur
 
 ## Sections officielles detectees

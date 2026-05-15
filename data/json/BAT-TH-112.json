@@ -125,27 +125,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kW × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Application\nMontant en kWh cumac par kW\n\n\nX\nPuissance nominale\ndu moteur en kW\nChauffage, pompage\n9 600\nP\nVentilation, renouvellement d’air\n11 400\nRéfrigération\n3 900\nClimatisation\n990\nAutres applications\n990\n\nLa puissance nominale à retenir est celle figurant sur la plaque signalétique du moteur ou à défaut celle indiquée sur\nun document issu du fabricant du moteur.\n\nLorsque l’opération concerne l’équipement de plusieurs moteurs de caractéristiques identiques, la puissance\nnominale à prendre en compte dans le calcul est la somme, par type d’application, des puissances nominales de\nchaque moteur équipé de variateur électronique de vitesse.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-112 vA22-2.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW × P",
       "source_file": "Tertiaire_BAT/BAT-TH-112 vA22-2.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW × P",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kW",
       "source_file": "Tertiaire_BAT/BAT-TH-112 vA22-2.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

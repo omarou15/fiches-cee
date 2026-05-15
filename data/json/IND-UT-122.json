@@ -133,27 +133,77 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "1x8h ; 2x8h ; 3x8h avec arrêt le week-end ; 3x8h sans arrêt le week-end",
+    "variables": [
+      {
+        "name": "P",
+        "label": "la somme des puissances électriques nominales des compresseurs d’air connectés au sécheur (en kW). La puissance électrique nominale d’un compresseur d’air est celle figurant sur sa plaque signalétique ou à défaut celle indiquée sur un document issu du fabricant du compresseur.",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la somme des puissances électriques nominales des compresseurs d’air connectés au sécheur (en kW). La puissance électrique nominale d’un compresseur d’air est celle figurant sur sa plaque signalétique ou à défaut celle indiquée sur un document issu du fabricant du compresseur."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Mode de fonctionnement du\nsite\nMontant en kWh cumac par kW\n\nPuissance électrique nominale des\ncompresseurs en kW\n1x8h\n2 300\nX\nP\n2x8h\n5 000\n3x8h avec arrêt le week-end\n6 800\n3x8h sans arrêt le week-end\n9 500\n\nP est la somme des puissances électriques nominales des compresseurs d’air connectés au sécheur (en kW).\nLa puissance électrique nominale d’un compresseur d’air est celle figurant sur sa plaque signalétique ou à défaut\ncelle indiquée sur un document issu du fabricant du compresseur.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 1,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [
+      "1x8h",
+      "2x8h",
+      "3x8h avec arrêt le week-end",
+      "3x8h sans arrêt le week-end"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-122 v A14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1x8h",
       "source_file": "Industrie_IND/IND-UT-122 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8h",
+      "confidence": "medium"
+    },
+    {
+      "text": "2x8h",
+      "source_file": "Industrie_IND/IND-UT-122 v A14-1.pdf",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8h",
+      "confidence": "medium"
+    },
+    {
+      "text": "3x8h avec arrêt le week-end",
+      "source_file": "Industrie_IND/IND-UT-122 v A14-1.pdf",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h avec arrêt le week-end",
+      "confidence": "medium"
+    },
+    {
+      "text": "3x8h sans arrêt le week-end",
+      "source_file": "Industrie_IND/IND-UT-122 v A14-1.pdf",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h sans arrêt le week-end",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kW",
       "source_file": "Industrie_IND/IND-UT-122 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

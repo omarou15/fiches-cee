@@ -150,35 +150,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant unitaire en kWh cumac/m² Surface × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Secteur d'activité\nMontant unitaire\nen kWh cumac/m²\nSurface\nchauffée (m²)\n\nBureaux\n69\n\nS\n\nZone climatique\nEnseignement\n43\nSanté\n53\nX\nX\nH1\n1,1\nCommerce\n55\nH2\n0,9\nHôtellerie/ Restauration\n82\n\n\n\nH3\n0,6\nAutres secteurs\n43\n\n\n\nLa surface chauffée à prendre en compte est celle gérée par le système de régulation par optimiseur de relance.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant unitaire en kWh cumac/m² Surface",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-109 vA54-3 à compter du 01-01-2024_2.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant unitaire en kWh cumac/m² Surface × S",
       "source_file": "Tertiaire_BAT/BAT-TH-109 vA54-3 à compter du 01-01-2024_2.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac/m² Surface × S",
+      "confidence": "medium"
     },
     {
-      "text": "Montant unitaire",
+      "text": "Montant unitaire en kWh cumac/m² Surface",
       "source_file": "Tertiaire_BAT/BAT-TH-109 vA54-3 à compter du 01-01-2024_2.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire",
-      "confidence": "low"
-    },
-    {
-      "text": "en kWh cumac/m²",
-      "source_file": "Tertiaire_BAT/BAT-TH-109 vA54-3 à compter du 01-01-2024_2.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "en kWh cumac/m²",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac/m² Surface",
+      "confidence": "medium"
     }
   ],
   "zones": [

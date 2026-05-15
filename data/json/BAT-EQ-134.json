@@ -214,83 +214,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par ml installé Longueur totale de × L",
+    "variables": [
+      {
+        "name": "L",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour la mise en place d’un meuble frigorifique de vente de classe énergétique D :\n\nType de meuble frigorifique de vente\ninstallé\nMontant en kWh\ncumac par ml installé\n\nLongueur totale de\nmeubles frigorifiques\nde vente installés (m)\nArmoires frigorifiques verticales, semi-\nverticales et mixtes\n22 600\nX\nL\nArmoires frigorifiques horizontales\n6 300\nCongélateurs verticaux et mixtes\n18 400\nCongélateurs horizontaux\n9 900\n\nPour la mise en place d’un meuble frigorifique de vente de classe énergétique C :\n\nType de meuble frigorifique de vente\ninstallé\nMontant en kWh\ncumac par ml installé\n\nLongueur totale de\nmeubles frigorifiques\nde vente installés (m)\nArmoires frigorifiques verticales, semi-\nverticales et mixtes\n31 000\nX\nL\nArmoires frigorifiques horizontales\n8 700\nCongélateurs verticaux et mixtes\n30 800\nCongélateurs horizontaux\n14 700\n\nPour la mise en place d’un meuble frigorifique de vente de classe énergétique B :\n\nType de meuble frigorifique de vente\ninstallé\nMontant en kWh\ncumac par ml installé\n\nLongueur totale de\nmeubles frigorifiques\nde vente installés (m)\nArmoires frigorifiques verticales, semi-\nverticales et mixtes\n38 200\nX\nL\nArmoires frigorifiques horizontales\n10 500\nCongélateurs verticaux et mixtes\n41 200\nCongélateurs horizontaux\n18 800\n\nPour la mise en place d’un meuble frigorifique de vente de classe énergétique A :\n\nType de meuble frigorifique de vente\ninstallé\nMontant en kWh\ncumac par ml installé\n\nLongueur totale de\nmeubles frigorifiques\nde vente installés (m)\nArmoires frigorifiques verticales, semi-\nverticales et mixtes\n43 800\nX\nL\nArmoires frigorifiques horizontales\n12 100\nCongélateurs verticaux et mixtes\n49 400\nCongélateurs horizontaux\n21 900",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac par ml installé Longueur totale de",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par ml installé Longueur totale de × L",
       "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par ml installé Longueur totale de × L",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "Montant en kWh cumac par ml installé Longueur totale de",
       "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par ml installé",
-      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par ml installé",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par ml installé",
-      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par ml installé",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par ml installé",
-      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par ml installé",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par ml installé",
-      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par ml installé",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par ml installé Longueur totale de",
+      "confidence": "medium"
     }
   ],
   "zones": [],

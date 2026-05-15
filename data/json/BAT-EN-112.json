@@ -150,27 +150,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac pour un m² de toiture couvert par un × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh cumac pour un m² de toiture couvert par un\nrevêtement réflectif\n\nSurface de\ntoiture en m²\ncouvert par un\nrevêtement\nréflectif\nZone climatique\nH1\n160\nx\nS\nH2\n170\nH3\n270",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac pour un m² de toiture couvert par un",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-EN-112 vA38-1 à compter du 31-07-2021.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac pour un m² de toiture couvert par un × S",
       "source_file": "Tertiaire_BAT/BAT-EN-112 vA38-1 à compter du 31-07-2021.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac pour un m² de toiture couvert par un × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac pour un m² de toiture couvert par un",
       "source_file": "Tertiaire_BAT/BAT-EN-112 vA38-1 à compter du 31-07-2021.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac pour un m² de toiture couvert par un",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

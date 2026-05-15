@@ -26,8 +26,8 @@ _Non detecte automatiquement._
 - et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence installé
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par
+- Montant en kWh cumac par m² de serre équipée Surface de la serre × S
+- Montant en kWh cumac par m² de serre équipée Surface de la serre
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

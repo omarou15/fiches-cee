@@ -27,7 +27,7 @@
 - le facteur de transmission thermique vertical. En cas de mention d’une date de validité, ce document est considéré
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × S
 - Montant en kWh cumac
 
 ## Sections officielles detectees

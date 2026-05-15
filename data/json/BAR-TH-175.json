@@ -335,107 +335,47 @@
     }
   ],
   "calculation": {
-    "formula_text": "d) Sauf contrainte technique, architecturale ou patrimoniale justifiée, le coefficient de transmission surfacique Uw",
-    "variables": [],
+    "formula_text": "Montant unitaire en kWh cumac × Shab",
+    "variables": [
+      {
+        "name": "Shab",
+        "label": "la surface habitable (exprimée en m²) de l’appartement avant les travaux de la première ou l’unique étape de travaux.",
+        "unit": "m2",
+        "value_type": "number",
+        "description": "la surface habitable (exprimée en m²) de l’appartement avant les travaux de la première ou l’unique étape de travaux."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Nombre de sauts de\nclasse\nMontant\nunitaire en\nkWh cumac\n\nFacteur correctif selon la\nsurface habitable Shab\nSurface habitable Shab en m²\n2\n360 200\n\n0,4\nShab < 35\n3\n447 900\nX\n0,5\n35 ≤ Shab < 60\n4 ou plus\n568 600\n\n0,8\n60 ≤ Shab < 90\n\n\n\n1\n90 ≤ Shab < 110\n\n\n\n1,2\n110 ≤ Shab ≤ 130\n\n\n\n1,3\n130 < Shab\n\nPour la première ou l’unique étape de travaux, le nombre de sauts de classe correspond au gain de classe de\nl’appartement entre la situation avant travaux et la situation après travaux.\n\nPour les travaux de la seconde étape, le montant de certificats d’économies d’énergie attribué lors de la seconde\nétape correspond au montant de certificats d’économies d’énergie correspondant à la somme des sauts de classes\ndes première et seconde étapes auquel est soustrait le montant de certificats d’économies d’énergie correspondant\nau nombre de sauts de classes de la première étape.\n\nShab est la surface habitable (exprimée en m²) de l’appartement avant les travaux de la première ou l’unique étape\nde travaux.",
+    "formula_section_page_start": 4,
+    "formula_section_page_end": 4,
+    "unit": "Montant unitaire en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "d) Sauf contrainte technique, architecturale ou patrimoniale justifiée, le coefficient de transmission surfacique Uw",
+      "text": "Montant unitaire en kWh cumac × Shab",
       "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "d) Sauf contrainte technique, architecturale ou patrimoniale justifiée, le coefficient de transmission surfacique Uw",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac × Shab",
+      "confidence": "medium"
     },
     {
-      "text": "à double vitrage renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et",
+      "text": "Montant unitaire en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "à double vitrage renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et",
-      "confidence": "low"
-    },
-    {
-      "text": "150 gCO2eq/kWh PCI, et dont le taux de couverture pour le chauffage, défini comme le rapport entre la quantité de",
-      "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "150 gCO2eq/kWh PCI, et dont le taux de couverture pour le chauffage, défini comme le rapport entre la quantité de",
-      "confidence": "low"
-    },
-    {
-      "text": "à 150 gCO2eq/kWh PCI et les besoins annuels de chaleur, pour le chauffage du logement, couverts par le système",
-      "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "à 150 gCO2eq/kWh PCI et les besoins annuels de chaleur, pour le chauffage du logement, couverts par le système",
-      "confidence": "low"
-    },
-    {
-      "text": "un équipement pour lequel le niveau d'émissions de gaz à effet de serre est supérieur à 300 gCO2eq/kWh PCI, et",
-      "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "un équipement pour lequel le niveau d'émissions de gaz à effet de serre est supérieur à 300 gCO2eq/kWh PCI, et",
-      "confidence": "low"
-    },
-    {
-      "text": "équipements dont les émissions sont supérieures à 300 gCO2eq/kWh PCI et les besoins annuels de chaleur couverts",
-      "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "équipements dont les émissions sont supérieures à 300 gCO2eq/kWh PCI et les besoins annuels de chaleur couverts",
-      "confidence": "low"
-    },
-    {
-      "text": "- la consommation conventionnelle (en kWh/m².an) de l’appartement (sans déduction de la production d’électricité",
-      "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- la consommation conventionnelle (en kWh/m².an) de l’appartement (sans déduction de la production d’électricité",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant",
-      "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Pour les travaux de la seconde étape, le montant de certificats d’économies d’énergie attribué lors de la seconde",
-      "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Pour les travaux de la seconde étape, le montant de certificats d’économies d’énergie attribué lors de la seconde",
-      "confidence": "low"
-    },
-    {
-      "text": "étape correspond au montant de certificats d’économies d’énergie correspondant à la somme des sauts de classes",
-      "source_file": "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "étape correspond au montant de certificats d’économies d’énergie correspondant à la somme des sauts de classes",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac",
+      "confidence": "medium"
     }
   ],
   "zones": [],

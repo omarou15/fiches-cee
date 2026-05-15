@@ -29,16 +29,11 @@
 - ou, à défaut, celle indiquée sur un document issu du fabricant.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWh cumac
-- Coefficient
-- Montant en
-- kWh cumac
-- Coefficient
-- Montant en
-- kWh cumac
-- Coefficient
+- 1x8h
+- 2x8h
+- 3x8h avec arrêt le week-end
+- 3x8h sans arrêt le week-end
+- Montant en kWh cumac par kW
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

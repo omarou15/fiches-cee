@@ -32,13 +32,11 @@
 - Les documents justificatifs spécifiques à l’opération sont (i) le document issu du fabricant, (ii) l’état récapitulatif
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWh cumac
-- Coefficient multiplicateur selon le
-- Montant en
-- kWh cumac
-- Coefficient multiplicateur selon le
+- 1x8h
+- 2x8h
+- 3x8h avec arrêt le week-end
+- 3x8h sans arrêt le week-end
+- Montant en kWh cumac par m
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

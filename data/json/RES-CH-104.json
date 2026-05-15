@@ -142,27 +142,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone climatique\nMontant en kWh cumac\npar appartement\n\nNombre\nd’appartements\nH1\n18 300\n\nN\nH2\n15 200\nX\nH3\n11 200\n\nLe nombre d’appartements pris en compte correspond au nombre de logements des bâtiments résidentiels raccordés\nau poste de livraison réhabilité.\n\nSi plusieurs postes de livraisons alimentent un même bâtiment alors :\n- soit la totalité des postes est réhabilitée pour être éligible pour le nombre total d’appartements ;\n- soit, chaque poste réhabilité peut être éligible à une partie du nombre d’appartements du bâtiment, en appliquant\nun prorata en fonction de la puissance de chaque poste de livraison par rapport à la puissance totale raccordée.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Reseaux_RES/RES-CH-104 vA36-3 à compter du 12-10-2020_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × N",
       "source_file": "Reseaux_RES/RES-CH-104 vA36-3 à compter du 12-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Reseaux_RES/RES-CH-104 vA36-3 à compter du 12-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

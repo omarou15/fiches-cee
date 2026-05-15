@@ -29,7 +29,7 @@
 - un document issu du fabricant.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × P
 - Montant en kWh cumac
 
 ## Sections officielles detectees

@@ -33,7 +33,7 @@
 - Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place des
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par m² × S
 - Montant en kWh cumac par m²
 
 ## Sections officielles detectees

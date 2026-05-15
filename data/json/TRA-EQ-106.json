@@ -230,35 +230,89 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac X × NA × NB × NC × A × Y × B × C",
+    "variables": [
+      {
+        "name": "NA",
+        "label": "le nombre de pneumatiques de classe d’efficacité en carburant A",
+        "unit": null,
+        "value_type": "number",
+        "description": "le nombre de pneumatiques de classe d’efficacité en carburant A"
+      },
+      {
+        "name": "NB",
+        "label": "le nombre de pneumatiques de classe d’efficacité en carburant B",
+        "unit": null,
+        "value_type": "number",
+        "description": "le nombre de pneumatiques de classe d’efficacité en carburant B"
+      },
+      {
+        "name": "NC",
+        "label": "le nombre de pneumatiques de classe d’efficacité en carburant C",
+        "unit": null,
+        "value_type": "number",
+        "description": "le nombre de pneumatiques de classe d’efficacité en carburant C"
+      },
+      {
+        "name": "A",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "Y",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "B",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "C",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Classe d’efficacité en\ncarburant des pneumatiques\nmontés\nMontant en\nkWh cumac\n\n\n\nX\nNombre de\npneumatiques\n\n\n\nX\nKilométrage annuel\nmoyen parcouru par\nles véhicules\nA\n0,011\nNA\nY\nB\n0,008\nNB\nC\n0,006\nNC\n\nNA est le nombre de pneumatiques de classe d’efficacité en carburant A\nNB est le nombre de pneumatiques de classe d’efficacité en carburant B\nNC est le nombre de pneumatiques de classe d’efficacité en carburant C",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac X",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac X × NA × NB × NC × A × Y × B × C",
       "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac X × NA × NB × NC × A × Y × B × C",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en",
+      "text": "Montant en kWh cumac X",
       "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac X",
+      "confidence": "medium"
     }
   ],
   "zones": [],

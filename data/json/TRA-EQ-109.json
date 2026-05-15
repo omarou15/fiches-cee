@@ -117,35 +117,50 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "TK : t.km effectuées par la barge, relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an).",
+    "variables": [
+      {
+        "name": "Ga",
+        "label": "le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale. Bassin de navigation Seine Rhône Nord Pas-de-Calais Rhin/Moselle Interbassin Gain énergétique : Ga 3,4 3,3 3,2 2,7 3,1 TK : t.km effectuées par la barge, relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an). On considère que le trafic réalisé par la barge sur 6 mois consécutifs est maintenu en moyenne sur la durée de vie du matériel.",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale. Bassin de navigation Seine Rhône Nord Pas-de-Calais Rhin/Moselle Interbassin Gain énergétique : Ga 3,4 3,3 3,2 2,7 3,1 TK : t.km effectuées par la barge, relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an). On considère que le trafic réalisé par la barge sur 6 mois consécutifs est maintenu en moyenne sur la durée de vie du matériel."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nGa x TK\n\nGa est le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale.\n\nBassin de navigation\nSeine\nRhône\nNord Pas-de-Calais\nRhin/Moselle\nInterbassin\nGain énergétique : Ga\n3,4\n3,3\n3,2\n2,7\n3,1\n\nTK : t.km effectuées par la barge, relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an).\n\nOn considère que le trafic réalisé par la barge sur 6 mois consécutifs est maintenu en moyenne sur la durée de vie\ndu matériel.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
+    "expressions": [
+      "TK : t.km effectuées par la barge, relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an)."
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-109 vA17-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "TK : t.km effectuées par la barge, relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an).",
       "source_file": "Transport_TRA/TRA-EQ-109 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "TK : t.km effectuées par la barge, relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an).",
+      "confidence": "medium"
     },
     {
       "text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
       "source_file": "Transport_TRA/TRA-EQ-109 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
-      "confidence": "low"
-    },
-    {
-      "text": "Ga est le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale.",
-      "source_file": "Transport_TRA/TRA-EQ-109 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Ga est le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale.",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

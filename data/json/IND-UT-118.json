@@ -20,13 +20,6 @@
   },
   "sections": [
     {
-      "number": "3",
-      "title": "Brûleur avec dispositif de récupération de chaleur sur four industriel",
-      "text": "",
-      "page_start": 1,
-      "page_end": 1
-    },
-    {
       "number": "1",
       "title": "Secteur d’application",
       "text": "Industrie.",
@@ -148,83 +141,78 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "1x8 ; 2x8 ; 3x8 avec arrêt le week-end ; 3x8 sans arrêt le week-end",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Mise en place d’un ou plusieurs brûleurs auto-récupérateurs :\n\nTempérature des\nfumées T à la sortie\ndu four en °C\nMontant en\nkWh cumac\npar kW\n Coefficient multiplicateur selon le\nmode de fonctionnement du site\n\nSomme des puissances\nthermiques nominales des\nbrûleurs neufs en kW\n600 ≤ T ≤ 750\n1 600\n\nX\n1x8\n1\n\nX\n\nP\n750 < T ≤ 1000\n2 500\n2x8\n2,2\n1000 < T ≤ 1250\n4 100\n3x8 avec arrêt le week-end\n3\n1250 < T\n5 800\n3x8 sans arrêt le week-end\n4,2\n\nMise en place d’un ou plusieurs brûleurs régénératifs (autorégénératif ou paire de brûleurs régénératifs) :\n\nTempérature des\nfumées T à la sortie\ndu four en °C\nMontant en\nkWh cumac\npar kW\n\nCoefficient multiplicateur selon le\nmode de fonctionnement du site\n\nSomme des puissances\nthermiques nominales des\nbrûleurs neufs en kW\n600 ≤ T ≤ 750\n2 300\nX\n1x8\n1\nX\nP\n750 < T ≤ 1000\n3 500\n2x8\n2,2\n1000 < T ≤ 1250\n5 600\n3x8 avec arrêt le week-end\n3\n1250 < T\n7 800\n3x8 sans arrêt le week-end\n4,2\n\nTransformation d’un ou plusieurs brûleurs existants par l’installation d’un récupérateur de chaleur sur les fumées\ndu four pour préchauffer l’air comburant :\n\nMode de fonctionnement du\nsite\nMontant en\nkWh cumac\npar kW\n\nSomme des puissances\nthermiques nominales des\nbrûleurs transformés en kW\n1x8\n1 000\nX\nP\n2x8\n2 300\n3x8 avec arrêt le week-end\n3 100\n3x8 sans arrêt le week-end\n4 300\n\nLa puissance à retenir est celle figurant sur la plaque signalétique du brûleur ou à défaut celle indiquée sur un\ndocument issu du fabricant.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [
+      "1x8",
+      "2x8",
+      "3x8 avec arrêt le week-end",
+      "3x8 sans arrêt le week-end"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1x8",
       "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en",
+      "text": "2x8",
       "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8",
+      "confidence": "medium"
     },
     {
-      "text": "kWh cumac",
+      "text": "3x8 avec arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8 avec arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "Coefficient multiplicateur selon le",
+      "text": "3x8 sans arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient multiplicateur selon le",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8 sans arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en",
+      "text": "Montant en kWh cumac par kW",
       "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient multiplicateur selon le",
-      "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient multiplicateur selon le",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Industrie_IND/IND-UT-118 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW",
+      "confidence": "medium"
     }
   ],
   "zones": [],

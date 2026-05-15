@@ -134,35 +134,41 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "6 290 * 2 * V",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour un wagon effectuant un ou plusieurs voyages sur une ligne i, hors ligne Calais - Folkstone, le montant de\ncertificats d’économies d’énergie est déterminé selon la formule suivante :\n\n\nn : nombre total de lignes empruntées par un même wagon durant le relevé de trafic ;\nVi : nombre de voyages effectués sur une ligne i durant le relevé de trafic ;\ndri : distance routière moyenne effectuée en France par une semi-remorque liant le terminal de transbordement\nmultimodal de départ (ou depuis le point frontière si le terminal de départ se trouve hors de France) et le terminal\nde transbordement multimodal d’arrivée (ou jusqu’au point frontière si le terminal final se trouve hors de France)\nde la ligne i. Elle correspond à la moyenne entre la distance la plus courte et la distance la plus rapide, entre ces\ndeux points, par des voies ouvertes à la circulation routière des poids lourds de plus de 12 tonnes, relevées à partir\nd’un site internet de calcul des distances routières ;\ndfi : distance ferroviaire parcourue en France par le wagon d’autoroute ferroviaire liant les points de départ (terminal\nde transbordement multimodal de départ ou depuis le point frontière si le terminal de départ se trouve hors de France)\net d’arrivée (terminal de transbordement multimodal final ou jusqu’au point frontière si le terminal final se trouve\nhors de France) de la ligne i. Elle correspond à la distance relevée à partir du site internet https://ecotransit.org ou\nun équivalent entre ces deux points.\n\nOn considère que le trafic réalisé par le wagon sur 6 mois consécutifs au maximum est maintenu en moyenne sur la\ndurée de vie du wagon.\n\nPour un wagon effectuant un ou plusieurs voyages sur la ligne Calais - Folkstone, le montant de certificats\nd’économies d’énergie est déterminé selon la formule suivante :\n\n6 290 * 2 * V\n\nV : nombre de voyages effectués sur la ligne Calais - Folkstone durant le relevé de trafic.\n\nOn considère que le trafic réalisé par le wagon sur 6 mois consécutifs au maximum est maintenu en moyenne sur la\ndurée de vie du wagon.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [
+      "6 290 * 2 * V"
+    ],
+    "calculation_methods": [
+      "direct_expression"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "6 290 * 2 * V",
       "source_file": "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "6 290 * 2 * V",
+      "confidence": "medium"
     },
     {
-      "text": "Pour un wagon effectuant un ou plusieurs voyages sur une ligne i, hors ligne Calais - Folkstone, le montant de",
+      "text": "Montant de certificats en kWh cumac",
       "source_file": "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Pour un wagon effectuant un ou plusieurs voyages sur une ligne i, hors ligne Calais - Folkstone, le montant de",
-      "confidence": "low"
-    },
-    {
-      "text": "Pour un wagon effectuant un ou plusieurs voyages sur la ligne Calais - Folkstone, le montant de certificats",
-      "source_file": "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Pour un wagon effectuant un ou plusieurs voyages sur la ligne Calais - Folkstone, le montant de certificats",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats en kWh cumac",
+      "confidence": "medium"
     }
   ],
   "zones": [],

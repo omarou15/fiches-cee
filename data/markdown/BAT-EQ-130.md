@@ -35,13 +35,10 @@
 - de production de froid (mono-compresseur ou multi-compresseurs) ou à défaut celle indiquée sur un document issu
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par kW
-- Montant en kWh cumac par kW
+- Montant en kWh cumac par kW × P
 - Montant en kWh cumac par kW
 
 ## Sections officielles detectees
-- 3. Système de condensation frigorifique à haute efficacité (pages 1-1)
 - 1. Secteur d’application (pages 1-1)
 - 2. Dénomination (pages 1-1)
 - 3. Conditions pour la délivrance de certificats (pages 1-2)

@@ -27,17 +27,7 @@ _Non detecte automatiquement._
 - Le document justificatif spécifique à l’opération est un descriptif du dispositif issu du fabricant indiquant la présence
 
 ## Formules / calcul detectes
-- - affichage des consommations d’énergie en m3 et/ou en kWh selon l’énergie et valorisées en euros ;
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWh cumac
-- Coefficient
-- kWh cumac
-- Montant en
-- kWh cumac
-- Coefficient
-- kWh cumac
-- Dans le cas où le bénéficiaire est une personne morale équipant plusieurs logements à la même adresse, le montant
+- Montant en kWh cumac Option
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

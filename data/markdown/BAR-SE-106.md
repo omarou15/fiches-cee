@@ -26,12 +26,7 @@ _Non detecte automatiquement._
 - Les documents justificatifs spécifiques à l’opération sont :
 
 ## Formules / calcul detectes
-- de suivre sa consommation d'énergie en kWh et valorisée en euros ;
-- 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac selon l’usage
-- Montant en kWh cumac selon l’usage
-- électriques (montant « chauffage électrique » + montant « Electricité spécifique ») soit sur les consommations de
-- gaz et d’électricité spécifique (montant « chauffage gaz » + montant « Electricité spécifique ») soit sur les
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

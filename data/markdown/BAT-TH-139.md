@@ -30,10 +30,10 @@ _Non detecte automatiquement._
 - défaut, celles indiquées sur un document issu du fabricant du ou des compresseur(s).
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant de certificats
-- (M), en kWh cumac
-- montant des certificats d’économies d’énergie est effectué en considérant que Précupérée est égale à
+- (2 x Pcompresseurs) – Pdéjà récupérée
+- Nota 2 : Si Précupérée excède la limite imposée dans le tableau ci-dessus ((2 x Pcompresseur(s)) – Pdéjà récupérée), le calcul du
+- ((2 x Pcompresseur(s)) – Pdéjà récupérée)
+- Montant de certificats (M), en kWh cumac ‘
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

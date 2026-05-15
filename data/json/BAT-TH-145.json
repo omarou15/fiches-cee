@@ -150,35 +150,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kW Puissance électrique nominale × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Application du groupe de\nproduction de froid\nMontant en kWh\ncumac par kW\n\nPuissance électrique nominale\ntotale du groupe de production\nde froid en kW\nRéfrigération ou conditionnement\nd’ambiance hors confort\n3 600\nX\nP\nClimatisation de confort d’un local\n310\n\nLa puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du groupe de production de\nfroid (mono-compresseur ou multi-compresseurs) ou à défaut celle indiquée sur un document issu du fabricant du\ngroupe mono-compresseur ou multi-compresseurs. La puissance du ou des compresseurs de secours n’est pas\ncomptabilisée.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW Puissance électrique nominale",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-145 vA23-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW Puissance électrique nominale × P",
       "source_file": "Tertiaire_BAT/BAT-TH-145 vA23-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW Puissance électrique nominale × P",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "Montant en kWh cumac par kW Puissance électrique nominale",
       "source_file": "Tertiaire_BAT/BAT-TH-145 vA23-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par kW",
-      "source_file": "Tertiaire_BAT/BAT-TH-145 vA23-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par kW",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW Puissance électrique nominale",
+      "confidence": "medium"
     }
   ],
   "zones": [],

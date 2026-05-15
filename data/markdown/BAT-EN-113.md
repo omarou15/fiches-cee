@@ -33,9 +33,8 @@
 - mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après sa date de fin de
 
 ## Formules / calcul detectes
-- Le coefficient de transmission surfacique, Ucw, des façades rideaux ou semi-rideaux est inférieur ou égal à
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par
+- Montant en kWh cumac par m² de façade rideau ou semi- rideau avec vitrage isolant × S
+- Montant en kWh cumac par m² de façade rideau ou semi- rideau avec vitrage isolant
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

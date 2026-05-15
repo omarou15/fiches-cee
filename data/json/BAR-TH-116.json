@@ -117,27 +117,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m2 de surface de bâtiment × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": "la surface de bâtiment chauffée par un plancher chauffant basse température (en m2).",
+        "unit": "m2",
+        "value_type": "number",
+        "description": "la surface de bâtiment chauffée par un plancher chauffant basse température (en m2)."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh cumac par m2 de surface de bâtiment\nchauffée par un plancher chauffant à basse température\n\nSurface\nchauffée\nen m2\nType de logement\nMaison\nindividuelle\nAppartement\navec chauffage\nindividuel\nAppartement\navec chauffage\ncollectif\nZone\nclimatique\nH1\n300\n210\n280\n\nS\nH2\n250\n170\n230\nX\nH3\n160\n110\n150\n\n\nS est la surface de bâtiment chauffée par un plancher chauffant basse température (en m2).",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 1,
+    "unit": "Montant en kWh cumac par m2 de surface de bâtiment",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-116 vA17-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m2 de surface de bâtiment × S",
       "source_file": "Residentiel_BAR/BAR-TH-116 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m2 de surface de bâtiment × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par m2 de surface de bâtiment",
       "source_file": "Residentiel_BAR/BAR-TH-116 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par m2 de surface de bâtiment",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

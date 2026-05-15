@@ -230,51 +230,31 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+    "formula_text": "Montant en kWh cumac",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh cumac\nType de logement\nPuissance frigorifique\nde l’appareil en kW\n(ou BTU/h)\n Classe A\n(5,1 ≤ SEER < 5,6)\nClasse A+\n(5,6 ≤ SEER < 6,1)\nClasse A++\n(6,1 ≤ SEER < 8,5)\nClasse A+++\nSEER ≥ 8,5\nAppartement\n2,05    (7000)\n1 300\n2 500\n3 400\n6 300\n2,64    (9000)\n1 600\n2 900\n4 000\n7 400\n\nDans le cas où le bénéficiaire remplace dans un logement des climatiseurs existants par plusieurs climatiseurs de\ncaractéristiques et classe d’efficacité identiques, le montant des certificats d’économies d’énergie, calculé par\nclimatiseur, est multiplié par le nombre de climatiseurs.\n\n*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
-      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
       "text": "Montant en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "caractéristiques et classe d’efficacité identiques, le montant des certificats d’économies d’énergie, calculé par",
-      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "caractéristiques et classe d’efficacité identiques, le montant des certificats d’économies d’énergie, calculé par",
-      "confidence": "low"
-    },
-    {
-      "text": "*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
-      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

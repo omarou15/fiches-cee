@@ -31,11 +31,8 @@
 - validité, ce document est considéré comme valable jusqu’à un an après sa date de fin de validité.
 
 ## Formules / calcul detectes
-- Le vitrage des portes a un coefficient de transmission thermique Ug ≤ 1,8 W/m².K (évalué conformément à la norme
-- frigorifiques, leur coefficient de transmission thermique Ug (évalué conformément à la norme EN 673) et la
-- 5. Montant de certificats en kWh cumac
-- Montant unitaire en kWh
-- cumac par mètre linéaire
+- Montant unitaire en kWh cumac par mètre linéaire Longueur linéaire de × L
+- Montant unitaire en kWh cumac par mètre linéaire Longueur linéaire de
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

@@ -198,27 +198,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac / m² d’isolant posé × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh cumac / m² d’isolant posé\nen fonction de la résistance R de l’isolant (en m2.K/W)\n\nSurface\nd’isolant posé\n (m²)\nType de logement\nBâtiment existant\nBâtiment neuf\n\n0,5 ≤ R < 1,2\n1,2 ≤ R\n0,5 ≤ R < 1,2\n1,2 ≤ R\n\nMaison individuelle\n200\n240\n130\n150\nX\nS\nBâtiment collectif\n240\n280\n160\n180",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac / m² d’isolant posé",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-EN-107 vA64-4 à compter du 01-01-2025_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac / m² d’isolant posé × S",
       "source_file": "Residentiel_BAR/BAR-EN-107 vA64-4 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac / m² d’isolant posé × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac / m² d’isolant posé",
       "source_file": "Residentiel_BAR/BAR-EN-107 vA64-4 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac / m² d’isolant posé",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

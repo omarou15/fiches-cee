@@ -28,13 +28,8 @@ _Non detecte automatiquement._
 - référence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh
-- cumac par m² de
-- Coefficient
-- Montant en kWh
-- cumac par m² de
-- Coefficient
+- Montant en kWh cumac par m² de surface chauffée × R × S
+- Montant en kWh cumac par m² de surface chauffée
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

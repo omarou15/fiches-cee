@@ -30,9 +30,8 @@
 - hybride hygroréglable, délivré par la CCFAT, ou les éléments de preuves équivalents.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh
-- cumac par appartement
+- Montant en kWh cumac par appartement Nombre × N × R
+- Montant en kWh cumac par appartement Nombre
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

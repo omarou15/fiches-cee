@@ -254,7 +254,7 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
     "variables": [],
     "tables": [],
     "amount_table": [
@@ -321,24 +321,36 @@
         "zone": "H3",
         "kwh_cumac_per_apartment": 19200
       }
-    ]
+    ],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Efficacité\nénergétique\nsaisonnière (Etas)\nZone climatique\nMontant en kWh cumac\n66 % ≤ Etas < 72 %\nH1\n9 400\nH2\n7 700\nH3\n5 100\n72 % ≤ Etas < 80 %\nH1\n23 500\nH2\n19 300\nH3\n12 800\nEtas ≥ 80%\nH1\n35 300\nH2\n28 900\nH3\n19 200",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "structured_amount_table"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
       "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

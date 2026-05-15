@@ -189,43 +189,31 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant en kWh cumac / kW",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Cas 1 : CO2 frigoporteur diphasique pour production de froid positif :\n\nMontant en kWh cumac / kW\n\nPuissance frigorifique utile délivrée\npar les compresseurs Positifs neufs\nmoyenne température au CO2\nen kW\n\n7 300\n\nx\n\nPf +\n\n\nLa puissance frigorifique à retenir est la puissance frigorifique positive utile au besoin de froid et délivrée par les\ncompresseurs positifs neufs au CO2. Elle figure sur le document issu de l’installateur frigoriste.\n\nLa puissance du ou des compresseurs de secours est exclue.\n\nL’installation n’inclut pas de compresseurs négatifs.\n\nCas 2 : froid négatif seul en cascade avec CO2 subcritique :\n\nMontant en kWhcumac / kW\n\nPuissance frigorifique utile délivrée\npar les compresseurs négatifs neufs\nbasse température au CO2 en kW\n\n8 400\n\nx\n\nPf -\n\nLa puissance frigorifique à retenir est la puissance frigorifique négative utile au besoin de froid négatif et délivrée\npar les compresseurs négatifs neufs au CO2. Elle figure sur le document issu de l’installateur frigoriste.\n\nLa puissance frigorifique des compresseurs moyenne température n’est pas prise en compte.\n\nL’utilisation d’un circuit frigoporteur pour alimenter les évaporateurs positifs et pour condenser le CO2 négatif est\nautorisée. L’utilisation d’un circuit frigoporteur pour alimenter les évaporateurs négatifs n’est pas autorisée.\n\nLa puissance du ou des compresseurs de secours est exclue.\n\nCas 3 : froid positif et négatif ou positif seul ou négatif seul, mise en place d’une installation au CO2 transcritique :\n\nMontants en kWh cumac / kW\nSomme des puissances\nfrigorifiques utiles\ndélivrées par les\ncompresseurs CO2 en\nkW\nSans alimentation\ndes évaporateurs\nen régime saturé\n\nAvec alimentation\ndes évaporateurs\nen régime saturé\n(Option 3)\nOption 0\n8 500\n12 500\nPf + + Pf -\nOption 1 ou 1 bis\n10 300\n14 100\nx\nOption 2\n12 700\n16 300\n\nLa somme des puissances frigorifiques à retenir est la somme de la puissance frigorifique positive utile délivrée par\nles compresseurs neufs au CO2 positifs (moyenne température) et de la puissance frigorifique négative utile délivrée\npar les compresseurs neufs au CO2 négatifs (basse température). Les valeurs figurent sur le document issu de\nl’installateur frigoriste.\n\nLa puissance des compresseurs moyenne et basse températures est à prendre en compte même si la production ne\npermet de délivrer qu’une puissance frigorifique négative.\n\nLa puissance du ou des compresseurs de secours est exclue.\n\nLes cas et options susmentionnés sont ceux indiqués dans le tableau de la partie 2 de la présente fiche.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 5,
+    "unit": "Montant en kWh cumac / kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
       "text": "Montant en kWh cumac / kW",
       "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac / kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWhcumac / kW",
-      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWhcumac / kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Montants en kWh cumac / kW",
-      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montants en kWh cumac / kW",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

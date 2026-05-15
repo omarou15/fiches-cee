@@ -133,35 +133,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kW × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Cas de la transmission par poulie et courroie synchrone (dentée) :\n\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ndu moteur associé en kW\n820\nX\nP\n\nCas de la transmission directe :\n\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ndu moteur associé en kW\n1900\nX\nP\n\nLa puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du moteur ou, à défaut, celle\nindiquée sur un document issu du fabricant du moteur.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-127 v A25-2 après le 01-04-2017_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW × P",
       "source_file": "Industrie_IND/IND-UT-127 v A25-2 après le 01-04-2017_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW × P",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kW",
       "source_file": "Industrie_IND/IND-UT-127 v A25-2 après le 01-04-2017_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par kW",
-      "source_file": "Industrie_IND/IND-UT-127 v A25-2 après le 01-04-2017_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

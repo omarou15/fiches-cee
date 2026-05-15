@@ -20,13 +20,6 @@
   },
   "sections": [
     {
-      "number": "3",
-      "title": "Fermeture des meubles frigorifiques de vente à température négative",
-      "text": "",
-      "page_start": 1,
-      "page_end": 1
-    },
-    {
       "number": "1",
       "title": "Secteur d’application",
       "text": "Bâtiments tertiaires existants : locaux de distribution alimentaire, destinés à l'exposition ou la mise en libre-service\nà l'intention du public, de produits frais tels qu’hypermarchés, supermarchés, petits magasins alimentaires à\nl’exception des entrepôts et des plateformes ou points de retrait permettant au public de récupérer ses produits sans\naccéder aux rayons (type magasin « Drive »).",
@@ -173,51 +166,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Le vitrage des couvercles a un coefficient de transmission thermique Ug ≤ 3,8 W/m².K (évalué conformément à la",
-    "variables": [],
+    "formula_text": "Montant unitaire (en kWh cumac par mètre de couvercle) Longueur totale de × L",
+    "variables": [
+      {
+        "name": "L",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Type de meuble\nfrigorifique équipé de\ncouvercles\nMontant unitaire\n(en kWh cumac par mètre de couvercle)\n\nLongueur totale de\ncouvercles installés (m)\nSimple\n6 700\nX\nL\nDouble\n8 200\nCombiné\n4 600",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant unitaire (en kWh cumac par mètre de couvercle) Longueur totale de",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Le vitrage des couvercles a un coefficient de transmission thermique Ug ≤ 3,8 W/m².K (évalué conformément à la",
+      "text": "Montant unitaire (en kWh cumac par mètre de couvercle) Longueur totale de × L",
       "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le vitrage des couvercles a un coefficient de transmission thermique Ug ≤ 3,8 W/m².K (évalué conformément à la",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire (en kWh cumac par mètre de couvercle) Longueur totale de × L",
+      "confidence": "medium"
     },
     {
-      "text": "frigorifiques, leur coefficient de transmission thermique Ug (évalué conformément à la norme EN 673), la longueur",
+      "text": "Montant unitaire (en kWh cumac par mètre de couvercle) Longueur totale de",
       "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "frigorifiques, leur coefficient de transmission thermique Ug (évalué conformément à la norme EN 673), la longueur",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire",
-      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire",
-      "confidence": "low"
-    },
-    {
-      "text": "(en kWh cumac par mètre de couvercle)",
-      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "(en kWh cumac par mètre de couvercle)",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire (en kWh cumac par mètre de couvercle) Longueur totale de",
+      "confidence": "medium"
     }
   ],
   "zones": [],

@@ -133,99 +133,77 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "1x8h ; 2x8h ; 3x8h avec arrêt le week-end ; 3x8h sans arrêt le week-end",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "La puissance électrique nominale d’une presse à injecter correspond à sa puissance électrique nominale seule, hors\néquipement. Ainsi, la puissance électrique nominale de la presse à injecter hors équipement désigne la puissance\nnominale des servomoteurs qui gèrent les fonctions clés de la presse (ouverture/fermeture, éjection,\ninjection/dosage, avance et recul du groupe d’injection) et le chauffage du fourreau. Les puissances des équipements\npériphériques et accessoires ajoutés à la presse à injecter (prises, robots, canaux chauds…) ne sont pas prises en\ncompte dans le calcul de la puissance électrique nominale.\n\nLa puissance électrique nominale P est reprise de la plaque signalétique de la presse à injecter si celle-ci indique les\npuissances nominales des servomoteurs qui gèrent les fonctions clés de la presse et le chauffage du fourreau ou à\ndéfaut elle est fournie par un document issu du fabricant de la presse à injecter et détaillant les puissances des\nservomoteurs et du chauffage du fourreau.\n\nMise en place d’une presse à injecter tout électrique :\n\nMode de fonctionnement du site\nMontant en kWh\ncumac par kW\n\nPuissance électrique nominale\nde la presse tout électrique\nneuve en kW\n1x8h\n12 000\nX\nP\n2x8h\n26 300\n3x8h avec arrêt le week-end\n36 000\n3x8h sans arrêt le week-end\n50 300\n\nMise en place d’une presse à injecter hybride 2 :\n\nMode de fonctionnement du site\nMontant en kWh\ncumac par kW\n\nPuissance électrique nominale\nde la presse hybride neuve en\nkW\n1x8h\n7 700\nX\nP\n2x8h\n17 000\n3x8h avec arrêt le week-end\n23 100\n3x8h sans arrêt le week-end\n32 400\n\nMise en place d’une presse à injecter hybride 1 :\n\nMode de fonctionnement du site\nMontant en kWh\ncumac par kW\n\nPuissance électrique\nnominale de la presse hybride\nneuve en kW\n1x8h\n4 500\nX\nP\n2x8h\n9 900\n3x8h avec arrêt le week-end\n13 500\n3x8h sans arrêt le week-end\n18 900\n\nTransformation d’une presse à injecter hydraulique existante en presse à injecter hybride 2 par l’installation d’un\nkit d’hybridation :\n\nMode de fonctionnement du site\nMontant en kWh\ncumac par kW\n\nPuissance électrique\nnominale de la presse\nhydraulique existante en kW\n1x8h\n4 200\nX\nP\n2x8h\n9 200\n3x8h avec arrêt le week-end\n12 600\n3x8h sans arrêt le week-end\n17 600\n\nTransformation d’une presse à injecter hydraulique existante en presse à injecter hybride 1 par l’installation d’un\nkit d’hybridation :\n\nMode de fonctionnement du site\nMontant en kWh\ncumac par kW\n\nPuissance électrique\nnominale de la presse\nhydraulique existante en kW\n1x8h\n2 800\nX\nP\n2x8h\n6 200\n3x8h avec arrêt le week-end\n8 400\n3x8h sans arrêt le week-end\n11 700",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac par kW Puissance électrique nominale",
+    "expressions": [
+      "1x8h",
+      "2x8h",
+      "3x8h avec arrêt le week-end",
+      "3x8h sans arrêt le week-end"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1x8h",
       "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8h",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "2x8h",
       "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8h",
+      "confidence": "medium"
     },
     {
-      "text": "cumac par kW",
+      "text": "3x8h avec arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par kW",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h avec arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "3x8h sans arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h sans arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "cumac par kW",
+      "text": "Montant en kWh cumac par kW Puissance électrique nominale",
       "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par kW",
-      "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par kW",
-      "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par kW",
-      "source_file": "Industrie_IND/IND-UT-129 v A32-3.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par kW",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW Puissance électrique nominale",
+      "confidence": "medium"
     }
   ],
   "zones": [],

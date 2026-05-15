@@ -19,6 +19,7 @@ Pour une IA :
 - `data/indexes/chunks_cee.jsonl` : chunks RAG avec metadonnees.
 - `data/indexes/energyco_priority_index.json` : fiches prioritaires pour les cas Energyco.
 - `data/indexes/keyword_hits_index.json` : fiches detectees par mots-cles, sans validation prioritaire Energyco.
+- `data/indexes/formulas_cee_index.json` : formules de calcul extraites des sections 5 des fiches uniques.
 - `data/indexes/extraction_report.json` : rapport qualite de l'extraction.
 - `data/indexes/pdf_audit_unique_fiches.json` : audit des PDF principaux des fiches uniques uniquement.
 - `data/curated/` : enrichissements metier reproductibles appliques au build.

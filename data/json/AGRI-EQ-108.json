@@ -101,27 +101,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant de kWh cumac par m² × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant de kWh cumac par m²\nde serre équipée\n\nSurface de la serre\néquipée (m²)\n390\nX\nS",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant de kWh cumac par m²",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant de kWh cumac par m² × S",
       "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de kWh cumac par m² × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant de kWh cumac par m²",
       "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant de kWh cumac par m²",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

@@ -190,27 +190,60 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "4 900 x P + 2 600 ; 700 x P + 12 000 ; 1 600 x P",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montants en kWh cumac par kW\n0,12 kW ≤ P ≤ 0,75 kW\n0,75 kW < P ≤ 375 kW\n375 kW < P ≤ 1000 kW\n4 900 x P + 2 600\n700 x P + 12 000\n1 600 x P\n\nLa puissance utile P du moteur en kW est celle figurant sur la plaque signalétique et correspond à la puissance\nmécanique à l’arbre aux conditions de fonctionnement assignées par le constructeur. Elle est indiquée sur la preuve\nde réalisation de l’opération ou à défaut sur un document issu du fabricant.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 1,
+    "unit": "Montants en kWh cumac par kW",
+    "expressions": [
+      "4 900 x P + 2 600",
+      "700 x P + 12 000",
+      "1 600 x P"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-132 vA26-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "4 900 x P + 2 600",
       "source_file": "Industrie_IND/IND-UT-132 vA26-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "4 900 x P + 2 600",
+      "confidence": "medium"
+    },
+    {
+      "text": "700 x P + 12 000",
+      "source_file": "Industrie_IND/IND-UT-132 vA26-1.pdf",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "700 x P + 12 000",
+      "confidence": "medium"
+    },
+    {
+      "text": "1 600 x P",
+      "source_file": "Industrie_IND/IND-UT-132 vA26-1.pdf",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1 600 x P",
+      "confidence": "medium"
     },
     {
       "text": "Montants en kWh cumac par kW",
       "source_file": "Industrie_IND/IND-UT-132 vA26-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montants en kWh cumac par kW",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

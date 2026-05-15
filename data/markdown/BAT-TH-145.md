@@ -29,9 +29,8 @@
 - froid (mono-compresseur ou multi-compresseurs) ou à défaut celle indiquée sur un document issu du fabricant du
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh
-- cumac par kW
+- Montant en kWh cumac par kW Puissance électrique nominale × P
+- Montant en kWh cumac par kW Puissance électrique nominale
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

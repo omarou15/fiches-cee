@@ -117,35 +117,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par appartement X × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour un logement collectif :\nZone climatique\nMontant en kWh cumac par\nappartement\n\n\nX\nNombre d’appartements\nraccordés\nH1\n47 700\nN\nH2\n39 500\nH3\n30 800\n\nPour une maison individuelle :\nZone climatique\nMontant en kWh cumac\nX\nFacteur\ncorrectif\nSurface habitable S\nen m²\nH1\n48 300\n0,5\nS < 70\nH2\n40 200\n0,7\n70 ≤ S < 90\nH3\n29 600\n1\n90 ≤ S",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par appartement X",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026_2.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par appartement X × N",
       "source_file": "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026_2.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par appartement X × N",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh cumac par",
+      "text": "Montant en kWh cumac par appartement X",
       "source_file": "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026_2.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026_2.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par appartement X",
+      "confidence": "medium"
     }
   ],
   "zones": [

@@ -125,27 +125,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kW × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone climatique\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ndu groupe de production de froid\nen kW\nCondensation par\nrapport à\nl’atmosphère\nCondensation à\neau seule\n\n\n\nX\nH1 ou H2\n14 300\n11 700\nP\nH3\n13 500\n10 400\n\nLa puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du groupe de production de\nfroid ou à défaut celle indiquée sur un document issu du fabricant du groupe de production de froid.\n\nCondensation par rapport à l’atmosphère : condenseur à air sec adiabatique ou non, condenseur à eau plus\naéroréfrigérant à air sec adiabatique ou non, condenseur évaporatif hybride ou non, condenseur à eau plus tour\nouverte hybride ou non, condenseur à eau plus tour fermée hybride ou non.\n\nCondensation à eau seule : condenseur à eau provenant d’une nappe ou d'un cours d’eau.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-116 vA14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW × P",
       "source_file": "Industrie_IND/IND-UT-116 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW × P",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kW",
       "source_file": "Industrie_IND/IND-UT-116 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

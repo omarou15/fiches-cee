@@ -133,27 +133,73 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "H x F x 9,25 x P ; faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent",
+    "variables": [
+      {
+        "name": "H",
+        "label": "la durée de fonctionnement annuelle (en heures) de chaque moteur piloté par le système électronique de pilotage avec récupération d’énergie. Elle correspond à la durée totale d’usage du moteur (durée où le moteur est en phase moteur additionnée à la durée où le moteur est en phase de freinage). Cette durée est indiquée dans la note de dimensionnement du bureau d’étude ou du professionnel.",
+        "unit": "h",
+        "value_type": "number",
+        "description": "la durée de fonctionnement annuelle (en heures) de chaque moteur piloté par le système électronique de pilotage avec récupération d’énergie. Elle correspond à la durée totale d’usage du moteur (durée où le moteur est en phase moteur additionnée à la durée où le moteur est en phase de freinage). Cette durée est indiquée dans la note de dimensionnement du bureau d’étude ou du professionnel."
+      },
+      {
+        "name": "F",
+        "label": "le pourcentage du temps de fonctionnement où le moteur est en phase de freinage. Ce pourcentage est indiqué dans l’étude de dimensionnement du bureau d’étude ou du professionnel. Pour un pourcentage de 5%, la valeur prise en compte dans le calcul est de 0,05.",
+        "unit": null,
+        "value_type": "number",
+        "description": "le pourcentage du temps de fonctionnement où le moteur est en phase de freinage. Ce pourcentage est indiqué dans l’étude de dimensionnement du bureau d’étude ou du professionnel. Pour un pourcentage de 5%, la valeur prise en compte dans le calcul est de 0,05."
+      },
+      {
+        "name": "P",
+        "label": "la puissance utile du moteur (en kW) qui figure sur la plaque signalétique et qui correspond à la puissance mécanique aux conditions de fonctionnement assignées par le constructeur. Remarque : Dans le cas de plusieurs moteurs pilotés par un même système électronique de pilotage, le calcul est à faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent aux données requises pour le moteur i.",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la puissance utile du moteur (en kW) qui figure sur la plaque signalétique et qui correspond à la puissance mécanique aux conditions de fonctionnement assignées par le constructeur. Remarque : Dans le cas de plusieurs moteurs pilotés par un même système électronique de pilotage, le calcul est à faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent aux données requises pour le moteur i."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant de certificats en kWh cumac\nH x F x 9,25 x P\n\nH est la durée de fonctionnement annuelle (en heures) de chaque moteur piloté par le système électronique de\npilotage avec récupération d’énergie. Elle correspond à la durée totale d’usage du moteur (durée où le moteur est en\nphase moteur additionnée à la durée où le moteur est en phase de freinage). Cette durée est indiquée dans la note de\ndimensionnement du bureau d’étude ou du professionnel.\n\nF est le pourcentage du temps de fonctionnement où le moteur est en phase de freinage. Ce pourcentage est indiqué\ndans l’étude de dimensionnement du bureau d’étude ou du professionnel. Pour un pourcentage de 5%, la valeur\nprise en compte dans le calcul est de 0,05.\n\nP est la puissance utile du moteur (en kW) qui figure sur la plaque signalétique et qui correspond à la puissance\nmécanique aux conditions de fonctionnement assignées par le constructeur.\n\nRemarque : Dans le cas de plusieurs moteurs pilotés par un même système électronique de pilotage, le calcul est à\nfaire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1  + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent\naux données requises pour le moteur i.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [
+      "H x F x 9,25 x P",
+      "faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "H x F x 9,25 x P",
       "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "H x F x 9,25 x P",
+      "confidence": "medium"
+    },
+    {
+      "text": "faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent",
+      "confidence": "medium"
     },
     {
       "text": "Montant de certificats en kWh cumac",
       "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

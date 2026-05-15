@@ -133,35 +133,77 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "1x8h ; 2x8h ; 3x8h avec arrêt le week-end ; 3x8h sans arrêt le week-end",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Mode de fonctionnement\ndu site industriel\nMontant en kWh\ncumac par kW\n\nPuissance utile\nnominale de la\nchaudière en kW\n\n1x8h\n550\nX\nP\n2x8h\n1 200\n3x8h avec arrêt le week-end\n1 600\n3x8h sans arrêt le week-end\n2 300\n\nLa puissance utile nominale à retenir est celle figurant sur la plaque signalétique de la chaudière ou, à\ndéfaut, celle indiquée sur un document issu du fabricant de la chaudière. Elle est définie par l’article\nR.224-20 du code de l’environnement comme « la puissance thermique maximale fixée et garantie par le\nconstructeur comme pouvant être délivrée au fluide caloporteur en marche continue ».",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW Puissance utile",
+    "expressions": [
+      "1x8h",
+      "2x8h",
+      "3x8h avec arrêt le week-end",
+      "3x8h sans arrêt le week-end"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-105 vA14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1x8h",
       "source_file": "Industrie_IND/IND-UT-105 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8h",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "2x8h",
       "source_file": "Industrie_IND/IND-UT-105 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8h",
+      "confidence": "medium"
     },
     {
-      "text": "cumac par kW",
+      "text": "3x8h avec arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-105 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par kW",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h avec arrêt le week-end",
+      "confidence": "medium"
+    },
+    {
+      "text": "3x8h sans arrêt le week-end",
+      "source_file": "Industrie_IND/IND-UT-105 vA14-1.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h sans arrêt le week-end",
+      "confidence": "medium"
+    },
+    {
+      "text": "Montant en kWh cumac par kW Puissance utile",
+      "source_file": "Industrie_IND/IND-UT-105 vA14-1.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW Puissance utile",
+      "confidence": "medium"
     }
   ],
   "zones": [],

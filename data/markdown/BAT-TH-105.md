@@ -27,8 +27,8 @@
 - équipements avec leurs marques et références et leur nombre et elle est accompagnée d’un (ou des) document(s)
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par
+- Montant en kWh cumac par m2 de surface de bâtiment chauffée par les radiateurs × S
+- Montant en kWh cumac par m2 de surface de bâtiment chauffée par les radiateurs
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

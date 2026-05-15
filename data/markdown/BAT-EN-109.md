@@ -35,9 +35,8 @@
 - Dans le cas de la pose d’éléments séparés, le document justificatif spécifique à l’opération est la note de calcul,
 
 ## Formules / calcul detectes
-- - la liste des éléments constituant la toiture et leurs caractéristiques techniques (couleur ou coefficient
-- (couleur ou coefficient d’absorption, résistance thermique, émissivité, … selon la nature des matériaux).
-- 5. Montant de certificats en kWh cumac
+- Montant de certificats en kWh cumac × S
+- Montant de certificats en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

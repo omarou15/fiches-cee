@@ -150,83 +150,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par véhicule Nombre de × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour les opérations d’achat ou de location de véhicules lourds neufs, le montant de certificats d’économie d’énergie\ns’établit comme suit :\n\nCatégorie de véhicule\nMontant en kWh\ncumac par véhicule\n\nNombre de\nvéhicules\nCamion porteur > 3,5 tonnes et < 4,25 tonnes\n222 300\nX\nN\nCamion porteur ≥ 4,25 tonnes et < 7,5 tonnes\n433 100\nCamion porteur ≥ 7,5 tonnes et ≤ 12 tonnes\n671 500\nCamion porteur > 12 tonnes et < 19 tonnes\n824 000\nCamion porteur ≥ 19 tonnes et < 26 tonnes\n1 015 700\nCamion porteur ≥ 26 tonnes et tracteur routier\n1 918 500\n*Pour une agglomération ≤ 250 000 habitants\nBenne à ordures ménagères\n1 572 900\n**Pour une agglomération > 250 000 habitants\nBenne à ordures ménagères\n786 500\n\n\nPour les opérations de rétrofit électrique, le montant de certificats d’économie d’énergie s’établit comme suit :\n\nCatégorie de véhicule\nMontant en kWh\ncumac par véhicule\n\nNombre de\nvéhicules\nCamion porteur > 3,5 tonnes et < 4,25 tonnes\n132 100\nX\nN\nCamion porteur ≥ 4,25 tonnes et < 7,5 tonnes\n257 300\nCamion porteur ≥ 7,5 tonnes et ≤ 12 tonnes\n425 600\n\nCamion porteur > 12 tonnes et < 19 tonnes\n522 200\nCamion porteur ≥ 19 tonnes et < 26 tonnes\n643 700\nCamion porteur ≥ 26 tonnes et tracteur routier\n1 216 000\n*Pour une agglomération ≤ 250 000 habitants\nBenne à ordures ménagères\n996 900\n**Pour une agglomération > 250 000 habitants\nBenne à ordures ménagères\n498 500\n\n*Le montant de certificats indiqué concerne les véhicules spéciaux achetés ou loués ou issus d’une opération de\nrétrofit électrique pour desservir des communes non mentionnées à l’annexe I de l’arrêté du 22 décembre 2021\nétablissant les listes d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article\nR. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales.\n\n**Les montants de certificats indiqués concernent les véhicules spéciaux achetés ou loués ou issus d’une opération\nde rétrofit électrique pour desservir des communes mentionnées à l’annexe I de l’arrêté du 22 décembre 2021\nétablissant les listes d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article\nR. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 4,
+    "unit": "Montant en kWh cumac par véhicule Nombre de",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par véhicule Nombre de × N",
       "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par véhicule Nombre de × N",
+      "confidence": "medium"
     },
     {
-      "text": "Pour les opérations d’achat ou de location de véhicules lourds neufs, le montant de certificats d’économie d’énergie",
+      "text": "Montant en kWh cumac par véhicule Nombre de",
       "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Pour les opérations d’achat ou de location de véhicules lourds neufs, le montant de certificats d’économie d’énergie",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par véhicule",
-      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par véhicule",
-      "confidence": "low"
-    },
-    {
-      "text": "Pour les opérations de rétrofit électrique, le montant de certificats d’économie d’énergie s’établit comme suit :",
-      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Pour les opérations de rétrofit électrique, le montant de certificats d’économie d’énergie s’établit comme suit :",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par véhicule",
-      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par véhicule",
-      "confidence": "low"
-    },
-    {
-      "text": "*Le montant de certificats indiqué concerne les véhicules spéciaux achetés ou loués ou issus d’une opération de",
-      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "*Le montant de certificats indiqué concerne les véhicules spéciaux achetés ou loués ou issus d’une opération de",
-      "confidence": "low"
-    },
-    {
-      "text": "**Les montants de certificats indiqués concernent les véhicules spéciaux achetés ou loués ou issus d’une opération",
-      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "**Les montants de certificats indiqués concernent les véhicules spéciaux achetés ou loués ou issus d’une opération",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par véhicule Nombre de",
+      "confidence": "medium"
     }
   ],
   "zones": [],

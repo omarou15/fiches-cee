@@ -28,11 +28,8 @@ _Non detecte automatiquement._
 - - les services suivants : réglage des géométries, contrôle des pressions, recreusage, permutation et/ou retournement
 
 ## Formules / calcul detectes
-- 5. Montant des certificats en kWh cumac
-- Montant en kWh
-- cumac par ensemble
-- Montant en kWh
-- cumac par porteur
+- Montant en kWh cumac par ensemble Nombre d’ensembles articulés × N
+- Montant en kWh cumac par ensemble Nombre d’ensembles articulés
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

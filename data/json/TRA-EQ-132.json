@@ -174,27 +174,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par jour de mer du navire × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\n\nMontant en kWh cumac par jour de mer du navire\n\nNombre de\njours de mer\ndu relevé\nd’activité du\nnavire\nLongueur du navire\nArt traînant\nArt dormant\nNavire-école\nX\nN\n≤ 16 m\n2 600\n1 000\n1 400\n> 16 m et < 24 m\n6 200\n1 800\n2 600\n≥ 24 m\n7 800\n4 000\n\nAnnexe 1 à la fiche d’opération standardisée TRA-EQ-132,\ndéfinissant le contenu de la partie A de l’attestation sur l’honneur\n\nA/ TRA-EQ-132 (v. A65.1) : Installation à bord d’un navire de pêche ou d’un navire-école d’un appareil de\nmesure, d’analyse et d’optimisation de la consommation de carburant.\n\n* Date d’engagement de l’opération (facture de mise en service de l’appareil installé) : ……/........./............\n* Date de début de l’opération (date du début du relevé d’activité) : ……/........./............\n* Date d’achèvement de l’opération (date de fin du relevé d’activité) : ……/........./............\n\n*Le bénéficiaire de l’opération est (cocher une seule case) :\n□ un armateur de navire de pêche professionnelle battant pavillon français\n□ un organisme français de formation aux métiers de la mer propriétaire d’un navire-école\n\n*Le professionnel ayant réalisé l’opération œuvre dans le secteur naval :   □ OUI         □ NON\n\nNB : Le délai entre la date d’engagement et la date d'achèvement de l'opération est au maximum de douze mois.\n\n*Référence de la preuve de réalisation (facture relative à l’installation de l’appareil) : ………….\n\n*L’appareil installé inclut les fonctionnalités requises par la fiche d’opération standardisée TRA-EQ-132 :   □ OUI         □ NON\n\n*Nom du navire :………………………………….\n*Numéro d’immatriculation du navire : ………………………….\n\n*L’approvisionnement en carburant du navire est réalisé à plus de 50 % en volume en France :     □ OUI         □ NON\n\n* Type de navire (cocher une seule case) :\n□ Art traînant              □ Art dormant              □ Navire-école\n\n* Longueur du navire :\n□ ≤ 16 m              □ 16 < L < 24 m              □ ≥ 24 m\n\n*Nombre de jours passés en mer indiqué par le relevé d’activité du navire : ……………",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac par jour de mer du navire",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par jour de mer du navire × N",
       "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par jour de mer du navire × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par jour de mer du navire",
       "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par jour de mer du navire",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

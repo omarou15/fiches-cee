@@ -28,7 +28,7 @@
 - référence et elle est accompagnée d’un document issu du fabricant indiquant que l’équipement de marque et
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant unitaire en kWh cumac × S
 - Montant unitaire en kWh cumac
 
 ## Sections officielles detectees

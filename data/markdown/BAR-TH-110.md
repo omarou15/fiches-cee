@@ -26,7 +26,7 @@
 - leur marque et référence et la quantité installée et elle est accompagnée d’un document issu du fabricant indiquant
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par radiateur installé × N
 - Montant en kWh cumac par radiateur installé
 
 ## Sections officielles detectees

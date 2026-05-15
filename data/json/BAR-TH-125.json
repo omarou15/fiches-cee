@@ -270,43 +270,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Installation d’une ventilation mécanique contrôlée double flux autoréglable :\n\nPour une installation collective :\nZone climatique\nMontant en kWh cumac\npar logement\n\nNombre de\nlogements\nH1\n23 000\nX\nN\nH2\n18 800\nH3\n12 500\n\nPour une installation individuelle :\nZone climatique\nMontant en kWh cumac\n\nFacteur correctif\nselon la surface\nhabitable\nSurface habitable (m²)\nH1\n39 700\nX\n0,3\n< 35\n0,5\n35 ≤ S < 60\nH2\n32 500\n0,6\n60 ≤ S < 70\n0,7\n70 ≤ S < 90\nH3\n21 600\n1\n90 ≤ S < 110\n1,1\n110 ≤ S ≤ 130\n\n\n\n1,6\n>130\n\nInstallation d’une ventilation mécanique contrôlée double flux modulée :\n\nPour une installation individuelle :\nZone climatique\nMontant en kWh cumac\n\nFacteur correctif\nselon la surface\nhabitable\nSurface habitable (m²)\nH1\n42 000\nX\n0,3\n< 35\n0,5\n35 ≤ S < 60\nH2\n34 400\n0,6\n60 ≤ S < 70\n0,7\n70 ≤ S < 90\nH3\n22 900\n1\n90 ≤ S < 110\n1,1\n110 ≤ S ≤ 130\n\n\n\n1,6\n>130",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × N",
       "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

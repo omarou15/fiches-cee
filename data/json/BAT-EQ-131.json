@@ -142,35 +142,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m2 X × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": "la somme des sections de la totalité des tubes des conduits de lumière naturelle installés, en m².",
+        "unit": "m2",
+        "value_type": "number",
+        "description": "la somme des sections de la totalité des tubes des conduits de lumière naturelle installés, en m²."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh\ncumac par m2\n\n\nX\nSecteur d’application\ntertiaire\n\n\nX\nZone climatique\n\n\nX\nSection totale S\nen m²\n28 500\nCommerce\n1\nFrance\nmétropolitaine\n1\nS\nBureaux\n0,75\nAutres\nSecteurs\n0,6\n France\nd’outre-mer\n1,5\n\nS est la somme des sections de la totalité des tubes des conduits de lumière naturelle installés, en m².",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par m2 X",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-EQ-131 vA15-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m2 X × S",
       "source_file": "Tertiaire_BAT/BAT-EQ-131 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m2 X × S",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "Montant en kWh cumac par m2 X",
       "source_file": "Tertiaire_BAT/BAT-EQ-131 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par m2",
-      "source_file": "Tertiaire_BAT/BAT-EQ-131 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par m2",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m2 X",
+      "confidence": "medium"
     }
   ],
   "zones": [

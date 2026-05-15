@@ -117,35 +117,29 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant en kWh cumac",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "En maison individuelle :\n\nZone climatique\nMontant en kWh cumac\npar maison\nH1\n23 600\nH2\n19 700\nH3\n14 100\n\nEn appartement :\n\nZone climatique\nMontant en kWh cumac\npar appartement\nH1\n12 200\nH2\n10 200\nH3\n7 300",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
       "text": "Montant en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

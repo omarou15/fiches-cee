@@ -31,10 +31,8 @@
 - Le document justificatif spécifique à l’opération est la note de dimensionnement. Le nombre d’équipements installés
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Le montant de certificats d’économies d’énergie est déterminé pour l’ensemble du local complètement clos chauffé
+- Montant en kWhc par kW × local × P
 - Montant en kWhc par kW
-- Lorsqu’un local est chauffé par un système convectif et un système radiatif, les montants en certificats peuvent être
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

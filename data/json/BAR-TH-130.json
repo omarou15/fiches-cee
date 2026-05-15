@@ -166,35 +166,31 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant de certificats en kWh cumac",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant de certificats en kWh cumac\n(Cefmax - Cef)*Sref* 17,984\n\nCefmax : consommation conventionnelle d’énergie maximale exprimée en énergie finale.\nCef : consommation conventionnelle d’énergie du bâtiment exprimée en énergie finale.\nSref : Surface de référence au sens de la RE2020 du bâtiment ou de la partie de bâtiment.\n\nLe coefficient Cefmax est calculé d’après les formules suivantes, selon les solutions de chauffage utilisées (où Cepmax\nest considéré sans déduction de la production d’électricité) :\n\n- Dans le cas où le mode de production du chauffage et de l’ECS est électrique :\n𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥\n2,3\n\n\n- Dans le cas où le mode de production du chauffage et de l’ECS est combustible :\n𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,90 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1\n2,3\n\n\n- Dans le cas où le mode de production du chauffage est combustible et le mode de production de l’ECS est\nélectrique :\n𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,65 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,25\n2,3\n+ 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1\n2,3\n\n\n- Dans le cas où le mode de production du chauffage est électrique et le mode de production de l’ECS est\ncombustible :\n𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,3\n2,3\n+ 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,6 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1\n2,3\n\n\n- Dans le cas d’un module hybride :\nCalcul de la quote-part combustible et électricité à valoriser selon la partie 16.4 FA_PAC_hybrides electriques gaz\nde l’annexe III de l’arrêté du 4 août 2021 modifié relatif aux exigences de performance énergétique et\n\nenvironnementale des constructions de bâtiments en France métropolitaine et portant approbation de la méthode de\ncalcul prévue à l’article R. 172-6 du code de la construction et de l’habitation.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
       "text": "Montant de certificats en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Le coefficient Cefmax est calculé d’après les formules suivantes, selon les solutions de chauffage utilisées (où Cepmax",
-      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le coefficient Cefmax est calculé d’après les formules suivantes, selon les solutions de chauffage utilisées (où Cepmax",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

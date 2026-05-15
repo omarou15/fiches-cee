@@ -28,10 +28,8 @@ _Non detecte automatiquement._
 - Le document justificatif spécifique à l'opération est l'étude de dimensionnement préalable du système de
 
 ## Formules / calcul detectes
-- - la quantité de chaleur nette valorisée par l'opération (Q en kWh/an, déduction faite des pertes liées au réseau et
-- 5. Montant de certificats en kWh cumac
-- (kWh/an)
-- Coefficient d’actualisation
+- Montant de certificats en kWh cumac × Q
+- Montant de certificats en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

@@ -48,15 +48,8 @@
 - Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel
 
 ## Formules / calcul detectes
-- Dans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.
-- cumulée produite par la PAC sans l’appoint (kWh) pour le chauffage de l’eau, ainsi que les besoins annuels cumulés
-- liés au puisage de l’eau chaude sanitaire (kWh) et les pertes de distribution d’eau chaude sanitaire cumulées sur
-- l’année (kWh), et indique le volume de stockage d’eau chaude sanitaire (m3). La note indique la valeur des grandeurs
-- - le coefficient de performance (COP) de chaque équipement installé, déterminé selon les normes susmentionnées ;
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWh cumac
-- montants de certificats correspondant à chaque PAC.
+- Montant en kWh cumac par × N × R
+- Montant en kWh cumac par
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

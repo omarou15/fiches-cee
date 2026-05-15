@@ -149,43 +149,75 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "(2 x Pcompresseurs) – Pdéjà récupérée ; Nota 2 : Si Précupérée excède la limite imposée dans le tableau ci-dessus ((2 x Pcompresseur(s)) – Pdéjà récupérée), le calcul du ; ((2 x Pcompresseur(s)) – Pdéjà récupérée).",
+    "variables": [
+      {
+        "name": "M",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "D",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant de certificats\n(M), en kWh cumac\n‘\nDurée annuelle\nd’utilisation de la\nchaleur récupérée (D),\nen heures\n\nFacteur\nmultiplicatif\n\nPuissance thermique\nrécupérée en kW\nM\n=\nD\nX\n‘9,9\nX\nPrécupérée\nlimitée à\n(2 x Pcompresseurs) – Pdéjà récupérée\n\nAvec, les données suivantes déterminées dans l’étude de dimensionnement préalable, notamment dans ses parties\nbi, bii, ciii, cv :\n•\nLa durée annuelle d’utilisation de la chaleur récupérée (D) est le minimum entre la moyenne pondérée des\ndurées annuelles des besoins unitaires affectée des puissances respectives (c’est-à-dire (d1*P1 +...+\ndn*Pn)/(P1+...+Pn)) et la durée moyenne de fonctionnement annuel des compresseurs frigorifiques ;\n•\nLa puissance thermique récupérée (Précupérée) est le minimum entre la puissance thermique du système de\nrécupération de chaleur et la somme des puissances thermiques à couvrir ;\n•\nLa puissance thermique déjà récupérée (Pdéjà récupérée) est la puissance thermique déjà récupérée par un ou\nplusieurs systèmes de récupération de chaleur sur le groupe de production de froid concerné par l’opération ;\n•\nLa puissance électrique des compresseurs (Pcompresseur(s)) est la somme des puissances électriques nominales\nindiquées sur les plaques du ou des compresseur(s) raccordé(s) au système de récupération de chaleur ou, à\ndéfaut, celles indiquées sur un document issu du fabricant du ou des compresseur(s).\n\nNota 1 : Lorsque le groupe de production de froid est une installation frigorifique à deux étages, alors :\n•\nPour des compresseurs compound (un (des) compresseur(s) assurant les 2 niveaux de pressions d’aspiration)\nou booster (un (des) compresseur(s) basse pression (BP) et un (des) compresseur (s) haute pression (HP))\nalors Pcompresseur(s) est la somme des puissances électriques nominales des compresseurs BP et HP ;\n•\nPour des compresseurs en cascades (2 fluides frigorigènes différents et/ou présence d’un échangeur\nintermédiaire faisant évaporateur de la partie HP et condenseur de la partie BP) alors Pcompresseur(s) est la\nsomme des puissances électriques nominales du (des) seul(s) compresseur(s) HP.\n\nNota 2 : Si Précupérée excède la limite imposée dans le tableau ci-dessus ((2 x Pcompresseur(s)) – Pdéjà récupérée), le calcul du\nmontant des certificats d’économies d’énergie est effectué en considérant que Précupérée est égale à\n((2 x Pcompresseur(s)) – Pdéjà récupérée).",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant de certificats (M), en kWh cumac ‘",
+    "expressions": [
+      "(2 x Pcompresseurs) – Pdéjà récupérée",
+      "Nota 2 : Si Précupérée excède la limite imposée dans le tableau ci-dessus ((2 x Pcompresseur(s)) – Pdéjà récupérée), le calcul du",
+      "((2 x Pcompresseur(s)) – Pdéjà récupérée)."
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "(2 x Pcompresseurs) – Pdéjà récupérée",
       "source_file": "Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "(2 x Pcompresseurs) – Pdéjà récupérée",
+      "confidence": "medium"
     },
     {
-      "text": "Montant de certificats",
+      "text": "Nota 2 : Si Précupérée excède la limite imposée dans le tableau ci-dessus ((2 x Pcompresseur(s)) – Pdéjà récupérée), le calcul du",
       "source_file": "Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant de certificats",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Nota 2 : Si Précupérée excède la limite imposée dans le tableau ci-dessus ((2 x Pcompresseur(s)) – Pdéjà récupérée), le calcul du",
+      "confidence": "medium"
     },
     {
-      "text": "(M), en kWh cumac",
+      "text": "((2 x Pcompresseur(s)) – Pdéjà récupérée).",
       "source_file": "Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "(M), en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "((2 x Pcompresseur(s)) – Pdéjà récupérée).",
+      "confidence": "medium"
     },
     {
-      "text": "montant des certificats d’économies d’énergie est effectué en considérant que Précupérée est égale à",
+      "text": "Montant de certificats (M), en kWh cumac ‘",
       "source_file": "Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "montant des certificats d’économies d’énergie est effectué en considérant que Précupérée est égale à",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats (M), en kWh cumac ‘",
+      "confidence": "medium"
     }
   ],
   "zones": [

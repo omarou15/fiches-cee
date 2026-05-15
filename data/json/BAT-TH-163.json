@@ -318,8 +318,23 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Le coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux",
-    "variables": [],
+    "formula_text": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
+    "variables": [
+      {
+        "name": "R",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
     "amount_table": [
       {
@@ -406,88 +421,38 @@
         "zone": "H3",
         "kwh_cumac_per_apartment": 600
       }
-    ]
+    ],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour une PAC de puissance thermique nominale ≤ 400 kW :\n\nEfficacité\nénergétique\nsaisonnière (Etas)\nZone\nclimatique\nMontant en\nkWh cumac\npar m²\n\nSurface\ntotale\nchauffée\n(m²) par la\n(ou les) PAC\ninstallée(s)\nau titre de la\nprésente\nfiche\n\nSecteur\nFacteur\ncorrectif\n\nFacteur\nR\n111% ≤ Etas <\n126%\nH1\n1100\nX\nS\nX\nHôtellerie,\nrestauration\n0,7\nX\nR\nH2\n900\nSanté\n1,1\nH3\n600\nEnseignement\n0,8\n126% ≤ Etas <\n175%\nH1\n1200\nBureaux\n1,2\nH2\n1000\nCommerces\n0,9\nH3\n700\nAutres\n0,7\n175% ≤ Etas\nH1\n1300\n\n\nH2\n1000\n\n\nH3\n700\n\n\n\nPour une PAC de puissance thermique nominale > 400 kW :\n\nCoefficient de\nperformance\n(COP – EN 14511-\n2\nZone\nclimatique\nMontant en\nkWh cumac\npar m²\n\nSurface\ntotale\nchauffée (m²)\npar la (ou\nles) PAC\ninstallée(s)\nau titre de la\nprésente\nfiche\n\nSecteur\nFacteur\ncorrectif\n\nFacteur\nR\n3,4 ≤ COP < 4,5\nH1\n1100\nX\nS\nX\nHôtellerie,\nrestauration\n0,7\nX\nR\nH2\n900\nSanté\n1,1\nH3\n600\nEnseignement\n0,8\n4,5 ≤ COP\nH1\n1200\nBureaux\n1,2\nH2\n1000\nCommerces\n0,9\nH3\n700\nAutres\n0,7\n\nNB : La surface chauffée par la (ou les) PAC installée(s) correspond à la surface des locaux disposant d’émetteurs\nde chaleur alimentés par la (ou les) PAC installée(s) au titre de la présente fiche.\n\nDans le cas de l’installation d’une seule ou de plusieurs PAC (identiques ou différentes) :\n\n- si la puissance thermique nominale de la PAC nouvellement installée au titre de la présente fiche (ou de la somme\ndes puissances thermiques nominales des PAC nouvellement installées au titre de la présente fiche, dans le cas de\nl’installation de plusieurs PAC identiques ou différentes) est strictement inférieure à 40 % de la puissance utile de\nla chaufferie après travaux, le facteur R est égal au rapport de la puissance thermique nominale de la PAC\nnouvellement installée au titre de la présente fiche (ou de la somme des puissances thermiques nominales de chaque\nPAC éligible nouvellement installée au titre de la présente fiche, dans le cas de l’installation de plusieurs PAC\nidentiques ou différentes), sur la puissance totale utile de la chaufferie après travaux ;\n- dans le cas contraire, le facteur Rest égal à l’unité.\n\nOn entend par puissance utile de la chaufferie après travaux la somme des puissances thermiques nominales des\néquipements de chauffage ou de chauffage et d’eau chaude sanitaire de la chaufferie, après travaux, incluant la (ou\nles) PAC installée(s) au titre de la présente fiche. Dans tous les cas, la puissance de la chaufferie après travaux ne\ncomptabilise pas les équipements de secours.\n\nOn entend par puissance thermique nominale :\n- pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique nominale selon le\nrèglement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques moyennes définies\npar le règlement susmentionné (soit Prated à la température de conception de référence de -10°C) déterminée selon\nl’application de la PAC installée ;\n- pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance mesurée aux conditions de\nperformance nominale de la norme EN 14511-2, au régime de température d’air à +7°C et pour une température à\nla sortie de l'échangeur thermique intérieur déterminée selon l’application de la PAC installée.\n\nOn entend par PAC différentes, des PAC relevant de régimes de puissances différents (puissance thermique\nnominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient\nde performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la\nbase du montant de kWh cumac par m² de la PAC ayant le montant le plus faible.\n\nPendant la durée de vie conventionnelle, aucune opération ultérieure d'installation d'un équipement de production\nthermique dans la chaufferie en remplacement des équipements installés au titre de la présente fiche ne pourra\ndonner lieu à l'obtention de certificats d'économies d'énergie.",
+    "formula_section_page_start": 4,
+    "formula_section_page_end": 5,
+    "unit": "Montant en kWh cumac par m²",
+    "expressions": [],
+    "calculation_methods": [
+      "structured_amount_table",
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Le coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux",
+      "text": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
       "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
+      "confidence": "medium"
     },
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m²",
       "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient de",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient de",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient",
-      "confidence": "low"
-    },
-    {
-      "text": "de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la",
-      "confidence": "low"
-    },
-    {
-      "text": "base du montant de kWh cumac par m² de la PAC ayant le montant le plus faible.",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "base du montant de kWh cumac par m² de la PAC ayant le montant le plus faible.",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m²",
+      "confidence": "medium"
     }
   ],
   "zones": [

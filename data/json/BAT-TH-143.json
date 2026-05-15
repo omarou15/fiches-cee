@@ -36,28 +36,7 @@
     {
       "number": "3",
       "title": "Conditions pour la délivrance de certificats",
-      "text": "La mise en place est réalisée par un professionnel.\n\nLes ventilo-convecteurs ont le label énergétique EUROVENT de classe A ou possèdent des caractéristiques de\nperformance et de qualité équivalentes établies par un organisme établi dans l’Espace économique européen et\naccrédité selon les normes NF EN ISO/CEI 17025 et NF EN 45011 par le comité français d’accréditation\n(COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans\nle cadre de European cooperation for Accreditation (EA), coordination européenne des organismes d’accréditation.\n\nLa preuve de réalisation de l’opération mentionne :",
-      "page_start": 1,
-      "page_end": 1
-    },
-    {
-      "number": "1",
-      "title": "la dépose des ventilo-convecteurs existants,",
-      "text": "",
-      "page_start": 1,
-      "page_end": 1
-    },
-    {
-      "number": "2",
-      "title": "la mise en place de ventilo-convecteurs,",
-      "text": "",
-      "page_start": 1,
-      "page_end": 1
-    },
-    {
-      "number": "3",
-      "title": "le label énergétique des ventilo-convecteurs selon EUROVENT.",
-      "text": "Par dérogation aux points 2 et 3, la preuve de réalisation de l’opération mentionne la mise en place d’équipements\navec leur marque et référence et elle est complétée par un document issu du fabricant indiquant que les équipements\nde marque et référence installés sont des ventilo-convecteurs.\nCe document indique que les équipements possèdent le label énergétique d’EUROVENT de classe A ou justifie de\nl’équivalence à ce label.",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLes ventilo-convecteurs ont le label énergétique EUROVENT de classe A ou possèdent des caractéristiques de\nperformance et de qualité équivalentes établies par un organisme établi dans l’Espace économique européen et\naccrédité selon les normes NF EN ISO/CEI 17025 et NF EN 45011 par le comité français d’accréditation\n(COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans\nle cadre de European cooperation for Accreditation (EA), coordination européenne des organismes d’accréditation.\n\nLa preuve de réalisation de l’opération mentionne :\n1. la dépose des ventilo-convecteurs existants,\n2. la mise en place de ventilo-convecteurs,\n3. le label énergétique des ventilo-convecteurs selon EUROVENT.\n\nPar dérogation aux points 2 et 3, la preuve de réalisation de l’opération mentionne la mise en place d’équipements\navec leur marque et référence et elle est complétée par un document issu du fabricant indiquant que les équipements\nde marque et référence installés sont des ventilo-convecteurs.\nCe document indique que les équipements possèdent le label énergétique d’EUROVENT de classe A ou justifie de\nl’équivalence à ce label.",
       "page_start": 1,
       "page_end": 1
     },
@@ -195,75 +174,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant des certificats d’économies d’énergie en mode chauffage Mch Montant en kWh cumac par m2 × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant des certificats d’économies d’énergie en mode chauffage Mch\n\nMontant en kWh\ncumac par m2\n\n\n\n\nX\nSurface\ntotale\nchauffée\n(m2)\n\n\n\n\nX\n\nFacteur correctif\n(chauffage)\n\nH1\n65\nS\n\nH1\nH2\nH3\nSanté avec hébergement\n2,30\n2,35\n2,35\nH2\n57\nHôtels et autres\nhébergements\n2,20\n2,20\n2,20\nSanté sans hébergement\n0,65\n0,60\n0,65\nH3\n48\nBureaux, restauration,\ncommerces\n0,60\n0,60\n0,60\nAutres secteurs\n0,45\n0,45\n0,40\n\n\nMontant des certificats d’économies d’énergie en mode rafraîchissement Mra\n\nMontant en kWh\ncumac par m2\n\n\n\n\nX\nSurface\ntotale\nrafraîchie\n(m2)\n\n\n\n\nX\n\nFacteur correctif\n(rafraîchissement)\nH1\n9\nS\n\nH1\nH2\nH3\nSanté avec hébergement\n2,05\n2,10\n2,05\nH2\n13\nHôtels et autres\nhébergements\n3,10\n3,35\n2,60\nSanté sans hébergement\n0\n0\n0,80\nH3\n24\nBureaux, restauration,\ncommerces\n1,85\n1,55\n0,95\nAutres secteurs\n0\n0\n0\n\nLe montant des certificats d’économies d’énergie de l’opération est égal à Mch + Mra",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant des certificats d’économies d’énergie en mode chauffage Mch Montant en kWh cumac par m2",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant des certificats d’économies d’énergie en mode chauffage Mch Montant en kWh cumac par m2 × S",
       "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant des certificats d’économies d’énergie en mode chauffage Mch Montant en kWh cumac par m2 × S",
+      "confidence": "medium"
     },
     {
-      "text": "Montant des certificats d’économies d’énergie en mode chauffage Mch",
+      "text": "Montant des certificats d’économies d’énergie en mode chauffage Mch Montant en kWh cumac par m2",
       "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant des certificats d’économies d’énergie en mode chauffage Mch",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par m2",
-      "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par m2",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant des certificats d’économies d’énergie en mode rafraîchissement Mra",
-      "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant des certificats d’économies d’énergie en mode rafraîchissement Mra",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par m2",
-      "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par m2",
-      "confidence": "low"
-    },
-    {
-      "text": "Le montant des certificats d’économies d’énergie de l’opération est égal à Mch + Mra",
-      "source_file": "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le montant des certificats d’économies d’énergie de l’opération est égal à Mch + Mra",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant des certificats d’économies d’énergie en mode chauffage Mch Montant en kWh cumac par m2",
+      "confidence": "medium"
     }
   ],
   "zones": [

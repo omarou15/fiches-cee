@@ -302,83 +302,54 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Dans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par × N × R",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      },
+      {
+        "name": "R",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "COP de la PAC\ninstallée\nZone\nclimatique\nMontant en\nkWh cumac\npar\nappartement\n\nNombre\nd'appartements\n\nFacteur R\n2,8 ≤ COP < 3,2\nH1\n49 200\nX\nN\nX\nR\nH2\n46 800\nH3\n44 000\n3,2 ≤ COP < 3,6\nH1\n51 000\nH2\n48 500\nH3\n45 500\n3,6 ≤ COP < 4\nH1\n52 400\nH2\n49 800\nH3\n46 800\n4 ≤ COP < 4,4\nH1\n53 500\nH2\n50 900\nH3\n47 800\n4,4 ≤ COP < 4,8\nH1\n54 400\nH2\n51 800\nH3\n48 600\nCOP ≥ 4,8\nH1\n55 000\nH2\n52 300\nH3\n49 200\n\nLe facteur R est défini en partie 3 de la présente fiche.\n\nDans le cas où plusieurs PAC sont installées, il convient de sommer (pour le même nombre d’appartements) les\nmontants de certificats correspondant à chaque PAC.\n\nNB : la somme des facteurs R des PAC installées est inférieure ou égale à 1.",
+    "formula_section_page_start": 4,
+    "formula_section_page_end": 4,
+    "unit": "Montant en kWh cumac par",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Dans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.",
+      "text": "Montant en kWh cumac par × N × R",
       "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Dans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par × N × R",
+      "confidence": "medium"
     },
     {
-      "text": "cumulée produite par la PAC sans l’appoint (kWh) pour le chauffage de l’eau, ainsi que les besoins annuels cumulés",
+      "text": "Montant en kWh cumac par",
       "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumulée produite par la PAC sans l’appoint (kWh) pour le chauffage de l’eau, ainsi que les besoins annuels cumulés",
-      "confidence": "low"
-    },
-    {
-      "text": "liés au puisage de l’eau chaude sanitaire (kWh) et les pertes de distribution d’eau chaude sanitaire cumulées sur",
-      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "liés au puisage de l’eau chaude sanitaire (kWh) et les pertes de distribution d’eau chaude sanitaire cumulées sur",
-      "confidence": "low"
-    },
-    {
-      "text": "l’année (kWh), et indique le volume de stockage d’eau chaude sanitaire (m3). La note indique la valeur des grandeurs",
-      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "l’année (kWh), et indique le volume de stockage d’eau chaude sanitaire (m3). La note indique la valeur des grandeurs",
-      "confidence": "low"
-    },
-    {
-      "text": "- le coefficient de performance (COP) de chaque équipement installé, déterminé selon les normes susmentionnées ;",
-      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- le coefficient de performance (COP) de chaque équipement installé, déterminé selon les normes susmentionnées ;",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "montants de certificats correspondant à chaque PAC.",
-      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "montants de certificats correspondant à chaque PAC.",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par",
+      "confidence": "medium"
     }
   ],
   "zones": [

@@ -28,7 +28,8 @@ _Non detecte automatiquement._
 - Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place du
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- H x F x 9,25 x P
+- faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent
 - Montant de certificats en kWh cumac
 
 ## Sections officielles detectees

@@ -134,35 +134,47 @@
     }
   ],
   "calculation": {
-    "formula_text": "5. Montant des certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant des certificats en kWh cumac",
+    "formula_section_text": "Type de véhicules\nMontant en kWh cumac\npar ensemble articulé\n\n\n\nX\nNombre d’ensembles articulés\nen gestion externalisée\n\nEnsemble articulé\n\n4 700\nN\n\nType de véhicules\nMontant en kWh cumac\npar porteur\n\n\n\nX\nNombre de porteurs en gestion\nexternalisée\n\nPorteur\n\n1 700\nN",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-SE-108 vA14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant des certificats en kWh cumac",
+      "text": "Montant en kWh cumac × N",
       "source_file": "Transport_TRA/TRA-SE-108 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant des certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant des certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Transport_TRA/TRA-SE-108 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant des certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Transport_TRA/TRA-SE-108 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

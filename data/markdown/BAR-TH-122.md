@@ -26,10 +26,8 @@ _Non detecte automatiquement._
 - référence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant unitaire
-- kWh cumac
-- Coefficient R
+- kWh cumac Nombre d’appartements × N × R
+- kWh cumac Nombre d’appartements
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

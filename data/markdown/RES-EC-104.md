@@ -40,9 +40,8 @@
 - Ces documents sont tenus à disposition par le bénéficiaire pour les besoins de contrôle de l’opération.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par
-- Montant en kWh cumac par
+- Montant en kWh cumac par luminaire remplacé ou rééquipé Nombre de luminaires × N1 × N2
+- Montant en kWh cumac par luminaire remplacé ou rééquipé Nombre de luminaires
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

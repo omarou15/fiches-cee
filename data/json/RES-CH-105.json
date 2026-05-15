@@ -117,43 +117,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller de diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau : Montant unitaire en kWh cumac × L",
+    "variables": [
+      {
+        "name": "L",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller\nde diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau :\n\nMontant unitaire en kWh cumac\nselon le diamètre initial DN du\nréseau\n\nDurée annuelle\nd'utilisation du\nréseau\nFacteur correctif tenant\ncompte de l’utilisation\ndu réseau\n\n\n\n\n\n\nDN\nkWh cumac/m\n\n\n32\n3 200\n\n12 mois\n1,00\n\n\n40\n3 500\n\n11 mois\n0,92\n\nLongueur\nen m\n50\n3 900\n\n10 mois\n0,83\n\n65\n4 500\nX\n9 mois\n0,75\nX\nL\n80\n5 000\n\n8 mois\n0,67\n\n100\n5 800\n\n7 mois\n0,58\n\n\n125\n6 500\n\n6 mois\n0,50\n\n\n150\n7 200\n\n\n\n\n\n175\n8 000\n\n\n\n\n\n200\n8 700\n\n\n\n\n\n250\n10 000\n\n\n\n\n\n300\n11 300\n\n\n\n\n\n350\n12 600\n\n\n\n\n\n400\n13 800\n\n\n\n\n\n450\n14 900\n\n\n\n\n\n500\n16 100\n\n\n\n\n\n550\n17 300\n\n\n\n\n\n600\n18 400\n\n\n\n\n\n700\n20 700\n\n\n\n\n\n800\n22 900\n\n\n\n\n\n900\n25 300\n\n\n\n\n\n1000\n27 800\n\n\n\n\n\n\nNota : Le diamètre nominal (DN) correspond à la désignation de dimension commune à tous les éléments d'une\nmême tuyauterie autre que ceux désignés par leur diamètre extérieur ou intérieur. C'est un nombre entier utilisé aux\nfins de référence. Il correspond au diamètre nominal de la canalisation du réseau de chaleur avant son passage en\nbasse température.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller de diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau : Montant unitaire en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller de diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau : Montant unitaire en kWh cumac × L",
       "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller de diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau : Montant unitaire en kWh cumac × L",
+      "confidence": "medium"
     },
     {
-      "text": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller",
+      "text": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller de diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau : Montant unitaire en kWh cumac",
       "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire en kWh cumac",
-      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac/m",
-      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac/m",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller de diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau : Montant unitaire en kWh cumac",
+      "confidence": "medium"
     }
   ],
   "zones": [],

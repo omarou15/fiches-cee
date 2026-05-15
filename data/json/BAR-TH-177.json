@@ -263,43 +263,47 @@
     }
   ],
   "calculation": {
-    "formula_text": "logements, inférieure à 331 kWh/m².an pour les usages chauffage, refroidissement, production d’eau chaude",
-    "variables": [],
+    "formula_text": "Montants en kWh cumac/m² × Shab",
+    "variables": [
+      {
+        "name": "Shab",
+        "label": "la surface de habitable (exprimée en m²) du bâtiment après rénovation.",
+        "unit": "m2",
+        "value_type": "number",
+        "description": "la surface de habitable (exprimée en m²) du bâtiment après rénovation."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\n\nMontants en kWh cumac/m²\nX\nSurface habitable du\nbâtiment Shab (m²)\n2 100\nShab est la surface de habitable (exprimée en m²) du bâtiment après rénovation.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montants en kWh cumac/m²",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "logements, inférieure à 331 kWh/m².an pour les usages chauffage, refroidissement, production d’eau chaude",
+      "text": "Montants en kWh cumac/m² × Shab",
       "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "logements, inférieure à 331 kWh/m².an pour les usages chauffage, refroidissement, production d’eau chaude",
-      "confidence": "low"
-    },
-    {
-      "text": "- la consommation conventionnelle (en kWh/m².an) du bâtiment (sans déduction de la production d’électricité",
-      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- la consommation conventionnelle (en kWh/m².an) du bâtiment (sans déduction de la production d’électricité",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montants en kWh cumac/m² × Shab",
+      "confidence": "medium"
     },
     {
       "text": "Montants en kWh cumac/m²",
       "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montants en kWh cumac/m²",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

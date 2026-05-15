@@ -38,14 +38,8 @@
 - validité, ce document est considéré comme valable jusqu’à un an après sa date de fin de validité.
 
 ## Formules / calcul detectes
-- La puissance nominale de la PAC air/air est inférieure ou égale à 12 kW et son coefficient de performance saisonnier
-- - et le coefficient de performance saisonnier (SCOP) de l’équipement.
-- La puissance nominale de la PAC air/air ainsi que son coefficient de performance saisonnier sont déterminés selon
-- 5. Montant de certificats en kWh cumac
-- Montant unitaire en
-- kWh cumac
-- Montant unitaire en
-- kWh cumac
+- Montant unitaire en kWh cumac X × SCOP
+- Montant unitaire en kWh cumac X
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

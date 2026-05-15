@@ -39,8 +39,7 @@
 - Les documents justificatifs spécifiques à l’opération sont l’état récapitulatif établi, signé et daté par le professionnel
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWhcumac
+- Montant en kWhcumac × N
 - Montant en kWhcumac
 
 ## Sections officielles detectees

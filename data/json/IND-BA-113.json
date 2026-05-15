@@ -182,35 +182,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m² Aire de la projection horizontale de la surface × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone climatique\nMontant en kWh\ncumac par m²\n\nAire de la projection horizontale de la surface\néclairante de la paroi translucide (At flat) de\nl’ensemble des lanterneaux installés en m²\nH1\n3 400\nX\nS\nH2\n4 000\nH3\n6 400\n\nL’aire de la projection horizontale de la surface éclairante de la paroi translucide (At flat) est égale à la projection\nhorizontale de la plus petite section de passage de la lumière naturelle.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par m² Aire de la projection horizontale de la surface",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-BA-113 vA26-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m² Aire de la projection horizontale de la surface × S",
       "source_file": "Industrie_IND/IND-BA-113 vA26-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m² Aire de la projection horizontale de la surface × S",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "Montant en kWh cumac par m² Aire de la projection horizontale de la surface",
       "source_file": "Industrie_IND/IND-BA-113 vA26-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par m²",
-      "source_file": "Industrie_IND/IND-BA-113 vA26-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par m²",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m² Aire de la projection horizontale de la surface",
+      "confidence": "medium"
     }
   ],
   "zones": [

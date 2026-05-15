@@ -28,7 +28,7 @@ _Non detecte automatiquement._
 - installé est un compresseur d’air basse pression à vis ou centrifuge. Ce document précise la puissance électrique
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par kW × P
 - Montant en kWh cumac par kW
 
 ## Sections officielles detectees

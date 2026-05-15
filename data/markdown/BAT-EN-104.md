@@ -34,10 +34,8 @@
 - susmentionnée. En cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an
 
 ## Formules / calcul detectes
-- Hors double fenêtre, le coefficient de transmission surfacique, Uw, des fenêtres et portes-fenêtres est inférieur ou
-- renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et évalué selon la
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par
+- Montant en kWh cumac par m² de fenêtre, double fenêtre ou porte-fenêtre complète × S
+- Montant en kWh cumac par m² de fenêtre, double fenêtre ou porte-fenêtre complète
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

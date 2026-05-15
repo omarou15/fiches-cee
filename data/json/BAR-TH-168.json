@@ -246,27 +246,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m2 de capteur × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone\ngéographique\nMontant en kWh cumac par m2 de capteur\n\nSurface hors-tout\nde capteurs solaires\nmis en place (m2)\nUsage ECS\nUsage ECS\net Chauffage\n\nS\nH1\n6 000\n14 000\n\nH2\n7 200\n12 700\nX\nH3\n9 600\n10 300\n\n« ECS » signifie : eau chaude sanitaire.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac par m2 de capteur",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m2 de capteur × S",
       "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m2 de capteur × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par m2 de capteur",
       "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par m2 de capteur",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

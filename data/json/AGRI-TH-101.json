@@ -109,35 +109,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant unitaire en kWh cumac par m² Surface de serres chauffée × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant unitaire en kWh\ncumac par m²\n\nSurface de serres chauffée\npar le dispositif, en m²\n96\nX\nS",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 1,
+    "unit": "Montant unitaire en kWh cumac par m² Surface de serres chauffée",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-TH-101 vA62-2 à compter du 01-01-2025.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant unitaire en kWh cumac par m² Surface de serres chauffée × S",
       "source_file": "Agriculture_AGRI/AGRI-TH-101 vA62-2 à compter du 01-01-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac par m² Surface de serres chauffée × S",
+      "confidence": "medium"
     },
     {
-      "text": "Montant unitaire en kWh",
+      "text": "Montant unitaire en kWh cumac par m² Surface de serres chauffée",
       "source_file": "Agriculture_AGRI/AGRI-TH-101 vA62-2 à compter du 01-01-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par m²",
-      "source_file": "Agriculture_AGRI/AGRI-TH-101 vA62-2 à compter du 01-01-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par m²",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac par m² Surface de serres chauffée",
+      "confidence": "medium"
     }
   ],
   "zones": [],

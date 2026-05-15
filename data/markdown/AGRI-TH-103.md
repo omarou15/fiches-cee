@@ -29,7 +29,7 @@
 - Le document justificatif spécifique à l’opération est le document attestant de la performance énergétique du
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant unitaire en kWh cumac par litre de lait × P
 - Montant unitaire en kWh cumac par litre de lait
 
 ## Sections officielles detectees

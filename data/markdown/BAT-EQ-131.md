@@ -28,9 +28,8 @@
 - Ce document mentionne que l’équipement de marque et référence installé est un conduit de lumière naturelle, avec
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh
-- cumac par m2
+- Montant en kWh cumac par m2 X × S
+- Montant en kWh cumac par m2 X
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

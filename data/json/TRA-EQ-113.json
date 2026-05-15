@@ -206,19 +206,50 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "38 700 * X * Y ; X = volume de lubrifiant utilisé en m3.",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "38 700 * X * Y\nAvec :\nX = volume de lubrifiant utilisé en m3.\nY% : performance « Fuel Economy » du lubrifiant.\nExemple : pour une performance de 1,5 %, Y = 1,5\n\nY% = Y2%-Y1%\n\nY1 en % : économie de carburant de l’huile de référence 15W-40 répondant au standard ACEA E7 utilisée, mesurée\npar rapport à l’huile étalon de l’essai OM501FE (Y1 : valeur attendue négative)\nY2 en % : économie de carburant de l’huile à tester, mesurée par rapport à l’huile étalon de l’essai OM501FE (Y2 :\nvaleur attendue positive)",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [
+      "38 700 * X * Y",
+      "X = volume de lubrifiant utilisé en m3."
+    ],
+    "calculation_methods": [
+      "direct_expression"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-113 vA14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "38 700 * X * Y",
       "source_file": "Transport_TRA/TRA-EQ-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "38 700 * X * Y",
+      "confidence": "medium"
+    },
+    {
+      "text": "X = volume de lubrifiant utilisé en m3.",
+      "source_file": "Transport_TRA/TRA-EQ-113 vA14-1.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "X = volume de lubrifiant utilisé en m3.",
+      "confidence": "medium"
+    },
+    {
+      "text": "Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-113 vA14-1.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats en kWh cumac",
+      "confidence": "medium"
     }
   ],
   "zones": [],

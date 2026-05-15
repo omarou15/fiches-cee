@@ -38,11 +38,7 @@
 - suivi des prises de carburants (sur relevé de facture). Ces relevés permettent de calculer le coefficient de pondération
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac
-- Gi = Gain en kWh par m3 par catégorie (cf. tableau ci-dessous) pour chacun des navires
-- Le gain G en kWh cumac/m3/navire pour 1 % d’économies d’énergie est mentionné dans le tableau suivant :
-- suivi des prises de carburants (sur relevé de facture). Ces relevés permettent de calculer le coefficient de pondération
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

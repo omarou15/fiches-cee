@@ -29,8 +29,8 @@
 - référence et elle est accompagnée d’un document issu du fabricant indiquant que l’équipement de marque et
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par
+- Montant en kWh cumac par appartement Nombre × N
+- Montant en kWh cumac par appartement Nombre
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

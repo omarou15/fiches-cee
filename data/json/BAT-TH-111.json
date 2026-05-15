@@ -166,43 +166,73 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "B x T x 0,196 ; T est le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100.",
+    "variables": [
+      {
+        "name": "B",
+        "label": "le besoin annuel en eau chaude sanitaire à produire par l’énergie solaire exprimé en kWh par an.",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "le besoin annuel en eau chaude sanitaire à produire par l’énergie solaire exprimé en kWh par an."
+      },
+      {
+        "name": "T",
+        "label": "le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100.",
+        "unit": null,
+        "value_type": "number",
+        "description": "le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100."
+      },
+      {
+        "name": "PES",
+        "label": "la production solaire utile (exprimé en kWh/an). Les valeurs de B, T et PES sont issues de l’étude de dimensionnement.",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la production solaire utile (exprimé en kWh/an). Les valeurs de B, T et PES sont issues de l’étude de dimensionnement."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone géographique\nMontant en kWh cumac\nToutes zones\nB x T x 0,196\n\nB est le besoin annuel en eau chaude sanitaire à produire par l’énergie solaire exprimé en kWh par an.\nT est le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100.\nPES est la production solaire utile (exprimé en kWh/an).\n\nLes valeurs de B, T et PES sont issues de l’étude de dimensionnement.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [
+      "B x T x 0,196",
+      "T est le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100."
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "B x T x 0,196",
       "source_file": "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "B x T x 0,196",
+      "confidence": "medium"
+    },
+    {
+      "text": "T est le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100.",
+      "source_file": "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "T est le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100.",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "B est le besoin annuel en eau chaude sanitaire à produire par l’énergie solaire exprimé en kWh par an.",
-      "source_file": "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "B est le besoin annuel en eau chaude sanitaire à produire par l’énergie solaire exprimé en kWh par an.",
-      "confidence": "low"
-    },
-    {
-      "text": "PES est la production solaire utile (exprimé en kWh/an).",
-      "source_file": "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "PES est la production solaire utile (exprimé en kWh/an).",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

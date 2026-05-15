@@ -27,7 +27,7 @@ _Non detecte automatiquement._
 - Le document justificatif spécifique à l’opération est le document attestant que le récupérateur de chaleur sur le tank
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par litre de lait × P
 - Montant en kWh cumac par litre de lait
 
 ## Sections officielles detectees

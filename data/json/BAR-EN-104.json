@@ -182,51 +182,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Hors double fenêtre, le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m² de fenêtres, doubles fenêtres ou portes fenêtres × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone\nclimatique\nMontant en kWh cumac par\nm² de fenêtres, doubles\nfenêtres ou portes fenêtres\ncomplètes avec vitrage\nisolant posé\n\nSurface de fenêtres,\ndoubles fenêtres ou\nportes fenêtres complètes\navec vitrage isolant posé\n(m²)\nH1\n3 800\nX\nS\nH2\n3 100\nH3\n2 100",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par m² de fenêtres, doubles fenêtres ou portes fenêtres",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Hors double fenêtre, le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
+      "text": "Montant en kWh cumac par m² de fenêtres, doubles fenêtres ou portes fenêtres × S",
       "source_file": "Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Hors double fenêtre, le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m² de fenêtres, doubles fenêtres ou portes fenêtres × S",
+      "confidence": "medium"
     },
     {
-      "text": "renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et le facteur de",
+      "text": "Montant en kWh cumac par m² de fenêtres, doubles fenêtres ou portes fenêtres",
       "source_file": "Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et le facteur de",
-      "confidence": "low"
-    },
-    {
-      "text": "Les facteurs de transmission solaire Sw sont évalués selon la norme NF P 50-777 et les coefficients de transmission",
-      "source_file": "Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Les facteurs de transmission solaire Sw sont évalués selon la norme NF P 50-777 et les coefficients de transmission",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par",
-      "source_file": "Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m² de fenêtres, doubles fenêtres ou portes fenêtres",
+      "confidence": "medium"
     }
   ],
   "zones": [

@@ -32,9 +32,8 @@ _Non detecte automatiquement._
 - ou à défaut celle indiquée sur un document issu du fabricant.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWhcumac par
+- Montant en kWhcumac par (kW.°C) × P
+- Montant en kWhcumac par (kW.°C)
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

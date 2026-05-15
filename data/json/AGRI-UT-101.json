@@ -150,27 +150,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Application\nMontant en kWh cumac\npar kW\n\nPuissance nominale du\nmoto-variateur en kW\nPompage d’irrigation\n2 100\nX\nP\nVentilation de bâtiments d’élevage\n18 300\nVentilation en serre\n14 900\nPompe à vide d’une salle de traite\n2 100\nChaufferie d’une serre\n(pompe, ventilateur brûleur)\n6 400\nAutres applications\n4 500\n\nLa puissance nominale à retenir est celle figurant sur la plaque signalétique du moteur ou à défaut celle indiquée sur\nun document issu du fabricant.\n\nLorsque l’opération concerne la mise en place de plusieurs moto-variateurs synchrones à aimants permanents ou à\nreluctance de caractéristiques identiques, la puissance nominale à prendre en compte dans le calcul est la somme,\npar type d’application, des puissances nominales de chaque moto-variateur.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-UT-101 vA24-2 après le 01-04-2017.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × P",
       "source_file": "Agriculture_AGRI/AGRI-UT-101 vA24-2 après le 01-04-2017.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × P",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Agriculture_AGRI/AGRI-UT-101 vA24-2 après le 01-04-2017.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

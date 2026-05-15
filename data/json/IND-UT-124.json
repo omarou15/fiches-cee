@@ -125,27 +125,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kW × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Nombre de\ncompresseurs\npilotés\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ntotale des compresseurs pilotés\nen kW\nSéquenceur sans\noptimisation d’énergie\nSéquenceur avec\noptimisation d’énergie\n\n2\n560\n2 400\nX\nP\n3\n1 100\n3 000\n4\n1 700\n3 600\n5\n2 200\n4 100\n6\n2 700\n4 600\n7\n3 200\n5 100\n8\n3 700\n5 600\n\nLa puissance électrique nominale totale des compresseurs pilotés est la somme des puissances électriques nominales\ndes compresseurs pilotés en kW.\n\nLa puissance électrique nominale à retenir pour chaque compresseur est celle figurant sur la plaque signalétique\ndu compresseur ou à défaut celle indiquée sur un document issu du fabricant.\n\nLorsque le séquenceur électronique pilote plus de huit compresseurs, la puissance électrique nominale totale est la\nsomme des puissances électriques nominales des huit compresseurs ayant les puissances électriques nominales les\nplus élevées.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-124 v A14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW × P",
       "source_file": "Industrie_IND/IND-UT-124 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW × P",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kW",
       "source_file": "Industrie_IND/IND-UT-124 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

@@ -31,12 +31,7 @@
 - document est considéré comme valable jusqu’à un an après sa date de fin de validité.
 
 ## Formules / calcul detectes
-- - un coefficient de transmission thermique inférieur ou égal à 4 W/m².K évalué selon les normes NF EN 673 pour
-- - un coefficient de transmission lumineuse supérieur ou égal à 80 % évalué selon la norme NF EN 410.
-- - le coefficient de transmission thermique et le coefficient de transmission lumineuse de la couverture de serre
-- ses caractéristiques (coefficient de transmission thermique et coefficient de transmission lumineuse) évaluées,
-- 5. Montant de certificats en kWh cumac
-- Montant de kWh cumac par m²
+- Montant de kWh cumac par m² × S
 - Montant de kWh cumac par m²
 
 ## Sections officielles detectees

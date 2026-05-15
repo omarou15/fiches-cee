@@ -50,18 +50,8 @@
 - propriété), attestation de propriété immobilière) ou le cas échéant, le compromis de vente signé par le vendeur et
 
 ## Formules / calcul detectes
-- d) Sauf contrainte technique, architecturale ou patrimoniale justifiée, le coefficient de transmission surfacique Uw
-- à double vitrage renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et
-- 150 gCO2eq/kWh PCI, et dont le taux de couverture pour le chauffage, défini comme le rapport entre la quantité de
-- à 150 gCO2eq/kWh PCI et les besoins annuels de chaleur, pour le chauffage du logement, couverts par le système
-- un équipement pour lequel le niveau d'émissions de gaz à effet de serre est supérieur à 300 gCO2eq/kWh PCI, et
-- équipements dont les émissions sont supérieures à 300 gCO2eq/kWh PCI et les besoins annuels de chaleur couverts
-- - la consommation conventionnelle (en kWh/m².an) de l’appartement (sans déduction de la production d’électricité
-- 5. Montant de certificats en kWh cumac
-- Montant
-- kWh cumac
-- Pour les travaux de la seconde étape, le montant de certificats d’économies d’énergie attribué lors de la seconde
-- étape correspond au montant de certificats d’économies d’énergie correspondant à la somme des sauts de classes
+- Montant unitaire en kWh cumac × Shab
+- Montant unitaire en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

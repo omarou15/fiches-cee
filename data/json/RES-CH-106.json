@@ -174,83 +174,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "L’isolant installé garantit que le coefficient de perte thermique Umax (W/m².K) est inférieur aux valeurs du tableau",
-    "variables": [],
+    "formula_text": "Montant unitaire en kWh cumac selon le × L",
+    "variables": [
+      {
+        "name": "L",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le montant de certificats est calculé pour chaque élément de canalisation de diamètre nominal DN de la tuyauterie\nconcernée et de longueur L, et selon la durée annuelle d’utilisation du réseau :\n\nPour les canalisations respectant les exigences relatives à la classe d’isolation thermique 4 définie par la norme\nNF EN 12828 :\n\n\n\nDurée\nannuelle\nd'utilisation\ndu réseau\nFacteur correctif\ntenant compte de\nl’utilisation du\nréseau\n\nMontant unitaire en kWh cumac selon le\ndiamètre nominal DN (en mm) du réseau\n\n\n\nLongueur\n(en m)\n\n\n\n\nDN\nEau\nchaude\nEau\nsurchauffée\nVapeur\nL\nX\n12 mois\n1,00\nX\n32\n3 300\n5 000\n8 700\n\n\n11 mois\n0,92\n\n40\n3 800\n5 900\n10 800\n\n\n10 mois\n0,83\n\n50\n4 500\n6 800\n13 000\n\n\n9 mois\n0,75\n\n60\n5 000\n7 700\n-\n\n\n8 mois\n0,67\n\n65\n5 300\n8 100\n13 600\n\n\n7 mois\n0,58\n\n80\n6 000\n9 100\n15 900\n\n\n6 mois\n0,50\n\n100\n6 800\n10 400\n19 700\n\n\n\n\n\n125\n7 600\n11 700\n21 400\n\n\n\n\n\n150\n8 400\n12 900\n24 900\n\n\n\n\n\n175\n9 100\n14 000\n28 400\n\n\n\n\n\n200\n9 800\n15 100\n31 700\n\n\n\n\n\n250\n11 100\n17 000\n38 400\n\n\n\n\n\n300\n12 300\n18 800\n41 600\n\n\n\n\n\n350\n13 400\n20 600\n43 000\n\n\n\n\n\n≥ 400\n14 600\n22 400\n44 800\n\nPour les canalisations respectant les exigences relatives aux séries d’isolation thermique 1, 2 et 3 définies par la norme\nNF EN 253 :\n\n\n\nDurée\nannuelle\nd'utilisation\ndu réseau\nFacteur correctif\ntenant compte de\nl’utilisation du\nréseau\n\nMontant unitaire en kWh cumac selon le\ndiamètre nominal DN (en mm) du réseau\n\n\n\nLongueur\n(en m)\n\n\n\n\nDN\nEau\nchaude\nEau\nsurchauffée\nVapeur\nL\nX\n12 mois\n1,00\nX\n32\n3 800\n5 800\n8 700\n\n\n11 mois\n0,92\n\n40\n4 400\n6 700\n10 800\n\n\n10 mois\n0,83\n\n50\n4 900\n7 600\n13 000\n\n\n9 mois\n0,75\n\n60\n5 400\n8 300\n-\n\n\n8 mois\n0,67\n\n65\n5 700\n8 700\n13 600\n\n\n7 mois\n0,58\n\n80\n6 500\n10 000\n15 900\n\n\n6 mois\n0,50\n\n100\n7 500\n11 500\n19 700\n\n\n\n\n\n125\n8 300\n12 800\n21 400\n\n\n\n\n\n150\n9 100\n14 000\n24 900\n\n\n\n\n\n175\n10 100\n15 500\n28 400\n\n\n\n\n\n200\n11 000\n16 900\n31 700\n\n\n\n\n\n250\n12 900\n19 900\n38 400\n\n\n\n\n\n300\n14 300\n22 000\n41 600\n\n\n\n\n\n350\n16 200\n24 900\n43 000\n\n\n\n\n\n≥ 400\n17 800\n27 300\n44 800\n\nN.B. : Le diamètre nominal (DN) de la canalisation correspond à la désignation de dimension commune à tous les\néléments d'une même tuyauterie autres que ceux désignés par leur diamètre extérieur ou intérieur. C'est un nombre\nentier utilisé aux fins de référence.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 4,
+    "unit": "Montant unitaire en kWh cumac selon le",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "L’isolant installé garantit que le coefficient de perte thermique Umax (W/m².K) est inférieur aux valeurs du tableau",
+      "text": "Montant unitaire en kWh cumac selon le × L",
       "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "L’isolant installé garantit que le coefficient de perte thermique Umax (W/m².K) est inférieur aux valeurs du tableau",
-      "confidence": "low"
-    },
-    {
-      "text": "Le coefficient de perte thermique Umax (W/m².K) est calculé au moyen de la formule suivante :",
-      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le coefficient de perte thermique Umax (W/m².K) est calculé au moyen de la formule suivante :",
-      "confidence": "low"
-    },
-    {
-      "text": "λD (W/m.K) est le coefficient de conductivité thermique de l’isolant,",
-      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "λD (W/m.K) est le coefficient de conductivité thermique de l’isolant,",
-      "confidence": "low"
-    },
-    {
-      "text": "La mise en place d’une canalisation pré-isolée dont le calorifugeage garantit que le coefficient de perte thermique est",
-      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "La mise en place d’une canalisation pré-isolée dont le calorifugeage garantit que le coefficient de perte thermique est",
-      "confidence": "low"
-    },
-    {
-      "text": "(coefficient de conductivité thermique en W/m.K et épaisseur).",
-      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "(coefficient de conductivité thermique en W/m.K et épaisseur).",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Le montant de certificats est calculé pour chaque élément de canalisation de diamètre nominal DN de la tuyauterie",
-      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le montant de certificats est calculé pour chaque élément de canalisation de diamètre nominal DN de la tuyauterie",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac selon le × L",
+      "confidence": "medium"
     },
     {
       "text": "Montant unitaire en kWh cumac selon le",
       "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant unitaire en kWh cumac selon le",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire en kWh cumac selon le",
-      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en kWh cumac selon le",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

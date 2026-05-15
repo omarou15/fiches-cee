@@ -28,7 +28,7 @@ _Non detecte automatiquement._
 - La preuve de réalisation de l’opération est l’état récapitulatif des abonnements au service d’autopartage,  daté et
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac pour un abonnement × N
 - Montant en kWh cumac pour un abonnement
 
 ## Sections officielles detectees

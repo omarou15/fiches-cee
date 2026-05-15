@@ -238,59 +238,87 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "0,148 x B x T ; 0,086 x B x T ; 0,148 x B x (T – 44) ; 0,086 x B x (T – 44) ; 0,148 x B x (T – 50) ; 0,086 x B x (T – 50)",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "1 - Logement existant :\nZone géographique\nMontant en kWh cumac pour\nun chauffe-eau collectif à\nappoint individualisé\nMontant en kWh cumac pour un\nchauffe-eau collectif à appoint\ncentralisé\nToutes zones\n0,148 x B x T\n0,086 x B x T\n\n2 - Logement neuf ou parties nouvelles de logement existant :\nZone géographique\nMontant en kWh cumac\npour un chauffe-eau collectif\nà appoint individualisé\nMontant en kWh cumac pour un\nchauffe-eau collectif à appoint\ncentralisé\nGuyane\n0,148 x B x (T – 44)\n0,086 x B x (T – 44)\nRéunion / Mayotte / Martinique /\nGuadeloupe\n0,148 x B x (T – 50)\n0,086 x B x (T – 50)\n\nB : besoin annuel en eau chaude sanitaire à produire par l’énergie solaire, exprimé en kWh par an et issu de l’étude\nde dimensionnement.\n\nT : taux de couverture solaire de l’installation déterminé dans l’étude de dimensionnement et tel que 50 < T ≤ 100.\nPour toute valeur de T supérieure ou égale à 90 %, le taux de couverture T sera pris égal à 90 %.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac pour",
+    "expressions": [
+      "0,148 x B x T",
+      "0,086 x B x T",
+      "0,148 x B x (T – 44)",
+      "0,086 x B x (T – 44)",
+      "0,148 x B x (T – 50)",
+      "0,086 x B x (T – 50)"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "0,148 x B x T",
       "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "0,148 x B x T",
+      "confidence": "medium"
+    },
+    {
+      "text": "0,086 x B x T",
+      "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "0,086 x B x T",
+      "confidence": "medium"
+    },
+    {
+      "text": "0,148 x B x (T – 44)",
+      "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "0,148 x B x (T – 44)",
+      "confidence": "medium"
+    },
+    {
+      "text": "0,086 x B x (T – 44)",
+      "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "0,086 x B x (T – 44)",
+      "confidence": "medium"
+    },
+    {
+      "text": "0,148 x B x (T – 50)",
+      "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "0,148 x B x (T – 50)",
+      "confidence": "medium"
+    },
+    {
+      "text": "0,086 x B x (T – 50)",
+      "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "0,086 x B x (T – 50)",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac pour",
       "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac pour",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac pour un",
-      "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac pour un",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac pour un",
-      "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac pour un",
-      "confidence": "low"
-    },
-    {
-      "text": "B : besoin annuel en eau chaude sanitaire à produire par l’énergie solaire, exprimé en kWh par an et issu de l’étude",
-      "source_file": "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "B : besoin annuel en eau chaude sanitaire à produire par l’énergie solaire, exprimé en kWh par an et issu de l’étude",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

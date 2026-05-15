@@ -20,6 +20,7 @@ Ce dossier est reserve au futur pipeline reproductible.
 
 4. `build_indexes.py`
    - construit les index globaux ;
+   - extrait les formules de calcul depuis la section 5 des fiches ;
    - cree les chunks RAG ;
    - prepare les metadonnees MCP.
 

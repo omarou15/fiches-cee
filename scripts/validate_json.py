@@ -28,6 +28,7 @@ def main() -> int:
     chunks_path = REPO_ROOT / "data" / "indexes" / "chunks_cee.jsonl"
     report_path = REPO_ROOT / "data" / "indexes" / "extraction_report.json"
     pdf_audit_path = REPO_ROOT / "data" / "indexes" / "pdf_audit_unique_fiches.json"
+    formulas_index_path = REPO_ROOT / "data" / "indexes" / "formulas_cee_index.json"
 
     fiche_files = sorted(json_dir.glob("*.json"))
     if not fiche_files:
@@ -85,6 +86,15 @@ def main() -> int:
             )
         except Exception as exc:
             errors.append(f"pdf_audit_unique_fiches.json: schema error: {exc}")
+
+    if formulas_index_path.exists() and jsonschema:
+        try:
+            jsonschema.validate(
+                load_json(formulas_index_path),
+                load_json(REPO_ROOT / "schemas" / "formulas_cee_index.schema.json"),
+            )
+        except Exception as exc:
+            errors.append(f"formulas_cee_index.json: schema error: {exc}")
 
     if errors:
         print("Validation failed:")

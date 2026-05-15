@@ -50,18 +50,8 @@
 - Les documents justificatifs spécifiques à l'opération sont :
 
 ## Formules / calcul detectes
-- Pour une pompe à chaleur eau glycolée/eau, le coefficient de performance (COP) mesuré conformément aux
-- Pour une pompe à chaleur eau/eau, le coefficient de performance (COP) mesuré conformément aux conditions de
-- Pour les installations produisant du rafraichissement actif, le coefficient de performance frigorifique (EER), mesuré
-- Pour les installations produisant du froid par geocooling, le coefficient de performance annuel froid (SEER) est
-- + 10 °C / + 7°C et + 30 °C / + 35°C pour les PAC eau/eau, éventuellement le coefficient de performance
-- température +10 °C / +7 °C et +30 °C / +35 °C pour les PAC eau/eau, éventuellement le coefficient de
-- 5. Montant de certificats en kWh cumac
-- Montant kWh cumac par
-- Coefficient de
-- Montant kWh cumac par
-- nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient
-- de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la
+- Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche
+- Montant kWh cumac par appartement Nombre
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

@@ -39,11 +39,18 @@ _Non detecte automatiquement._
 - NB : Le délai entre la date de preuve de réalisation et la date d’achèvement de l’opération est au maximum de douze mois.
 
 ## Formules / calcul detectes
-- (kWh) pour la propulsion du bateau et de la consommation d’énergie totale pour la propulsion du bateau, sur une
-- journée-type d’utilisation (thermique et électrique (kWh)). Dans le cas d’une motorisation de type hybride-série ou
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac
-- Montant en kWh cumac
+- 121,59 x R x W
+- 79,21 x R x W
+- 43,85 x R x W
+- 31,96 x R x W
+- 113,26 x R x W
+- 70,88 x R x W
+- 35,52 x R x W
+- 23,63 x R x W
+- 59,66 x R x W
+- 38,69 x R x W
+- 21,19 x R x W
+- 15,30 x R x W
 - Montant en kWh cumac
 
 ## Sections officielles detectees

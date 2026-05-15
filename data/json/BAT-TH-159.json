@@ -109,35 +109,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kW × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Secteur\nMontant en\nkWh cumac\npar kW\n\n\n\n\n\nData Center\n26 000\n\n\n\n\n\nCafés, hôtels, restaurants\n10 400\n\nZone climatique\n\nPuissance thermique\nen kW\nSanté\n26 000\n\nH1\n1\n\nP\nEnseignement, recherche\n4 900\nX\nH2\n1,3\nX\nSport, loisirs, culture\n19 800\n\nH3\n1,8\n\n\nBureaux\n7 800\n\n\n\n\n\nCommerces\n11 300\n\n\n\n\n\nAutres\n4 900\n\n\n\n\n\n\nNB1 : Un data center ou centre de données est un site physique regroupant des installations informatiques (serveurs,\nrouteurs, commutateurs, disques durs…) chargées de stocker et de distribuer des données à travers un réseau interne\nou via un accès Internet. Il ne s’agit pas de salles informatiques avec opérateurs saisissant ou traitant des données\ninformatiques.\nNB2 : La puissance thermique est la puissance souscrite dans le contrat de fourniture de froid entre le bénéficiaire\nde l’opération et le gestionnaire du réseau.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-159 vA40-1 à compter du 29-12-2021_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW × P",
       "source_file": "Tertiaire_BAT/BAT-TH-159 vA40-1 à compter du 29-12-2021_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW × P",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en",
+      "text": "Montant en kWh cumac par kW",
       "source_file": "Tertiaire_BAT/BAT-TH-159 vA40-1 à compter du 29-12-2021_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-159 vA40-1 à compter du 29-12-2021_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW",
+      "confidence": "medium"
     }
   ],
   "zones": [

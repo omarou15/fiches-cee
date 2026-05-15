@@ -117,27 +117,31 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant en kWh cumac",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh cumac\n\nFacteur\ncorrectif\nSurface habitable\nS en m²\nZone climatique\nEnergie de chauffage\n\nElectricité\nCombustible\n\nH1\n2 200\n3 300\n\n0,3\nS < 35\n\n0,5\n35 ≤ S < 60\nH2\n1 800\n2 700\nX\n0,6\n60 ≤ S < 70\n0,7\n70 ≤ S < 90\nH3\n1 200\n1 800\n\n1\n90 ≤ S < 110\n\n1,1\n110 ≤ S ≤ 130\n\n1,6\nS > 130",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 1,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-111 vA17-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-111 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
       "text": "Montant en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-TH-111 vA17-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

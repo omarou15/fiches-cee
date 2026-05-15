@@ -318,8 +318,23 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Pour une pompe à chaleur eau glycolée/eau, le coefficient de performance (COP) mesuré conformément aux",
-    "variables": [],
+    "formula_text": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      },
+      {
+        "name": "R",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
     "amount_table": [
       {
@@ -406,104 +421,38 @@
         "zone": "H3",
         "kwh_cumac_per_apartment": 800
       }
-    ]
+    ],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour une PAC de puissance thermique nominale ≤ 400 kW :\nEfficacité\nénergétique\nsaisonnière\n(Etas)\nZone\nclimatique\nMontant kWh cumac par\nm²\n\nSurface\nchauffée\npar le\nsystème\ngéothermiq\nue installé\nau titre de\nla présente\nfiche (m²)\n\nSecteur\nFacteur\ncorrectif\n\nFacteur R\nChauffage\nChauffage\net ECS\n\n111% ≤ Etas\n<126%\nH1\n1400\n1600\nX\nS\nX\nHôtellerie,\nrestauration\n0,7\nX\nR\nH2\n1100\n1400\nSanté\n1,1\nH3\n800\n1000\nEnseignement\n0,8\n126% ≤ Etas\n<175%\nH1\n1500\n1800\nBureaux\n1,2\nH2\n1200\n1500\nCommerces\n0,9\nH3\n800\n1100\nAutres\n0,7\n175% ≤ Etas\nH1\n1600\n1900\n\n\n\nH2\n1300\n1600\n\n\n\nH3\n900\n1200\n\n\n\n\nPour une PAC de puissance thermique nominale > 400 kW :\n\nNB : La surface chauffée par le système géothermique correspond aux surfaces des locaux disposant d’émetteurs\nde chaleur alimentés par la (ou les) PAC du système géothermique, installée(s) au titre de la présente fiche.\n\nDans le cas de l’installation d’une ou de plusieurs PAC (identiques ou différentes) au sein d’un même système\ngéothermique :\n- si la puissance thermique nominale de la PAC nouvellement installée au titre de la présente fiche (ou de la somme\ndes puissances thermiques nominales des PAC nouvellement installées au titre de la présente fiche, dans le cas de\nl’installation de plusieurs PAC identiques ou différentes) est strictement inférieure à 40 % de la puissance utile de\nla chaufferie après travaux, le facteur R est égal au rapport de la puissance thermique nominale de la PAC\nCoefficient de\nperformance\n(COP – EN\n14511-2)\nZone\nclimatique\nMontant kWh cumac par\nm²\n\nSurface\nchauffée\npar le\nsystème\ngéothermiq\nue installé\nau titre de\nla présente\nfiche (m²)\n\nSecteur\nFacteur\ncorrectif\n\nFacteur\nR\nChauffage\nChauffage\net ECS\n\n4 ≤ COP < 5\nH1\n1500\n1800\nX\nS\nX\nHôtellerie,\nrestauration\n0,7\nX\nR\nH2\n1300\n1500\nSanté\n1,1\nH3\n800\n1100\nEnseignement\n0,8\n5 ≤ COP\nH1\n1600\n1900\nBureaux\n1,2\nH2\n1300\n1600\nCommerces\n0,9\nH3\n900\n1200\nAutres\n0,7\n\nnouvellement installée au titre de la présente fiche (ou de la somme des puissances nominale de chaque PAC éligible\nnouvellement installée au titre de la présente fiche), sur la puissance totale utile de la chaufferie après travaux ;\n- dans le cas contraire, le facteur R est égal à l’unité.\n\nOn entend par puissance thermique nominale :\n- pour les pompes à chaleur de puissance thermique nominale < 400 kW : la puissance thermique nominale selon le\nrèglement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques moyennes définies\npar ce règlement (soit Prated dans les conditions nominales standards : pour une pompe à chaleur eau glycolée/eau\nen régime de température 0 °C / –3 °C,  pour une pompe à chaleur eau/eau en régime de température +10 °C / +7 °C)\ndéterminée selon l’application de la PAC installée ;\n- pour les pompes à chaleur de puissance thermique nominale > 400 kW : la puissance thermique nominale mesurée\naux conditions de performance nominale de la norme EN 14511-2 :\n- pour une pompe à chaleur eau glycolée/eau : en régime de température 0 °C / –3 °C et pour une température\nà la sortie de l'échangeur thermique intérieur déterminée selon l’application de la PAC installée,\n- pour une pompe à chaleur eau/eau : en régime de température +10 °C / +7 °C et pour une température à la\nsortie de l'échangeur thermique intérieur déterminée selon l’application de la PAC installée.\n\nOn entend par puissance utile de la chaufferie après travaux la somme des puissances thermiques nominales des\néquipements de chauffage ou de chauffage et d’eau chaude sanitaire de la chaufferie, après travaux, incluant la (ou\nles) PAC installée(s) au titre de la présente fiche. Dans tous les cas, la puissance de la chaufferie après travaux ne\ncomptabilise pas les équipements de secours.\n\nOn entend par PAC différentes, des PAC relevant de régimes de puissances différents (puissance thermique\nnominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient\nde performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la\nbase du montant de kWh cumac par m² de la PAC ayant le montant le plus faible.\n\nPendant la durée de vie conventionnelle, aucune opération ultérieure d'installation d'un équipement de production\nthermique dans la chaufferie en remplacement des équipements installés au titre de la présente fiche ne pourra\ndonner lieu à l'obtention de certificats d'économies d'énergie.",
+    "formula_section_page_start": 6,
+    "formula_section_page_end": 7,
+    "unit": "Montant kWh cumac par m² Surface",
+    "expressions": [],
+    "calculation_methods": [
+      "structured_amount_table",
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Pour une pompe à chaleur eau glycolée/eau, le coefficient de performance (COP) mesuré conformément aux",
+      "text": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
       "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Pour une pompe à chaleur eau glycolée/eau, le coefficient de performance (COP) mesuré conformément aux",
-      "confidence": "low"
+      "page": 6,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
+      "confidence": "medium"
     },
     {
-      "text": "Pour une pompe à chaleur eau/eau, le coefficient de performance (COP) mesuré conformément aux conditions de",
+      "text": "Montant kWh cumac par m² Surface",
       "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Pour une pompe à chaleur eau/eau, le coefficient de performance (COP) mesuré conformément aux conditions de",
-      "confidence": "low"
-    },
-    {
-      "text": "Pour les installations produisant du rafraichissement actif, le coefficient de performance frigorifique (EER), mesuré",
-      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Pour les installations produisant du rafraichissement actif, le coefficient de performance frigorifique (EER), mesuré",
-      "confidence": "low"
-    },
-    {
-      "text": "Pour les installations produisant du froid par geocooling, le coefficient de performance annuel froid (SEER) est",
-      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Pour les installations produisant du froid par geocooling, le coefficient de performance annuel froid (SEER) est",
-      "confidence": "low"
-    },
-    {
-      "text": "+10 °C / +7 °C et +30 °C / +35 °C pour les PAC eau/eau), éventuellement le coefficient de performance",
-      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "+10 °C / +7 °C et +30 °C / +35 °C pour les PAC eau/eau), éventuellement le coefficient de performance",
-      "confidence": "low"
-    },
-    {
-      "text": "température +10 °C / +7 °C et +30 °C / +35 °C pour les PAC eau/eau), éventuellement le coefficient de",
-      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "température +10 °C / +7 °C et +30 °C / +35 °C pour les PAC eau/eau), éventuellement le coefficient de",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant kWh cumac par",
-      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant kWh cumac par",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient de",
-      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient de",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant kWh cumac par",
-      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant kWh cumac par",
-      "confidence": "low"
-    },
-    {
-      "text": "nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient",
-      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient",
-      "confidence": "low"
-    },
-    {
-      "text": "de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la",
-      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la",
-      "confidence": "low"
+      "page": 6,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant kWh cumac par m² Surface",
+      "confidence": "medium"
     }
   ],
   "zones": [

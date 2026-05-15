@@ -28,8 +28,7 @@ _Non detecte automatiquement._
 - Le document de preuve de réalisation de l’opération produit à l’appui de la demande de certificats d’économies
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par m² de surface chauffée
+- Montant en kWh cumac par m² de surface chauffée × S
 - Montant en kWh cumac par m² de surface chauffée
 
 ## Sections officielles detectees

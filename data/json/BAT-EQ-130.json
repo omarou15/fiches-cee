@@ -20,13 +20,6 @@
   },
   "sections": [
     {
-      "number": "3",
-      "title": "Système de condensation frigorifique à haute efficacité",
-      "text": "",
-      "page_start": 1,
-      "page_end": 1
-    },
-    {
       "number": "1",
       "title": "Secteur d’application",
       "text": "Bâtiments tertiaires.",
@@ -205,43 +198,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kW × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Mise en place d’un système de condensation à eau seul (sur nappe ou cours d’eau) permettant un T, différence\nentre la température de condensation du fluide frigorigène et celle de l’eau en entrée du condenseur, inférieure ou\négale à 8°C :\n\nT\nen °C\nMontant en kWh cumac par kW\nselon l’application\n\nPuissance électrique\nnominale totale du\ngroupe de production\nde froid en kW\nClimatisation de confort\nhors datacenter\nClimatisation\nen datacenter\nRéfrigération ou\nconditionnement\nd’ambiance hors confort\n\n8\n500\n1 900\n1 300\nX\nP\n7\n770\n3 000\n2 000\n6\n1 100\n4 100\n2 700\n\nMise en place d’un condenseur à air sec (adiabatique ou non) ou d’un condenseur à eau et d’un aéroréfrigérant à air\nsec (adiabatique ou non) permettant une différence T entre la température de condensation du fluide frigorigène et\ncelle de l’air sec, inférieure ou égale à 12°C :\n\nT\nen °C\nMontant en kWh cumac par kW\nselon l’application\n\nPuissance électrique\nnominale totale du\ngroupe de production\nde froid en kW\nClimatisation de confort\nhors datacenter\nClimatisation\nen datacenter\nRéfrigération ou\nconditionnement\nd’ambiance hors confort\n\n12\n580\n2 300\n1 600\nX\nP\n11\n790\n3 100\n2 200\n10\n1 000\n3 900\n2 800\n9\n1 200\n4 800\n3 400\n8\n1 500\n5 800\n4 000\n7\n1 700\n6 800\n4 700\n6\n2 000\n7 800\n5 300\n5\n2 300\n8 900\n6 000\n4\n2 600\n10 100\n6 800\n3\n2 900\n11 300\n7 500\n2\n3 200\n12 600\n8 300\n1\n3 600\n14 000\n9 100\n0\n4 000\n15 500\n10 000\n\nMise en place d’un condenseur évaporatif (hybride ou non) ou d’un condenseur à eau et d’une tour aéroréfrigérante\nouverte (hybride ou non) ou d’un condenseur à eau et d’une tour aéroréfrigérante fermée (hybride ou non) permettant\nune différence T entre la température de condensation du fluide frigorigène et celle de l’air au bulbe humide,\ninférieure ou égale à 22°C :\n\nT\nen °C\nMontant en kWh cumac par kW\nselon l’application\n\nPuissance électrique\nnominale totale du\ngroupe de production\nde froid en kW\nClimatisation de confort\nhors datacenter\nClimatisation\nen datacenter\nRéfrigération ou\nconditionnement\nd’ambiance hors confort\n\n22\n580\n2 300\n1 600\nX\nP\n21\n790\n3 100\n2 200\n20\n1 000\n3 900\n2 800\n19\n1 200\n4 800\n3 400\n18\n1 500\n5 800\n4 000\n17\n1 700\n6 800\n4 700\n16\n2 000\n7 800\n5 300\n15\n2 300\n8 900\n6 000\n14\n2 600\n10 100\n6 800\n13\n2 900\n11 300\n7 500\n12\n3 200\n12 600\n8 300\n11\n3 600\n14 000\n9 100\n10\n4 000\n15 500\n10 000\n\nEn cas d’utilisation d’un fluide frigorigène à « glissement », la température de condensation du fluide à retenir est\ncelle au point de rosée.\n\nPour une valeur de ΔT du système de condensation ne figurant pas dans les tableaux ci-dessus, il convient de retenir\nla valeur de ∆T immédiatement supérieure.\n\nDans chaque cas, la puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du groupe\nde production de froid (mono-compresseur ou multi-compresseurs) ou à défaut celle indiquée sur un document issu\ndu fabricant du groupe mono-compresseur ou multi-compresseurs. La puissance des compresseurs de secours n’est\npas comptabilisée.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 4,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-EQ-130 vA22-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW × P",
       "source_file": "Tertiaire_BAT/BAT-EQ-130 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW × P",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kW",
       "source_file": "Tertiaire_BAT/BAT-EQ-130 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par kW",
-      "source_file": "Tertiaire_BAT/BAT-EQ-130 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par kW",
-      "source_file": "Tertiaire_BAT/BAT-EQ-130 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

@@ -33,11 +33,8 @@
 - elle est accompagnée d’un document issu du fabricant mentionnant la capacité maximale de stockage de chaleur du
 
 ## Formules / calcul detectes
-- a) La capacité maximale, C, de stockage de chaleur du système (en kWh) ;
-- maximale de stockage de chaleur (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la
-- système (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la capacité maximale du
-- 5. Montant de certificats en kWh cumac
-- - C est la capacité maximale de stockage de chaleur du système (en kWh) ;
+- 14,134 x η x C x Nc
+- Montant de certificats en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

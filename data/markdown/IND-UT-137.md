@@ -36,14 +36,8 @@
 - dimensionnement est tenue à disposition par le bénéficiaire en cas de contrôle.
 
 ## Formules / calcul detectes
-- - a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =
-- Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système calculée en
-- fonction des points de fonctionnement et durées identifiés dans l’étude de dimensionnement et Eélec (en kWh/an) est
-- d) Calcul de Q (en kWh/an), l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système
-- e) Calcul de Eélec (en kWh/an), l’énergie électrique annuelle absorbée par le système, qui est la somme des
-- 5. Montant de certificats en kWh cumac
-- Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système, calculée au
-- Eélec (en kWh/an) est l’énergie électrique annuelle absorbée par le système, qui est la somme des énergies
+- 10,986 x (Q – Eélec)
+- Montant de certificats en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

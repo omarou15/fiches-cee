@@ -223,27 +223,68 @@
     }
   ],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "9 700 * X / Z * Y ; 9 700 * W * Y ; - X = volume d’auxiliaire d’optimisation de la combustion utilisé (m3) ;",
+    "variables": [
+      {
+        "name": "gain",
+        "label": "de 3 % alors Y=0,03) ; - Z = concentration de la solution de traitement utilisée figurant sur la preuve de réalisation de l’opération (nombre de litres d’auxiliaire d’optimisation de la combustion / nombre de litres de gazole traités).",
+        "unit": null,
+        "value_type": "number",
+        "description": "de 3 % alors Y=0,03) ; - Z = concentration de la solution de traitement utilisée figurant sur la preuve de réalisation de l’opération (nombre de litres d’auxiliaire d’optimisation de la combustion / nombre de litres de gazole traités)."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Type d’acquisition\nMontant en kWh cumac\nAuxiliaire d’optimisation de la\ncombustion\n9 700 * X / Z * Y\nCarburant traité avec un auxiliaire\nd’optimisation de la combustion\n9 700 * W * Y\n\nAvec :\n- X = volume  d’auxiliaire d’optimisation de la combustion utilisé (m3) ;\n- W = volume de carburant traité avec un auxiliaire d’optimisation de la combustion utilisé (m3) ;\n- Y = gain de consommation de carburant associé à l’utilisation de l’auxiliaire de combustion (par exemple si le\ngain est de 3 % alors Y=0,03) ;\n- Z = concentration de la solution de traitement utilisée figurant sur la preuve de réalisation de l’opération\n(nombre de litres d’auxiliaire d’optimisation de la combustion / nombre de litres de gazole traités).",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [
+      "9 700 * X / Z * Y",
+      "9 700 * W * Y",
+      "- X = volume d’auxiliaire d’optimisation de la combustion utilisé (m3) ;"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "9 700 * X / Z * Y",
       "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "9 700 * X / Z * Y",
+      "confidence": "medium"
+    },
+    {
+      "text": "9 700 * W * Y",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "9 700 * W * Y",
+      "confidence": "medium"
+    },
+    {
+      "text": "- X = volume d’auxiliaire d’optimisation de la combustion utilisé (m3) ;",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "- X = volume d’auxiliaire d’optimisation de la combustion utilisé (m3) ;",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

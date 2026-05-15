@@ -45,11 +45,9 @@
 - installé est une chaudière biomasse équipée d’un régulateur. Ce document précise la puissance nominale, le
 
 ## Formules / calcul detectes
-- à installer, des consommations prévisionnelles en biomasse et en autres combustibles (MWh ou kWh PCI) ;
-- - la justification de la quantité de chaleur nette utile produite par chaque chaudière (Q en kWh/an).
-- 5. Montant de certificats en kWh cumac
-- Le montant de certificats d’économies d’énergie est déterminé par l’application de la formule ci-après :
-- Q est la chaleur nette utile produite par la chaudière biomasse installée en kWh/an. Elle est déterminée à partir de
+- Q x 4,8
+- Q x 3,4
+- Montant de certificats en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

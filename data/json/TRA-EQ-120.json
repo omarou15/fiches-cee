@@ -126,75 +126,80 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Ga x TK Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh × Ga × TK × M × Gp × P × K",
+    "variables": [
+      {
+        "name": "Ga",
+        "label": "le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh cumac / t.km donné dans le tableau ci-après : Gain Ga en kWh cumac/t.km selon la capacité de chargement de l’automoteur et le bassin de navigation Gamme de port en lourd M (tonne) Seine Rhône Nord Pas-de-Calais Rhin / Moselle Interbassin 250 t < M ≤ 400 t 0,93 1,06 0,94 1,11 1,02 400 < M ≤ 650 t 0,86 0,93 0,87 1,10 0,95 650 < M ≤ 1 000 t 0,75 0,80 0,80 0,97 0,83 1 000 < M ≤ 1 500 t 0,41 0,",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh cumac / t.km donné dans le tableau ci-après : Gain Ga en kWh cumac/t.km selon la capacité de chargement de l’automoteur et le bassin de navigation Gamme de port en lourd M (tonne) Seine Rhône Nord Pas-de-Calais Rhin / Moselle Interbassin 250 t < M ≤ 400 t 0,93 1,06 0,94 1,11 1,02 400 < M ≤ 650 t 0,86 0,93 0,87 1,10 0,95 650 < M ≤ 1 000 t 0,75 0,80 0,80 0,97 0,83 1 000 < M ≤ 1 500 t 0,41 0,"
+      },
+      {
+        "name": "TK",
+        "label": "aux tonnes.kilomètres (t.km) effectuées par l’unité de transport et relevées sur une période maximale de six mois puis multipliées par deux (t.km réalisées par an).",
+        "unit": "m",
+        "value_type": "number",
+        "description": "aux tonnes.kilomètres (t.km) effectuées par l’unité de transport et relevées sur une période maximale de six mois puis multipliées par deux (t.km réalisées par an)."
+      },
+      {
+        "name": "M",
+        "label": "la capacité maximale de chargement de l’automoteur ou port en lourd (en tonnes). On considère que le trafic réalisé par l’unité de transport fluvial sur six mois consécutifs est maintenu en moyenne sur la durée de vie de ces unités. Cas de la mise en place d’une ou plusieurs hélices avec tuyère sur un pousseur : Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Gp x K",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la capacité maximale de chargement de l’automoteur ou port en lourd (en tonnes). On considère que le trafic réalisé par l’unité de transport fluvial sur six mois consécutifs est maintenu en moyenne sur la durée de vie de ces unités. Cas de la mise en place d’une ou plusieurs hélices avec tuyère sur un pousseur : Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Gp x K"
+      },
+      {
+        "name": "Gp",
+        "label": "le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km donné dans le tableau ci-après : Gain énergétique Gp en kWh cumac par km selon la puissance du pousseur et le bassin de navigation Gamme en puissance P (kW) Seine Rhône Nord Pas-de-Calais Rhin / Moselle Interbassin 295 ≤ P ≤ 590 460 490 360 - 440 590 < P ≤ 880 710 750 500 - 650 880 < P 900 870 700 1 500 980",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km donné dans le tableau ci-après : Gain énergétique Gp en kWh cumac par km selon la puissance du pousseur et le bassin de navigation Gamme en puissance P (kW) Seine Rhône Nord Pas-de-Calais Rhin / Moselle Interbassin 295 ≤ P ≤ 590 460 490 360 - 440 590 < P ≤ 880 710 750 500 - 650 880 < P 900 870 700 1 500 980"
+      },
+      {
+        "name": "P",
+        "label": "la puissance maximale du moteur du pousseur (en kW).",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la puissance maximale du moteur du pousseur (en kW)."
+      },
+      {
+        "name": "K",
+        "label": "au kilométrage déclaré et certifié par le bénéficiaire sur une période maximale de six mois puis multiplié par deux (kilométrage réalisé par an). On considère que le trafic réalisé par l’unité de transport fluvial sur six mois consécutifs est maintenu en moyenne sur la durée de vie de ces unités.",
+        "unit": null,
+        "value_type": "number",
+        "description": "au kilométrage déclaré et certifié par le bénéficiaire sur une période maximale de six mois puis multiplié par deux (kilométrage réalisé par an). On considère que le trafic réalisé par l’unité de transport fluvial sur six mois consécutifs est maintenu en moyenne sur la durée de vie de ces unités."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Cas de la mise en place d’une ou plusieurs hélices avec tuyère sur un automoteur :\nLe volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante :\n\nVCEE = Ga x TK\n\nGa est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh\ncumac / t.km donné dans le tableau ci-après :\n\n\nGain Ga en kWh cumac/t.km selon la capacité de chargement de\nl’automoteur et le bassin de navigation\nGamme de port en\nlourd M (tonne)\nSeine\nRhône\nNord\nPas-de-Calais\nRhin /\nMoselle\nInterbassin\n250 t < M ≤ 400 t\n0,93\n1,06\n0,94\n1,11\n1,02\n400 < M ≤ 650 t\n0,86\n0,93\n0,87\n1,10\n0,95\n650 < M ≤ 1 000 t\n0,75\n0,80\n0,80\n0,97\n0,83\n1 000 < M ≤ 1 500 t\n0,41\n0,45\n0,73\n0,85\n0,59\n1 500 t < M\n0,37\n0,42\n0,68\n0,73\n0,52\n\nTK correspond aux tonnes.kilomètres (t.km) effectuées par l’unité de transport et relevées sur une période maximale\nde six mois puis multipliées par deux (t.km réalisées par an).\n\nM est la capacité maximale de chargement de l’automoteur ou port en lourd (en tonnes).\n\nOn considère que le trafic réalisé par l’unité de transport fluvial sur six mois consécutifs est maintenu en moyenne\nsur la durée de vie de ces unités.\n\nCas de la mise en place d’une ou plusieurs hélices avec tuyère sur un pousseur :\nLe volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante :\n\nVCEE = Gp x K\n\nGp est le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km\ndonné dans le tableau ci-après :\n\n\nGain énergétique Gp en kWh cumac par km selon la puissance du\npousseur et le bassin de navigation\nGamme en puissance\nP (kW)\nSeine\nRhône\nNord\nPas-de-Calais\nRhin /\nMoselle\nInterbassin\n295 ≤ P ≤ 590\n460\n490\n360\n -\n440\n590 < P ≤ 880\n710\n750\n500\n -\n650\n880 < P\n900\n870\n700\n1 500\n980\n\nP est la puissance maximale du moteur du pousseur (en kW).\n\nK correspond au kilométrage déclaré et certifié par le bénéficiaire sur une période maximale de six mois puis\nmultiplié par deux (kilométrage réalisé par an).\n\nOn considère que le trafic réalisé par l’unité de transport fluvial sur six mois consécutifs est maintenu en moyenne\nsur la durée de vie de ces unités.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Ga x TK Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh",
+    "expressions": [],
+    "calculation_methods": [],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Ga x TK Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh × Ga × TK × M × Gp × P × K",
       "source_file": "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Ga x TK Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh × Ga × TK × M × Gp × P × K",
+      "confidence": "medium"
     },
     {
-      "text": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante :",
+      "text": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Ga x TK Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh",
       "source_file": "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante :",
-      "confidence": "low"
-    },
-    {
-      "text": "Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh",
-      "source_file": "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac / t.km donné dans le tableau ci-après :",
-      "source_file": "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac / t.km donné dans le tableau ci-après :",
-      "confidence": "low"
-    },
-    {
-      "text": "Gain Ga en kWh cumac/t.km selon la capacité de chargement de",
-      "source_file": "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Gain Ga en kWh cumac/t.km selon la capacité de chargement de",
-      "confidence": "low"
-    },
-    {
-      "text": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante :",
-      "source_file": "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante :",
-      "confidence": "low"
-    },
-    {
-      "text": "Gp est le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km",
-      "source_file": "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Gp est le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km",
-      "confidence": "low"
-    },
-    {
-      "text": "Gain énergétique Gp en kWh cumac par km selon la puissance du",
-      "source_file": "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Gain énergétique Gp en kWh cumac par km selon la puissance du",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Ga x TK Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh",
+      "confidence": "medium"
     }
   ],
   "zones": [],

@@ -25,9 +25,8 @@ _Non detecte automatiquement._
 - Le document de preuve de réalisation de l’opération produit à l’appui de la demande de certificats d’économies
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWh cumac
+- Montant en kWh cumac par kW × P
+- Montant en kWh cumac par kW
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

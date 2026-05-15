@@ -43,8 +43,8 @@
 - - un document du fournisseur d'énergie du bénéficiaire faisant figurer le nom du bénéficiaire, l'adresse du
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Forfait (kWhc)
+- * Le nombre d’émetteurs équipés valorisables au titre de la présente fiche (N), est supérieur ou égal à 2 et strictement
+- Forfait (kWhc) X Zone Climatique
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

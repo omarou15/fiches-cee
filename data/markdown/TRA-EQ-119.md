@@ -39,7 +39,9 @@
 - - Z = concentration de la solution de traitement utilisée figurant sur la preuve de réalisation de l’opération
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- 9 700 * X / Z * Y
+- 9 700 * W * Y
+- - X = volume d’auxiliaire d’optimisation de la combustion utilisé (m3) ;
 - Montant en kWh cumac
 
 ## Sections officielles detectees

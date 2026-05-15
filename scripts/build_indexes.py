@@ -274,6 +274,37 @@ def build_energyco_priority(fiches: list[dict], keyword_hits: list[dict]) -> lis
     return entries
 
 
+def build_formulas_index(fiches: list[dict]) -> list[dict]:
+    entries: list[dict] = []
+    for fiche in fiches:
+        calculation = fiche.get("calculation") or {}
+        variables = calculation.get("variables") or []
+        entries.append({
+            "code": fiche["code"],
+            "sector": fiche["sector"],
+            "family": fiche["family"],
+            "title": fiche["title"],
+            "formula_status": calculation.get("formula_status") or "unknown",
+            "formula_text": calculation.get("formula_text"),
+            "unit": calculation.get("unit"),
+            "variables": variables,
+            "variable_names": [variable.get("name") for variable in variables if variable.get("name")],
+            "expressions": calculation.get("expressions") or [],
+            "calculation_methods": calculation.get("calculation_methods") or [],
+            "amount_table_count": len(calculation.get("amount_table") or []),
+            "formula_section_title": calculation.get("formula_section_title"),
+            "formula_section_text": calculation.get("formula_section_text"),
+            "page_start": calculation.get("formula_section_page_start"),
+            "page_end": calculation.get("formula_section_page_end"),
+            "source_file": calculation.get("source_file") or (fiche.get("source_files") or [None])[0],
+            "confidence": calculation.get("confidence"),
+            "needs_human_review": fiche.get("extraction", {}).get("needs_human_review"),
+            "json_path": f"data/json/{fiche['code']}.json",
+            "markdown_path": f"data/markdown/{fiche['code']}.md",
+        })
+    return entries
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=0, help="limit number of unique fiches, for testing")
@@ -359,6 +390,7 @@ def main() -> int:
     keyword_hits = build_keyword_hits_index(fiches)
     write_json(INDEX_DIR / "keyword_hits_index.json", keyword_hits)
     write_json(INDEX_DIR / "energyco_priority_index.json", build_energyco_priority(fiches, keyword_hits))
+    write_json(INDEX_DIR / "formulas_cee_index.json", build_formulas_index(fiches))
 
     failed = [item for item in report_items if item["status"] == "failed"]
     needs_review = [item for item in report_items if item["status"] == "needs_review"]

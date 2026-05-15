@@ -191,51 +191,47 @@
     }
   ],
   "calculation": {
-    "formula_text": "Le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m² de fenêtre ou × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Secteurs\nMontant en kWh cumac par m² de fenêtre ou\nporte-fenêtre complète avec vitrage\npariétodynamique posée\nX\nSurface de fenêtres\nou portes-fenêtres\ncomplètes\npariétodynamiques posées\n(m²)\nZone climatique\nS\nH1\nH2\nH3\nBureaux\n3 300\n2 800\n2 100\nHôtellerie-\nrestauration\n3 700\n3 200\n2 300\nCommerces\n3 300\n2 900\n2 100\nEnseignement\n4 000\n3 500\n2 500\nSanté\n6 600\n5 500\n3 900\nAutres\n3 300\n2 800\n2 100",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par m² de fenêtre ou",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
+      "text": "Montant en kWh cumac par m² de fenêtre ou × S",
       "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
-      "confidence": "low"
-    },
-    {
-      "text": "les coefficients de transmission thermique Uw selon la norme NF EN 14351-1+A2. Le facteur de transmission",
-      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "les coefficients de transmission thermique Uw selon la norme NF EN 14351-1+A2. Le facteur de transmission",
-      "confidence": "low"
-    },
-    {
-      "text": "- le coefficient de transmission surfacique Uw et le facteur solaire Sw des équipements installés.",
-      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- le coefficient de transmission surfacique Uw et le facteur solaire Sw des équipements installés.",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m² de fenêtre ou × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par m² de fenêtre ou",
       "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par m² de fenêtre ou",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

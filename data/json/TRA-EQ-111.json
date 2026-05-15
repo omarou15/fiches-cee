@@ -206,43 +206,41 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport",
+    "formula_text": "187 700 * (Rgpondéré - 1,93)",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "187 700 * (Rgpondéré - 1,93)",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [
+      "187 700 * (Rgpondéré - 1,93)"
+    ],
+    "calculation_methods": [
+      "direct_expression"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport",
+      "text": "187 700 * (Rgpondéré - 1,93)",
       "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "187 700 * (Rgpondéré - 1,93)",
+      "confidence": "medium"
     },
     {
-      "text": "La valeur du coefficient de performance pondéré ou Rgpondéré est obtenue à partir de quatre mesures distinctes du",
+      "text": "Montant de certificats en kWh cumac",
       "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "La valeur du coefficient de performance pondéré ou Rgpondéré est obtenue à partir de quatre mesures distinctes du",
-      "confidence": "low"
-    },
-    {
-      "text": "indépendant dont le coefficient de performance pondéré Rgpondéré est supérieur à 1,93 kWh frigorifiques/l de gasoil.",
-      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "indépendant dont le coefficient de performance pondéré Rgpondéré est supérieur à 1,93 kWh frigorifiques/l de gasoil.",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats en kWh cumac",
+      "confidence": "medium"
     }
   ],
   "zones": [],

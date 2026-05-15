@@ -133,35 +133,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant unitaire en kWh cumac par kW X × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant unitaire en\nkWh cumac par kW\n\n\nX\nPuissance nominale du moteur\nde la pompe en kW\n 14 600\nP\n\nLa puissance nominale P à retenir est celle figurant sur la plaque signalétique du moteur de la pompe ou à défaut\ncelle indiquée sur un document issu du fabricant.\n\nLorsque l’opération concerne l’équipement de plusieurs pompes, la puissance nominale à prendre en compte dans\nle calcul est la somme des puissances nominales de chaque moteur des pompes, équipé de variateur électronique de\nvitesse.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant unitaire en kWh cumac par kW X",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-139 v A23-2 après 01-02-2017_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant unitaire en kWh cumac par kW X × P",
       "source_file": "Residentiel_BAR/BAR-TH-139 v A23-2 après 01-02-2017_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac par kW X × P",
+      "confidence": "medium"
     },
     {
-      "text": "Montant unitaire en",
+      "text": "Montant unitaire en kWh cumac par kW X",
       "source_file": "Residentiel_BAR/BAR-TH-139 v A23-2 après 01-02-2017_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac par kW",
-      "source_file": "Residentiel_BAR/BAR-TH-139 v A23-2 après 01-02-2017_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac par kW",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac par kW X",
+      "confidence": "medium"
     }
   ],
   "zones": [],

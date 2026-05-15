@@ -166,27 +166,31 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant en kWh cumac par kW de puissance électrique de l’installation",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh cumac par\nkW de puissance électrique\nde l’installation\n\nPuissance électrique de\nl’installation en kW\n82 300\nX\nPélec\n\nLa puissance électrique de l’installation est la puissance électrique plaquée des serveurs informatiques.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac par kW de puissance électrique de l’installation",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-170 vA54-1 à compter du 01-10-2023_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW de puissance électrique de l’installation",
       "source_file": "Residentiel_BAR/BAR-TH-170 vA54-1 à compter du 01-10-2023_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par",
-      "source_file": "Residentiel_BAR/BAR-TH-170 vA54-1 à compter du 01-10-2023_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW de puissance électrique de l’installation",
+      "confidence": "medium"
     }
   ],
   "zones": [],

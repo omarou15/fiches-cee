@@ -182,27 +182,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m² d’isolant × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh cumac par m² d’isolant\n\n\n\n\nZone\nclimatique\nÉnergie de chauffage\nSecteur d’activité\nFacteur\ncorrectif\n\nSurface\nd’isolant en m²\nÉlectricité\nCombustible\nX\nBureaux,\nEnseignement,\nCommerces\n0,6\nX\nS\nH1\n1 800\n2 800\nH2\n1 500\n2 300\nHôtellerie -\nRestauration\n0,7\nSanté\n1,3\nH3\n1 000\n1 500\nAutres secteurs\n0,6",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par m² d’isolant",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-EN-107 vA64-3 à compter du 01-01-2025_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m² d’isolant × S",
       "source_file": "Tertiaire_BAT/BAT-EN-107 vA64-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m² d’isolant × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par m² d’isolant",
       "source_file": "Tertiaire_BAT/BAT-EN-107 vA64-3 à compter du 01-01-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par m² d’isolant",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

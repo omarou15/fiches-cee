@@ -223,27 +223,41 @@
     }
   ],
   "calculation": {
-    "formula_text": "v. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;",
+    "formula_text": "14,134 x D x (Précup x η – Pconso)",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\n\n14,134 x D x (Précup x η – Pconso)\n\nD, Précup, η et Pconso sont des paramètres dont les valeurs sont indiquées dans l’étude de dimensionnement :\n- D est la durée annuelle de fonctionnement (en heures) ;\n- Précup est la puissance thermique apportée par le fluide caloporteur à la machine thermodynamique (en kW\nthermique) ;\n- η est le rendement brut estimé de la machine thermodynamique (en %) ;\n- Pconso est la puissance électrique absorbée par les auxiliaires (en kW électrique).",
+    "formula_section_page_start": 4,
+    "formula_section_page_end": 4,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [
+      "14,134 x D x (Précup x η – Pconso)"
+    ],
+    "calculation_methods": [
+      "direct_expression"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "v. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;",
+      "text": "14,134 x D x (Précup x η – Pconso)",
       "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "v. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "14,134 x D x (Précup x η – Pconso)",
+      "confidence": "medium"
     },
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant de certificats en kWh cumac",
       "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats en kWh cumac",
+      "confidence": "medium"
     }
   ],
   "zones": [],

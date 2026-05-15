@@ -125,35 +125,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par voyage Nombre de voyages moyen × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Longueur de l’UTI\nMontant en kWh\ncumac par voyage\n\nNombre de voyages moyen\nréalisé sur un an\n UTI ≥ 9 m ou UTI < 9 m dont le\npoids total en charge (PTC) est\nsupérieur à 30 tonnes\n18 500\nX\nN\n UTI < 9 m dont le PTC est\ninférieur à 30 tonnes\n9 300\n\nN\n\nLe nombre de voyages moyen réalisé sur un an (N) correspond au nombre de voyages du ou des relevés de trafic,\nmultiplié par deux.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par voyage Nombre de voyages moyen",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-101 vA14-1_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par voyage Nombre de voyages moyen × N",
       "source_file": "Transport_TRA/TRA-EQ-101 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par voyage Nombre de voyages moyen × N",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "Montant en kWh cumac par voyage Nombre de voyages moyen",
       "source_file": "Transport_TRA/TRA-EQ-101 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par voyage",
-      "source_file": "Transport_TRA/TRA-EQ-101 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par voyage",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par voyage Nombre de voyages moyen",
+      "confidence": "medium"
     }
   ],
   "zones": [],

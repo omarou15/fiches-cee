@@ -110,35 +110,77 @@
     }
   ],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "1x8h avec arrêt le weekend ; 2x8h avec arrêt le weekend ; 3x8h avec arrêt le weekend ; 3x8h sans arrêt le weekend",
+    "variables": [
+      {
+        "name": "D",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nD (en L/min) est le débit d’air comprimé, à la pression de service, entrant dans la machine.\n\nDébit d’air\ncomprimé (L/min)\n\nDurée de fonctionnement de\nla machine\nMontant du forfait\n(kWhc/(L/min))\nD\nX\n1x8h avec arrêt le weekend\n71\n2x8h avec arrêt le weekend\n57\n3x8h avec arrêt le weekend\n45\n3x8h sans arrêt le weekend\n30",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant du forfait (kWhc/(L/min)) D",
+    "expressions": [
+      "1x8h avec arrêt le weekend",
+      "2x8h avec arrêt le weekend",
+      "3x8h avec arrêt le weekend",
+      "3x8h sans arrêt le weekend"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1x8h avec arrêt le weekend",
       "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8h avec arrêt le weekend",
+      "confidence": "medium"
     },
     {
-      "text": "Montant du forfait",
+      "text": "2x8h avec arrêt le weekend",
       "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant du forfait",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8h avec arrêt le weekend",
+      "confidence": "medium"
     },
     {
-      "text": "(kWhc/(L/min))",
+      "text": "3x8h avec arrêt le weekend",
       "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "(kWhc/(L/min))",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h avec arrêt le weekend",
+      "confidence": "medium"
+    },
+    {
+      "text": "3x8h sans arrêt le weekend",
+      "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h sans arrêt le weekend",
+      "confidence": "medium"
+    },
+    {
+      "text": "Montant du forfait (kWhc/(L/min)) D",
+      "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant du forfait (kWhc/(L/min)) D",
+      "confidence": "medium"
     }
   ],
   "zones": [],

@@ -27,7 +27,7 @@ _Non detecte automatiquement._
 - preuve de réalisation de l’opération.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × V
 - Montant en kWh cumac
 
 ## Sections officielles detectees

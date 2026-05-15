@@ -35,16 +35,8 @@
 - Ce document indique que l’équipement de marque et référence mis en place est une PAC réversible de type air/air.
 
 ## Formules / calcul detectes
-- Pour les PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de
-- - 4,2 pour le coefficient de performance saisonnier (SCOP) ;
-- - pour une PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWhc/m²
-- Montant en
-- kWhc/m²
-- Montant en
-- kWhc/m²
+- Montant en kWhc/m² Surface totale × S
+- Montant en kWhc/m² Surface totale
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

@@ -262,59 +262,85 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Rendement (kWh/Unité de production)",
-    "variables": [],
+    "formula_text": "1x8h, avec ou sans arrêt le week-end ; 2x8h, avec ou sans arrêt le week-end ; 3x8h avec arrêt le week-end ; 3x8h sans arrêt le week-end",
+    "variables": [
+      {
+        "name": "P",
+        "label": "la puissance nominale (en kW) de l’ensemble des équipements faisant l’objet d’un suivi d’un indicateur de performance énergétique (IPE). Ainsi, lorsque la mesure est effectuée sur un ensemble d’équipements, la puissance nominale P à considérer est la somme des puissances nominales des équipements instrumentés. La puissance nominale est la puissance indiquée sur la plaque du ou des équipements ou à défaut celle indiquée sur un document issu du fabricant. Pour un équipement thermodynamique, la pui",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la puissance nominale (en kW) de l’ensemble des équipements faisant l’objet d’un suivi d’un indicateur de performance énergétique (IPE). Ainsi, lorsque la mesure est effectuée sur un ensemble d’équipements, la puissance nominale P à considérer est la somme des puissances nominales des équipements instrumentés. La puissance nominale est la puissance indiquée sur la plaque du ou des équipements ou à défaut celle indiquée sur un document issu du fabricant. Pour un équipement thermodynamique, la pui"
+      },
+      {
+        "name": "F",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en\nkWh cumac\npar kW\n\nMode de fonctionnement\ndu site industriel\nCoefficient\nmultiplicateur\n\nPuissance\nnominale P\nen kW\n\nFacteur\ncorrectif\nF\n29,4\nX\n1x8h, avec ou sans arrêt le week-end\n1\nX\nP\nX\nF\n2x8h, avec ou sans arrêt le week-end\n2,2\n3x8h avec arrêt le week-end\n3\n3x8h sans arrêt le week-end\n4,2\n\nP est la puissance nominale (en kW) de l’ensemble des équipements faisant l’objet d’un suivi d’un indicateur de\nperformance énergétique (IPE). Ainsi, lorsque la mesure est effectuée sur un ensemble d’équipements, la puissance\nnominale P à considérer est la somme des puissances nominales des équipements instrumentés. La puissance\nnominale est la puissance indiquée sur la plaque du ou des équipements ou à défaut celle indiquée sur un document\nissu du fabricant. Pour un équipement thermodynamique, la puissance à considérer est la puissance électrique\nnominale.\n\nLe facteur correctif F est lié à la durée du contrat de location du logiciel de gestion énergétique. Il est déterminé en\nse référant au tableau ci-dessous. En cas d’achat ou d’abonnement d’une durée supérieure à 6 ans, le facteur correctif\nà prendre en compte est égal à 5,45.\n\nFacteur correctif F\nDurée du contrat\n(années)\nValeur du facteur\ncorrectif\n1\n1\n2\n1,96\n3\n2,89\n4\n3,78\n5\n4,63\n6\n5,45",
+    "formula_section_page_start": 4,
+    "formula_section_page_end": 4,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [
+      "1x8h, avec ou sans arrêt le week-end",
+      "2x8h, avec ou sans arrêt le week-end",
+      "3x8h avec arrêt le week-end",
+      "3x8h sans arrêt le week-end"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Rendement (kWh/Unité de production)",
+      "text": "1x8h, avec ou sans arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Rendement (kWh/Unité de production)",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8h, avec ou sans arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "COP (kWhfrigo/kWhelec)",
+      "text": "2x8h, avec ou sans arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "COP (kWhfrigo/kWhelec)",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8h, avec ou sans arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "3x8h avec arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h avec arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en",
+      "text": "3x8h sans arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h sans arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "kWh cumac",
+      "text": "Montant en kWh cumac par kW",
       "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW",
+      "confidence": "medium"
     }
   ],
   "zones": [],

@@ -24,9 +24,11 @@ _Non detecte automatiquement._
 - La preuve de la réalisation de l’opération mentionne la mise en place d’un dispositif de mise en veille automatique
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant du forfait
-- (kWhc/(L/min))
+- 1x8h avec arrêt le weekend
+- 2x8h avec arrêt le weekend
+- 3x8h avec arrêt le weekend
+- 3x8h sans arrêt le weekend
+- Montant du forfait (kWhc/(L/min)) D
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

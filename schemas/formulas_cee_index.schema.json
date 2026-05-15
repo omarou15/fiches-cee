@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/schemas/formulas_cee_index.schema.json",
+  "title": "Index des formules de calcul CEE",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["code", "sector", "family", "title", "formula_status", "json_path", "markdown_path"],
+    "properties": {
+      "code": { "type": "string" },
+      "sector": { "type": "string" },
+      "family": { "type": "string" },
+      "title": { "type": "string" },
+      "formula_status": {
+        "type": "string",
+        "enum": ["extracted", "needs_review", "missing_section", "unknown"]
+      },
+      "formula_text": { "type": ["string", "null"] },
+      "unit": { "type": ["string", "null"] },
+      "variables": {
+        "type": "array",
+        "items": { "type": "object" }
+      },
+      "variable_names": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "expressions": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "calculation_methods": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "amount_table_count": { "type": "integer", "minimum": 0 },
+      "formula_section_title": { "type": ["string", "null"] },
+      "formula_section_text": { "type": ["string", "null"] },
+      "page_start": { "type": ["integer", "null"] },
+      "page_end": { "type": ["integer", "null"] },
+      "source_file": { "type": ["string", "null"] },
+      "confidence": { "type": ["string", "null"] },
+      "needs_human_review": { "type": ["boolean", "null"] },
+      "json_path": { "type": "string" },
+      "markdown_path": { "type": "string" }
+    },
+    "additionalProperties": false
+  }
+}

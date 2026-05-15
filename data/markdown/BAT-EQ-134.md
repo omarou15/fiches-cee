@@ -37,15 +37,8 @@
 - Ce document indique que l’équipement de marque et référence installé est un meuble frigorifique de vente équipé
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh
-- cumac par ml installé
-- Montant en kWh
-- cumac par ml installé
-- Montant en kWh
-- cumac par ml installé
-- Montant en kWh
-- cumac par ml installé
+- Montant en kWh cumac par ml installé Longueur totale de × L
+- Montant en kWh cumac par ml installé Longueur totale de
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

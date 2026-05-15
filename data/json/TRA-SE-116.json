@@ -173,83 +173,54 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par t.km Durée du contrat × C × R",
+    "variables": [
+      {
+        "name": "C",
+        "label": "la durée, exprimée en mois, du contrat ou du contrat de renouvellement. La durée du contrat, ou du contrat de renouvellement, est d’au moins trois mois et d’au plus douze mois.",
+        "unit": null,
+        "value_type": "number",
+        "description": "la durée, exprimée en mois, du contrat ou du contrat de renouvellement. La durée du contrat, ou du contrat de renouvellement, est d’au moins trois mois et d’au plus douze mois."
+      },
+      {
+        "name": "R",
+        "label": "la durée, exprimée en mois, du relevé de trafic ferroviaire. Lorsque la durée du contrat (initial ou de renouvellement) est inférieure ou égale à six mois, le relevé de trafic ferroviaire couvre toute la durée du contrat. Lorsque la durée du contrat (initial ou de renouvellement) est supérieure à six mois, le relevé de trafic ferroviaire couvre une période de six mois consécutifs. *Les catégories du système de la NST 2007 susmentionnées sont les suivantes : 01 : Produits de l’agriculture, de la ",
+        "unit": null,
+        "value_type": "number",
+        "description": "la durée, exprimée en mois, du relevé de trafic ferroviaire. Lorsque la durée du contrat (initial ou de renouvellement) est inférieure ou égale à six mois, le relevé de trafic ferroviaire couvre toute la durée du contrat. Lorsque la durée du contrat (initial ou de renouvellement) est supérieure à six mois, le relevé de trafic ferroviaire couvre une période de six mois consécutifs. *Les catégories du système de la NST 2007 susmentionnées sont les suivantes : 01 : Produits de l’agriculture, de la "
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "5.1 Pour les flux de marchandises existants (et précédemment transportées par route) :\n\nMontant en kWh\ncumac par t.km\n\nDurée du contrat\n(en mois) / Durée\ndu relevé de trafic\n(en mois)\n\nNombre de t.km\nmentionné dans le\nrelevé du trafic\n0,190\nX\nC/R\nX\nt.km\n\n5.2 Pour les nouveaux flux de marchandises :\n\nCatégories* de\nmarchandises du\nsystème de la NST\n2007 (niveau 1)\nMontant en kWh\ncumac par t.km\n\nDurée du contrat\n(en mois) / Durée\ndu relevé de\ntrafic (en mois)\n\nNombre de t.km\nmentionné dans le\nrelevé du trafic\n01, 03, 04, 09\n0,172\nX\nC/R\nX\nt.km\n07, 08, 12\n0,142\nX\nC/R\nX\nt.km\nAutres catégories\n0,105\nX\nC/R\nX\nt.km\n\nAvec :\nLe nombre de tonnes-kilomètres (t.km) est le nombre de tonnes nettes transportées multiplié par le nombre de\nkilomètres parcourus par chemin de fer sur le territoire national.\n\nC est la durée, exprimée en mois, du contrat ou du contrat de renouvellement. La durée du contrat, ou du contrat de\nrenouvellement, est d’au moins trois mois et d’au plus douze mois.\n\nR est la durée, exprimée en mois, du relevé de trafic ferroviaire. Lorsque la durée du contrat (initial ou de\nrenouvellement) est inférieure ou égale à six mois, le relevé de trafic ferroviaire couvre toute la durée du contrat.\nLorsque la durée du contrat (initial ou de renouvellement) est supérieure à six mois, le relevé de trafic ferroviaire\ncouvre une période de six mois consécutifs.\n*Les catégories du système de la NST 2007 susmentionnées sont les suivantes :\n01 : Produits de l’agriculture, de la chasse et de la forêt ; poissons et autres produits de la pêche.\n\n03 : Minerais métalliques et autres produits d’extraction ; tourbe ; minerais d’uranium et de thorium.\n04 : Produits alimentaires, boissons et tabac.\n07 : Coke et produits pétroliers raffinés.\n08 : Produits chimiques et fibres synthétiques ; produits en caoutchouc ou en plastique ; produits des industries\nnucléaires.\n09 : Autres produits minéraux non métalliques.\n12 : Matériel de tranport.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 4,
+    "unit": "Montant en kWh cumac par t.km Durée du contrat",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que",
+      "text": "Montant en kWh cumac par t.km Durée du contrat × C × R",
       "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par t.km Durée du contrat × C × R",
+      "confidence": "medium"
     },
     {
-      "text": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.2 ci-dessous, le chargeur atteste que les",
+      "text": "Montant en kWh cumac par t.km Durée du contrat",
       "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.2 ci-dessous, le chargeur atteste que les",
-      "confidence": "low"
-    },
-    {
-      "text": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie.",
-      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie.",
-      "confidence": "low"
-    },
-    {
-      "text": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie.",
-      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie.",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par t.km",
-      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par t.km",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par t.km",
-      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par t.km",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par t.km Durée du contrat",
+      "confidence": "medium"
     }
   ],
   "zones": [],

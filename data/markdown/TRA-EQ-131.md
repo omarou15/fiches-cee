@@ -37,7 +37,7 @@
 - déclaré sur le dernier exercice clos, ou document équivalent permettant de justifier l’effectif, ou inférieur ou égal à
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × N
 - Montant en kWh cumac
 
 ## Sections officielles detectees

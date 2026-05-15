@@ -450,7 +450,19 @@
         "kwh_cumac_per_apartment": 117000
       }
     ],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Efficacité énergétique\nsaisonnière\nUsage de\nla PAC\nZone\nclimatique\nMontant kWh\ncumac par\nappartement\n\nNombre\nd'appartements\nchauffés par la\n(ou les) PAC\ninstallée(s) au\ntitre de la\nprésente fiche\n\nFacteur\ncorrectif\n111% ≤ Etas < 126%\nChauffage\nH1\n100 000\nX\nN\nX\nR\nH2\n84 000\nH3\n60 000\nChauffage\net ECS\nH1\n146 000\nH2\n127 000\nH3\n100 000\n126% ≤ Etas < 150%\nChauffage\nH1\n107 000\nH2\n89 000\nH3\n64 000\nChauffage\net ECS\nH1\n155 000\nH2\n135 000\nH3\n107 000\n150% ≤ Etas < 175%\nChauffage\nH1\n112 000\nH2\n93 000\nH3\n67 000\nH1\n163 000\n\nChauffage\net ECS\nH2\n142 000\nH3\n112 000\n175% ≤ Etas < 190%\nChauffage\nH1\n115 000\nH2\n96 000\nH3\n69 000\nChauffage\net ECS\nH1\n167 000\nH2\n146 000\nH3\n115 000\n190% ≤ Etas\nChauffage\nH1\n117 000\nH2\n97 000\nH3\n70 000\nChauffage\net ECS\nH1\n170 000\nH2\n148 000\nH3\n117 000\n\nNB : Les appartements chauffés par la (ou les) PAC installée(s) correspondent aux appartements disposant\nd’émetteurs de chaleur alimentés par la (ou les) PAC installée(s) au titre de la présente fiche.\n\nDans le cas de l’installation d’une seule ou de plusieurs PAC (identiques ou différentes) :\n- si la puissance thermique nominale de la PAC nouvellement installée au titre de la présente fiche (ou de la somme\ndes puissances thermiques nominales des PAC nouvellement installées au titre de la présente fiche, dans le cas de\nl’installation de plusieurs PAC identiques ou différentes) est strictement inférieure à 40 % de la puissance utile de\nla chaufferie après travaux , le facteur R est égal au rapport de la puissance thermique nominale de la PAC\nnouvellement installée au titre de la présente fiche (ou de la somme des puissances thermiques nominales de chaque\nPAC éligible nouvellement installée au titre de la présente fiche, dans le cas de l’installation de plusieurs PAC\nidentiques ou différentes), sur la puissance totale utile de la chaufferie après travaux ;\n- dans le cas contraire, le facteur R est égal à l’unité.\n\nOn entend par puissance thermique nominale la puissance thermique nominale selon le règlement (EU) n° 813/2013\nde la commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné\n(soit Prated à la température de conception de référence de -10°C) déterminée selon l’application de la PAC\ninstallée.\n\nOn entend par puissance utile de la chaufferie après travaux la somme des puissances thermiques nominales des\néquipements de chauffage ou de chauffage et d’eau chaude sanitaire de la chaufferie, après travaux, incluant la (ou\nles) PAC installée(s) au titre de la présente fiche. Dans tous les cas, la puissance de la chaufferie après travaux ne\ncomptabilise pas les équipements de secours.\n\nOn entend par PAC différentes, des PAC relevant de classes d'efficacité énergétique saisonnière (Etas) différentes.\nDans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la base du montant de kWh cumac par\nappartement de la PAC ayant le montant le plus faible.\n\nPendant la durée de vie conventionnelle, aucune opération ultérieure d'installation d'un équipement de production\nthermique dans la chaufferie en remplacement des équipements installés au titre de la présente fiche ne pourra\ndonner lieu à l'obtention de certificats d'économies d'énergie.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 4,
     "unit": "kWh cumac par appartement",
+    "expressions": [],
+    "calculation_methods": [
+      "structured_amount_table",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+    "confidence": "medium",
     "r_factor": {
       "condition": "si puissance thermique nominale PAC installée / puissance utile chaufferie après travaux < 40%",
       "formula": "R = puissance thermique nominale PAC installée / puissance totale utile chaufferie après travaux",
@@ -460,44 +472,20 @@
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
       "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche",
+      "confidence": "medium"
     },
     {
-      "text": "Montant kWh",
+      "text": "Montant kWh cumac par appartement",
       "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par",
-      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par",
-      "confidence": "low"
-    },
-    {
-      "text": "Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la base du montant de kWh cumac par",
-      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la base du montant de kWh cumac par",
-      "confidence": "low"
-    },
-    {
-      "text": "appartement de la PAC ayant le montant le plus faible.",
-      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "appartement de la PAC ayant le montant le plus faible.",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant kWh cumac par appartement",
+      "confidence": "medium"
     }
   ],
   "zones": [

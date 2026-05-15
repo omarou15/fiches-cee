@@ -141,27 +141,77 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "1x8h ; 2x8h ; 3x8h avec arrêt ; 3x8h sans arrêt",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Usage de la\nchaleur\nMode de\nfonctionnement\ndu site\nMontant de certificats en kWh cumac\npar kW selon la zone climatique\n\nPuissance thermique de\nl’échangeur en kW (thermique)\nou\nPuissance électrique nominale du\ncompresseur en kW (électrique) en\nl’absence d’échangeur\nH1\nH2\nH3\nChauffage\nde locaux\nou\neau chaude\nsanitaire\n1x8h\n6 400\n6 000\n5 000\nX\nP\n\nLimitée dans tous les cas à la\npuissance électrique nominale du\ncompresseur\n2x8h\n15 900\n15 000\n12 600\n3x8h avec arrêt\nle week-end\n19 700\n18 600\n15 600\n3x8h sans arrêt\nle week-end\n26 700\n25 200\n21 100\nProcédé\nindustriel\n1x8h\n10 300\n2x8h\n25 600\n3x8h avec arrêt\nle week-end\n31 800\n3x8h sans arrêt\nle week-end\n43 100\n\nLa puissance thermique à retenir est celle figurant sur la plaque signalétique de l'échangeur ou à défaut celle indiquée\nsur la note de dimensionnement de l’installateur ou sur un document issu du fabricant.\n\nLa puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du compresseur ou à défaut\ncelle indiquée sur un document issu du fabricant.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [
+      "1x8h",
+      "2x8h",
+      "3x8h avec arrêt",
+      "3x8h sans arrêt"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-103 vA17-2.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1x8h",
       "source_file": "Industrie_IND/IND-UT-103 vA17-2.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8h",
+      "confidence": "medium"
+    },
+    {
+      "text": "2x8h",
+      "source_file": "Industrie_IND/IND-UT-103 vA17-2.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8h",
+      "confidence": "medium"
+    },
+    {
+      "text": "3x8h avec arrêt",
+      "source_file": "Industrie_IND/IND-UT-103 vA17-2.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h avec arrêt",
+      "confidence": "medium"
+    },
+    {
+      "text": "3x8h sans arrêt",
+      "source_file": "Industrie_IND/IND-UT-103 vA17-2.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h sans arrêt",
+      "confidence": "medium"
     },
     {
       "text": "Montant de certificats en kWh cumac",
       "source_file": "Industrie_IND/IND-UT-103 vA17-2.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

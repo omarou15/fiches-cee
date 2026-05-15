@@ -42,9 +42,7 @@
 - - les attestations déclarations préalables de travaux (DP) déposées par le propriétaire correspondant aux surfaces
 
 ## Formules / calcul detectes
-- logements, inférieure à 331 kWh/m².an pour les usages chauffage, refroidissement, production d’eau chaude
-- - la consommation conventionnelle (en kWh/m².an) du bâtiment (sans déduction de la production d’électricité
-- 5. Montant de certificats en kWh cumac
+- Montants en kWh cumac/m² × Shab
 - Montants en kWh cumac/m²
 
 ## Sections officielles detectees

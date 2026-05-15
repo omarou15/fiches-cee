@@ -158,43 +158,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Dans les tableaux ci-après, on entend par surface ventilée en m2, la surface totale du bâtiment couverte par le système\nde ventilation mécanique simple flux à débit d’air constant ou modulée.\n\nL’installation d’une ventilation mécanique hygroréglable dans le secteur de l’hôtellerie, quelle que soit sa catégorie,\nest assimilée à une ventilation mécanique simple flux modulée proportionnelle du secteur « Autres locaux ».\n\nInstallation d’une ventilation mécanique simple flux modulée proportionnelle :\n\nZone\nclimatique\nMontant en kWh cumac\npar m² de surface ventilée\nSecteur\nFacteur\ncorrectif\n\nSurface\nventilée\n(m²)\nH1\n770\nX\nBureaux\n0,48\nX\nS\nH2\n630\nEnseignement\n1\nH3\n420\nRestauration\n0,59\nAutres locaux\n0,54\n\nInstallation d’une ventilation mécanique simple flux modulée à détection de présence :\n\nZone\nclimatique\nMontant en kWh cumac\npar m² de surface\nventilée\n\nSecteur\nFacteur\ncorrectif\n\nSurface\nventilée\n(m²)\nH1\n690\nX\nBureaux\n0,4\nX\nS\nH2\n560\nEnseignement\n1\nH3\n380\nRestauration\n0,45\nAutres locaux\n0,51\n\nInstallation d’une ventilation mécanique simple flux à débit d’air constant :\n\nZone\nclimatique\nMontant en kWh cumac\npar m² de surface\nventilée\n\nSecteur\nFacteur\ncorrectif\n\nSurface\nventilée\n(m²)\nH1\n400\nX\nBureaux\n0,4\nX\nS\nH2\n330\nEnseignement\n1\nH3\n220\nRestauration\n0,53\nAutres locaux\n0,58",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × S",
       "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

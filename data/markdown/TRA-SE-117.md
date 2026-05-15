@@ -48,14 +48,7 @@
 - - une copie des factures émises à l’attention du chargeur par le professionnel sur toute la période du relevé de trafic
 
 ## Formules / calcul detectes
-- Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que
-- Lorsqu’il est demandé un montant de certificats relevant de la partie 5.2 ci-dessous, le chargeur atteste que les
-- résultat final, avec le calcul, du montant des certificats d’économies d’énergie ;
-- résultat final, avec le calcul, du montant des certificats d’économies d’énergie ;
-- 5. Montant de certificats en kWh cumac
-- - Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux
-- kWh cumac par
-- kWh cumac par
+- - Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux des parties 5.1 et 5.2 ci-dessous, selon le type de bateaux considéré et la voie fluviale utilisée ; - t.km(i,j) est le nombre de tonnes kilomètres mentionné dans le relevé de trafic selon le type de bateaux considéré
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

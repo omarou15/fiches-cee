@@ -30,11 +30,8 @@
 - Décision de qualification ou de certification du professionnel.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant kWh
-- cumac par
-- Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la base du montant de kWh cumac par
-- appartement de la PAC ayant le montant le plus faible.
+- Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche
+- Montant kWh cumac par appartement
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

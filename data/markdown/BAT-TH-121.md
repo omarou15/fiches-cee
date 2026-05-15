@@ -40,9 +40,9 @@
 - Les documents justificatifs spécifiques à l’opération sont :
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- 0,148 x B x T
+- 0,086 x B x T
 - Montant en kWh cumac
-- B : besoin annuel en eau chaude sanitaire à produire par l’énergie solaire, exprimé en kWh par an et issu de l’étude
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

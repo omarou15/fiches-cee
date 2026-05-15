@@ -30,13 +30,11 @@
 - Les documents justificatifs spécifiques à l’opération sont :
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- C x Y x TK
+- TK : t.km relevées sur une période maximale de 6 mois x 2.
+- C’ x Y x K
+- K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2.
 - Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :
-- C : consommation énergétique actualisée, en kWh cumac/tonne.kilomètre, par type d’unité de transport fluvial et
-- C en kWh cumac par t.km selon
-- Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :
-- C’ : consommation énergétique actualisée en kWh cumac/kilomètre, par type de pousseur et par bassin de
-- C’ en kWh cumac par km selon la puissance du pousseur
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

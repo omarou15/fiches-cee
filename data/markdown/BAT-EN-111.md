@@ -33,10 +33,7 @@
 - date de validité, ce document est considéré comme valable jusqu’à un an après sa date de fin de validité.
 
 ## Formules / calcul detectes
-- Le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :
-- les coefficients de transmission thermique Uw selon la norme NF EN 14351-1+A2. Le facteur de transmission
-- - le coefficient de transmission surfacique Uw et le facteur solaire Sw des équipements installés.
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par m² de fenêtre ou × S
 - Montant en kWh cumac par m² de fenêtre ou
 
 ## Sections officielles detectees

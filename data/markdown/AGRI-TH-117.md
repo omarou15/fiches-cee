@@ -35,12 +35,8 @@
 - Référence de la facture : ….........................
 
 ## Formules / calcul detectes
-- électrique absorbée exprimée en kW : R > 2 L/kWh.
-- 5. Montant de certificats en kWh cumac
-- Montant du gain en
-- kWh cumac par m²
-- Performance R (L/kWh) par unité de
-- - R est le rapport C/P exprimé en litres/kWh à 20°C et 80 % d’humidité relative (Hr). R > 2 L/kWh.
+- Montant du gain en kWh cumac par m² Surface de serre × S × NON
+- Montant du gain en kWh cumac par m² Surface de serre
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

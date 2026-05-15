@@ -166,43 +166,54 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWhc par kW × local × P",
+    "variables": [
+      {
+        "name": "local",
+        "label": "la somme des puissances nominales des équipements qui le composent en vue d’assurer le chauffage du local, cette puissance étant inférieure ou égale à la puissance nominale de la chaudière. Dans le cadre d'un chauffage décentralisé, convectif ou radiatif, la puissance nominale du système de chauffage est la somme des puissances nominales des équipements qui le compose. Par exemple sont considérés comme faisant partie d’un système convectif de chauffage : centrale de traitement d’air, unité de to",
+        "unit": null,
+        "value_type": "number",
+        "description": "la somme des puissances nominales des équipements qui le composent en vue d’assurer le chauffage du local, cette puissance étant inférieure ou égale à la puissance nominale de la chaudière. Dans le cadre d'un chauffage décentralisé, convectif ou radiatif, la puissance nominale du système de chauffage est la somme des puissances nominales des équipements qui le compose. Par exemple sont considérés comme faisant partie d’un système convectif de chauffage : centrale de traitement d’air, unité de to"
+      },
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le montant de certificats d’économies d’énergie est déterminé pour l’ensemble du local complètement clos chauffé\nconcerné par la déstratification.\n\nZone climatique\nMontant en kWhc par kW\n\nPuissance nominale du\nsystème de chauffage\ndu local déstratifié (en\nkW)\nSystème\nconvectif\nSystème\nradiatif\nH1\n7 200\n2 500\nx\nP\nH2\n8 000\n2 800\nH3\n8 500\n3 000\n\n\nDans le cadre d'un chauffage centralisé, convectif ou radiatif, la puissance nominale du système de chauffage du\nlocal est la somme des puissances nominales des équipements qui le composent en vue d’assurer le chauffage du\nlocal, cette puissance étant inférieure ou égale à la puissance nominale de la chaudière.\nDans le cadre d'un chauffage décentralisé, convectif ou radiatif, la puissance nominale du système de chauffage est\nla somme des puissances nominales des équipements qui le compose.\n\nPar exemple sont considérés comme faisant partie d’un système convectif de chauffage : centrale de traitement d’air,\nunité de toiture ou « rooftop », aérotherme électrique ou à combustible ou à fluide caloporteur, générateur d’air\nchaud, générateur de ventilation tempérée ou « make-up », ventilo-convecteur. Si une chaudière chauffe plusieurs\nlocaux à la fois, la part de la puissance nominale de la chaudière à considérer pour le local à déstratifier sera au\nprorata des volumes totaux chauffés.\n\nPar exemple sont considérés comme faisant partie d’un système radiatif de chauffage : cassettes, tubes et panneaux\nradiants électriques, à combustible ou à fluide caloporteur, planchers chauffants. Si une chaudière chauffe plusieurs\nlocaux à la fois, la part de la puissance nominale de la chaudière à considérer pour le local à déstratifier sera au\nprorata des volumes totaux chauffés.\n\nLorsqu’un local est chauffé par un système convectif et un système radiatif, les montants en certificats peuvent être\ncumulés.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWhc par kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-BA-110 vA71-4 à compter du 01-08-2025.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWhc par kW × local × P",
       "source_file": "Industrie_IND/IND-BA-110 vA71-4 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Le montant de certificats d’économies d’énergie est déterminé pour l’ensemble du local complètement clos chauffé",
-      "source_file": "Industrie_IND/IND-BA-110 vA71-4 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le montant de certificats d’économies d’énergie est déterminé pour l’ensemble du local complètement clos chauffé",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWhc par kW × local × P",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWhc par kW",
       "source_file": "Industrie_IND/IND-BA-110 vA71-4 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWhc par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Lorsqu’un local est chauffé par un système convectif et un système radiatif, les montants en certificats peuvent être",
-      "source_file": "Industrie_IND/IND-BA-110 vA71-4 à compter du 01-08-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Lorsqu’un local est chauffé par un système convectif et un système radiatif, les montants en certificats peuvent être",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

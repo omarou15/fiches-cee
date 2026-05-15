@@ -41,11 +41,9 @@
 - En cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après sa date de
 
 ## Formules / calcul detectes
-- Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par
-- Montant en kWh cumac par
-- La surface chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie est la
+- - pour une serre maraichère : [S] ou [15 x P] ;
+- - pour une serre horticole : [S] ou [31 x P].
+- Montant en kWh cumac par m2 de serre chauffée Surface de serre
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

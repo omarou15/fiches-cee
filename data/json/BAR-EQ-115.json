@@ -125,99 +125,32 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "- affichage des consommations d’énergie en m3 et/ou en kWh selon l’énergie et valorisées en euros ;",
+    "formula_text": "Montant en kWh cumac Option",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour une maison individuelle :\nZone\nclimatique\nMontant en\nkWh cumac\n\nOption\n« suivi du\nconfort »\nCoefficient\n\nFacteur\ncorrectif\nSurface\nhabitable S\n(m²)\n\nPart fixe à\najouter en\nkWh cumac\nH1\n4 400\nx\nOui\n1\nx\n0,3\nS < 35\n+\n650\nH2\n3 700\nNon\n0,8\n0,5\n35 ≤ S < 60\nH3\n2 700\n\n\n\n\n0,6\n60 ≤ S < 70\n\n\n\n\n\n\n\n\n0,7\n70 ≤ S < 90\n\n\n\n\n\n\n\n\n1\n90 ≤ S < 110\n\n\n\n\n\n\n\n\n1,1\n110 ≤ S ≤ 130\n\n\n\n\n\n\n\n\n1,6\n>130\n\nPour un appartement :\nZone\nclimatique\nMontant en\nkWh cumac\n\nOption\n« suivi du\nconfort »\nCoefficient\n\nFacteur\ncorrectif\nSurface\nhabitable S\n(m²)\n\nPart fixe à\najouter en\nkWh cumac\nH1\n2 600\nx\nOui\n1\nx\n0,5\nS < 35\n+\n410\nH2\n2 200\nNon\n0,8\n0,7\n35 ≤ S < 60\nH3\n1 700\n\n\n\n\n1\n60 ≤ S < 70\n\n\n\n\n\n\n\n\n1,2\n70 ≤ S < 90\n\n\n\n\n\n\n\n\n1,5\n90 ≤ S < 110\n\n\n\n\n\n\n\n\n1,9\n110 ≤ S ≤ 130\n\n\n\n\n\n\n\n\n2,5\n>130\n\n\n\nDans le cas où le bénéficiaire est une personne morale équipant plusieurs logements à la même adresse, le montant\ndes certificats d’économies d’énergie, calculé pour un appartement, est multiplié par le nombre N d’appartements,\nde même surface, équipés du dispositif.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac Option",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "- affichage des consommations d’énergie en m3 et/ou en kWh selon l’énergie et valorisées en euros ;",
+      "text": "Montant en kWh cumac Option",
       "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- affichage des consommations d’énergie en m3 et/ou en kWh selon l’énergie et valorisées en euros ;",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Dans le cas où le bénéficiaire est une personne morale équipant plusieurs logements à la même adresse, le montant",
-      "source_file": "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Dans le cas où le bénéficiaire est une personne morale équipant plusieurs logements à la même adresse, le montant",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac Option",
+      "confidence": "medium"
     }
   ],
   "zones": [

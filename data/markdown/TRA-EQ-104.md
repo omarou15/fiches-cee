@@ -39,9 +39,8 @@
 - l’établissement, adresse du lieu de distribution), et par date de facturation et la référence de la preuve de
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × X × Y
 - Montant en kWh cumac
-- Le montant de certificats d’économies d’énergie à attribuer est égal à la somme du montant de chaque type de
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

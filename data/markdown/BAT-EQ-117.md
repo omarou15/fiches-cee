@@ -35,10 +35,7 @@ _Non detecte automatiquement._
 - par les compresseurs neufs au CO2 négatifs (basse température). Les valeurs figurent sur le document issu de
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac / kW
-- Montant en kWhcumac / kW
-- Montants en kWh cumac / kW
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

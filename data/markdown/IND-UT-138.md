@@ -36,8 +36,8 @@
 - d’énergie archive les preuves des dates d’engagement et d’achèvement des deux installations.
 
 ## Formules / calcul detectes
-- v. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;
-- 5. Montant de certificats en kWh cumac
+- 14,134 x D x (Précup x η – Pconso)
+- Montant de certificats en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

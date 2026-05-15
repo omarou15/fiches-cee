@@ -133,27 +133,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kW × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone\nclimatique\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ntotale du groupe de\nproduction de froid en kW\nCondensation par rapport\nà l’atmosphère\nCondensation à eau\nseule\nX\nH1 ou H2\n10 600\n6 200\nP\nH3\n9 700\n5 400\n\nLa puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du groupe de production de\nfroid (mono-compresseur ou multi-compresseur) ou à défaut celle indiquée sur un document issu du fabricant du\ngroupe mono-compresseur ou multi-compresseur. La puissance des compresseurs de secours n’est pas\ncomptabilisée.\n\nSont considérés comme systèmes de condensation par rapport à l’atmosphère, les condenseurs suivants :\n— condenseur à air sec adiabatique ou non,\n— condenseur à eau plus aéroréfrigérant à air sec adiabatique ou non,\n— condenseur évaporatif hybride ou non,\n— condenseur à eau plus tour ouverte hybride ou non,\n— condenseur à eau plus tour fermée hybride ou non.\n\nSont considérés comme systèmes de condensation à eau seule, les condenseurs à eau provenant d’une nappe ou d’un\ncours d’eau.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-UT-104 vA23-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW × P",
       "source_file": "Agriculture_AGRI/AGRI-UT-104 vA23-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW × P",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kW",
       "source_file": "Agriculture_AGRI/AGRI-UT-104 vA23-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

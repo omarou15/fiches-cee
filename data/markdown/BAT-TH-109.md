@@ -29,9 +29,8 @@
 - référence et elle est accompagnée d’un document issu du fabricant indiquant que l’équipement de marque et
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant unitaire
-- en kWh cumac/m²
+- Montant unitaire en kWh cumac/m² Surface × S
+- Montant unitaire en kWh cumac/m² Surface
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

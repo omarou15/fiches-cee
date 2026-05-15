@@ -125,35 +125,42 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "V = nombre de voyages de l’UTI achetée ou louée relevés sur 6 mois x 2 (soit le nombre de voyages par an réalisés",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nGa x V\n\nAvec :\nGa = gain net actualisé en kWh cumac de l’UTI selon le bassin de navigation et le type de bateaux :\n\nType de bateaux\nSeine\nRhône\nNord\nPas-de-Calais Rhin/Moselle\nInterbassin\nBateau DEK (1 000 t)\n3 800\n3 200\n3 300\n1 200\n2 900\nBateau RHK (1 350 t)\n7 900\n7 500\n4 000\n2 600\n5 500\nBateau Grand Rhénan (2 500 t)\n8 500\n7 800\n4 700\n4 100\n6300\nBateau Convois (4 400 t)\n9 000\n8 500\n8 300\n6 500\n8 000\n\nV = nombre de voyages de l’UTI achetée ou louée relevés sur 6 mois x 2 (soit le nombre de voyages par an réalisés\npar l’UTI en transport combiné fluvial-route)\n\nOn considère que le trafic réalisé par l’UTI sur 6 mois consécutifs est maintenu en moyenne sur la durée de vie du\nmatériel.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
+    "expressions": [
+      "V = nombre de voyages de l’UTI achetée ou louée relevés sur 6 mois x 2 (soit le nombre de voyages par an réalisés"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-107 vA17-1_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "V = nombre de voyages de l’UTI achetée ou louée relevés sur 6 mois x 2 (soit le nombre de voyages par an réalisés",
       "source_file": "Transport_TRA/TRA-EQ-107 vA17-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "V = nombre de voyages de l’UTI achetée ou louée relevés sur 6 mois x 2 (soit le nombre de voyages par an réalisés",
+      "confidence": "medium"
     },
     {
       "text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
       "source_file": "Transport_TRA/TRA-EQ-107 vA17-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
-      "confidence": "low"
-    },
-    {
-      "text": "Ga = gain net actualisé en kWh cumac de l’UTI selon le bassin de navigation et le type de bateaux :",
-      "source_file": "Transport_TRA/TRA-EQ-107 vA17-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Ga = gain net actualisé en kWh cumac de l’UTI selon le bassin de navigation et le type de bateaux :",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

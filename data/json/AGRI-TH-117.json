@@ -207,59 +207,54 @@
     }
   ],
   "calculation": {
-    "formula_text": "électrique absorbée exprimée en kW : R > 2 L/kWh.",
-    "variables": [],
+    "formula_text": "Montant du gain en kWh cumac par m² Surface de serre × S × NON",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      },
+      {
+        "name": "NON",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant du gain en\nkWh cumac par m²\n\nSurface de serre\néquipée (m²)\n710\nX\nS\n\nAnnexe 1 à la fiche d’opération standardisée AGRI-TH-117,\ndéfinissant le contenu de la partie A de l’attestation sur l’honneur\n\nA/ AGRI-TH-117 (v. A73.3) : Mise en place d’un système de déshumidification thermodynamique pour gérer\nl’hygrométrie dans les serres maraîchères.\n\n*Date d’engagement de l'opération (ex : date d’acceptation du devis) : …..........................\nDate de preuve de réalisation de l’opération (ex : date de la facture) : ….........................\nRéférence de la facture : ….........................\n*Nom du site des travaux : ….........................\n*Adresse des travaux : ……......................\nComplément d’adresse : ……......................\n*Code postal : ……......................\n*Ville : ……......................\n\n*Serres maraîchères :    □ OUI      □ NON\n\n*Nombre de blocs de serre chauffée concernés par l’opération :……………\nNB : un bloc de serre est un volume délimité par des parois de serre.\n\n*Le système de déshumidification thermodynamique est fixe et est piloté via un ordinateur climatique :      □ OUI     □ NON\n\n*La température de consigne minimale pour le chauffage est supérieure à 12 °C sur la période de culture :       □ OUI     □\nNON\n\nL’ensemble des éléments ci-dessous sont à reproduire et renseigner pour chaque bloc de serre chauffée équipé dans le cadre de\nl’opération.\n\n*Numéro du bloc de serre chauffée (numéro attribué par le bénéficiaire) :……………\n\n*Surface du bloc de serre chauffée considéré (m²) : ……......................\n\n*Nombre d’unités de déshumidification installées pour le bloc de serre chauffée considéré : ……......................\n\n*Caractéristiques des unités de déshumidification installées pour le bloc de serre chauffée considéré :\n\n\nModèle / Référence 1\nModèle / Référence 2\nMarque et modèle / référence\n\n\nNuméros de série (noter tous les numéros de série\ndes unités de déshumidifcation installées pour un\nmême modèle/référence)\n\n\nC (L/h) par unité de déshumidification\n\n\nPuissance électrique P (kW) par unité de\ndéshumidification\n\n\nPerformance R (L/kWh) par unité de\ndéshumidification\n\n\nNombre d’unités de déshumidification par\nréférence / modèle\n\n\nCapacité totale (L/h) des unités de\ndéshumidification du même modèle / référence\n\nCapacité totale du système CT (L/h) pour le bloc de\nserre chauffée considéré\n\nD (L/h) pour 1 000 m2\n\n\nDans le tableau ci-dessus :\n- C est la capacité de déshumidification exprimée en litres/heure à 20°C et 80 % d’humidité relative (Hr). C > 9 L/h.\n- P est la puissance électrique consommée exprimée en kW à 20°C et 80 % d’humidité relative (Hr).\n- R est le rapport C/P exprimé en litres/kWh à 20°C et 80 % d’humidité relative (Hr). R > 2 L/kWh.\n- CT est la capacité totale du système, c’est-à-dire la somme des capacités C des unités de déshumidification du même\nmodèle / référence.\n- D est la capacité totale du système CT ramenée à une surface de 1 000 m2. D > 9 L/h.\n\nIl convient d’ajouter autant de colonnes au tableau ci-dessus que de modèles/références d’unités de déshumidification aux\ncaractéristiques identiques.\n\n*Coordonnées de l’entité ayant établi l’étude de dimensionnement préalable :\n*Raison sociale : …..........……….....................\n*Numéro SIREN : ….......……….....................\n*Référence de l’étude de dimensionnement : ……………………….\n*Date de l’étude de dimensionnement préalable :  …..../............/.............\n*Adresse de courriel :………………………………………\n*Numéro de téléphone :…………………………………",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 4,
+    "unit": "Montant du gain en kWh cumac par m² Surface de serre",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "électrique absorbée exprimée en kW : R > 2 L/kWh.",
+      "text": "Montant du gain en kWh cumac par m² Surface de serre × S × NON",
       "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "électrique absorbée exprimée en kW : R > 2 L/kWh.",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant du gain en kWh cumac par m² Surface de serre × S × NON",
+      "confidence": "medium"
     },
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant du gain en kWh cumac par m² Surface de serre",
       "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant du gain en",
-      "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant du gain en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac par m²",
-      "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac par m²",
-      "confidence": "low"
-    },
-    {
-      "text": "Performance R (L/kWh) par unité de",
-      "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Performance R (L/kWh) par unité de",
-      "confidence": "low"
-    },
-    {
-      "text": "- R est le rapport C/P exprimé en litres/kWh à 20°C et 80 % d’humidité relative (Hr). R > 2 L/kWh.",
-      "source_file": "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- R est le rapport C/P exprimé en litres/kWh à 20°C et 80 % d’humidité relative (Hr). R > 2 L/kWh.",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant du gain en kWh cumac par m² Surface de serre",
+      "confidence": "medium"
     }
   ],
   "zones": [],

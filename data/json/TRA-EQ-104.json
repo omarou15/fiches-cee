@@ -214,35 +214,54 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × X × Y",
+    "variables": [
+      {
+        "name": "X",
+        "label": "le volume de lubrifiants utilisés, exprimé en litres.",
+        "unit": null,
+        "value_type": "number",
+        "description": "le volume de lubrifiants utilisés, exprimé en litres."
+      },
+      {
+        "name": "Y",
+        "label": "la performance « Fuel Economy » du lubrifiant, exprimée en %. Exemple : pour une performance de 1,5 %, Y = 1,5 Y1 = performance « Fuel Economy » du lubrifiant pour les véhicules Diesel Y2 = performance « Fuel Economy » du lubrifiant pour les véhicules Essence Y3 = performance « Fuel Economy » du lubrifiant Mixte pour tous types de véhicule Le montant de certificats d’économies d’énergie à attribuer est égal à la somme du montant de chaque type de lubrifiants pour véhicules de catégorie M1.",
+        "unit": "vehicule",
+        "value_type": "number",
+        "description": "la performance « Fuel Economy » du lubrifiant, exprimée en %. Exemple : pour une performance de 1,5 %, Y = 1,5 Y1 = performance « Fuel Economy » du lubrifiant pour les véhicules Diesel Y2 = performance « Fuel Economy » du lubrifiant pour les véhicules Essence Y3 = performance « Fuel Economy » du lubrifiant Mixte pour tous types de véhicule Le montant de certificats d’économies d’énergie à attribuer est égal à la somme du montant de chaque type de lubrifiants pour véhicules de catégorie M1."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Types de lubrifiants pour véhicules\nde catégorie M1\nMontant en kWh cumac\nLubrifiants Diesel\n33*X1*Y1\nLubrifiants Essence\n19,4*X2*Y2\nLubrifiants Mixtes\n29,1*X3*Y3\n\nX est le volume de lubrifiants utilisés, exprimé en litres.\nY est la performance « Fuel Economy » du lubrifiant, exprimée en %.\nExemple : pour une performance de 1,5 %, Y = 1,5\n\nY1 = performance « Fuel Economy » du lubrifiant pour les véhicules Diesel\nY2 = performance « Fuel Economy » du lubrifiant pour les véhicules Essence\nY3 = performance « Fuel Economy » du lubrifiant Mixte pour tous types de véhicule\n\nLe montant de certificats d’économies d’énergie à attribuer est égal à la somme du montant de chaque type de\nlubrifiants pour véhicules de catégorie M1.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-104 vA14-1_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × X × Y",
       "source_file": "Transport_TRA/TRA-EQ-104 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × X × Y",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Transport_TRA/TRA-EQ-104 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Le montant de certificats d’économies d’énergie à attribuer est égal à la somme du montant de chaque type de",
-      "source_file": "Transport_TRA/TRA-EQ-104 vA14-1_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le montant de certificats d’économies d’énergie à attribuer est égal à la somme du montant de chaque type de",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

@@ -41,11 +41,8 @@
 - document précise la puissance électrique absorbée pondérée du caisson de ventilation.
 
 ## Formules / calcul detectes
-- 0,10 WThC/(m3/h) au débit pondéré et sa courbe aéraulique est montante (la pression croît avec le débit, la pression
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × N × R
 - Montant en kWh cumac
-- Montant en
-- kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

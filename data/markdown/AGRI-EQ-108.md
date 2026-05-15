@@ -24,7 +24,7 @@ _Non detecte automatiquement._
 - La preuve de la réalisation de l’opération mentionne :
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant de kWh cumac par m² × S
 - Montant de kWh cumac par m²
 
 ## Sections officielles detectees

@@ -247,35 +247,54 @@
     }
   ],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par luminaire remplacé ou rééquipé Nombre de luminaires × N1 × N2",
+    "variables": [
+      {
+        "name": "N1",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      },
+      {
+        "name": "N2",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Dans le cas d’un fonctionnement avec gradation seule :\n\nMontant en kWh cumac par\nluminaire remplacé ou rééquipé\n\nNombre de luminaires\nremplacés ou rééquipés\n4 000\nX\nN1\n\nDans le cas d’un fonctionnement avec gradation et détection de présence :\n\nMontant en kWh cumac par\nluminaire remplacé ou rééquipé\n\nNombre de luminaires\nremplacés ou rééquipés\n5 600\nX\nN2",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac par luminaire remplacé ou rééquipé Nombre de luminaires",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par luminaire remplacé ou rééquipé Nombre de luminaires × N1 × N2",
       "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par luminaire remplacé ou rééquipé Nombre de luminaires × N1 × N2",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh cumac par",
+      "text": "Montant en kWh cumac par luminaire remplacé ou rééquipé Nombre de luminaires",
       "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par",
-      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par luminaire remplacé ou rééquipé Nombre de luminaires",
+      "confidence": "medium"
     }
   ],
   "zones": [

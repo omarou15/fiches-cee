@@ -43,12 +43,11 @@
 - nominale est la puissance indiquée sur la plaque du ou des équipements ou à défaut celle indiquée sur un document
 
 ## Formules / calcul detectes
-- Rendement (kWh/Unité de production)
-- COP (kWhfrigo/kWhelec)
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWh cumac
-- Coefficient
+- 1x8h, avec ou sans arrêt le week-end
+- 2x8h, avec ou sans arrêt le week-end
+- 3x8h avec arrêt le week-end
+- 3x8h sans arrêt le week-end
+- Montant en kWh cumac par kW
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

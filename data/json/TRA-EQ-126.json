@@ -133,35 +133,102 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "147,567 x R x Wi ; 103,285 x R x Wi ; 71,655 x R x Wi ; 54,024 x R x Wi ; 40,809 x R x Wi ; 29,212 x R x Wi",
+    "variables": [
+      {
+        "name": "R",
+        "label": "le nombre total d’heures relevées sur la période d’utilisation du bateau, exprimé en heures. *NB : Pour le bateau de réception destiné à un usage principalement privatif, le nombre total d’heures relevées sur la période d’utilisation du bateau, R, est plafonné à 275 heures.",
+        "unit": "h",
+        "value_type": "number",
+        "description": "le nombre total d’heures relevées sur la période d’utilisation du bateau, exprimé en heures. *NB : Pour le bateau de réception destiné à un usage principalement privatif, le nombre total d’heures relevées sur la période d’utilisation du bateau, R, est plafonné à 275 heures."
+      },
+      {
+        "name": "Wi",
+        "label": "la puissance de la motorisation initiale remplacée, exprimée en kW, justifiée par le titre de navigation ou la carte de circulation du bateau avant remotorisation. Si la puissance mentionnée sur le titre de navigation ou la carte de circulation est indiquée en chevaux, il convient de multiplier cette puissance par 0,7355 et arrondir à l’unité.",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la puissance de la motorisation initiale remplacée, exprimée en kW, justifiée par le titre de navigation ou la carte de circulation du bateau avant remotorisation. Si la puissance mentionnée sur le titre de navigation ou la carte de circulation est indiquée en chevaux, il convient de multiplier cette puissance par 0,7355 et arrondir à l’unité."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Cas d’une remotorisation en propulsion électrique ou hybride d’un bateau initialement thermique :\n\nType de bateau\nMontant en kWh cumac\npar bateau\nBateau de réception destiné à un usage principalement\nprivatif * et bateau de travail\n147,567 x R x Wi\nPetit bateau à passagers\n103,285 x R x Wi\nBateau restaurant, bateau promenades, automoteur,\nbateau de plaisance et péniche-hôtel\n71,655 x R x Wi\n\nCas d’une remotorisation en propulsion électrique ou hybride d’un bateau initialement diésel-électrique :\n\nType de bateau\nMontant en kWh cumac\npar bateau\nBateau de réception destiné à un usage principalement\nprivatif * et bateau de travail\n54,024 x R x Wi\nPetit bateau à passagers\n40,809 x R x Wi\nBateau restaurant, bateau promenades, automoteur,\nbateau de plaisance et péniche-hôtel\n29,212 x R x Wi\n\nR est le nombre total d’heures relevées sur la période d’utilisation du bateau, exprimé en heures.\n*NB : Pour le bateau de réception destiné à un usage principalement privatif, le nombre total d’heures relevées sur\nla période d’utilisation du bateau, R, est plafonné à 275 heures.\n\nWi est la puissance de la motorisation initiale remplacée, exprimée en kW, justifiée par le titre de navigation ou la\ncarte de circulation du bateau avant remotorisation.\n\nSi la puissance mentionnée sur le titre de navigation ou la carte de circulation est indiquée en chevaux, il convient\nde multiplier cette puissance par 0,7355 et arrondir à l’unité.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac",
+    "expressions": [
+      "147,567 x R x Wi",
+      "103,285 x R x Wi",
+      "71,655 x R x Wi",
+      "54,024 x R x Wi",
+      "40,809 x R x Wi",
+      "29,212 x R x Wi"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "147,567 x R x Wi",
       "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "147,567 x R x Wi",
+      "confidence": "medium"
+    },
+    {
+      "text": "103,285 x R x Wi",
+      "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "103,285 x R x Wi",
+      "confidence": "medium"
+    },
+    {
+      "text": "71,655 x R x Wi",
+      "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "71,655 x R x Wi",
+      "confidence": "medium"
+    },
+    {
+      "text": "54,024 x R x Wi",
+      "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "54,024 x R x Wi",
+      "confidence": "medium"
+    },
+    {
+      "text": "40,809 x R x Wi",
+      "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "40,809 x R x Wi",
+      "confidence": "medium"
+    },
+    {
+      "text": "29,212 x R x Wi",
+      "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "29,212 x R x Wi",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

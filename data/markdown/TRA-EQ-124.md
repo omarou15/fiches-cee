@@ -32,11 +32,8 @@ _Non detecte automatiquement._
 - - les factures de distribution d’électricité afférentes.
 
 ## Formules / calcul detectes
-- - quantité d’énergie électrique consommée par le navire ou bateau lors du branchement à quai, exprimée en kWh ;
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par kWh × Q
 - Montant en kWh cumac par kWh
-- Consommation en kWh par
-- Q est la consommation d’énergie électrique, exprimée en kWh, relevée sur six mois consécutif maximum, délivrée
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

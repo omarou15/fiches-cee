@@ -26,8 +26,6 @@ _Non detecte automatiquement._
 - a) Un document établi, daté et signé par le professionnel réalisant l’opération, mentionnant :
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac
 - Montant en kWh cumac
 
 ## Sections officielles detectees

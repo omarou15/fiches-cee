@@ -31,14 +31,10 @@
 - (simple, double ou combiné) auquel il est destiné. En cas de mention d’une date de validité, ce document est
 
 ## Formules / calcul detectes
-- Le vitrage des couvercles a un coefficient de transmission thermique Ug ≤ 3,8 W/m².K (évalué conformément à la
-- frigorifiques, leur coefficient de transmission thermique Ug (évalué conformément à la norme EN 673), la longueur
-- 5. Montant de certificats en kWh cumac
-- Montant unitaire
-- (en kWh cumac par mètre de couvercle)
+- Montant unitaire (en kWh cumac par mètre de couvercle) Longueur totale de × L
+- Montant unitaire (en kWh cumac par mètre de couvercle) Longueur totale de
 
 ## Sections officielles detectees
-- 3. Fermeture des meubles frigorifiques de vente à température négative (pages 1-1)
 - 1. Secteur d’application (pages 1-1)
 - 2. Dénomination (pages 1-1)
 - 3. Conditions pour la délivrance de certificats (pages 1-1)

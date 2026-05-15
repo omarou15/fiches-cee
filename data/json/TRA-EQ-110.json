@@ -126,35 +126,50 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "TK : t.km effectuées par l’automoteur et relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an).",
+    "variables": [
+      {
+        "name": "Ga",
+        "label": "le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale et le type d’automoteur considéré. Type d’automoteur Gain énergétique Ga Seine Rhône Nord Pas-de- Calais Rhin/Moselle Interbassin Bateau Freycinet (350 t) 1,2 0,8 1,2 0,6 0,9 Bateau Campinois (600 t) 1,5 1,3 1,5 0,7 1,2 Bateau DEK (1000 t) 1,9 1,7 1,7 1,1 1,6 Bateau RHK (1350 t) 3,1 3,0 2,0 1,5 2,5 Bateau Grand Rhénan (2500 t) 3,3 3,1 2,2 2,0 2,7 TK : t.km effectuées par l’automoteur et relevées sur une pé",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale et le type d’automoteur considéré. Type d’automoteur Gain énergétique Ga Seine Rhône Nord Pas-de- Calais Rhin/Moselle Interbassin Bateau Freycinet (350 t) 1,2 0,8 1,2 0,6 0,9 Bateau Campinois (600 t) 1,5 1,3 1,5 0,7 1,2 Bateau DEK (1000 t) 1,9 1,7 1,7 1,1 1,6 Bateau RHK (1350 t) 3,1 3,0 2,0 1,5 2,5 Bateau Grand Rhénan (2500 t) 3,3 3,1 2,2 2,0 2,7 TK : t.km effectuées par l’automoteur et relevées sur une pé"
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nGa x TK\n\nGa est le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale et le type\nd’automoteur considéré.\n\nType d’automoteur\nGain énergétique Ga\nSeine\nRhône\nNord Pas-de-\nCalais\nRhin/Moselle Interbassin\nBateau Freycinet (350 t)\n1,2\n0,8\n1,2\n0,6\n0,9\nBateau Campinois (600 t)\n1,5\n1,3\n1,5\n0,7\n1,2\nBateau DEK (1000 t)\n1,9\n1,7\n1,7\n1,1\n1,6\nBateau RHK (1350 t)\n3,1\n3,0\n2,0\n1,5\n2,5\nBateau Grand Rhénan (2500 t)\n3,3\n3,1\n2,2\n2,0\n2,7\n\nTK : t.km effectuées par l’automoteur et relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an).\n\nOn considère que le trafic réalisé par l’automoteur sur 6 mois consécutifs est maintenu en moyenne sur la durée de\nvie du matériel.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
+    "expressions": [
+      "TK : t.km effectuées par l’automoteur et relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an)."
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-110 vA19-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "TK : t.km effectuées par l’automoteur et relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an).",
       "source_file": "Transport_TRA/TRA-EQ-110 vA19-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "TK : t.km effectuées par l’automoteur et relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an).",
+      "confidence": "medium"
     },
     {
       "text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
       "source_file": "Transport_TRA/TRA-EQ-110 vA19-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
-      "confidence": "low"
-    },
-    {
-      "text": "Ga est le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale et le type",
-      "source_file": "Transport_TRA/TRA-EQ-110 vA19-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Ga est le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale et le type",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

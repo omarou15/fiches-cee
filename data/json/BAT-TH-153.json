@@ -165,35 +165,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWhcumac par (kW.°C) × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en\nkWhcumac par\n(kW.°C)\n\nGain sur les températures de\nconsigne (°C)\n\nPuissance électrique\nnominale du groupe de\nproduction de froid (ou\nbatteries froides*) (kW)\n1 500\nX\nΔT\nX\nP\n\nLa puissance électrique à prendre en compte est celle figurant sur la plaque signalétique du ou des compresseur(s)\nou à défaut celle indiquée sur un document issu du fabricant.\n\n*Dans le cas où le groupe de production de froid n’alimente pas uniquement le Data Center, la puissance nominale\nélectrique à prendre en compte est celle de la ou des batterie(s) froide(s) installée(s).\nNB : T représente soit l’augmentation moyenne en °C de la température de consigne de la production d’eau glacée\nalimentant la boucle d’eau des unités de conditionnement d’air (CRAC), soit l’augmentation moyenne en °C de la\ntempérature de batterie froide (détente directe).",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWhcumac par (kW.°C)",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-153 vA28-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWhcumac par (kW.°C) × P",
       "source_file": "Tertiaire_BAT/BAT-TH-153 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWhcumac par (kW.°C) × P",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en",
+      "text": "Montant en kWhcumac par (kW.°C)",
       "source_file": "Tertiaire_BAT/BAT-TH-153 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWhcumac par",
-      "source_file": "Tertiaire_BAT/BAT-TH-153 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWhcumac par",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWhcumac par (kW.°C)",
+      "confidence": "medium"
     }
   ],
   "zones": [],

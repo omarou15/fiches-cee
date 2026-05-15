@@ -33,11 +33,8 @@
 - Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel
 
 ## Formules / calcul detectes
-- Hors double fenêtre, le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :
-- renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et le facteur de
-- Les facteurs de transmission solaire Sw sont évalués selon la norme NF P 50-777 et les coefficients de transmission
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par
+- Montant en kWh cumac par m² de fenêtres, doubles fenêtres ou portes fenêtres × S
+- Montant en kWh cumac par m² de fenêtres, doubles fenêtres ou portes fenêtres
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

@@ -150,67 +150,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "≥ 390 kWh",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Catégorie du véhicule\nMontant en kWh cumac\npar véhicule\n\nNombre de\nvéhicules\nAutocar issu d'une opération\nde rétrofit\n1 049 900\n\nN\nAutocar standard\n1 602 800\n\nAutocar grande capacité\n2 564 500\n\n*Pour une agglomération ≤ 250 000 habitants\n\nAutobus issu d’une opération\nde rétrofit\n1 538 500\n\nAutobus standard\n2 350 700\nX\nAutobus grande capacité\n3 291 000\n\n**Pour une agglomération > 250 000 habitants\n\nAutobus issu d’une opération\nde rétrofit\n769 200\n\nAutobus standard\n1 175 300\n\nAutobus grande capacité\n1 645 500\n\n\n*Les montants de certificats indiqués concernent les autobus achetés ou loués ou issus d’une opération de rétrofit\npour desservir des communes non mentionnées à l’annexe I de l’arrêté du 22 décembre 2021 établissant les listes\nd'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de\nl'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales.\n\n**Les montants de certificats indiqués concernent les autobus achetés ou loués ou issus d’une opération de rétrofit\npour desservir des communes mentionnées à l’annexe I de l’arrêté du 22 décembre 2021 établissant les listes\nd'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de\nl'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "≥ 390 kWh",
+      "text": "Montant en kWh cumac × N",
       "source_file": "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "≥ 390 kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "≥ 540 kWh",
-      "source_file": "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "≥ 540 kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "≥ 690 kWh",
-      "source_file": "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "≥ 690 kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "*Les montants de certificats indiqués concernent les autobus achetés ou loués ou issus d’une opération de rétrofit",
-      "source_file": "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "*Les montants de certificats indiqués concernent les autobus achetés ou loués ou issus d’une opération de rétrofit",
-      "confidence": "low"
-    },
-    {
-      "text": "**Les montants de certificats indiqués concernent les autobus achetés ou loués ou issus d’une opération de rétrofit",
-      "source_file": "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "**Les montants de certificats indiqués concernent les autobus achetés ou loués ou issus d’une opération de rétrofit",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

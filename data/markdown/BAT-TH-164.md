@@ -50,18 +50,8 @@
 - Le document justificatif spécifique à l’opération est l’étude préalable de dimensionnement susmentionnée.
 
 ## Formules / calcul detectes
-- Le coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux
-- 5. Montant de certificats en kWh cumac
-- Montant en
-- kWh
-- cumac par
-- Coefficient de
-- Montant
-- en kWh
-- cumac par
-- nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient
-- de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la
-- base du montant de kWh cumac par m² de la PAC ayant le montant le plus faible.
+- Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche
+- Montant en kWh cumac par
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

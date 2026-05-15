@@ -117,59 +117,29 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "de suivre sa consommation d'énergie en kWh et valorisée en euros ;",
+    "formula_text": "Montant en kWh cumac selon l’usage",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour une maison individuelle :\nZone\nclimatique\nMontant en kWh cumac selon l’usage\nChauffage électrique\nChauffage gaz\nElectricité spécifique\nH1\n400\n620\n90\nH2\n340\n510\n90\nH3\n250\n380\n90\nPour un appartement :\nZone\nclimatique\nMontant en kWh cumac selon l’usage\nChauffage électrique\nChauffage gaz\nElectricité spécifique\nH1\n160\n340\n60\nH2\n140\n290\n60\nH3\n110\n220\n60\n\nNB : la mise à disposition de l’affichage des consommations peut se faire soit sur la totalité des consommations\nélectriques (montant « chauffage électrique » + montant « Electricité spécifique ») soit sur les consommations de\ngaz et d’électricité spécifique (montant « chauffage gaz » + montant « Electricité spécifique ») soit sur les\nconsommations spécifiques uniquement en fonction des énergies couvertes par le bénéficiaire de la fiche.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac selon l’usage",
+    "expressions": [],
+    "calculation_methods": [],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "de suivre sa consommation d'énergie en kWh et valorisée en euros ;",
-      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "de suivre sa consommation d'énergie en kWh et valorisée en euros ;",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
       "text": "Montant en kWh cumac selon l’usage",
       "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac selon l’usage",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac selon l’usage",
-      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac selon l’usage",
-      "confidence": "low"
-    },
-    {
-      "text": "électriques (montant « chauffage électrique » + montant « Electricité spécifique ») soit sur les consommations de",
-      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "électriques (montant « chauffage électrique » + montant « Electricité spécifique ») soit sur les consommations de",
-      "confidence": "low"
-    },
-    {
-      "text": "gaz et d’électricité spécifique (montant « chauffage gaz » + montant « Electricité spécifique ») soit sur les",
-      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "gaz et d’électricité spécifique (montant « chauffage gaz » + montant « Electricité spécifique ») soit sur les",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

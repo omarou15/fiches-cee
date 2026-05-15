@@ -26,7 +26,7 @@ _Non detecte automatiquement._
 - Ces documents sont datés et signés par le professionnel, le tableau d’enregistrement des températures après
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × N
 - Montant en kWh cumac
 
 ## Sections officielles detectees

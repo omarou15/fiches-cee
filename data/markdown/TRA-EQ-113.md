@@ -38,7 +38,9 @@
 - de SIRET de l’établissement du bénéficiaire, adresse du site), par date d'acquisition, par référence de la preuve de
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- 38 700 * X * Y
+- X = volume de lubrifiant utilisé en m3.
+- Montant de certificats en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

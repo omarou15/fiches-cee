@@ -29,9 +29,8 @@ _Non detecte automatiquement._
 - Le document justificatif spécifique à l’opération est le ou les relevé(s) de trafic, issu de l'opérateur de transport
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- V = nombre de voyages de l’UTI achetée ou louée relevés sur 6 mois x 2 (soit le nombre de voyages par an réalisés
 - Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :
-- Ga = gain net actualisé en kWh cumac de l’UTI selon le bassin de navigation et le type de bateaux :
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

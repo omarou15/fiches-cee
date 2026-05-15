@@ -28,7 +28,7 @@
 - Le document justificatif spécifique à l’opération est une copie du certificat d’immatriculation du véhicule agricole
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par véhicule × N
 - Montant en kWh cumac par véhicule
 
 ## Sections officielles detectees

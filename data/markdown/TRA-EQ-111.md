@@ -38,10 +38,8 @@
 - - une attestation datée et signée par le constructeur du groupe frigorifique indiquant :
 
 ## Formules / calcul detectes
-- Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport
-- La valeur du coefficient de performance pondéré ou Rgpondéré est obtenue à partir de quatre mesures distinctes du
-- indépendant dont le coefficient de performance pondéré Rgpondéré est supérieur à 1,93 kWh frigorifiques/l de gasoil.
-- 5. Montant de certificats en kWh cumac
+- 187 700 * (Rgpondéré - 1,93)
+- Montant de certificats en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

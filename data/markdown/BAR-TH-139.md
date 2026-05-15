@@ -28,9 +28,8 @@ _Non detecte automatiquement._
 - celle indiquée sur un document issu du fabricant.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant unitaire en
-- kWh cumac par kW
+- Montant unitaire en kWh cumac par kW X × P
+- Montant unitaire en kWh cumac par kW X
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

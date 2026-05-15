@@ -31,7 +31,7 @@
 - Le document justificatif spécifique à l’opération est une photographie lisible de la plaque constructeur
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × N
 - Montant en kWh cumac
 
 ## Sections officielles detectees

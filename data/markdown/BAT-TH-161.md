@@ -42,12 +42,6 @@
 - En cas de mention d’une date de validité, ces documents sont considérés comme valables jusqu’à un an après leur
 
 ## Formules / calcul detectes
-- Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :
-- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;
-- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;
-- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.
-- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.
-- 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac
 
 ## Sections officielles detectees

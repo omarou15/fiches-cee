@@ -30,8 +30,12 @@ _Non detecte automatiquement._
 - Le délai entre la date de preuve de réalisation et la date d’achèvement de l’opération est au maximum de douze
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac
+- 147,567 x R x Wi
+- 103,285 x R x Wi
+- 71,655 x R x Wi
+- 54,024 x R x Wi
+- 40,809 x R x Wi
+- 29,212 x R x Wi
 - Montant en kWh cumac
 
 ## Sections officielles detectees

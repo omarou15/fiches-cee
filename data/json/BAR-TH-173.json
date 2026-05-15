@@ -262,27 +262,49 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "* Le nombre d’émetteurs équipés valorisables au titre de la présente fiche (N), est supérieur ou égal à 2 et strictement",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Forfait (kWhc)\nX\n\nZone Climatique\nMaison\nAppartement\nNombre\nd'émetteurs équipés*\nH1\n3200\n2500\nN\nH2\n2600\n2100\nH3\n1900\n1500\n\n* Le dispositif de régulation est installé sur tous les émetteurs de chaleur pilotables du logement.\n* Le nombre d’émetteurs équipés valorisables au titre de la présente fiche (N), est supérieur ou égal à 2 et strictement\ninférieur à 10.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 4,
+    "unit": "Forfait (kWhc) X Zone Climatique",
+    "expressions": [
+      "* Le nombre d’émetteurs équipés valorisables au titre de la présente fiche (N), est supérieur ou égal à 2 et strictement"
+    ],
+    "calculation_methods": [
+      "direct_expression"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "* Le nombre d’émetteurs équipés valorisables au titre de la présente fiche (N), est supérieur ou égal à 2 et strictement",
       "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "* Le nombre d’émetteurs équipés valorisables au titre de la présente fiche (N), est supérieur ou égal à 2 et strictement",
+      "confidence": "medium"
     },
     {
-      "text": "Forfait (kWhc)",
+      "text": "Forfait (kWhc) X Zone Climatique",
       "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Forfait (kWhc)",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Forfait (kWhc) X Zone Climatique",
+      "confidence": "medium"
     }
   ],
   "zones": [

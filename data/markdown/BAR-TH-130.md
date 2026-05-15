@@ -31,9 +31,7 @@
 - - l’attestation de la prise en compte de la RE2020 à l’achèvement des travaux en application de l’article R. 122-24-
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
 - Montant de certificats en kWh cumac
-- Le coefficient Cefmax est calculé d’après les formules suivantes, selon les solutions de chauffage utilisées (où Cepmax
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

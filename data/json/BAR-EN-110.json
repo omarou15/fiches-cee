@@ -191,51 +191,47 @@
     }
   ],
   "calculation": {
-    "formula_text": "Le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone climatique\nMontant en kWh cumac\npar fenêtre ou porte-fenêtre complète avec\nvitrage pariétodynamique posée\n\nNombre de fenêtres ou portes-\nfenêtres complètes\npariétodynamiques posées\nH1\n7 100\n\n\nX\nN\nH2\n6 000\nH3\n4 200",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-EN-110 vA35-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
+      "text": "Montant en kWh cumac × N",
       "source_file": "Residentiel_BAR/BAR-EN-110 vA35-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
-      "confidence": "low"
-    },
-    {
-      "text": "les coefficients de transmission thermique Uw selon la norme NF EN 14351-1+A2. Le facteur de transmission",
-      "source_file": "Residentiel_BAR/BAR-EN-110 vA35-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "les coefficients de transmission thermique Uw selon la norme NF EN 14351-1+A2. Le facteur de transmission",
-      "confidence": "low"
-    },
-    {
-      "text": "- le coefficient de transmission surfacique Uw et le facteur solaire Sw des équipements installés.",
-      "source_file": "Residentiel_BAR/BAR-EN-110 vA35-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- le coefficient de transmission surfacique Uw et le facteur solaire Sw des équipements installés.",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-EN-110 vA35-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-EN-110 vA35-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

@@ -230,51 +230,45 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Les forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur",
-    "variables": [],
+    "formula_text": "kWh cumac Nombres d’unités × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Cas 1 : Débits inégaux*\nUsage du\nBâtiment\nZone\nclimatique\nVolume\nunitaire en\nkWh cumac\n\nNombres\nd’unités\nTypes\nd’unités\n\nEfficacité du\nrécupérateur\n(ε) en %\nHôtellerie\nH1\n13 000\nX\nN\nChambres\néquipées\nX\nε\nH2\n12 200\nH3\n10 900\nEtablissement\nsportif\nH1\n18 100\nN\nDouches\nraccordées\nau système\nH2\n17 100\nH3\n15 300\nSanté\nH1\n6 400\nN\nChambres\néquipées\nH2\n6 000\nH3\n5 300\nTerrain de\ncamping\nH1\n72 200\nN\nDouches\nraccordées\nau système\nH2\n67 900\nH3\n60 900\nSalon de\ncoiffure\nH1\n33 300\nN\nSalons\néquipés\nH2\n27 100\nH3\n17 900\n\n*En préchauffage du système de production d’eau chaude sanitaire ou en préchauffage du mitigeur d’eau froide de\nla douche.\n\nCas 2 : Débits égaux**\nUsage du Bâtiment\nZone\nclimatique\nVolume\nunitaire en\nkWh cumac\n\nNombres\nd’unités\nTypes\nd’unités\n\nEfficacité du\nrécupérateur\n(ε) en %\nHôtellerie\nH1\n16 500\nX\nN\nChambres\néquipées\nX\nε\nH2\n15 500\nH3\n13 800\nEtablissement sportif\nH1\n22 900\nN\nDouches\nraccordées\nau système\nH2\n21 600\nH3\n19 300\nSanté\nH1\n8 100\nN\nChambres\néquipées\nH2\n7 600\nH3\n6 800\nTerrain de camping\nH1\n91 400\nN\nDouches\nraccordées\nau système\nH2\n86 000\nH3\n77 000\nSalon de coiffure\nH1\n42 100\nN\nSalons\néquipés\nH2\n34 300\nH3\n22 700\nPiscines recevant du public\n(renouvellement bassin +\nlavages des filtres\nH1\n35\nN\nBaigneurs/an\nH2\n32\nH3\n27\nPiscines recevant du public\n(renouvellement bassin seul)\nH1\n11\nN\nBaigneurs/an\nH2\n10\nH3\n8\n\n**En préchauffage à la fois du système de production d’eau chaude sanitaire et du mitigeur d’eau froide de la douche\net en préchauffage des eaux de bassin de piscines recevant du public.\n\nNB : Les forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur\nétablissement sportif.\nNB : Pour une efficacité énergétique ε du récupérateur de 35%, la valeur prise en compte dans le calcul est de 0,35.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 4,
+    "unit": "kWh cumac Nombres d’unités",
+    "expressions": [],
+    "calculation_methods": [],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-154 vA28-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Les forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur",
+      "text": "kWh cumac Nombres d’unités × N",
       "source_file": "Tertiaire_BAT/BAT-TH-154 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Les forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "kWh cumac Nombres d’unités × N",
+      "confidence": "medium"
     },
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "kWh cumac Nombres d’unités",
       "source_file": "Tertiaire_BAT/BAT-TH-154 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-154 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-154 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "NB : Les forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur",
-      "source_file": "Tertiaire_BAT/BAT-TH-154 vA28-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "NB : Les forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "kWh cumac Nombres d’unités",
+      "confidence": "medium"
     }
   ],
   "zones": [

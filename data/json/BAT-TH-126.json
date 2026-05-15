@@ -230,43 +230,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Dans les tableaux ci-après, on entend par surface ventilée en m2, la surface totale du bâtiment couverte par le système\nde ventilation mécanique double flux, avec échangeur, à débit d’air constant ou modulé.\n\nInstallation d’une ventilation mécanique double flux modulée proportionnelle :\nZone\nclimatique\nMontant en kWh cumac\npar m² de surface\nventilée\n\n\n\nX\nSecteur\nFacteur\ncorrectif\n\n\n\nX\nSurface\nventilée\n(m²)\nH1\n1 000\nBureaux\n0,53\nS\nEnseignement\n1\nH2\n830\nRestauration\n0,68\nEtablissement sportif\n0,22\nH3\n560\nAutres locaux\n0,71\nSalles d’un volume\nsupérieur à 250 m3*\n1,88\n\n*Salles d’un volume supérieur à 250 m3 : salle de cinéma, salle des fêtes, salles polyvalentes, salles de conférence,\nsalles de spectacle, amphithéâtres.\n\nInstallation d’une ventilation mécanique double flux modulée à détection de présence :\nZone\nclimatique\nMontant en kWh cumac\npar m² de surface\nventilée\n\n\n\nX\nSecteur\nFacteur\ncorrectif\n\n\n\nX\nSurface\nventilée\n(m²)\nH1\n970\nBureaux\n0,51\nS\nEnseignement\n1\nH2\n800\nRestauration\n0,63\nEtablissement sportif\n0,17\nH3\n530\nAutres locaux\n0,71\n\nInstallation d’une ventilation mécanique double flux à débit d’air constant :\nZone\nclimatique\nMontant en kWh cumac\npar m² de surface\nventilée\n\nSecteur\nFacteur\ncorrectif\n\nSurface\nventilée\n(m²)\nH1\n850\nX\nBureaux\n0,48\nX\nS\nEnseignement\n1\nH2\n700\nRestauration\n0,61\nEtablissement sportif\n0,52\nH3\n460\nAutres locaux\n0,71\nSalles d’un volume\nsupérieur à 250 m3*\n1,44\n\n*Salles d’un volume supérieur à 250 m3 : salle de cinéma, salle des fêtes, salles polyvalentes, salles de conférence,\nsalles de spectacle, amphithéâtres.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × S",
       "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

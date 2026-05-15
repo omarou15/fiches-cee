@@ -141,35 +141,70 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "1x8 ; 2x8 ; 3x8 avec arrêt le ; 3x8 sans arrêt le",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone climatique\nMontant en kWh cumac par kW en\nfonction de la température de consigne\ndu réseau hydraulique\n\n\n\n\n\n\n\n\nX\nDurée de\nfonctionnement\nde l’usage du\nfroid\nCoefficient\nmultiplicateur\n\n\n\n\n\n\n\nX\nPuissance\nélectrique\nnominale du\ngroupe de\nproduction\nde froid\n(en kW)\n[12°C;15°C[\n[15°C;18°C[\n[18°C;21°C]\n1x8\n1\nPcompresseur(s)\n\nH1\n7 400\n9 900\n12 300\n2x8\n5j/7 ou 6j/7\n2,2\nH2\n4 900\n8 200\n11 500\n3x8 avec arrêt le\nweek-end\n3\nH3\n3 300\n5 800\n9 000\n3x8 sans arrêt le\nweek-end\n4,2\n\nLa température de consigne du réseau hydraulique correspond à la température de départ du groupe de production\nde froid.\n\nPcompresseurs est la puissance électrique nominale (en kW) figurant sur la plaque signalétique du groupe mono-\ncompresseur ou multi-compresseurs raccordé au système de freecooling pour la plage de température de consigne\ndu réseau concernée ou à défaut celle indiquée sur un document issu du fabricant du groupe mono-compresseur ou\nmulti-compresseurs raccordé au système de freecooling pour la plage de température de consigne du réseau\nconcernée. La puissance du ou des compresseurs de secours n’est pas à comptabiliser.\n\nUn groupe de production de froid ne peut faire l’objet que d’une seule délivrance de certificats d’économies\nd’énergie pour la mise en place d’un système de freecooling.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW en",
+    "expressions": [
+      "1x8",
+      "2x8",
+      "3x8 avec arrêt le",
+      "3x8 sans arrêt le"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-135 v A31-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1x8",
       "source_file": "Industrie_IND/IND-UT-135 v A31-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8",
+      "confidence": "medium"
+    },
+    {
+      "text": "2x8",
+      "source_file": "Industrie_IND/IND-UT-135 v A31-1.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8",
+      "confidence": "medium"
+    },
+    {
+      "text": "3x8 avec arrêt le",
+      "source_file": "Industrie_IND/IND-UT-135 v A31-1.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8 avec arrêt le",
+      "confidence": "medium"
+    },
+    {
+      "text": "3x8 sans arrêt le",
+      "source_file": "Industrie_IND/IND-UT-135 v A31-1.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8 sans arrêt le",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kW en",
       "source_file": "Industrie_IND/IND-UT-135 v A31-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW en",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Industrie_IND/IND-UT-135 v A31-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

@@ -35,8 +35,7 @@
 - Ce document indique que le système de marque et référence installé est un système de gestion technique du bâtiment
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par m2 de surface gérée par le système pour l’usage
+- Montant en kWh cumac par m2 de surface gérée par le système pour l’usage × S
 - Montant en kWh cumac par m2 de surface gérée par le système pour l’usage
 
 ## Sections officielles detectees

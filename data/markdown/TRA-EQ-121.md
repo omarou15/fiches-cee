@@ -43,16 +43,7 @@
 - contrôle
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
 - Montant en kWh cumac
-- Montant en kWh cumac
-- (kWh cumac)
-- (kWh cumac)
-- Montant du rôle
-- (kWh cumac)
-- énergétique » (kWh
-- cumac)
-- Montant du rôle actif
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

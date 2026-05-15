@@ -30,9 +30,7 @@
 - techniques (CCFAT), en cours de validité à la date d’engagement de l’opération ou les éléments de preuve
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac
-- Montant en kWh cumac
+- Montant en kWh cumac × S
 - Montant en kWh cumac
 
 ## Sections officielles detectees

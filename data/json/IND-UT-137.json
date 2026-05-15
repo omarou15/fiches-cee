@@ -223,75 +223,41 @@
     }
   ],
   "calculation": {
-    "formula_text": "- a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =",
+    "formula_text": "10,986 x (Q – Eélec)",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le volume de certificats d’économies d’énergie est déterminé comme suit :\n\n10,986 x (Q – Eélec)\n\nQ (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système, calculée au\nd du II.3 ci-dessus de l’étude de dimensionnement.\n\nEélec (en kWh/an) est l’énergie électrique annuelle absorbée par le système, qui est la somme des énergies\nélectriques absorbées par le ou les compresseur(s) et les auxiliaires, calculée au e du II.3 ci-dessus de l’étude de\ndimensionnement.",
+    "formula_section_page_start": 6,
+    "formula_section_page_end": 6,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [
+      "10,986 x (Q – Eélec)"
+    ],
+    "calculation_methods": [
+      "direct_expression"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "- a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =",
+      "text": "10,986 x (Q – Eélec)",
       "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =",
-      "confidence": "low"
+      "page": 6,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "10,986 x (Q – Eélec)",
+      "confidence": "medium"
     },
     {
-      "text": "Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système calculée en",
+      "text": "Montant de certificats en kWh cumac",
       "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système calculée en",
-      "confidence": "low"
-    },
-    {
-      "text": "fonction des points de fonctionnement et durées identifiés dans l’étude de dimensionnement et Eélec (en kWh/an) est",
-      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "fonction des points de fonctionnement et durées identifiés dans l’étude de dimensionnement et Eélec (en kWh/an) est",
-      "confidence": "low"
-    },
-    {
-      "text": "d) Calcul de Q (en kWh/an), l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système",
-      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "d) Calcul de Q (en kWh/an), l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système",
-      "confidence": "low"
-    },
-    {
-      "text": "e) Calcul de Eélec (en kWh/an), l’énergie électrique annuelle absorbée par le système, qui est la somme des",
-      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "e) Calcul de Eélec (en kWh/an), l’énergie électrique annuelle absorbée par le système, qui est la somme des",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système, calculée au",
-      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système, calculée au",
-      "confidence": "low"
-    },
-    {
-      "text": "Eélec (en kWh/an) est l’énergie électrique annuelle absorbée par le système, qui est la somme des énergies",
-      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Eélec (en kWh/an) est l’énergie électrique annuelle absorbée par le système, qui est la somme des énergies",
-      "confidence": "low"
+      "page": 6,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats en kWh cumac",
+      "confidence": "medium"
     }
   ],
   "zones": [],

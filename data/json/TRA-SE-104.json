@@ -134,35 +134,61 @@
     }
   ],
   "calculation": {
-    "formula_text": "5. Montant des certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par station X × NA × NB × NC",
+    "variables": [
+      {
+        "name": "NA",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "NB",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "NC",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant des certificats en kWh cumac",
+    "formula_section_text": "Trois types de stations de gonflage sont définis :\n\nStations de gonflage de type A (NA) : implantées sur des autoroutes ou des voies de grande circulation de type\nautoroutier avec des aires de stationnement/repos.\n\nStations de gonflage de type B (NB) : implantées dans des zones urbaines ou des agglomérations (zones\nindustrielles, d’activité, parkings grands publics) et hors agglomération, hors parkings privés d’entreprises ou de\ncollectivités locales.\n\nStations de gonflage de type C (NC) : implantées dans les parkings privés d’entreprises ou de collectivités locales,\nces parkings hébergeant les véhicules des employés et/ou ceux appartenant à l’entreprise ou à la collectivité locale\n(au sens de flotte professionnelle).\n\n\nType de station\n\nMontant en kWh\ncumac par station\n\n\n\n\nX\nNombre de stations de\ngonflage\nType A\n534 200\nNA\nType B\n148 400\nNB\nType C\n39 600\nNC",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par station X",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-SE-104 vA14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant des certificats en kWh cumac",
+      "text": "Montant en kWh cumac par station X × NA × NB × NC",
       "source_file": "Transport_TRA/TRA-SE-104 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant des certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant des certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par station X × NA × NB × NC",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "Montant en kWh cumac par station X",
       "source_file": "Transport_TRA/TRA-SE-104 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par station",
-      "source_file": "Transport_TRA/TRA-SE-104 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par station",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant des certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par station X",
+      "confidence": "medium"
     }
   ],
   "zones": [

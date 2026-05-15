@@ -133,35 +133,77 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "1x8h ; 2x8h ; 3x8h avec arrêt le week-end ; 3x8h sans arrêt le week-end",
+    "variables": [
+      {
+        "name": "P",
+        "label": "la somme des puissances utiles nominales des chaudières concernées par le traitement d’eau (en kW). La puissance utile nominale à retenir est celle figurant sur la plaque signalétique de la chaudière ou à défaut celle indiquée sur un document issu du fabricant. Elle est définie par l’article R.224-20 du code de l’environnement comme « la puissance thermique maximale fixée et garantie par le constructeur comme pouvant être délivrée au fluide caloporteur en marche continue ».",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la somme des puissances utiles nominales des chaudières concernées par le traitement d’eau (en kW). La puissance utile nominale à retenir est celle figurant sur la plaque signalétique de la chaudière ou à défaut celle indiquée sur un document issu du fabricant. Elle est définie par l’article R.224-20 du code de l’environnement comme « la puissance thermique maximale fixée et garantie par le constructeur comme pouvant être délivrée au fluide caloporteur en marche continue »."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le montant de certificats d’économies d’énergie dépend de la zone géographique dans laquelle se situe l’installation.\nQuatre zones sont définies et correspondent aux listes de départements suivantes :\n- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,\n70, 74, 87, 88 et France d’outre-mer ;\n- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;\n- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,\n54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;\n- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91.\n\nMode de fonctionnement\ndu site\nMontant en kWh cumac par kW selon la\nzone géographique d’installation de la\nchaudière\n\nPuissance des\nchaudières en kW\n\nZone A\nZone B\nZone C\nZone D\n\n1x8h\n70\n230\n460\n650\nX\nP\n2x8h\n160\n520\n1 000\n1 400\n3x8h avec arrêt le week-end\n220\n700\n1 400\n1 900\n3x8h sans arrêt le week-end\n300\n990\n2 000\n2 700\n\nP est la somme des puissances utiles nominales des chaudières concernées par le traitement d’eau (en kW).\n\nLa puissance utile nominale à retenir est celle figurant sur la plaque signalétique de la chaudière ou à défaut celle\nindiquée sur un document issu du fabricant. Elle est définie par l’article R.224-20 du code de l’environnement\ncomme « la puissance thermique maximale fixée et garantie par le constructeur comme pouvant être délivrée au\nfluide caloporteur en marche continue ».",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW selon la",
+    "expressions": [
+      "1x8h",
+      "2x8h",
+      "3x8h avec arrêt le week-end",
+      "3x8h sans arrêt le week-end"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1x8h",
       "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8h",
+      "confidence": "medium"
     },
     {
-      "text": "Le montant de certificats d’économies d’énergie dépend de la zone géographique dans laquelle se situe l’installation.",
+      "text": "2x8h",
       "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le montant de certificats d’économies d’énergie dépend de la zone géographique dans laquelle se situe l’installation.",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8h",
+      "confidence": "medium"
+    },
+    {
+      "text": "3x8h avec arrêt le week-end",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h avec arrêt le week-end",
+      "confidence": "medium"
+    },
+    {
+      "text": "3x8h sans arrêt le week-end",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h sans arrêt le week-end",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kW selon la",
       "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW selon la",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

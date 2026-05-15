@@ -26,7 +26,8 @@ _Non detecte automatiquement._
 - référence et elle est accompagnée d’un document issu du fabricant indiquant que l’équipement de marque et
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant de certificats en kWh cumac × N
+- Montant de certificats en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

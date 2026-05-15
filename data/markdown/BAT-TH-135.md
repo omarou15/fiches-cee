@@ -29,7 +29,7 @@ _Non detecte automatiquement._
 - électrique absorbée mentionnée sur un document issu du fabricant du groupe mono-compresseur ou multi-
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par kW × P
 - Montant en kWh cumac par kW
 
 ## Sections officielles detectees

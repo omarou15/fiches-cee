@@ -33,7 +33,7 @@
 - épaisseurs, la preuve de réalisation, si elle ne mentionne pas la résistance thermique de l’isolation installée, doit
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par m2 × S
 - Montant en kWh cumac par m2
 
 ## Sections officielles detectees

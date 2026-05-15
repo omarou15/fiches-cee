@@ -29,9 +29,8 @@ _Non detecte automatiquement._
 - - la procédure de contrôle quotidien ;
 
 ## Formules / calcul detectes
-- 5. Montant des certificats en kWh cumac
-- Montant en kWh
-- cumac par station
+- Montant en kWh cumac par station X × NA × NB × NC
+- Montant en kWh cumac par station X
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

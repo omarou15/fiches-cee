@@ -133,67 +133,55 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m² de surface chauffée × R × S",
+    "variables": [
+      {
+        "name": "R",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      },
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Usage de\nla\nchaudière\nZone\nclimatique\nMontant en kWh\ncumac par m² de\nsurface chauffée\n\n\n\nX\nSurface\nchauffée\nen m2\n\n\n\nX\nSecteur\nd'activité\nFacteur\ncorrectif\n\n\n\nX\nCoefficient\nR\nChauffage\nH1\n150\nS\nBureaux\n1,2\nR\nH2\n130\nEnseignement\n0,8\nH3\n80\nSanté\n1,0\n\n\n\n\n\n\nCommerces\n0,9\n\n\n\n\n\n\nHôtellerie\nrestauration\n1,4\n\n\n\n\n\n\nAutres\nsecteurs\n0,8\n\nUsage de\nla\nchaudière\nZone\nclimatique\nMontant en kWh\ncumac par m² de\nsurface chauffée\n\n\n\nX\nSurface\nchauffée\nen m2\n\n\n\nX\nSecteur\nd'activité\nFacteur\ncorrectif\n\n\n\nX\nCoefficient\nR\nChauffage\net eau\nchaude\nsanitaire\nH1\n190\nS\nBureaux\n1,1\nR\nH2\n160\nEnseignement\n0,7\nH3\n120\nSanté\n1,1\n\n\n\n\n\n\nCommerces\n0,8\n\n\n\n\n\n\nHôtellerie\nrestauration\n1,6\n\n\n\n\n\n\nAutres\nsecteurs\n0,7\n\n\nLorsque la rénovation de la chaufferie ne met en œuvre que des équipements relevant de la fiche BAT-TH-110,\nalors :\n- si la puissance de la (des) chaudière(s) nouvellement équipée(s) du (des) condenseur(s) est strictement inférieure\nau tiers de la puissance de la chaufferie après travaux, le facteur R est égal au rapport de la puissance de la (des)\nchaudière(s) nouvellement équipée(s) du (des) condenseur(s) sur la puissance totale de la chaufferie après travaux ;\n- dans le cas contraire, il est égal à l’unité. Pendant la durée de vie conventionnelle, aucune opération ultérieure\nd’installation d’un équipement de production thermique dans la chaufferie ne pourra donner lieu à l’obtention de\ncertificats d’économies d’énergie.\n\nLorsque la rénovation de la chaufferie met en œuvre des équipements relevant des fiches BAT-TH-102 et BAT-\nTH-110 :\n- si la puissance des équipements nouvellement installés est strictement inférieure au tiers de la puissance de la\nchaufferie après travaux, le facteur R est égal pour chacun des équipements au rapport de la puissance de\nl’équipement éligible nouvellement installé sur la puissance totale de la chaufferie après travaux ;\n- dans le cas contraire, le facteur R est égal, pour chacun des équipements, à la part de la puissance de l’équipement\néligible nouvellement installé objet de l’opération sur la puissance totale des équipements éligibles nouvellement\ninstallés.\n\nDans le cas où la rénovation de la chaufferie met en œuvre des équipements relevant de la fiche BAT-TH-110, et/ou\ndes fiches BAT-TH-102, BAT-TH-140, BAT-TH-141 alors :\n- si la puissance de la ou des PAC nouvellement installée est strictement inférieure à 40 % de la puissance de la\nnouvelle chaufferie, le facteur R est égal au rapport de la puissance de la (des) chaudière(s) installée(s) sur la\npuissance totale de la chaufferie après travaux ;\n- dans le cas contraire, aucun certificat n’est délivré pour la fiche BAT-TH-110 Pendant la durée de vie\nconventionnelle, aucune opération ultérieure d'installation d'un équipement de production thermique dans la\nchaufferie ne pourra donner lieu à l'obtention de certificats d'économies d'énergie.\n\nNota : la puissance de la nouvelle chaufferie ne doit pas comptabiliser d’éventuel équipement (chaudière ou PAC)\nde secours.",
+    "formula_section_page_start": 1,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par m² de surface chauffée",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-110 vA15-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m² de surface chauffée × R × S",
       "source_file": "Tertiaire_BAT/BAT-TH-110 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m² de surface chauffée × R × S",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh",
+      "text": "Montant en kWh cumac par m² de surface chauffée",
       "source_file": "Tertiaire_BAT/BAT-TH-110 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par m² de",
-      "source_file": "Tertiaire_BAT/BAT-TH-110 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par m² de",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Tertiaire_BAT/BAT-TH-110 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh",
-      "source_file": "Tertiaire_BAT/BAT-TH-110 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac par m² de",
-      "source_file": "Tertiaire_BAT/BAT-TH-110 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac par m² de",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Tertiaire_BAT/BAT-TH-110 vA15-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
+      "page": 1,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m² de surface chauffée",
+      "confidence": "medium"
     }
   ],
   "zones": [

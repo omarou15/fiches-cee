@@ -142,27 +142,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Secteur d’activité\nMontant en kWh cumac\npar m2 de surface\nchauffée\n\n\n\n\nBureaux\n210\n\nZone climatique\n\nSurface chauffée (m2)\nEnseignement\n140\n\nH1\n1,1\n\n\nSanté\n200\nX\nH2\n0,9\nX\nS\nCommerces\n170\n\nH3\n0,6\n\n\nHôtellerie-Restauration\n260\n\n\n\n\nAutres\n140\n\n\n\n\n\nLa surface prise en compte est la surface chauffée du ou des bâtiments tertiaires raccordés au poste de livraison\nréhabilité.\nSi plusieurs postes de livraisons alimentent un même bâtiment alors :\n- soit la totalité des postes est réhabilitée pour être éligible pour la surface totale chauffée ;\n- soit, chaque poste réhabilité peut être éligible à une partie de la surface du bâtiment, en appliquant un prorata en\nfonction de la puissance de chaque poste de livraison par rapport à la puissance totale raccordée.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Reseaux_RES/RES-CH-103 vA36-3 à compter du 12-10-2020_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × S",
       "source_file": "Reseaux_RES/RES-CH-103 vA36-3 à compter du 12-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Reseaux_RES/RES-CH-103 vA36-3 à compter du 12-10-2020_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

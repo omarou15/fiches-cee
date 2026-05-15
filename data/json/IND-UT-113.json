@@ -150,91 +150,78 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "1x8h ; 2x8h ; 3x8h avec arrêt le week-end ; 3x8h sans arrêt le week-end",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Mise en place d’un système de condensation à eau seul (sur nappe ou cours d’eau) permettant une différence ∆T\nentre la température de condensation du fluide frigorigène et celle de l’eau en entrée du condenseur, inférieure ou\négale à 8°C :\n\n∆T\nen °C\nMontant en\nkWh cumac\npar kW\n\n\n\nX\nMode de fonctionnement\ndu site industriel\nCoefficient\nmultiplicateur\n\n\n\nX\nPuissance électrique\nnominale de\nl’installation\nfrigorifique en kW\n8\n680\n1x8h\n1\nP\n7\n1 000\n2x8h\n2,2\n6\n1 400\n3x8h avec arrêt le week-end\n3\n\n\n3x8h sans arrêt le week-end\n4,2\n\nMise en place d’un condenseur à air sec (adiabatique ou non) ou d’un condenseur à eau et d’un aéroréfrigérant à air\nsec (adiabatique ou non) permettant une différence ∆T entre la température de condensation du fluide frigorigène et\ncelle de l’air sec, inférieure ou égale à 12°C :\n\n∆T\nen °C\nMontant en\nkWh cumac\npar kW\n\nMode de fonctionnement\ndu site industriel\nCoefficient\nmultiplicateur\n\nPuissance électrique\nnominale de\nl’installation\nfrigorifique en kW\n12\n790\nX\n1x8h\n1\nX\nP\n11\n1 100\n2x8h\n2,2\n10\n1 400\n3x8h avec arrêt le week-end\n3\n9\n1 700\n3x8h sans arrêt le week-end\n4,2\n8\n2 000\n\n\n\n\n\n7\n2 400\n\n\n\n\n\n6\n2 800\n\n\n\n\n\n5\n3 100\n\n\n\n\n\n4\n3 600\n\n\n\n\n\n3\n4 000\n\n\n\n\n\n2\n4 400\n\n\n\n\n\n1\n4 900\n\n\n\n\n\n0\n5 400\n\n\n\n\n\n\nMise en place d’un condenseur évaporatif (hybride ou non) ou d’un condenseur à eau et d’une tour aéroréfrigérante\nouverte (hybride ou non) ou d’un condenseur à eau et d’une tour aéroréfrigérante fermée (hybride ou non) permettant\nune différence ∆T entre la température de condensation du fluide frigorigène et celle de l’air au bulbe humide,\ninférieure ou égale à 22°C :\n\n∆T\nen °C\nMontant en\nkWh cumac\npar kW\n\nMode de fonctionnement\ndu site industriel\nCoefficient\nmultiplicateur\n\nPuissance électrique\nnominale de\nl’installation\nfrigorifique en kW\n22\n790\nX\n1x8h\n1\nX\nP\n21\n1 100\n2x8h\n2,2\n20\n1 400\n3x8h avec arrêt le week-end\n3\n19\n1 700\n3x8h sans arrêt le week-end\n4,2\n18\n2 000\n\n\n\n\n\n17\n2 400\n\n\n\n\n\n16\n2 800\n\n\n\n\n\n15\n3 100\n\n\n\n\n\n14\n3 600\n\n\n\n\n\n13\n4 000\n\n\n\n\n\n12\n4 400\n\n\n\n\n\n11\n4 900\n\n\n\n\n\n10\n5 400\n\n\n\n\n\n\nEn cas d’utilisation d’un fluide frigorigène à « glissement », la température de condensation du fluide à retenir est\ncelle au point de rosée.\n\nPour une valeur de ΔT du système de condensation ne figurant pas dans les tableaux ci-dessus, il convient de retenir\nla valeur de ∆T immédiatement supérieure.\n\nLa puissance électrique nominale à retenir est celle figurant sur la plaque signalétique de l’installation frigorifique\nou, à défaut, celle indiquée sur un document issu du fabricant.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [
+      "1x8h",
+      "2x8h",
+      "3x8h avec arrêt le week-end",
+      "3x8h sans arrêt le week-end"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "1x8h",
       "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "1x8h",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en",
+      "text": "2x8h",
       "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "2x8h",
+      "confidence": "medium"
     },
     {
-      "text": "kWh cumac",
+      "text": "3x8h avec arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h avec arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "Coefficient",
+      "text": "3x8h sans arrêt le week-end",
       "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "3x8h sans arrêt le week-end",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en",
+      "text": "Montant en kWh cumac par kW",
       "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en",
-      "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Industrie_IND/IND-UT-113 vA14-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW",
+      "confidence": "medium"
     }
   ],
   "zones": [],

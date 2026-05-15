@@ -278,35 +278,31 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant kWhc X",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Efficacité énergé-\ntique saisonnière\n(Etas)\nMontant\nkWhc\nX\nFacteur cor-\nrectif selon\nla surface\nchauffée\nSurface\nchauffée S\nen m²\nX\nFacteur correc-\ntif selon la zone\ngéographique\nZone géogra-\nphique\n111%≤ Etas<170%\n101 400\n0,5\nS < 70\n1,2\nH1\n170%≤ Etas\n119 400\n0,7\n70  ≤ S < 90\n1\nH2\n\n\n1\n90 ≤ S\n0,7\nH3\n\n\nNB : La surface chauffée prise en compte est la surface habitable, au sens de l'article R. 156-1 du code de la\nconstruction et de l'habitation, chauffée par la PAC installée et correspond aux surfaces des pièces disposant d’un\németteur de chaleur alimenté par la PAC installée.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant kWhc X",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-172 vA78-4 à compter du 01-01-2026.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant kWhc X",
       "source_file": "Residentiel_BAR/BAR-TH-172 vA78-4 à compter du 01-01-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant",
-      "source_file": "Residentiel_BAR/BAR-TH-172 vA78-4 à compter du 01-01-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant",
-      "confidence": "low"
-    },
-    {
-      "text": "kWhc",
-      "source_file": "Residentiel_BAR/BAR-TH-172 vA78-4 à compter du 01-01-2026.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWhc",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant kWhc X",
+      "confidence": "medium"
     }
   ],
   "zones": [

@@ -278,51 +278,58 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "à installer, des consommations prévisionnelles en biomasse et en autres combustibles (MWh ou kWh PCI) ;",
-    "variables": [],
+    "formula_text": "Q x 4,8 ; Q x 3,4",
+    "variables": [
+      {
+        "name": "Q",
+        "label": "la chaleur nette utile produite par la chaudière biomasse installée en kWh/an. Elle est déterminée à partir de l’étude de dimensionnement préalable à la mise en place de la chaudière biomasse.",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la chaleur nette utile produite par la chaudière biomasse installée en kWh/an. Elle est déterminée à partir de l’étude de dimensionnement préalable à la mise en place de la chaudière biomasse."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Le montant de certificats d’économies d’énergie est déterminé par l’application de la formule ci-après :\nPour une chaudière de puissance\ninférieure ou égale à 500 kW\nPour une chaudière de puissance\nsupérieure à 500 kW\nQ x 4,8\nQ x 3,4\n\nQ est la chaleur nette utile produite par la chaudière biomasse installée en kWh/an. Elle est déterminée à partir de\nl’étude de dimensionnement préalable à la mise en place de la chaudière biomasse.",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 3,
+    "unit": "Montant de certificats en kWh cumac",
+    "expressions": [
+      "Q x 4,8",
+      "Q x 3,4"
+    ],
+    "calculation_methods": [
+      "direct_expression"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-165 vA34-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "à installer, des consommations prévisionnelles en biomasse et en autres combustibles (MWh ou kWh PCI) ;",
+      "text": "Q x 4,8",
       "source_file": "Residentiel_BAR/BAR-TH-165 vA34-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "à installer, des consommations prévisionnelles en biomasse et en autres combustibles (MWh ou kWh PCI) ;",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Q x 4,8",
+      "confidence": "medium"
     },
     {
-      "text": "- la justification de la quantité de chaleur nette utile produite par chaque chaudière (Q en kWh/an).",
+      "text": "Q x 3,4",
       "source_file": "Residentiel_BAR/BAR-TH-165 vA34-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- la justification de la quantité de chaleur nette utile produite par chaque chaudière (Q en kWh/an).",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Q x 3,4",
+      "confidence": "medium"
     },
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant de certificats en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-TH-165 vA34-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Le montant de certificats d’économies d’énergie est déterminé par l’application de la formule ci-après :",
-      "source_file": "Residentiel_BAR/BAR-TH-165 vA34-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le montant de certificats d’économies d’énergie est déterminé par l’application de la formule ci-après :",
-      "confidence": "low"
-    },
-    {
-      "text": "Q est la chaleur nette utile produite par la chaudière biomasse installée en kWh/an. Elle est déterminée à partir de",
-      "source_file": "Residentiel_BAR/BAR-TH-165 vA34-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Q est la chaleur nette utile produite par la chaudière biomasse installée en kWh/an. Elle est déterminée à partir de",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant de certificats en kWh cumac",
+      "confidence": "medium"
     }
   ],
   "zones": [],

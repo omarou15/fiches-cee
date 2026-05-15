@@ -32,7 +32,7 @@
 - *Référence de la preuve de réalisation (facture relative à l’installation de l’appareil) : ………….
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par jour de mer du navire × N
 - Montant en kWh cumac par jour de mer du navire
 
 ## Sections officielles detectees

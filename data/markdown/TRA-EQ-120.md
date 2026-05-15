@@ -28,14 +28,8 @@
 - Les documents justificatifs spécifiques à l’opération sont :
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante :
-- Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh
-- cumac / t.km donné dans le tableau ci-après :
-- Gain Ga en kWh cumac/t.km selon la capacité de chargement de
-- Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante :
-- Gp est le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km
-- Gain énergétique Gp en kWh cumac par km selon la puissance du
+- Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Ga x TK Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh × Ga × TK × M × Gp × P × K
+- Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Ga x TK Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

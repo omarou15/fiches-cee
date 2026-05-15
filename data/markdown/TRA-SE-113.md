@@ -27,16 +27,20 @@ _Non detecte automatiquement._
 - Le document justificatif spécifique à l’opération est l’état récapitulatif, issu du professionnel et signé par le
 
 ## Formules / calcul detectes
-- 5- Montant de certificats en kWh cumac
+- Montant en kWh cumac × N
 - Montant en kWh cumac
 
 ## Sections officielles detectees
-_Non detecte automatiquement._
+- 1. Secteur d’application (pages 1-1)
+- 2. Dénomination (pages 1-1)
+- 3. Conditions pour la délivrance de certificats (pages 1-1)
+- 4. Durée de vie conventionnelle (pages 1-2)
+- 5. Montant de certificats en kWh cumac (pages 2-2)
 
 ## Donnees Energyco structurees
 - Titre propre: 
 - Secteur d'application: 
-- Duree de vie: 
+- Duree de vie: 4
 - Date limite engagement: 
 
 ## Texte extrait

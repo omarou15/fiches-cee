@@ -12,7 +12,7 @@
 ## Extraction automatique
 - Statut: needs_review
 - Revue humaine requise: True
-- Notes: Formule non detectee automatiquement. Conditions d'eligibilite non detectees automatiquement.
+- Notes: Section 5 de calcul non detectee dans le PDF principal. Conditions d'eligibilite non detectees automatiquement.
 
 ## Conditions detectees
 _Non detecte automatiquement._

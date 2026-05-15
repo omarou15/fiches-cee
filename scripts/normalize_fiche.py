@@ -30,9 +30,18 @@ SYSTEM_KEYWORDS = {
     "gtb": ["gestion technique du batiment", "gestion technique du bâtiment", "gtb"],
 }
 
-SECTION_RE = re.compile(r"(?m)^([1-5])\.\s+(.+?)\s*$")
+SECTION_RE = re.compile(r"(?m)^([1-5])(?:\.\s+|\s*-\s*)(.+?)\s*$")
 ETAS_RANGE_RE = re.compile(r"(?P<min>\d+)\s*%\s*(?:≤|<=)\s*Etas(?:\s*<\s*(?P<max>\d+)\s*%)?")
 DEFAULT_BUILD_TIMESTAMP = "2026-05-15T00:00:00+00:00"
+VARIABLE_DEFINITION_RE = re.compile(
+    r"(?ims)(?:^|\n)\s*[«\"']?\s*(?P<name>[A-Z][A-Za-z0-9_]{0,5})\s*[»\"']?\s+"
+    r"(?P<verb>est|correspond|désigne|designe|représente|represente)\b\s*:?\s*"
+    r"(?P<label>.+?)(?=(?:\n\s*[«\"']?\s*[A-Z][A-Za-z0-9_]{0,5}\s*[»\"']?\s+"
+    r"(?:est|correspond|désigne|designe|représente|represente)\b)|\Z)"
+)
+DIRECT_EXPRESSION_RE = re.compile(
+    r"(?i)(?:\d+(?:[ ,.]\d+)?|\b[A-Z]\b)\s*(?:x|×|\*)\s*(?:\d+(?:[ ,.]\d+)?|\b[A-Z]\b)"
+)
 
 
 def fiche_family(code: str) -> str:
@@ -89,7 +98,7 @@ def parse_sections(pages: list[dict]) -> list[dict]:
         text_parts.append("\n\n")
         cursor += 2
     full_text = "".join(text_parts)
-    matches = list(SECTION_RE.finditer(full_text))
+    matches = [match for match in SECTION_RE.finditer(full_text) if is_official_section(match.group(1), match.group(2))]
     sections: list[dict] = []
     for index, match in enumerate(matches):
         start = match.start()
@@ -103,6 +112,18 @@ def parse_sections(pages: list[dict]) -> list[dict]:
             "page_end": page_for_offset(offsets, max(start, end - 1)),
         })
     return sections
+
+
+def is_official_section(number: str, title: str) -> bool:
+    normalized = strip_accents(title).lower()
+    expected = {
+        "1": ["secteur"],
+        "2": ["denomination"],
+        "3": ["conditions"],
+        "4": ["duree", "vie conventionnelle"],
+        "5": ["montant", "certificats", "kwh"],
+    }
+    return any(keyword in normalized for keyword in expected.get(number, []))
 
 
 def page_for_offset(offsets: list[tuple[int, int, int]], offset: int) -> int | None:
@@ -165,6 +186,222 @@ def parse_amount_table(text: str) -> list[dict]:
                 "kwh_cumac_per_apartment": amount,
             })
     return rows
+
+
+def section_by_number(sections: list[dict], number: str) -> dict | None:
+    return next((section for section in sections if section.get("number") == number), None)
+
+
+def compact_line(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def unique_strings(values: list[str]) -> list[str]:
+    seen: set[str] = set()
+    unique: list[str] = []
+    for value in values:
+        normalized = compact_line(value)
+        key = strip_accents(normalized).lower()
+        if normalized and key not in seen:
+            unique.append(normalized)
+            seen.add(key)
+    return unique
+
+
+def extract_unit_from_formula_section(text: str) -> str | None:
+    lines = [compact_line(line) for line in text.splitlines()]
+    lines = [line for line in lines if line]
+    for index, line in enumerate(lines):
+        blob = strip_accents(line).lower()
+        next_line = lines[index + 1] if index + 1 < len(lines) else ""
+        next_next = lines[index + 2] if index + 2 < len(lines) else ""
+        joined = compact_line(" ".join([line, next_line, next_next]))
+        if "montant" in blob and has_kwh_cumac_unit(line) and not blob.endswith("par"):
+            return line
+        if "montant" in blob and has_kwh_cumac_unit(joined):
+            return joined
+        if has_kwh_cumac_unit(line):
+            return joined
+    return None
+
+
+def has_kwh_cumac_unit(text: str) -> bool:
+    normalized = strip_accents(text).lower()
+    compact = normalized.replace(" ", "")
+    return ("kwh" in normalized and "cumac" in normalized) or "kwhc" in compact
+
+
+def extract_direct_expressions(text: str) -> list[str]:
+    expressions: list[str] = []
+    for line in text.splitlines():
+        line = compact_line(line)
+        if not line:
+            continue
+        if DIRECT_EXPRESSION_RE.search(line) or looks_like_direct_expression(line):
+            expressions.append(line)
+    return unique_strings(expressions)
+
+
+def looks_like_direct_expression(line: str) -> bool:
+    if len(line) > 180:
+        return False
+    return bool(re.search(r"\d", line) and re.search(r"(?:\s|^)(?:x|×|\*)(?:\s|$|\()", line, re.I))
+
+
+def extract_formula_variables(text: str) -> list[dict]:
+    variables: dict[str, dict] = {}
+    for match in VARIABLE_DEFINITION_RE.finditer(text):
+        name = match.group("name").strip()
+        label = compact_line(match.group("label"))
+        variables[name] = {
+            "name": name,
+            "label": label[:500] if label else None,
+            "unit": infer_variable_unit(label),
+            "value_type": "number",
+            "description": label[:500] if label else None,
+        }
+
+    lines = [compact_line(line) for line in text.splitlines() if compact_line(line)]
+    has_multiplier = any(line in {"X", "x", "×"} for line in lines)
+    for index, line in enumerate(lines):
+        if line in {"X", "x", "×"} and index + 1 < len(lines):
+            candidate = lines[index + 1]
+            if candidate not in {"X", "H1", "H2", "H3", "DN", "PAC", "ECS"} and re.fullmatch(r"[A-Z][A-Z0-9_]{0,5}", candidate):
+                variables.setdefault(candidate, {
+                    "name": candidate,
+                    "label": None,
+                    "unit": None,
+                    "value_type": "unknown",
+                    "description": "Variable detectee dans la table de calcul.",
+                })
+        if line not in {"X", "H1", "H2", "H3", "DN", "PAC", "ECS"} and re.fullmatch(r"[A-Z][A-Z0-9_]{0,5}", line) and index > 0 and lines[index - 1] in {"X", "x", "×"}:
+            variables.setdefault(line, {
+                "name": line,
+                "label": None,
+                "unit": None,
+                "value_type": "unknown",
+                "description": "Variable detectee dans la table de calcul.",
+            })
+        if has_multiplier and re.fullmatch(r"[A-Z][A-Z0-9_]{0,5}", line) and line not in {"X", "H1", "H2", "H3", "DN", "PAC", "ECS"}:
+            variables.setdefault(line, {
+                "name": line,
+                "label": None,
+                "unit": None,
+                "value_type": "unknown",
+                "description": "Variable detectee dans la section de calcul.",
+            })
+    return list(variables.values())
+
+
+def infer_variable_unit(label: str | None) -> str | None:
+    if not label:
+        return None
+    low = strip_accents(label).lower()
+    unit_map = [
+        ("m2", "m2"),
+        ("m²", "m2"),
+        ("m3", "m3"),
+        ("mètre", "m"),
+        ("metre", "m"),
+        ("kw", "kW"),
+        ("kwh", "kWh"),
+        ("vehicule", "vehicule"),
+        ("véhicule", "vehicule"),
+        ("logement", "logement"),
+        ("appartement", "appartement"),
+        ("heure", "h"),
+        ("tonne", "t"),
+    ]
+    for needle, unit in unit_map:
+        if needle in low:
+            return unit
+    return None
+
+
+def infer_calculation_methods(text: str, expressions: list[str], variables: list[dict], amount_table: list[dict]) -> list[str]:
+    methods: list[str] = []
+    normalized = strip_accents(text).lower()
+    if amount_table:
+        methods.append("structured_amount_table")
+    if expressions:
+        methods.append("direct_expression")
+    if "montant" in normalized and has_kwh_cumac_unit(text) and (" x " in f" {normalized} " or "\nx\n" in normalized or variables):
+        methods.append("table_amount_times_variables")
+    if "coefficient" in normalized:
+        methods.append("coefficient_based")
+    return unique_strings(methods)
+
+
+def summarize_formula_text(unit: str | None, expressions: list[str], variables: list[dict], amount_table: list[dict]) -> str | None:
+    if expressions:
+        return " ; ".join(expressions[:12])
+    if amount_table:
+        return "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche"
+    if unit and variables:
+        names = " × ".join(variable["name"] for variable in variables)
+        return f"{unit} × {names}"
+    return unit
+
+
+def extract_calculation(sections: list[dict], source_file: str | None, amount_table: list[dict]) -> dict:
+    section = section_by_number(sections, "5")
+    if not section or not (section.get("text") or "").strip():
+        return {
+            "formula_text": None,
+            "variables": [],
+            "tables": [],
+            "amount_table": amount_table,
+            "formula_section_title": None,
+            "formula_section_text": None,
+            "formula_section_page_start": None,
+            "formula_section_page_end": None,
+            "unit": None,
+            "expressions": [],
+            "calculation_methods": [],
+            "formula_status": "missing_section",
+            "source_file": source_file,
+            "confidence": "low",
+        }
+
+    text = section["text"].strip()
+    unit = extract_unit_from_formula_section(text)
+    if not unit and has_kwh_cumac_unit(section.get("title") or ""):
+        unit = section.get("title")
+    expressions = extract_direct_expressions(text)
+    variables = extract_formula_variables(text)
+    methods = infer_calculation_methods(text, expressions, variables, amount_table)
+    formula_text = summarize_formula_text(unit, expressions, variables, amount_table)
+    return {
+        "formula_text": formula_text,
+        "variables": variables,
+        "tables": [],
+        "amount_table": amount_table,
+        "formula_section_title": section.get("title"),
+        "formula_section_text": text,
+        "formula_section_page_start": section.get("page_start"),
+        "formula_section_page_end": section.get("page_end"),
+        "unit": unit,
+        "expressions": expressions,
+        "calculation_methods": methods,
+        "formula_status": "extracted" if formula_text else "needs_review",
+        "source_file": source_file,
+        "confidence": "medium" if formula_text else "low",
+    }
+
+
+def formula_items_from_calculation(calculation: dict, source_file: str | None) -> list[dict]:
+    section_title = calculation.get("formula_section_title") or "Montant de certificats en kWh cumac"
+    page = calculation.get("formula_section_page_start")
+    items: list[dict] = []
+    for expression in calculation.get("expressions") or []:
+        items.append(text_item(expression, source_file, page, section_title, "medium"))
+    formula_text = calculation.get("formula_text")
+    if formula_text and not items:
+        items.append(text_item(formula_text, source_file, page, section_title, calculation.get("confidence") or "medium"))
+    unit = calculation.get("unit")
+    if unit and unit != formula_text:
+        items.append(text_item(unit, source_file, page, section_title, "medium"))
+    return items
 
 
 def parse_int(text: str) -> int | None:
@@ -243,6 +480,7 @@ def normalize_fiche(unique_row: dict, document_rows: list[dict], main_text: str,
     effective_date = extract_effective_date(title) or extract_effective_date(main_text)
     sections = parse_sections(main_pages)
     amount_table = parse_amount_table(main_text)
+    calculation = extract_calculation(sections, main_file, amount_table)
     lifetime_years = parse_lifetime_years(sections)
     engagement_deadline = parse_engagement_deadline(main_text)
 
@@ -250,7 +488,7 @@ def normalize_fiche(unique_row: dict, document_rows: list[dict], main_text: str,
     technical = [text_item(line, main_file, None, "technical_requirements", "low") for line in find_lines(main_text, ["performance", "rendement", "classe", "norme", "cop", "etasp", "efficacite", "efficacité"])]
     required_docs = [text_item(line, main_file, None, "required_documents", "low") for line in find_lines(main_text, ["preuve", "document", "attestation", "facture", "devis", "controle", "contrôle"])]
     control_points = [text_item(line, main_file, None, "control_points", "low") for line in find_lines(main_text, ["controle", "contrôle", "inspection", "verifie", "vérifie"])]
-    formulas = [text_item(line, main_file, None, "formula", "low") for line in find_lines(main_text, ["cumac", "kwh", "coefficient", "montant", "forfait"])]
+    formulas = formula_items_from_calculation(calculation, main_file)
     zones = [text_item(line, main_file, None, "zones", "low") for line in find_lines(main_text, ["zone", "h1", "h2", "h3"])]
 
     critical_items = eligibility + technical + required_docs + formulas
@@ -258,12 +496,15 @@ def normalize_fiche(unique_row: dict, document_rows: list[dict], main_text: str,
         not eligibility
         or not technical
         or not required_docs
-        or not formulas
         or any(item.get("confidence") == "low" for item in critical_items)
     )
     notes = []
-    if not formulas:
-        notes.append("Formule non detectee automatiquement.")
+    if calculation["formula_status"] == "missing_section":
+        needs_review = True
+        notes.append("Section 5 de calcul non detectee dans le PDF principal.")
+    elif not formulas or calculation["formula_status"] == "needs_review":
+        needs_review = True
+        notes.append("Formule detectee mais a revoir.")
     if not eligibility:
         notes.append("Conditions d'eligibilite non detectees automatiquement.")
 
@@ -295,12 +536,7 @@ def normalize_fiche(unique_row: dict, document_rows: list[dict], main_text: str,
         "required_documents": required_docs,
         "attestation_fields": [],
         "control_points": control_points,
-        "calculation": {
-            "formula_text": formulas[0]["text"] if formulas else None,
-            "variables": [],
-            "tables": [],
-            "amount_table": amount_table,
-        },
+        "calculation": calculation,
         "formulas": formulas,
         "zones": zones,
         "bonifications": [],

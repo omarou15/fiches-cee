@@ -28,7 +28,10 @@ _Non detecte automatiquement._
 - indiquée sur un document issu du fabricant de la chaudière. Elle est définie par l’article R.224-20 du code de
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- 1x8h
+- 2x8h
+- 3x8h avec arrêt le week-end
+- 3x8h sans arrêt le week-end
 - Montant en kWh cumac
 
 ## Sections officielles detectees

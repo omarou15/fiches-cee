@@ -150,27 +150,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par m2 de surface de baie protégée × S",
+    "variables": [
+      {
+        "name": "S",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant en kWh cumac par m2 de surface de baie protégée\n\n\nFacteur solaire\n(FS)\nBâtiment\nexistant\nBâtiment neuf\n\nSurface totale\nde baie selon\nson facteur\nsolaire (m²)\nBureau ou commerce en\nMartinique et Guadeloupe\nAutres\n\n0,25 < FS ≤ 0,4\n1 100\n330\n760\nX\nS\nFS ≤ 0,25\n1 600\n640\n1 100",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par m2 de surface de baie protégée",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-EN-110 vA25-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par m2 de surface de baie protégée × S",
       "source_file": "Tertiaire_BAT/BAT-EN-110 vA25-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m2 de surface de baie protégée × S",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par m2 de surface de baie protégée",
       "source_file": "Tertiaire_BAT/BAT-EN-110 vA25-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par m2 de surface de baie protégée",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

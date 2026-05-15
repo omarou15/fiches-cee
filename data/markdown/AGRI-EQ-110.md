@@ -28,8 +28,8 @@
 - Le document justificatif spécifique à l’opération est le document justifiant de la certification des panneaux solaires
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par
+- Montant en kWh cumac par kW thermique installé Puissance thermique × P
+- Montant en kWh cumac par kW thermique installé Puissance thermique
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

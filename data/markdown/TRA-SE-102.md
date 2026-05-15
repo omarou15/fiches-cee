@@ -28,8 +28,8 @@ _Non detecte automatiquement._
 - dans la période de réalisation des formations indiquée sur la preuve de réalisation de l’opération.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- kWh cumac par
+- kWh cumac par personne formée Nombre de × M1 × N × N1
+- kWh cumac par personne formée Nombre de
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

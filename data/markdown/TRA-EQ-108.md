@@ -29,9 +29,8 @@
 - ligne2 d’autoroute ferroviaire hors ligne Calais - Folkstone et conforme au modèle dans l’attestation sur
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Pour un wagon effectuant un ou plusieurs voyages sur une ligne i, hors ligne Calais - Folkstone, le montant de
-- Pour un wagon effectuant un ou plusieurs voyages sur la ligne Calais - Folkstone, le montant de certificats
+- 6 290 * 2 * V
+- Montant de certificats en kWh cumac
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

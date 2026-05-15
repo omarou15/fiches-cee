@@ -32,13 +32,8 @@
 - de rétrofit électrique, l’attestation de transformation, telle que définie par l’annexe II de l’arrêté du 13 mars 2020,
 
 ## Formules / calcul detectes
-- ≥ 390 kWh
-- ≥ 540 kWh
-- ≥ 690 kWh
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × N
 - Montant en kWh cumac
-- *Les montants de certificats indiqués concernent les autobus achetés ou loués ou issus d’une opération de rétrofit
-- **Les montants de certificats indiqués concernent les autobus achetés ou loués ou issus d’une opération de rétrofit
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

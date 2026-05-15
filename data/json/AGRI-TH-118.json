@@ -83,7 +83,17 @@
     "formula_text": null,
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": null,
+    "formula_section_text": null,
+    "formula_section_page_start": null,
+    "formula_section_page_end": null,
+    "unit": null,
+    "expressions": [],
+    "calculation_methods": [],
+    "formula_status": "missing_section",
+    "source_file": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf",
+    "confidence": "low"
   },
   "formulas": [],
   "zones": [],
@@ -153,6 +163,6 @@
     "tool": "scripts/build_indexes.py",
     "extracted_at": "2026-05-15T00:00:00+00:00",
     "needs_human_review": true,
-    "notes": "Formule non detectee automatiquement. Conditions d'eligibilite non detectees automatiquement."
+    "notes": "Section 5 de calcul non detectee dans le PDF principal. Conditions d'eligibilite non detectees automatiquement."
   }
 }

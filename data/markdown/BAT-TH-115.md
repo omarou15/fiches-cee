@@ -35,10 +35,8 @@
 - Ce document indique que l’équipement de marque et référence mis en place est un climatiseur et précise sa puissance
 
 ## Formules / calcul detectes
-- frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × F × A
 - Montant en kWh cumac
-- *SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

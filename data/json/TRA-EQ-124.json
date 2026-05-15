@@ -149,51 +149,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "- quantité d’énergie électrique consommée par le navire ou bateau lors du branchement à quai, exprimée en kWh ;",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kWh × Q",
+    "variables": [
+      {
+        "name": "Q",
+        "label": "la consommation d’énergie électrique, exprimée en kWh, relevée sur six mois consécutif maximum, délivrée par une infrastructure d’alimentation électrique à quai. La consommation des navires et bateaux à propulsion 100% électriques est exclue des relevés de consommation.",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la consommation d’énergie électrique, exprimée en kWh, relevée sur six mois consécutif maximum, délivrée par une infrastructure d’alimentation électrique à quai. La consommation des navires et bateaux à propulsion 100% électriques est exclue des relevés de consommation."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Type de port\nMontant en kWh cumac par kWh\nélectrique consommé à quai\n\nConsommation en kWh par\ninfrastructure d’alimentation\nélectrique sur 6 mois maximum\nMaritime\n13,4\nX\nQ\nFluvial\n45\n\nQ est la consommation d’énergie électrique, exprimée en kWh, relevée sur six mois consécutif maximum, délivrée\npar une infrastructure d’alimentation électrique à quai. La consommation des navires et bateaux à propulsion 100%\nélectriques est exclue des relevés de consommation.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kWh",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "- quantité d’énergie électrique consommée par le navire ou bateau lors du branchement à quai, exprimée en kWh ;",
+      "text": "Montant en kWh cumac par kWh × Q",
       "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- quantité d’énergie électrique consommée par le navire ou bateau lors du branchement à quai, exprimée en kWh ;",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kWh × Q",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kWh",
       "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "Consommation en kWh par",
-      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Consommation en kWh par",
-      "confidence": "low"
-    },
-    {
-      "text": "Q est la consommation d’énergie électrique, exprimée en kWh, relevée sur six mois consécutif maximum, délivrée",
-      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Q est la consommation d’énergie électrique, exprimée en kWh, relevée sur six mois consécutif maximum, délivrée",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

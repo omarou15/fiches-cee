@@ -141,35 +141,32 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
+    "formula_text": "Montant en kWh cumac par kW",
     "variables": [],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone climatique\nMontant en kWh cumac par kW\n\nPuissance\nélectrique\nnominale du\ngroupe de\nproduction de froid\n(en kW)\n\nSecteur\nCoefficient\nmultiplicateur\nPlages de températures de\nconsigne du réseau\n\n\n[15°C ; 18°C[\n[18°C ; 20°C]\n\n\nClimatisation\nhors Data Center\n1\nH1\n5 100\n6 400\nX\nPcompresseur(s)\nX\nH2\n4 200\n5 900\nClimatisation\nData Center\n4,5\nH3\n3 000\n4 700\n\nLa température de consigne du réseau hydraulique correspond à la température de départ du groupe de production\nde froid.\n\nPcompresseurs est la puissance électrique nominale (en kW) figurant sur la plaque signalétique du groupe mono-\ncompresseur ou multi-compresseurs raccordé au système de freecooling pour la plage de température de consigne\ndu réseau concernée ou à défaut celle indiquée sur un document issu du fabricant du groupe mono-compresseur ou\nmulti-compresseurs raccordé au système de freecooling pour la plage de température de consigne du réseau\nconcernée. La puissance du ou des compresseurs de secours n’est pas à comptabiliser.\n\nUn groupe de production de froid ne peut faire l’objet que d’une seule délivrance de certificats d’économies\nd’énergie pour la mise en place d’un système de freecooling.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables",
+      "coefficient_based"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-156 vA31-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-TH-156 vA31-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
       "text": "Montant en kWh cumac par kW",
       "source_file": "Tertiaire_BAT/BAT-TH-156 vA31-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Coefficient",
-      "source_file": "Tertiaire_BAT/BAT-TH-156 vA31-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Coefficient",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

@@ -126,59 +126,73 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "x 2 (t.km réalisées par an). ; K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2",
+    "variables": [
+      {
+        "name": "Ga",
+        "label": "le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh cumac / t.km. Caractéristiques de l’unité de transport Gain énergétique Ga Seine Rhône Nord Pas-de-Calais Rhin / Moselle Interbassin Automoteur M ≤ 400 0,025 0,028 0,025 0,030 0,027 400 < M ≤ 650 0,023 0,025 0,023 0,029 0,025 650 < M ≤ 1 000 0,020 0,021 0,021 0,026 0,022 1 000 < M ≤ 1 500 0,011 0,012 0,020 0,023 0,016 1 500 < M 0,009 0,011 0,018 0,019 0,014 Barge fluviale 0,009 0,01 0,01 0",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh cumac / t.km. Caractéristiques de l’unité de transport Gain énergétique Ga Seine Rhône Nord Pas-de-Calais Rhin / Moselle Interbassin Automoteur M ≤ 400 0,025 0,028 0,025 0,030 0,027 400 < M ≤ 650 0,023 0,025 0,023 0,029 0,025 650 < M ≤ 1 000 0,020 0,021 0,021 0,026 0,022 1 000 < M ≤ 1 500 0,011 0,012 0,020 0,023 0,016 1 500 < M 0,009 0,011 0,018 0,019 0,014 Barge fluviale 0,009 0,01 0,01 0"
+      },
+      {
+        "name": "Gp",
+        "label": "le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km. Gamme en puissance (en kW) Gain énergétique Gp Seine Rhône Nord / Pas-de-Calais Rhin / Moselle Interbassin Pousseurs 295 ≤ P ≤ 590 12 13 10 - 12 590 < P ≤ 880 19 20 13 - 18 880 < P 24 23 19 39 26",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km. Gamme en puissance (en kW) Gain énergétique Gp Seine Rhône Nord / Pas-de-Calais Rhin / Moselle Interbassin Pousseurs 295 ≤ P ≤ 590 12 13 10 - 12 590 < P ≤ 880 19 20 13 - 18 880 < P 24 23 19 39 26"
+      },
+      {
+        "name": "P",
+        "label": "la puissance maximale du moteur du pousseur (en kW). K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2 (kilométrage réalisé par an) On considère que le trafic réalisé par l’unité de transport fluvial sur 6 mois consécutifs est maintenu en moyenne sur la durée de vie des équipements.",
+        "unit": "kW",
+        "value_type": "number",
+        "description": "la puissance maximale du moteur du pousseur (en kW). K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2 (kilométrage réalisé par an) On considère que le trafic réalisé par l’unité de transport fluvial sur 6 mois consécutifs est maintenu en moyenne sur la durée de vie des équipements."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Cas du carénage des automoteurs et des barges fluviales :\nLe montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\nGa x TK\n\nGa est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh\ncumac / t.km.\n\n\nCaractéristiques de l’unité de\ntransport\nGain énergétique Ga\nSeine\nRhône\nNord\nPas-de-Calais\nRhin /\nMoselle\nInterbassin\nAutomoteur\nM ≤ 400\n0,025\n0,028\n0,025\n0,030\n0,027\n400 < M ≤ 650\n0,023\n0,025\n0,023\n0,029\n0,025\n650 < M ≤ 1 000\n0,020\n0,021\n0,021\n0,026\n0,022\n1 000 < M ≤ 1 500\n0,011\n0,012\n0,020\n0,023\n0,016\n1 500 < M\n0,009\n0,011\n0,018\n0,019\n0,014\nBarge fluviale\n0,009\n0,01\n0,01\n0,014\n0,011\n\nM : capacité maximale de chargement de l’automoteur (en tonnes)\n\nTK : t.km effectuées par l’unité de transport et relevées sur une période maximale de 6 mois à compter du carénage\nx 2 (t.km réalisées par an).\n\nOn considère que le trafic réalisé par l’unité de transport fluvial sur 6 mois consécutifs est maintenu en moyenne\nsur la durée de vie des équipements.\n\nCas du carénage des pousseurs :\nLe montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :\n\nGp x K\n\nGp est le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km.\n\nGamme en puissance\n(en kW)\nGain énergétique Gp\nSeine\nRhône\nNord /\nPas-de-Calais Rhin / Moselle\nInterbassin\nPousseurs\n295 ≤ P ≤ 590\n12\n13\n10\n-\n12\n590 < P ≤ 880\n19\n20\n13\n-\n18\n880 < P\n24\n23\n19\n39\n26\n\nP est la puissance maximale du moteur du pousseur (en kW).\n\nK : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2\n(kilométrage réalisé par an)\n\nOn considère que le trafic réalisé par l’unité de transport fluvial sur 6 mois consécutifs est maintenu en moyenne\nsur la durée de vie des équipements.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 3,
+    "unit": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
+    "expressions": [
+      "x 2 (t.km réalisées par an).",
+      "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2"
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "x 2 (t.km réalisées par an).",
       "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "x 2 (t.km réalisées par an).",
+      "confidence": "medium"
+    },
+    {
+      "text": "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2",
+      "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2",
+      "confidence": "medium"
     },
     {
       "text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
       "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
-      "confidence": "low"
-    },
-    {
-      "text": "Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh",
-      "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh",
-      "confidence": "low"
-    },
-    {
-      "text": "cumac / t.km.",
-      "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "cumac / t.km.",
-      "confidence": "low"
-    },
-    {
-      "text": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
-      "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :",
-      "confidence": "low"
-    },
-    {
-      "text": "Gp est le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km.",
-      "source_file": "Transport_TRA/TRA-SE-107 vA19-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Gp est le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km.",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

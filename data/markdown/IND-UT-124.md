@@ -27,7 +27,7 @@ _Non detecte automatiquement._
 - du compresseur ou à défaut celle indiquée sur un document issu du fabricant.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par kW × P
 - Montant en kWh cumac par kW
 
 ## Sections officielles detectees

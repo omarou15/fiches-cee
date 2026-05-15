@@ -222,75 +222,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "La puissance nominale de la PAC air/air est inférieure ou égale à 12 kW et son coefficient de performance saisonnier",
-    "variables": [],
+    "formula_text": "Montant unitaire en kWh cumac X × SCOP",
+    "variables": [
+      {
+        "name": "SCOP",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour un appartement :\n\nSCOP\nZone\nclimatique\nMontant unitaire en\nkWh cumac\n\n\n\nX\nFacteur\ncorrectif\nSurface chauffée S\nen m²\n3,9 ≤ SCOP\nH1\n21 300\n0,5\nS < 35\n0,7\n35 ≤ S < 60\n1\n60 ≤ S < 70\nH2\n17 400\n1,2\n70 ≤ S < 90\n1,5\n90 ≤ S < 110\nH3\n11 600\n1,9\n110 ≤ S ≤ 130\n2,5\n> 130\n\nLa surface S prise en compte dans le calcul est la surface exclusivement chauffée par la pompe à chaleur installée.\n\nPour une maison individuelle :\n\nSCOP\nZone\nclimatique\nMontant unitaire en\nkWh cumac\n\n\n\nX\nFacteur\ncorrectif\nSurface chauffée S\nen m²\n3,9 ≤ SCOP < 4,3\nH1\n77 900\n0,3\n< 35\n0,5\n35 ≤ S < 60\nH2\n63 700\n0,6\n60 ≤ S < 70\nH3\n42 500\n0,7\n70 ≤ S < 90\n4,3 ≤ SCOP\nH1\n80 200\n1\n90 ≤ S < 110\nH2\n65 600\n1,1\n110 ≤ S ≤ 130\nH3\n43 700\n1,6\n> 130\n\nLa surface S prise en compte dans le calcul est la surface exclusivement chauffée par la pompe à chaleur installée.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant unitaire en kWh cumac X",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "La puissance nominale de la PAC air/air est inférieure ou égale à 12 kW et son coefficient de performance saisonnier",
+      "text": "Montant unitaire en kWh cumac X × SCOP",
       "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "La puissance nominale de la PAC air/air est inférieure ou égale à 12 kW et son coefficient de performance saisonnier",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac X × SCOP",
+      "confidence": "medium"
     },
     {
-      "text": "- et le coefficient de performance saisonnier (SCOP) de l’équipement.",
+      "text": "Montant unitaire en kWh cumac X",
       "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "- et le coefficient de performance saisonnier (SCOP) de l’équipement.",
-      "confidence": "low"
-    },
-    {
-      "text": "La puissance nominale de la PAC air/air ainsi que son coefficient de performance saisonnier sont déterminés selon",
-      "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "La puissance nominale de la PAC air/air ainsi que son coefficient de performance saisonnier sont déterminés selon",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire en",
-      "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant unitaire en",
-      "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant unitaire en",
-      "confidence": "low"
-    },
-    {
-      "text": "kWh cumac",
-      "source_file": "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac X",
+      "confidence": "medium"
     }
   ],
   "zones": [

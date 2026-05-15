@@ -36,42 +36,14 @@
     {
       "number": "3",
       "title": "Conditions pour la délivrance de certificats",
-      "text": "Le contrat est un contrat de performance énergétique de services (CPE Services) ayant pour objet une installation\ncollective de chauffage. Ce contrat peut également intégrer les installations de production d’eau chaude sanitaire,\nde climatisation pour le confort ou d’électricité spécifique (éclairage, ventilation, informatique…).\n\nUn contrat de performance énergétique de services est un contrat visant à garantir, par rapport à une situation de\nréférence contractuelle, un niveau convenu d’amélioration de l’efficacité énergétique (conduisant à une diminution\ndes consommations énergétiques) du bâtiment ou du parc de bâtiments, vérifiée et mesurée dans la durée.",
+      "text": "Le contrat est un contrat de performance énergétique de services (CPE Services) ayant pour objet une installation\ncollective de chauffage. Ce contrat peut également intégrer les installations de production d’eau chaude sanitaire,\nde climatisation pour le confort ou d’électricité spécifique (éclairage, ventilation, informatique…).\n\nUn contrat de performance énergétique de services est un contrat visant à garantir, par rapport à une situation de\nréférence contractuelle, un niveau convenu d’amélioration de l’efficacité énergétique (conduisant à une diminution\ndes consommations énergétiques) du bâtiment ou du parc de bâtiments, vérifiée et mesurée dans la durée.\n\n1. Le contrat est un contrat de services pour la maintenance, l’exploitation et l’optimisation des\ninstallations. Il comporte un engagement d’économies d’énergie exprimé en % par rapport à une\nsituation de référence. Le contrat ne doit pas prévoir de travaux éligibles aux certificats d’économies\nd’énergie pour atteindre l’engagement d’économies d’énergie.\n\n2. La situation de référence permet de déterminer la consommation de référence pour la performance\nénergétique des installations couvertes par le contrat. Elle tient compte des consommations\nhistoriques corrigées des paramètres d’ajustement dont les données climatiques, ainsi que des\nopérations d’amélioration énergétique qui auraient été mises en œuvre pendant la période de\ndétermination de la situation de référence et qui auraient donné lieu ou donneront lieu à demande de\ncertificats d’économies d’énergie. La période de référence couvre au minimum trois années\ncalendaires consécutives et récentes précédant la signature du contrat et est représentative de\nl’occupation normale du bâtiment. La consommation de référence retenue est dans tous les cas\ninférieure ou égale à la consommation historique moyenne sur la période de référence et corrigée des\nparamètres d’ajustement.\n\nLes variables utilisées dans la définition de la situation de référence sont décrites dans le tableau ci-\ndessous, intégré à la partie A de l’attestation sur l’honneur (des variables peuvent être ajoutées dans\nles cases « … »).\n\nSituation de référence et paramètres d’ajustement\nDescription\nUnité\nCaractéristiques du ou des\nbâtiments intégrés au CPE\nPuissance totale de la chaufferie hors secours\n(circuit de chauffage et de production d’ECS)\n\nMW\nSurface chauffée des bâtiments prise en compte dans\nle CPE\n\nm2\nEnergies entrantes correspondantes\n(gaz, électricité, fioul, chauffage urbain, etc...)\n\n\nTypes de système de climatisation (le cas échéant)\n(EER, COP, etc…)\n\n\nOpérations éligibles aux CEE engagées ou réalisées\npendant la période de référence\n\n\n« … »\n\n\nConsommation de référence du\nou des bâtiments intégrés au\nCPE\nPériode de référence\n(années de référence concernées (a minima trois\nannées calendaires consécutives et récentes),\nreprésentatives d'un taux d'occupation normal du\nsite)\n\n\nModalités de calcul\n(comptage / facture / mesures…)\n\n\nConsommation de référence\n(Consommation énergétique moyenne durant la\npériode de référence)\n\nMWh\nConsommation de référence retenue\n(corrigée des paramètres d’ajustements)\n\nMWh\n« … »\n\n\nParamètres d'ajustement\nIls ramènent la consommation\nréelle à la situation de la\nconsommation de référence, en\ntenant compte des effets sur\nlesquels l'opérateur n'a pas\nd'influence. Ils recensent ces\nimpacts sur la consommation\nd'énergie du site, qu'il s'agisse\nde variables périodiques (qui\nchangent tout au long de\nl'année, mais avec une forme de\nrécurrence : les vacances, les\nsaisons...)\nou\nde\nfacteurs\nstatiques.\nTempérature extérieure\n\ndegrés-\njours de\nréférence\nECS (le cas échéant)\n\nm3\nAffectation des locaux, taux d’occupation, durée de\nfonctionnement\n\n\n« … »\n\n3. L'économie d'énergie garantie par le CPE Services et décrite au point 1 est supérieure ou égale à\n10 % sur chacun des postes de consommation d’énergie couvert par le contrat, chaque année sur la\ndurée de garantie du résultat.",
       "page_start": 1,
-      "page_end": 1
-    },
-    {
-      "number": "1",
-      "title": "Le contrat est un contrat de services pour la maintenance, l’exploitation et l’optimisation des",
-      "text": "installations. Il comporte un engagement d’économies d’énergie exprimé en % par rapport à une\nsituation de référence. Le contrat ne doit pas prévoir de travaux éligibles aux certificats d’économies\nd’énergie pour atteindre l’engagement d’économies d’énergie.",
-      "page_start": 1,
-      "page_end": 1
-    },
-    {
-      "number": "2",
-      "title": "La situation de référence permet de déterminer la consommation de référence pour la performance",
-      "text": "énergétique des installations couvertes par le contrat. Elle tient compte des consommations\nhistoriques corrigées des paramètres d’ajustement dont les données climatiques, ainsi que des\nopérations d’amélioration énergétique qui auraient été mises en œuvre pendant la période de\ndétermination de la situation de référence et qui auraient donné lieu ou donneront lieu à demande de\ncertificats d’économies d’énergie. La période de référence couvre au minimum trois années\ncalendaires consécutives et récentes précédant la signature du contrat et est représentative de\nl’occupation normale du bâtiment. La consommation de référence retenue est dans tous les cas\ninférieure ou égale à la consommation historique moyenne sur la période de référence et corrigée des\nparamètres d’ajustement.\n\nLes variables utilisées dans la définition de la situation de référence sont décrites dans le tableau ci-\ndessous, intégré à la partie A de l’attestation sur l’honneur (des variables peuvent être ajoutées dans\nles cases « … »).\n\nSituation de référence et paramètres d’ajustement\nDescription\nUnité\nCaractéristiques du ou des\nbâtiments intégrés au CPE\nPuissance totale de la chaufferie hors secours\n(circuit de chauffage et de production d’ECS)\n\nMW\nSurface chauffée des bâtiments prise en compte dans\nle CPE\n\nm2\nEnergies entrantes correspondantes\n(gaz, électricité, fioul, chauffage urbain, etc...)\n\n\nTypes de système de climatisation (le cas échéant)\n(EER, COP, etc…)\n\n\nOpérations éligibles aux CEE engagées ou réalisées\npendant la période de référence\n\n\n« … »\n\n\nConsommation de référence du\nou des bâtiments intégrés au\nCPE\nPériode de référence\n(années de référence concernées (a minima trois\nannées calendaires consécutives et récentes),\nreprésentatives d'un taux d'occupation normal du\nsite)\n\n\nModalités de calcul\n(comptage / facture / mesures…)\n\n\nConsommation de référence\n(Consommation énergétique moyenne durant la\npériode de référence)\n\nMWh\nConsommation de référence retenue\n(corrigée des paramètres d’ajustements)\n\nMWh\n« … »\n\n\nParamètres d'ajustement\nIls ramènent la consommation\nréelle à la situation de la\nconsommation de référence, en\ntenant compte des effets sur\nlesquels l'opérateur n'a pas\nd'influence. Ils recensent ces\nimpacts sur la consommation\nd'énergie du site, qu'il s'agisse\nde variables périodiques (qui\nchangent tout au long de\nl'année, mais avec une forme de\nrécurrence : les vacances, les\nsaisons...)\nou\nde\nfacteurs\nstatiques.\nTempérature extérieure\n\ndegrés-\njours de\nréférence\nECS (le cas échéant)\n\nm3\nAffectation des locaux, taux d’occupation, durée de\nfonctionnement\n\n\n« … »",
-      "page_start": 1,
-      "page_end": 4
-    },
-    {
-      "number": "3",
-      "title": "L'économie d'énergie garantie par le CPE Services et décrite au point 1 est supérieure ou égale à",
-      "text": "10 % sur chacun des postes de consommation d’énergie couvert par le contrat, chaque année sur la\ndurée de garantie du résultat.",
-      "page_start": 3,
       "page_end": 3
     },
     {
       "number": "4",
       "title": "L'engagement de résultat est garanti sur une durée déterminée contractuellement. La durée éligible",
-      "text": "à l’opération est cette durée garantie (en années pleines) pendant laquelle, si les économies d’énergie\nne sont pas atteintes, la pénalité s’applique. Elle est supérieure ou égale à deux ans.",
-      "page_start": 3,
-      "page_end": 3
-    },
-    {
-      "number": "5",
-      "title": "Le CPE comporte un plan de mesure et de vérification de la performance énergétique, faisant l'objet",
-      "text": "d'un bilan annuel écrit, transmis au bénéficiaire par l’opérateur titulaire du contrat. Le bilan annuel,\ndont le format est décrit dans le contrat, compare la consommation énergétique de l’année calendaire\nécoulée à la situation de référence décrite dans le contrat et est accompagné des éléments justificatifs\nde la prise en compte, le cas échéant, des paramètres d’ajustement. Il indique si la performance\ngarantie par le contrat est respectée et dans le cas contraire le montant de la pénalité due. Le plan de\nmesure et de vérification est mis en place préalablement à la demande de certificats d'économies\nd'énergie.\n\n6. En cas de non atteinte de la performance garantie par le CPE Services, ce dernier prévoit que\nl’opérateur supporte une pénalité, représentant 100 % du surcoût dû à l'écart de consommation\nconstaté par rapport à l’engagement contractualisé.\n\nL’opérateur titulaire du CPE Services dispose d’une qualification Qualibat 553 ou 554 à la date d’entrée en vigueur\ndu contrat ou tout dispositif présentant des spécifications techniques équivalentes.\n\nLes documents justificatifs spécifiques à l’opération sont :\n1/ Le contrat signé entre l’opérateur et le bénéficiaire permettant notamment de justifier la conformité aux six\nexigences ci-dessus, et précisant notamment :\na) La désignation des parties contractantes ;\nb) La situation de référence prise en compte ;\nc) L'économie d'énergie garantie sur le périmètre du contrat, en énergie finale (en %) ;\nd) Les usages de consommation concernés par le contrat (chauffage, ECS, climatisation, etc…) ;\ne) Les niveaux de services attendus, les paramètres d'influence et les modalités d’ajustement ;\nf) Les modalités du plan de mesure et de vérification ainsi que l’engagement de transmettre annuellement un bilan\nécrit au bénéficiaire ;\ng) La durée de la garantie ;\nh) La pénalité en cas de non-atteinte de la performance garantie par le contrat.\n\n2/ la décision de qualification ou le certificat Qualibat 553 ou 554 (ou équivalent) de l’opérateur, à la date d’entrée\nen vigueur du contrat.\n\nLes dates d’engagement et d’achèvement de l’opération correspondent à la date de signature du contrat. La durée\néligible pour l’opération est la durée de la garantie.\n\nCette opération ne peut pas faire l’objet d’une bonification CPE en application de l’article 6 de l’arrêté du 29\ndécembre 2014 relatif aux modalités d’application du dispositif des certificats d’économies d’énergie, de même que\ntoutes les opérations éligibles au dispositif CEE réalisées sur le bâtiment ou le parc de bâtiments concerné au cours\nde la durée totale du contrat.",
+      "text": "à l’opération est cette durée garantie (en années pleines) pendant laquelle, si les économies d’énergie\nne sont pas atteintes, la pénalité s’applique. Elle est supérieure ou égale à deux ans.\n\n5. Le CPE comporte un plan de mesure et de vérification de la performance énergétique, faisant l'objet\nd'un bilan annuel écrit, transmis au bénéficiaire par l’opérateur titulaire du contrat. Le bilan annuel,\ndont le format est décrit dans le contrat, compare la consommation énergétique de l’année calendaire\nécoulée à la situation de référence décrite dans le contrat et est accompagné des éléments justificatifs\nde la prise en compte, le cas échéant, des paramètres d’ajustement. Il indique si la performance\ngarantie par le contrat est respectée et dans le cas contraire le montant de la pénalité due. Le plan de\nmesure et de vérification est mis en place préalablement à la demande de certificats d'économies\nd'énergie.\n\n6. En cas de non atteinte de la performance garantie par le CPE Services, ce dernier prévoit que\nl’opérateur supporte une pénalité, représentant 100 % du surcoût dû à l'écart de consommation\nconstaté par rapport à l’engagement contractualisé.\n\nL’opérateur titulaire du CPE Services dispose d’une qualification Qualibat 553 ou 554 à la date d’entrée en vigueur\ndu contrat ou tout dispositif présentant des spécifications techniques équivalentes.\n\nLes documents justificatifs spécifiques à l’opération sont :\n1/ Le contrat signé entre l’opérateur et le bénéficiaire permettant notamment de justifier la conformité aux six\nexigences ci-dessus, et précisant notamment :\na) La désignation des parties contractantes ;\nb) La situation de référence prise en compte ;\nc) L'économie d'énergie garantie sur le périmètre du contrat, en énergie finale (en %) ;\nd) Les usages de consommation concernés par le contrat (chauffage, ECS, climatisation, etc…) ;\ne) Les niveaux de services attendus, les paramètres d'influence et les modalités d’ajustement ;\nf) Les modalités du plan de mesure et de vérification ainsi que l’engagement de transmettre annuellement un bilan\nécrit au bénéficiaire ;\ng) La durée de la garantie ;\nh) La pénalité en cas de non-atteinte de la performance garantie par le contrat.\n\n2/ la décision de qualification ou le certificat Qualibat 553 ou 554 (ou équivalent) de l’opérateur, à la date d’entrée\nen vigueur du contrat.\n\nLes dates d’engagement et d’achèvement de l’opération correspondent à la date de signature du contrat. La durée\néligible pour l’opération est la durée de la garantie.\n\nCette opération ne peut pas faire l’objet d’une bonification CPE en application de l’article 6 de l’arrêté du 29\ndécembre 2014 relatif aux modalités d’application du dispositif des certificats d’économies d’énergie, de même que\ntoutes les opérations éligibles au dispositif CEE réalisées sur le bâtiment ou le parc de bâtiments concerné au cours\nde la durée totale du contrat.",
       "page_start": 3,
       "page_end": 3
     },
@@ -281,35 +253,54 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "garantie par le contrat est respectée et dans le cas contraire le montant de la pénalité due. Le plan de",
-    "variables": [],
+    "formula_text": "Montant unitaire en kWh cumac par m² de surface chauffée × S × F",
+    "variables": [
+      {
+        "name": "S",
+        "label": "la surface chauffée des bâtiments prise en compte dans le CPE.",
+        "unit": null,
+        "value_type": "number",
+        "description": "la surface chauffée des bâtiments prise en compte dans le CPE."
+      },
+      {
+        "name": "F",
+        "label": "un facteur correctif lié au périmètre du contrat en complément de l’installation collective de chauffage avec F = 1 + ∑f, où ∑f désigne la somme, pour les postes de consommation d’énergie relatifs à l’eau chaude sanitaire, la climatisation ou l’électricité spécifique inclus dans le périmètre du contrat, du ou des facteurs correctifs f pour le secteur d’activité concerné. Facteur correctif « f » Bureau Hôtellerie / Restauration Commerce Santé Enseignement Sport, Loisirs, Culture Eau chaude sanita",
+        "unit": "m",
+        "value_type": "number",
+        "description": "un facteur correctif lié au périmètre du contrat en complément de l’installation collective de chauffage avec F = 1 + ∑f, où ∑f désigne la somme, pour les postes de consommation d’énergie relatifs à l’eau chaude sanitaire, la climatisation ou l’électricité spécifique inclus dans le périmètre du contrat, du ou des facteurs correctifs f pour le secteur d’activité concerné. Facteur correctif « f » Bureau Hôtellerie / Restauration Commerce Santé Enseignement Sport, Loisirs, Culture Eau chaude sanita"
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Montant unitaire en kWh cumac par m² de surface chauffée\n\n\n\n\n\n\nDurée de la garantie\n(année pleine)\nZone climatique\n\n\n\n\n\n\nH1\nH2\nH3\n\n\n\n\n\n\n2\n23\n19\n13\n\n\n\n\n\n3\n34\n28\n18\n\n\n\n\n\n4\n44\n36\n24\n\nSurface\nchauffée\n\n\nFacteur correctif\n« F »\nlié au périmètre\ndu contrat\n5\n54\n44\n30\n\n\n\n6\n64\n52\n35\nX\nX\n7\n73\n60\n40\nS\n8\n82\n67\n45\n\n9\n90\n74\n49\n\n\n\n\n\n10 ou plus\n99\n81\n54\n\n\n\n\n\n\nS est la surface chauffée des bâtiments prise en compte dans le CPE.\n\n« F » est un facteur correctif lié au périmètre du contrat en complément de l’installation collective de chauffage avec\nF = 1 + ∑f, où ∑f désigne la somme, pour les postes de consommation d’énergie relatifs à l’eau chaude sanitaire, la\nclimatisation ou l’électricité spécifique inclus dans le périmètre du contrat, du ou des facteurs correctifs f pour le\nsecteur d’activité concerné.\n\nFacteur correctif « f »\nBureau\nHôtellerie /\nRestauration Commerce\nSanté\nEnseignement\nSport, Loisirs,\nCulture\nEau chaude sanitaire\n0,06\n0,38\n0,16\n0,32\n0,14\n0,52\nClimatisation pour le\nconfort\n0,28\n0,26\n0,25\n0,13\n0,02\n0,13\nElectricité spécifique\n0,78\n1,09\n0,82\n0,32\n0,20\n0,41",
+    "formula_section_page_start": 4,
+    "formula_section_page_end": 4,
+    "unit": "Montant unitaire en kWh cumac par m² de surface chauffée",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-SE-104 vA31-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "garantie par le contrat est respectée et dans le cas contraire le montant de la pénalité due. Le plan de",
+      "text": "Montant unitaire en kWh cumac par m² de surface chauffée × S × F",
       "source_file": "Tertiaire_BAT/BAT-SE-104 vA31-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "garantie par le contrat est respectée et dans le cas contraire le montant de la pénalité due. Le plan de",
-      "confidence": "low"
-    },
-    {
-      "text": "5. Montant de certificats en kWh cumac",
-      "source_file": "Tertiaire_BAT/BAT-SE-104 vA31-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant unitaire en kWh cumac par m² de surface chauffée × S × F",
+      "confidence": "medium"
     },
     {
       "text": "Montant unitaire en kWh cumac par m² de surface chauffée",
       "source_file": "Tertiaire_BAT/BAT-SE-104 vA31-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 4,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant unitaire en kWh cumac par m² de surface chauffée",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

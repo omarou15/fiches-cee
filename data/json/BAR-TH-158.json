@@ -295,27 +295,47 @@
     }
   ],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par émetteur × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Zone climatique\nMontant en kWh cumac par émetteur\nélectrique installé\n\n\n\n\nX\nNombre d’émetteurs\nélectriques installés\nType de logement\nMaison individuelle\nAppartement\nH1\n1 800\n1 500\nN\nH2\n1 500\n1 200\nH3\n1 100\n900",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par émetteur",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Residentiel_BAR/BAR-TH-158 vA73-3 à compter du 01-11-2025_0.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par émetteur × N",
       "source_file": "Residentiel_BAR/BAR-TH-158 vA73-3 à compter du 01-11-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par émetteur × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par émetteur",
       "source_file": "Residentiel_BAR/BAR-TH-158 vA73-3 à compter du 01-11-2025_0.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par émetteur",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

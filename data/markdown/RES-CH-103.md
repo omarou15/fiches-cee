@@ -28,7 +28,7 @@
 - primaire du poste de livraison avec leurs marque et référence et est accompagnée d’un ou plusieurs documents
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × S
 - Montant en kWh cumac
 
 ## Sections officielles detectees

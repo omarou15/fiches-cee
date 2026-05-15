@@ -29,9 +29,7 @@
 - de production de froid (mono-compresseur ou multi-compresseurs) ou à défaut celle indiquée sur un document issu
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant en kWh cumac par kW
-- Montant en kWh cumac par kW
+- Montant en kWh cumac par kW × P
 - Montant en kWh cumac par kW
 
 ## Sections officielles detectees

@@ -142,27 +142,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac × N",
+    "variables": [
+      {
+        "name": "N",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la table de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Catégorie de véhicule au sens de l’article\nR. 311-1 du code de la route\nMontant en kWh cumac\npar véhicule\n\nNombre de\nvéhicules\nVéhicule léger neuf M1\n74 200\nX\nN\nVéhicule utilitaire léger neuf N1 ou N2\nbénéficiant de la dérogation de poids\n156 800\nVéhicule léger M1 issu d’une opération de\nrétrofit\n59 800\nVéhicule utilitaire léger N1 ou N2 bénéficiant\nde la dérogation de poids issu d’une opération\nde rétrofit\n126 300\nPour une personne morale, hors collectivité locale, gérant un parc total ou\nfiliale d'un groupe gérant un parc total supérieur à 100 véhicules *:\n\nPour les\nannées 2025 et\n2026\nA compter de\n2027\nVéhicule léger neuf M1\n59 400\n44 500\nVéhicule utilitaire léger neuf N1 ou N2\nbénéficiant de la dérogation de poids\n125 400\n94 100\nVéhicule léger M1 issu d’une opération de\nrétrofit\n47 800\n35 900\nVéhicule utilitaire léger N1 ou N2 bénéficiant\nde la dérogation de poids issu d’une opération\nde rétrofit\n101 100\n75 800\nPour une collectivité locale gérant un parc supérieur à 20 véhicules**, un\nloueur ou un vendeur de véhicules :\nVéhicule léger neuf M1\n44 500\nVéhicule utilitaire léger neuf N1 ou N2\nbénéficiant de la dérogation de poids\n94 100\nVéhicule léger M1 issu d’une opération de\nrétrofit\n35 900\nVéhicule utilitaire léger N1 ou N2 bénéficiant\nde la dérogation de poids issu d’une opération\nde rétrofit\n75 800\n*Désigne les entreprises et autres personnes morales gérant un parc de plus de 100 véhicules dont chaque\nvéhicule a un poids total autorisé en charge inférieur ou égal à 3,5 tonnes (équivalent M1 ou N1 ou N2\naprès déduction du poids dérogatoire, conformément au IV de l'article R. 312-4 du code de la route), ou\nles filiales d’un groupe gérant un parc correspondant à ce critère. Sont pris en compte dans l’évaluation\nde la taille du parc géré par une personne morale, les véhicules gérés par ses établissements situés en\nFrance ainsi que les véhicules gérés par ses filiales dont le siège est situé en France.\n**Désigne les collectivités territoriales, leurs groupements et leurs établissements publics gérant un parc\nde plus de 20 véhicules, dont chaque véhicule a un poids total autorisé en charge inférieur ou égal à 3,5\ntonnes (équivalent M1 ou N1ou N2 après déduction du poids dérogatoire, conformément au IV de\nl'article R. 312-4 du code de la route).",
+    "formula_section_page_start": 3,
+    "formula_section_page_end": 4,
+    "unit": "Montant en kWh cumac",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac × N",
       "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac × N",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [],

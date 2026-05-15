@@ -28,12 +28,9 @@
 - Les documents justificatifs spécifiques à l’opération sont :
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- x 2 (t.km réalisées par an).
+- K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2
 - Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :
-- Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh
-- cumac / t.km.
-- Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :
-- Gp est le gain énergétique net actualisé par type de pousseur et par bassin de navigation, en kWh cumac / km.
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

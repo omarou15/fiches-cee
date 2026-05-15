@@ -246,51 +246,59 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
-    "variables": [],
+    "formula_text": "- pour une serre maraichère : [S] ou [15 x P] ; ; - pour une serre horticole : [S] ou [31 x P].",
+    "variables": [
+      {
+        "name": "COP",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Pour une PAC de puissance thermique nominale ≤ 400 kW :\nEfficacité énergétique\nsaisonnière (ηs)\nType de serre\nMontant en kWh cumac par\nm2 de serre chauffée\n\nSurface de serre\nchauffée (m2)\n111% ≤ ηs < 126%\nMaraîchère\n800\nX\nSmin\nHorticole\n380\n126% ≤  ηs\nMaraîchère\n970\nHorticole\n460\n\nPour une PAC de puissance thermique nominale > 400 kW :\nCOP\nType de serre\nMontant en kWh cumac par\nm2 de serre chauffée\n\nSurface de serre\nchauffée (m2)\n3,4 ≤ COP < 4\nMaraîchère\n780\nX\nSmin\nHorticole\n370\n4 ≤ COP\nMaraîchère\n1 040\nHorticole\n490\n\nLa surface chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie est la\nplus petite des valeurs suivantes (entre crochets), où S est la surface de la serre chauffée par la pompe à chaleur\n(en m2) et P est la puissance thermique nominale de cet équipement (en kW) :\n- pour une serre maraichère : [S] ou [15 x P] ;\n- pour une serre horticole : [S] ou [31 x P].",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par m2 de serre chauffée Surface de serre",
+    "expressions": [
+      "- pour une serre maraichère : [S] ou [15 x P] ;",
+      "- pour une serre horticole : [S] ou [31 x P]."
+    ],
+    "calculation_methods": [
+      "direct_expression",
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
+      "text": "- pour une serre maraichère : [S] ou [15 x P] ;",
       "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "- pour une serre maraichère : [S] ou [15 x P] ;",
+      "confidence": "medium"
     },
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "- pour une serre horticole : [S] ou [31 x P].",
       "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "- pour une serre horticole : [S] ou [31 x P].",
+      "confidence": "medium"
     },
     {
-      "text": "Montant en kWh cumac par",
+      "text": "Montant en kWh cumac par m2 de serre chauffée Surface de serre",
       "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par",
-      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par",
-      "confidence": "low"
-    },
-    {
-      "text": "La surface chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie est la",
-      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "La surface chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie est la",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par m2 de serre chauffée Surface de serre",
+      "confidence": "medium"
     }
   ],
   "zones": [],

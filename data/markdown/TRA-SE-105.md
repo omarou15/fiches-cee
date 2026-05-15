@@ -28,7 +28,7 @@ _Non detecte automatiquement._
 - La date d’achèvement est la date de réalisation du dernier recreusage figurant sur la preuve de réalisation.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par pneumatique × N
 - Montant en kWh cumac par pneumatique
 
 ## Sections officielles detectees

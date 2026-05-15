@@ -27,9 +27,8 @@ _Non detecte automatiquement._
 - Les documents justificatifs spécifiques à l’opération sont :
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- TK : t.km effectuées par la barge, relevées sur une période maximale de 6 mois x 2 (t.km réalisées par an).
 - Le montant des certificats d’économies d’énergie en kWh cumac est déterminé selon la formule suivante :
-- Ga est le gain énergétique net actualisé en kWh cumac/t.km selon le bassin de navigation fluviale.
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

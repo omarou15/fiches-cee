@@ -32,14 +32,7 @@
 - eau surchauffée ou vapeur) et la durée annuelle d’utilisation du réseau. Ce document identifie le réseau de chaleur
 
 ## Formules / calcul detectes
-- L’isolant installé garantit que le coefficient de perte thermique Umax (W/m².K) est inférieur aux valeurs du tableau
-- Le coefficient de perte thermique Umax (W/m².K) est calculé au moyen de la formule suivante :
-- λD (W/m.K) est le coefficient de conductivité thermique de l’isolant,
-- La mise en place d’une canalisation pré-isolée dont le calorifugeage garantit que le coefficient de perte thermique est
-- (coefficient de conductivité thermique en W/m.K et épaisseur).
-- 5. Montant de certificats en kWh cumac
-- Le montant de certificats est calculé pour chaque élément de canalisation de diamètre nominal DN de la tuyauterie
-- Montant unitaire en kWh cumac selon le
+- Montant unitaire en kWh cumac selon le × L
 - Montant unitaire en kWh cumac selon le
 
 ## Sections officielles detectees

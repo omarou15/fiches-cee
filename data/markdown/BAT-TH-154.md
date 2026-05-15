@@ -39,11 +39,8 @@
 - Cette étude sera ajoutée aux documents justificatifs spécifiques à l’opération.
 
 ## Formules / calcul detectes
-- Les forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur
-- 5. Montant de certificats en kWh cumac
-- kWh cumac
-- kWh cumac
-- NB : Les forfaits à prendre en compte pour une opération visant des douches de piscines sont ceux du secteur
+- kWh cumac Nombres d’unités × N
+- kWh cumac Nombres d’unités
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)

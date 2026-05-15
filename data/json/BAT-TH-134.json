@@ -150,43 +150,47 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "5. Montant de certificats en kWh cumac",
-    "variables": [],
+    "formula_text": "Montant en kWh cumac par kW × P",
+    "variables": [
+      {
+        "name": "P",
+        "label": null,
+        "unit": null,
+        "value_type": "unknown",
+        "description": "Variable detectee dans la section de calcul."
+      }
+    ],
     "tables": [],
-    "amount_table": []
+    "amount_table": [],
+    "formula_section_title": "Montant de certificats en kWh cumac",
+    "formula_section_text": "Climatisation de confort d’un local (hors datacenter) :\nZone\nclimatique\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ntotale du groupe de\nproduction de froid en kW\nCondensation par\nrapport à l’atmosphère\nCondensation\nà eau seul\n\n\nX\nH1\n2 000\n670\nP\nH2\n1 800\n480\nH3\n1 600\n290\n\nClimatisation d’un datacenter :\nZone\nclimatique\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ntotale du groupe de\nproduction de froid en kW\nCondensation par\nrapport à l’atmosphère\nCondensation à\neau seul\n\n\nX\nH1\n22 800\n14 500\nP\nH2\n20 500\n13 900\nH3\n20 200\n11 300\n\nAutres applications de type réfrigération ou conditionnement d’ambiance hors confort des occupants :\nZone\nclimatique\nMontant en kWh cumac par kW\n\nPuissance électrique nominale\ntotale du groupe de\nproduction de froid en kW\nCondensation par\nrapport à l’atmosphère\nCondensation à\neau seul\n\n\nX\nH1\n19 100\n13 400\nP\nH2\n17 000\n12 800\nH3\n16 400\n10 500\n\nDans chaque cas, la puissance électrique nominale à retenir est celle figurant sur la plaque signalétique du groupe\nde production de froid (mono-compresseur ou multi-compresseurs) ou à défaut celle indiquée sur un document issu\ndu fabricant du groupe mono-compresseur ou multi-compresseurs. La puissance des compresseurs de secours n’est\npas comptabilisée.\n\nSont considérés comme systèmes de condensation par rapport à l’atmosphère, les condenseurs suivants :\n- condenseur à air sec adiabatique ou non,\n- condenseur à eau plus aéroréfrigérant à air sec adiabatique ou non,\n- condenseur évaporatif hybride ou non,\n- condenseur à eau plus tour ouverte hybride ou non,\n- condenseur à eau plus tour fermée hybride ou non.\n\nSont considérés comme systèmes de condensation à eau seule, les condenseurs à eau provenant d’une nappe ou d’un\ncours d’eau.",
+    "formula_section_page_start": 2,
+    "formula_section_page_end": 2,
+    "unit": "Montant en kWh cumac par kW",
+    "expressions": [],
+    "calculation_methods": [
+      "table_amount_times_variables"
+    ],
+    "formula_status": "extracted",
+    "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+    "confidence": "medium"
   },
   "formulas": [
     {
-      "text": "5. Montant de certificats en kWh cumac",
+      "text": "Montant en kWh cumac par kW × P",
       "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "5. Montant de certificats en kWh cumac",
-      "confidence": "low"
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant en kWh cumac par kW × P",
+      "confidence": "medium"
     },
     {
       "text": "Montant en kWh cumac par kW",
       "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
+      "page": 2,
+      "section_title": "Montant de certificats en kWh cumac",
       "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par kW",
-      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
-    },
-    {
-      "text": "Montant en kWh cumac par kW",
-      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
-      "page": null,
-      "section_title": "formula",
-      "quote": "Montant en kWh cumac par kW",
-      "confidence": "low"
+      "confidence": "medium"
     }
   ],
   "zones": [

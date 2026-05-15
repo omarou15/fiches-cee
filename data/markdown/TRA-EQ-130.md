@@ -29,7 +29,7 @@
 - Les documents justificatifs spécifiques à l’opération sont les suivants :
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac × N
 - Montant en kWh cumac
 
 ## Sections officielles detectees

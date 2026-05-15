@@ -30,16 +30,11 @@
 - un document du fabricant.
 
 ## Formules / calcul detectes
-- 5. Montant de certificats en kWh cumac
-- Montant unitaire en
-- kWh cumac par kW
-- Coefficient
-- Montant unitaire en
-- kWh cumac par kW
-- Coefficient
-- Montant unitaire en
-- kWh cumac par kW
-- Coefficient
+- 1 x 8
+- 2 x 8
+- 3 x 8 avec arrêt
+- 3 x 8 sans arrêt
+- Montant unitaire en kWh cumac par kW Mode d’occupation
 
 ## Sections officielles detectees
 - 1. Secteur d’application (pages 1-1)
