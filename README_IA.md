@@ -20,6 +20,7 @@ Pour une IA :
 - `data/indexes/energyco_priority_index.json` : fiches prioritaires pour les cas Energyco.
 - `data/indexes/keyword_hits_index.json` : fiches detectees par mots-cles, sans validation prioritaire Energyco.
 - `data/indexes/extraction_report.json` : rapport qualite de l'extraction.
+- `data/indexes/pdf_audit_unique_fiches.json` : audit des PDF principaux des fiches uniques uniquement.
 - `data/curated/` : enrichissements metier reproductibles appliques au build.
 - `data/json/` : JSON metier par fiche.
 - `data/markdown/` : Markdown lisible par fiche.
@@ -38,6 +39,16 @@ Pour une IA :
 Les champs vides, `null`, `unknown` ou `needs_human_review: true` signifient que l'information n'a pas ete extraite avec assez de confiance.
 
 Dans ce cas, l'IA doit dire explicitement que l'information n'est pas confirmee dans le JSON derive et revenir au document source.
+
+## Audit PDF local
+
+Le controle PDF volontairement strict porte uniquement sur les fiches uniques :
+
+```bash
+python scripts/audit_unique_fiches.py --fail-on-issues
+```
+
+Ce controle exclut les parties A, annexes, feuilles recapitulatives, complements et documents generaux.
 
 ## LibreChat / MCP
 

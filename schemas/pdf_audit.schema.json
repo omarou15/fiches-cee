@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/schemas/pdf_audit.schema.json",
+  "title": "Audit PDF des fiches CEE uniques",
+  "type": "object",
+  "required": ["generated_at", "scope", "source_index", "summary", "items"],
+  "properties": {
+    "generated_at": { "type": "string", "format": "date-time" },
+    "scope": { "type": "string", "const": "unique_fiche_main_pdfs_only" },
+    "source_index": { "type": "string", "const": "index_fiches_uniques.csv" },
+    "excluded": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "total_unique_fiches",
+        "pdf_checked",
+        "ok",
+        "needs_review",
+        "failed",
+        "missing_pdf",
+        "unreadable_pdf",
+        "empty_text",
+        "code_not_found_in_text",
+        "missing_generated_json",
+        "missing_generated_markdown",
+        "missing_generated_text",
+        "generated_text_mismatch",
+        "total_pages",
+        "total_text_length"
+      ],
+      "properties": {
+        "total_unique_fiches": { "type": "integer", "minimum": 0 },
+        "pdf_checked": { "type": "integer", "minimum": 0 },
+        "ok": { "type": "integer", "minimum": 0 },
+        "needs_review": { "type": "integer", "minimum": 0 },
+        "failed": { "type": "integer", "minimum": 0 },
+        "missing_pdf": { "type": "integer", "minimum": 0 },
+        "unreadable_pdf": { "type": "integer", "minimum": 0 },
+        "empty_text": { "type": "integer", "minimum": 0 },
+        "code_not_found_in_text": { "type": "integer", "minimum": 0 },
+        "missing_generated_json": { "type": "integer", "minimum": 0 },
+        "missing_generated_markdown": { "type": "integer", "minimum": 0 },
+        "missing_generated_text": { "type": "integer", "minimum": 0 },
+        "generated_text_mismatch": { "type": "integer", "minimum": 0 },
+        "total_pages": { "type": "integer", "minimum": 0 },
+        "total_text_length": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "sector",
+          "source_file",
+          "exists",
+          "page_count",
+          "pages_with_text",
+          "text_length",
+          "code_found_in_text",
+          "generated_json_exists",
+          "generated_markdown_exists",
+          "generated_text_exists",
+          "generated_text_matches_pdf",
+          "status",
+          "warnings",
+          "error"
+        ],
+        "properties": {
+          "code": { "type": "string" },
+          "sector": { "type": "string" },
+          "source_file": { "type": "string" },
+          "source_url": { "type": ["string", "null"] },
+          "exists": { "type": "boolean" },
+          "page_count": { "type": "integer", "minimum": 0 },
+          "pages_with_text": { "type": "integer", "minimum": 0 },
+          "text_length": { "type": "integer", "minimum": 0 },
+          "code_found_in_text": { "type": "boolean" },
+          "generated_json_exists": { "type": "boolean" },
+          "generated_markdown_exists": { "type": "boolean" },
+          "generated_text_exists": { "type": "boolean" },
+          "generated_text_matches_pdf": { "type": "boolean" },
+          "status": { "type": "string", "enum": ["ok", "needs_review", "failed"] },
+          "warnings": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "error": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

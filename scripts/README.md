@@ -27,7 +27,12 @@ Ce dossier est reserve au futur pipeline reproductible.
    - valide les sorties avec `schemas/` ;
    - produit `data/indexes/extraction_report.json`.
 
-6. `search_fiches.py`
+6. `audit_unique_fiches.py`
+   - ouvre uniquement les PDF principaux de `index_fiches_uniques.csv` ;
+   - verifie lisibilite, texte extrait, presence du code fiche et fichiers generes ;
+   - produit `data/indexes/pdf_audit_unique_fiches.json`.
+
+7. `search_fiches.py`
    - recherche un code exact ou une requete plein texte dans les fiches et chunks.
 
 ## Commandes
@@ -42,6 +47,12 @@ Valider les JSON et chunks :
 
 ```bash
 python scripts/validate_json.py
+```
+
+Auditer les 217 fiches principales uniquement :
+
+```bash
+python scripts/audit_unique_fiches.py --fail-on-issues
 ```
 
 Chercher une fiche ou un sujet :
