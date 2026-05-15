@@ -1,0 +1,317 @@
+{
+  "code": "TRA-SE-116",
+  "sector": "transport",
+  "family": "SE",
+  "title": "TRA-SE-116 vA65-2 à compter du 01-01-2025 : Fret ferroviaire PDF – 122.64 Ko",
+  "version": "vA65-2",
+  "document_version": "vA65-2",
+  "effective_date": "2025-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Sont éligibles les tonnes-kilomètres réalisées, sur le territoire national, en transport conventionnel de marchandises",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Sont éligibles les tonnes-kilomètres réalisées, sur le territoire national, en transport conventionnel de marchandises",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "valorisé au titre du dispositif des certificats d’économies d’énergie dans des contrats successifs sous les conditions",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "valorisé au titre du dispositif des certificats d’économies d’énergie dans des contrats successifs sous les conditions",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "Le relevé de trafic ferroviaire prévu ci-dessous constitue la preuve de réalisation de l’opération. La date",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le relevé de trafic ferroviaire prévu ci-dessous constitue la preuve de réalisation de l’opération. La date",
+      "confidence": "low"
+    },
+    {
+      "text": "tonnes.kilomètres réalisés sur le territoire français, les références de la facture.",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "tonnes.kilomètres réalisés sur le territoire français, les références de la facture.",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération relative à un contrat dont aucune des marchandises n’a fait",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération relative à un contrat dont aucune des marchandises n’a fait",
+      "confidence": "low"
+    },
+    {
+      "text": "- les factures émises à l’attention du chargeur par le professionnel sur toute la période du relevé de trafic ferroviaire.",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- les factures émises à l’attention du chargeur par le professionnel sur toute la période du relevé de trafic ferroviaire.",
+      "confidence": "low"
+    },
+    {
+      "text": "Les factures précisent la référence du contrat, l’identité (raison sociale et numéro SIRET) du professionnel et du",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les factures précisent la référence du contrat, l’identité (raison sociale et numéro SIRET) du professionnel et du",
+      "confidence": "low"
+    },
+    {
+      "text": "contrat objet de la présente opération, les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "contrat objet de la présente opération, les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "- les factures émises à l’attention du chargeur par le professionnel sur toute la période du relevé de trafic",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- les factures émises à l’attention du chargeur par le professionnel sur toute la période du relevé de trafic",
+      "confidence": "low"
+    },
+    {
+      "text": "correspondant au contrat de renouvellement. Ces factures comportent les mêmes mentions que celles prévues pour",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "correspondant au contrat de renouvellement. Ces factures comportent les mêmes mentions que celles prévues pour",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.1 ci-dessous, le chargeur justifie du fait que",
+      "confidence": "low"
+    },
+    {
+      "text": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.2 ci-dessous, le chargeur atteste que les",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Lorsqu’il est demandé un montant de certificats relevant de la partie 5.2 ci-dessous, le chargeur atteste que les",
+      "confidence": "low"
+    },
+    {
+      "text": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie.",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie.",
+      "confidence": "low"
+    },
+    {
+      "text": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie.",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "résultat final, avec le calcul, du montant des certificats d’économies d’énergie.",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "cumac par t.km",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumac par t.km",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "cumac par t.km",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumac par t.km",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-SE-116 vA65-2 à compter du 01-01-2025_0",
+      "code": "TRA-SE-116",
+      "document_type": "fiche_principale",
+      "title": "TRA-SE-116 vA65-2 à compter du 01-01-2025 : Fret ferroviaire PDF – 122.64 Ko",
+      "path": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-SE-116%20vA65-2%20%C3%A0%20compter%20du%2001-01-2025_0.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-SE-116 vA65-2 à compter du 01-01-2025 - Partie A",
+      "code": "TRA-SE-116",
+      "document_type": "partie_a",
+      "title": "TRA-SE-116 vA65-2 à compter du 01-01-2025 - Partie A PDF – 89.22 Ko",
+      "path": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-SE-116%20vA65-2%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-SE-116 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026",
+      "code": "TRA-SE-116",
+      "document_type": "partie_a",
+      "title": "TRA-SE-116 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026 PDF – 93.72 Ko",
+      "path": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-SE-116%20vA65-2%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-SE-116 vA65-2 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2025",
+      "code": "TRA-SE-116",
+      "document_type": "annexe",
+      "title": "TRA-SE-116 vA65-2 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2025 PDF – 107.17 Ko",
+      "path": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-SE-116%20vA65-2%20%C3%A0%20compter%20du%2001-01-2025%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-SE-116 vA65-2 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-SE-116",
+      "document_type": "annexe",
+      "title": "TRA-SE-116 vA65-2 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2026 PDF – 100.47 Ko",
+      "path": "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-SE-116%20vA65-2%20%C3%A0%20compter%20du%2001-01-2025%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-SE-116 vA65-2 Feuille récapitulative_0",
+      "code": "TRA-SE-116",
+      "document_type": "feuille_recapitulative",
+      "title": "TRA-SE-116 vA65-2 Feuille récapitulative XLSX – 13.46 Ko",
+      "path": "Transport_TRA/TRA-SE-116 vA65-2 Feuille récapitulative_0.xlsx",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-SE-116%20vA65-2%20Feuille%20r%C3%A9capitulative_0.xlsx",
+      "format": "xlsx",
+      "effective_date": null,
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+    "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Partie A.pdf",
+    "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-SE-116 vA65-2 Feuille récapitulative_0.xlsx"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:01.140814+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

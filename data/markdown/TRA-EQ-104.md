@@ -1,0 +1,134 @@
+# TRA-EQ-104 - TRA-EQ-104 vA14-1 : Lubrifiant économiseur d’énergie pour véhicules légers PDF – 121.24 Ko
+- Secteur: transport
+- Famille: EQ
+- Version: vA14-1
+- Date d'application: unknown
+
+## Documents sources
+- `Transport_TRA/TRA-EQ-104 vA14-1_0.pdf`
+- `Transport_TRA/TRA-EQ-104 vA14-1 - Parties A, B et C_0.pdf`
+- `Transport_TRA/TRA-EQ-104 vA14-1 - Partie A à compter du 01-07-2026 - Parties B et C_0.pdf`
+- `Transport_TRA/TRA-EQ-104 vA14-1 - Annexe 2 à compter du 01-07-2025_0.pdf`
+- `Transport_TRA/TRA-EQ-104 vA14-1 - Annexe 2 à compter du 01-07-2026_0.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+- La performance « Fuel Economy » du lubrifiant (Y) est donnée en pourcentage et est supérieure ou égale à 1.5 %.
+- Elle est mesurée selon la norme d’essai CEC-L-54-T-96 par un organisme accrédité selon la norme NF EN ISO/CEI
+- - les procès verbaux des résultats des tests d’économies de carburant réalisés selon la norme d’essai CEC-L-54-
+- lubrifiant : la performance « Fuel Economy » du lubrifiant, sa catégorie ACEA, API ou ILSAC et sa catégorie
+- Y est la performance « Fuel Economy » du lubrifiant, exprimée en %.
+- Exemple : pour une performance de 1,5 %, Y = 1,5
+- Y1 = performance « Fuel Economy » du lubrifiant pour les véhicules Diesel
+- Y2 = performance « Fuel Economy » du lubrifiant pour les véhicules Essence
+- Y3 = performance « Fuel Economy » du lubrifiant Mixte pour tous types de véhicule
+
+## Pieces justificatives detectees
+- d'économies d'énergie et les documents à archiver par le demandeur.
+- La preuve de réalisation de l’opération mentionne l’acquisition de lubrifiants par le bénéficiaire. Ce document
+- Les documents justificatifs spécifiques à l’opération sont :
+- - la preuve du rôle actif et incitatif du demandeur détaille les modalités de transmission de la contribution du
+- - la preuve de réalisation de l’opération est complétée par un état récapitulatif, daté et signé par le bénéficiaire,
+- l’établissement, adresse du lieu de distribution), et par date de facturation et la référence de la preuve de
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac
+- Le montant de certificats d’économies d’énergie à attribuer est égal à la somme du montant de chaque type de
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° TRA-EQ-104
+
+Lubrifiant économiseur d’énergie pour véhicules légers
+
+
+1. Secteur d’application
+Véhicules de catégories M1 selon l’article R311.1 du code de la route.
+
+2. Dénomination
+Utilisation d’un lubrifiant économiseur d’énergie pour véhicules de catégorie M1.
+
+3. Conditions pour la délivrance de certificats
+La performance « Fuel Economy » du lubrifiant (Y) est donnée en pourcentage et est supérieure ou égale à 1.5 %.
+
+Elle est mesurée selon la norme d’essai CEC-L-54-T-96 par un organisme accrédité selon la norme NF EN ISO/CEI
+17025-2005 par le Comité français d’accréditation (COFRAC) ou tout autre organisme d’accréditation signataire
+de l’accord européen multilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA),
+coordination européenne des organismes d’accréditation.
+
+Le bénéficiaire est la personne morale distribuant le lubrifiant à l’utilisateur final, sauf s’il s’agit d’un commerce de
+gros de ce lubrifiant consistant à acheter, entreposer et vendre ce lubrifiant à des détaillants, des grossistes, des
+intermédiaires, des utilisateurs professionnels ou des collectivités.
+
+Dans le cas où le distributeur est un commerce de gros du lubrifiant consistant à acheter, entreposer et vendre ce
+lubrifiant à des détaillants, des grossistes, des intermédiaires, des utilisateurs professionnels ou des collectivités, le
+bénéficiaire est celui défini par l'arrêté du 4 septembre 2014 fixant la liste des éléments d'une demande de certificats
+d'économies d'énergie et les documents à archiver par le demandeur.
+
+Le professionnel mettant en œuvre l’opération est la personne morale distribuant le lubrifiant à l’utilisateur final.
+
+La preuve de réalisation de l’opération mentionne l’acquisition de lubrifiants par le bénéficiaire. Ce document
+mentionne le volume de lubrifiants par dénomination commerciale, par point de livraison, correspondant au lieu où
+est distribué le lubrifiant.
+
+Les documents justificatifs spécifiques à l’opération sont :
+- les procès verbaux des résultats des tests d’économies de carburant réalisés selon la norme d’essai CEC-L-54-
+T-96 par un organisme accrédité ;
+- les fiches techniques des produits précisant les catégories ACEA, API ou ILSAC afin de justifier si les produits
+sont des lubrifiants Essence, Diesel ou Mixte ;
+- un tableau de correspondance entre les appellations commerciales des produits utilisés et les références des
+formulations approuvées et testées par l’organisme accrédité pour mesurer l’économie d’énergie, et pour chaque
+lubrifiant : la performance « Fuel Economy » du lubrifiant, sa catégorie ACEA, API ou ILSAC et sa catégorie
+Essence, Diesel ou Mixte.
+
+Dans le cas où le bénéficiaire est la personne morale distribuant le lubrifiant à l’utilisateur final :
+
+- la preuve du rôle actif et incitatif du demandeur détaille les modalités de transmission de la contribution du
+demandeur des certificats d’économies d’énergie jusqu’à l’utilisateur final du lubrifiant. Ce dernier est
+notamment informé de la contribution du demandeur, identifié via sa raison sociale, et du fait que le demandeur
+est à l’origine de la contribution dans le cadre du dispositif des certificats d’économies d’énergie ;
+- la preuve de réalisation de l’opération est complétée par un état récapitulatif, daté et signé par le bénéficiaire,
+des lubrifiants acquis par le bénéficiaire et distribués à l'utilisateur final, indiquant le volume de lubrifiants
+distribués par appellation commerciale, par lieu de distribution (nom du site, numéro de SIRET de
+l’établissement, adresse du lieu de distribution), et par date de facturation et la référence de la preuve de
+réalisation de l’opération.
+
+La date d’engagement de l'opération est la date d’acquisition la plus ancienne de l'état récapitulatif. La date
+d’achèvement de l'opération est la date d’acquisition la plus récente de l'état récapitulatif.
+
+L’écart entre la date d’engagement et la date d’achèvement ne peut excéder 6 mois.
+
+4. Durée de vie conventionnelle
+1 an.
+
+5. Montant de certificats en kWh cumac
+
+Types de lubrifiants pour véhicules
+de catégorie M1
+Montant en kWh cumac
+Lubrifiants Diesel
+33*X1*Y1
+Lubrifiants Essence
+19,4*X2*Y2
+Lubrifiants Mixtes
+29,1*X3*Y3
+
+X est le volume de lubrifiants utilisés, exprimé en litres.
+Y est la performance « Fuel Economy » du lubrifiant, exprimée en %.
+Exemple : pour une performance de 1,5 %, Y = 1,5
+
+Y1 = performance « Fuel Economy » du lubrifiant pour les véhicules Diesel
+Y2 = performance « Fuel Economy » du lubrifiant pour les véhicules Essence
+Y3 = performance « Fuel Economy » du lubrifiant Mixte pour tous types de véhicule
+
+Le montant de certificats d’économies d’énergie à attribuer est égal à la somme du montant de chaque type de
+lubrifiants pour véhicules de catégorie M1.

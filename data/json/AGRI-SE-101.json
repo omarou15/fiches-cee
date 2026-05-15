@@ -1,0 +1,298 @@
+{
+  "code": "AGRI-SE-101",
+  "sector": "agriculture",
+  "family": "SE",
+  "title": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 : Contrôle et préconisations de réglage du moteur d’un tracteur PDF – 115.42 Ko",
+  "version": "vA40-2",
+  "document_version": "vA40-2",
+  "effective_date": "2022-04-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2022-04-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "Contrôle et préconisations de réglage du moteur d’un tracteur",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Contrôle et préconisations de réglage du moteur d’un tracteur",
+      "confidence": "low"
+    },
+    {
+      "text": "Contrôle du moteur d’un tracteur sur banc d’essai mobile et préconisations de réglages.",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Contrôle du moteur d’un tracteur sur banc d’essai mobile et préconisations de réglages.",
+      "confidence": "low"
+    },
+    {
+      "text": "L’opération comprend le contrôle du moteur sur banc d’essai mobile et les conseils délivrés à l’agriculteur ou au",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "L’opération comprend le contrôle du moteur sur banc d’essai mobile et les conseils délivrés à l’agriculteur ou au",
+      "confidence": "low"
+    },
+    {
+      "text": "Le contrôle est effectué par un professionnel.",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le contrôle est effectué par un professionnel.",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l’opération mentionne le contrôle du moteur sur banc d’essai et l’identification du",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne le contrôle du moteur sur banc d’essai et l’identification du",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique de l’opération est le rapport de contrôle du moteur du tracteur agricole sur banc",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique de l’opération est le rapport de contrôle du moteur du tracteur agricole sur banc",
+      "confidence": "low"
+    },
+    {
+      "text": "- le contrôle du moteur sur banc d’essai, le numéro de châssis du véhicule contrôlé et les résultats du contrôle (avec",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- le contrôle du moteur sur banc d’essai, le numéro de châssis du véhicule contrôlé et les résultats du contrôle (avec",
+      "confidence": "low"
+    },
+    {
+      "text": "Le contrôle précédent est daté de plus de deux ans.",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le contrôle précédent est daté de plus de deux ans.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "Contrôle et préconisations de réglage du moteur d’un tracteur",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "Contrôle et préconisations de réglage du moteur d’un tracteur",
+      "confidence": "low"
+    },
+    {
+      "text": "Contrôle du moteur d’un tracteur sur banc d’essai mobile et préconisations de réglages.",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "Contrôle du moteur d’un tracteur sur banc d’essai mobile et préconisations de réglages.",
+      "confidence": "low"
+    },
+    {
+      "text": "L’opération comprend le contrôle du moteur sur banc d’essai mobile et les conseils délivrés à l’agriculteur ou au",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "L’opération comprend le contrôle du moteur sur banc d’essai mobile et les conseils délivrés à l’agriculteur ou au",
+      "confidence": "low"
+    },
+    {
+      "text": "Le contrôle est effectué par un professionnel.",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "Le contrôle est effectué par un professionnel.",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l’opération mentionne le contrôle du moteur sur banc d’essai et l’identification du",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "La preuve de réalisation de l’opération mentionne le contrôle du moteur sur banc d’essai et l’identification du",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique de l’opération est le rapport de contrôle du moteur du tracteur agricole sur banc",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "Le document justificatif spécifique de l’opération est le rapport de contrôle du moteur du tracteur agricole sur banc",
+      "confidence": "low"
+    },
+    {
+      "text": "- le contrôle du moteur sur banc d’essai, le numéro de châssis du véhicule contrôlé et les résultats du contrôle (avec",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "- le contrôle du moteur sur banc d’essai, le numéro de châssis du véhicule contrôlé et les résultats du contrôle (avec",
+      "confidence": "low"
+    },
+    {
+      "text": "Le contrôle précédent est daté de plus de deux ans.",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "Le contrôle précédent est daté de plus de deux ans.",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "AGRI-SE-101 vA40-2 à compter du 01-04-2022_0",
+      "code": "AGRI-SE-101",
+      "document_type": "fiche_principale",
+      "title": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 : Contrôle et préconisations de réglage du moteur d’un tracteur PDF – 115.42 Ko",
+      "path": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-SE-101%20vA40-2%20%C3%A0%20compter%20du%2001-04-2022_0.pdf",
+      "format": "pdf",
+      "effective_date": "2022-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A",
+      "code": "AGRI-SE-101",
+      "document_type": "partie_a",
+      "title": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A PDF – 107.54 Ko",
+      "path": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-SE-101%20vA40-2%20%C3%A0%20compter%20du%2001-04-2022%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2022-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026",
+      "code": "AGRI-SE-101",
+      "document_type": "partie_a",
+      "title": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026 PDF – 108.98 Ko",
+      "path": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-SE-101%20vA40-2%20%C3%A0%20compter%20du%2001-04-2022%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2022-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2025",
+      "code": "AGRI-SE-101",
+      "document_type": "annexe",
+      "title": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2025 PDF – 105.75 Ko",
+      "path": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-SE-101%20vA40-2%20%C3%A0%20compter%20du%2001-04-2022%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2022-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2026",
+      "code": "AGRI-SE-101",
+      "document_type": "annexe",
+      "title": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2026 PDF – 109.15 Ko",
+      "path": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-SE-101%20vA40-2%20%C3%A0%20compter%20du%2001-04-2022%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2022-04-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+    "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A.pdf",
+    "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf",
+    "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:56.869033+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,129 @@
+# BAR-TH-155 - BAR-TH-155 vA40-4 à compter du 01-04-2022 : Ventilation hybride hygroréglable (France métropolitaine) PDF – 131.38 Ko
+- Secteur: residentiel
+- Famille: TH
+- Version: vA40-4
+- Date d'application: 2022-04-01
+
+## Documents sources
+- `Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf`
+- `Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022 - Partie A.pdf`
+- `Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+- Commission chargée de formuler des avis techniques (CCFAT), ou possède des caractéristiques de performance et
+- la norme NF EN ISO/CEI 17065 par le comité français d’accréditation (COFRAC) ou tout autre organisme
+
+## Pieces justificatives detectees
+- La preuve de réalisation de l’opération mentionne la mise en place d’un système de ventilation hybride
+- A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’équipements avec leurs marques et
+- références et elle est accompagnée d’un ou plusieurs document(s) issu(s) du fabricant indiquant que les équipements
+- bouches d’extraction hygroréglables et, le cas échéant, d’entrées d’air hygroréglables. Ce document précise la
+- Le document justificatif spécifique à l’opération est l’avis technique, en cours de validité, du système de ventilation
+- hybride hygroréglable, délivré par la CCFAT, ou les éléments de preuves équivalents.
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh
+- cumac par appartement
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° BAR-TH-155
+
+Ventilation hybride hygroréglable (France métropolitaine)
+
+1. Secteur d’application
+Appartements existants équipés d’une ventilation naturelle ou sans système de ventilation en France métropolitaine.
+
+2. Dénomination
+Mise en place d’une ventilation hybride hygroréglable de type A ou B.
+
+On entend par système de ventilation hybride hygroréglable, un ensemble d’équipements composés d’un extracteur
+pouvant fonctionner en mode naturel ou avec une assistance mécanique, d’entrées d’air et de bouches d’extraction.
+
+Le système de ventilation hybride hygroréglable est appelé :
+- de type A si seules les bouches d’extraction d’air sont hygroréglables ;
+- de type B si les bouches d’extraction d’air et les entrées d’air sont hygroréglables.
+
+3. Conditions pour la délivrance de certificats
+La mise en place est réalisée par un professionnel.
+
+Le professionnel réalisant l’opération est titulaire d’un signe de qualité conforme aux exigences prévues à l’article
+2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du
+code général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des
+textes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 8° du I de l'article 1er du
+décret précité.
+
+Le système de ventilation hybride hygroréglable bénéficie d’un avis technique, en cours de validité, délivré par la
+Commission chargée de formuler des avis techniques (CCFAT), ou possède des caractéristiques de performance et
+de qualité équivalentes établies par un organisme implanté dans l’Espace économique européen et accrédité selon
+la norme NF EN ISO/CEI 17065 par le comité français d’accréditation (COFRAC) ou tout autre organisme
+d’accréditation signataire de l’accord européen multilatéral pertinent dans le cadre de la coordination européenne
+des organismes d’accréditation.
+
+La puissance spécifique de l’extracteur est inférieure à 0,25 Wh/m3. Un extracteur est dit à basse consommation si
+sa puissance spécifique est inférieure ou égale à 0,1 Wh/m3. Dans le cas contraire, l’extracteur est dit standard.
+
+La preuve de réalisation de l’opération mentionne la mise en place d’un système de ventilation hybride
+hygroréglable de type A ou B et la puissance spécifique de l’extracteur.
+
+A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’équipements avec leurs marques et
+références et elle est accompagnée d’un ou plusieurs document(s) issu(s) du fabricant indiquant que les équipements
+installés constituent un système de ventilation hybride hygroréglable composé d’un extracteur de ventilation, de
+bouches d’extraction hygroréglables et, le cas échéant, d’entrées d’air hygroréglables. Ce document précise la
+puissance spécifique de l’extracteur et s’il s’agit d’une ventilation hybride hygroréglable de type A ou B.
+
+Le document justificatif spécifique à l’opération est l’avis technique, en cours de validité, du système de ventilation
+hybride hygroréglable, délivré par la CCFAT, ou les éléments de preuves équivalents.
+
+4. Durée de vie conventionnelle
+17 ans.
+
+5. Montant de certificats en kWh cumac
+
+Zone
+climatique
+Montant en kWh
+cumac par appartement
+
+Nombre
+d’appartements
+
+Facteur correctif
+R lié au type
+d’installation
+
+
+H1
+17 700
+X
+N
+X
+R
+H2
+14 500
+H3
+9 700
+
+Tableau des valeurs du facteur correctif R :
+Ventilation hybride hygroréglable de type A
+Ventilation hybride hygroréglable de type B
+Extracteur basse
+consommation
+Extracteur standard
+Extracteur basse
+consommation
+Extracteur standard
+0,98
+0,93
+1
+0,95

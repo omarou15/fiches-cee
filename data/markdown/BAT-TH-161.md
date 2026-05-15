@@ -1,0 +1,168 @@
+# BAT-TH-161 - BAT-TH-161 vA62-1 à compter du 31-08-2024 : Maintien en température des groupes électrogènes de secours par pompe à chaleur de type air/eau PDF – 159.29 Ko
+- Secteur: tertiaire
+- Famille: TH
+- Version: vA62-1
+- Date d'application: 2024-08-31
+
+## Documents sources
+- `Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf`
+- `Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A.pdf`
+- `Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+- Le COP susmentionné est déterminé en appliquant les norme et conditions suivantes :
+- a) NF EN 14511, sous les conditions suivantes de température : température à l’entrée (échangeur extérieur) de 7°C
+- b) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 20°C/
+
+## Exigences techniques detectees
+- Pour les PAC concernées par le règlement (UE) n° 813/2013 de la Commission du 2 août 2013, l’efficacité
+- Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :
+- Le COP susmentionné est déterminé en appliquant les norme et conditions suivantes :
+- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;
+- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;
+- l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français
+- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.
+- accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre
+- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.
+
+## Pieces justificatives detectees
+- La preuve de la réalisation de l’opération mentionne :
+- A défaut, dans le cas du a ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un
+- d’un groupe électrogène et elle est complétée par un document issu du fabricant ou d’un organisme établi dans
+- Ce document indique :
+- A défaut, dans le cas du b ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un
+- complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et
+- Ce document indique :
+- En cas de mention d’une date de validité, ces documents sont considérés comme valables jusqu’à un an après leur
+
+## Formules / calcul detectes
+- Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :
+- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;
+- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;
+- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.
+- - le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° BAT-TH-161
+
+Maintien en température des groupes électrogènes de secours
+par pompe à chaleur de type air/eau
+
+
+1. Secteur d’application
+Bâtiments tertiaires : locaux, neufs ou existants, d’un centre de données, interne ou d'hébergement, ou d’un hôpital.
+
+Un centre de données, encore dénommé data center, est un site physique regroupant des installations informatiques
+(serveurs, routeurs, commutateurs, disques durs, etc.) chargées de stocker et de distribuer des données à travers un
+réseau interne ou via un accès Internet. Il ne s'agit pas de salles informatiques avec opérateurs saisissant ou traitant
+des données informatiques.
+
+2. Dénomination
+Mise en place d’une pompe à chaleur (PAC) de type air/eau en remplacement des résistances électriques de
+réchauffage et de maintien en température du moteur thermique d’un groupe électrogène de secours existant ou mise
+en place d’un groupe électrogène de secours neuf équipé d’une PAC de type air/eau pour le réchauffage et le maintien
+en température du moteur thermique du groupe électrogène.
+
+La présente fiche s’applique aux opérations engagées avant le 1er août 2029.
+
+3. Conditions pour la délivrance de certificats
+La mise en place, selon le cas, de la pompe à chaleur (PAC) de type air/eau sur un groupe électrogène existant ou
+du groupe électrogène neuf équipé d’une PAC de type air/eau est réalisée par un professionnel.
+
+Le groupe électrogène est un équipement de secours. A ce titre, il n’est utilisé qu’en cas d’absence de fourniture
+d’électricité par le système normal d’alimentation électrique des locaux ou lors des essais visant à s’assurer du bon
+fonctionnement du groupe électrogène.
+
+Le groupe électrogène a une puissance nominale d’au moins 800 kW.
+
+Pour les PAC concernées par le règlement (UE) n° 813/2013 de la Commission du 2 août 2013, l’efficacité
+énergétique saisonnière est supérieure ou égale à 111 %.
+
+Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :
+a) 4,1 pour une PAC utilisant l'air à l’extérieur du local technique contenant le groupe électrogène ;
+b) 5,2 pour une PAC utilisant l'air à l’intérieur du local technique contenant le groupe électrogène.
+
+Le COP susmentionné est déterminé en appliquant les norme et conditions suivantes :
+a) NF EN 14511, sous les conditions suivantes de température : température à l’entrée (échangeur extérieur) de 7°C
+extérieur/température à la sortie (échangeur intérieur) de 45°C, pour une PAC utilisant l'air à l’extérieur du local
+technique contenant le groupe électrogène ;
+
+b) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 20°C/
+température à la sortie (échangeur intérieur) de 45°C, pour une PAC utilisant l'air à l’intérieur du local technique
+contenant le groupe électrogène.
+
+En cas d’opération sur un groupe électrogène existant, la PAC se substitue à un système de maintien en température
+par résistance électrique et le maintien en température est réalisé intégralement par la PAC. La puissance thermique
+de la PAC est au moins égale à la puissance thermique réelle qui était produite par la résistance électrique et ne peut
+pas être inférieure à 75 % de la puissance électrique nominale de la résistance remplacée.
+
+En cas de mise en place d’un groupe électrogène neuf, le maintien en température est réalisé intégralement par une
+PAC.
+
+La preuve de la réalisation de l’opération mentionne :
+a) Dans le cas d’une opération portant sur un groupe électrogène existant :
+- la mise en place d’une PAC de type air/eau assurant intégralement le maintien en température du moteur thermique
+d’un groupe électrogène ;
+- la puissance thermique réelle (en kW) produite par la résistance remplacée et la puissance électrique nominale (en
+kW) de cette résistance ;
+- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;
+- la puissance nominale du groupe électrogène (en kW) ;
+b) Dans le cas de la mise en place d’un groupe électrogène neuf :
+- la mise en place d’un groupe électrogène neuf comportant une PAC de type air/eau assurant intégralement le
+maintien en température du moteur thermique du groupe électrogène ;
+- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;
+- la puissance nominale du groupe électrogène (en kW).
+
+A défaut, dans le cas du a ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un
+équipement avec ses marque et référence, la puissance thermique réelle (en kW) produite par la résistance remplacée
+et la puissance électrique nominale (en kW) de cette résistance, la puissance nominale du groupe électrogène (en
+kW) et le fait que l’équipement mis en place assure intégralement le maintien en température du moteur thermique
+d’un groupe électrogène et elle est complétée par un document issu du fabricant ou d’un organisme établi dans
+l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français
+d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral
+pertinent pris dans le cadre de European cooperation for Accreditation (EA), coordination européenne des
+organismes d'accréditation.
+
+Ce document indique :
+- que l’équipement de marque et référence est une pompe à chaleur de type air/eau ;
+- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.
+
+A défaut, dans le cas du b ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un
+équipement avec ses marque et référence et la puissance nominale du groupe électrogène (en kW) et elle est
+complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et
+accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre
+organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de European co-
+operation for Accreditation (EA), coordination européenne des organismes d'accréditation.
+
+Ce document indique :
+- que l’équipement de marque et référence est un groupe électrogène dont le maintien en température du moteur
+thermique est assuré intégralement par une PAC de type air/eau ;
+- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.
+
+En cas de mention d’une date de validité, ces documents sont considérés comme valables jusqu’à un an après leur
+date de fin de validité.
+
+4. Durée de vie conventionnelle
+11 ans.
+
+5. Montant de certificats en kWh cumac
+
+Puissance nominale du groupe
+électrogène équipé d’une PAC pour le
+maintien en température du moteur
+Montant en kWh cumac
+par groupe électrogène
+800 kW ≤ P ≤ 1 200 kW
+167 800
+1 200 kW < P
+279 600

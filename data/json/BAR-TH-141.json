@@ -1,0 +1,328 @@
+{
+  "code": "BAR-TH-141",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-141 vA71-2 à compter du 01-08-2025 : Climatiseur performant (France d'outre-mer) PDF – 115.47 Ko",
+  "version": "vA71-2",
+  "document_version": "vA71-2",
+  "effective_date": "2025-08-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-08-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": true
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Les climatiseurs à simple ou à double conduit ne sont pas éligibles.",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Les climatiseurs à simple ou à double conduit ne sont pas éligibles.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Remplacement d’un climatiseur existant par un climatiseur fixe, de classe d’efficacité énergétique supérieure ou",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Remplacement d’un climatiseur existant par un climatiseur fixe, de classe d’efficacité énergétique supérieure ou",
+      "confidence": "low"
+    },
+    {
+      "text": "Le climatiseur est de classe A à A+++, selon la classification définie dans le règlement délégué (UE) n° 626/2011",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le climatiseur est de classe A à A+++, selon la classification définie dans le règlement délégué (UE) n° 626/2011",
+      "confidence": "low"
+    },
+    {
+      "text": "3 - sa puissance frigorifique et sa classe d’efficacité énergétique ou le SEER*.",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "3 - sa puissance frigorifique et sa classe d’efficacité énergétique ou le SEER*.",
+      "confidence": "low"
+    },
+    {
+      "text": "établi dans l’Espace économique européen et accrédité selon la norme NF EN 45011 par le Comité français",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "établi dans l’Espace économique européen et accrédité selon la norme NF EN 45011 par le Comité français",
+      "confidence": "low"
+    },
+    {
+      "text": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+      "confidence": "low"
+    },
+    {
+      "text": "permettant de déterminer la classe d’efficacité énergétique du climatiseur installé.",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "permettant de déterminer la classe d’efficacité énergétique du climatiseur installé.",
+      "confidence": "low"
+    },
+    {
+      "text": "Classe A",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Classe A",
+      "confidence": "low"
+    },
+    {
+      "text": "Classe A+",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Classe A+",
+      "confidence": "low"
+    },
+    {
+      "text": "Classe A++",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Classe A++",
+      "confidence": "low"
+    },
+    {
+      "text": "Classe A+++",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Classe A+++",
+      "confidence": "low"
+    },
+    {
+      "text": "caractéristiques et classe d’efficacité identiques, le montant des certificats d’économies d’énergie, calculé par",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "caractéristiques et classe d’efficacité identiques, le montant des certificats d’économies d’énergie, calculé par",
+      "confidence": "low"
+    },
+    {
+      "text": "*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne :",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "Par dérogation aux points 2 et 3 ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Par dérogation aux points 2 et 3 ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un",
+      "confidence": "low"
+    },
+    {
+      "text": "équipement avec ses marque et référence et elle est complétée par un document issu du fabricant ou d’un organisme",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "équipement avec ses marque et référence et elle est complétée par un document issu du fabricant ou d’un organisme",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que l’équipement de marque et référence mis en place est un climatiseur et précise sa puissance",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que l’équipement de marque et référence mis en place est un climatiseur et précise sa puissance",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "caractéristiques et classe d’efficacité identiques, le montant des certificats d’économies d’énergie, calculé par",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "caractéristiques et classe d’efficacité identiques, le montant des certificats d’économies d’énergie, calculé par",
+      "confidence": "low"
+    },
+    {
+      "text": "*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-141 vA71-2 à compter du 01-08-2025",
+      "code": "BAR-TH-141",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-141 vA71-2 à compter du 01-08-2025 : Climatiseur performant (France d'outre-mer) PDF – 115.47 Ko",
+      "path": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-141%20vA71-2%20%C3%A0%20compter%20du%2001-08-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A",
+      "code": "BAR-TH-141",
+      "document_type": "partie_a",
+      "title": "BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A PDF – 103.61 Ko",
+      "path": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-141%20vA71-2%20%C3%A0%20compter%20du%2001-08-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-141",
+      "document_type": "partie_a",
+      "title": "BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A à compter du 01-07-2026 PDF – 108.87 Ko",
+      "path": "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-141%20vA71-2%20%C3%A0%20compter%20du%2001-08-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+    "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.466698+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

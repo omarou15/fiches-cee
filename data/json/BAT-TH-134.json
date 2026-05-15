@@ -1,0 +1,315 @@
+{
+  "code": "BAT-TH-134",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-134 vA22-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une haute pression flottante (France métropolitaine) PDF – 157.16 Ko",
+  "version": "vA22-1",
+  "document_version": "vA22-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": true,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "Autres applications de type réfrigération ou conditionnement d’ambiance hors confort des occupants :",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Autres applications de type réfrigération ou conditionnement d’ambiance hors confort des occupants :",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "26 octobre 2010 et du 28 décembre 2012 relatifs aux caractéristiques thermiques et aux exigences de performance",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "26 octobre 2010 et du 28 décembre 2012 relatifs aux caractéristiques thermiques et aux exigences de performance",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la mise en place d’un système de régulation sur un groupe de",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne la mise en place d’un système de régulation sur un groupe de",
+      "confidence": "low"
+    },
+    {
+      "text": "À défaut, la preuve de réalisation de l’opération mentionne la mise en place d'un équipement avec ses marque et",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "À défaut, la preuve de réalisation de l’opération mentionne la mise en place d'un équipement avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est l’étude technique préalable à la mise en place de la régulation.",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est l’étude technique préalable à la mise en place de la régulation.",
+      "confidence": "low"
+    },
+    {
+      "text": "de production de froid (mono-compresseur ou multi-compresseurs) ou à défaut celle indiquée sur un document issu",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "de production de froid (mono-compresseur ou multi-compresseurs) ou à défaut celle indiquée sur un document issu",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par kW",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par kW",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par kW",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par kW",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par kW",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par kW",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-134 vA22-1",
+      "code": "BAT-TH-134",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-134 vA22-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une haute pression flottante (France métropolitaine) PDF – 157.16 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-134%20vA22-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-134 v A22-1 - Partie A",
+      "code": "BAT-TH-134",
+      "document_type": "partie_a",
+      "title": "BAT-TH-134 v A22-1 - Partie A PDF – 125.55 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-134 v A22-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-134%20v%20A22-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-134 v A22-1 - Partie A à compter du 01-07-2026",
+      "code": "BAT-TH-134",
+      "document_type": "partie_a",
+      "title": "BAT-TH-134 v A22-1 - Partie A à compter du 01-07-2026 PDF – 129.13 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-134 v A22-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-134%20v%20A22-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+    "Tertiaire_BAT/BAT-TH-134 v A22-1 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-TH-134 v A22-1 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.910068+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

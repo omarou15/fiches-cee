@@ -1,0 +1,451 @@
+{
+  "code": "BAR-TH-174",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-174 vA80-3 à compter du 17-01-2026 : Rénovation d’ampleur d’une maison individuelle (France métropolitaine) PDF – 204.43 Ko",
+  "version": "vA80-3",
+  "document_version": "vA80-3",
+  "effective_date": "2026-01-17",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2026-01-17",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": true,
+    "insulation": true,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "égale ou posterieure à la présente opération, pouvant donner lieu à la délivrance de certificats d'économies d'énergie",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "égale ou posterieure à la présente opération, pouvant donner lieu à la délivrance de certificats d'économies d'énergie",
+      "confidence": "low"
+    },
+    {
+      "text": "seconde étape de travaux, selon les conditions définies ci-dessous.",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "seconde étape de travaux, selon les conditions définies ci-dessous.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "sont éligibles à la prime de transition énergétique. Il est établi par une personne répondant aux conditions",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "sont éligibles à la prime de transition énergétique. Il est établi par une personne répondant aux conditions",
+      "confidence": "low"
+    },
+    {
+      "text": "à jour, à condition que les travaux de la première étape correspondent à la proposition du parcours de travaux par",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "à jour, à condition que les travaux de la première étape correspondent à la proposition du parcours de travaux par",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour la première étape de travaux, les conditions cumulatives suivantes sont respectées :",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Pour la première étape de travaux, les conditions cumulatives suivantes sont respectées :",
+      "confidence": "low"
+    },
+    {
+      "text": "Quelle que soit l’étape de travaux, les conditions cumulatives suivantes sont respectées :",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Quelle que soit l’étape de travaux, les conditions cumulatives suivantes sont respectées :",
+      "confidence": "low"
+    },
+    {
+      "text": "l’énergie lorsque le bénéficiaire et le logement vérifient les conditions d’éligibilité :",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "l’énergie lorsque le bénéficiaire et le logement vérifient les conditions d’éligibilité :",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Le terme « classe » fait référence aux classes telles qu'elles sont définies à l'article L.173-1-1 du code de la",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le terme « classe » fait référence aux classes telles qu'elles sont définies à l'article L.173-1-1 du code de la",
+      "confidence": "low"
+    },
+    {
+      "text": "de conversion de l'énergie finale en énergie primaire de l'électricité relatif au diagnostic de performance énergétique.",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "de conversion de l'énergie finale en énergie primaire de l'électricité relatif au diagnostic de performance énergétique.",
+      "confidence": "low"
+    },
+    {
+      "text": "Dans ce cas, les classes du logement avant et après travaux mentionnées sur l'attestation se substituent à celles de",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Dans ce cas, les classes du logement avant et après travaux mentionnées sur l'attestation se substituent à celles de",
+      "confidence": "low"
+    },
+    {
+      "text": "de la présente fiche, pour les logements de classe E, F ou G avant la première étape de travaux.",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "de la présente fiche, pour les logements de classe E, F ou G avant la première étape de travaux.",
+      "confidence": "low"
+    },
+    {
+      "text": "a) Les travaux de rénovation permettent de réaliser un saut d’au moins deux classes au sens de l’article L. 173-1-1",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "a) Les travaux de rénovation permettent de réaliser un saut d’au moins deux classes au sens de l’article L. 173-1-1",
+      "confidence": "low"
+    },
+    {
+      "text": "La résistance thermique est évaluée selon la norme NF EN 12664, la norme NF EN 12667 ou la norme NF EN",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La résistance thermique est évaluée selon la norme NF EN 12664, la norme NF EN 12667 ou la norme NF EN",
+      "confidence": "low"
+    },
+    {
+      "text": "12939 pour les isolants non réfléchissants et selon la norme NF EN ISO 22097 pour les isolants réfléchissants. La",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "12939 pour les isolants non réfléchissants et selon la norme NF EN ISO 22097 pour les isolants réfléchissants. La",
+      "confidence": "low"
+    },
+    {
+      "text": "l’annexe IX de l’arrêté du 26 octobre 2010 relatif aux caractéristiques thermiques et aux exigences de performance",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "l’annexe IX de l’arrêté du 26 octobre 2010 relatif aux caractéristiques thermiques et aux exigences de performance",
+      "confidence": "low"
+    },
+    {
+      "text": "Dans le cas de travaux en deux étapes, la seconde étape de travaux permet d’atteindre au moins la classe C pour les",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Dans le cas de travaux en deux étapes, la seconde étape de travaux permet d’atteindre au moins la classe C pour les",
+      "confidence": "low"
+    },
+    {
+      "text": "logements de classe F ou G avant la première étape de travaux, et au moins la classe B pour les logements de classe",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "logements de classe F ou G avant la première étape de travaux, et au moins la classe B pour les logements de classe",
+      "confidence": "low"
+    },
+    {
+      "text": "classes.",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "classes.",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la liste des travaux réalisés avec leurs niveaux de performance.",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La preuve de réalisation de l’opération mentionne la liste des travaux réalisés avec leurs niveaux de performance.",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "les systèmes d’automatisation et de contrôle du bâtiment dès lors que ces travaux sont valorisés au titre de la présente",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "les systèmes d’automatisation et de contrôle du bâtiment dès lors que ces travaux sont valorisés au titre de la présente",
+      "confidence": "low"
+    },
+    {
+      "text": "énergétique peut être complété par l'attestation définie à l'article 4 de l'arrêté du 13 août 2025 modifiant le facteur",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "énergétique peut être complété par l'attestation définie à l'article 4 de l'arrêté du 13 août 2025 modifiant le facteur",
+      "confidence": "low"
+    },
+    {
+      "text": "Dans ce cas, les classes du logement avant et après travaux mentionnées sur l'attestation se substituent à celles de",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Dans ce cas, les classes du logement avant et après travaux mentionnées sur l'attestation se substituent à celles de",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la liste des travaux réalisés avec leurs niveaux de performance.",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne la liste des travaux réalisés avec leurs niveaux de performance.",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "l'attestation définie à l'article 4 de l'arrêté du 13 août 2025 modifiant le facteur de conversion de l'énergie finale en",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "l'attestation définie à l'article 4 de l'arrêté du 13 août 2025 modifiant le facteur de conversion de l'énergie finale en",
+      "confidence": "low"
+    },
+    {
+      "text": "de propriété), attestation de propriété immobilière) ou le cas échéant, le compromis de vente signé par le vendeur et",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "de propriété), attestation de propriété immobilière) ou le cas échéant, le compromis de vente signé par le vendeur et",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "les systèmes d’automatisation et de contrôle du bâtiment dès lors que ces travaux sont valorisés au titre de la présente",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "les systèmes d’automatisation et de contrôle du bâtiment dès lors que ces travaux sont valorisés au titre de la présente",
+      "confidence": "low"
+    },
+    {
+      "text": "l’énergie lorsque le bénéficiaire et le logement vérifient les conditions d’éligibilité :",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "l’énergie lorsque le bénéficiaire et le logement vérifient les conditions d’éligibilité :",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "d) Sauf contrainte technique, architecturale ou patrimoniale justifiée, le coefficient de transmission surfacique Uw",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "d) Sauf contrainte technique, architecturale ou patrimoniale justifiée, le coefficient de transmission surfacique Uw",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "d) Sauf contrainte technique, architecturale ou patrimoniale justifiée, le coefficient de transmission surfacique Uw",
+      "confidence": "low"
+    },
+    {
+      "text": "à double vitrage renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "à double vitrage renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et",
+      "confidence": "low"
+    },
+    {
+      "text": "150 gCO2eq/kWh PCI, et dont le taux de couverture pour le chauffage, défini comme le rapport entre la quantité de",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "150 gCO2eq/kWh PCI, et dont le taux de couverture pour le chauffage, défini comme le rapport entre la quantité de",
+      "confidence": "low"
+    },
+    {
+      "text": "à 150 gCO2eq/kWh PCI et les besoins annuels de chaleur, pour le chauffage du logement, couverts par le système",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "à 150 gCO2eq/kWh PCI et les besoins annuels de chaleur, pour le chauffage du logement, couverts par le système",
+      "confidence": "low"
+    },
+    {
+      "text": "un équipement pour lequel le niveau d'émissions de gaz à effet de serre est supérieur à 300 gCO2eq/kWh PCI, et",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "un équipement pour lequel le niveau d'émissions de gaz à effet de serre est supérieur à 300 gCO2eq/kWh PCI, et",
+      "confidence": "low"
+    },
+    {
+      "text": "équipements dont les émissions sont supérieures à 300 gCO2eq/kWh PCI et les besoins annuels de chaleur couverts",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "équipements dont les émissions sont supérieures à 300 gCO2eq/kWh PCI et les besoins annuels de chaleur couverts",
+      "confidence": "low"
+    },
+    {
+      "text": "- la consommation conventionnelle (en kWh/m².an) du bâtiment (sans déduction de la production d’électricité",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- la consommation conventionnelle (en kWh/m².an) du bâtiment (sans déduction de la production d’électricité",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les travaux de la seconde étape, le montant de certificats d’économies d’énergie attribué lors de la seconde",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Pour les travaux de la seconde étape, le montant de certificats d’économies d’énergie attribué lors de la seconde",
+      "confidence": "low"
+    },
+    {
+      "text": "étape correspond au montant de certificats d’économies d’énergie correspondant à la somme des sauts de classes",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "étape correspond au montant de certificats d’économies d’énergie correspondant à la somme des sauts de classes",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-174 vA80-3 à compter du 17-01-2026_0",
+      "code": "BAR-TH-174",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-174 vA80-3 à compter du 17-01-2026 : Rénovation d’ampleur d’une maison individuelle (France métropolitaine) PDF – 204.43 Ko",
+      "path": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-174%20vA80-3%20%C3%A0%20compter%20du%2017-01-2026_0.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-17",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-174 vA80-3 à compter du 17-01-2026 - Partie A",
+      "code": "BAR-TH-174",
+      "document_type": "partie_a",
+      "title": "BAR-TH-174 vA80-3 à compter du 17-01-2026 - Partie A PDF – 122.19 Ko",
+      "path": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-174%20vA80-3%20%C3%A0%20compter%20du%2017-01-2026%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-17",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-174 vA80-3 à compter du 17-01-2026 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-174",
+      "document_type": "partie_a",
+      "title": "BAR-TH-174 vA80-3 à compter du 17-01-2026 - Partie A à compter du 01-07-2026 PDF – 124.58 Ko",
+      "path": "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-174%20vA80-3%20%C3%A0%20compter%20du%2017-01-2026%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-17",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+    "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.866974+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "code": "BAR-TH-130",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-130 vA58-3 à compter du 01-04-2024 : Surperformance énergétique pour un bâtiment neuf (France métropolitaine) PDF – 165.74 Ko",
+  "version": "vA58-3",
+  "document_version": "vA58-3",
+  "effective_date": "2024-04-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2024-04-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": true,
+    "existing_building": null,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": true,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "déterminée dans les conditions de la partie 3 de la présente fiche) : Icénergie_max ;",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "déterminée dans les conditions de la partie 3 de la présente fiche) : Icénergie_max ;",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Surperformance énergétique pour un bâtiment neuf",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Surperformance énergétique pour un bâtiment neuf",
+      "confidence": "low"
+    },
+    {
+      "text": "Amélioration des performances énergétiques d’un bâtiment neuf par rapport aux exigences réglementaires en",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Amélioration des performances énergétiques d’un bâtiment neuf par rapport aux exigences réglementaires en",
+      "confidence": "low"
+    },
+    {
+      "text": "Le bâtiment atteint les performances énergétiques suivantes :",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le bâtiment atteint les performances énergétiques suivantes :",
+      "confidence": "low"
+    },
+    {
+      "text": "de l’annexe III de l’arrêté du 4 août 2021 modifié relatif aux exigences de performance énergétique et",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "de l’annexe III de l’arrêté du 4 août 2021 modifié relatif aux exigences de performance énergétique et",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "- la déclaration d’achèvement et de conformité des travaux (DAACT) reçue en mairie, établie selon le document",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- la déclaration d’achèvement et de conformité des travaux (DAACT) reçue en mairie, établie selon le document",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "- l’attestation de la prise en compte de la RE2020 au moment du dépôt du permis de construire en application de",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- l’attestation de la prise en compte de la RE2020 au moment du dépôt du permis de construire en application de",
+      "confidence": "low"
+    },
+    {
+      "text": "- l’attestation de la prise en compte de la RE2020 à l’achèvement des travaux en application de l’article R. 122-24-",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- l’attestation de la prise en compte de la RE2020 à l’achèvement des travaux en application de l’article R. 122-24-",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Le coefficient Cefmax est calculé d’après les formules suivantes, selon les solutions de chauffage utilisées (où Cepmax",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le coefficient Cefmax est calculé d’après les formules suivantes, selon les solutions de chauffage utilisées (où Cepmax",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-130 vA58-3 à compter du 01-04-2024_0",
+      "code": "BAR-TH-130",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-130 vA58-3 à compter du 01-04-2024 : Surperformance énergétique pour un bâtiment neuf (France métropolitaine) PDF – 165.74 Ko",
+      "path": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-130%20vA58-3%20%C3%A0%20compter%20du%2001-04-2024_0.pdf",
+      "format": "pdf",
+      "effective_date": "2024-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A",
+      "code": "BAR-TH-130",
+      "document_type": "partie_a",
+      "title": "BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A PDF – 119.55 Ko",
+      "path": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-130%20vA58-3%20%C3%A0%20compter%20du%2001-04-2024%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2024-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-130",
+      "document_type": "partie_a",
+      "title": "BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A à compter du 01-07-2026 PDF – 124.54 Ko",
+      "path": "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-130%20vA58-3%20%C3%A0%20compter%20du%2001-04-2024%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2024-04-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+    "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.404860+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

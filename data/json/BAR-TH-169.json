@@ -1,0 +1,529 @@
+{
+  "code": "BAR-TH-169",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-169 vA65-2 à compter du 01-04-2025 : Pompe à chaleur collective de type air/eau ou eau/eau pour l’eau chaude sanitaire PDF – 131.8 Ko",
+  "version": "vA65-2",
+  "document_version": "vA65-2",
+  "effective_date": "2025-04-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-04-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": true,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "solaires atmosphériques sont également éligibles.",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "solaires atmosphériques sont également éligibles.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "Le COP susmentionné est déterminé en appliquant les normes et conditions suivantes :",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Le COP susmentionné est déterminé en appliquant les normes et conditions suivantes :",
+      "confidence": "low"
+    },
+    {
+      "text": "a) NF EN 14511, sous les conditions suivantes de température : température à l’entrée (échangeur extérieur) de",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "a) NF EN 14511, sous les conditions suivantes de température : température à l’entrée (échangeur extérieur) de",
+      "confidence": "low"
+    },
+    {
+      "text": "b) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 20°C/",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "b) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 20°C/",
+      "confidence": "low"
+    },
+    {
+      "text": "c) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 10°C/",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "c) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 10°C/",
+      "confidence": "low"
+    },
+    {
+      "text": "d) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 0°C/",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "d) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 0°C/",
+      "confidence": "low"
+    },
+    {
+      "text": "e) NF EN 14511, sous les conditions de température : 10°C/45°C, pour une PAC à capteur solaire",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "e) NF EN 14511, sous les conditions de température : 10°C/45°C, pour une PAC à capteur solaire",
+      "confidence": "low"
+    },
+    {
+      "text": "f) NF EN 14511, sous les conditions de température : 19°C/45°C, pour une PAC sur eaux grises ;",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "f) NF EN 14511, sous les conditions de température : 19°C/45°C, pour une PAC sur eaux grises ;",
+      "confidence": "low"
+    },
+    {
+      "text": "conditions de température : 7°C/T eau entrée = 15°C avec T eau sortie > 55°C, pour une PAC au CO2.",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "conditions de température : 7°C/T eau entrée = 15°C avec T eau sortie > 55°C, pour une PAC au CO2.",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "2013, l’efficacité énergétique pour le chauffage de l’eau est supérieure ou égale à :",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "2013, l’efficacité énergétique pour le chauffage de l’eau est supérieure ou égale à :",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les PAC concernées par le règlement (UE) n° 813/2013 de la Commission du 2 août 2013, l’efficacité",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour les PAC concernées par le règlement (UE) n° 813/2013 de la Commission du 2 août 2013, l’efficacité",
+      "confidence": "low"
+    },
+    {
+      "text": "Dans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Dans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.",
+      "confidence": "low"
+    },
+    {
+      "text": "Le COP susmentionné est déterminé en appliquant les normes et conditions suivantes :",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le COP susmentionné est déterminé en appliquant les normes et conditions suivantes :",
+      "confidence": "low"
+    },
+    {
+      "text": "55°C selon la norme NF EN 14511, le COP à 45°C peut être déterminé par interpolation linéaire entre ces deux",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "55°C selon la norme NF EN 14511, le COP à 45°C peut être déterminé par interpolation linéaire entre ces deux",
+      "confidence": "low"
+    },
+    {
+      "text": "- le COP de chaque équipement installé ;",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le COP de chaque équipement installé ;",
+      "confidence": "low"
+    },
+    {
+      "text": "Commission du 2 août 2013 : l’efficacité énergétique pour le chauffage de l’eau et le profil de soutirage concerné ;",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Commission du 2 août 2013 : l’efficacité énergétique pour le chauffage de l’eau et le profil de soutirage concerné ;",
+      "confidence": "low"
+    },
+    {
+      "text": "l’efficacité énergétique saisonnière.",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "l’efficacité énergétique saisonnière.",
+      "confidence": "low"
+    },
+    {
+      "text": "économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation",
+      "confidence": "low"
+    },
+    {
+      "text": "Commission du 2 août 2013 : l’efficacité énergétique pour le chauffage de l’eau et le profil de soutirage concerné ;",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Commission du 2 août 2013 : l’efficacité énergétique pour le chauffage de l’eau et le profil de soutirage concerné ;",
+      "confidence": "low"
+    },
+    {
+      "text": "l’efficacité énergétique saisonnière ;",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "l’efficacité énergétique saisonnière ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de performance (COP) de chaque équipement installé, déterminé selon les normes susmentionnées ;",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le coefficient de performance (COP) de chaque équipement installé, déterminé selon les normes susmentionnées ;",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec les",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec les",
+      "confidence": "low"
+    },
+    {
+      "text": "marques et références et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "marques et références et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique :",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique :",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "Dans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Dans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Dans tous les cas, le coefficient de performance (COP) de la pompe à chaleur est supérieur ou égal à 2,8.",
+      "confidence": "low"
+    },
+    {
+      "text": "cumulée produite par la PAC sans l’appoint (kWh) pour le chauffage de l’eau, ainsi que les besoins annuels cumulés",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumulée produite par la PAC sans l’appoint (kWh) pour le chauffage de l’eau, ainsi que les besoins annuels cumulés",
+      "confidence": "low"
+    },
+    {
+      "text": "liés au puisage de l’eau chaude sanitaire (kWh) et les pertes de distribution d’eau chaude sanitaire cumulées sur",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "liés au puisage de l’eau chaude sanitaire (kWh) et les pertes de distribution d’eau chaude sanitaire cumulées sur",
+      "confidence": "low"
+    },
+    {
+      "text": "l’année (kWh), et indique le volume de stockage d’eau chaude sanitaire (m3). La note indique la valeur des grandeurs",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "l’année (kWh), et indique le volume de stockage d’eau chaude sanitaire (m3). La note indique la valeur des grandeurs",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de performance (COP) de chaque équipement installé, déterminé selon les normes susmentionnées ;",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- le coefficient de performance (COP) de chaque équipement installé, déterminé selon les normes susmentionnées ;",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "montants de certificats correspondant à chaque PAC.",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "montants de certificats correspondant à chaque PAC.",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-169 vA65-2 à compter du 01-04-2025_1",
+      "code": "BAR-TH-169",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-169 vA65-2 à compter du 01-04-2025 : Pompe à chaleur collective de type air/eau ou eau/eau pour l’eau chaude sanitaire PDF – 131.8 Ko",
+      "path": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-169%20vA65-2%20%C3%A0%20compter%20du%2001-04-2025_1.pdf",
+      "format": "pdf",
+      "effective_date": "2025-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A",
+      "code": "BAR-TH-169",
+      "document_type": "partie_a",
+      "title": "BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A PDF – 112.94 Ko",
+      "path": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-169%20vA65-2%20%C3%A0%20compter%20du%2001-04-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-169",
+      "document_type": "partie_a",
+      "title": "BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026 PDF – 116.51 Ko",
+      "path": "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-169%20vA65-2%20%C3%A0%20compter%20du%2001-04-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-04-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+    "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.703452+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

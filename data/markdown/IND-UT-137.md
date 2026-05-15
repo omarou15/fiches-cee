@@ -1,0 +1,416 @@
+# IND-UT-137 - IND-UT-137 vA65-2 à compter du 01-01-2025 : Mise en place d’un système de pompe(s) à chaleur en rehausse de température de chaleur fatale récupérée PDF – 214.4 Ko
+- Secteur: industrie
+- Famille: UT
+- Version: vA65-2
+- Date d'application: 2025-01-01
+
+## Documents sources
+- `Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf`
+- `Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A.pdf`
+- `Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+- - a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =
+- Eélec, supérieur au COP
+- COP annuel moyen
+- COP annuel moyen
+- f) Calcul du COP annuel moyen = Q/Eélec ;
+
+## Pieces justificatives detectees
+- et de contrôle.
+- La preuve de la réalisation de l’opération mentionne la mise en place d’une pompe à chaleur en rehausse de
+- À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'un équipement avec ses marque et
+- référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence
+- La preuve de la réalisation de l’opération mentionne la mise en place de plusieurs pompes à chaleur en rehausse
+- À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marque et
+- référence et elle est complétée, pour chaque équipement, d’un document issu du fabricant indiquant que
+- Le document justificatif spécifique à l’opération est l’étude de dimensionnement susmentionnée. L’étude de
+- dimensionnement est tenue à disposition par le bénéficiaire en cas de contrôle.
+
+## Formules / calcul detectes
+- - a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =
+- Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système calculée en
+- fonction des points de fonctionnement et durées identifiés dans l’étude de dimensionnement et Eélec (en kWh/an) est
+- d) Calcul de Q (en kWh/an), l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système
+- e) Calcul de Eélec (en kWh/an), l’énergie électrique annuelle absorbée par le système, qui est la somme des
+- 5. Montant de certificats en kWh cumac
+- Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système, calculée au
+- Eélec (en kWh/an) est l’énergie électrique annuelle absorbée par le système, qui est la somme des énergies
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° IND-UT-137
+
+Mise en place d’un système de pompe(s) à chaleur
+en rehausse de température de chaleur fatale récupérée
+
+
+1. Secteur d’application
+Industrie.
+
+2. Dénomination
+Mise en place d’un système de pompe(s) à chaleur (PAC) de type air/air, air/eau ou eau/eau à compression de vapeur
+entrainée par un moteur électrique en rehausse de température dont la source froide est de la chaleur fatale récupérée
+afin de couvrir un besoin de chaleur sur le site (procédé, chauffage des locaux ou eau chaude sanitaire) de puissance
+thermique « chaud » inférieure ou égale à 2 MW.
+
+La présente fiche n’est pas cumulable avec les fiches IND-BA-112, IND-UT-103, IND-UT-117, IND-UT-118, IND-
+UT-138 et IND-UT-139.
+
+La présente fiche s’applique aux opérations engagées avant le 1er janvier 2030.
+
+3. Conditions pour la délivrance de certificats
+La mise en place est réalisée par un professionnel.
+
+La présente fiche s’applique aux systèmes de pompe(s) à chaleur (PAC) de type air/air, air/eau ou eau/eau à
+compression de vapeur entrainée par un moteur électrique en rehausse de température à partir d’une source de
+chaleur fatale générée par un site industriel et de puissance thermique « chaud » inférieure ou égale à 2 MW.
+
+Un système de pompe(s) à chaleur désigne une ou plusieurs pompe(s) à chaleur, montées en parallèle ou en série,
+ainsi que les pompes et ventilateurs des sources froides et chaudes de chacune des pompes à chaleur.
+
+La source froide du système de pompe(s) à chaleur est le fluide en entrée de ce système.
+
+La chaleur fatale est une chaleur générée par une installation qui n’en constitue pas une des finalités premières, et
+qui n’est pas récupérée. Dans le cadre de la présente fiche, est considérée comme chaleur fatale un effluent liquide
+ou gazeux répondant à la définition précédente et ayant une température en continu sur l’année supérieure à 25°C.
+
+La chaleur fatale est générée par le site industriel concerné par l’opération.
+
+La chaleur fatale valorisée par l’opération n’a pas fait l’objet de valorisation antérieure à l’opération.
+
+Le système de PAC :
+- utilise un ou des fluide(s) frigorigène(s) dont le PRG (potentiel de réchauffement global) est strictement inférieur
+à 150 ;
+- a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =
+Q
+Eélec, supérieur au COP
+annuel moyen minimal défini conformément au tableau ci-dessous en fonction de la rehausse en température et de
+la température de l’eau en sortie du condenseur.
+
+Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système calculée en
+fonction des points de fonctionnement et durées identifiés dans l’étude de dimensionnement et Eélec (en kWh/an) est
+l’énergie électrique annuelle absorbée par le système qui est la somme des énergies électriques absorbées par le ou
+les compresseur(s) et les auxiliaires, définis ci-dessous, calculée en fonction des points de fonctionnement et durées
+identifiés dans l’étude de dimensionnement.
+
+Les auxiliaires du système de PAC correspondent aux pompes et ventilateurs de la source froide et de la source
+chaude, qu’ils soient préexistants à l’opération ou non.
+
+Ecart de température entre le
+fluide caloporteur en sortie du
+condenseur et le fluide
+frigoporteur en sortie de
+l’évaporateur (en K)
+COP annuel moyen
+minimal pour une PAC
+dont la température en
+sortie de condenseur
+est inférieure ou égale
+à 100°C
+COP annuel moyen
+minimal pour une PAC
+dont la température en
+sortie de condenseur
+est supérieure à 100°C
+< 30
+5,9
+4,5
+30
+5,9
+4,5
+31
+5,7
+4,3
+32
+5,5
+4,2
+33
+5,4
+4,1
+34
+5,2
+3,9
+35
+5,1
+3,8
+36
+4,9
+3,7
+37
+4,8
+3,6
+38
+4,7
+3,5
+39
+4,5
+3,4
+40
+4,4
+3,4
+41
+4,3
+3,3
+42
+4,2
+3,2
+43
+4,1
+3,1
+44
+4,0
+3,1
+45
+3,9
+3,0
+46
+3,9
+2,9
+47
+3,8
+2,9
+48
+3,7
+2,8
+49
+3,6
+2,7
+50
+3,5
+2,7
+51
+3,5
+2,6
+52
+3,4
+2,6
+53
+3,3
+2,5
+
+54
+3,3
+2,5
+55
+3,2
+2,4
+56
+3,2
+2,4
+57
+3,1
+2,4
+58
+3,1
+2,3
+59
+3,0
+2,3
+60
+3,0
+2,2
+61
+2,9
+2,2
+62
+2,9
+2,2
+63
+2,8
+2,1
+64
+2,8
+2,1
+65
+2,7
+2,1
+66
+2,7
+2,0
+67
+2,6
+2,0
+68
+2,6
+2,0
+69
+2,6
+2,0
+≥ 70
+2,5
+2,0
+
+La mise en place du système de pompe(s) à chaleur fait l’objet d’une étude préalable de dimensionnement, établie,
+datée et signée par le professionnel ou un bureau d’étude. Elle vise à évaluer les économies d’énergie attendues, en
+évaluant la chaleur valorisée au regard de la chaleur fatale récupérable et des besoins de chaleur du site industriel.
+Elle vise également à montrer la cohérence dans le temps entre la récupération de chaleur et les besoins de chaud
+du site industriel.
+
+L’étude de dimensionnement comporte les éléments suivants :
+
+I. Identification de l’opération :
+a) La raison sociale et l’adresse du bénéficiaire ;
+b) L’adresse du chantier si différente de l’adresse du bénéficiaire.
+
+II. Description des caractéristiques techniques des flux :
+L’étude de dimensionnement considère :
+- dans le cas d’un site existant : la chaleur fatale et les besoins d’une année représentative du fonctionnement du
+site ;
+- dans le cas d’un site existant ne disposant pas d’un historique de mesures, sous réserve de justification de
+l’indisponibilité de données suffisantes : la chaleur fatale et les besoins annuels représentatifs du fonctionnement du
+site, estimés d’après une campagne de mesures sur d’une durée supérieure ou égale à deux mois ;
+- dans le cas d’un site neuf : la chaleur fatale et les besoins annuels représentatifs du fonctionnement du site,
+calculés à partir d’une simulation thermique.
+
+II.1. Chaleur fatale :
+a) Indication de la nature de la chaleur fatale récupérable et récupérée (buées de séchage, fumées de fours ou de
+chaudières, condenseurs froid, etc.) ;
+b) Evaluation de la quantité de chaleur fatale récupérée par l’opération, indication de la température et réalisation
+de la courbe de charge correspondant à la disponibilité de la chaleur fatale récupérable (en y soustrayant l’éventuelle
+chaleur fatale déjà récupérée avant l’opération) sur une année représentative ; si les sources de chaleur fatale sont
+multiples, la courbe de charge correspondant à la disponibilité de la chaleur fatale récupérable est la somme des
+courbes individuelles de chaque source et la température de la chaleur fatale est la somme des températures de
+chaque source pondérée par le volume associé ;
+
+c) Description des équipements existants permettant déjà une récupération de chaleur provenant de la source
+concernée par l’opération et ceux qui sont mis en place dans le cadre de l’opération.
+
+II.2. Besoin de chaleur du site industriel :
+a) Indication de la nature des besoins de chaleur du site à couvrir pour les usages : procédés industriels, eau
+chaude sanitaire et/ou chauffage des locaux ;
+b) Evaluation de la quantité de chaleur nécessaire pour couvrir les besoins identifiés du site, indication de la
+température et réalisation de la courbe de charge correspondante sur une année représentative ; la puissance
+nécessaire du ou des condenseurs pour couvrir les besoins de chaleur identifiés est évaluée à cette fin ; si les besoins
+en chaleur du site sont multiples, la courbe de charge correspondante est la somme des courbes individuelles de
+chaque besoin.
+
+II.3. Dimensionnement du système de PAC :
+a) Justification de la durée prévisionnelle de fonctionnement du système par l’étude de la simultanéité entre la
+disponibilité de la chaleur fatale et des besoins de chaleur du site industriel ; pour cela, on réalisera une superposition
+des courbes de charge (temps synchrone) sur la durée considérée par l’étude de dimensionnement ; on définit ainsi
+la durée annuelle D, exprimée en heures, pendant laquelle la valorisation de la chaleur fatale permet de couvrir tout
+ou partie des besoins de chaleur ; cette durée ne peut être supérieure à 8 760 heures ;
+b) Indication des températures de la chaleur fatale récupérée et de la chaleur produite par le système, qui doivent
+être réputées constantes ;
+c) Identification des points de fonctionnement principaux et des durées de fonctionnement associées (entre 5 et
+10 points de fonctionnement) du système en fonction des valeurs prises par les courbes de charge réalisées aux b du
+II.1 et b du II.2 sur une année représentative ;
+d) Calcul de Q (en kWh/an), l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système
+calculée en fonction des points de fonctionnement et durées identifiés au c du II.3 ;
+e) Calcul de Eélec (en kWh/an), l’énergie électrique annuelle absorbée par le système, qui est la somme des
+énergies électriques absorbées par le ou les compresseur(s) et les auxiliaires, définis ci-dessous, calculée en fonction
+des points de fonctionnement et durées identifiés au c du II.3 ;
+f) Calcul du COP annuel moyen = Q/Eélec ;
+g) Justification du bon dimensionnement de la pompe à chaleur au regard des besoins à couvrir sur une année
+représentative, qui précise en particulier :
+i. La puissance électrique maximale absorbée par le système évaluée grâce aux courbes de charge réalisées
+aux b du II.1 et b du II.2 ;
+ii. Les températures de fonctionnement du système (en sortie du condenseur, côté besoin, et en sortie de
+l’évaporateur, côté source) permettant de calculer l’écart de température, ∆T moyen, sur les périodes de
+fonctionnement ;
+iii. La puissance thermique « chaud » (en kW), c’est-à-dire la puissance thermique maximale nécessaire
+du système ;
+iv. Pour chaque point de fonctionnement identifié au c du II.3 :
+- la durée de fonctionnement ;
+- la puissance thermique (en kW thermique) ;
+- le taux de charge (en %), c’est-à-dire le rapport entre la puissance thermique au point de fonctionnement
+considéré et la puissance thermique « chaud » ;
+- la puissance électrique absorbée par le ou les compresseurs et les auxiliaires (en kW électrique) ;
+h) Description du système incluant la ou les pompe(s) à chaleur ainsi que les pompes de distribution et les
+ventilateurs, la longueur du circuit de distribution, les éventuels stockages, etc., accompagnée d’un schéma simplifié
+de l’installation. Ce schéma fait apparaitre au minimum la ou les pompe(s) à chaleur, les pompes de distribution, les
+ventilateurs, les éventuels stockages, la ou les source(s) de chaleur fatale, le ou les besoin(s) alimentés, le circuit de
+distribution et les puissances et températures des différents réseaux ;
+i) Evaluation des économies d’énergie attendues, sur une période annuelle représentative ;
+
+j) Justification du fait que la température d’entrée du condenseur, côté besoin, lorsque le système de PAC est en
+fonctionnement, est en permanence supérieure à la moyenne des températures de chaleur fatale disponible.
+
+Le système de PAC installé est tel que :
+- l’énergie thermique annuelle fournie par le système installé est supérieure ou égale à celle calculée au d du II.3
+ci-dessus de l’étude de dimensionnement ;
+- l’énergie électrique annuelle absorbée par le système installé est inférieure ou égale à celle calculée au e du II.3
+ci-dessus de l’étude de dimensionnement.
+
+Dans le cas où la récupération de chaleur nécessiterait l’installation d’un système comportant plusieurs pompes
+à chaleur, la présente fiche ne sera utilisée qu’à une seule reprise. Le bilan est global aux bornes du système.
+
+Aucun équipement du système ne doit avoir fait l’objet, en dehors de l’opération considérée, d’une valorisation
+au titre du dispositif des certificats d’économies d’énergie.
+
+Dans le cas d’un montage de PAC en parallèle :
+i. Le besoin de chaleur considéré est commun ;
+ii. L’énergie thermique fournie sous forme de chaleur Q du système est la somme des énergies thermiques
+fournies sous forme de chaleur en sortie de chaque PAC. De même, la puissance thermique du système est la somme
+des puissances thermiques fournies en sortie de chaque PAC.
+
+Dans le cas d’un montage de PAC en série :
+i. La première pompe à chaleur doit être alimentée par la chaleur fatale, directement ou par l’intermédiaire d’un
+échangeur de chaleur ;
+ii. L’énergie thermique fournie sous forme de chaleur Q du système est celle fournie en sortie de la dernière
+pompe à chaleur. De même, la puissance thermique du système est celle fournie en sortie de la dernière pompe à
+chaleur.
+
+Les instruments de mesure suivants sont installés :
+- pour mesurer la puissance électrique absorbée : des wattmètres sur le ou les compresseur(s) et les auxiliaires ;
+- pour mesurer la quantité de chaleur délivrée : un dispositif de mesure d’énergie thermique (débitmètre au niveau
+du ou des condenseur(s) et sondes de température en entrée et sortie du ou des condenseur(s)).
+
+Les mesures sont enregistrées et conservées par le bénéficiaire pendant neuf ans à compter de la date
+d’achèvement de l’opération. Le bénéficiaire s’engage à transmettre ses mesures à des fins de traitements statistiques
+et de contrôle.
+
+Dans le cas de la mise en place d’une pompe à chaleur simple :
+La preuve de la réalisation de l’opération mentionne la mise en place d’une pompe à chaleur en rehausse de
+température de chaleur fatale récupérée, la puissance plaquée du ou des compresseur(s), les puissances thermiques
+fournies et puissances électriques absorbées du ou des compresseur(s) et, s’ils ne préexistaient pas à l’opération, des
+auxiliaires, à tous les points de fonctionnement identifiés dans l’étude de dimensionnement.
+
+À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'un équipement avec ses marque et
+référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence
+installé est une pompe à chaleur et mentionnant la puissance plaquée du ou des compresseur(s), les puissances
+thermiques fournies et puissances électriques absorbées du ou des compresseur(s) et, s’ils ne préexistaient pas à
+l’opération, des auxiliaires, à tous les points de fonctionnement identifiés dans l’étude de dimensionnement.
+
+Dans le cas de la mise en place d’un système comportant plusieurs pompes à chaleur :
+
+La preuve de la réalisation de l’opération mentionne la mise en place de plusieurs pompes à chaleur en rehausse
+de température de chaleur fatale récupérée, montées en série ou en parallèle, la puissance plaquée du ou des
+compresseur(s), les puissances thermiques fournies et puissances électriques absorbées du ou des compresseur(s)
+et, s’ils ne préexistaient pas à l’opération, des auxiliaires, à tous les points de fonctionnement identifiés dans l’étude
+de dimensionnement.
+
+À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marque et
+référence et elle est complétée, pour chaque équipement, d’un document issu du fabricant indiquant que
+l’équipement de marque et référence installé est une pompe à chaleur et mentionnant la puissance plaquée du ou des
+compresseur(s), les puissances thermiques fournies et puissances électriques absorbées du ou des compresseur(s)
+et, s’ils ne préexistaient pas à l’opération, des auxiliaires, à tous les points de fonctionnement identifiés dans l’étude
+de dimensionnement.
+
+Le document justificatif spécifique à l’opération est l’étude de dimensionnement susmentionnée. L’étude de
+dimensionnement est tenue à disposition par le bénéficiaire en cas de contrôle.
+
+4. Durée de vie conventionnelle
+14 ans.
+
+5. Montant de certificats en kWh cumac
+Le volume de certificats d’économies d’énergie est déterminé comme suit :
+
+10,986 x (Q – Eélec)
+
+Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système, calculée au
+d du II.3 ci-dessus de l’étude de dimensionnement.
+
+Eélec (en kWh/an) est l’énergie électrique annuelle absorbée par le système, qui est la somme des énergies
+électriques absorbées par le ou les compresseur(s) et les auxiliaires, calculée au e du II.3 ci-dessus de l’étude de
+dimensionnement.

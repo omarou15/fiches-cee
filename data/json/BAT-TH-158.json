@@ -1,0 +1,433 @@
+{
+  "code": "BAT-TH-158",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-158 vA62-3 à compter du 01-01-2025 : Pompe à chaleur réversible de type air/air PDF – 168.42 Ko",
+  "version": "vA62-3",
+  "document_version": "vA62-3",
+  "effective_date": "2025-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": true,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "performance selon le règlement (UE) 206/2012 de la Commission du 6 mars 2012 portant application de la directive",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "performance selon le règlement (UE) 206/2012 de la Commission du 6 mars 2012 portant application de la directive",
+      "confidence": "low"
+    },
+    {
+      "text": "- 4,2 pour le coefficient de performance saisonnier (SCOP) ;",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- 4,2 pour le coefficient de performance saisonnier (SCOP) ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- 6,1 pour l’efficacité énergétique saisonnière (SEER).",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- 6,1 pour l’efficacité énergétique saisonnière (SEER).",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les PAC de type air/air d’une puissance calorifique nominale supérieure à 12 kW, les efficacités énergétiques",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour les PAC de type air/air d’une puissance calorifique nominale supérieure à 12 kW, les efficacités énergétiques",
+      "confidence": "low"
+    },
+    {
+      "text": "performance SCOP et SEER de l’équipement ;",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "performance SCOP et SEER de l’équipement ;",
+      "confidence": "low"
+    },
+    {
+      "text": "toiture, ou « rooftop » ; autre PAC), les efficacités énergétiques saisonnières (Etas) de l’équipement pour le",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "toiture, ou « rooftop » ; autre PAC), les efficacités énergétiques saisonnières (Etas) de l’équipement pour le",
+      "confidence": "low"
+    },
+    {
+      "text": "européen et accrédité selon la norme NF EN 45011 par le Comité français d'accréditation (COFRAC) ou tout autre",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "européen et accrédité selon la norme NF EN 45011 par le Comité français d'accréditation (COFRAC) ou tout autre",
+      "confidence": "low"
+    },
+    {
+      "text": "Il précise les puissances calorifique et frigorifique nominales de la PAC ainsi que les performances énergétiques de",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Il précise les puissances calorifique et frigorifique nominales de la PAC ainsi que les performances énergétiques de",
+      "confidence": "low"
+    },
+    {
+      "text": "l’équipement installé : SCOP et SEER pour une PAC de puissance calorifique nominale inférieure ou égale à",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "l’équipement installé : SCOP et SEER pour une PAC de puissance calorifique nominale inférieure ou égale à",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne :",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que l’équipement de marque et référence mis en place est une PAC réversible de type air/air.",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que l’équipement de marque et référence mis en place est une PAC réversible de type air/air.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "Pour les PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Pour les PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Pour les PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
+      "confidence": "low"
+    },
+    {
+      "text": "- 4,2 pour le coefficient de performance saisonnier (SCOP) ;",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- 4,2 pour le coefficient de performance saisonnier (SCOP) ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- pour une PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- pour une PAC de type air/air de puissance calorifique nominale inférieure ou égale à 12 kW, les coefficients de",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWhc/m²",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWhc/m²",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWhc/m²",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWhc/m²",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWhc/m²",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWhc/m²",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-158 vA62-3 à compter du 01-01-2025_1",
+      "code": "BAT-TH-158",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-158 vA62-3 à compter du 01-01-2025 : Pompe à chaleur réversible de type air/air PDF – 168.42 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-158%20vA62-3%20%C3%A0%20compter%20du%2001-01-2025_1.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A",
+      "code": "BAT-TH-158",
+      "document_type": "partie_a",
+      "title": "BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A PDF – 130.5 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-158%20vA62-3%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A à compter du 01-07-2026",
+      "code": "BAT-TH-158",
+      "document_type": "partie_a",
+      "title": "BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A à compter du 01-07-2026 PDF – 135.79 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-158%20vA62-3%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+    "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.122561+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

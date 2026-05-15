@@ -1,0 +1,216 @@
+{
+  "code": "IND-UT-133",
+  "sector": "industrie",
+  "family": "UT",
+  "title": "IND-UT-133 vA28-1 : Système électronique de pilotage d’un moteur électrique avec récupération d’énergie PDF – 124.28 Ko",
+  "version": "vA28-1",
+  "document_version": "vA28-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "mécanique aux conditions de fonctionnement assignées par le constructeur.",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "mécanique aux conditions de fonctionnement assignées par le constructeur.",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne l’installation d’un système électronique de pilotage d’un moteur",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne l’installation d’un système électronique de pilotage d’un moteur",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne l’installation d’un équipement permettant de récupérer",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne l’installation d’un équipement permettant de récupérer",
+      "confidence": "low"
+    },
+    {
+      "text": "document issu du fabricant indiquant que l’équipement de marque et référence installé est un système électronique",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "document issu du fabricant indiquant que l’équipement de marque et référence installé est un système électronique",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place du",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place du",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant de certificats en kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant de certificats en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1  + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1  + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Industrie_IND/IND-UT-133 vA28-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "IND-UT-133 vA28-1",
+      "code": "IND-UT-133",
+      "document_type": "fiche_principale",
+      "title": "IND-UT-133 vA28-1 : Système électronique de pilotage d’un moteur électrique avec récupération d’énergie PDF – 124.28 Ko",
+      "path": "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-133%20vA28-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-133 vA28-1 - Partie A",
+      "code": "IND-UT-133",
+      "document_type": "partie_a",
+      "title": "IND-UT-133 vA28-1 - Partie A PDF – 120.19 Ko",
+      "path": "Industrie_IND/IND-UT-133 vA28-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-133%20vA28-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-133 vA28-1 - Partie A à compter du 01-07-2026",
+      "code": "IND-UT-133",
+      "document_type": "partie_a",
+      "title": "IND-UT-133 vA28-1 - Partie A à compter du 01-07-2026 PDF – 125.07 Ko",
+      "path": "Industrie_IND/IND-UT-133 vA28-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-133%20vA28-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Industrie_IND/IND-UT-133 vA28-1.pdf",
+    "Industrie_IND/IND-UT-133 vA28-1 - Partie A.pdf",
+    "Industrie_IND/IND-UT-133 vA28-1 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.367975+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

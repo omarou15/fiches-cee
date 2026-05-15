@@ -1,0 +1,200 @@
+# IND-UT-129 - IND-UT-129 v A32-3 : Presse à injecter tout électrique ou hybride PDF – 126.44 Ko
+- Secteur: industrie
+- Famille: UT
+- Version: unknown
+- Date d'application: unknown
+
+## Documents sources
+- `Industrie_IND/IND-UT-129 v A32-3.pdf`
+- `Industrie_IND/IND-UT-129 v A32-3 - Partie A_0.pdf`
+- `Industrie_IND/IND-UT-129 v A32-3 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+_Non detecte automatiquement._
+
+## Pieces justificatives detectees
+- La preuve de la réalisation de l’opération mentionne la mise en place d’une presse à injecter tout électrique ou d’une
+- A défaut, la preuve de réalisation de l'opération mentionne la mise en place d'un équipement avec ses marque et
+- référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence
+- injecter tout électrique ou hybride, ce document précise la puissance électrique nominale de la presse.
+- défaut elle est fournie par un document issu du fabricant de la presse à injecter et détaillant les puissances des
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh
+- cumac par kW
+- Montant en kWh
+- cumac par kW
+- Montant en kWh
+- cumac par kW
+- Montant en kWh
+- cumac par kW
+- Montant en kWh
+- cumac par kW
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° IND-UT-129
+
+Presse à injecter tout électrique ou hybride
+
+1. Secteur d’application
+Industrie.
+
+2. Dénomination
+Mise en place d’une presse à injecter tout électrique ou d’une presse à injecter hybride (électrique et hydraulique)
+neuve ou transformation d’une presse à injecter hydraulique existante en presse à injecter hybride par l'installation
+d'un kit d'hybridation.
+
+Une presse à injecter est dite « hybride 1 » lorsque seule la fonction dosage est réalisée par des moteurs électriques
+sans recourir à la force hydraulique. Une presse « hybride 1 » peut résulter de l’installation d’un kit d’hybridation
+sur une presse à injecter hydraulique existante.
+
+Une presse à injecter est dite « hybride 2 » lorsque, a minima, deux fonctions parmi le dosage, l'injection et la
+fermeture sont réalisées par des moteurs électriques sans recourir à la force hydraulique. Une presse « hybride 2 »
+peut résulter de l’installation d’un kit d’hybridation sur une presse à injecter hydraulique existante.
+
+Une presse à injecter est dite « tout électrique » lorsque les fonctions de dosage, d'injection et de fermeture de la
+presse sont réalisées par des moteurs électriques sans recourir à la force hydraulique.
+
+3. Conditions pour la délivrance de certificats
+La mise en place est réalisée par un professionnel.
+
+La preuve de la réalisation de l’opération mentionne la mise en place d’une presse à injecter tout électrique ou d’une
+presse à injecter hybride de type 1 ou de type 2 ou d’un kit d’hybridation en presse hybride 1 ou en presse hybride
+2 et dans le cas de la mise en place d’une presse à injecter tout électrique ou hybride, sa puissance électrique
+nominale.
+
+A défaut, la preuve de réalisation de l'opération mentionne la mise en place d'un équipement avec ses marque et
+référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence
+mis en place est une presse à injecter tout électrique ou une presse à injecter de type hybride 1 ou de type hybride 2
+ou un kit d’hybridation en presse hybride 1 ou en presse hybride 2. Dans le cas de l'installation d’une presse à
+injecter tout électrique ou hybride, ce document précise la puissance électrique nominale de la presse.
+
+4. Durée de vie conventionnelle
+15 ans pour l’installation d’une presse à injecter tout électrique ou hybride de type 1 ou 2.
+10 ans pour la transformation d’une presse à injecter hydraulique en presse à injecter hybride de type 1 ou 2.
+
+5. Montant de certificats en kWh cumac
+La puissance électrique nominale d’une presse à injecter correspond à sa puissance électrique nominale seule, hors
+équipement. Ainsi, la puissance électrique nominale de la presse à injecter hors équipement désigne la puissance
+nominale des servomoteurs qui gèrent les fonctions clés de la presse (ouverture/fermeture, éjection,
+injection/dosage, avance et recul du groupe d’injection) et le chauffage du fourreau. Les puissances des équipements
+périphériques et accessoires ajoutés à la presse à injecter (prises, robots, canaux chauds…) ne sont pas prises en
+compte dans le calcul de la puissance électrique nominale.
+
+La puissance électrique nominale P est reprise de la plaque signalétique de la presse à injecter si celle-ci indique les
+puissances nominales des servomoteurs qui gèrent les fonctions clés de la presse et le chauffage du fourreau ou à
+défaut elle est fournie par un document issu du fabricant de la presse à injecter et détaillant les puissances des
+servomoteurs et du chauffage du fourreau.
+
+Mise en place d’une presse à injecter tout électrique :
+
+Mode de fonctionnement du site
+Montant en kWh
+cumac par kW
+
+Puissance électrique nominale
+de la presse tout électrique
+neuve en kW
+1x8h
+12 000
+X
+P
+2x8h
+26 300
+3x8h avec arrêt le week-end
+36 000
+3x8h sans arrêt le week-end
+50 300
+
+Mise en place d’une presse à injecter hybride 2 :
+
+Mode de fonctionnement du site
+Montant en kWh
+cumac par kW
+
+Puissance électrique nominale
+de la presse hybride neuve en
+kW
+1x8h
+7 700
+X
+P
+2x8h
+17 000
+3x8h avec arrêt le week-end
+23 100
+3x8h sans arrêt le week-end
+32 400
+
+Mise en place d’une presse à injecter hybride 1 :
+
+Mode de fonctionnement du site
+Montant en kWh
+cumac par kW
+
+Puissance électrique
+nominale de la presse hybride
+neuve en kW
+1x8h
+4 500
+X
+P
+2x8h
+9 900
+3x8h avec arrêt le week-end
+13 500
+3x8h sans arrêt le week-end
+18 900
+
+Transformation d’une presse à injecter hydraulique existante en presse à injecter hybride 2 par l’installation d’un
+kit d’hybridation :
+
+Mode de fonctionnement du site
+Montant en kWh
+cumac par kW
+
+Puissance électrique
+nominale de la presse
+hydraulique existante en kW
+1x8h
+4 200
+X
+P
+2x8h
+9 200
+3x8h avec arrêt le week-end
+12 600
+3x8h sans arrêt le week-end
+17 600
+
+Transformation d’une presse à injecter hydraulique existante en presse à injecter hybride 1 par l’installation d’un
+kit d’hybridation :
+
+Mode de fonctionnement du site
+Montant en kWh
+cumac par kW
+
+Puissance électrique
+nominale de la presse
+hydraulique existante en kW
+1x8h
+2 800
+X
+P
+2x8h
+6 200
+3x8h avec arrêt le week-end
+8 400
+3x8h sans arrêt le week-end
+11 700

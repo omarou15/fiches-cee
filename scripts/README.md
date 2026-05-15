@@ -26,6 +26,30 @@ Ce dossier est reserve au futur pipeline reproductible.
    - valide les sorties avec `schemas/` ;
    - produit `data/indexes/extraction_report.json`.
 
+6. `search_fiches.py`
+   - recherche un code exact ou une requete plein texte dans les fiches et chunks.
+
+## Commandes
+
+Generer les donnees derivees :
+
+```bash
+python scripts/build_indexes.py
+```
+
+Valider les JSON et chunks :
+
+```bash
+python scripts/validate_json.py
+```
+
+Chercher une fiche ou un sujet :
+
+```bash
+python scripts/search_fiches.py "BAR-TH-179"
+python scripts/search_fiches.py "PAC collective"
+```
+
 ## Regle
 
 Tout script doit etre idempotent : relancer le pipeline ne doit pas casser les sorties existantes ni modifier les sources officielles.

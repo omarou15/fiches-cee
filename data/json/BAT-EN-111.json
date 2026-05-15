@@ -1,0 +1,322 @@
+{
+  "code": "BAT-EN-111",
+  "sector": "tertiaire",
+  "family": "EN",
+  "title": "BAT-EN-111 vA38-1 à compter du 31-07-2021 : Fenêtre ou porte-fenêtre complète avec vitrage pariétodynamique (France métropolitaine) PDF – 136.78 Ko",
+  "version": "vA38-1",
+  "document_version": "vA38-1",
+  "effective_date": "2021-07-31",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2021-07-31",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": true,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "ne donnent pas lieu à la délivrance de certificats d’économies d’énergie.",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "ne donnent pas lieu à la délivrance de certificats d’économies d’énergie.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Les facteurs de transmission solaire Sw des fenêtres ou portes-fenêtres sont évalués selon la norme XP P 50-777 et",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Les facteurs de transmission solaire Sw des fenêtres ou portes-fenêtres sont évalués selon la norme XP P 50-777 et",
+      "confidence": "low"
+    },
+    {
+      "text": "les coefficients de transmission thermique Uw selon la norme NF EN 14351-1+A2. Le facteur de transmission",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "les coefficients de transmission thermique Uw selon la norme NF EN 14351-1+A2. Le facteur de transmission",
+      "confidence": "low"
+    },
+    {
+      "text": "document issu du fabricant ou d’un organisme établi dans l’Espace économique européen et accrédité selon la norme",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "document issu du fabricant ou d’un organisme établi dans l’Espace économique européen et accrédité selon la norme",
+      "confidence": "low"
+    },
+    {
+      "text": "et pour un débit d’air par vantail de 10 m3/h ainsi que selon les normes susmentionnées. En cas de mention d’une",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "et pour un débit d’air par vantail de 10 m3/h ainsi que selon les normes susmentionnées. En cas de mention d’une",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "solaire Sw est celui de la paroi complète, et inclut les vitrages de contrôle solaire et les protections solaires mobiles",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "solaire Sw est celui de la paroi complète, et inclut les vitrages de contrôle solaire et les protections solaires mobiles",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec",
+      "confidence": "low"
+    },
+    {
+      "text": "document issu du fabricant ou d’un organisme établi dans l’Espace économique européen et accrédité selon la norme",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "document issu du fabricant ou d’un organisme établi dans l’Espace économique européen et accrédité selon la norme",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que l’équipement de marque et référence installé est une fenêtre ou porte-fenêtre complète",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que l’équipement de marque et référence installé est une fenêtre ou porte-fenêtre complète",
+      "confidence": "low"
+    },
+    {
+      "text": "date de validité, ce document est considéré comme valable jusqu’à un an après sa date de fin de validité.",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "date de validité, ce document est considéré comme valable jusqu’à un an après sa date de fin de validité.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "solaire Sw est celui de la paroi complète, et inclut les vitrages de contrôle solaire et les protections solaires mobiles",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "solaire Sw est celui de la paroi complète, et inclut les vitrages de contrôle solaire et les protections solaires mobiles",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "Le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "les coefficients de transmission thermique Uw selon la norme NF EN 14351-1+A2. Le facteur de transmission",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "les coefficients de transmission thermique Uw selon la norme NF EN 14351-1+A2. Le facteur de transmission",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de transmission surfacique Uw et le facteur solaire Sw des équipements installés.",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- le coefficient de transmission surfacique Uw et le facteur solaire Sw des équipements installés.",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par m² de fenêtre ou",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par m² de fenêtre ou",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone climatique",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone climatique",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-EN-111 vA38-1 à compter du 31-07-2021",
+      "code": "BAT-EN-111",
+      "document_type": "fiche_principale",
+      "title": "BAT-EN-111 vA38-1 à compter du 31-07-2021 : Fenêtre ou porte-fenêtre complète avec vitrage pariétodynamique (France métropolitaine) PDF – 136.78 Ko",
+      "path": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EN-111%20vA38-1%20%C3%A0%20compter%20du%2031-07-2021.pdf",
+      "format": "pdf",
+      "effective_date": "2021-07-31",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-EN-111 vA38-1 à compter du 31-07-2021 - Partie A",
+      "code": "BAT-EN-111",
+      "document_type": "partie_a",
+      "title": "BAT-EN-111 vA38-1 à compter du 31-07-2021 - Partie A PDF – 114.01 Ko",
+      "path": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EN-111%20vA38-1%20%C3%A0%20compter%20du%2031-07-2021%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2021-07-31",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-EN-111 vA38-1 à compter du 31-07-2021 - Partie A à compter du 01-07-2026",
+      "code": "BAT-EN-111",
+      "document_type": "partie_a",
+      "title": "BAT-EN-111 vA38-1 à compter du 31-07-2021 - Partie A à compter du 01-07-2026 PDF – 107.83 Ko",
+      "path": "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EN-111%20vA38-1%20%C3%A0%20compter%20du%2031-07-2021%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2021-07-31",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+    "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.285141+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

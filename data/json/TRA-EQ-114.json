@@ -1,0 +1,230 @@
+{
+  "code": "TRA-EQ-114",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 : Achat ou location d’un véhicule léger électrique neuf ou opération de rétrofit électrique d’un véhicule léger, par une collectivité locale ou une autre personne morale PDF – 121.11 Ko",
+  "version": "vA76-4",
+  "document_version": "vA76-4",
+  "effective_date": "2025-10-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-10-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "motorisation thermique en motorisation électrique selon les conditions prévues par l’arrêté du 13 mars",
+      "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "motorisation thermique en motorisation électrique selon les conditions prévues par l’arrêté du 13 mars",
+      "confidence": "low"
+    },
+    {
+      "text": "au sens de l’arrêté du 9 février 2009 relatif aux modalités d'immatriculation des véhicules, est éligible à",
+      "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "au sens de l’arrêté du 9 février 2009 relatif aux modalités d'immatriculation des véhicules, est éligible à",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "- la copie du certificat provisoire ou définitif d’immatriculation définitive des véhicules achetés ou loués",
+      "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- la copie du certificat provisoire ou définitif d’immatriculation définitive des véhicules achetés ou loués",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne l’achat ou la location de véhicules légers électriques",
+      "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne l’achat ou la location de véhicules légers électriques",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont les suivants :",
+      "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont les suivants :",
+      "confidence": "low"
+    },
+    {
+      "text": "- pour les véhicules ayant fait l’objet d’une opération de rétrofit électrique, l’attestation de",
+      "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- pour les véhicules ayant fait l’objet d’une opération de rétrofit électrique, l’attestation de",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-114 vA76-4 à compter du 01-10-2025",
+      "code": "TRA-EQ-114",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 : Achat ou location d’un véhicule léger électrique neuf ou opération de rétrofit électrique d’un véhicule léger, par une collectivité locale ou une autre personne morale PDF – 121.11 Ko",
+      "path": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-114%20vA76-4%20%C3%A0%20compter%20du%2001-10-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Partie A",
+      "code": "TRA-EQ-114",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Partie A PDF – 108.4 Ko",
+      "path": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-114%20vA76-4%20%C3%A0%20compter%20du%2001-10-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Partie A à compter du 01-07-2026",
+      "code": "TRA-EQ-114",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Partie A à compter du 01-07-2026 PDF – 113.04 Ko",
+      "path": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-114%20vA76-4%20%C3%A0%20compter%20du%2001-10-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2025",
+      "code": "TRA-EQ-114",
+      "document_type": "annexe",
+      "title": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2025 PDF – 107.63 Ko",
+      "path": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-114%20vA76-4%20%C3%A0%20compter%20du%2001-10-2025%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-EQ-114",
+      "document_type": "annexe",
+      "title": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2026 PDF – 101.01 Ko",
+      "path": "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-114%20vA76-4%20%C3%A0%20compter%20du%2001-10-2025%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-114 vA68-3 Feuille récapitulative_0",
+      "code": "TRA-EQ-114",
+      "document_type": "feuille_recapitulative",
+      "title": "TRA-EQ-114 vA68-3 Feuille récapitulative XLS – 35.5 Ko",
+      "path": "Transport_TRA/TRA-EQ-114 vA68-3 Feuille récapitulative_0.xls",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-114%20vA68-3%20Feuille%20r%C3%A9capitulative_0.xls",
+      "format": "xls",
+      "effective_date": null,
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+    "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Partie A.pdf",
+    "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Partie A à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-114 vA68-3 Feuille récapitulative_0.xls"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.526067+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

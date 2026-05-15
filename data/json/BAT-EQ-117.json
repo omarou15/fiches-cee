@@ -1,0 +1,266 @@
+{
+  "code": "BAT-EQ-117",
+  "sector": "tertiaire",
+  "family": "EQ",
+  "title": "BAT-EQ-117 vA40-2 à compter du 01-04-2022 : Installation frigorifique utilisant du CO2 subcritique ou transcritique PDF – 164.25 Ko",
+  "version": "vA40-2",
+  "document_version": "vA40-2",
+  "effective_date": "2022-04-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2022-04-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "dans cette situation trois cas d’opérations éligibles dont les conditions sont détaillées dans le tableau ci-dessous, en",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "dans cette situation trois cas d’opérations éligibles dont les conditions sont détaillées dans le tableau ci-dessous, en",
+      "confidence": "low"
+    },
+    {
+      "text": "l’installation existante (cf. colonne « Solution éligible ») ;",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "l’installation existante (cf. colonne « Solution éligible ») ;",
+      "confidence": "low"
+    },
+    {
+      "text": "L’installation neuve installée satisfait aux conditions des solutions éligibles « Cas 2 » et « Cas 3 » détaillées dans la",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "L’installation neuve installée satisfait aux conditions des solutions éligibles « Cas 2 » et « Cas 3 » détaillées dans la",
+      "confidence": "low"
+    },
+    {
+      "text": "colonne « Solution éligible » du tableau ci-dessous.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "colonne « Solution éligible » du tableau ci-dessous.",
+      "confidence": "low"
+    },
+    {
+      "text": "éligible",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "éligible",
+      "confidence": "low"
+    },
+    {
+      "text": "Solution éligible",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Solution éligible",
+      "confidence": "low"
+    },
+    {
+      "text": "Les groupes de condensation sont éligibles à la présente fiche. Ils comprennent le compresseur, le",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Les groupes de condensation sont éligibles à la présente fiche. Ils comprennent le compresseur, le",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "- dans les cas 1 et 2, le fluide utilisé pour l’étage positif (le CO2 n’est pas éligible) ;",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "- dans les cas 1 et 2, le fluide utilisé pour l’étage positif (le CO2 n’est pas éligible) ;",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "Le document justificatif spécifique à l’opération est le rapport susmentionné.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est le rapport susmentionné.",
+      "confidence": "low"
+    },
+    {
+      "text": "compresseurs positifs neufs au CO2. Elle figure sur le document issu de l’installateur frigoriste.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "compresseurs positifs neufs au CO2. Elle figure sur le document issu de l’installateur frigoriste.",
+      "confidence": "low"
+    },
+    {
+      "text": "par les compresseurs négatifs neufs au CO2. Elle figure sur le document issu de l’installateur frigoriste.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "par les compresseurs négatifs neufs au CO2. Elle figure sur le document issu de l’installateur frigoriste.",
+      "confidence": "low"
+    },
+    {
+      "text": "par les compresseurs neufs au CO2 négatifs (basse température). Les valeurs figurent sur le document issu de",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "par les compresseurs neufs au CO2 négatifs (basse température). Les valeurs figurent sur le document issu de",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac / kW",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac / kW",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWhcumac / kW",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWhcumac / kW",
+      "confidence": "low"
+    },
+    {
+      "text": "Montants en kWh cumac / kW",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montants en kWh cumac / kW",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "de fonctionnement doit être cohérent avec les températures du besoin en froid de l’installation et la zone climatique",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "de fonctionnement doit être cohérent avec les températures du besoin en froid de l’installation et la zone climatique",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-EQ-117 vA40-2 à compter du 01-04-2022_1",
+      "code": "BAT-EQ-117",
+      "document_type": "fiche_principale",
+      "title": "BAT-EQ-117 vA40-2 à compter du 01-04-2022 : Installation frigorifique utilisant du CO2 subcritique ou transcritique PDF – 164.25 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-117%20vA40-2%20%C3%A0%20compter%20du%2001-04-2022_1.pdf",
+      "format": "pdf",
+      "effective_date": "2022-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A",
+      "code": "BAT-EQ-117",
+      "document_type": "partie_a",
+      "title": "BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A PDF – 125.47 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-117%20vA40-2%20%C3%A0%20compter%20du%2001-04-2022%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2022-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026",
+      "code": "BAT-EQ-117",
+      "document_type": "partie_a",
+      "title": "BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026 PDF – 119.25 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-117%20vA40-2%20%C3%A0%20compter%20du%2001-04-2022%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2022-04-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+    "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.403647+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

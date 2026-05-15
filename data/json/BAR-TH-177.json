@@ -1,0 +1,353 @@
+{
+  "code": "BAR-TH-177",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-177 vA80-2 à compter du 17-01-2026 : Rénovation globale d’un bâtiment résidentiel collectif (France métropolitaine) PDF – 185.37 Ko",
+  "version": "vA80-2",
+  "document_version": "vA80-2",
+  "effective_date": "2026-01-17",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2026-01-17",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": true,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": true,
+    "hybrid_system": false,
+    "district_heating": true,
+    "ventilation": true,
+    "insulation": true,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "égale ou posterieure à la présente opération, pouvant donner lieu à la délivrance de certificats d'économies d'énergie",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "égale ou posterieure à la présente opération, pouvant donner lieu à la délivrance de certificats d'économies d'énergie",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "modalités de réalisation des travaux et prestations dont les dépenses sont éligibles à la prime de transition",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "modalités de réalisation des travaux et prestations dont les dépenses sont éligibles à la prime de transition",
+      "confidence": "low"
+    },
+    {
+      "text": "énergétique. Il est établi par une personne répondant aux conditions mentionnées au VII de l’article 2 du décret du",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "énergétique. Il est établi par une personne répondant aux conditions mentionnées au VII de l’article 2 du décret du",
+      "confidence": "low"
+    },
+    {
+      "text": "Les bâtiments d’habitation collectifs éligibles à la présente fiche sont ceux disposant d’au moins trois foyers fiscaux",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Les bâtiments d’habitation collectifs éligibles à la présente fiche sont ceux disposant d’au moins trois foyers fiscaux",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "primaire de l'électricité relatif au diagnostic de performance énergétique. Dans ce cas, les classes du logement avant",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "primaire de l'électricité relatif au diagnostic de performance énergétique. Dans ce cas, les classes du logement avant",
+      "confidence": "low"
+    },
+    {
+      "text": "Les travaux permettent d'atteindre une performance énergétique globale minimale du bâtiment, déterminée par",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Les travaux permettent d'atteindre une performance énergétique globale minimale du bâtiment, déterminée par",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la liste des travaux réalisés avec leurs niveaux de performance.",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La preuve de réalisation de l’opération mentionne la liste des travaux réalisés avec leurs niveaux de performance.",
+      "confidence": "low"
+    },
+    {
+      "text": "conversion de l'énergie finale en énergie primaire de l'électricité relatif au diagnostic de performance énergétique ;",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "conversion de l'énergie finale en énergie primaire de l'électricité relatif au diagnostic de performance énergétique ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- la liste des travaux préconisés avec leurs niveaux de performance et la correspondance avec la liste des travaux",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- la liste des travaux préconisés avec leurs niveaux de performance et la correspondance avec la liste des travaux",
+      "confidence": "low"
+    },
+    {
+      "text": "performances énergétiques requises ;",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "performances énergétiques requises ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- dans le cas de bâtiments relèvant de la loi n° 65-557 du 10 juillet 1965 modifiée fixant le statut de la copropriété",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- dans le cas de bâtiments relèvant de la loi n° 65-557 du 10 juillet 1965 modifiée fixant le statut de la copropriété",
+      "confidence": "low"
+    },
+    {
+      "text": "des immeubles bâtis, l'accord de la copropriété autorisant les travaux pour les logements de la copropriété.",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "des immeubles bâtis, l'accord de la copropriété autorisant les travaux pour les logements de la copropriété.",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "les systèmes d’automatisation et de contrôle du bâtiment dès lors que ces travaux sont valorisés au titre de la présente",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "les systèmes d’automatisation et de contrôle du bâtiment dès lors que ces travaux sont valorisés au titre de la présente",
+      "confidence": "low"
+    },
+    {
+      "text": "14 janvier 2020 relatif à la prime de transition énergétique. L'audit énergétique peut être complété par l'attestation",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "14 janvier 2020 relatif à la prime de transition énergétique. L'audit énergétique peut être complété par l'attestation",
+      "confidence": "low"
+    },
+    {
+      "text": "et après travaux mentionnées sur l'attestation se substituent à celles de l’audit, pour un même scénario de travaux.",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "et après travaux mentionnées sur l'attestation se substituent à celles de l’audit, pour un même scénario de travaux.",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la liste des travaux réalisés avec leurs niveaux de performance.",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne la liste des travaux réalisés avec leurs niveaux de performance.",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "est complété, le cas échéant, par l'attestation définie à l'article 4 de l'arrêté du 13 août 2025 modifiant le facteur de",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "est complété, le cas échéant, par l'attestation définie à l'article 4 de l'arrêté du 13 août 2025 modifiant le facteur de",
+      "confidence": "low"
+    },
+    {
+      "text": "- les attestations fiscales d’au moins trois foyers fiscaux distincts rattachés à des logements distincts ;",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- les attestations fiscales d’au moins trois foyers fiscaux distincts rattachés à des logements distincts ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- les attestations déclarations préalables de travaux (DP) déposées par le propriétaire correspondant aux surfaces",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- les attestations déclarations préalables de travaux (DP) déposées par le propriétaire correspondant aux surfaces",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "les systèmes d’automatisation et de contrôle du bâtiment dès lors que ces travaux sont valorisés au titre de la présente",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "les systèmes d’automatisation et de contrôle du bâtiment dès lors que ces travaux sont valorisés au titre de la présente",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "logements, inférieure à 331 kWh/m².an pour les usages chauffage, refroidissement, production d’eau chaude",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "logements, inférieure à 331 kWh/m².an pour les usages chauffage, refroidissement, production d’eau chaude",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "logements, inférieure à 331 kWh/m².an pour les usages chauffage, refroidissement, production d’eau chaude",
+      "confidence": "low"
+    },
+    {
+      "text": "- la consommation conventionnelle (en kWh/m².an) du bâtiment (sans déduction de la production d’électricité",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- la consommation conventionnelle (en kWh/m².an) du bâtiment (sans déduction de la production d’électricité",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montants en kWh cumac/m²",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montants en kWh cumac/m²",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-177 vA80-2 à compter du 17-01-2026_0",
+      "code": "BAR-TH-177",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-177 vA80-2 à compter du 17-01-2026 : Rénovation globale d’un bâtiment résidentiel collectif (France métropolitaine) PDF – 185.37 Ko",
+      "path": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-177%20vA80-2%20%C3%A0%20compter%20du%2017-01-2026_0.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-17",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A",
+      "code": "BAR-TH-177",
+      "document_type": "partie_a",
+      "title": "BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A PDF – 115.8 Ko",
+      "path": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-177%20vA80-2%20%C3%A0%20compter%20du%2017-01-2026%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-17",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-177",
+      "document_type": "partie_a",
+      "title": "BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A à compter du 01-07-2026 PDF – 119.18 Ko",
+      "path": "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-177%20vA80-2%20%C3%A0%20compter%20du%2017-01-2026%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-17",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+    "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.947626+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

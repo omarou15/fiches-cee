@@ -1,0 +1,346 @@
+{
+  "code": "IND-UT-134",
+  "sector": "industrie",
+  "family": "UT",
+  "title": "IND-UT-134 v A35-2 à compter du 01-10-2020 : Système de mesurage d’indicateurs de performance énergétique PDF – 153.63 Ko",
+  "version": null,
+  "document_version": null,
+  "effective_date": "2020-10-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2020-10-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Sont éligibles à l’opération les systèmes de mesurage mis en place sur les équipements ou ensembles d’équipements",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Sont éligibles à l’opération les systèmes de mesurage mis en place sur les équipements ou ensembles d’équipements",
+      "confidence": "low"
+    },
+    {
+      "text": "ne sont pas éligibles à l’opération.",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "ne sont pas éligibles à l’opération.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "d’historisation et les moyens de calcul et d’affichage des données. Ces éléments peuvent être existants à condition",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "d’historisation et les moyens de calcul et d’affichage des données. Ces éléments peuvent être existants à condition",
+      "confidence": "low"
+    },
+    {
+      "text": "La collecte de consommations issues des compteurs de fournisseurs d’énergie pour le calcul d’IPE n’est pas éligible.",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "La collecte de consommations issues des compteurs de fournisseurs d’énergie pour le calcul d’IPE n’est pas éligible.",
+      "confidence": "low"
+    },
+    {
+      "text": "affichage des IPE sur l’intervalle de temps entre deux pas de délivrance ;",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "affichage des IPE sur l’intervalle de temps entre deux pas de délivrance ;",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Système de mesurage d’indicateurs de performance énergétique",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Système de mesurage d’indicateurs de performance énergétique",
+      "confidence": "low"
+    },
+    {
+      "text": "Mise en place d’un système de mesurage d’Indicateurs de Performance Energétique (IPE) sur un ou plusieurs",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Mise en place d’un système de mesurage d’Indicateurs de Performance Energétique (IPE) sur un ou plusieurs",
+      "confidence": "low"
+    },
+    {
+      "text": "Les systèmes de mesurage d’indicateurs de performance énergétique mis en place sur les équipements de secours",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Les systèmes de mesurage d’indicateurs de performance énergétique mis en place sur les équipements de secours",
+      "confidence": "low"
+    },
+    {
+      "text": "La mise en place d’un système de mesurage d’Indicateurs de Performance Energétique fait l’objet avant",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La mise en place d’un système de mesurage d’Indicateurs de Performance Energétique fait l’objet avant",
+      "confidence": "low"
+    },
+    {
+      "text": "indicateurs de performances pertinentes pour le suivi des équipements, les moyens de mesurage installés (existants",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "indicateurs de performances pertinentes pour le suivi des équipements, les moyens de mesurage installés (existants",
+      "confidence": "low"
+    },
+    {
+      "text": "1 à 6 du plan de mesurage et de surveillance défini dans la norme NF EN 17267.",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "1 à 6 du plan de mesurage et de surveillance défini dans la norme NF EN 17267.",
+      "confidence": "low"
+    },
+    {
+      "text": "Rendement (kWh/Unité de production)",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Rendement (kWh/Unité de production)",
+      "confidence": "low"
+    },
+    {
+      "text": "Rendement spécifique de chauffage (%)",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Rendement spécifique de chauffage (%)",
+      "confidence": "low"
+    },
+    {
+      "text": "COP (kWhfrigo/kWhelec)",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "COP (kWhfrigo/kWhelec)",
+      "confidence": "low"
+    },
+    {
+      "text": "Rendement (%)",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Rendement (%)",
+      "confidence": "low"
+    },
+    {
+      "text": "la mise en place d’un système de mesurage et de suivi d’Indicateurs de Performance Energétique (IPE) pour",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "la mise en place d’un système de mesurage et de suivi d’Indicateurs de Performance Energétique (IPE) pour",
+      "confidence": "low"
+    },
+    {
+      "text": "- l’IPE concerné (rendement, rendement spécifique chauffage, consommation d’énergie spécifique ou",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- l’IPE concerné (rendement, rendement spécifique chauffage, consommation d’énergie spécifique ou",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "d’exploitation ou est documenté au sein d’un enregistrement du système de management de la",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d’exploitation ou est documenté au sein d’un enregistrement du système de management de la",
+      "confidence": "low"
+    },
+    {
+      "text": "nominale est la puissance indiquée sur la plaque du ou des équipements ou à défaut celle indiquée sur un document",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "nominale est la puissance indiquée sur la plaque du ou des équipements ou à défaut celle indiquée sur un document",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "Rendement (kWh/Unité de production)",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Rendement (kWh/Unité de production)",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Rendement (kWh/Unité de production)",
+      "confidence": "low"
+    },
+    {
+      "text": "COP (kWhfrigo/kWhelec)",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "COP (kWhfrigo/kWhelec)",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Coefficient",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Coefficient",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "IND-UT-134 v A35-2 à compter du 01-10-2020_0",
+      "code": "IND-UT-134",
+      "document_type": "fiche_principale",
+      "title": "IND-UT-134 v A35-2 à compter du 01-10-2020 : Système de mesurage d’indicateurs de performance énergétique PDF – 153.63 Ko",
+      "path": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-134%20v%20A35-2%20%C3%A0%20compter%20du%2001-10-2020_0.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A",
+      "code": "IND-UT-134",
+      "document_type": "partie_a",
+      "title": "IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A PDF – 126.63 Ko",
+      "path": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-134%20v%20A35-2%20%C3%A0%20compter%20du%2001-10-2020%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026",
+      "code": "IND-UT-134",
+      "document_type": "partie_a",
+      "title": "IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026 PDF – 130.31 Ko",
+      "path": "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-134%20v%20A35-2%20%C3%A0%20compter%20du%2001-10-2020%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+    "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A.pdf",
+    "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.388737+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

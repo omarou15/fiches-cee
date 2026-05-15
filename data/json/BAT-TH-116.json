@@ -1,0 +1,331 @@
+{
+  "code": "BAT-TH-116",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-116 vA62-6 à compter du 01-01-2025 : Système de gestion technique du bâtiment pour le chauffage, l’eau chaude sanitaire, le refroidissement / climatisation, l’éclairage et les auxiliaires PDF – 166.13 Ko",
+  "version": "vA62-6",
+  "document_version": "vA62-6",
+  "effective_date": "2025-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": true
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": true,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": true,
+    "gtb": true
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Le simple raccordement d’un bâtiment à un système existant de gestion technique du bâtiment n’est pas éligible à",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Le simple raccordement d’un bâtiment à un système existant de gestion technique du bâtiment n’est pas éligible à",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "technique du bâtiment, le système existant avant l’opération est au plus de classe C au sens de la norme",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "technique du bâtiment, le système existant avant l’opération est au plus de classe C au sens de la norme",
+      "confidence": "low"
+    },
+    {
+      "text": "les fonctions de régulation de classe B ou A au sens de la norme susmentionnée pour l’usage chauffage et, le cas",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "les fonctions de régulation de classe B ou A au sens de la norme susmentionnée pour l’usage chauffage et, le cas",
+      "confidence": "low"
+    },
+    {
+      "text": "assurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "assurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la",
+      "confidence": "low"
+    },
+    {
+      "text": "norme NF EN ISO 52120-1 : 2022.",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "norme NF EN ISO 52120-1 : 2022.",
+      "confidence": "low"
+    },
+    {
+      "text": "assurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "assurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la",
+      "confidence": "low"
+    },
+    {
+      "text": "norme NF EN ISO 52120-1 : 2022.",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "norme NF EN ISO 52120-1 : 2022.",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour un système de gestion technique du bâtiment installé de classe A :",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour un système de gestion technique du bâtiment installé de classe A :",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour un système de gestion technique du bâtiment installé de classe B :",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour un système de gestion technique du bâtiment installé de classe B :",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place d’un système de gestion technique du bâtiment",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d’un système de gestion technique du bâtiment",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de la réalisation mentionne la mise en place d’un système avec ses marque et référence et elle",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de la réalisation mentionne la mise en place d’un système avec ses marque et référence et elle",
+      "confidence": "low"
+    },
+    {
+      "text": "est accompagnée d’un document issu du professionnel réalisant l’opération.",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "est accompagnée d’un document issu du professionnel réalisant l’opération.",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que le système de marque et référence installé est un système de gestion technique du bâtiment",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que le système de marque et référence installé est un système de gestion technique du bâtiment",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "classe_gtb",
+      "unit": null,
+      "required": true,
+      "reason": "eligibilite et niveau de performance",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-116 vA62-6 à compter du 01-01-2025_1",
+      "code": "BAT-TH-116",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-116 vA62-6 à compter du 01-01-2025 : Système de gestion technique du bâtiment pour le chauffage, l’eau chaude sanitaire, le refroidissement / climatisation, l’éclairage et les auxiliaires PDF – 166.13 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-116%20vA62-6%20%C3%A0%20compter%20du%2001-01-2025_1.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A",
+      "code": "BAT-TH-116",
+      "document_type": "partie_a",
+      "title": "BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A PDF – 125.47 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-116%20vA62-6%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A à compter du 01-07-2026",
+      "code": "BAT-TH-116",
+      "document_type": "partie_a",
+      "title": "BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A à compter du 01-07-2026 PDF – 113.18 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-116%20vA62-6%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+    "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.784579+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

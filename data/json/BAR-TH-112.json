@@ -1,0 +1,409 @@
+{
+  "code": "BAR-TH-112",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-112 vA46-3 à compter du 01-10-2022 : Appareil indépendant de chauffage au bois PDF – 128.4 Ko",
+  "version": "vA46-3",
+  "document_version": "vA46-3",
+  "effective_date": "2022-10-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2022-10-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "Les conditions sont les suivantes :",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Les conditions sont les suivantes :",
+      "confidence": "low"
+    },
+    {
+      "text": "Un appareil de chauffage au bois possédant le label Flamme verte est réputé satisfaire les conditions ci-dessus",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Un appareil de chauffage au bois possédant le label Flamme verte est réputé satisfaire les conditions ci-dessus",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "- l’efficacité énergétique saisonnière (Etas) de l’équipement est supérieure ou égale à 66 % ;",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- l’efficacité énergétique saisonnière (Etas) de l’équipement est supérieure ou égale à 66 % ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- l’efficacité énergétique saisonnière (Etas) de l’équipement est supérieure ou égale à 80 % ;",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- l’efficacité énergétique saisonnière (Etas) de l’équipement est supérieure ou égale à 80 % ;",
+      "confidence": "low"
+    },
+    {
+      "text": "Les performances annoncées sont garanties par des essais réalisés par un laboratoire indépendant des fabricants. Les",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Les performances annoncées sont garanties par des essais réalisés par un laboratoire indépendant des fabricants. Les",
+      "confidence": "low"
+    },
+    {
+      "text": "rapports d’essai sont couverts par l’accréditation du laboratoire établie selon la norme ISO/CEI 17025, par le",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "rapports d’essai sont couverts par l’accréditation du laboratoire établie selon la norme ISO/CEI 17025, par le",
+      "confidence": "low"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière et les émissions de polluants sont mesurés selon les normes suivantes :",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière et les émissions de polluants sont mesurés selon les normes suivantes :",
+      "confidence": "low"
+    },
+    {
+      "text": "- pour les poêles : norme NF EN 13240 ou NF EN 14785 ou NF EN 15250 ;",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- pour les poêles : norme NF EN 13240 ou NF EN 14785 ou NF EN 15250 ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- pour les foyers fermés, inserts de cheminées intérieures : norme NF EN 13229 ;",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- pour les foyers fermés, inserts de cheminées intérieures : norme NF EN 13229 ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- pour les cuisinières utilisées comme mode de chauffage : norme NF EN 12815.",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- pour les cuisinières utilisées comme mode de chauffage : norme NF EN 12815.",
+      "confidence": "low"
+    },
+    {
+      "text": "bois (poêle, foyer fermé, insert, cuisinière) et les caractéristiques de l’équipement (efficacité énergétique saisonnière",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "bois (poêle, foyer fermé, insert, cuisinière) et les caractéristiques de l’équipement (efficacité énergétique saisonnière",
+      "confidence": "low"
+    },
+    {
+      "text": "leur norme de mesure) ou, pour ce qui concerne les émissions de polluants, le label Flamme verte obtenu.",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "leur norme de mesure) ou, pour ce qui concerne les émissions de polluants, le label Flamme verte obtenu.",
+      "confidence": "low"
+    },
+    {
+      "text": "économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation",
+      "confidence": "low"
+    },
+    {
+      "text": "marque et référence mis en place est un appareil indépendant de chauffage au bois et il précise les valeurs d’efficacité",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "marque et référence mis en place est un appareil indépendant de chauffage au bois et il précise les valeurs d’efficacité",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place d’un appareil indépendant de chauffage au",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d’un appareil indépendant de chauffage au",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un matériel avec ses marque et",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un matériel avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est accompagnée d’un document issu du fabricant ou d’un organisme établi dans l'Espace",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est accompagnée d’un document issu du fabricant ou d’un organisme établi dans l'Espace",
+      "confidence": "low"
+    },
+    {
+      "text": "le cadre de la coordination européenne des organismes d'accréditation. Ce document indique que le matériel de",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "le cadre de la coordination européenne des organismes d'accréditation. Ce document indique que le matériel de",
+      "confidence": "low"
+    },
+    {
+      "text": "En cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après sa date de",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "En cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après sa date de",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone climatique",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone climatique",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-112 vA46-3 à compter du 01-10-2022_1",
+      "code": "BAR-TH-112",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-112 vA46-3 à compter du 01-10-2022 : Appareil indépendant de chauffage au bois PDF – 128.4 Ko",
+      "path": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-112%20vA46-3%20%C3%A0%20compter%20du%2001-10-2022_1.pdf",
+      "format": "pdf",
+      "effective_date": "2022-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-112 vA46-3 à compter du 01-10-2022 - Partie A",
+      "code": "BAR-TH-112",
+      "document_type": "partie_a",
+      "title": "BAR-TH-112 vA46-3 à compter du 01-10-2022 - Partie A PDF – 118.78 Ko",
+      "path": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-112%20vA46-3%20%C3%A0%20compter%20du%2001-10-2022%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2022-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-112 vA46-3 à compter du 01-10-2022 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-112",
+      "document_type": "partie_a",
+      "title": "BAR-TH-112 vA46-3 à compter du 01-10-2022 - Partie A à compter du 01-07-2026 PDF – 115.71 Ko",
+      "path": "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-112%20vA46-3%20%C3%A0%20compter%20du%2001-10-2022%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2022-10-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+    "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.237992+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

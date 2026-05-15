@@ -1,0 +1,419 @@
+{
+  "code": "TRA-EQ-121",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 : Vélo à assistance électrique PDF – 138.48 Ko",
+  "version": "vA54-2",
+  "document_version": "vA54-2",
+  "effective_date": "2024-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2024-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Ne sont pas éligibles à la présente fiche les cycles à pédalage assisté destinés à une utilisation tout terrain au sens",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Ne sont pas éligibles à la présente fiche les cycles à pédalage assisté destinés à une utilisation tout terrain au sens",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "NB : Les cycles à pédalage assisté destinés à une utilisation tout terrain au sens de la norme NF EN 15194 ne sont pas éligibles.",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "NB : Les cycles à pédalage assisté destinés à une utilisation tout terrain au sens de la norme NF EN 15194 ne sont pas éligibles.",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "de la norme NF EN 15194.",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "de la norme NF EN 15194.",
+      "confidence": "low"
+    },
+    {
+      "text": "Le cycle est certifié conforme à la norme NF EN 15194.",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le cycle est certifié conforme à la norme NF EN 15194.",
+      "confidence": "low"
+    },
+    {
+      "text": "- le certificat d’homologation attestant la conformité à la norme NF EN 15194 ;",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le certificat d’homologation attestant la conformité à la norme NF EN 15194 ;",
+      "confidence": "low"
+    },
+    {
+      "text": "*Le certificat d’homologation mentionne que le cycle à pédalage assisté est conforme à la norme NF EN 15194:",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "*Le certificat d’homologation mentionne que le cycle à pédalage assisté est conforme à la norme NF EN 15194:",
+      "confidence": "low"
+    },
+    {
+      "text": "NB : Les cycles à pédalage assisté destinés à une utilisation tout terrain au sens de la norme NF EN 15194 ne sont pas éligibles.",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "NB : Les cycles à pédalage assisté destinés à une utilisation tout terrain au sens de la norme NF EN 15194 ne sont pas éligibles.",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne, selon le cas, l’achat ou la location d’un cycle à pédalage assisté",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne, selon le cas, l’achat ou la location d’un cycle à pédalage assisté",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "- la preuve d’enregistrement au fichier national unique des cycles identifiés (FNUCI) prévu par l’article L. 1271-3",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- la preuve d’enregistrement au fichier national unique des cycles identifiés (FNUCI) prévu par l’article L. 1271-3",
+      "confidence": "low"
+    },
+    {
+      "text": "définissant le contenu de la partie A de l’attestation sur l’honneur",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "définissant le contenu de la partie A de l’attestation sur l’honneur",
+      "confidence": "low"
+    },
+    {
+      "text": "*Date de preuve de réalisation de l’opération (ex : date de la facture d’achat ou date du contrat de location) : ……………………",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "*Date de preuve de réalisation de l’opération (ex : date de la facture d’achat ou date du contrat de location) : ……………………",
+      "confidence": "low"
+    },
+    {
+      "text": "Référence de la preuve de réalisation : ……………………",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Référence de la preuve de réalisation : ……………………",
+      "confidence": "low"
+    },
+    {
+      "text": "A ne remplir que si les marque et modèle du cycle à pédalage assisté ne sont pas mentionnés sur la preuve de réalisation de",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A ne remplir que si les marque et modèle du cycle à pédalage assisté ne sont pas mentionnés sur la preuve de réalisation de",
+      "confidence": "low"
+    },
+    {
+      "text": "Date de la facture",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Date de la facture",
+      "confidence": "low"
+    },
+    {
+      "text": "contrôle",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "contrôle",
+      "confidence": "low"
+    },
+    {
+      "text": "de contrôle",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "de contrôle",
+      "confidence": "low"
+    },
+    {
+      "text": "contrôle",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "contrôle",
+      "confidence": "low"
+    },
+    {
+      "text": "contrôle",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "contrôle",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "contrôle",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "contrôle",
+      "confidence": "low"
+    },
+    {
+      "text": "de contrôle",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "de contrôle",
+      "confidence": "low"
+    },
+    {
+      "text": "contrôle",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "contrôle",
+      "confidence": "low"
+    },
+    {
+      "text": "contrôle",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "contrôle",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "(kWh cumac)",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "(kWh cumac)",
+      "confidence": "low"
+    },
+    {
+      "text": "(kWh cumac)",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "(kWh cumac)",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant du rôle",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant du rôle",
+      "confidence": "low"
+    },
+    {
+      "text": "(kWh cumac)",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "(kWh cumac)",
+      "confidence": "low"
+    },
+    {
+      "text": "énergétique » (kWh",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "énergétique » (kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "cumac)",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumac)",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant du rôle actif",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant du rôle actif",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-121 vA54-2 à compter du 01-01-2024_0",
+      "code": "TRA-EQ-121",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 : Vélo à assistance électrique PDF – 138.48 Ko",
+      "path": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-121%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024_0.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Partie A",
+      "code": "TRA-EQ-121",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Partie A PDF – 91.36 Ko",
+      "path": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-121%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026",
+      "code": "TRA-EQ-121",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026 PDF – 96.5 Ko",
+      "path": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-121%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Annexe 2 à compter du 01-07-2025",
+      "code": "TRA-EQ-121",
+      "document_type": "annexe",
+      "title": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Annexe 2 à compter du 01-07-2025 PDF – 105.63 Ko",
+      "path": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-121%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-EQ-121",
+      "document_type": "annexe",
+      "title": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Annexe 2 à compter du 01-07-2026 PDF – 99.3 Ko",
+      "path": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-121%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+    "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Partie A.pdf",
+    "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Annexe 2 à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.652767+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

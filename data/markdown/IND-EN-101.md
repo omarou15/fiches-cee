@@ -1,0 +1,87 @@
+# IND-EN-101 - IND-EN-101 vA23-1 : Isolation des murs (France d’outre-mer) PDF – 107.6 Ko
+- Secteur: industrie
+- Famille: EN
+- Version: vA23-1
+- Date d'application: unknown
+
+## Documents sources
+- `Industrie_IND/IND-EN-101 vA23-1.pdf`
+- `Industrie_IND/IND-EN-101 vA23-1 - Partie A.pdf`
+- `Industrie_IND/IND-EN-101 vA23-1 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+- dans l'Espace économique européen et accrédité selon la norme NF EN 45011 par le Comité français d'accréditation
+
+## Pieces justificatives detectees
+- La preuve de la réalisation de l’opération mentionne :
+- A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un matériau avec ses marque et
+- référence et la surface installée, et elle est complétée par un document issu du fabricant ou d’un organisme établi
+- Ce document indique que le matériau de marque et référence mis en place est un isolant et précise ses caractéristiques
+- ce document est considéré comme valable jusqu’à un an après sa date de fin de validité. Pour les références
+- proposées en différentes épaisseurs, la preuve de réalisation, si elle ne mentionne pas la résistance thermique de
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par m2
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° IND-EN-101
+
+Isolation des murs (France d’outre-mer)
+
+
+1. Secteur d’application
+Bâtiments industriels existants ou neufs de surface totale inférieure ou égale à 10 000 m², en France d’outre-mer.
+
+2. Dénomination
+Mise en place d’un doublage isolant (complexe ou sur ossature) sur mur(s) par l’intérieur ou par l’extérieur.
+
+3. Conditions pour la délivrance de certificats
+La mise en place est réalisée par un professionnel.
+
+La résistance thermique R de l'isolation installée est supérieure ou égale à 1,2 m2.K/W
+
+La preuve de la réalisation de l’opération mentionne :
+- la mise en place d’une isolation sur murs ;
+- et la surface d’isolant installé ;
+- et la résistance thermique de l'isolation installée.
+
+A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un matériau avec ses marque et
+référence et la surface installée, et elle est complétée par un document issu du fabricant ou d’un organisme établi
+dans l'Espace économique européen et accrédité selon la norme NF EN 45011 par le Comité français d'accréditation
+(COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans
+le cadre de European co-operation for Accreditation (EA), coordination européenne des organismes d'accréditation.
+
+Ce document indique que le matériau de marque et référence mis en place est un isolant et précise ses caractéristiques
+thermiques (résistance thermique ; ou conductivité thermique et épaisseur). En cas de mention d’une date de validité,
+ce document est considéré comme valable jusqu’à un an après sa date de fin de validité. Pour les références
+proposées en différentes épaisseurs, la preuve de réalisation, si elle ne mentionne pas la résistance thermique de
+l’isolation installée, doit impérativement en préciser l’épaisseur.
+
+4. Durée de vie conventionnelle
+30 ans.
+
+5. Montant de certificats en kWh cumac
+
+
+Montant en kWh cumac par m2
+d’isolant posé
+
+Surface d’isolant
+posé (m²)
+Bâtiment existant
+270
+X
+S
+Bâtiment neuf
+240

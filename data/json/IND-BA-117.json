@@ -1,0 +1,371 @@
+{
+  "code": "IND-BA-117",
+  "sector": "industrie",
+  "family": "BA",
+  "title": "IND-BA-117 vA27-1 : Chauffage décentralisé performant PDF – 128.56 Ko",
+  "version": "vA27-1",
+  "document_version": "vA27-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "pas éligible.",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "pas éligible.",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "L’efficacité énergétique saisonnière (ηs) des panneaux radiants lumineux et des tubes radiants, selon le règlement",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière (ηs) des panneaux radiants lumineux et des tubes radiants, selon le règlement",
+      "confidence": "low"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière (ηs) des aérothermes à condensation et des générateurs d’air chaud à",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière (ηs) des aérothermes à condensation et des générateurs d’air chaud à",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la mise en place de panneaux radiants lumineux ou de tubes",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne la mise en place de panneaux radiants lumineux ou de tubes",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques,",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques,",
+      "confidence": "low"
+    },
+    {
+      "text": "références et nombre et elle est complétée par un document issu du fabricant indiquant que les équipements de",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "références et nombre et elle est complétée par un document issu du fabricant indiquant que les équipements de",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place des",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place des",
+      "confidence": "low"
+    },
+    {
+      "text": "un document du fabricant.",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "un document du fabricant.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant unitaire en",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant unitaire en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac par kW",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac par kW",
+      "confidence": "low"
+    },
+    {
+      "text": "Coefficient",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Coefficient",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant unitaire en",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant unitaire en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac par kW",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac par kW",
+      "confidence": "low"
+    },
+    {
+      "text": "Coefficient",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Coefficient",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant unitaire en",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant unitaire en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac par kW",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac par kW",
+      "confidence": "low"
+    },
+    {
+      "text": "Coefficient",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Coefficient",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Industrie_IND/IND-BA-117 vA27-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "IND-BA-117 vA27-1",
+      "code": "IND-BA-117",
+      "document_type": "fiche_principale",
+      "title": "IND-BA-117 vA27-1 : Chauffage décentralisé performant PDF – 128.56 Ko",
+      "path": "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-BA-117%20vA27-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-BA-117 vA27-1 - Partie A",
+      "code": "IND-BA-117",
+      "document_type": "partie_a",
+      "title": "IND-BA-117 vA27-1 - Partie A PDF – 110.93 Ko",
+      "path": "Industrie_IND/IND-BA-117 vA27-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-BA-117%20vA27-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-BA-117 vA27-1 - Partie A à compter du 01-07-2026",
+      "code": "IND-BA-117",
+      "document_type": "partie_a",
+      "title": "IND-BA-117 vA27-1 - Partie A à compter du 01-07-2026 PDF – 116.07 Ko",
+      "path": "Industrie_IND/IND-BA-117 vA27-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-BA-117%20vA27-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Industrie_IND/IND-BA-117 vA27-1.pdf",
+    "Industrie_IND/IND-BA-117 vA27-1 - Partie A.pdf",
+    "Industrie_IND/IND-BA-117 vA27-1 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.121641+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

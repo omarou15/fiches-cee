@@ -1,0 +1,144 @@
+# BAT-EN-104 - BAT-EN-104 vA54-3 à compter du 01-01-2024 : Fenêtre ou porte-fenêtre complète avec vitrage isolant PDF – 128.16 Ko
+- Secteur: tertiaire
+- Famille: EN
+- Version: vA54-3
+- Date d'application: 2024-01-01
+
+## Documents sources
+- `Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024_2.pdf`
+- `Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024 - Partie A.pdf`
+- `Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- donnent pas lieu à la délivrance de certificats d’économies d’énergie. De même, le remplacement de fenêtres ou
+- portes-fenêtres existantes sur murs façades rideaux ne donne pas lieu à la délivrance de certificats d’économies
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+- égal à 1,5 W/m².K et évalué selon la norme NF EN 14351-1+A2.
+- norme NF EN 14351-1+A2.
+- - et les Uw des équipements installés évalués selon la norme susmentionnée.
+- organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le
+- toiture ou porte-fenêtre complète et précise ses caractéristiques thermiques (Uw) évaluées selon la norme
+
+## Pieces justificatives detectees
+- La preuve de la réalisation de l’opération mentionne :
+- À défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec
+- leur marque et référence et leur surface installée et elle est complétée par un document issu du fabricant ou d’un
+- Ce document indique que l’équipement de marque et référence installé est une fenêtre, double fenêtre, fenêtre de
+- susmentionnée. En cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an
+
+## Formules / calcul detectes
+- Hors double fenêtre, le coefficient de transmission surfacique, Uw, des fenêtres et portes-fenêtres est inférieur ou
+- renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et évalué selon la
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° BAT-EN-104
+
+Fenêtre ou porte-fenêtre complète avec vitrage isolant
+
+1. Secteur d’application
+Locaux du secteur tertiaire existants réservés à une utilisation professionnelle.
+
+2. Dénomination
+Mise en place d’une fenêtre, fenêtre de toiture ou porte-fenêtre complète avec vitrage isolant, les baies fixes étant
+permises, pour le remplacement d’une fenêtre, fenêtre de toiture ou porte-fenêtre équipée de simple vitrage avant
+travaux ou mise en place d’une double fenêtre sur une fenêtre équipée de simple vitrage avant travaux. L’opération
+inclut le remplacement du dormant existant, sauf dans le cas de l’installation d’une double fenêtre.
+
+Le simple remplacement de vitrages sur une fenêtre ou porte-fenêtre existante, la fermeture d’une loggia par parois
+vitrées, la construction d’une véranda à parois vitrées ou la création d’une ouverture dans une paroi opaque ne
+donnent pas lieu à la délivrance de certificats d’économies d’énergie. De même, le remplacement de fenêtres ou
+portes-fenêtres existantes sur murs façades rideaux ne donne pas lieu à la délivrance de certificats d’économies
+d’énergie.
+
+La présente fiche s’applique aux opérations engagées jusqu’au 30 juin 2028.
+
+3. Conditions pour la délivrance de certificats
+Hors double fenêtre, le coefficient de transmission surfacique, Uw, des fenêtres et portes-fenêtres est inférieur ou
+égal à 1,5 W/m².K et évalué selon la norme NF EN 14351-1+A2.
+
+L’installation d’une double fenêtre consiste en la pose, sur la baie existante, d'une seconde fenêtre à double vitrage
+renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et évalué selon la
+norme NF EN 14351-1+A2.
+
+La mise en place est réalisée par un professionnel.
+
+La surface de fenêtre inclut la surface de l’ensemble de profilés, fixes, dormants ou ouvrants (incluant les joints,
+mastics et produits d’étanchéité) pouvant encadrer l’élément de remplissage.
+
+La preuve de la réalisation de l’opération mentionne :
+- la mise en place d’une ou plusieurs fenêtre(s), double(s) fenêtre(s), fenêtre(s) de toiture ou porte(s)-fenêtre(s) ;
+- et la surface de fenêtre, double fenêtre ou porte-fenêtre ;
+- et les Uw des équipements installés évalués selon la norme susmentionnée.
+
+À défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec
+leur marque et référence et leur surface installée et elle est complétée par un document issu du fabricant ou d’un
+organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le
+Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen
+multilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne
+des organismes d'accréditation.
+
+Ce document indique que l’équipement de marque et référence installé est une fenêtre, double fenêtre, fenêtre de
+toiture ou porte-fenêtre complète et précise ses caractéristiques thermiques (Uw) évaluées selon la norme
+susmentionnée. En cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an
+après sa date de fin de validité.
+
+4. Durée de vie conventionnelle
+30 ans.
+
+5. Montant de certificats en kWh cumac
+
+Zone
+climatique
+Montant en kWh cumac par
+m² de fenêtre, double fenêtre
+ou porte-fenêtre complète
+avec vitrage isolant
+
+Secteur
+d’activité
+Facteur
+correctif
+
+Surface totale des
+fenêtres, doubles
+fenêtres et portes-
+fenêtres (m²)
+H1
+5 300
+
+Bureaux,
+Enseignement,
+Commerces
+0,6
+
+S
+
+
+H2
+4 300
+X
+Hôtellerie-
+restauration
+0,7
+X
+
+Santé
+1,3
+
+H3
+2 900
+
+Autres
+secteurs
+0,6

@@ -1,0 +1,299 @@
+{
+  "code": "TRA-EQ-119",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-119 vA17-2 : Optimisation de la combustion et de la propreté des moteurs Diesel PDF – 117.4 Ko",
+  "version": "vA17-2",
+  "document_version": "vA17-2",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "organisme accrédité selon la norme NF EN ISO/CEI 17025:2005 par le Comité français d’accréditation (COFRAC)",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "organisme accrédité selon la norme NF EN ISO/CEI 17025:2005 par le Comité français d’accréditation (COFRAC)",
+      "confidence": "low"
+    },
+    {
+      "text": "- la copie du rapport d’essai mentionnant le gain (Y) de consommation de carburant mesuré en pourcentage ;",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- la copie du rapport d’essai mentionnant le gain (Y) de consommation de carburant mesuré en pourcentage ;",
+      "confidence": "low"
+    },
+    {
+      "text": "de l’opération, ainsi que la performance de l’auxiliaire ;",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "de l’opération, ainsi que la performance de l’auxiliaire ;",
+      "confidence": "low"
+    },
+    {
+      "text": "d'acquisition, par référence de la preuve de réalisation de l’opération, ainsi que la performance de l’auxiliaire.",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "d'acquisition, par référence de la preuve de réalisation de l’opération, ainsi que la performance de l’auxiliaire.",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "mis au point par l’IFSTTAR ou un cycle équivalent, et réalisé sous contrôle de l’UTAC-CERAM ou par un",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "mis au point par l’IFSTTAR ou un cycle équivalent, et réalisé sous contrôle de l’UTAC-CERAM ou par un",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l'opération mentionne :",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l'opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "À défaut, la preuve de réalisation de l’opération mentionne :",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "À défaut, la preuve de réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "combustion avec ses marque et référence, et elle est accompagnée d’un document issu du fabricant qui indique :",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "combustion avec ses marque et référence, et elle est accompagnée d’un document issu du fabricant qui indique :",
+      "confidence": "low"
+    },
+    {
+      "text": "- le gain de consommation de carburant obtenu par l’auxiliaire de marque et référence cité par la preuve de",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- le gain de consommation de carburant obtenu par l’auxiliaire de marque et référence cité par la preuve de",
+      "confidence": "low"
+    },
+    {
+      "text": "d’optimisation de la combustion avec ses marque et référence, et elle est accompagnée d’un document issu du",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d’optimisation de la combustion avec ses marque et référence, et elle est accompagnée d’un document issu du",
+      "confidence": "low"
+    },
+    {
+      "text": "cité par la preuve de réalisation de l'opération ;",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "cité par la preuve de réalisation de l'opération ;",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "l’établissement du bénéficiaire, adresse du site), par date d'acquisition, par référence de la preuve de réalisation",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "l’établissement du bénéficiaire, adresse du site), par date d'acquisition, par référence de la preuve de réalisation",
+      "confidence": "low"
+    },
+    {
+      "text": "d'acquisition, par référence de la preuve de réalisation de l’opération, ainsi que la performance de l’auxiliaire.",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d'acquisition, par référence de la preuve de réalisation de l’opération, ainsi que la performance de l’auxiliaire.",
+      "confidence": "low"
+    },
+    {
+      "text": "- Z = concentration de la solution de traitement utilisée figurant sur la preuve de réalisation de l’opération",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- Z = concentration de la solution de traitement utilisée figurant sur la preuve de réalisation de l’opération",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "mis au point par l’IFSTTAR ou un cycle équivalent, et réalisé sous contrôle de l’UTAC-CERAM ou par un",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "mis au point par l’IFSTTAR ou un cycle équivalent, et réalisé sous contrôle de l’UTAC-CERAM ou par un",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-119 vA17-2.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-119 vA17-2",
+      "code": "TRA-EQ-119",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-119 vA17-2 : Optimisation de la combustion et de la propreté des moteurs Diesel PDF – 117.4 Ko",
+      "path": "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-119%20vA17-2.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-119 vA17-2 - Parties A, B et C",
+      "code": "TRA-EQ-119",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-119 vA17-2 - Parties A, B et C PDF – 128.78 Ko",
+      "path": "Transport_TRA/TRA-EQ-119 vA17-2 - Parties A, B et C.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-119%20vA17-2%20-%20Parties%20A%2C%20B%20et%20C.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-119 vA17-2 - Partie A à compter du 01-07-2026 - Parties B et C",
+      "code": "TRA-EQ-119",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-119 vA17-2 - Partie A à compter du 01-07-2026 - Parties B et C PDF – 130.97 Ko",
+      "path": "Transport_TRA/TRA-EQ-119 vA17-2 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-119%20vA17-2%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026%20-%20Parties%20B%20et%20C.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2025",
+      "code": "TRA-EQ-119",
+      "document_type": "annexe",
+      "title": "TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2025 PDF – 106 Ko",
+      "path": "Transport_TRA/TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-119%20vA17-2%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-EQ-119",
+      "document_type": "annexe",
+      "title": "TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2026 PDF – 99.11 Ko",
+      "path": "Transport_TRA/TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-119%20vA17-2%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+    "Transport_TRA/TRA-EQ-119 vA17-2 - Parties A, B et C.pdf",
+    "Transport_TRA/TRA-EQ-119 vA17-2 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+    "Transport_TRA/TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Transport_TRA/TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.605058+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

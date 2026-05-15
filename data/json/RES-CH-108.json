@@ -1,0 +1,210 @@
+{
+  "code": "RES-CH-108",
+  "sector": "reseaux",
+  "family": "CH",
+  "title": "RES-CH-108 vA53-4 à compter du 01-10-2023 : Récupération de chaleur fatale pour valorisation sur un réseau de chaleur ou vers un tiers (France métropolitaine) PDF – 109.04 Ko",
+  "version": "vA53-4",
+  "document_version": "vA53-4",
+  "effective_date": "2023-10-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2023-10-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": true,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l'opération est le contrat de fourniture de chaleur entre le fournisseur de la chaleur et",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l'opération est le contrat de fourniture de chaleur entre le fournisseur de la chaleur et",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document de preuve de réalisation de l'opération produit à l'appui de la demande de certificats d'économies",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document de preuve de réalisation de l'opération produit à l'appui de la demande de certificats d'économies",
+      "confidence": "low"
+    },
+    {
+      "text": "document indique leur date prévisionnelle de raccordement ;",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "document indique leur date prévisionnelle de raccordement ;",
+      "confidence": "low"
+    },
+    {
+      "text": "d’achèvement de l’opération ou prévus dans un délai de 3 ans après cette date. Ce document indique leur date",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d’achèvement de l’opération ou prévus dans un délai de 3 ans après cette date. Ce document indique leur date",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l'opération est l'étude de dimensionnement préalable du système de",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l'opération est l'étude de dimensionnement préalable du système de",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "- la quantité de chaleur nette valorisée par l'opération (Q en kWh/an, déduction faite des pertes liées au réseau et",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "- la quantité de chaleur nette valorisée par l'opération (Q en kWh/an, déduction faite des pertes liées au réseau et",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- la quantité de chaleur nette valorisée par l'opération (Q en kWh/an, déduction faite des pertes liées au réseau et",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "(kWh/an)",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "(kWh/an)",
+      "confidence": "low"
+    },
+    {
+      "text": "Coefficient d’actualisation",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Coefficient d’actualisation",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "décrit par la zone géographique – quartier(s), ville(s) –, qu'il dessert et fournit la liste des bâtiments concernés,",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "décrit par la zone géographique – quartier(s), ville(s) –, qu'il dessert et fournit la liste des bâtiments concernés,",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "RES-CH-108 vA53-4 à compter du 01-10-2023_1",
+      "code": "RES-CH-108",
+      "document_type": "fiche_principale",
+      "title": "RES-CH-108 vA53-4 à compter du 01-10-2023 : Récupération de chaleur fatale pour valorisation sur un réseau de chaleur ou vers un tiers (France métropolitaine) PDF – 109.04 Ko",
+      "path": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-CH-108%20vA53-4%20%C3%A0%20compter%20du%2001-10-2023_1.pdf",
+      "format": "pdf",
+      "effective_date": "2023-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A",
+      "code": "RES-CH-108",
+      "document_type": "partie_a",
+      "title": "RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A PDF – 102.68 Ko",
+      "path": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-CH-108%20vA53-4%20%C3%A0%20compter%20du%2001-10-2023%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2023-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A à compter du 01-07-2026",
+      "code": "RES-CH-108",
+      "document_type": "partie_a",
+      "title": "RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A à compter du 01-07-2026 PDF – 106.25 Ko",
+      "path": "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-CH-108%20vA53-4%20%C3%A0%20compter%20du%2001-10-2023%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2023-10-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+    "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A.pdf",
+    "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.766596+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

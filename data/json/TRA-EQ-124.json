@@ -1,0 +1,249 @@
+{
+  "code": "TRA-EQ-124",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 : Branchement électrique des navires et bateaux à quai PDF – 103.53 Ko",
+  "version": "vA35-1",
+  "document_version": "vA35-1",
+  "effective_date": "2020-08-03",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2020-08-03",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "ses fonctions vitales en rapport avec la sécurité (incendie, voie d’eau), la cargaison (maintien des conditions à bord),",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "ses fonctions vitales en rapport avec la sécurité (incendie, voie d’eau), la cargaison (maintien des conditions à bord),",
+      "confidence": "low"
+    },
+    {
+      "text": "des navires ne sont pas éligibles à la présente fiche.",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "des navires ne sont pas éligibles à la présente fiche.",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne l’installation d’une infrastructure complète permettant",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne l’installation d’une infrastructure complète permettant",
+      "confidence": "low"
+    },
+    {
+      "text": "- références des factures d’électricité afférentes.",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- références des factures d’électricité afférentes.",
+      "confidence": "low"
+    },
+    {
+      "text": "Le délai entre la date de preuve de réalisation et la date d’achèvement de l’opération est au maximum de 24 mois.",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le délai entre la date de preuve de réalisation et la date d’achèvement de l’opération est au maximum de 24 mois.",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "- les factures de distribution d’électricité afférentes.",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- les factures de distribution d’électricité afférentes.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "- quantité d’énergie électrique consommée par le navire ou bateau lors du branchement à quai, exprimée en kWh ;",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "- quantité d’énergie électrique consommée par le navire ou bateau lors du branchement à quai, exprimée en kWh ;",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- quantité d’énergie électrique consommée par le navire ou bateau lors du branchement à quai, exprimée en kWh ;",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par kWh",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "Consommation en kWh par",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Consommation en kWh par",
+      "confidence": "low"
+    },
+    {
+      "text": "Q est la consommation d’énergie électrique, exprimée en kWh, relevée sur six mois consécutif maximum, délivrée",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Q est la consommation d’énergie électrique, exprimée en kWh, relevée sur six mois consécutif maximum, délivrée",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-124 vA35-1 à compter du 03-08-2020",
+      "code": "TRA-EQ-124",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 : Branchement électrique des navires et bateaux à quai PDF – 103.53 Ko",
+      "path": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-124%20vA35-1%20%C3%A0%20compter%20du%2003-08-2020.pdf",
+      "format": "pdf",
+      "effective_date": "2020-08-03",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Partie A",
+      "code": "TRA-EQ-124",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Partie A PDF – 87.8 Ko",
+      "path": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-124%20vA35-1%20%C3%A0%20compter%20du%2003-08-2020%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2020-08-03",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Partie A à compter du 01-07-2026",
+      "code": "TRA-EQ-124",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Partie A à compter du 01-07-2026 PDF – 93.81 Ko",
+      "path": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-124%20vA35-1%20%C3%A0%20compter%20du%2003-08-2020%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2020-08-03",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2025",
+      "code": "TRA-EQ-124",
+      "document_type": "annexe",
+      "title": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2025 PDF – 105.73 Ko",
+      "path": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-124%20vA35-1%20%C3%A0%20compter%20du%2003-08-2020%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2020-08-03",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-EQ-124",
+      "document_type": "annexe",
+      "title": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2026 PDF – 98.78 Ko",
+      "path": "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-124%20vA35-1%20%C3%A0%20compter%20du%2003-08-2020%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2020-08-03",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+    "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Partie A.pdf",
+    "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Partie A à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.712842+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "code": "BAT-TH-139",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-139 vA35-3 à compter du 01-10-2020 : Système de récupération de chaleur sur un groupe de production de froid PDF – 163.19 Ko",
+  "version": "vA35-3",
+  "document_version": "vA35-3",
+  "effective_date": "2020-10-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2020-10-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "une pompe à chaleur n’est pas éligible à cette opération.",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "une pompe à chaleur n’est pas éligible à cette opération.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "indiquées sur un document issu du fabricant.",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "indiquées sur un document issu du fabricant.",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place d’un système de récupération de chaleur sur",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d’un système de récupération de chaleur sur",
+      "confidence": "low"
+    },
+    {
+      "text": "À défaut, la preuve de réalisation de l'opération mentionne la mise en place, sur un groupe de production de froid,",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "À défaut, la preuve de réalisation de l'opération mentionne la mise en place, sur un groupe de production de froid,",
+      "confidence": "low"
+    },
+    {
+      "text": "d'un équipement avec ses marque et référence et elle est complétée par un document issu du fabricant indiquant que",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d'un équipement avec ses marque et référence et elle est complétée par un document issu du fabricant indiquant que",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place du",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place du",
+      "confidence": "low"
+    },
+    {
+      "text": "défaut, celles indiquées sur un document issu du fabricant du ou des compresseur(s).",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "défaut, celles indiquées sur un document issu du fabricant du ou des compresseur(s).",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "(M), en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "(M), en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "montant des certificats d’économies d’énergie est effectué en considérant que Précupérée est égale à",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "montant des certificats d’économies d’énergie est effectué en considérant que Précupérée est égale à",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Bâtiment tertiaire existant : activité correspondant à la zone d’implantation du groupe de production de froid.",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Bâtiment tertiaire existant : activité correspondant à la zone d’implantation du groupe de production de froid.",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-139 vA35-3 à compter du 01-10-2020",
+      "code": "BAT-TH-139",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-139 vA35-3 à compter du 01-10-2020 : Système de récupération de chaleur sur un groupe de production de froid PDF – 163.19 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-139%20vA35-3%20%C3%A0%20compter%20du%2001-10-2020.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A",
+      "code": "BAT-TH-139",
+      "document_type": "partie_a",
+      "title": "BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A PDF – 138.46 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-139%20v%20A35-3%20%C3%A0%20compter%20du%2001-10-2020%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A à compter du 01-07-2026",
+      "code": "BAT-TH-139",
+      "document_type": "partie_a",
+      "title": "BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A à compter du 01-07-2026 PDF – 142.43 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-139%20v%20A35-3%20%C3%A0%20compter%20du%2001-10-2020%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+    "Tertiaire_BAT/BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.953286+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

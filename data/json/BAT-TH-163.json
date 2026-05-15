@@ -1,0 +1,553 @@
+{
+  "code": "BAT-TH-163",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-163 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type air/eau PDF – 141.35 Ko",
+  "version": "vA81-2",
+  "document_version": "vA81-2",
+  "effective_date": "2026-04-30",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2026-04-30",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": true,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Seuls sont éligibles les appareils dimensionnés pour répondre intégralement ou en partie aux besoins du bâtiment",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Seuls sont éligibles les appareils dimensionnés pour répondre intégralement ou en partie aux besoins du bâtiment",
+      "confidence": "low"
+    },
+    {
+      "text": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie les pompes à chaleur utilisées uniquement",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie les pompes à chaleur utilisées uniquement",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné)",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné)",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les pompes à chaleur réputées d’application basse température, l’Etas à 35°C (pour les conditions climatiques",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Pour les pompes à chaleur réputées d’application basse température, l’Etas à 35°C (pour les conditions climatiques",
+      "confidence": "low"
+    },
+    {
+      "text": "moyenne ou haute température, l’Etas à 55°C (pour les conditions climatiques moyennes définies par le règlement",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "moyenne ou haute température, l’Etas à 55°C (pour les conditions climatiques moyennes définies par le règlement",
+      "confidence": "low"
+    },
+    {
+      "text": "conditions de performance nominale de la norme EN 14511-2 pour une température à la sortie de l'échangeur",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "conditions de performance nominale de la norme EN 14511-2 pour une température à la sortie de l'échangeur",
+      "confidence": "low"
+    },
+    {
+      "text": "(Etas) (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "(Etas) (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon",
+      "confidence": "low"
+    },
+    {
+      "text": "conditions climatiques moyennes définies par le règlement susmentionné (soit Prated à la",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "conditions climatiques moyennes définies par le règlement susmentionné (soit Prated à la",
+      "confidence": "low"
+    },
+    {
+      "text": "conditions de performance nominale de la norme EN 14511-2, au régime de température d’air à",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "conditions de performance nominale de la norme EN 14511-2, au régime de température d’air à",
+      "confidence": "low"
+    },
+    {
+      "text": "commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement",
+      "confidence": "low"
+    },
+    {
+      "text": "selon le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "selon le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "L’efficacité énergétique saisonnière (Etas) pour le chauffage des locaux selon le règlement (EU) n° 813/2013 de la",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière (Etas) pour le chauffage des locaux selon le règlement (EU) n° 813/2013 de la",
+      "confidence": "low"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de",
+      "confidence": "low"
+    },
+    {
+      "text": "Le coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux",
+      "confidence": "low"
+    },
+    {
+      "text": "conditions de performance nominale de la norme EN 14511-2 pour une température à la sortie de l'échangeur",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "conditions de performance nominale de la norme EN 14511-2 pour une température à la sortie de l'échangeur",
+      "confidence": "low"
+    },
+    {
+      "text": "i) la description des équipements installés au titre de la présente fiche (marque, référence, efficacité énergétique",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "i) la description des équipements installés au titre de la présente fiche (marque, référence, efficacité énergétique",
+      "confidence": "low"
+    },
+    {
+      "text": "l’application de la PAC installée ou COP explicitement mesuré selon la norme EN 14511-2 pour une température à",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "l’application de la PAC installée ou COP explicitement mesuré selon la norme EN 14511-2 pour une température à",
+      "confidence": "low"
+    },
+    {
+      "text": "conditions de performance nominale de la norme EN 14511-2, au régime de température d’air à",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "conditions de performance nominale de la norme EN 14511-2, au régime de température d’air à",
+      "confidence": "low"
+    },
+    {
+      "text": "- et la performance énergétique de la pompe à chaleur installée : selon la puissance thermique nominale de",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- et la performance énergétique de la pompe à chaleur installée : selon la puissance thermique nominale de",
+      "confidence": "low"
+    },
+    {
+      "text": "la pompe à chaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "la pompe à chaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la",
+      "confidence": "low"
+    },
+    {
+      "text": "susmentionné) déterminée selon l’application de la PAC installée ou le COP explicitement mesuré selon la",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "susmentionné) déterminée selon l’application de la PAC installée ou le COP explicitement mesuré selon la",
+      "confidence": "low"
+    },
+    {
+      "text": "norme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C.",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "norme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C.",
+      "confidence": "low"
+    },
+    {
+      "text": "européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que :",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que :",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est l’étude préalable de dimensionnement susmentionnée.",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est l’étude préalable de dimensionnement susmentionnée.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "Le coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Le coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le coefficient de performance (COP) de la pompe à chaleur en mode chauffage, mesuré conformément aux",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Coefficient de",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Coefficient de",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient",
+      "confidence": "low"
+    },
+    {
+      "text": "de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la",
+      "confidence": "low"
+    },
+    {
+      "text": "base du montant de kWh cumac par m² de la PAC ayant le montant le plus faible.",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "base du montant de kWh cumac par m² de la PAC ayant le montant le plus faible.",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-163 vA81-2 à compter du 30-04-2026",
+      "code": "BAT-TH-163",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-163 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type air/eau PDF – 141.35 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-163%20vA81-2%20%C3%A0%20compter%20du%2030-04-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-04-30",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A",
+      "code": "BAT-TH-163",
+      "document_type": "partie_a",
+      "title": "BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A PDF – 112.17 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-163%20vA81-2%20%C3%A0%20compter%20du%2030-04-2026%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2026-04-30",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026",
+      "code": "BAT-TH-163",
+      "document_type": "partie_a",
+      "title": "BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026 PDF – 115.9 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-163%20vA81-2%20%C3%A0%20compter%20du%2030-04-2026%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-04-30",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+    "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.247128+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

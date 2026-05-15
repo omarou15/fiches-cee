@@ -1,0 +1,288 @@
+{
+  "code": "BAR-SE-106",
+  "sector": "residentiel",
+  "family": "SE",
+  "title": "BAR-SE-106 vA32-1 : Service de suivi des consommations d’énergie PDF – 126.78 Ko",
+  "version": "vA32-1",
+  "document_version": "vA32-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "délivrance de certificats d’économies d’énergie est limité à trois pour un même ménage bénéficiaire dans un même",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "délivrance de certificats d’économies d’énergie est limité à trois pour un même ménage bénéficiaire dans un même",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise à disposition d’un service de suivi des consommations",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise à disposition d’un service de suivi des consommations",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "de suivre sa consommation d'énergie en kWh et valorisée en euros ;",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "de suivre sa consommation d'énergie en kWh et valorisée en euros ;",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "de suivre sa consommation d'énergie en kWh et valorisée en euros ;",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac selon l’usage",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac selon l’usage",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac selon l’usage",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac selon l’usage",
+      "confidence": "low"
+    },
+    {
+      "text": "électriques (montant « chauffage électrique » + montant « Electricité spécifique ») soit sur les consommations de",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "électriques (montant « chauffage électrique » + montant « Electricité spécifique ») soit sur les consommations de",
+      "confidence": "low"
+    },
+    {
+      "text": "gaz et d’électricité spécifique (montant « chauffage gaz » + montant « Electricité spécifique ») soit sur les",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "gaz et d’électricité spécifique (montant « chauffage gaz » + montant « Electricité spécifique ») soit sur les",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-SE-106 vA32-1",
+      "code": "BAR-SE-106",
+      "document_type": "fiche_principale",
+      "title": "BAR-SE-106 vA32-1 : Service de suivi des consommations d’énergie PDF – 126.78 Ko",
+      "path": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-SE-106%20vA32-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-SE-106 vA32-1 - Partie A",
+      "code": "BAR-SE-106",
+      "document_type": "partie_a",
+      "title": "BAR-SE-106 vA32-1 - Partie A PDF – 119.04 Ko",
+      "path": "Residentiel_BAR/BAR-SE-106 vA32-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-SE-106%20vA32-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-SE-106 vA32-1 - Partie A à compter du 01-07-2026",
+      "code": "BAR-SE-106",
+      "document_type": "partie_a",
+      "title": "BAR-SE-106 vA32-1 - Partie A à compter du 01-07-2026 PDF – 117.5 Ko",
+      "path": "Residentiel_BAR/BAR-SE-106 vA32-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-SE-106%20vA32-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+    "Residentiel_BAR/BAR-SE-106 vA32-1 - Partie A.pdf",
+    "Residentiel_BAR/BAR-SE-106 vA32-1 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.122806+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

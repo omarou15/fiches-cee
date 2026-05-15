@@ -1,0 +1,216 @@
+# AGRI-TH-104 - AGRI-TH-104 vA35-3 à compter du 01-10-2020 : Système de récupération de chaleur sur un groupe de production de froid hors tanks à lait PDF – 146.66 Ko
+- Secteur: agriculture
+- Famille: TH
+- Version: vA35-3
+- Date d'application: 2020-10-01
+
+## Documents sources
+- `Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020.pdf`
+- `Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020 - Partie A.pdf`
+- `Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- une pompe à chaleur n’est pas éligible à cette opération.
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+_Non detecte automatiquement._
+
+## Pieces justificatives detectees
+- chaleur ou à défaut celles indiquées sur un document issu du fabricant.
+- La preuve de la réalisation de l’opération mentionne la mise en place d’un système de récupération de chaleur sur
+- À défaut, la preuve de réalisation de l'opération mentionne la mise en place, sur un groupe de production de froid,
+- d'un équipement avec ses marque et référence et elle est complétée par un document issu du fabricant indiquant que
+- Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place du
+- défaut, celles indiquées sur un document issu du fabricant du ou des compresseur(s).
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant de certificats
+- (M), en kWh cumac
+- montant des certificats d’économies d’énergie est effectué en considérant que Précupérée est égale à
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° AGRI-TH-104
+
+Système de récupération de chaleur sur un groupe de production de
+froid hors tank à lait
+
+1. Secteur d’application
+Agriculture : activité correspondant à la zone d’implantation du groupe de production de froid.
+
+2. Dénomination
+Mise en place d’un système de récupération de chaleur sur un groupe de production de froid hors tank à lait afin de
+chauffer ou préchauffer un fluide caloporteur (e.g. de l’eau), sur site.
+
+Est exclu de l’opération tout système de récupération de chaleur sur un groupe de production de froid afin de chauffer
+ou préchauffer de l’air.
+
+Cette fiche ne s’applique pas au système de récupération de chaleur sur un tank à lait relevant de la fiche d’opération
+standardisée AGRI-TH-105.
+
+La mise en place d’un système de récupération de chaleur sur un groupe de production de froid de secours ou sur
+une pompe à chaleur n’est pas éligible à cette opération.
+
+3. Conditions pour la délivrance de certificats
+La mise en place est réalisée par un professionnel.
+
+La fiche s’applique au groupe de production de froid par compression mécanique utilisant un fluide frigorigène,
+circulant en circuit fermé, dont la température d’évaporation est inférieure ou égale à 18°C.
+
+La mise en place du système de récupération de chaleur fait l’objet d’une étude préalable de dimensionnement
+établie, datée et signée par un professionnel ou un bureau d’étude. Elle vise à évaluer les économies d’énergie
+attendues, via la chaleur récupérée, au regard des installations de production de froid et des besoins de chaleur mais
+également à démontrer la bonne adaptation entre les besoins de froid et la production de froid puis entre le système
+de récupération de chaleur et les besoins de chaud en présentant les calculs et leurs hypothèses.
+
+L’étude de dimensionnement définit une période représentative des besoins de chaleur et des besoins de froid qui
+ne peut pas être inférieure à 24h et qui considère les usages, a minima, sur les deux dernières années, les arrêts de
+saisonnalité ainsi que de la concomitance des besoins agricoles de froid et des besoins de chaleur. Il en est déduit
+sur cette base une durée annuelle.
+
+L’étude de dimensionnement comporte les éléments suivants :
+a) l’identification de l’opération :
+i.
+la raison sociale et l’adresse du bénéficiaire ;
+ii. l’adresse du chantier si différente de l’adresse du bénéficiaire.
+b) la description des caractéristiques techniques des équipements suivants :
+
+i.
+des installations de production de froid : marques, références, usage(s) du froid, puissances frigorifique
+(évaporateurs) et électrique (compresseurs) installées, température d’évaporation du fluide frigorigène,
+durées de fonctionnement annuel des compresseurs, sur la période représentative ;
+ii. des systèmes de récupération de chaleur : équipements (condenseur, désurchauffeur et/ou
+refroidissement d’huile), pompes ou ventilateurs de distribution, longueur du circuit de distribution,
+éventuels stockages, etc. accompagné d’un schéma simplifié de l’installation, marques et références des
+systèmes, usage(s) de la chaleur, puissance, température, durées annuelles d’utilisation de la chaleur sur
+la période représentative.
+
+La description des équipements précisera les équipements existants avant l’étude de dimensionnement et ceux
+qui sont mis en place dans le cadre de l’opération.
+
+c) la justification et le dimensionnement de l’opération :
+i.
+la justification de l’usage et de la puissance installée du système de production de froid au regard des
+besoins en froid ainsi que de la durée moyenne de fonctionnement annuel des compresseurs frigorifiques,
+sur la période représentative dans le cas de compresseurs existants et sur la durée moyenne prévisionnelle
+dans le cas de compresseurs neufs ;
+
+ii. la nature des besoins de chaleur à couvrir pour les usages : procédés, eau chaude sanitaire ou chauffage
+des locaux ;
+
+iii. pour chacun des besoins de chaleur à couvrir :
+•
+la puissance thermique à couvrir,
+•
+la température demandée,
+•
+la durée annuelle du besoin de chaleur sur la base de la période représentative.
+
+Ainsi, pour les besoins de chaleur, l’étude précise :
+•
+la somme des puissances thermiques unitaires à couvrir,
+•
+la moyenne pondérée des durées annuelles des besoins unitaires affectée des puissances respectives
+(c’est-à-dire (d1*P1 +...+ dn*Pn)/(P1+...+Pn)).
+
+iv. la simultanéité des besoins en froid et des besoins de chaleur sur la période représentative ;
+
+v. la justification du bon dimensionnement du système de récupération de chaleur, au regard des besoins
+de chaleur à couvrir et de la simultanéité avec les besoins en froid, qui précise en particulier :
+•
+la puissance maximale de réjection de l’installation de production de froid ;
+•
+Pdéjà récupérée en kW (thermique) qui est la puissance thermique déjà récupérée par un ou plusieurs
+systèmes de récupération de chaleur sur le groupe de production de froid concerné par l’opération ;
+•
+la puissance thermique du système de récupération de chaleur ;
+•
+Précupérée en kW (thermique) qui est le minimum entre la puissance thermique du système de
+récupération de chaleur et la somme des puissances thermiques à couvrir ;
+•
+Pcompresseur(s) en kW (électrique) qui est la somme des puissances électriques nominales
+indiquées sur les plaques du ou des compresseur(s) raccordé(s) au système de récupération de
+chaleur ou à défaut celles indiquées sur un document issu du fabricant.
+
+vi. une évaluation des économies d’énergie attendues, sur une période annuelle.
+
+La preuve de la réalisation de l’opération mentionne la mise en place d’un système de récupération de chaleur sur
+un groupe de production de froid et la puissance du système de récupération de chaleur en kW thermique.
+
+À défaut, la preuve de réalisation de l'opération mentionne la mise en place, sur un groupe de production de froid,
+d'un équipement avec ses marque et référence et elle est complétée par un document issu du fabricant indiquant que
+l'équipement de marque et référence installé est un système de récupération de chaleur et mentionnant sa puissance
+en kW thermique.
+
+Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place du
+système de récupération de chaleur répondant aux attendus ci-dessus.
+
+Dans le cas où la récupération de chaleur nécessiterait l’installation de plusieurs systèmes de récupération de chaleur,
+la fiche sera utilisée à plusieurs reprises.
+
+4. Durée de vie conventionnelle
+14 ans.
+
+5. Montant de certificats en kWh cumac
+
+Montant de certificats
+(M), en kWh cumac
+‘
+Durée annuelle
+d’utilisation de la
+chaleur récupérée (D),
+en heures
+
+Facteur
+multiplicatif
+
+Puissance thermique
+récupérée en kW
+M
+=
+D
+X
+‘9,9
+X
+Précupérée
+limitée à
+(2 x Pcompresseurs) – Pdéjà récupérée
+
+Avec, les données suivantes déterminées dans l’étude de dimensionnement préalable, notamment dans ses parties
+bi, bii, ciii, cv :
+•
+La durée annuelle d’utilisation de la chaleur récupérée (D) est le minimum entre la moyenne pondérée des
+durées annuelles des besoins unitaires affectée des puissances respectives (c’est-à-dire (d1*P1 +...+
+dn*Pn)/(P1+...+Pn)) et la durée moyenne de fonctionnement annuel des compresseurs frigorifiques ;
+•
+La puissance thermique récupérée (Précupérée) est le minimum entre la puissance thermique du système de
+récupération de chaleur et la somme des puissances thermiques à couvrir ;
+•
+La puissance thermique déjà récupérée (Pdéjà récupérée) est la puissance thermique déjà récupérée par un ou
+plusieurs systèmes de récupération de chaleur sur le groupe de production de froid concerné par l’opération ;
+•
+La puissance électrique des compresseurs (Pcompresseur(s)) est la somme des puissances électriques nominales
+indiquées sur les plaques du ou des compresseur(s) raccordé(s) au système de récupération de chaleur ou, à
+défaut, celles indiquées sur un document issu du fabricant du ou des compresseur(s).
+
+Nota 1 : Lorsque le groupe de production de froid est une installation frigorifique à deux étages, alors :
+•
+Pour des compresseurs compound (un (des) compresseur(s) assurant les 2 niveaux de pressions d’aspiration)
+ou booster (un (des) compresseur(s) basse pression (BP) et un (des) compresseur (s) haute pression (HP))
+alors Pcompresseur(s) est la somme des puissances électriques nominales des compresseurs BP et HP ;
+•
+Pour des compresseurs en cascades (2 fluides frigorigènes différents et/ou présence d’un échangeur
+intermédiaire faisant évaporateur de la partie HP et condenseur de la partie BP) alors Pcompresseur(s) est la
+somme des puissances électriques nominales du (des) seul(s) compresseur(s) HP.
+
+Nota 2 : Si Précupérée excède la limite imposée dans le tableau ci-dessus ((2 x Pcompresseur(s)) – Pdéjà récupérée), le calcul du
+montant des certificats d’économies d’énergie est effectué en considérant que Précupérée est égale à
+((2 x Pcompresseur(s)) – Pdéjà récupérée).

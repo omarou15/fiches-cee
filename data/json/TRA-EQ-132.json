@@ -1,0 +1,226 @@
+{
+  "code": "TRA-EQ-132",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-132 vA65-1 à compter du 01-01-2025 : Appareil de mesure, d’analyse et d’optimisation de la consommation de carburant d’un navire de pêche PDF – 244.94 Ko",
+  "version": "vA65-1",
+  "document_version": "vA65-1",
+  "effective_date": "2025-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "- une copie de l’acte de francisation du navire justifiant qu’il est immatriculé sous pavillon français à la date",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- une copie de l’acte de francisation du navire justifiant qu’il est immatriculé sous pavillon français à la date",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne les marque et référence de l’appareil acquis et installé à bord du",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne les marque et référence de l’appareil acquis et installé à bord du",
+      "confidence": "low"
+    },
+    {
+      "text": "l’appareil requises par la présente fiche. A défaut, la preuve de réalisation de l’opération mentionne les marque et",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "l’appareil requises par la présente fiche. A défaut, la preuve de réalisation de l’opération mentionne les marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "d’immatriculation du navire et est accompagné par un document issu du fabricant mentionnant que l’équipement de",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d’immatriculation du navire et est accompagné par un document issu du fabricant mentionnant que l’équipement de",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont les suivants :",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont les suivants :",
+      "confidence": "low"
+    },
+    {
+      "text": "d’engagement de l’opération. Ce document mentionne le propriétaire, le type de navire (art dormant ; art traînant ;",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d’engagement de l’opération. Ce document mentionne le propriétaire, le type de navire (art dormant ; art traînant ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- pour les navires de pêche professionnelle, les factures d’avitaillement en carburant du navire pendant la période",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- pour les navires de pêche professionnelle, les factures d’avitaillement en carburant du navire pendant la période",
+      "confidence": "low"
+    },
+    {
+      "text": "définissant le contenu de la partie A de l’attestation sur l’honneur",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "définissant le contenu de la partie A de l’attestation sur l’honneur",
+      "confidence": "low"
+    },
+    {
+      "text": "* Date d’engagement de l’opération (facture de mise en service de l’appareil installé) : ……/........./............",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "* Date d’engagement de l’opération (facture de mise en service de l’appareil installé) : ……/........./............",
+      "confidence": "low"
+    },
+    {
+      "text": "*Référence de la preuve de réalisation (facture relative à l’installation de l’appareil) : ………….",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "*Référence de la preuve de réalisation (facture relative à l’installation de l’appareil) : ………….",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par jour de mer du navire",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par jour de mer du navire",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-132 vA65-1 à compter du 01-01-2025_0",
+      "code": "TRA-EQ-132",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-132 vA65-1 à compter du 01-01-2025 : Appareil de mesure, d’analyse et d’optimisation de la consommation de carburant d’un navire de pêche PDF – 244.94 Ko",
+      "path": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-132%20vA65-1%20%C3%A0%20compter%20du%2001-01-2025_0.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A",
+      "code": "TRA-EQ-132",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A PDF – 96.74 Ko",
+      "path": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-132%20vA65-1%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026",
+      "code": "TRA-EQ-132",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026 PDF – 100.11 Ko",
+      "path": "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-132%20vA65-1%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+    "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A.pdf",
+    "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.895696+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

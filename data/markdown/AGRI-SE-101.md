@@ -1,0 +1,86 @@
+# AGRI-SE-101 - AGRI-SE-101 vA40-2 à compter du 01-04-2022 : Contrôle et préconisations de réglage du moteur d’un tracteur PDF – 115.42 Ko
+- Secteur: agriculture
+- Famille: SE
+- Version: vA40-2
+- Date d'application: 2022-04-01
+
+## Documents sources
+- `Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf`
+- `Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A.pdf`
+- `Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf`
+- `Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2025.pdf`
+- `Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+_Non detecte automatiquement._
+
+## Pieces justificatives detectees
+- Contrôle et préconisations de réglage du moteur d’un tracteur
+- Contrôle du moteur d’un tracteur sur banc d’essai mobile et préconisations de réglages.
+- L’opération comprend le contrôle du moteur sur banc d’essai mobile et les conseils délivrés à l’agriculteur ou au
+- Le contrôle est effectué par un professionnel.
+- La preuve de réalisation de l’opération mentionne le contrôle du moteur sur banc d’essai et l’identification du
+- Le document justificatif spécifique de l’opération est le rapport de contrôle du moteur du tracteur agricole sur banc
+- - le contrôle du moteur sur banc d’essai, le numéro de châssis du véhicule contrôlé et les résultats du contrôle (avec
+- Le contrôle précédent est daté de plus de deux ans.
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° AGRI-SE-101
+
+Contrôle et préconisations de réglage du moteur d’un tracteur
+
+1. Secteur d’application
+Agriculture : véhicules de catégorie T (à roues) ou C (à chenilles) selon l’article R. 311-1 du code de la route.
+
+2. Dénomination
+Contrôle du moteur d’un tracteur sur banc d’essai mobile et préconisations de réglages.
+
+3. Conditions pour la délivrance de certificats
+L’opération comprend le contrôle du moteur sur banc d’essai mobile et les conseils délivrés à l’agriculteur ou au
+chauffeur sur la conduite, l’entretien du matériel et les réglages.
+
+Le contrôle est effectué par un professionnel.
+
+La preuve de réalisation de l’opération mentionne le contrôle du moteur sur banc d’essai et l’identification du
+véhicule contrôlé.
+
+Le document justificatif spécifique de l’opération est le rapport de contrôle du moteur du tracteur agricole sur banc
+d’essai, daté et signé par le professionnel, et mentionnant :
+- le contrôle du moteur sur banc d’essai, le numéro de châssis du véhicule contrôlé et les résultats du contrôle (avec
+a minima les courbes des relevés de couple, de puissance, de consommation spécifique et de débit de la pompe
+d’injection) ;
+- l’immatriculation du tracteur contrôlé ;
+- les conseils délivrés à l’agriculteur ou au chauffeur sur la conduite, l’entretien du matériel et les réglages à
+effectuer.
+
+Le contrôle précédent est daté de plus de deux ans.
+
+4. Durée de vie conventionnelle
+2 ans.
+
+5. Montant de certificats en kWh cumac
+
+Puissance du moteur du tracteur
+en chevaux
+Montant en kWh cumac
+par tracteur contrôlé
+de 0 à 78
+8 000
+de 79 à 133
+16 800
+à compter de 134
+22 400

@@ -1,0 +1,321 @@
+{
+  "code": "BAT-TH-142",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-142 vA71-4 à compter du 01-08-2025 : Système de déstratification d’air PDF – 131.74 Ko",
+  "version": "vA71-4",
+  "document_version": "vA71-4",
+  "effective_date": "2025-08-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-08-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": true,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": true,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": true,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "est indépendant du système de chauffage. Les brasseurs d’air plafonniers ne sont pas éligibles à la présente fiche.",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "est indépendant du système de chauffage. Les brasseurs d’air plafonniers ne sont pas éligibles à la présente fiche.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "performance énergétique dans le traitement climatique des bâtiments » ou 1905 « Audit énergétique des bâtiments",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "performance énergétique dans le traitement climatique des bâtiments » ou 1905 « Audit énergétique des bâtiments",
+      "confidence": "low"
+    },
+    {
+      "text": "normes NF X 50-091, NF EN 16247 ou équivalentes.",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "normes NF X 50-091, NF EN 16247 ou équivalentes.",
+      "confidence": "low"
+    },
+    {
+      "text": "issu du fabricant ou d’un organisme établi dans l’Espace économique européen et accrédité selon la norme NF EN",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "issu du fabricant ou d’un organisme établi dans l’Espace économique européen et accrédité selon la norme NF EN",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place d’un système de déstratification d’air asservis",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d’un système de déstratification d’air asservis",
+      "confidence": "low"
+    },
+    {
+      "text": "À défaut des dispositions de l’alinéa précédent, la preuve de la réalisation de l'opération mentionne la mise en place",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "À défaut des dispositions de l’alinéa précédent, la preuve de la réalisation de l'opération mentionne la mise en place",
+      "confidence": "low"
+    },
+    {
+      "text": "d'équipements en précisant, pour chacun d’entre eux, la marque et la référence. Elle est complétée par un document",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d'équipements en précisant, pour chacun d’entre eux, la marque et la référence. Elle est complétée par un document",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que les équipements de marque et référence installés sont des systèmes de déstratification",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que les équipements de marque et référence installés sont des systèmes de déstratification",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est la note de dimensionnement. Le nombre d’équipements installés",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est la note de dimensionnement. Le nombre d’équipements installés",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Le montant de certificats d’économies d’énergie est déterminé pour l’ensemble du local complètement clos chauffé",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le montant de certificats d’économies d’énergie est déterminé pour l’ensemble du local complètement clos chauffé",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWhc par kW",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWhc par kW",
+      "confidence": "low"
+    },
+    {
+      "text": "Lorsqu’un local est chauffé par un système convectif et un système radiatif, les montants en certificats peuvent",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Lorsqu’un local est chauffé par un système convectif et un système radiatif, les montants en certificats peuvent",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "au moins une mesure de température de l’air dans la zone située entre le système de déstratification d’air inclus et",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "au moins une mesure de température de l’air dans la zone située entre le système de déstratification d’air inclus et",
+      "confidence": "low"
+    },
+    {
+      "text": "Le système est asservi à au moins une mesure de température de l’air dans la zone située entre le système de",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Le système est asservi à au moins une mesure de température de l’air dans la zone située entre le système de",
+      "confidence": "low"
+    },
+    {
+      "text": "de l’air prise dans la zone située entre le système de déstratification d’air inclus et le plafond ou le faîtage.",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "de l’air prise dans la zone située entre le système de déstratification d’air inclus et le plafond ou le faîtage.",
+      "confidence": "low"
+    },
+    {
+      "text": "à une mesure de température de l’air prise dans la zone située entre le système de déstratification d’air inclus et le",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "à une mesure de température de l’air prise dans la zone située entre le système de déstratification d’air inclus et le",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone climatique",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone climatique",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-142 vA71-4 à compter du 01-08-2025",
+      "code": "BAT-TH-142",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-142 vA71-4 à compter du 01-08-2025 : Système de déstratification d’air PDF – 131.74 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-142%20vA71-4%20%C3%A0%20compter%20du%2001-08-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-142 vA71-4 à compter du 01-08-2025 - Partie A",
+      "code": "BAT-TH-142",
+      "document_type": "partie_a",
+      "title": "BAT-TH-142 vA71-4 à compter du 01-08-2025 - Partie A PDF – 110.92 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-142%20vA71-4%20%C3%A0%20compter%20du%2001-08-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-142 vA71-4 à compter du 01-08-2025 - Partie A à compter du 01-07-2026",
+      "code": "BAT-TH-142",
+      "document_type": "partie_a",
+      "title": "BAT-TH-142 vA71-4 à compter du 01-08-2025 - Partie A à compter du 01-07-2026 PDF – 114.15 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-142%20vA71-4%20%C3%A0%20compter%20du%2001-08-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+    "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.978860+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

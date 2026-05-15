@@ -1,0 +1,203 @@
+{
+  "code": "BAR-TH-176",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-176 vA58-1 à compter du 29-12-2023 : Système de régulation de la consommation d’un chauffe-eau électrique à effet Joule PDF – 170.76 Ko",
+  "version": "vA58-1",
+  "document_version": "vA58-1",
+  "effective_date": "2023-12-29",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2023-12-29",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": true,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Le dispositif de régulation acquis, répondant aux fonctionnalités de classe A de la norme",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le dispositif de régulation acquis, répondant aux fonctionnalités de classe A de la norme",
+      "confidence": "low"
+    },
+    {
+      "text": "On entend par classe A au sens de la norme NF EN ISO 52120-1 une régulation permettant une",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "On entend par classe A au sens de la norme NF EN ISO 52120-1 une régulation permettant une",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation mentionne la mise en place d’un système de régulation de la consommation",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation mentionne la mise en place d’un système de régulation de la consommation",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par logement",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par logement",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-176 vA58-1 à compter du 29-12-2023_0",
+      "code": "BAR-TH-176",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-176 vA58-1 à compter du 29-12-2023 : Système de régulation de la consommation d’un chauffe-eau électrique à effet Joule PDF – 170.76 Ko",
+      "path": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-176%20vA58-1%20%C3%A0%20compter%20du%2029-12-2023_0.pdf",
+      "format": "pdf",
+      "effective_date": "2023-12-29",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A",
+      "code": "BAR-TH-176",
+      "document_type": "partie_a",
+      "title": "BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A PDF – 96.18 Ko",
+      "path": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-176%20vA58-1%20%C3%A0%20compter%20du%2029-12-2023%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2023-12-29",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-176",
+      "document_type": "partie_a",
+      "title": "BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A à compter du 01-07-2026 PDF – 100.53 Ko",
+      "path": "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-176%20vA58-1%20%C3%A0%20compter%20du%2029-12-2023%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2023-12-29",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+    "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.920553+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

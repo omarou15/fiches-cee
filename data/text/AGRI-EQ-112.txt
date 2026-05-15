@@ -1,0 +1,52 @@
+Certificats d’économies d’énergie
+
+Opération n° AGRI-EQ-112
+
+Double paroi gonflable sur serres maraîchères ou horticoles
+
+1. Secteur d’application
+Agriculture : serres maraîchères et horticoles, neuves ou existantes.
+
+2. Dénomination
+Mise en place, au-dessus des cultures ainsi que, le cas échéant, sur les parois verticales d’une serre chauffée, d’une
+couverture multicouche en plastique neuve avec un système de gonflage.
+
+Une serre est considérée comme chauffée lorsque sa température de consigne minimale pour le chauffage est
+supérieure à 12°C sur la période de culture.
+
+L’installation d’une double paroi gonflable réalisée uniquement sur les parois verticales de la serre est exclue.
+
+La présente fiche n’est pas cumulable avec la fiche d’opération standardisée AGRI-EQ-108.
+
+La présente fiche s’applique aux opérations engagées avant le 1er septembre 2030.
+
+3. Conditions pour la délivrance de certificats
+La mise en place est réalisée par un professionnel.
+
+Le dispositif est piloté automatiquement.
+
+La preuve de la réalisation de l’opération mentionne la mise en place d’une couverture multicouche en plastique
+neuve avec un système de gonflage.
+
+A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et
+référence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence
+installé est une couverture multicouche en plastique neuve avec un système de gonflage.
+
+4. Durée de vie conventionnelle
+5 ans.
+
+5. Montant de certificats en kWh cumac
+Le volume de certificats d’économies d’énergie est déterminé comme suit :
+
+Type de serres
+Montant en kWh cumac
+par m² de serre équipée
+
+Surface de la serre
+équipée (m²)
+Serres maraîchères
+410
+X
+S
+Serres horticoles
+290

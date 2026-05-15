@@ -1,0 +1,140 @@
+# BAT-SE-105 - BAT-SE-105 vA32-1 : Abaissement de la température de retour vers un réseau de chaleur PDF – 119.72 Ko
+- Secteur: tertiaire
+- Famille: SE
+- Version: vA32-1
+- Date d'application: unknown
+
+## Documents sources
+- `Tertiaire_BAT/BAT-SE-105 vA32-1.pdf`
+- `Tertiaire_BAT/BAT-SE-105 vA32-1 - Parties A et D_0.pdf`
+- `Tertiaire_BAT/BAT-SE-105 vA32-1 - Partie A à compter du 01-07-2026 et Partie D.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+- Les circuits secondaires du (des) bâtiment(s) concerné(s) ne peuvent donner lieu qu’à une seule délivrance de
+
+## Exigences techniques detectees
+_Non detecte automatiquement._
+
+## Pieces justificatives detectees
+- gestionnaire du réseau approuve ce document en le signant.
+- La preuve de réalisation de l’opération mentionne les sous-stations traitées et l’un des trois types d’interventions
+- Le document spécifique à l’opération est l’attestation, établie par le professionnel, d’absence de points de recyclage
+- stations, ce document spécifique atteste, de plus, de la bonne répartition des débits, soit par la mesure des débits,
+- du réseau approuve ce document en le signant.
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant unitaire en kWh
+- cumac par m2
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° BAT-SE-105
+
+Abaissement de la température de retour vers un réseau de chaleur
+
+1. Secteur d’application
+Bâtiments tertiaires existants raccordés à un réseau de chaleur existant en France métropolitaine.
+
+2. Dénomination
+Mise en place, sur les circuits secondaires de chauffage et d’eau chaude sanitaire du bâtiment, d’un système
+permettant l’abaissement de la température de retour vers le réseau de chaleur, en supprimant l’ensemble des points
+de recyclage et/ou des situations de débit constant dans la ou les sous-stations.
+
+3. Conditions pour la délivrance de certificats
+La mise en place est réalisée par un professionnel.
+
+Pour l’abaissement de la température de retour vers le réseau de chaleur, trois types d’interventions sont
+possibles sur la (ou les) sous-station(s) du bénéficiaire :
+- la suppression de l’ensemble des points de recyclage dans la sous-station raccordée au réseau de chaleur ;
+- ou la suppression de l’ensemble des points de recyclage et l’équilibrage de l’ensemble des sous-stations
+raccordées au réseau de chaleur ;
+- ou la suppression de l’ensemble des points de recyclage et l’équilibrage de l’ensemble des sous-stations
+implantées sur le circuit secondaire de distribution de la chaleur concernées par l’opération.
+
+La mise en place d’un système permettant l’abaissement de la température de retour vers le réseau fait l’objet d’une
+étude technique préalable établie par un professionnel ou un bureau d’études.
+
+Cette étude comporte un schéma de principe de la distribution de chaleur dans le (les) bâtiment(s), l’état initial avant
+travaux précisant notamment l’emplacement de l’ensemble des sous-stations, la présence soit de points de recyclage
+soit d’une situation de débit constant générant une température de retour trop élevée vers le réseau de chaleur, le
+descriptif des travaux à réaliser afin d’abaisser la température de retour vers le réseau de chaleur et indiquant les
+équipements à installer dans la ou les sous-station(s) concernée(s) ainsi que l’état final prévu après travaux. Le
+gestionnaire du réseau approuve ce document en le signant.
+
+La preuve de réalisation de l’opération mentionne les sous-stations traitées et l’un des trois types d’interventions
+définis ci-dessus.
+
+Le document spécifique à l’opération est l’attestation, établie par le professionnel, d’absence de points de recyclage
+et de situation de débit constant. Pour les cas d’intervention sur un circuit de distribution avec plusieurs sous-
+stations, ce document spécifique atteste, de plus, de la bonne répartition des débits, soit par la mesure des débits,
+soit par mesure des températures de retour, vannes de régulation positionnées en grande ouverture. Le gestionnaire
+du réseau approuve ce document en le signant.
+
+Les circuits secondaires du (des) bâtiment(s) concerné(s) ne peuvent donner lieu qu’à une seule délivrance de
+certificats d’économies d’énergie au moyen de la présente fiche d’opération standardisée.
+
+4. Durée de vie conventionnelle
+12 ans.
+
+5. Montant de certificats en kWh cumac
+
+
+
+
+Secteur d'activité
+Facteur
+correctif
+
+
+Zone
+climatique
+Montant unitaire en kWh
+cumac par m2
+
+Bureaux
+1,2
+
+Surface chauffée
+(m2)
+H1
+130
+
+Enseignement
+0,8
+
+
+S
+
+H2
+110
+X
+Santé
+1
+X
+H3
+72
+
+Commerces
+0,9
+
+
+
+
+Hôtellerie,
+restauration
+1,3
+
+
+
+
+
+Autres
+0,8

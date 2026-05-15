@@ -1,0 +1,321 @@
+{
+  "code": "BAR-TH-124",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-124 vA78-4 à compter du 01-01-2026 : Chauffe-eau solaire individuel (France d'outre mer) PDF – 133.47 Ko",
+  "version": "vA78-4",
+  "document_version": "vA78-4",
+  "effective_date": "2026-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2026-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": true
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "La superficie hors-tout de capteurs est celle définie dans la norme ISO 9488.",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La superficie hors-tout de capteurs est celle définie dans la norme ISO 9488.",
+      "confidence": "low"
+    },
+    {
+      "text": "L’efficacité énergétique pour le chauffage de l'eau, définie par le règlement (UE) n° 814/2013 de la Commission du",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique pour le chauffage de l'eau, définie par le règlement (UE) n° 814/2013 de la Commission du",
+      "confidence": "low"
+    },
+    {
+      "text": "- ou des caractéristiques de performances et de qualité équivalentes, établies par un organisme localisé dans l’Espace",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- ou des caractéristiques de performances et de qualité équivalentes, établies par un organisme localisé dans l’Espace",
+      "confidence": "low"
+    },
+    {
+      "text": "Economique Européen et accrédité selon la norme NF EN ISO/CEI 17065 par le Comité Français d’Accréditation",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Economique Européen et accrédité selon la norme NF EN ISO/CEI 17065 par le Comité Français d’Accréditation",
+      "confidence": "low"
+    },
+    {
+      "text": "- seuil de tenue à l'arrachement du vitrage du (des) capteur(s) supérieur ou égal à 3 000 Pa mesuré selon la norme",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- seuil de tenue à l'arrachement du vitrage du (des) capteur(s) supérieur ou égal à 3 000 Pa mesuré selon la norme",
+      "confidence": "low"
+    },
+    {
+      "text": "d'essai ISO 9806, obtenu par un laboratoire accrédité conformément à la norme NF EN ISO/IEC 17065 ;",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "d'essai ISO 9806, obtenu par un laboratoire accrédité conformément à la norme NF EN ISO/IEC 17065 ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- la tenue à la corrosion des matériaux aux atmosphères extérieures définies dans la norme NF P 24351, soit a",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- la tenue à la corrosion des matériaux aux atmosphères extérieures définies dans la norme NF P 24351, soit a",
+      "confidence": "low"
+    },
+    {
+      "text": "superficie hors-tout totale des capteurs solaires thermiques posés et l’efficacité énergétique pour le chauffage de",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "superficie hors-tout totale des capteurs solaires thermiques posés et l’efficacité énergétique pour le chauffage de",
+      "confidence": "low"
+    },
+    {
+      "text": "norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme",
+      "confidence": "low"
+    },
+    {
+      "text": "mentionne l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau. En cas de mention d’une date de",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "mentionne l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau. En cas de mention d’une date de",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la mise en place d’un chauffe-eau solaire individuel neuf, la",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne la mise en place d’un chauffe-eau solaire individuel neuf, la",
+      "confidence": "low"
+    },
+    {
+      "text": "l'eau du chauffe-eau. Pour les ventes par abonnement, la preuve de réalisation est le contrat de vente par abonnement",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "l'eau du chauffe-eau. Pour les ventes par abonnement, la preuve de réalisation est le contrat de vente par abonnement",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement neuf avec ses marque",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement neuf avec ses marque",
+      "confidence": "low"
+    },
+    {
+      "text": "document(s) issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "document(s) issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que l’équipement de marque et référence mis en place est un chauffe-eau solaire individuel et",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que l’équipement de marque et référence mis en place est un chauffe-eau solaire individuel et",
+      "confidence": "low"
+    },
+    {
+      "text": "validité, ce document est considéré comme valable jusqu’à un an après la date de fin de validité.",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "validité, ce document est considéré comme valable jusqu’à un an après la date de fin de validité.",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par m² de capteur",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par m² de capteur",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "vis-à-vis des charges mécaniques, climatiques et sismiques spécifiques de la zone d’installation de",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "vis-à-vis des charges mécaniques, climatiques et sismiques spécifiques de la zone d’installation de",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone géographique",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone géographique",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-124 vA78-4 à compter du 01-01-2026",
+      "code": "BAR-TH-124",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-124 vA78-4 à compter du 01-01-2026 : Chauffe-eau solaire individuel (France d'outre mer) PDF – 133.47 Ko",
+      "path": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-124%20vA78-4%20%C3%A0%20compter%20du%2001-01-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-124 vA78-4 à compter du 01-01-2026 - Partie A",
+      "code": "BAR-TH-124",
+      "document_type": "partie_a",
+      "title": "BAR-TH-124 vA78-4 à compter du 01-01-2026 - Partie A PDF – 115.03 Ko",
+      "path": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-124%20vA78-4%20%C3%A0%20compter%20du%2001-01-2026%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-124 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-124",
+      "document_type": "partie_a",
+      "title": "BAR-TH-124 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026 PDF – 118.64 Ko",
+      "path": "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-124%20vA78-4%20%C3%A0%20compter%20du%2001-01-2026%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+    "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.328942+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "code": "TRA-EQ-127",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 : Acquisition d’un bateau neuf à propulsion électrique ou hybride, naviguant en eaux intérieures PDF – 142.11 Ko",
+  "version": "vA54-1",
+  "document_version": "vA54-1",
+  "effective_date": "2023-10-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2023-10-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": true,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "La propulsion 100 % électrique désigne une architecture 100 % électrique sur batteries, dans des conditions",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "La propulsion 100 % électrique désigne une architecture 100 % électrique sur batteries, dans des conditions",
+      "confidence": "low"
+    },
+    {
+      "text": "Ne sont pas éligibles les motorisations en propulsion électrique incluant des briques énergétiques fonctionnant avec",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Ne sont pas éligibles les motorisations en propulsion électrique incluant des briques énergétiques fonctionnant avec",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "*Architecture propulsive en conditions normales d’exploitation (ne cocher qu’une seule case ) :",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "*Architecture propulsive en conditions normales d’exploitation (ne cocher qu’une seule case ) :",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne :",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "- la facture d’acquisition ou le contrat de location du bateau identifiable par un numéro de série, précisant le type",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- la facture d’acquisition ou le contrat de location du bateau identifiable par un numéro de série, précisant le type",
+      "confidence": "low"
+    },
+    {
+      "text": "- la preuve de la catégorie de bateau concernée :",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- la preuve de la catégorie de bateau concernée :",
+      "confidence": "low"
+    },
+    {
+      "text": "- dans le cas d’une motorisation de type hybride-série ou hybride-parallèle, le document établi par le bénéficiaire du",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- dans le cas d’une motorisation de type hybride-série ou hybride-parallèle, le document établi par le bénéficiaire du",
+      "confidence": "low"
+    },
+    {
+      "text": "Le délai entre la date de preuve de réalisation et la date d’achèvement de l’opération est au maximum de douze",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le délai entre la date de preuve de réalisation et la date d’achèvement de l’opération est au maximum de douze",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour le type de motorisation hybride-parallèle, la puissance est indiquée sur la preuve de réalisation de l’opération.",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Pour le type de motorisation hybride-parallèle, la puissance est indiquée sur la preuve de réalisation de l’opération.",
+      "confidence": "low"
+    },
+    {
+      "text": "définissant le contenu de la partie A de l’attestation sur l’honneur",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "définissant le contenu de la partie A de l’attestation sur l’honneur",
+      "confidence": "low"
+    },
+    {
+      "text": "*Date d’engagement de l'opération (ex: date d’acceptation du devis) : …….…/…........../………",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "*Date d’engagement de l'opération (ex: date d’acceptation du devis) : …….…/…........../………",
+      "confidence": "low"
+    },
+    {
+      "text": "*Date de la preuve de réalisation de l'opération : (ex: date de la facture de fin de chantier) : ........../............/...........",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "*Date de la preuve de réalisation de l'opération : (ex: date de la facture de fin de chantier) : ........../............/...........",
+      "confidence": "low"
+    },
+    {
+      "text": "NB : Le délai entre la date de preuve de réalisation et la date d’achèvement de l’opération est au maximum de douze mois.",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "NB : Le délai entre la date de preuve de réalisation et la date d’achèvement de l’opération est au maximum de douze mois.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "(kWh) pour la propulsion du bateau et de la consommation d’énergie totale pour la propulsion du bateau, sur une",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "(kWh) pour la propulsion du bateau et de la consommation d’énergie totale pour la propulsion du bateau, sur une",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "(kWh) pour la propulsion du bateau et de la consommation d’énergie totale pour la propulsion du bateau, sur une",
+      "confidence": "low"
+    },
+    {
+      "text": "journée-type d’utilisation (thermique et électrique (kWh)). Dans le cas d’une motorisation de type hybride-série ou",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "journée-type d’utilisation (thermique et électrique (kWh)). Dans le cas d’une motorisation de type hybride-série ou",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": true,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-127 vA54-1 à compter du 01-10-2023_0",
+      "code": "TRA-EQ-127",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 : Acquisition d’un bateau neuf à propulsion électrique ou hybride, naviguant en eaux intérieures PDF – 142.11 Ko",
+      "path": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-127%20vA54-1%20%C3%A0%20compter%20du%2001-10-2023_0.pdf",
+      "format": "pdf",
+      "effective_date": "2023-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Partie A_0",
+      "code": "TRA-EQ-127",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Partie A PDF – 104.49 Ko",
+      "path": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Partie A_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-127%20vA54-1%20%C3%A0%20compter%20du%2001-10-2023%20-%20Partie%20A_0.pdf",
+      "format": "pdf",
+      "effective_date": "2023-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Partie A à compter du 01-07-2026",
+      "code": "TRA-EQ-127",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Partie A à compter du 01-07-2026 PDF – 108.38 Ko",
+      "path": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-127%20vA54-1%20%C3%A0%20compter%20du%2001-10-2023%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2023-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Annexe 2 à compter du 01-07-2025",
+      "code": "TRA-EQ-127",
+      "document_type": "annexe",
+      "title": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Annexe 2 à compter du 01-07-2025 PDF – 138.4 Ko",
+      "path": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-127%20vA54-1%20%C3%A0%20compter%20du%2001-10-2023%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2023-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-EQ-127",
+      "document_type": "annexe",
+      "title": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Annexe 2 à compter du 01-07-2026 PDF – 175.26 Ko",
+      "path": "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-127%20vA54-1%20%C3%A0%20compter%20du%2001-10-2023%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2023-10-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+    "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Partie A_0.pdf",
+    "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Partie A à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Annexe 2 à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.787076+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

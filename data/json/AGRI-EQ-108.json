@@ -1,0 +1,175 @@
+{
+  "code": "AGRI-EQ-108",
+  "sector": "agriculture",
+  "family": "EQ",
+  "title": "AGRI-EQ-108 vA58-2 à compter du 01-02-2024 : Stockage d’eau pour une serre bioclimatique PDF – 122.17 Ko",
+  "version": "vA58-2",
+  "document_version": "vA58-2",
+  "effective_date": "2024-02-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2024-02-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": true,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant de kWh cumac par m²",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant de kWh cumac par m²",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0",
+      "code": "AGRI-EQ-108",
+      "document_type": "fiche_principale",
+      "title": "AGRI-EQ-108 vA58-2 à compter du 01-02-2024 : Stockage d’eau pour une serre bioclimatique PDF – 122.17 Ko",
+      "path": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-EQ-108%20vA58-2%20%C3%A0%20compter%20du%2001-02-2024_0.pdf",
+      "format": "pdf",
+      "effective_date": "2024-02-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A",
+      "code": "AGRI-EQ-108",
+      "document_type": "partie_a",
+      "title": "AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A PDF – 118.84 Ko",
+      "path": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-EQ-108%20vA58-2%20%C3%A0%20compter%20du%2001-02-2024%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2024-02-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A à compter du 01-07-2026",
+      "code": "AGRI-EQ-108",
+      "document_type": "partie_a",
+      "title": "AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A à compter du 01-07-2026 PDF – 122.11 Ko",
+      "path": "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-EQ-108%20vA58-2%20%C3%A0%20compter%20du%2001-02-2024%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2024-02-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf",
+    "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A.pdf",
+    "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:56.818334+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

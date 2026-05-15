@@ -1,0 +1,314 @@
+{
+  "code": "TRA-EQ-106",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-106 vA14-1 : Pneus de véhicules légers à basse résistance au roulement PDF – 116.39 Ko",
+  "version": "vA14-1",
+  "document_version": "vA14-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Acquisition et montage de pneumatiques de remplacement ayant une classification d’efficacité en carburant au",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Acquisition et montage de pneumatiques de remplacement ayant une classification d’efficacité en carburant au",
+      "confidence": "low"
+    },
+    {
+      "text": "Les pneumatiques ont une classification d’efficacité en carburant au moins égale à C ainsi qu’une classification en",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Les pneumatiques ont une classification d’efficacité en carburant au moins égale à C ainsi qu’une classification en",
+      "confidence": "low"
+    },
+    {
+      "text": "novembre 2009 sur l’étiquetage des pneumatiques en relation avec l’efficacité en carburant et d’autres paramètres",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "novembre 2009 sur l’étiquetage des pneumatiques en relation avec l’efficacité en carburant et d’autres paramètres",
+      "confidence": "low"
+    },
+    {
+      "text": "- la classe d’efficacité en carburant et la classe en adhérence sur sol mouillé des pneumatiques livrés.",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- la classe d’efficacité en carburant et la classe en adhérence sur sol mouillé des pneumatiques livrés.",
+      "confidence": "low"
+    },
+    {
+      "text": "leur marque et référence, et elle est accompagnée d’un document issu du fabricant indiquant la classe d’efficacité",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "leur marque et référence, et elle est accompagnée d’un document issu du fabricant indiquant la classe d’efficacité",
+      "confidence": "low"
+    },
+    {
+      "text": "en carburant et la classe en adhérence sur sol mouillé des pneumatiques de marque et référence livrés.",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "en carburant et la classe en adhérence sur sol mouillé des pneumatiques de marque et référence livrés.",
+      "confidence": "low"
+    },
+    {
+      "text": "que la classe d’efficacité en carburant et la classe en adhérence sur sol mouillé des pneumatiques livrés.",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "que la classe d’efficacité en carburant et la classe en adhérence sur sol mouillé des pneumatiques livrés.",
+      "confidence": "low"
+    },
+    {
+      "text": "Classe d’efficacité en",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Classe d’efficacité en",
+      "confidence": "low"
+    },
+    {
+      "text": "NA est le nombre de pneumatiques de classe d’efficacité en carburant A",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "NA est le nombre de pneumatiques de classe d’efficacité en carburant A",
+      "confidence": "low"
+    },
+    {
+      "text": "NB est le nombre de pneumatiques de classe d’efficacité en carburant B",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "NB est le nombre de pneumatiques de classe d’efficacité en carburant B",
+      "confidence": "low"
+    },
+    {
+      "text": "NC est le nombre de pneumatiques de classe d’efficacité en carburant C",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "NC est le nombre de pneumatiques de classe d’efficacité en carburant C",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne :",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne l'acquisition d’un nombre donné de pneumatiques avec",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne l'acquisition d’un nombre donné de pneumatiques avec",
+      "confidence": "low"
+    },
+    {
+      "text": "leur marque et référence, et elle est accompagnée d’un document issu du fabricant indiquant la classe d’efficacité",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "leur marque et référence, et elle est accompagnée d’un document issu du fabricant indiquant la classe d’efficacité",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "- un document, daté et signé par le bénéficiaire de l’opération, justifiant le kilométrage annuel moyen parcouru par",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- un document, daté et signé par le bénéficiaire de l’opération, justifiant le kilométrage annuel moyen parcouru par",
+      "confidence": "low"
+    },
+    {
+      "text": "du bénéficiaire, adresse du site), par date d’acquisition, par référence de la preuve de réalisation de l’opération ainsi",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "du bénéficiaire, adresse du site), par date d’acquisition, par référence de la preuve de réalisation de l’opération ainsi",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-106 vA14-1_0",
+      "code": "TRA-EQ-106",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-106 vA14-1 : Pneus de véhicules légers à basse résistance au roulement PDF – 116.39 Ko",
+      "path": "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-106%20vA14-1_0.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-106 vA14-1 - Partie A_0",
+      "code": "TRA-EQ-106",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-106 vA14-1 - Partie A PDF – 100.79 Ko",
+      "path": "Transport_TRA/TRA-EQ-106 vA14-1 - Partie A_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-106%20vA14-1%20-%20Partie%20A_0.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-106 vA14-1 - Partie A à compter du 01-07-2026_0",
+      "code": "TRA-EQ-106",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-106 vA14-1 - Partie A à compter du 01-07-2026 PDF – 105.91 Ko",
+      "path": "Transport_TRA/TRA-EQ-106 vA14-1 - Partie A à compter du 01-07-2026_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-106%20vA14-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026_0.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2025_0",
+      "code": "TRA-EQ-106",
+      "document_type": "annexe",
+      "title": "TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2025 PDF – 106.33 Ko",
+      "path": "Transport_TRA/TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2025_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-106%20vA14-1%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025_0.pdf",
+      "format": "pdf",
+      "effective_date": "2025-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2026_0",
+      "code": "TRA-EQ-106",
+      "document_type": "annexe",
+      "title": "TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2026 PDF – 108.5 Ko",
+      "path": "Transport_TRA/TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2026_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-106%20vA14-1%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026_0.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+    "Transport_TRA/TRA-EQ-106 vA14-1 - Partie A_0.pdf",
+    "Transport_TRA/TRA-EQ-106 vA14-1 - Partie A à compter du 01-07-2026_0.pdf",
+    "Transport_TRA/TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2025_0.pdf",
+    "Transport_TRA/TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2026_0.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.396353+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,136 @@
+# BAR-EN-104 - BAR-EN-104 vA54-2 à compter du 01-01-2024 : Fenêtre ou porte-fenêtre complète avec vitrage isolant PDF – 128.18 Ko
+- Secteur: residentiel
+- Famille: EN
+- Version: vA54-2
+- Date d'application: 2024-01-01
+
+## Documents sources
+- `Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024_1.pdf`
+- `Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024 - Partie A.pdf`
+- `Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- ne donnent pas lieu à la délivrance de certificats d’économies d’énergie.
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+- Les facteurs de transmission solaire Sw sont évalués selon la norme NF P 50-777 et les coefficients de transmission
+- thermique Uw des fenêtres ou portes-fenêtres selon la norme NF EN 14351-1+A2.
+- organisme établi dans l’Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le
+- toiture ou porte-fenêtre complète et précise ses caractéristiques thermiques (Uw et Sw) évaluées selon les normes
+
+## Pieces justificatives detectees
+- La preuve de la réalisation de l’opération mentionne :
+- A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec
+- leur marque et référence et la quantité installée et elle est complétée par un document issu du fabricant ou d’un
+- Ce document indique que l’équipement de marque et référence installé est une fenêtre, double fenêtre, fenêtre de
+- susmentionnées et sa surface. En cas de mention d’une date de validité, ce document est considéré comme valable
+- Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel
+
+## Formules / calcul detectes
+- Hors double fenêtre, le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :
+- renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et le facteur de
+- Les facteurs de transmission solaire Sw sont évalués selon la norme NF P 50-777 et les coefficients de transmission
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° BAR-EN-104
+
+Fenêtre ou porte-fenêtre complète avec vitrage isolant
+
+1. Secteur d’application
+Bâtiments résidentiels existants, à l’exclusion des parties communes non chauffées.
+
+2. Dénomination
+Mise en place d’une fenêtre, fenêtre de toiture ou porte-fenêtre complète avec vitrage isolant, les baies fixes étant
+permises, pour le remplacement d’une fenêtre, fenêtre de toiture ou porte-fenêtre équipée de simple vitrage avant
+travaux ou mise en place d’une double fenêtre sur une fenêtre équipée de simple vitrage avant travaux. L’opération
+inclut le remplacement du dormant existant, sauf dans le cas de l’installation d’une double fenêtre.
+
+Le simple remplacement de vitrages sur une fenêtre ou porte-fenêtre existante, la fermeture d’une loggia par des
+parois vitrées, la construction d’une véranda à parois vitrées ou la création d’une ouverture dans une paroi opaque
+ne donnent pas lieu à la délivrance de certificats d’économies d’énergie.
+
+La présente fiche est applicable aux opérations engagées avant le 1er juillet 2028.
+
+3. Conditions pour la délivrance de certificats
+Hors double fenêtre, le coefficient de transmission surfacique Uw et le facteur solaire Sw sont :
+- pour les fenêtres de toiture : Uw ≤ 1,5 W/m².K et Sw ≤ 0,36 ;
+- pour les autres fenêtres ou portes-fenêtres :
+- Uw ≤ 1,3 W/m2.K et Sw ≥ 0,3 ;
+- ou Uw ≤ 1,7 W/m2.K et Sw ≥ 0,36.
+
+L’installation d’une double fenêtre consiste en la pose, sur la baie existante, d'une seconde fenêtre à double vitrage
+renforcé, dont le coefficient de transmission thermique (Uw) est inférieur ou égal à 1,8 W/m2.K et le facteur de
+transmission solaire (Sw) supérieur ou égal à 0,32.
+
+La mise en place est réalisée par un professionnel.
+
+Les facteurs de transmission solaire Sw sont évalués selon la norme NF P 50-777 et les coefficients de transmission
+thermique Uw des fenêtres ou portes-fenêtres selon la norme NF EN 14351-1+A2.
+
+Le professionnel réalisant l’opération est titulaire d’un signe de qualité conforme aux exigences prévues à l’article
+2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du
+code général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des
+textes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 9° pour la pose de parois
+vitrées verticales ou du 10° pour la pose de parois vitrées en toiture du I de l'article 1er du décret précité.
+
+La surface de fenêtre inclut la surface de l’ensemble de profilés, fixes, dormants ou ouvrants (incluant les joints,
+mastics et produits d’étanchéité) pouvant encadrer l’élément de remplissage.
+
+La preuve de la réalisation de l’opération mentionne :
+
+- la mise en place d’une ou plusieurs fenêtre(s), double(s) fenêtre(s), fenêtre(s) de toiture ou porte(s)-fenêtre(s) ;
+- et le nombre de fenêtres, doubles fenêtres ou portes-fenêtres ;
+- et la surface des fenêtres ;
+- et les Uw et Sw des équipements installés.
+
+A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec
+leur marque et référence et la quantité installée et elle est complétée par un document issu du fabricant ou d’un
+organisme établi dans l’Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le
+Comité français d’accréditation (COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen
+multilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne
+des organismes d’accréditation.
+
+Ce document indique que l’équipement de marque et référence installé est une fenêtre, double fenêtre, fenêtre de
+toiture ou porte-fenêtre complète et précise ses caractéristiques thermiques (Uw et Sw) évaluées selon les normes
+susmentionnées et sa surface. En cas de mention d’une date de validité, ce document est considéré comme valable
+jusqu’à un an après sa date de fin de validité.
+
+Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel
+délivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé.
+
+4. Durée de vie conventionnelle
+30 ans.
+
+5. Montant de certificats en kWh cumac
+
+Zone
+climatique
+Montant en kWh cumac par
+m² de fenêtres, doubles
+fenêtres ou portes fenêtres
+complètes avec vitrage
+isolant posé
+
+Surface de fenêtres,
+doubles fenêtres ou
+portes fenêtres complètes
+avec vitrage isolant posé
+(m²)
+H1
+3 800
+X
+S
+H2
+3 100
+H3
+2 100

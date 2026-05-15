@@ -1,0 +1,297 @@
+{
+  "code": "RES-CH-106",
+  "sector": "reseaux",
+  "family": "CH",
+  "title": "RES-CH-106 vA60-4 à compter du 01-03-2024 : Mise en place d’un calorifugeage des canalisations d’un réseau de chaleur PDF – 235.6 Ko",
+  "version": "vA60-4",
+  "document_version": "vA60-4",
+  "effective_date": "2024-03-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2024-03-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": true,
+    "ventilation": false,
+    "insulation": true,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "inférieur aux valeurs du tableau ci-dessus est également éligible à la présente fiche.",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "inférieur aux valeurs du tableau ci-dessus est également éligible à la présente fiche.",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Classe 4",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Classe 4",
+      "confidence": "low"
+    },
+    {
+      "text": "La colonne « Classe 4 » du tableau ci-dessus s’applique aux canalisations respectant les exigences relatives à la classe",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La colonne « Classe 4 » du tableau ci-dessus s’applique aux canalisations respectant les exigences relatives à la classe",
+      "confidence": "low"
+    },
+    {
+      "text": "d’isolation thermique 4 définie par la norme NF EN 12828.",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "d’isolation thermique 4 définie par la norme NF EN 12828.",
+      "confidence": "low"
+    },
+    {
+      "text": "séries d’isolation thermique 1, 2 et 3 définies par la norme NF EN 253.",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "séries d’isolation thermique 1, 2 et 3 définies par la norme NF EN 253.",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les canalisations respectant les exigences relatives à la classe d’isolation thermique 4 définie par la norme",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour les canalisations respectant les exigences relatives à la classe d’isolation thermique 4 définie par la norme",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les canalisations respectant les exigences relatives aux séries d’isolation thermique 1, 2 et 3 définies par la norme",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour les canalisations respectant les exigences relatives aux séries d’isolation thermique 1, 2 et 3 définies par la norme",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place d’un calorifugeage sur les canalisations du réseau",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d’un calorifugeage sur les canalisations du réseau",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est le descriptif de la portion concernée par l’isolation du réseau de",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est le descriptif de la portion concernée par l’isolation du réseau de",
+      "confidence": "low"
+    },
+    {
+      "text": "eau surchauffée ou vapeur) et la durée annuelle d’utilisation du réseau. Ce document identifie le réseau de chaleur",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "eau surchauffée ou vapeur) et la durée annuelle d’utilisation du réseau. Ce document identifie le réseau de chaleur",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "L’isolant installé garantit que le coefficient de perte thermique Umax (W/m².K) est inférieur aux valeurs du tableau",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "L’isolant installé garantit que le coefficient de perte thermique Umax (W/m².K) est inférieur aux valeurs du tableau",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "L’isolant installé garantit que le coefficient de perte thermique Umax (W/m².K) est inférieur aux valeurs du tableau",
+      "confidence": "low"
+    },
+    {
+      "text": "Le coefficient de perte thermique Umax (W/m².K) est calculé au moyen de la formule suivante :",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le coefficient de perte thermique Umax (W/m².K) est calculé au moyen de la formule suivante :",
+      "confidence": "low"
+    },
+    {
+      "text": "λD (W/m.K) est le coefficient de conductivité thermique de l’isolant,",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "λD (W/m.K) est le coefficient de conductivité thermique de l’isolant,",
+      "confidence": "low"
+    },
+    {
+      "text": "La mise en place d’une canalisation pré-isolée dont le calorifugeage garantit que le coefficient de perte thermique est",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "La mise en place d’une canalisation pré-isolée dont le calorifugeage garantit que le coefficient de perte thermique est",
+      "confidence": "low"
+    },
+    {
+      "text": "(coefficient de conductivité thermique en W/m.K et épaisseur).",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "(coefficient de conductivité thermique en W/m.K et épaisseur).",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Le montant de certificats est calculé pour chaque élément de canalisation de diamètre nominal DN de la tuyauterie",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le montant de certificats est calculé pour chaque élément de canalisation de diamètre nominal DN de la tuyauterie",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant unitaire en kWh cumac selon le",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant unitaire en kWh cumac selon le",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant unitaire en kWh cumac selon le",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant unitaire en kWh cumac selon le",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "longueur_reseau_isole",
+      "unit": "m",
+      "required": true,
+      "reason": "calcul du volume CEE",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf"
+    },
+    {
+      "field": "diametre_reseau",
+      "unit": "mm",
+      "required": true,
+      "reason": "classement technique et calcul",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "RES-CH-106 vA60-4 à compter du 01-03-2024_0",
+      "code": "RES-CH-106",
+      "document_type": "fiche_principale",
+      "title": "RES-CH-106 vA60-4 à compter du 01-03-2024 : Mise en place d’un calorifugeage des canalisations d’un réseau de chaleur PDF – 235.6 Ko",
+      "path": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-CH-106%20vA60-4%20%C3%A0%20compter%20du%2001-03-2024_0.pdf",
+      "format": "pdf",
+      "effective_date": "2024-03-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "RES-CH-106 vA60-4 à compter du 01-03-2024 - Parties A, B, C et D",
+      "code": "RES-CH-106",
+      "document_type": "fiche_principale",
+      "title": "RES-CH-106 vA60-4 à compter du 01-03-2024 - Parties A, B, C et D PDF – 167.37 Ko",
+      "path": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024 - Parties A, B, C et D.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-CH-106%20vA60-4%20%C3%A0%20compter%20du%2001-03-2024%20-%20Parties%20A%2C%20B%2C%20C%20et%20D.pdf",
+      "format": "pdf",
+      "effective_date": "2024-03-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "RES-CH-106 vA60-4 à compter du 01-03-2024 - Partie A à compter du 01-07-2026 - Parties B, C et D",
+      "code": "RES-CH-106",
+      "document_type": "partie_a",
+      "title": "RES-CH-106 vA60-4 à compter du 01-03-2024 - Partie A à compter du 01-07-2026 - Parties B, C et D PDF – 170.38 Ko",
+      "path": "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024 - Partie A à compter du 01-07-2026 - Parties B, C et D.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-CH-106%20vA60-4%20%C3%A0%20compter%20du%2001-03-2024%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026%20-%20Parties%20B%2C%20C%20et%20D.pdf",
+      "format": "pdf",
+      "effective_date": "2024-03-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+    "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024 - Parties A, B, C et D.pdf",
+    "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024 - Partie A à compter du 01-07-2026 - Parties B, C et D.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.748595+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "code": "BAT-TH-126",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-126 v A32-2 à compter du 01-04-2020 : Ventilation mécanique double flux avec échangeur à débit d’air constant ou modulé PDF – 157.38 Ko",
+  "version": null,
+  "document_version": null,
+  "effective_date": "2020-04-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2020-04-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": true,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "des caractéristiques de performance et de qualité équivalentes établies par un organisme implanté dans l’Espace",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "des caractéristiques de performance et de qualité équivalentes établies par un organisme implanté dans l’Espace",
+      "confidence": "low"
+    },
+    {
+      "text": "économique européen et accrédité selon la norme NF EN ISO/CEI 17065 par le comité français d’accréditation",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "économique européen et accrédité selon la norme NF EN ISO/CEI 17065 par le comité français d’accréditation",
+      "confidence": "low"
+    },
+    {
+      "text": "L’efficacité de récupération de l’échangeur est supérieure ou égale à 75 % selon la norme NF EN 13053 ou",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité de récupération de l’échangeur est supérieure ou égale à 75 % selon la norme NF EN 13053 ou",
+      "confidence": "low"
+    },
+    {
+      "text": "NF EN 308. Est réputé satisfaire cette exigence, un échangeur de chaleur certifié Eurovent Certified Performance",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "NF EN 308. Est réputé satisfaire cette exigence, un échangeur de chaleur certifié Eurovent Certified Performance",
+      "confidence": "low"
+    },
+    {
+      "text": "performance et de qualité équivalentes établies par un organisme implanté dans l’Espace économique européen et",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "performance et de qualité équivalentes établies par un organisme implanté dans l’Espace économique européen et",
+      "confidence": "low"
+    },
+    {
+      "text": "accrédité selon la norme NF EN ISO/CEI 17065 par le comité français d’accréditation (COFRAC) ou tout autre",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "accrédité selon la norme NF EN ISO/CEI 17065 par le comité français d’accréditation (COFRAC) ou tout autre",
+      "confidence": "low"
+    },
+    {
+      "text": "- L’efficacité de récupération de l’échangeur mesurée selon la norme NF EN 13053 ou NF EN 308, ou en",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- L’efficacité de récupération de l’échangeur mesurée selon la norme NF EN 13053 ou NF EN 308, ou en",
+      "confidence": "low"
+    },
+    {
+      "text": "référence à la certification Eurovent Certified Performance Echangeurs à plaques air-air (AAHE) ou Echangeur",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "référence à la certification Eurovent Certified Performance Echangeurs à plaques air-air (AAHE) ou Echangeur",
+      "confidence": "low"
+    },
+    {
+      "text": "modulée (proportionnelle ou à détection de présence). Ce(s) document(s) précise(nt) l’efficacité de récupération de",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "modulée (proportionnelle ou à détection de présence). Ce(s) document(s) précise(nt) l’efficacité de récupération de",
+      "confidence": "low"
+    },
+    {
+      "text": "l’échangeur, mesurée selon la norme NF EN 13053 ou NF EN 308 ou en référence à la certification Eurovent",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "l’échangeur, mesurée selon la norme NF EN 13053 ou NF EN 308 ou en référence à la certification Eurovent",
+      "confidence": "low"
+    },
+    {
+      "text": "Certified Performance Echangeurs à plaques air-air (AAHE) ou Echangeur régénératif (AARE) de cet équipement",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Certified Performance Echangeurs à plaques air-air (AAHE) ou Echangeur régénératif (AARE) de cet équipement",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne :",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’équipements avec leurs marques et",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’équipements avec leurs marques et",
+      "confidence": "low"
+    },
+    {
+      "text": "références et elle est accompagnée d’un ou plusieurs document(s) issu(s) du fabricant indiquant que les équipements",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "références et elle est accompagnée d’un ou plusieurs document(s) issu(s) du fabricant indiquant que les équipements",
+      "confidence": "low"
+    },
+    {
+      "text": "modulée (proportionnelle ou à détection de présence). Ce(s) document(s) précise(nt) l’efficacité de récupération de",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "modulée (proportionnelle ou à détection de présence). Ce(s) document(s) précise(nt) l’efficacité de récupération de",
+      "confidence": "low"
+    },
+    {
+      "text": "Dans le cas d’une ventilation double flux modulée (proportionnelle ou à détection de présence), le document",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Dans le cas d’une ventilation double flux modulée (proportionnelle ou à détection de présence), le document",
+      "confidence": "low"
+    },
+    {
+      "text": "(CCFAT), en cours de validité à la date d’engagement de l’opération ou les éléments de preuve équivalents.",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "(CCFAT), en cours de validité à la date d’engagement de l’opération ou les éléments de preuve équivalents.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "mono- ou multizones).",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "mono- ou multizones).",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-126 v A32-2 à compter du 01-04-2020_0",
+      "code": "BAT-TH-126",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-126 v A32-2 à compter du 01-04-2020 : Ventilation mécanique double flux avec échangeur à débit d’air constant ou modulé PDF – 157.38 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-126%20v%20A32-2%20%C3%A0%20compter%20du%2001-04-2020_0.pdf",
+      "format": "pdf",
+      "effective_date": "2020-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-126 v A32-2 à compter du 01-04-2020 - Partie A",
+      "code": "BAT-TH-126",
+      "document_type": "partie_a",
+      "title": "BAT-TH-126 v A32-2 à compter du 01-04-2020 - Partie A PDF – 120.15 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-126%20v%20A32-2%20%C3%A0%20compter%20du%2001-04-2020%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2020-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-126 v A32-2 à compter du 01-04-2020 - Partie A à compter du 01-07-2026",
+      "code": "BAT-TH-126",
+      "document_type": "partie_a",
+      "title": "BAT-TH-126 v A32-2 à compter du 01-04-2020 - Partie A à compter du 01-07-2026 PDF – 124.97 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-126%20v%20A32-2%20%C3%A0%20compter%20du%2001-04-2020%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2020-04-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+    "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.871138+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

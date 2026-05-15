@@ -1,0 +1,202 @@
+{
+  "code": "AGRI-EQ-105",
+  "sector": "agriculture",
+  "family": "EQ",
+  "title": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 : Stop & Start pour véhicules agricoles à moteur PDF – 115.65 Ko",
+  "version": "vA28-1",
+  "document_version": "vA28-1",
+  "effective_date": "2018-12-19",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2018-12-19",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Le document justificatif spécifique à l’opération est une copie du certificat d’immatriculation du véhicule agricole",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le document justificatif spécifique à l’opération est une copie du certificat d’immatriculation du véhicule agricole",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne l’achat d’un véhicule agricole neuf à moteur et le fait qu’il est",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne l’achat d’un véhicule agricole neuf à moteur et le fait qu’il est",
+      "confidence": "low"
+    },
+    {
+      "text": "professionnel. Dans ce dernier cas, la preuve de réalisation du montage du dispositif mentionne les éléments",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "professionnel. Dans ce dernier cas, la preuve de réalisation du montage du dispositif mentionne les éléments",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est une copie du certificat d’immatriculation du véhicule agricole",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est une copie du certificat d’immatriculation du véhicule agricole",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par véhicule",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par véhicule",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018",
+      "code": "AGRI-EQ-105",
+      "document_type": "fiche_principale",
+      "title": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 : Stop & Start pour véhicules agricoles à moteur PDF – 115.65 Ko",
+      "path": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-EQ-105%20vA28-1%20%C3%A0%20compter%20du%2019-12-2018.pdf",
+      "format": "pdf",
+      "effective_date": "2018-12-19",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Partie A",
+      "code": "AGRI-EQ-105",
+      "document_type": "partie_a",
+      "title": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Partie A PDF – 106.51 Ko",
+      "path": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-EQ-105%20vA28-1%20%C3%A0%20compter%20du%2019-12-2018%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2018-12-19",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Partie A à compter du 01-07-2026",
+      "code": "AGRI-EQ-105",
+      "document_type": "partie_a",
+      "title": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Partie A à compter du 01-07-2026 PDF – 111.7 Ko",
+      "path": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-EQ-105%20vA28-1%20%C3%A0%20compter%20du%2019-12-2018%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2018-12-19",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2025",
+      "code": "AGRI-EQ-105",
+      "document_type": "annexe",
+      "title": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2025 PDF – 106.48 Ko",
+      "path": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-EQ-105%20vA28-1%20%C3%A0%20compter%20du%2019-12-2018%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2018-12-19",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2026",
+      "code": "AGRI-EQ-105",
+      "document_type": "annexe",
+      "title": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2026 PDF – 108.63 Ko",
+      "path": "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-EQ-105%20vA28-1%20%C3%A0%20compter%20du%2019-12-2018%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2018-12-19",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf",
+    "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Partie A.pdf",
+    "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Partie A à compter du 01-07-2026.pdf",
+    "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:56.774298+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

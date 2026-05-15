@@ -1,0 +1,345 @@
+{
+  "code": "IND-UT-137",
+  "sector": "industrie",
+  "family": "UT",
+  "title": "IND-UT-137 vA65-2 à compter du 01-01-2025 : Mise en place d’un système de pompe(s) à chaleur en rehausse de température de chaleur fatale récupérée PDF – 214.4 Ko",
+  "version": "vA65-2",
+  "document_version": "vA65-2",
+  "effective_date": "2025-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": true,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "- a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =",
+      "confidence": "low"
+    },
+    {
+      "text": "Eélec, supérieur au COP",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Eélec, supérieur au COP",
+      "confidence": "low"
+    },
+    {
+      "text": "COP annuel moyen",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "COP annuel moyen",
+      "confidence": "low"
+    },
+    {
+      "text": "COP annuel moyen",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "COP annuel moyen",
+      "confidence": "low"
+    },
+    {
+      "text": "f) Calcul du COP annuel moyen = Q/Eélec ;",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "f) Calcul du COP annuel moyen = Q/Eélec ;",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "et de contrôle.",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "et de contrôle.",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place d’une pompe à chaleur en rehausse de",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d’une pompe à chaleur en rehausse de",
+      "confidence": "low"
+    },
+    {
+      "text": "À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'un équipement avec ses marque et",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'un équipement avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place de plusieurs pompes à chaleur en rehausse",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place de plusieurs pompes à chaleur en rehausse",
+      "confidence": "low"
+    },
+    {
+      "text": "À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marque et",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est complétée, pour chaque équipement, d’un document issu du fabricant indiquant que",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est complétée, pour chaque équipement, d’un document issu du fabricant indiquant que",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement susmentionnée. L’étude de",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement susmentionnée. L’étude de",
+      "confidence": "low"
+    },
+    {
+      "text": "dimensionnement est tenue à disposition par le bénéficiaire en cas de contrôle.",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "dimensionnement est tenue à disposition par le bénéficiaire en cas de contrôle.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "et de contrôle.",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "et de contrôle.",
+      "confidence": "low"
+    },
+    {
+      "text": "dimensionnement est tenue à disposition par le bénéficiaire en cas de contrôle.",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "dimensionnement est tenue à disposition par le bénéficiaire en cas de contrôle.",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "- a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "- a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- a un coefficient de performance (COP) annuel moyen, tel que COP annuel moyen =",
+      "confidence": "low"
+    },
+    {
+      "text": "Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système calculée en",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système calculée en",
+      "confidence": "low"
+    },
+    {
+      "text": "fonction des points de fonctionnement et durées identifiés dans l’étude de dimensionnement et Eélec (en kWh/an) est",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "fonction des points de fonctionnement et durées identifiés dans l’étude de dimensionnement et Eélec (en kWh/an) est",
+      "confidence": "low"
+    },
+    {
+      "text": "d) Calcul de Q (en kWh/an), l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "d) Calcul de Q (en kWh/an), l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système",
+      "confidence": "low"
+    },
+    {
+      "text": "e) Calcul de Eélec (en kWh/an), l’énergie électrique annuelle absorbée par le système, qui est la somme des",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "e) Calcul de Eélec (en kWh/an), l’énergie électrique annuelle absorbée par le système, qui est la somme des",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système, calculée au",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Q (en kWh/an) est l’énergie thermique annuelle fournie sous forme de chaleur en sortie du système, calculée au",
+      "confidence": "low"
+    },
+    {
+      "text": "Eélec (en kWh/an) est l’énergie électrique annuelle absorbée par le système, qui est la somme des énergies",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Eélec (en kWh/an) est l’énergie électrique annuelle absorbée par le système, qui est la somme des énergies",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "IND-UT-137 vA65-2 à compter du 01-01-2025_0",
+      "code": "IND-UT-137",
+      "document_type": "fiche_principale",
+      "title": "IND-UT-137 vA65-2 à compter du 01-01-2025 : Mise en place d’un système de pompe(s) à chaleur en rehausse de température de chaleur fatale récupérée PDF – 214.4 Ko",
+      "path": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-137%20vA65-2%20%C3%A0%20compter%20du%2001-01-2025_0.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A",
+      "code": "IND-UT-137",
+      "document_type": "partie_a",
+      "title": "IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A PDF – 145.42 Ko",
+      "path": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-137%20vA65-2%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026",
+      "code": "IND-UT-137",
+      "document_type": "partie_a",
+      "title": "IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026 PDF – 150.07 Ko",
+      "path": "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-137%20vA65-2%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+    "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A.pdf",
+    "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.496171+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

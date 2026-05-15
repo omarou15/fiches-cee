@@ -1,0 +1,95 @@
+Certificats d’économies d’énergie
+
+Opération n° BAT-EQ-129
+
+Lanterneaux d’éclairage zénithal
+(France Métropolitaine)
+
+
+1. Secteur d’application
+Bâtiments tertiaires existants en France métropolitaine.
+
+2. Dénomination
+Mise en place de lanterneaux d’éclairage zénithal, avec costière, ponctuels ou continus avec pilotage automatique
+de l’éclairage électrique.
+
+3. Conditions pour la délivrance de certificats
+La mise en place est réalisée par un professionnel.
+
+La conductance thermique des lanterneaux Urc est :
+- inférieure ou égale à 2 W/m².K pour les lanterneaux d’éclairage ponctuels fixes ;
+- inférieure ou égale à 2,5 W/m².K pour les lanterneaux ponctuels ouvrants et les lanterneaux continus fixes et
+ouvrants.
+
+La classe de durabilité des lanterneaux est ΔA.
+
+Le facteur de transmission lumineuse totale τD65 est compris entre 45% et 65%.
+
+Les spécifications des lanterneaux (conductance thermique, classe de durabilité, facteur de transmission lumineuse
+totale) sont déterminées suivant la norme européenne EN1873+A1 pour les lanterneaux d’éclairage zénithal
+ponctuels et suivant la norme européenne EN14963 pour les lanterneaux d’éclairage zénithal continus.
+
+La mise en place des lanterneaux s’accompagne d’un pilotage automatique de l’éclairage électrique sur détection
+de lumière en fonction des apports de lumière naturelle.
+
+La mise en place des lanterneaux d’éclairage zénithal fait l’objet d’une étude préalable de dimensionnement des
+ouvrages d’éclairage naturel effectuée par un professionnel ou un bureau d’étude. Cette étude précise les
+caractéristiques des lanterneaux (conductance thermique, durabilité, facteur de transmission lumineuse), leur
+nombre, leur destination (éclairage, évacuation des fumées), leur implantation et conditions d’installation dans le
+bâtiment ainsi que l’aire de la projection horizontale de la surface éclairante de la paroi translucide de chaque
+équipement.
+
+La preuve de réalisation mentionne :
+- la mise en place de lanterneaux d'éclairage zénithal et leur nombre ;
+- la conductance thermique Urc des lanterneaux ;
+- le facteur de transmission lumineuse totale τD65 des lanterneaux ;
+- l’aire de la projection horizontale de la surface éclairante de la paroi translucide (At flat) des lanterneaux ;
+
+- la mise en place d’un pilotage automatique de l’éclairage électrique sur détection de lumière en fonction des
+apports de lumière naturelle ;
+- la classe de durabilité des lanterneaux.
+
+A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipement(s) avec
+leur marque et référence, leur nombre, l’aire de la projection horizontale de la surface éclairante de la paroi
+translucide (At flat) des équipements installés et le pilotage automatique de l’éclairage électrique sur détection de
+lumière en fonction des apports de lumière naturelle. Elle est complétée par un document issu du fabricant indiquant
+que les équipements de marque et référence installés sont des lanterneaux d’éclairage zénithal et mentionnant la
+conductance thermique, le facteur de transmission lumineuse totale τD65 et la classe de durabilité des lanterneaux
+installés.
+
+Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place des
+lanterneaux.
+
+4. Durée de vie conventionnelle
+20 ans.
+
+5. Montant de certificats en kWh cumac
+
+Montant en kWh cumac par m²
+
+
+
+
+X
+Aire de la projection horizontale de la surface
+éclairante de la paroi translucide (At flat) de
+l’ensemble des lanterneaux installés en m²
+Zone
+climatique
+Secteur d’activité
+
+S
+Commerces
+Autres secteurs
+H1
+9 500
+3 400
+H2
+10 800
+4 000
+H3
+16 000
+6 400
+
+L’aire de la projection horizontale de la surface éclairante de la paroi translucide (At flat) est égale à la projection
+horizontale de la plus petite section de passage de la lumière naturelle.

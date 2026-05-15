@@ -1,0 +1,288 @@
+{
+  "code": "BAT-TH-115",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-115 vA15-2 : Climatiseur performant (France d'outre mer) PDF – 121.23 Ko",
+  "version": "vA15-2",
+  "document_version": "vA15-2",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": true
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Les climatiseurs à simple ou à double conduit ne sont pas éligibles.",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Les climatiseurs à simple ou à double conduit ne sont pas éligibles.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Remplacement d’un climatiseur existant par un climatiseur fixe de classe supérieure ou égale à A (France d’outre-",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Remplacement d’un climatiseur existant par un climatiseur fixe de classe supérieure ou égale à A (France d’outre-",
+      "confidence": "low"
+    },
+    {
+      "text": "Le climatiseur est de classe A à A+++, selon la classification définie dans le règlement délégué (UE) n° 626/2011",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le climatiseur est de classe A à A+++, selon la classification définie dans le règlement délégué (UE) n° 626/2011",
+      "confidence": "low"
+    },
+    {
+      "text": "3- sa puissance frigorifique et sa classe énergétique ou son SEER*.",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "3- sa puissance frigorifique et sa classe énergétique ou son SEER*.",
+      "confidence": "low"
+    },
+    {
+      "text": "établi dans l’Espace économique européen et accrédité selon la norme NF EN 45011 par le Comité français",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "établi dans l’Espace économique européen et accrédité selon la norme NF EN 45011 par le Comité français",
+      "confidence": "low"
+    },
+    {
+      "text": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+      "confidence": "low"
+    },
+    {
+      "text": "permettant de déterminer la classe d’efficacité énergétique du climatiseur installé.",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "permettant de déterminer la classe d’efficacité énergétique du climatiseur installé.",
+      "confidence": "low"
+    },
+    {
+      "text": "Classe d'efficacité énergétique de l'appareil",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Classe d'efficacité énergétique de l'appareil",
+      "confidence": "low"
+    },
+    {
+      "text": "*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne :",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "Par dérogation aux points 2 et 3 ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Par dérogation aux points 2 et 3 ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un",
+      "confidence": "low"
+    },
+    {
+      "text": "équipement avec ses marque et référence et elle est complétée par un document issu du fabricant ou d’un organisme",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "équipement avec ses marque et référence et elle est complétée par un document issu du fabricant ou d’un organisme",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que l’équipement de marque et référence mis en place est un climatiseur et précise sa puissance",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que l’équipement de marque et référence mis en place est un climatiseur et précise sa puissance",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "frigorifique et sa classe d’efficacité énergétique ou à défaut le coefficient d’efficacité énergétique saisonnier (SEER)",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "*SEER : Seasonal Energy Efficiency Ratio ou coefficient d’efficacité énergétique saisonnier",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-115 vA15-2",
+      "code": "BAT-TH-115",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-115 vA15-2 : Climatiseur performant (France d'outre mer) PDF – 121.23 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-115%20vA15-2.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-115 vA15-2 - Partie A",
+      "code": "BAT-TH-115",
+      "document_type": "partie_a",
+      "title": "BAT-TH-115 vA15-2 - Partie A PDF – 106.3 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-115 vA15-2 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-115%20vA15-2%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-115 vA15-2 - Partie A à compter du 01-07-2026",
+      "code": "BAT-TH-115",
+      "document_type": "partie_a",
+      "title": "BAT-TH-115 vA15-2 - Partie A à compter du 01-07-2026 PDF – 111.29 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-115 vA15-2 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-115%20vA15-2%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+    "Tertiaire_BAT/BAT-TH-115 vA15-2 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-TH-115 vA15-2 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.758224+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

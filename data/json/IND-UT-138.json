@@ -1,0 +1,297 @@
+{
+  "code": "IND-UT-138",
+  "sector": "industrie",
+  "family": "UT",
+  "title": "IND-UT-138 vA62-1 à compter du 01-01-2025 : Conversion de chaleur fatale en électricité ou en air comprimé PDF – 228.86 Ko",
+  "version": "vA62-1",
+  "document_version": "vA62-1",
+  "effective_date": "2025-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Ne sont pas éligibles à la présente fiche :",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Ne sont pas éligibles à la présente fiche :",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "consommations des auxiliaires), η, respectant la condition suivante :",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "consommations des auxiliaires), η, respectant la condition suivante :",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "ii. Le rendement brut de la machine thermodynamique (ne prenant pas en compte les auxiliaires) η (%) :",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "ii. Le rendement brut de la machine thermodynamique (ne prenant pas en compte les auxiliaires) η (%) :",
+      "confidence": "low"
+    },
+    {
+      "text": "La machine thermodynamique installée présente un rendement énergétique brut (ne prenant pas en compte les",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La machine thermodynamique installée présente un rendement énergétique brut (ne prenant pas en compte les",
+      "confidence": "low"
+    },
+    {
+      "text": "- le rendement brut du système installé est supérieur ou égal au rendement brut, η, issu de l’étude de",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le rendement brut du système installé est supérieur ou égal au rendement brut, η, issu de l’étude de",
+      "confidence": "low"
+    },
+    {
+      "text": "- η est le rendement brut estimé de la machine thermodynamique (en %) ;",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- η est le rendement brut estimé de la machine thermodynamique (en %) ;",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "d) Evaluation de l’impact économique de l’opération sur la facture énergétique du bénéficiaire.",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d) Evaluation de l’impact économique de l’opération sur la facture énergétique du bénéficiaire.",
+      "confidence": "low"
+    },
+    {
+      "text": "Le bénéficiaire s’engage à transmettre ses données à des fins de traitements statistiques et de contrôle, ou sur",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le bénéficiaire s’engage à transmettre ses données à des fins de traitements statistiques et de contrôle, ou sur",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement susmentionnée. Cette étude est",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement susmentionnée. Cette étude est",
+      "confidence": "low"
+    },
+    {
+      "text": "tenue à disposition par le bénéficiaire en cas de contrôle.",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "tenue à disposition par le bénéficiaire en cas de contrôle.",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place d'un système de récupération de chaleur fatale",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d'un système de récupération de chaleur fatale",
+      "confidence": "low"
+    },
+    {
+      "text": "À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques et",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques et",
+      "confidence": "low"
+    },
+    {
+      "text": "l’opération. Elle est complétée par un document issu du fabricant indiquant que les équipements de marques et",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "l’opération. Elle est complétée par un document issu du fabricant indiquant que les équipements de marques et",
+      "confidence": "low"
+    },
+    {
+      "text": "d’énergie archive les preuves des dates d’engagement et d’achèvement des deux installations.",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d’énergie archive les preuves des dates d’engagement et d’achèvement des deux installations.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "Le bénéficiaire s’engage à transmettre ses données à des fins de traitements statistiques et de contrôle, ou sur",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "Le bénéficiaire s’engage à transmettre ses données à des fins de traitements statistiques et de contrôle, ou sur",
+      "confidence": "low"
+    },
+    {
+      "text": "tenue à disposition par le bénéficiaire en cas de contrôle.",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "tenue à disposition par le bénéficiaire en cas de contrôle.",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "v. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "v. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "v. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "IND-UT-138 vA62-1 à compter du 01-01-2025_0",
+      "code": "IND-UT-138",
+      "document_type": "fiche_principale",
+      "title": "IND-UT-138 vA62-1 à compter du 01-01-2025 : Conversion de chaleur fatale en électricité ou en air comprimé PDF – 228.86 Ko",
+      "path": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-138%20vA62-1%20%C3%A0%20compter%20du%2001-01-2025_0.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A",
+      "code": "IND-UT-138",
+      "document_type": "partie_a",
+      "title": "IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A PDF – 153.6 Ko",
+      "path": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-138%20vA62-1%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026",
+      "code": "IND-UT-138",
+      "document_type": "partie_a",
+      "title": "IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026 PDF – 157.93 Ko",
+      "path": "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-138%20vA62-1%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+    "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A.pdf",
+    "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.550026+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

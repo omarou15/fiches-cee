@@ -1,0 +1,298 @@
+{
+  "code": "TRA-EQ-111",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-111 vA24-1 : Groupes frigorifiques autonomes à haute efficacité énergétique pour camions, semi remorques, remorques et caisses mobiles frigorifiques PDF – 107.86 Ko",
+  "version": "vA24-1",
+  "document_version": "vA24-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "rendement global aux conditions suivantes (puissance nominale et charge partielle en régime réfrigéré et régime",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "rendement global aux conditions suivantes (puissance nominale et charge partielle en régime réfrigéré et régime",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Groupe frigorifique autonome à haute efficacité énergétique pour",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Groupe frigorifique autonome à haute efficacité énergétique pour",
+      "confidence": "low"
+    },
+    {
+      "text": "Acquisition (achat ou location) d’un véhicule neuf équipé d’un groupe frigorifique diesel neuf à haute efficacité",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Acquisition (achat ou location) d’un véhicule neuf équipé d’un groupe frigorifique diesel neuf à haute efficacité",
+      "confidence": "low"
+    },
+    {
+      "text": "Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport",
+      "confidence": "low"
+    },
+    {
+      "text": "La valeur du coefficient de performance pondéré ou Rgpondéré est obtenue à partir de quatre mesures distinctes du",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La valeur du coefficient de performance pondéré ou Rgpondéré est obtenue à partir de quatre mesures distinctes du",
+      "confidence": "low"
+    },
+    {
+      "text": "rendement global aux conditions suivantes (puissance nominale et charge partielle en régime réfrigéré et régime",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "rendement global aux conditions suivantes (puissance nominale et charge partielle en régime réfrigéré et régime",
+      "confidence": "low"
+    },
+    {
+      "text": "suivant la norme EN-16440-1.",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "suivant la norme EN-16440-1.",
+      "confidence": "low"
+    },
+    {
+      "text": "indépendant dont le coefficient de performance pondéré Rgpondéré est supérieur à 1,93 kWh frigorifiques/l de gasoil.",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "indépendant dont le coefficient de performance pondéré Rgpondéré est supérieur à 1,93 kWh frigorifiques/l de gasoil.",
+      "confidence": "low"
+    },
+    {
+      "text": "frigorifique à haute efficacité énergétique neuf, de type autonome, le numéro d’identification ou d’immatriculation",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "frigorifique à haute efficacité énergétique neuf, de type autonome, le numéro d’identification ou d’immatriculation",
+      "confidence": "low"
+    },
+    {
+      "text": "- les valeurs du rendement global (Rg) à puissance nominale et à charge partielle déterminées pour les",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- les valeurs du rendement global (Rg) à puissance nominale et à charge partielle déterminées pour les",
+      "confidence": "low"
+    },
+    {
+      "text": "frigorifiques à puissance nominale (valeur ATP) et à charge partielle (norme EN-16440-1) ainsi que les",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "frigorifiques à puissance nominale (valeur ATP) et à charge partielle (norme EN-16440-1) ainsi que les",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne l’achat ou la location d’un véhicule neuf équipé d’un groupe",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne l’achat ou la location d’un véhicule neuf équipé d’un groupe",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents spécifiques à l’opération sont :",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "- une attestation datée et signée par le constructeur du groupe frigorifique indiquant :",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- une attestation datée et signée par le constructeur du groupe frigorifique indiquant :",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le rendement global Rg en kWh/l pour un véhicule équipé d’un groupe frigorifique diesel autonome est le rapport",
+      "confidence": "low"
+    },
+    {
+      "text": "La valeur du coefficient de performance pondéré ou Rgpondéré est obtenue à partir de quatre mesures distinctes du",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "La valeur du coefficient de performance pondéré ou Rgpondéré est obtenue à partir de quatre mesures distinctes du",
+      "confidence": "low"
+    },
+    {
+      "text": "indépendant dont le coefficient de performance pondéré Rgpondéré est supérieur à 1,93 kWh frigorifiques/l de gasoil.",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "indépendant dont le coefficient de performance pondéré Rgpondéré est supérieur à 1,93 kWh frigorifiques/l de gasoil.",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-111 vA24-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-111 vA24-1",
+      "code": "TRA-EQ-111",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-111 vA24-1 : Groupes frigorifiques autonomes à haute efficacité énergétique pour camions, semi remorques, remorques et caisses mobiles frigorifiques PDF – 107.86 Ko",
+      "path": "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-111%20vA24-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-111 vA24-1 - Partie A",
+      "code": "TRA-EQ-111",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-111 vA24-1 - Partie A PDF – 96.85 Ko",
+      "path": "Transport_TRA/TRA-EQ-111 vA24-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-111%20vA24-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-111 vA24-1 - Partie A à compter du 01-07-2026",
+      "code": "TRA-EQ-111",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-111 vA24-1 - Partie A à compter du 01-07-2026 PDF – 101.92 Ko",
+      "path": "Transport_TRA/TRA-EQ-111 vA24-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-111%20vA24-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2025",
+      "code": "TRA-EQ-111",
+      "document_type": "annexe",
+      "title": "TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2025 PDF – 105.33 Ko",
+      "path": "Transport_TRA/TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-111%20vA24-1%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-EQ-111",
+      "document_type": "annexe",
+      "title": "TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2026 PDF – 98.62 Ko",
+      "path": "Transport_TRA/TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-111%20vA24-1%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+    "Transport_TRA/TRA-EQ-111 vA24-1 - Partie A.pdf",
+    "Transport_TRA/TRA-EQ-111 vA24-1 - Partie A à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Transport_TRA/TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.485390+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

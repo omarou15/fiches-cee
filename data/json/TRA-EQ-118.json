@@ -1,0 +1,315 @@
+{
+  "code": "TRA-EQ-118",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-118 vA15-1 : Lubrifiant économiseur d’énergie pour la pêche professionnelle PDF – 137.81 Ko",
+  "version": "vA15-1",
+  "document_version": "vA15-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "maritime référencé, à la date de délivrance du rapport d’expert, dans l’annuaire de l’Union Professionnelle des",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "maritime référencé, à la date de délivrance du rapport d’expert, dans l’annuaire de l’Union Professionnelle des",
+      "confidence": "low"
+    },
+    {
+      "text": "Une opération peut viser plusieurs navires à condition que le même lubrifiant soit utilisé.",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Une opération peut viser plusieurs navires à condition que le même lubrifiant soit utilisé.",
+      "confidence": "low"
+    },
+    {
+      "text": "Échantillon et conditions d’essai",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Échantillon et conditions d’essai",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les deux groupes, les conditions d’exploitation sont identiques et la fréquence des vidanges est conservée avec",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Pour les deux groupes, les conditions d’exploitation sont identiques et la fréquence des vidanges est conservée avec",
+      "confidence": "low"
+    },
+    {
+      "text": "de consommation sur chaque période d’activité. Pour garantir le fonctionnement dans de bonnes conditions du",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "de consommation sur chaque période d’activité. Pour garantir le fonctionnement dans de bonnes conditions du",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "La performance en économie de carburant du lubrifiant (ou gain de consommation du lubrifiant en %) est supérieure",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La performance en économie de carburant du lubrifiant (ou gain de consommation du lubrifiant en %) est supérieure",
+      "confidence": "low"
+    },
+    {
+      "text": "Cette performance du lubrifiant économiseur d’énergie (Y %) est calculée et justifiée par un test validé par un expert",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Cette performance du lubrifiant économiseur d’énergie (Y %) est calculée et justifiée par un test validé par un expert",
+      "confidence": "low"
+    },
+    {
+      "text": "le volume acquis et sa performance en économie de carburant.",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "le volume acquis et sa performance en économie de carburant.",
+      "confidence": "low"
+    },
+    {
+      "text": "une copie de l’acte de francisation du navire de pêche maritime professionnelle justifiant qu'il est",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "une copie de l’acte de francisation du navire de pêche maritime professionnelle justifiant qu'il est",
+      "confidence": "low"
+    },
+    {
+      "text": "appartiennent à la classe des 20-24 m pour les hauturiers et 12-20 m pour les côtiers. Tous ces navires doivent",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "appartiennent à la classe des 20-24 m pour les hauturiers et 12-20 m pour les côtiers. Tous ces navires doivent",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne l’acquisition d’un lubrifiant identifié par ses marque et référence,",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne l’acquisition d’un lubrifiant identifié par ses marque et référence,",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "référence de la preuve de réalisation de l’opération ;",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence de la preuve de réalisation de l’opération ;",
+      "confidence": "low"
+    },
+    {
+      "text": "suivi des prises de carburants (sur relevé de facture). Ces relevés permettent de calculer le coefficient de pondération",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "suivi des prises de carburants (sur relevé de facture). Ces relevés permettent de calculer le coefficient de pondération",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Gi = Gain en kWh par m3 par catégorie (cf. tableau ci-dessous) pour chacun des navires",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Gi = Gain en kWh par m3 par catégorie (cf. tableau ci-dessous) pour chacun des navires",
+      "confidence": "low"
+    },
+    {
+      "text": "Le gain G en kWh cumac/m3/navire pour 1 % d’économies d’énergie est mentionné dans le tableau suivant :",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le gain G en kWh cumac/m3/navire pour 1 % d’économies d’énergie est mentionné dans le tableau suivant :",
+      "confidence": "low"
+    },
+    {
+      "text": "suivi des prises de carburants (sur relevé de facture). Ces relevés permettent de calculer le coefficient de pondération",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "suivi des prises de carburants (sur relevé de facture). Ces relevés permettent de calculer le coefficient de pondération",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Durant toute la période, les navires des deux échantillons doivent pratiquer le même type de pêche dans des zones",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Durant toute la période, les navires des deux échantillons doivent pratiquer le même type de pêche dans des zones",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-118 vA15-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-118 vA15-1",
+      "code": "TRA-EQ-118",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-118 vA15-1 : Lubrifiant économiseur d’énergie pour la pêche professionnelle PDF – 137.81 Ko",
+      "path": "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-118%20vA15-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-118 vA15-1 - Parties A, B et C",
+      "code": "TRA-EQ-118",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-118 vA15-1 - Parties A, B et C PDF – 119.23 Ko",
+      "path": "Transport_TRA/TRA-EQ-118 vA15-1 - Parties A, B et C.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-118%20vA15-1%20-%20Parties%20A%2C%20B%20et%20C.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-118 vA15-1 - Partie A à compter du 01-07-2026 - Parties B et C",
+      "code": "TRA-EQ-118",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-118 vA15-1 - Partie A à compter du 01-07-2026 - Parties B et C PDF – 122.4 Ko",
+      "path": "Transport_TRA/TRA-EQ-118 vA15-1 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-118%20vA15-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026%20-%20Parties%20B%20et%20C.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2025",
+      "code": "TRA-EQ-118",
+      "document_type": "annexe",
+      "title": "TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2025 PDF – 105.95 Ko",
+      "path": "Transport_TRA/TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-118%20vA15-1%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-EQ-118",
+      "document_type": "annexe",
+      "title": "TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2026 PDF – 99.22 Ko",
+      "path": "Transport_TRA/TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-118%20vA15-1%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+    "Transport_TRA/TRA-EQ-118 vA15-1 - Parties A, B et C.pdf",
+    "Transport_TRA/TRA-EQ-118 vA15-1 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+    "Transport_TRA/TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Transport_TRA/TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.586066+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

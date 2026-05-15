@@ -1,0 +1,3784 @@
+[
+  {
+    "code": "AGRI-EQ-101",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-101 vA14-1 : Module d’intégration de température installé sur un ordinateur climatique PDF – 107.35 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-EQ-101.json",
+    "markdown_path": "data/markdown/AGRI-EQ-101.md",
+    "text_path": "data/text/AGRI-EQ-101.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-101 vA14-1.pdf",
+      "Agriculture_AGRI/AGRI-EQ-101 vA14-1 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-EQ-101 vA14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-EQ-102",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-102 vA65-2 à compter du 01-04-2025 : Double écran thermique PDF – 110.75 Ko",
+    "version": "vA65-2",
+    "effective_date": "2025-04-01",
+    "json_path": "data/json/AGRI-EQ-102.json",
+    "markdown_path": "data/markdown/AGRI-EQ-102.md",
+    "text_path": "data/text/AGRI-EQ-102.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-102 vA65-2 à compter du 01-04-2025_0.pdf",
+      "Agriculture_AGRI/AGRI-EQ-102 vA65-2 à compter du 01-04-2025 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-EQ-102 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-EQ-104",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-104 vA62-2 à compter du 01-01-2025 : Ecrans thermiques latéraux PDF – 112.43 Ko",
+    "version": "vA62-2",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/AGRI-EQ-104.json",
+    "markdown_path": "data/markdown/AGRI-EQ-104.md",
+    "text_path": "data/text/AGRI-EQ-104.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-104 vA62-2 à compter du 01-01-2025_0.pdf",
+      "Agriculture_AGRI/AGRI-EQ-104 vA62-2 à compter du 01-01-2025 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-EQ-104 vA62-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-EQ-105",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-105 vA28-1 à compter du 19-12-2018 : Stop & Start pour véhicules agricoles à moteur PDF – 115.65 Ko",
+    "version": "vA28-1",
+    "effective_date": "2018-12-19",
+    "json_path": "data/json/AGRI-EQ-105.json",
+    "markdown_path": "data/markdown/AGRI-EQ-105.md",
+    "text_path": "data/text/AGRI-EQ-105.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018.pdf",
+      "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Partie A à compter du 01-07-2026.pdf",
+      "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Agriculture_AGRI/AGRI-EQ-105 vA28-1 à compter du 19-12-2018 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-EQ-106",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-106 vA32-1 : Régulation de la ventilation des silos et des installations de stockage en vrac de céréales PDF – 123.51 Ko",
+    "version": "vA32-1",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-EQ-106.json",
+    "markdown_path": "data/markdown/AGRI-EQ-106.md",
+    "text_path": "data/text/AGRI-EQ-106.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-106 vA32-1.pdf",
+      "Agriculture_AGRI/AGRI-EQ-106 vA32-1 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-EQ-106 vA32-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-EQ-107",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-107 vA38-1 à compter du 31-07-2021 : Isolation des parois de serre PDF – 130.41 Ko",
+    "version": "vA38-1",
+    "effective_date": "2021-07-31",
+    "json_path": "data/json/AGRI-EQ-107.json",
+    "markdown_path": "data/markdown/AGRI-EQ-107.md",
+    "text_path": "data/text/AGRI-EQ-107.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-107 vA38-1 à compter du 31-07-2021.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-EQ-108",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-108 vA58-2 à compter du 01-02-2024 : Stockage d’eau pour une serre bioclimatique PDF – 122.17 Ko",
+    "version": "vA58-2",
+    "effective_date": "2024-02-01",
+    "json_path": "data/json/AGRI-EQ-108.json",
+    "markdown_path": "data/markdown/AGRI-EQ-108.md",
+    "text_path": "data/text/AGRI-EQ-108.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024_0.pdf",
+      "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-EQ-108 vA58-2 à compter du 01-02-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-EQ-109",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-109 vA58-2 à compter du 01-02-2024 : Couverture performante de serre PDF – 123.29 Ko",
+    "version": "vA58-2",
+    "effective_date": "2024-02-01",
+    "json_path": "data/json/AGRI-EQ-109.json",
+    "markdown_path": "data/markdown/AGRI-EQ-109.md",
+    "text_path": "data/text/AGRI-EQ-109.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024_0.pdf",
+      "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-EQ-109 vA58-2 à compter du 01-02-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-EQ-110",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-110 vA38-1 à compter du 31-07-2021 : Séchage solaire par insufflation des produits et co-produits agricoles et forestiers utilisant des panneaux solaires hybrides PDF – 129.54 Ko",
+    "version": "vA38-1",
+    "effective_date": "2021-07-31",
+    "json_path": "data/json/AGRI-EQ-110.json",
+    "markdown_path": "data/markdown/AGRI-EQ-110.md",
+    "text_path": "data/text/AGRI-EQ-110.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-110 vA38-1 à compter du 31-07-2021.pdf",
+      "Agriculture_AGRI/AGRI-EQ-110 vA38-1 à compter du 31-07-2021 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-EQ-110 vA38-1 à compter du 31-07-2021 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-EQ-111",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-111 vA62-1 à compter du 31-08-2024 : Simple écran thermique PDF – 122.65 Ko",
+    "version": "vA62-1",
+    "effective_date": "2024-08-31",
+    "json_path": "data/json/AGRI-EQ-111.json",
+    "markdown_path": "data/markdown/AGRI-EQ-111.md",
+    "text_path": "data/text/AGRI-EQ-111.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-111 vA62-1 à compter du 31-08-2024_0.pdf",
+      "Agriculture_AGRI/AGRI-EQ-111 vA62-1 à compter du 31-08-2024 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-EQ-111 vA62-1 à compter du 31-08-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-EQ-112",
+    "sector": "agriculture",
+    "family": "EQ",
+    "title": "AGRI-EQ-112 vA73-3 à compter du 01-09-2025 : Double paroi gonflable PDF – 115.38 Ko",
+    "version": "vA73-3",
+    "effective_date": "2025-09-01",
+    "json_path": "data/json/AGRI-EQ-112.json",
+    "markdown_path": "data/markdown/AGRI-EQ-112.md",
+    "text_path": "data/text/AGRI-EQ-112.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-EQ-112 vA73-3 à compter du 01-09-2025_0.pdf",
+      "Agriculture_AGRI/AGRI-EQ-112 vA73-3 à compter du 01-09-2025 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-EQ-112 vA73-3 à compter du 01-09-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-SE-101",
+    "sector": "agriculture",
+    "family": "SE",
+    "title": "AGRI-SE-101 vA40-2 à compter du 01-04-2022 : Contrôle et préconisations de réglage du moteur d’un tracteur PDF – 115.42 Ko",
+    "version": "vA40-2",
+    "effective_date": "2022-04-01",
+    "json_path": "data/json/AGRI-SE-101.json",
+    "markdown_path": "data/markdown/AGRI-SE-101.md",
+    "text_path": "data/text/AGRI-SE-101.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",
+      "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf",
+      "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-101",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-101 vA62-2 à compter du 01-01-2025 : Dispositif de stockage d’eau chaude de type « Open Buffer » PDF – 124.06 Ko",
+    "version": "vA62-2",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/AGRI-TH-101.json",
+    "markdown_path": "data/markdown/AGRI-TH-101.md",
+    "text_path": "data/text/AGRI-TH-101.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-101 vA62-2 à compter du 01-01-2025.pdf",
+      "Agriculture_AGRI/AGRI-TH-101 vA62-2 à compter du 01-01-2025 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-101 vA62-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-102",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-102 vA14-1 : Dispositif de stockage d’eau chaude PDF – 104.36 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-TH-102.json",
+    "markdown_path": "data/markdown/AGRI-TH-102.md",
+    "text_path": "data/text/AGRI-TH-102.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-102 vA14-1.pdf",
+      "Agriculture_AGRI/AGRI-TH-102 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+      "Agriculture_AGRI/AGRI-TH-102 vA14-1 - Partie A.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-103",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-103 vA15-1 : Pré-refroidisseur de lait PDF – 111.58 Ko",
+    "version": "vA15-1",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-TH-103.json",
+    "markdown_path": "data/markdown/AGRI-TH-103.md",
+    "text_path": "data/text/AGRI-TH-103.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-103 vA15-1.pdf",
+      "Agriculture_AGRI/AGRI-TH-103 vA15-1 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-103 vA15-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-104",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-104 vA35-3 à compter du 01-10-2020 : Système de récupération de chaleur sur un groupe de production de froid hors tanks à lait PDF – 146.66 Ko",
+    "version": "vA35-3",
+    "effective_date": "2020-10-01",
+    "json_path": "data/json/AGRI-TH-104.json",
+    "markdown_path": "data/markdown/AGRI-TH-104.md",
+    "text_path": "data/text/AGRI-TH-104.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020.pdf",
+      "Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-104 vA35-3 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-105",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-105 vA16-1 : Récupérateur de chaleur sur tank à lait PDF – 110.02 Ko",
+    "version": "vA16-1",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-TH-105.json",
+    "markdown_path": "data/markdown/AGRI-TH-105.md",
+    "text_path": "data/text/AGRI-TH-105.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-105 vA16-1.pdf",
+      "Agriculture_AGRI/AGRI-TH-105 vA16-1 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-105 vA16-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-108",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-108 vA35-2 à compter du 01-10-2020 : Pompe à chaleur de type air/eau ou eau/eau PDF – 132.25 Ko",
+    "version": "vA35-2",
+    "effective_date": "2020-10-01",
+    "json_path": "data/json/AGRI-TH-108.json",
+    "markdown_path": "data/markdown/AGRI-TH-108.md",
+    "text_path": "data/text/AGRI-TH-108.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-109",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-109 vA54-2 à compter du 01-01-2024 : Récupérateur de chaleur à condensation pour serres horticoles PDF – 114.62 Ko",
+    "version": "vA54-2",
+    "effective_date": "2024-01-01",
+    "json_path": "data/json/AGRI-TH-109.json",
+    "markdown_path": "data/markdown/AGRI-TH-109.md",
+    "text_path": "data/text/AGRI-TH-109.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-110",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-110 vA54-3 à compter du 01-01-2024 : Chaudière à haute performance énergétique pour serres horticoles PDF – 119.87 Ko",
+    "version": "vA54-3",
+    "effective_date": "2024-01-01",
+    "json_path": "data/json/AGRI-TH-110.json",
+    "markdown_path": "data/markdown/AGRI-TH-110.md",
+    "text_path": "data/text/AGRI-TH-110.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024_0.pdf",
+      "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-110 vA54-3 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-113",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-113 vA14-1 : Échangeur récupérateur de chaleur air/air dans un bâtiment d’élevage de volailles PDF – 116.49 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-TH-113.json",
+    "markdown_path": "data/markdown/AGRI-TH-113.md",
+    "text_path": "data/text/AGRI-TH-113.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-113 vA14-1.pdf",
+      "Agriculture_AGRI/AGRI-TH-113 vA14-1 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-113 vA14-1 - Partie A_0.pdf",
+      "Agriculture_AGRI/AGRI-TH-113 vA14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-117",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-117 vA73-3 à compter du 01-09-2025 : Déshumidificateur thermodynamique pour serres PDF – 143.66 Ko",
+    "version": "vA73-3",
+    "effective_date": "2025-09-01",
+    "json_path": "data/json/AGRI-TH-117.json",
+    "markdown_path": "data/markdown/AGRI-TH-117.md",
+    "text_path": "data/text/AGRI-TH-117.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025_0.pdf",
+      "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-117 vA73-3 à compter du 01-09-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-TH-118",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-118 vA14-1 - Partie A : Double tube de chauffage pour serres PDF – 103.91 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-TH-118.json",
+    "markdown_path": "data/markdown/AGRI-TH-118.md",
+    "text_path": "data/text/AGRI-TH-118.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A_0.pdf",
+      "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": true
+  },
+  {
+    "code": "AGRI-TH-119",
+    "sector": "agriculture",
+    "family": "TH",
+    "title": "AGRI-TH-119 vA65-2 à compter du 01-04-2025 : Système de déshumidification avec air extérieur PDF – 121.31 Ko",
+    "version": "vA65-2",
+    "effective_date": "2025-04-01",
+    "json_path": "data/json/AGRI-TH-119.json",
+    "markdown_path": "data/markdown/AGRI-TH-119.md",
+    "text_path": "data/text/AGRI-TH-119.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-TH-119 vA65-2 à compter du 01-04-2025_0.pdf",
+      "Agriculture_AGRI/AGRI-TH-119 vA65-2 à compter du 01-04-2025 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-TH-119 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-UT-101",
+    "sector": "agriculture",
+    "family": "UT",
+    "title": "AGRI-UT-101 vA24-2 après le 01-04-2017 : Moto-variateur synchrone à aimants permanents ou à reluctance PDF – 127.74 Ko",
+    "version": "vA24-2",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-UT-101.json",
+    "markdown_path": "data/markdown/AGRI-UT-101.md",
+    "text_path": "data/text/AGRI-UT-101.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-UT-101 vA24-2 après le 01-04-2017.pdf",
+      "Agriculture_AGRI/AGRI-UT-101 vA24-2 après le 01-04-2017 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-UT-101 vA24-2 après le 01-04-2017 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-UT-102",
+    "sector": "agriculture",
+    "family": "UT",
+    "title": "AGRI-UT-102 vA22-2 : Système de variation électronique de vitesse sur un moteur asynchrone PDF – 120.25 Ko",
+    "version": "vA22-2",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-UT-102.json",
+    "markdown_path": "data/markdown/AGRI-UT-102.md",
+    "text_path": "data/text/AGRI-UT-102.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-UT-102 vA22-2.pdf",
+      "Agriculture_AGRI/AGRI-UT-102 vA22-2 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-UT-102 vA22-2 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-UT-103",
+    "sector": "agriculture",
+    "family": "UT",
+    "title": "AGRI-UT-103 vA19-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une basse pression flottante PDF – 107.22 Ko",
+    "version": "vA19-1",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-UT-103.json",
+    "markdown_path": "data/markdown/AGRI-UT-103.md",
+    "text_path": "data/text/AGRI-UT-103.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-UT-103 vA19-1.pdf",
+      "Agriculture_AGRI/AGRI-UT-103 vA19-1 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-UT-103 vA19-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "AGRI-UT-104",
+    "sector": "agriculture",
+    "family": "UT",
+    "title": "AGRI-UT-104 vA23-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une haute pression flottante PDF – 147.21 Ko",
+    "version": "vA23-1",
+    "effective_date": null,
+    "json_path": "data/json/AGRI-UT-104.json",
+    "markdown_path": "data/markdown/AGRI-UT-104.md",
+    "text_path": "data/text/AGRI-UT-104.txt",
+    "source_files": [
+      "Agriculture_AGRI/AGRI-UT-104 vA23-1.pdf",
+      "Agriculture_AGRI/AGRI-UT-104 vA23-1 - Partie A.pdf",
+      "Agriculture_AGRI/AGRI-UT-104 vA23-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-BA-110",
+    "sector": "industrie",
+    "family": "BA",
+    "title": "IND-BA-110 vA71-4 à compter du 01-08-2025 : Déstratificateur ou brasseur d'air PDF – 130.22 Ko",
+    "version": "vA71-4",
+    "effective_date": "2025-08-01",
+    "json_path": "data/json/IND-BA-110.json",
+    "markdown_path": "data/markdown/IND-BA-110.md",
+    "text_path": "data/text/IND-BA-110.txt",
+    "source_files": [
+      "Industrie_IND/IND-BA-110 vA71-4 à compter du 01-08-2025.pdf",
+      "Industrie_IND/IND-BA-110 vA71-4 à compter du 01-08-2025 - Partie A.pdf",
+      "Industrie_IND/IND-BA-110 vA71-4 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-BA-113",
+    "sector": "industrie",
+    "family": "BA",
+    "title": "IND-BA-113 vA26-1 : Lanterneaux d’éclairage zénithal (France Métropolitaine) PDF – 120.51 Ko",
+    "version": "vA26-1",
+    "effective_date": null,
+    "json_path": "data/json/IND-BA-113.json",
+    "markdown_path": "data/markdown/IND-BA-113.md",
+    "text_path": "data/text/IND-BA-113.txt",
+    "source_files": [
+      "Industrie_IND/IND-BA-113 vA26-1.pdf",
+      "Industrie_IND/IND-BA-113 vA26-1 - Partie A.pdf",
+      "Industrie_IND/IND-BA-113 vA26-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-BA-114",
+    "sector": "industrie",
+    "family": "BA",
+    "title": "IND-BA-114 vA15-1 : Conduits de lumière naturelle PDF – 110.31 Ko",
+    "version": "vA15-1",
+    "effective_date": null,
+    "json_path": "data/json/IND-BA-114.json",
+    "markdown_path": "data/markdown/IND-BA-114.md",
+    "text_path": "data/text/IND-BA-114.txt",
+    "source_files": [
+      "Industrie_IND/IND-BA-114 vA15-1.pdf",
+      "Industrie_IND/IND-BA-114 vA15-1 - Partie A.pdf",
+      "Industrie_IND/IND-BA-114 vA15-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-BA-117",
+    "sector": "industrie",
+    "family": "BA",
+    "title": "IND-BA-117 vA27-1 : Chauffage décentralisé performant PDF – 128.56 Ko",
+    "version": "vA27-1",
+    "effective_date": null,
+    "json_path": "data/json/IND-BA-117.json",
+    "markdown_path": "data/markdown/IND-BA-117.md",
+    "text_path": "data/text/IND-BA-117.txt",
+    "source_files": [
+      "Industrie_IND/IND-BA-117 vA27-1.pdf",
+      "Industrie_IND/IND-BA-117 vA27-1 - Partie A.pdf",
+      "Industrie_IND/IND-BA-117 vA27-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-EN-101",
+    "sector": "industrie",
+    "family": "EN",
+    "title": "IND-EN-101 vA23-1 : Isolation des murs (France d’outre-mer) PDF – 107.6 Ko",
+    "version": "vA23-1",
+    "effective_date": null,
+    "json_path": "data/json/IND-EN-101.json",
+    "markdown_path": "data/markdown/IND-EN-101.md",
+    "text_path": "data/text/IND-EN-101.txt",
+    "source_files": [
+      "Industrie_IND/IND-EN-101 vA23-1.pdf",
+      "Industrie_IND/IND-EN-101 vA23-1 - Partie A.pdf",
+      "Industrie_IND/IND-EN-101 vA23-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-EN-102",
+    "sector": "industrie",
+    "family": "EN",
+    "title": "IND-EN-102 vA64-3 à compter du 01-01-2025 : Isolation de combles ou de toitures (France d’outre-mer) PDF – 118.43 Ko",
+    "version": "vA64-3",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/IND-EN-102.json",
+    "markdown_path": "data/markdown/IND-EN-102.md",
+    "text_path": "data/text/IND-EN-102.txt",
+    "source_files": [
+      "Industrie_IND/IND-EN-102 vA64-3 à compter du 01-01-2025_0.pdf",
+      "Industrie_IND/IND-EN-102 vA64-3 à compter du 01-01-2025 - Partie A.pdf",
+      "Industrie_IND/IND-EN-102 vA64-3 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-102",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-102 vA19-2 : Système de variation électronique de vitesse sur un moteur asynchrone PDF – 112.56 Ko",
+    "version": "vA19-2",
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-102.json",
+    "markdown_path": "data/markdown/IND-UT-102.md",
+    "text_path": "data/text/IND-UT-102.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-102 vA19-2_0.pdf",
+      "Industrie_IND/IND-UT-102 vA19-2 - Partie A_0.pdf",
+      "Industrie_IND/IND-UT-102 vA19-2 - Partie A à compter du 01-07-2026_0.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-103",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-103 vA17-2 : Système de récupération de chaleur sur un compresseur d’air PDF – 119.51 Ko",
+    "version": "vA17-2",
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-103.json",
+    "markdown_path": "data/markdown/IND-UT-103.md",
+    "text_path": "data/text/IND-UT-103.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-103 vA17-2.pdf",
+      "Industrie_IND/IND-UT-103 vA17-2 - Partie A.pdf",
+      "Industrie_IND/IND-UT-103 vA17-2 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-104",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-104 vA14-1 : Économiseur sur les effluents gazeux d’une chaudière de production de vapeur PDF – 111.68 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-104.json",
+    "markdown_path": "data/markdown/IND-UT-104.md",
+    "text_path": "data/text/IND-UT-104.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-104 vA14-1.pdf",
+      "Industrie_IND/IND-UT-104 vA14-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-104 vA14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-105",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-105 vA14-1 : Brûleur micromodulant sur chaudière industrielle PDF – 143.24 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-105.json",
+    "markdown_path": "data/markdown/IND-UT-105.md",
+    "text_path": "data/text/IND-UT-105.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-105 vA14-1.pdf",
+      "Industrie_IND/IND-UT-105 vA14-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-105 vA14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-113",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-113 vA14-1 : Système de condensation frigorifique à haute efficacité PDF – 161.74 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-113.json",
+    "markdown_path": "data/markdown/IND-UT-113.md",
+    "text_path": "data/text/IND-UT-113.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-113 vA14-1.pdf",
+      "Industrie_IND/IND-UT-113 vA14-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-113 vA14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-114",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-114 v A24-2 après le 01-04-2017 : Moto-variateur synchrone à aimants permanents ou à reluctance PDF – 113.07 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-114.json",
+    "markdown_path": "data/markdown/IND-UT-114.md",
+    "text_path": "data/text/IND-UT-114.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-114 v A24-2 après le 01-04-2017_0.pdf",
+      "Industrie_IND/IND-UT-114 v A24-2 après le 01-04-2017 - Partie A.pdf",
+      "Industrie_IND/IND-UT-114 v A24-2 après le 01-04-2017 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-115",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-115 v A15-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une basse pression flottante PDF – 99.85 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-115.json",
+    "markdown_path": "data/markdown/IND-UT-115.md",
+    "text_path": "data/text/IND-UT-115.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-115 v A15-1.pdf",
+      "Industrie_IND/IND-UT-115 v A15-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-115 v A15-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-116",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-116 vA14-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une haute pression flottante PDF – 138.09 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-116.json",
+    "markdown_path": "data/markdown/IND-UT-116.md",
+    "text_path": "data/text/IND-UT-116.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-116 vA14-1.pdf",
+      "Industrie_IND/IND-UT-116 vA14-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-116 vA14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-118",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-118 v A14-1 : Brûleur avec dispositif de récupération de chaleur sur un four industriel PDF – 126.31 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-118.json",
+    "markdown_path": "data/markdown/IND-UT-118.md",
+    "text_path": "data/text/IND-UT-118.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-118 v A14-1.pdf",
+      "Industrie_IND/IND-UT-118 v A14-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-118 v A14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-120",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-120 v A14-1 : Compresseur d’air basse pression à vis ou centrifuge PDF – 101.92 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-120.json",
+    "markdown_path": "data/markdown/IND-UT-120.md",
+    "text_path": "data/text/IND-UT-120.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-120 v A14-1.pdf",
+      "Industrie_IND/IND-UT-120 v A14-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-120 v A14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-122",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-122 v A14-1 : Sécheur d'air comprimé à adsorption utilisant un apport calorifique pour sa régénération PDF – 107.91 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-122.json",
+    "markdown_path": "data/markdown/IND-UT-122.md",
+    "text_path": "data/text/IND-UT-122.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-122 v A14-1.pdf",
+      "Industrie_IND/IND-UT-122 v A14-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-122 v A14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-124",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-124 v A14-1 : Séquenceur électronique pour le pilotage d’une centrale de production d’air comprimé PDF – 111.7 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-124.json",
+    "markdown_path": "data/markdown/IND-UT-124.md",
+    "text_path": "data/text/IND-UT-124.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-124 v A14-1.pdf",
+      "Industrie_IND/IND-UT-124 v A14-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-124 v A14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-125",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-125 v A14-1 : Traitement d’eau performant sur chaudière de production de vapeur PDF – 150.62 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-125.json",
+    "markdown_path": "data/markdown/IND-UT-125.md",
+    "text_path": "data/text/IND-UT-125.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "Industrie_IND/IND-UT-125 v A14-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-125 v A14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-127",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-127 v A25-2 après le 01-04-2017 : Système de transmission performant PDF – 109.65 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-127.json",
+    "markdown_path": "data/markdown/IND-UT-127.md",
+    "text_path": "data/text/IND-UT-127.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-127 v A25-2 après le 01-04-2017_0.pdf",
+      "Industrie_IND/IND-UT-127 v A25-2 après le 01-04-2017 - Partie A.pdf",
+      "Industrie_IND/IND-UT-127 v A25-2 après le 01-04-2017 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-129",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-129 v A32-3 : Presse à injecter tout électrique ou hybride PDF – 126.44 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-129.json",
+    "markdown_path": "data/markdown/IND-UT-129.md",
+    "text_path": "data/text/IND-UT-129.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-129 v A32-3.pdf",
+      "Industrie_IND/IND-UT-129 v A32-3 - Partie A_0.pdf",
+      "Industrie_IND/IND-UT-129 v A32-3 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-130",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-130 v A19-1 : Condenseur sur les effluents gazeux d’une chaudière de production de vapeur PDF – 112.42 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-130.json",
+    "markdown_path": "data/markdown/IND-UT-130.md",
+    "text_path": "data/text/IND-UT-130.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-130 v A19-1.pdf",
+      "Industrie_IND/IND-UT-130 v A19-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-130 v A19-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-131",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-131 vA37-2 à compter du 01-04-2021 : Isolation thermique des parois planes ou cylindriques sur des installations industrielles (France métropolitaine) PDF – 142.01 Ko",
+    "version": "vA37-2",
+    "effective_date": "2021-04-01",
+    "json_path": "data/json/IND-UT-131.json",
+    "markdown_path": "data/markdown/IND-UT-131.md",
+    "text_path": "data/text/IND-UT-131.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A.pdf",
+      "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-132",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-132 vA26-1 : Moteur asynchrone de classe IE4 PDF – 116.39 Ko",
+    "version": "vA26-1",
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-132.json",
+    "markdown_path": "data/markdown/IND-UT-132.md",
+    "text_path": "data/text/IND-UT-132.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-132 vA26-1.pdf",
+      "Industrie_IND/IND-UT-132 vA26-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-132 vA26-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-133",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-133 vA28-1 : Système électronique de pilotage d’un moteur électrique avec récupération d’énergie PDF – 124.28 Ko",
+    "version": "vA28-1",
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-133.json",
+    "markdown_path": "data/markdown/IND-UT-133.md",
+    "text_path": "data/text/IND-UT-133.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-133 vA28-1.pdf",
+      "Industrie_IND/IND-UT-133 vA28-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-133 vA28-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-134",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-134 v A35-2 à compter du 01-10-2020 : Système de mesurage d’indicateurs de performance énergétique PDF – 153.63 Ko",
+    "version": null,
+    "effective_date": "2020-10-01",
+    "json_path": "data/json/IND-UT-134.json",
+    "markdown_path": "data/markdown/IND-UT-134.md",
+    "text_path": "data/text/IND-UT-134.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020_0.pdf",
+      "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A.pdf",
+      "Industrie_IND/IND-UT-134 v A35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-135",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-135 v A31-1 : Freecooling par eau de refroidissement en substitution d'un groupe froid PDF – 131.76 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/IND-UT-135.json",
+    "markdown_path": "data/markdown/IND-UT-135.md",
+    "text_path": "data/text/IND-UT-135.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-135 v A31-1.pdf",
+      "Industrie_IND/IND-UT-135 v A31-1 - Partie A.pdf",
+      "Industrie_IND/IND-UT-135 v A31-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-137",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-137 vA65-2 à compter du 01-01-2025 : Mise en place d’un système de pompe(s) à chaleur en rehausse de température de chaleur fatale récupérée PDF – 214.4 Ko",
+    "version": "vA65-2",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/IND-UT-137.json",
+    "markdown_path": "data/markdown/IND-UT-137.md",
+    "text_path": "data/text/IND-UT-137.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025_0.pdf",
+      "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A.pdf",
+      "Industrie_IND/IND-UT-137 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-138",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-138 vA62-1 à compter du 01-01-2025 : Conversion de chaleur fatale en électricité ou en air comprimé PDF – 228.86 Ko",
+    "version": "vA62-1",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/IND-UT-138.json",
+    "markdown_path": "data/markdown/IND-UT-138.md",
+    "text_path": "data/text/IND-UT-138.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf",
+      "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A.pdf",
+      "Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-139",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-139 vA73-2 à compter du 01-11-2025 : Système de stockage de chaleur fatale PDF – 125.91 Ko",
+    "version": "vA73-2",
+    "effective_date": "2025-11-01",
+    "json_path": "data/json/IND-UT-139.json",
+    "markdown_path": "data/markdown/IND-UT-139.md",
+    "text_path": "data/text/IND-UT-139.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A.pdf",
+      "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "IND-UT-140",
+    "sector": "industrie",
+    "family": "UT",
+    "title": "IND-UT-140 vA65-1 à compter du 01-01-2025 : Mise en veille automatique d’une machine utilisant de l’air comprimé PDF – 127.86 Ko",
+    "version": "vA65-1",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/IND-UT-140.json",
+    "markdown_path": "data/markdown/IND-UT-140.md",
+    "text_path": "data/text/IND-UT-140.txt",
+    "source_files": [
+      "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+      "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A.pdf",
+      "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "RES-CH-103",
+    "sector": "reseaux",
+    "family": "CH",
+    "title": "RES-CH-103 vA36-3 à compter du 12-10-2020 : Réhabilitation d’un poste de livraison de chaleur d’un bâtiment tertiaire PDF – 113.31 Ko",
+    "version": "vA36-3",
+    "effective_date": "2020-10-12",
+    "json_path": "data/json/RES-CH-103.json",
+    "markdown_path": "data/markdown/RES-CH-103.md",
+    "text_path": "data/text/RES-CH-103.txt",
+    "source_files": [
+      "Reseaux_RES/RES-CH-103 vA36-3 à compter du 12-10-2020_0.pdf",
+      "Reseaux_RES/RES-CH-103 vA36-3 à compter du 12-10-2020 - Parties A, B et C.pdf",
+      "Reseaux_RES/RES-CH-103 vA36-3 à compter du 12-10-2020 - Partie A à compter du 01-07-2026 - Parties B et C.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "RES-CH-104",
+    "sector": "reseaux",
+    "family": "CH",
+    "title": "RES-CH-104 vA36-3 à compter du 12-10-2020 : Réhabilitation d’un poste de livraison de chaleur d’un bâtiment résidentiel PDF – 106.43 Ko",
+    "version": "vA36-3",
+    "effective_date": "2020-10-12",
+    "json_path": "data/json/RES-CH-104.json",
+    "markdown_path": "data/markdown/RES-CH-104.md",
+    "text_path": "data/text/RES-CH-104.txt",
+    "source_files": [
+      "Reseaux_RES/RES-CH-104 vA36-3 à compter du 12-10-2020_0.pdf",
+      "Reseaux_RES/RES-CH-104 vA36-3 à compter du 12-10-2020 - Parties A, B et C.pdf",
+      "Reseaux_RES/RES-CH-104 vA36-3 à compter du 12-10-2020 - Partie A à compter du 01-07-2026 - Parties B et C.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "RES-CH-105",
+    "sector": "reseaux",
+    "family": "CH",
+    "title": "RES-CH-105 vA36-3 à compter du 12-10-2020 : Passage d'un réseau de chaleur en basse température PDF – 129.03 Ko",
+    "version": "vA36-3",
+    "effective_date": "2020-10-12",
+    "json_path": "data/json/RES-CH-105.json",
+    "markdown_path": "data/markdown/RES-CH-105.md",
+    "text_path": "data/text/RES-CH-105.txt",
+    "source_files": [
+      "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+      "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020 - Parties A, B et C.pdf",
+      "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020 - Partie A à compter du 01-07-2026 - Parties B et C.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "RES-CH-106",
+    "sector": "reseaux",
+    "family": "CH",
+    "title": "RES-CH-106 vA60-4 à compter du 01-03-2024 : Mise en place d’un calorifugeage des canalisations d’un réseau de chaleur PDF – 235.6 Ko",
+    "version": "vA60-4",
+    "effective_date": "2024-03-01",
+    "json_path": "data/json/RES-CH-106.json",
+    "markdown_path": "data/markdown/RES-CH-106.md",
+    "text_path": "data/text/RES-CH-106.txt",
+    "source_files": [
+      "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024_0.pdf",
+      "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024 - Parties A, B, C et D.pdf",
+      "Reseaux_RES/RES-CH-106 vA60-4 à compter du 01-03-2024 - Partie A à compter du 01-07-2026 - Parties B, C et D.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "RES-CH-108",
+    "sector": "reseaux",
+    "family": "CH",
+    "title": "RES-CH-108 vA53-4 à compter du 01-10-2023 : Récupération de chaleur fatale pour valorisation sur un réseau de chaleur ou vers un tiers (France métropolitaine) PDF – 109.04 Ko",
+    "version": "vA53-4",
+    "effective_date": "2023-10-01",
+    "json_path": "data/json/RES-CH-108.json",
+    "markdown_path": "data/markdown/RES-CH-108.md",
+    "text_path": "data/text/RES-CH-108.txt",
+    "source_files": [
+      "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023_1.pdf",
+      "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A.pdf",
+      "Reseaux_RES/RES-CH-108 vA53-4 à compter du 01-10-2023 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "RES-EC-104",
+    "sector": "reseaux",
+    "family": "EC",
+    "title": "RES-EC-104 vA77-3 à compter du 26-11-2025 : Rénovation d’éclairage extérieur PDF – 126.74 Ko",
+    "version": "vA77-3",
+    "effective_date": "2025-11-26",
+    "json_path": "data/json/RES-EC-104.json",
+    "markdown_path": "data/markdown/RES-EC-104.md",
+    "text_path": "data/text/RES-EC-104.txt",
+    "source_files": [
+      "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025 - Partie A.pdf",
+      "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EN-101",
+    "sector": "residentiel",
+    "family": "EN",
+    "title": "BAR-EN-101 vA64-6 à compter du 01-01-2025 : Isolation de combles ou de toitures PDF – 150.44 Ko",
+    "version": "vA64-6",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAR-EN-101.json",
+    "markdown_path": "data/markdown/BAR-EN-101.md",
+    "text_path": "data/text/BAR-EN-101.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025_1.pdf",
+      "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EN-101 vA64-6 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EN-102",
+    "sector": "residentiel",
+    "family": "EN",
+    "title": "BAR-EN-102 vA65-4 à compter du 01-01-2025 : Isolation des murs PDF – 135.13 Ko",
+    "version": "vA65-4",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAR-EN-102.json",
+    "markdown_path": "data/markdown/BAR-EN-102.md",
+    "text_path": "data/text/BAR-EN-102.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EN-102 vA65-4 à compter du 01-01-2025_1.pdf",
+      "Residentiel_BAR/BAR-EN-102 vA65-4 à compter du 01-01-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EN-102 vA65-4 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EN-103",
+    "sector": "residentiel",
+    "family": "EN",
+    "title": "BAR-EN-103 vA64-6 à compter du 01-01-2025 : Isolation d’un plancher PDF – 126.73 Ko",
+    "version": "vA64-6",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAR-EN-103.json",
+    "markdown_path": "data/markdown/BAR-EN-103.md",
+    "text_path": "data/text/BAR-EN-103.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EN-103 vA64-6 à compter du 01-01-2025_1.pdf",
+      "Residentiel_BAR/BAR-EN-103 vA64-6 à compter du 01-01-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EN-103 vA64-6 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EN-104",
+    "sector": "residentiel",
+    "family": "EN",
+    "title": "BAR-EN-104 vA54-2 à compter du 01-01-2024 : Fenêtre ou porte-fenêtre complète avec vitrage isolant PDF – 128.18 Ko",
+    "version": "vA54-2",
+    "effective_date": "2024-01-01",
+    "json_path": "data/json/BAR-EN-104.json",
+    "markdown_path": "data/markdown/BAR-EN-104.md",
+    "text_path": "data/text/BAR-EN-104.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024_1.pdf",
+      "Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EN-104 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EN-105",
+    "sector": "residentiel",
+    "family": "EN",
+    "title": "BAR-EN-105 vA64-4 à compter du 01-01-2025 : Isolation des toitures terrasses PDF – 148.04 Ko",
+    "version": "vA64-4",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAR-EN-105.json",
+    "markdown_path": "data/markdown/BAR-EN-105.md",
+    "text_path": "data/text/BAR-EN-105.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EN-105 vA64-4 à compter du 01-01-2025_2.pdf",
+      "Residentiel_BAR/BAR-EN-105 vA64-4 à compter du 01-01-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EN-105 vA64-4 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EN-106",
+    "sector": "residentiel",
+    "family": "EN",
+    "title": "BAR-EN-106 vA64-5 à compter du 01-01-2025 : Isolation de combles ou de toitures (France d’outre-mer) PDF – 125.38 Ko",
+    "version": "vA64-5",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAR-EN-106.json",
+    "markdown_path": "data/markdown/BAR-EN-106.md",
+    "text_path": "data/text/BAR-EN-106.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EN-106 vA64-5 à compter du 01-01-2025_1.pdf",
+      "Residentiel_BAR/BAR-EN-106 vA64-5 à compter du 01-01-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EN-106 vA64-5 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EN-107",
+    "sector": "residentiel",
+    "family": "EN",
+    "title": "BAR-EN-107 vA64-4 à compter du 01-01-2025 : Isolation des murs (France d’outre-mer) PDF – 126.51 Ko",
+    "version": "vA64-4",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAR-EN-107.json",
+    "markdown_path": "data/markdown/BAR-EN-107.md",
+    "text_path": "data/text/BAR-EN-107.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EN-107 vA64-4 à compter du 01-01-2025_1.pdf",
+      "Residentiel_BAR/BAR-EN-107 vA64-4 à compter du 01-01-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EN-107 vA64-4 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EN-108",
+    "sector": "residentiel",
+    "family": "EN",
+    "title": "BAR-EN-108 vA54-3 à compter du 01-01-2024 : Fermeture isolante PDF – 121.83 Ko",
+    "version": "vA54-3",
+    "effective_date": "2024-01-01",
+    "json_path": "data/json/BAR-EN-108.json",
+    "markdown_path": "data/markdown/BAR-EN-108.md",
+    "text_path": "data/text/BAR-EN-108.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EN-108 vA54-3 à compter du 01-01-2024_1.pdf",
+      "Residentiel_BAR/BAR-EN-108 vA54-3 à compter du 01-01-2024 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EN-108 vA54-3 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EN-109",
+    "sector": "residentiel",
+    "family": "EN",
+    "title": "BAR-EN-109 vA24-1 : Réduction des apports solaires par la toiture (France d'outre-mer) PDF – 135.8 Ko",
+    "version": "vA24-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-EN-109.json",
+    "markdown_path": "data/markdown/BAR-EN-109.md",
+    "text_path": "data/text/BAR-EN-109.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "Residentiel_BAR/BAR-EN-109 vA24-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EN-109 vA24-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EN-110",
+    "sector": "residentiel",
+    "family": "EN",
+    "title": "BAR-EN-110 vA35-1 : Fenêtre ou porte-fenêtre complète avec vitrage pariétodynamique PDF – 133.02 Ko",
+    "version": "vA35-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-EN-110.json",
+    "markdown_path": "data/markdown/BAR-EN-110.md",
+    "text_path": "data/text/BAR-EN-110.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EN-110 vA35-1.pdf",
+      "Residentiel_BAR/BAR-EN-110 vA35-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EN-110 vA35-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-EQ-115",
+    "sector": "residentiel",
+    "family": "EQ",
+    "title": "BAR-EQ-115 vA28-1 : Dispositif d’affichage et d’interprétation des consommations d’énergie PDF – 142.04 Ko",
+    "version": "vA28-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-EQ-115.json",
+    "markdown_path": "data/markdown/BAR-EQ-115.md",
+    "text_path": "data/text/BAR-EQ-115.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-EQ-115 vA28-1.pdf",
+      "Residentiel_BAR/BAR-EQ-115 vA28-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-EQ-115 vA28-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-SE-104",
+    "sector": "residentiel",
+    "family": "SE",
+    "title": "BAR-SE-104 vA19-1 : Réglage des organes d’équilibrage d’une installation de chauffage à eau chaude PDF – 109.08 Ko",
+    "version": "vA19-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-SE-104.json",
+    "markdown_path": "data/markdown/BAR-SE-104.md",
+    "text_path": "data/text/BAR-SE-104.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-SE-104 vA19-1.pdf",
+      "Residentiel_BAR/BAR-SE-104 vA19-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-SE-104 vA19-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-SE-105",
+    "sector": "residentiel",
+    "family": "SE",
+    "title": "BAR-SE-105 vA28-1 : Contrat de Performance Energétique Services (CPE Services) PDF – 149.74 Ko",
+    "version": "vA28-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-SE-105.json",
+    "markdown_path": "data/markdown/BAR-SE-105.md",
+    "text_path": "data/text/BAR-SE-105.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "Residentiel_BAR/BAR-SE-105 vA28-1 - Parties A et C.pdf",
+      "Residentiel_BAR/BAR-SE-105 vA28-1 - Partie A à compter du 01-07-2026 et Partie C.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-SE-106",
+    "sector": "residentiel",
+    "family": "SE",
+    "title": "BAR-SE-106 vA32-1 : Service de suivi des consommations d’énergie PDF – 126.78 Ko",
+    "version": "vA32-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-SE-106.json",
+    "markdown_path": "data/markdown/BAR-SE-106.md",
+    "text_path": "data/text/BAR-SE-106.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",
+      "Residentiel_BAR/BAR-SE-106 vA32-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-SE-106 vA32-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-SE-107",
+    "sector": "residentiel",
+    "family": "SE",
+    "title": "BAR-SE-107 vA37-1 à compter du 31-12-2020 : Abaissement de la température de retour vers un réseau de chaleur PDF – 118.45 Ko",
+    "version": "vA37-1",
+    "effective_date": "2020-12-31",
+    "json_path": "data/json/BAR-SE-107.json",
+    "markdown_path": "data/markdown/BAR-SE-107.md",
+    "text_path": "data/text/BAR-SE-107.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-SE-107 vA37-1 à compter du 31-12-2020_0.pdf",
+      "Residentiel_BAR/BAR-SE-107 vA37-1 à compter du 31-12-2020 - Parties A et D.pdf",
+      "Residentiel_BAR/BAR-SE-107 vA37-1 à compter du 31-12-2020 - Partie A à compter du 01-07-2026 et Partie D.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-SE-108",
+    "sector": "residentiel",
+    "family": "SE",
+    "title": "BAR-SE-108 vA71-3 à compter du 01-08-2025 : Désembouage d’un réseau hydraulique individuel de chauffage en France métropolitaine PDF – 115.32 Ko",
+    "version": "vA71-3",
+    "effective_date": "2025-08-01",
+    "json_path": "data/json/BAR-SE-108.json",
+    "markdown_path": "data/markdown/BAR-SE-108.md",
+    "text_path": "data/text/BAR-SE-108.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025.pdf",
+      "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-101",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-101 vA78-3 à compter du 01-01-2026 : Chauffe-eau solaire individuel (France métropolitaine) PDF – 126.55 Ko",
+    "version": "vA78-3",
+    "effective_date": "2026-01-01",
+    "json_path": "data/json/BAR-TH-101.json",
+    "markdown_path": "data/markdown/BAR-TH-101.md",
+    "text_path": "data/text/BAR-TH-101.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-101 vA78-3 à compter du 01-01-2026.pdf",
+      "Residentiel_BAR/BAR-TH-101 vA78-3 à compter du 01-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-101 vA78-3 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-102",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-102 vA17-1 : Chauffe-eau solaire collectif (France métropolitaine) PDF – 113 Ko",
+    "version": "vA17-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-TH-102.json",
+    "markdown_path": "data/markdown/BAR-TH-102.md",
+    "text_path": "data/text/BAR-TH-102.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-102 vA17-1.pdf",
+      "Residentiel_BAR/BAR-TH-102 vA17-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-102 vA17-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-110",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-110 vA16-1 : Radiateur basse température pour un chauffage central PDF – 112.21 Ko",
+    "version": "vA16-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-TH-110.json",
+    "markdown_path": "data/markdown/BAR-TH-110.md",
+    "text_path": "data/text/BAR-TH-110.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-110 vA16-1.pdf",
+      "Residentiel_BAR/BAR-TH-110 vA16-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-110 vA16-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-111",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-111 vA17-1 : Régulation par sonde de température extérieure PDF – 114.01 Ko",
+    "version": "vA17-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-TH-111.json",
+    "markdown_path": "data/markdown/BAR-TH-111.md",
+    "text_path": "data/text/BAR-TH-111.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-111 vA17-1.pdf",
+      "Residentiel_BAR/BAR-TH-111 vA17-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-111 vA17-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-112",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-112 vA46-3 à compter du 01-10-2022 : Appareil indépendant de chauffage au bois PDF – 128.4 Ko",
+    "version": "vA46-3",
+    "effective_date": "2022-10-01",
+    "json_path": "data/json/BAR-TH-112.json",
+    "markdown_path": "data/markdown/BAR-TH-112.md",
+    "text_path": "data/text/BAR-TH-112.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022_1.pdf",
+      "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-112 vA46-3 à compter du 01-10-2022 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-113",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-113 vA79-4 à compter du 01-01-2026 : Chaudière biomasse individuelle PDF – 133.58 Ko",
+    "version": "vA79-4",
+    "effective_date": "2026-01-01",
+    "json_path": "data/json/BAR-TH-113.json",
+    "markdown_path": "data/markdown/BAR-TH-113.md",
+    "text_path": "data/text/BAR-TH-113.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-113 vA79-4 à compter du 01-01-2026_1.pdf",
+      "Residentiel_BAR/BAR-TH-113 vA79-4 à compter du 01-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-113 vA79-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-116",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-116 vA17-1 : Plancher chauffant hydraulique à basse température PDF – 119.2 Ko",
+    "version": "vA17-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-TH-116.json",
+    "markdown_path": "data/markdown/BAR-TH-116.md",
+    "text_path": "data/text/BAR-TH-116.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-116 vA17-1.pdf",
+      "Residentiel_BAR/BAR-TH-116 vA17-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-116 vA17-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-117",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-117 vA14-1 : Robinet thermostatique PDF – 113.66 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-TH-117.json",
+    "markdown_path": "data/markdown/BAR-TH-117.md",
+    "text_path": "data/text/BAR-TH-117.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-117 vA14-1.pdf",
+      "Residentiel_BAR/BAR-TH-117 vA14-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-117 vA14-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-122",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-122 vA15-1 : Récupérateur de chaleur à condensation PDF – 121.65 Ko",
+    "version": "vA15-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-TH-122.json",
+    "markdown_path": "data/markdown/BAR-TH-122.md",
+    "text_path": "data/text/BAR-TH-122.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-122 vA15-1.pdf",
+      "Residentiel_BAR/BAR-TH-122 vA15-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-122 vA15-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-123",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-123 vA54-2 à compter du 01-01-2024 : Optimiseur de relance en chauffage collectif PDF – 113.1 Ko",
+    "version": "vA54-2",
+    "effective_date": "2024-01-01",
+    "json_path": "data/json/BAR-TH-123.json",
+    "markdown_path": "data/markdown/BAR-TH-123.md",
+    "text_path": "data/text/BAR-TH-123.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-124",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-124 vA78-4 à compter du 01-01-2026 : Chauffe-eau solaire individuel (France d'outre mer) PDF – 133.47 Ko",
+    "version": "vA78-4",
+    "effective_date": "2026-01-01",
+    "json_path": "data/json/BAR-TH-124.json",
+    "markdown_path": "data/markdown/BAR-TH-124.md",
+    "text_path": "data/text/BAR-TH-124.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026.pdf",
+      "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-124 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-125",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-125 vA54-5 à compter du 01-01-2024 : Système de ventilation double flux autoréglable ou modulé à haute performance (France métropolitaine) PDF – 146.04 Ko",
+    "version": "vA54-5",
+    "effective_date": "2024-01-01",
+    "json_path": "data/json/BAR-TH-125.json",
+    "markdown_path": "data/markdown/BAR-TH-125.md",
+    "text_path": "data/text/BAR-TH-125.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-127",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-127 vA58-6 à compter du 01-01-2024 : Ventilation mécanique simple flux hygroréglable (France métropolitaine) PDF – 148.34 Ko",
+    "version": "vA58-6",
+    "effective_date": "2024-01-01",
+    "json_path": "data/json/BAR-TH-127.json",
+    "markdown_path": "data/markdown/BAR-TH-127.md",
+    "text_path": "data/text/BAR-TH-127.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024.pdf",
+      "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-127 vA58-6 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-129",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-129 vA27-3 à compter du 01-04-2018 : Pompe à chaleur de type air/air PDF – 128.69 Ko",
+    "version": "vA27-3",
+    "effective_date": "2018-04-01",
+    "json_path": "data/json/BAR-TH-129.json",
+    "markdown_path": "data/markdown/BAR-TH-129.md",
+    "text_path": "data/text/BAR-TH-129.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018.pdf",
+      "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-129 vA27-3 à compter du 01-04-2018 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-130",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-130 vA58-3 à compter du 01-04-2024 : Surperformance énergétique pour un bâtiment neuf (France métropolitaine) PDF – 165.74 Ko",
+    "version": "vA58-3",
+    "effective_date": "2024-04-01",
+    "json_path": "data/json/BAR-TH-130.json",
+    "markdown_path": "data/markdown/BAR-TH-130.md",
+    "text_path": "data/text/BAR-TH-130.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024_0.pdf",
+      "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-130 vA58-3 à compter du 01-04-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-135",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-135 v A35-2 à compter du 01-10-2020 : Chauffe-eau solaire collectif (France d'outre mer) PDF – 145.85 Ko",
+    "version": null,
+    "effective_date": "2020-10-01",
+    "json_path": "data/json/BAR-TH-135.json",
+    "markdown_path": "data/markdown/BAR-TH-135.md",
+    "text_path": "data/text/BAR-TH-135.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf",
+      "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-137",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-137 vA79-4 à compter du 01-01-2026 : Raccordement d'un bâtiment résidentiel à un réseau de chaleur PDF – 120.85 Ko",
+    "version": "vA79-4",
+    "effective_date": "2026-01-01",
+    "json_path": "data/json/BAR-TH-137.json",
+    "markdown_path": "data/markdown/BAR-TH-137.md",
+    "text_path": "data/text/BAR-TH-137.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026_2.pdf",
+      "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026 - Parties A, B, C et D.pdf",
+      "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026 - Parties B, C et D.pdf",
+      "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026 - Annexe 2.pdf",
+      "Residentiel_BAR/BAR-TH-137 vA79-4 à compter du 01-01-2026 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-139",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-139 v A23-2 après 01-02-2017 : Système de variation électronique de vitesse sur une pompe PDF – 139.24 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/BAR-TH-139.json",
+    "markdown_path": "data/markdown/BAR-TH-139.md",
+    "text_path": "data/text/BAR-TH-139.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-139 v A23-2 après 01-02-2017_0.pdf",
+      "Residentiel_BAR/BAR-TH-139 v A23-2 après 01-02-2017 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-139 v A23-2 après 01-02-2017 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-141",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-141 vA71-2 à compter du 01-08-2025 : Climatiseur performant (France d'outre-mer) PDF – 115.47 Ko",
+    "version": "vA71-2",
+    "effective_date": "2025-08-01",
+    "json_path": "data/json/BAR-TH-141.json",
+    "markdown_path": "data/markdown/BAR-TH-141.md",
+    "text_path": "data/text/BAR-TH-141.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025.pdf",
+      "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-141 vA71-2 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-143",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-143 vA79-6 à compter du 01-01-2026 : Système solaire combiné (France métropolitaine) PDF – 126.74 Ko",
+    "version": "vA79-6",
+    "effective_date": "2026-01-01",
+    "json_path": "data/json/BAR-TH-143.json",
+    "markdown_path": "data/markdown/BAR-TH-143.md",
+    "text_path": "data/text/BAR-TH-143.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-143 vA79-6 à compter du 01-01-2026_1.pdf",
+      "Residentiel_BAR/BAR-TH-143 vA79-6 à compter du 01-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-143 vA79-6 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-148",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-148 vA78-4 à compter du 01-01-2026 : Chauffe-eau thermodynamique à accumulation PDF – 115.76 Ko",
+    "version": "vA78-4",
+    "effective_date": "2026-01-01",
+    "json_path": "data/json/BAR-TH-148.json",
+    "markdown_path": "data/markdown/BAR-TH-148.md",
+    "text_path": "data/text/BAR-TH-148.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-148 vA78-4 à compter du 01-01-2026.pdf",
+      "Residentiel_BAR/BAR-TH-148 vA78-4 à compter du 01-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-148 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-155",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-155 vA40-4 à compter du 01-04-2022 : Ventilation hybride hygroréglable (France métropolitaine) PDF – 131.38 Ko",
+    "version": "vA40-4",
+    "effective_date": "2022-04-01",
+    "json_path": "data/json/BAR-TH-155.json",
+    "markdown_path": "data/markdown/BAR-TH-155.md",
+    "text_path": "data/text/BAR-TH-155.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022_0.pdf",
+      "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-155 vA40-4 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-158",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-158 vA73-3 à compter du 01-11-2025 : Émetteur électrique à régulation électronique à fonctions avancées PDF – 129.81 Ko",
+    "version": "vA73-3",
+    "effective_date": "2025-11-01",
+    "json_path": "data/json/BAR-TH-158.json",
+    "markdown_path": "data/markdown/BAR-TH-158.md",
+    "text_path": "data/text/BAR-TH-158.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-158 vA73-3 à compter du 01-11-2025_0.pdf",
+      "Residentiel_BAR/BAR-TH-158 vA73-3 à compter du 01-11-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-158 vA73-3 à compter du 01-11-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-159",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-159 vA50-4 à compter du 01-04-2023 : Pompe à chaleur hybride individuelle PDF – 156.91 Ko",
+    "version": "vA50-4",
+    "effective_date": "2023-04-01",
+    "json_path": "data/json/BAR-TH-159.json",
+    "markdown_path": "data/markdown/BAR-TH-159.md",
+    "text_path": "data/text/BAR-TH-159.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023_0.pdf",
+      "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-159 vA50-4 à compter du 01-04-2023 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-161",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-161 vA71-3 à compter du 01-08-2025 : Isolation de points singuliers d’un réseau PDF – 134.27 Ko",
+    "version": "vA71-3",
+    "effective_date": "2025-08-01",
+    "json_path": "data/json/BAR-TH-161.json",
+    "markdown_path": "data/markdown/BAR-TH-161.md",
+    "text_path": "data/text/BAR-TH-161.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-162",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-162 vA28-1 : Système énergétique comportant des capteurs solaires photovoltaïques et thermiques à circulation d’eau (France métropolitaine) PDF – 123.58 Ko",
+    "version": "vA28-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-TH-162.json",
+    "markdown_path": "data/markdown/BAR-TH-162.md",
+    "text_path": "data/text/BAR-TH-162.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "Residentiel_BAR/BAR-TH-162 vA28-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-162 vA28-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-165",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-165 vA34-1 : Chaudière biomasse collective PDF – 134.71 Ko",
+    "version": "vA34-1",
+    "effective_date": null,
+    "json_path": "data/json/BAR-TH-165.json",
+    "markdown_path": "data/markdown/BAR-TH-165.md",
+    "text_path": "data/text/BAR-TH-165.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-165 vA34-1.pdf",
+      "Residentiel_BAR/BAR-TH-165 vA34-1 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-165 vA34-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-168",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-168 vA78-3 à compter du 01-01-2026 : Dispositif solaire thermique (France métropolitaine) PDF – 160.76 Ko",
+    "version": "vA78-3",
+    "effective_date": "2026-01-01",
+    "json_path": "data/json/BAR-TH-168.json",
+    "markdown_path": "data/markdown/BAR-TH-168.md",
+    "text_path": "data/text/BAR-TH-168.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-169",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-169 vA65-2 à compter du 01-04-2025 : Pompe à chaleur collective de type air/eau ou eau/eau pour l’eau chaude sanitaire PDF – 131.8 Ko",
+    "version": "vA65-2",
+    "effective_date": "2025-04-01",
+    "json_path": "data/json/BAR-TH-169.json",
+    "markdown_path": "data/markdown/BAR-TH-169.md",
+    "text_path": "data/text/BAR-TH-169.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025_1.pdf",
+      "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-169 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-170",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-170 vA54-1 à compter du 01-10-2023 : Récupération de chaleur fatale issue de serveurs informatiques pour l’eau chaude sanitaire collective PDF – 109.98 Ko",
+    "version": "vA54-1",
+    "effective_date": "2023-10-01",
+    "json_path": "data/json/BAR-TH-170.json",
+    "markdown_path": "data/markdown/BAR-TH-170.md",
+    "text_path": "data/text/BAR-TH-170.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-170 vA54-1 à compter du 01-10-2023_1.pdf",
+      "Residentiel_BAR/BAR-TH-170 vA54-1 à compter du 01-10-2023 - Parties A et D.pdf",
+      "Residentiel_BAR/BAR-TH-170 vA54-1 à compter du 01-10-2023 - Partie A à compter du 01-07-2026 - Partie D.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-171",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-171 vA78-4 à compter du 01-01-2026 : Pompe à chaleur de type air/eau PDF – 133.79 Ko",
+    "version": "vA78-4",
+    "effective_date": "2026-01-01",
+    "json_path": "data/json/BAR-TH-171.json",
+    "markdown_path": "data/markdown/BAR-TH-171.md",
+    "text_path": "data/text/BAR-TH-171.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-172",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-172 vA78-4 à compter du 01-01-2026 : Pompe à chaleur de type eau/eau ou sol/eau PDF – 132.28 Ko",
+    "version": "vA78-4",
+    "effective_date": "2026-01-01",
+    "json_path": "data/json/BAR-TH-172.json",
+    "markdown_path": "data/markdown/BAR-TH-172.md",
+    "text_path": "data/text/BAR-TH-172.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-172 vA78-4 à compter du 01-01-2026.pdf",
+      "Residentiel_BAR/BAR-TH-172 vA78-4 à compter du 01-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-172 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-173",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-173 vA69-2 à compter du 01-07-2025 : Système de régulation par programmation horaire pièce par pièce PDF – 154.48 Ko",
+    "version": "vA69-2",
+    "effective_date": "2025-07-01",
+    "json_path": "data/json/BAR-TH-173.json",
+    "markdown_path": "data/markdown/BAR-TH-173.md",
+    "text_path": "data/text/BAR-TH-173.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-174",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-174 vA80-3 à compter du 17-01-2026 : Rénovation d’ampleur d’une maison individuelle (France métropolitaine) PDF – 204.43 Ko",
+    "version": "vA80-3",
+    "effective_date": "2026-01-17",
+    "json_path": "data/json/BAR-TH-174.json",
+    "markdown_path": "data/markdown/BAR-TH-174.md",
+    "text_path": "data/text/BAR-TH-174.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026_0.pdf",
+      "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-174 vA80-3 à compter du 17-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-175",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-175 vA80-3 à compter du 17-01-2026 : Rénovation d’ampleur d’un appartement (France métropolitaine) PDF – 197.32 Ko",
+    "version": "vA80-3",
+    "effective_date": "2026-01-17",
+    "json_path": "data/json/BAR-TH-175.json",
+    "markdown_path": "data/markdown/BAR-TH-175.md",
+    "text_path": "data/text/BAR-TH-175.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026_0.pdf",
+      "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-175 vA80-3 à compter du 17-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-176",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-176 vA58-1 à compter du 29-12-2023 : Système de régulation de la consommation d’un chauffe-eau électrique à effet Joule PDF – 170.76 Ko",
+    "version": "vA58-1",
+    "effective_date": "2023-12-29",
+    "json_path": "data/json/BAR-TH-176.json",
+    "markdown_path": "data/markdown/BAR-TH-176.md",
+    "text_path": "data/text/BAR-TH-176.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023_0.pdf",
+      "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-176 vA58-1 à compter du 29-12-2023 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-177",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-177 vA80-2 à compter du 17-01-2026 : Rénovation globale d’un bâtiment résidentiel collectif (France métropolitaine) PDF – 185.37 Ko",
+    "version": "vA80-2",
+    "effective_date": "2026-01-17",
+    "json_path": "data/json/BAR-TH-177.json",
+    "markdown_path": "data/markdown/BAR-TH-177.md",
+    "text_path": "data/text/BAR-TH-177.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026_0.pdf",
+      "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-177 vA80-2 à compter du 17-01-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-178",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-178 vA81-2 à compter du 30-04-2026 : Système géothermique PDF – 170.16 Ko",
+    "version": "vA81-2",
+    "effective_date": "2026-04-30",
+    "json_path": "data/json/BAR-TH-178.json",
+    "markdown_path": "data/markdown/BAR-TH-178.md",
+    "text_path": "data/text/BAR-TH-178.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-178 vA81-2 à compter du 30-04-2026.pdf",
+      "Residentiel_BAR/BAR-TH-178 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-178 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-179",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-179 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type air/eau PDF – 140.74 Ko",
+    "version": "vA81-2",
+    "effective_date": "2026-04-30",
+    "json_path": "data/json/BAR-TH-179.json",
+    "markdown_path": "data/markdown/BAR-TH-179.md",
+    "text_path": "data/text/BAR-TH-179.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAR-TH-180",
+    "sector": "residentiel",
+    "family": "TH",
+    "title": "BAR-TH-180 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type eau/eau ou eau glycolée/eau PDF – 145.2 Ko",
+    "version": "vA81-2",
+    "effective_date": "2026-04-30",
+    "json_path": "data/json/BAR-TH-180.json",
+    "markdown_path": "data/markdown/BAR-TH-180.md",
+    "text_path": "data/text/BAR-TH-180.txt",
+    "source_files": [
+      "Residentiel_BAR/BAR-TH-180 vA81-2 à compter du 30-04-2026.pdf",
+      "Residentiel_BAR/BAR-TH-180 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+      "Residentiel_BAR/BAR-TH-180 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-101",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-101 vA64-4 à compter du 01-01-2025 : Isolation de combles ou de toitures PDF – 125.45 Ko",
+    "version": "vA64-4",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAT-EN-101.json",
+    "markdown_path": "data/markdown/BAT-EN-101.md",
+    "text_path": "data/text/BAT-EN-101.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-101 vA64-4 à compter du 01-01-2025_2.pdf",
+      "Tertiaire_BAT/BAT-EN-101 vA64-4 à compter du 01-01-2025 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-101 vA64-4 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-102",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-102 vA64-3 à compter du 01-01-2025 : Isolation des murs PDF – 124 Ko",
+    "version": "vA64-3",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAT-EN-102.json",
+    "markdown_path": "data/markdown/BAT-EN-102.md",
+    "text_path": "data/text/BAT-EN-102.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-102 vA64-3 à compter du 01-01-2025_2.pdf",
+      "Tertiaire_BAT/BAT-EN-102 vA64-3 à compter du 01-01-2025 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-102 vA64-3 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-103",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-103 vA64-4 à compter du 01-01-2025 : Isolation d’un plancher PDF – 125.58 Ko",
+    "version": "vA64-4",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAT-EN-103.json",
+    "markdown_path": "data/markdown/BAT-EN-103.md",
+    "text_path": "data/text/BAT-EN-103.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-103 vA64-4 à compter du 01-01-2025_2.pdf",
+      "Tertiaire_BAT/BAT-EN-103 vA64-4 à compter du 01-01-2025 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-103 vA64-4 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-104",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-104 vA54-3 à compter du 01-01-2024 : Fenêtre ou porte-fenêtre complète avec vitrage isolant PDF – 128.16 Ko",
+    "version": "vA54-3",
+    "effective_date": "2024-01-01",
+    "json_path": "data/json/BAT-EN-104.json",
+    "markdown_path": "data/markdown/BAT-EN-104.md",
+    "text_path": "data/text/BAT-EN-104.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024_2.pdf",
+      "Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-104 vA54-3 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-106",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-106 vA64-3 à compter du 01-01-2025 : Isolation de combles ou de toitures (France d’outre-mer) PDF – 124.38 Ko",
+    "version": "vA64-3",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAT-EN-106.json",
+    "markdown_path": "data/markdown/BAT-EN-106.md",
+    "text_path": "data/text/BAT-EN-106.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-106 vA64-3 à compter du 01-01-2025_1.pdf",
+      "Tertiaire_BAT/BAT-EN-106 vA64-3 à compter du 01-01-2025 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-106 vA64-3 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-107",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-107 vA64-3 à compter du 01-01-2025 : Isolation des toitures terrasses PDF – 124.12 Ko",
+    "version": "vA64-3",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAT-EN-107.json",
+    "markdown_path": "data/markdown/BAT-EN-107.md",
+    "text_path": "data/text/BAT-EN-107.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-107 vA64-3 à compter du 01-01-2025_1.pdf",
+      "Tertiaire_BAT/BAT-EN-107 vA64-3 à compter du 01-01-2025 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-107 vA64-3 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-108",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-108 vA19-1 : Isolation des murs (France d’outre-mer) PDF – 114.19 Ko",
+    "version": "vA19-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-EN-108.json",
+    "markdown_path": "data/markdown/BAT-EN-108.md",
+    "text_path": "data/text/BAT-EN-108.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-108 vA19-1.pdf",
+      "Tertiaire_BAT/BAT-EN-108 vA19-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-108 vA19-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-109",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-109 vA24-1 : Réduction des apports solaires par la toiture (France d'outre mer) PDF – 134.35 Ko",
+    "version": "vA24-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-EN-109.json",
+    "markdown_path": "data/markdown/BAT-EN-109.md",
+    "text_path": "data/text/BAT-EN-109.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-109 vA24-1.pdf",
+      "Tertiaire_BAT/BAT-EN-109 vA24-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-109 vA24-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-110",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-110 vA25-1 : Protections des baies contre le rayonnement solaire (France d’outre-mer) PDF – 131.46 Ko",
+    "version": "vA25-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-EN-110.json",
+    "markdown_path": "data/markdown/BAT-EN-110.md",
+    "text_path": "data/text/BAT-EN-110.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-110 vA25-1.pdf",
+      "Tertiaire_BAT/BAT-EN-110 vA25-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-110 vA25-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-111",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-111 vA38-1 à compter du 31-07-2021 : Fenêtre ou porte-fenêtre complète avec vitrage pariétodynamique (France métropolitaine) PDF – 136.78 Ko",
+    "version": "vA38-1",
+    "effective_date": "2021-07-31",
+    "json_path": "data/json/BAT-EN-111.json",
+    "markdown_path": "data/markdown/BAT-EN-111.md",
+    "text_path": "data/text/BAT-EN-111.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021.pdf",
+      "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-111 vA38-1 à compter du 31-07-2021 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-112",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-112 vA38-1 à compter du 31-07-2021 : Revêtements réflectifs en toiture PDF – 125.28 Ko",
+    "version": "vA38-1",
+    "effective_date": "2021-07-31",
+    "json_path": "data/json/BAT-EN-112.json",
+    "markdown_path": "data/markdown/BAT-EN-112.md",
+    "text_path": "data/text/BAT-EN-112.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-112 vA38-1 à compter du 31-07-2021.pdf",
+      "Tertiaire_BAT/BAT-EN-112 vA38-1 à compter du 31-07-2021 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-112 vA38-1 à compter du 31-07-2021 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EN-113",
+    "sector": "tertiaire",
+    "family": "EN",
+    "title": "BAT-EN-113 vA54-1 à compter du 01-10-2023 : Façade rideau ou semi-rideau avec vitrage isolant PDF – 126.21 Ko",
+    "version": "vA54-1",
+    "effective_date": "2023-10-01",
+    "json_path": "data/json/BAT-EN-113.json",
+    "markdown_path": "data/markdown/BAT-EN-113.md",
+    "text_path": "data/text/BAT-EN-113.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EN-113 vA54-1 à compter du 01-10-2023_1.pdf",
+      "Tertiaire_BAT/BAT-EN-113 vA54-1 à compter du 01-10-2023 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EN-113 vA54-1 à compter du 01-10-2023 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EQ-117",
+    "sector": "tertiaire",
+    "family": "EQ",
+    "title": "BAT-EQ-117 vA40-2 à compter du 01-04-2022 : Installation frigorifique utilisant du CO2 subcritique ou transcritique PDF – 164.25 Ko",
+    "version": "vA40-2",
+    "effective_date": "2022-04-01",
+    "json_path": "data/json/BAT-EQ-117.json",
+    "markdown_path": "data/markdown/BAT-EQ-117.md",
+    "text_path": "data/text/BAT-EQ-117.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022_1.pdf",
+      "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EQ-117 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EQ-123",
+    "sector": "tertiaire",
+    "family": "EQ",
+    "title": "BAT-EQ-123 vA25-2 après le 01-04-2017 : Moto-variateur synchrone à aimants permanents ou à reluctance PDF – 127.08 Ko",
+    "version": "vA25-2",
+    "effective_date": null,
+    "json_path": "data/json/BAT-EQ-123.json",
+    "markdown_path": "data/markdown/BAT-EQ-123.md",
+    "text_path": "data/text/BAT-EQ-123.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EQ-123 vA25-2 après le 01-04-2017.pdf",
+      "Tertiaire_BAT/BAT-EQ-123 vA25-2 après le 01-04-2017 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EQ-123 vA25-2 après le 01-04-2017 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EQ-124",
+    "sector": "tertiaire",
+    "family": "EQ",
+    "title": "BAT-EQ-124 vA15-1 : Fermeture des meubles frigorifiques de vente à température positive PDF – 110.39 Ko",
+    "version": "vA15-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-EQ-124.json",
+    "markdown_path": "data/markdown/BAT-EQ-124.md",
+    "text_path": "data/text/BAT-EQ-124.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EQ-124 vA15-1.pdf",
+      "Tertiaire_BAT/BAT-EQ-124 vA15-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EQ-124 vA15-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EQ-125",
+    "sector": "tertiaire",
+    "family": "EQ",
+    "title": "BAT-EQ-125 vA22-1 : Fermeture des meubles frigorifiques de vente à température négative PDF – 152.8 Ko",
+    "version": "vA22-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-EQ-125.json",
+    "markdown_path": "data/markdown/BAT-EQ-125.md",
+    "text_path": "data/text/BAT-EQ-125.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "Tertiaire_BAT/BAT-EQ-125 vA22-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EQ-125 vA22-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EQ-129",
+    "sector": "tertiaire",
+    "family": "EQ",
+    "title": "BAT-EQ-129 vA26-1 : Lanterneaux d’éclairage zénithal (France Métropolitaine) PDF – 158.37 Ko",
+    "version": "vA26-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-EQ-129.json",
+    "markdown_path": "data/markdown/BAT-EQ-129.md",
+    "text_path": "data/text/BAT-EQ-129.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "Tertiaire_BAT/BAT-EQ-129 vA26-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EQ-129 vA26-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EQ-130",
+    "sector": "tertiaire",
+    "family": "EQ",
+    "title": "BAT-EQ-130 vA22-1 : Système de condensation frigorifique à haute efficacité PDF – 163.94 Ko",
+    "version": "vA22-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-EQ-130.json",
+    "markdown_path": "data/markdown/BAT-EQ-130.md",
+    "text_path": "data/text/BAT-EQ-130.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EQ-130 vA22-1.pdf",
+      "Tertiaire_BAT/BAT-EQ-130 vA22-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EQ-130 vA22-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EQ-131",
+    "sector": "tertiaire",
+    "family": "EQ",
+    "title": "BAT-EQ-131 vA15-1 : Conduits de lumière naturelle PDF – 113.94 Ko",
+    "version": "vA15-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-EQ-131.json",
+    "markdown_path": "data/markdown/BAT-EQ-131.md",
+    "text_path": "data/text/BAT-EQ-131.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EQ-131 vA15-1.pdf",
+      "Tertiaire_BAT/BAT-EQ-131 vA15-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EQ-131 vA15-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EQ-134",
+    "sector": "tertiaire",
+    "family": "EQ",
+    "title": "BAT-EQ-134 vA58-2 à compter du 01-04-2024 : Meuble frigorifique de vente performant avec groupe de production de froid intégré PDF – 138.56 Ko",
+    "version": "vA58-2",
+    "effective_date": "2024-04-01",
+    "json_path": "data/json/BAT-EQ-134.json",
+    "markdown_path": "data/markdown/BAT-EQ-134.md",
+    "text_path": "data/text/BAT-EQ-134.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-EQ-135",
+    "sector": "tertiaire",
+    "family": "EQ",
+    "title": "BAT-EQ-135 vA65-2 à compter du 01-04-2025 : Dispositif performant d’alimentation sans interruption PDF – 125.81 Ko",
+    "version": "vA65-2",
+    "effective_date": "2025-04-01",
+    "json_path": "data/json/BAT-EQ-135.json",
+    "markdown_path": "data/markdown/BAT-EQ-135.md",
+    "text_path": "data/text/BAT-EQ-135.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-EQ-135 vA65-2 à compter du 01-04-2025_1.pdf",
+      "Tertiaire_BAT/BAT-EQ-135 vA65-2 à compter du 01-04-2025 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-EQ-135 vA65-2 à compter du 01-04-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-SE-103",
+    "sector": "tertiaire",
+    "family": "SE",
+    "title": "BAT-SE-103 vA19-1 : Réglage des organes d’équilibrage d’une installation de chauffage à eau chaude PDF – 108.35 Ko",
+    "version": "vA19-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-SE-103.json",
+    "markdown_path": "data/markdown/BAT-SE-103.md",
+    "text_path": "data/text/BAT-SE-103.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-SE-103 vA19-1.pdf",
+      "Tertiaire_BAT/BAT-SE-103 vA19-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-SE-103 vA19-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-SE-104",
+    "sector": "tertiaire",
+    "family": "SE",
+    "title": "BAT-SE-104 vA31-1 : Contrat de performance énergétique Services (CPE Services) Chauffage PDF – 202.33 Ko",
+    "version": "vA31-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-SE-104.json",
+    "markdown_path": "data/markdown/BAT-SE-104.md",
+    "text_path": "data/text/BAT-SE-104.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-SE-104 vA31-1.pdf",
+      "Tertiaire_BAT/BAT-SE-104 vA31-1 - Parties A et C.pdf",
+      "Tertiaire_BAT/BAT-SE-104 vA31-1 - Partie A à compter du 01-07-2026 - Partie C.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-SE-105",
+    "sector": "tertiaire",
+    "family": "SE",
+    "title": "BAT-SE-105 vA32-1 : Abaissement de la température de retour vers un réseau de chaleur PDF – 119.72 Ko",
+    "version": "vA32-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-SE-105.json",
+    "markdown_path": "data/markdown/BAT-SE-105.md",
+    "text_path": "data/text/BAT-SE-105.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-SE-105 vA32-1.pdf",
+      "Tertiaire_BAT/BAT-SE-105 vA32-1 - Parties A et D_0.pdf",
+      "Tertiaire_BAT/BAT-SE-105 vA32-1 - Partie A à compter du 01-07-2026 et Partie D.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-103",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-103 v A31-2 à compter du 01-10-2019 : Plancher chauffant hydraulique à basse température PDF – 116.34 Ko",
+    "version": null,
+    "effective_date": "2019-10-01",
+    "json_path": "data/json/BAT-TH-103.json",
+    "markdown_path": "data/markdown/BAT-TH-103.md",
+    "text_path": "data/text/BAT-TH-103.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-103 v A31-2 à compter du 01-10-2019_0.pdf",
+      "Tertiaire_BAT/BAT-TH-103 v A31-2 à compter du 01-10-2019 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-103 v A31-2 à compter du 01-10-2019 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-105",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-105 v A32-2 à compter du 01-04-2020 PDF – 118 Ko",
+    "version": null,
+    "effective_date": "2020-04-01",
+    "json_path": "data/json/BAT-TH-105.json",
+    "markdown_path": "data/markdown/BAT-TH-105.md",
+    "text_path": "data/text/BAT-TH-105.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-105 v A32-2 à compter du 01-04-2020_0.pdf",
+      "Tertiaire_BAT/BAT-TH-105 v A32-2 à compter du 01-04-2020 - Partie A à compter du 01-07-2026_0.pdf",
+      "Tertiaire_BAT/BAT-TH-105 v A32-2 à compter du 01-04-2020 - Partie A_0.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-108",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-108 v A22-1 : Système de régulation par programmation d’intermittence PDF – 133.01 Ko",
+    "version": null,
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-108.json",
+    "markdown_path": "data/markdown/BAT-TH-108.md",
+    "text_path": "data/text/BAT-TH-108.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-108 v A22-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-108 v A22-1 - Partie A à compter du 01-07-2026.pdf",
+      "Tertiaire_BAT/BAT-TH-108 v A22-1.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-109",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-109 vA54-3 à compter du 01-01-2024 : Optimiseur de relance en chauffage collectif comprenant une fonction auto-adaptative PDF – 124.33 Ko",
+    "version": "vA54-3",
+    "effective_date": "2024-01-01",
+    "json_path": "data/json/BAT-TH-109.json",
+    "markdown_path": "data/markdown/BAT-TH-109.md",
+    "text_path": "data/text/BAT-TH-109.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-109 vA54-3 à compter du 01-01-2024_2.pdf",
+      "Tertiaire_BAT/BAT-TH-109 vA54-3 à compter du 01-01-2024 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-109 vA54-3 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-110",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-110 vA15-1 : Récupérateur de chaleur à condensation PDF – 130.44 Ko",
+    "version": "vA15-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-110.json",
+    "markdown_path": "data/markdown/BAT-TH-110.md",
+    "text_path": "data/text/BAT-TH-110.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-110 vA15-1.pdf",
+      "Tertiaire_BAT/BAT-TH-110 vA15-1 - Partie A à compter du 01-07-2026.pdf",
+      "Tertiaire_BAT/BAT-TH-110 vA15-1 - Partie A.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-111",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-111 vA17-1 : Chauffe-eau solaire collectif (France métropolitaine) PDF – 115.06 Ko",
+    "version": "vA17-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-111.json",
+    "markdown_path": "data/markdown/BAT-TH-111.md",
+    "text_path": "data/text/BAT-TH-111.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-111 vA17-1.pdf",
+      "Tertiaire_BAT/BAT-TH-111 vA17-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-111 vA17-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-112",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-112 vA22-2 : Système de variation électronique de vitesse sur un moteur asynchrone PDF – 129.48 Ko",
+    "version": "vA22-2",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-112.json",
+    "markdown_path": "data/markdown/BAT-TH-112.md",
+    "text_path": "data/text/BAT-TH-112.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-112 vA22-2.pdf",
+      "Tertiaire_BAT/BAT-TH-112 vA22-2 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-112 vA22-2 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-115",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-115 vA15-2 : Climatiseur performant (France d'outre mer) PDF – 121.23 Ko",
+    "version": "vA15-2",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-115.json",
+    "markdown_path": "data/markdown/BAT-TH-115.md",
+    "text_path": "data/text/BAT-TH-115.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-115 vA15-2.pdf",
+      "Tertiaire_BAT/BAT-TH-115 vA15-2 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-115 vA15-2 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-116",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-116 vA62-6 à compter du 01-01-2025 : Système de gestion technique du bâtiment pour le chauffage, l’eau chaude sanitaire, le refroidissement / climatisation, l’éclairage et les auxiliaires PDF – 166.13 Ko",
+    "version": "vA62-6",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAT-TH-116.json",
+    "markdown_path": "data/markdown/BAT-TH-116.md",
+    "text_path": "data/text/BAT-TH-116.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+      "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-121",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-121 vA35-3 à compter du 01-10-2020 : Chauffe-eau solaire (France d'outre mer) PDF – 174.3 Ko",
+    "version": "vA35-3",
+    "effective_date": "2020-10-01",
+    "json_path": "data/json/BAT-TH-121.json",
+    "markdown_path": "data/markdown/BAT-TH-121.md",
+    "text_path": "data/text/BAT-TH-121.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-121 vA35-3 à compter du 01-10-2020.pdf",
+      "Tertiaire_BAT/BAT-TH-121 vA35-3 à compter du 01-10-2020 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-121 vA35-3 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-122",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-122 vA22-1 : Programmateur d’intermittence pour la climatisation (France d’outre-mer) PDF – 120.61 Ko",
+    "version": "vA22-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-122.json",
+    "markdown_path": "data/markdown/BAT-TH-122.md",
+    "text_path": "data/text/BAT-TH-122.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-122 vA22-1.pdf",
+      "Tertiaire_BAT/BAT-TH-122 vA22-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-122 vA22-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-125",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-125 v A32-2 à compter du 01-04-2020 : Ventilation mécanique simple flux à débit d’air constant ou modulé PDF – 146.09 Ko",
+    "version": null,
+    "effective_date": "2020-04-01",
+    "json_path": "data/json/BAT-TH-125.json",
+    "markdown_path": "data/markdown/BAT-TH-125.md",
+    "text_path": "data/text/BAT-TH-125.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020_0.pdf",
+      "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-125 v A32-2 à compter du 01-04-2020 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-126",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-126 v A32-2 à compter du 01-04-2020 : Ventilation mécanique double flux avec échangeur à débit d’air constant ou modulé PDF – 157.38 Ko",
+    "version": null,
+    "effective_date": "2020-04-01",
+    "json_path": "data/json/BAT-TH-126.json",
+    "markdown_path": "data/markdown/BAT-TH-126.md",
+    "text_path": "data/text/BAT-TH-126.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020_0.pdf",
+      "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-126 v A32-2 à compter du 01-04-2020 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-127",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-127 vA79-5 à compter du 01-01-2026 : Raccordement d'un bâtiment tertiaire à un réseau de chaleur PDF – 131.77 Ko",
+    "version": "vA79-5",
+    "effective_date": "2026-01-01",
+    "json_path": "data/json/BAT-TH-127.json",
+    "markdown_path": "data/markdown/BAT-TH-127.md",
+    "text_path": "data/text/BAT-TH-127.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Parties A, B, C et D.pdf",
+      "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Partie A à compter du 01-07-2026 - Parties B, C et D.pdf",
+      "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Annexe 2.pdf",
+      "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-134",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-134 vA22-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une haute pression flottante (France métropolitaine) PDF – 157.16 Ko",
+    "version": "vA22-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-134.json",
+    "markdown_path": "data/markdown/BAT-TH-134.md",
+    "text_path": "data/text/BAT-TH-134.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-134 vA22-1.pdf",
+      "Tertiaire_BAT/BAT-TH-134 v A22-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-134 v A22-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-135",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-135 vA26-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une haute pression flottante (France d’outre-mer) PDF – 146.88 Ko",
+    "version": "vA26-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-135.json",
+    "markdown_path": "data/markdown/BAT-TH-135.md",
+    "text_path": "data/text/BAT-TH-135.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-135 vA26-1.pdf",
+      "Tertiaire_BAT/BAT-TH-135 vA26-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-135 vA26-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-139",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-139 vA35-3 à compter du 01-10-2020 : Système de récupération de chaleur sur un groupe de production de froid PDF – 163.19 Ko",
+    "version": "vA35-3",
+    "effective_date": "2020-10-01",
+    "json_path": "data/json/BAT-TH-139.json",
+    "markdown_path": "data/markdown/BAT-TH-139.md",
+    "text_path": "data/text/BAT-TH-139.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-139 vA35-3 à compter du 01-10-2020.pdf",
+      "Tertiaire_BAT/BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-139 v A35-3 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-142",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-142 vA71-4 à compter du 01-08-2025 : Système de déstratification d’air PDF – 131.74 Ko",
+    "version": "vA71-4",
+    "effective_date": "2025-08-01",
+    "json_path": "data/json/BAT-TH-142.json",
+    "markdown_path": "data/markdown/BAT-TH-142.md",
+    "text_path": "data/text/BAT-TH-142.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025.pdf",
+      "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-142 vA71-4 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-143",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-143 vA16-1 : Ventilo-convecteurs haute performance PDF – 124.81 Ko",
+    "version": "vA16-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-143.json",
+    "markdown_path": "data/markdown/BAT-TH-143.md",
+    "text_path": "data/text/BAT-TH-143.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-143 vA16-1.pdf",
+      "Tertiaire_BAT/BAT-TH-143 vA16-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-143 vA16-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-145",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-145 vA23-1 : Système de régulation sur un groupe de production de froid permettant d’avoir une basse pression flottante (France métropolitaine) PDF – 110.14 Ko",
+    "version": "vA23-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-145.json",
+    "markdown_path": "data/markdown/BAT-TH-145.md",
+    "text_path": "data/text/BAT-TH-145.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-145 vA23-1.pdf",
+      "Tertiaire_BAT/BAT-TH-145 vA23-1 - Partie A_0.pdf",
+      "Tertiaire_BAT/BAT-TH-145 vA23-1 - Partie A à compter du 01-07-2026.docx-.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-153",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-153 vA28-1 : Système de confinement des allées froides et allées chaudes dans un Data Center PDF – 122.78 Ko",
+    "version": "vA28-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-153.json",
+    "markdown_path": "data/markdown/BAT-TH-153.md",
+    "text_path": "data/text/BAT-TH-153.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-153 vA28-1.pdf",
+      "Tertiaire_BAT/BAT-TH-153 vA28-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-153 vA28-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-154",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-154 vA28-1 : Récupération instantanée de chaleur sur eaux grises PDF – 166.73 Ko",
+    "version": "vA28-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-154.json",
+    "markdown_path": "data/markdown/BAT-TH-154.md",
+    "text_path": "data/text/BAT-TH-154.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-154 vA28-1.pdf",
+      "Tertiaire_BAT/BAT-TH-154 vA28-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-154 vA28-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-156",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-156 vA31-1 : Freecooling par eau de refroidissement en substitution d'un groupe froid pour la climatisation PDF – 124.01 Ko",
+    "version": "vA31-1",
+    "effective_date": null,
+    "json_path": "data/json/BAT-TH-156.json",
+    "markdown_path": "data/markdown/BAT-TH-156.md",
+    "text_path": "data/text/BAT-TH-156.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-156 vA31-1.pdf",
+      "Tertiaire_BAT/BAT-TH-156 vA31-1 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-156 vA31-1 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-157",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-157 vA50-2 à compter du 01-04-2023 : Chaudière biomasse collective PDF – 134.77 Ko",
+    "version": "vA50-2",
+    "effective_date": "2023-04-01",
+    "json_path": "data/json/BAT-TH-157.json",
+    "markdown_path": "data/markdown/BAT-TH-157.md",
+    "text_path": "data/text/BAT-TH-157.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-157 vA50-2 à compter du 01-04-2023_1.pdf",
+      "Tertiaire_BAT/BAT-TH-157 vA50-2 à compter du 01-04-2023 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-157 vA50-2 à compter du 01-04-2023 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-158",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-158 vA62-3 à compter du 01-01-2025 : Pompe à chaleur réversible de type air/air PDF – 168.42 Ko",
+    "version": "vA62-3",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/BAT-TH-158.json",
+    "markdown_path": "data/markdown/BAT-TH-158.md",
+    "text_path": "data/text/BAT-TH-158.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025_1.pdf",
+      "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-158 vA62-3 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-159",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-159 vA40-1 à compter du 29-12-2021 : Raccordement d’un bâtiment tertiaire à un réseau de froid PDF – 127.36 Ko",
+    "version": "vA40-1",
+    "effective_date": "2021-12-29",
+    "json_path": "data/json/BAT-TH-159.json",
+    "markdown_path": "data/markdown/BAT-TH-159.md",
+    "text_path": "data/text/BAT-TH-159.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-159 vA40-1 à compter du 29-12-2021_1.pdf",
+      "Tertiaire_BAT/BAT-TH-159 vA40-1 à compter du 29-12-2021 - Parties A, B, C et D.pdf",
+      "Tertiaire_BAT/BAT-TH-159 vA40-1 à compter du 29-12-2021 - Partie A à compter du 01-07-2026 - Parties B, C et D.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-161",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-161 vA62-1 à compter du 31-08-2024 : Maintien en température des groupes électrogènes de secours par pompe à chaleur de type air/eau PDF – 159.29 Ko",
+    "version": "vA62-1",
+    "effective_date": "2024-08-31",
+    "json_path": "data/json/BAT-TH-161.json",
+    "markdown_path": "data/markdown/BAT-TH-161.md",
+    "text_path": "data/text/BAT-TH-161.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-162",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-162 vA81-2 à compter du 30-04-2026 : Système géothermique PDF – 221.85 Ko",
+    "version": "vA81-2",
+    "effective_date": "2026-04-30",
+    "json_path": "data/json/BAT-TH-162.json",
+    "markdown_path": "data/markdown/BAT-TH-162.md",
+    "text_path": "data/text/BAT-TH-162.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-163",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-163 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type air/eau PDF – 141.35 Ko",
+    "version": "vA81-2",
+    "effective_date": "2026-04-30",
+    "json_path": "data/json/BAT-TH-163.json",
+    "markdown_path": "data/markdown/BAT-TH-163.md",
+    "text_path": "data/text/BAT-TH-163.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+      "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "BAT-TH-164",
+    "sector": "tertiaire",
+    "family": "TH",
+    "title": "BAT-TH-164 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type eau/eau ou eau glycolée/eau PDF – 146.35 Ko",
+    "version": "vA81-2",
+    "effective_date": "2026-04-30",
+    "json_path": "data/json/BAT-TH-164.json",
+    "markdown_path": "data/markdown/BAT-TH-164.md",
+    "text_path": "data/text/BAT-TH-164.txt",
+    "source_files": [
+      "Tertiaire_BAT/BAT-TH-164 vA81-2 à compter du 30-04-2026.pdf",
+      "Tertiaire_BAT/BAT-TH-164 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+      "Tertiaire_BAT/BAT-TH-164 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-101",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-101 vA14-1 : Unité de transport intermodal pour le transport combiné rail-route PDF – 112.35 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-101.json",
+    "markdown_path": "data/markdown/TRA-EQ-101.md",
+    "text_path": "data/text/TRA-EQ-101.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-101 vA14-1_0.pdf",
+      "Transport_TRA/TRA-EQ-101 vA14-1 - Partie A_0.pdf",
+      "Transport_TRA/TRA-EQ-101 vA14-1 - Partie A à compter du 01-07-2026_0.pdf",
+      "Transport_TRA/TRA-EQ-101 vA14-1 - Annexe 2 à compter du 01-07-2025_0.pdf",
+      "Transport_TRA/TRA-EQ-101 vA14-1 - Annexe 2 à compter du 01-07-2026_0.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-103",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-103 vA14-1 : Télématique embarquée pour le suivi de la conduite d’un véhicule PDF – 145.08 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-103.json",
+    "markdown_path": "data/markdown/TRA-EQ-103.md",
+    "text_path": "data/text/TRA-EQ-103.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-103 vA14-1_0.pdf",
+      "Transport_TRA/TRA-EQ-103 vA14-1 - Partie A_0.pdf",
+      "Transport_TRA/TRA-EQ-103 vA14-1 - Partie A à compter du 01-07-2026_0.pdf",
+      "Transport_TRA/TRA-EQ-103 vA14-1 - Annexe 2 à compter du 01-07-2025_0.pdf",
+      "Transport_TRA/TRA-EQ-103 vA14-1 - Annexe 2 à compter du 01-07-2026_0.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-104",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-104 vA14-1 : Lubrifiant économiseur d’énergie pour véhicules légers PDF – 121.24 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-104.json",
+    "markdown_path": "data/markdown/TRA-EQ-104.md",
+    "text_path": "data/text/TRA-EQ-104.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-104 vA14-1_0.pdf",
+      "Transport_TRA/TRA-EQ-104 vA14-1 - Parties A, B et C_0.pdf",
+      "Transport_TRA/TRA-EQ-104 vA14-1 - Partie A à compter du 01-07-2026 - Parties B et C_0.pdf",
+      "Transport_TRA/TRA-EQ-104 vA14-1 - Annexe 2 à compter du 01-07-2025_0.pdf",
+      "Transport_TRA/TRA-EQ-104 vA14-1 - Annexe 2 à compter du 01-07-2026_0.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-106",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-106 vA14-1 : Pneus de véhicules légers à basse résistance au roulement PDF – 116.39 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-106.json",
+    "markdown_path": "data/markdown/TRA-EQ-106.md",
+    "text_path": "data/text/TRA-EQ-106.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-106 vA14-1_0.pdf",
+      "Transport_TRA/TRA-EQ-106 vA14-1 - Partie A_0.pdf",
+      "Transport_TRA/TRA-EQ-106 vA14-1 - Partie A à compter du 01-07-2026_0.pdf",
+      "Transport_TRA/TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2025_0.pdf",
+      "Transport_TRA/TRA-EQ-106 vA14-1 - Annexe 2 à compter du 01-07-2026_0.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-107",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-107 vA17-1 : Unité de transport intermodal pour le transport combiné fluvial-route PDF – 110.47 Ko",
+    "version": "vA17-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-107.json",
+    "markdown_path": "data/markdown/TRA-EQ-107.md",
+    "text_path": "data/text/TRA-EQ-107.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-107 vA17-1_0.pdf",
+      "Transport_TRA/TRA-EQ-107 vA17-1 - Partie A_0.pdf",
+      "Transport_TRA/TRA-EQ-107 vA17-1 - Partie A à compter du 01-07-2026_0.pdf",
+      "Transport_TRA/TRA-EQ-107 - Annexe 2 à compter du 01-07-2025_0.pdf",
+      "Transport_TRA/TRA-EQ-107 - Annexe 2 à compter du 01-07-2026_0.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-108",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-108 vA37-6 à compter du 01-04-2020 : Wagon d'autoroute ferroviaire PDF – 114.72 Ko",
+    "version": "vA37-6",
+    "effective_date": "2020-04-01",
+    "json_path": "data/json/TRA-EQ-108.json",
+    "markdown_path": "data/markdown/TRA-EQ-108.md",
+    "text_path": "data/text/TRA-EQ-108.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020_0.pdf",
+      "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-108 vA37-6 à compter du 01-04-2020 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-109",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-109 vA17-1 : Barge fluviale PDF – 108.26 Ko",
+    "version": "vA17-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-109.json",
+    "markdown_path": "data/markdown/TRA-EQ-109.md",
+    "text_path": "data/text/TRA-EQ-109.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-109 vA17-1.pdf",
+      "Transport_TRA/TRA-EQ-109 vA17-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-109 vA17-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-109 vA17-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-110",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-110 vA19-1 : Automoteur fluvial PDF – 127.94 Ko",
+    "version": "vA19-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-110.json",
+    "markdown_path": "data/markdown/TRA-EQ-110.md",
+    "text_path": "data/text/TRA-EQ-110.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-110 vA19-1.pdf",
+      "Transport_TRA/TRA-EQ-110 vA19-1 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-110 vA19-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-110 vA19-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-110 vA19-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-111",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-111 vA24-1 : Groupes frigorifiques autonomes à haute efficacité énergétique pour camions, semi remorques, remorques et caisses mobiles frigorifiques PDF – 107.86 Ko",
+    "version": "vA24-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-111.json",
+    "markdown_path": "data/markdown/TRA-EQ-111.md",
+    "text_path": "data/text/TRA-EQ-111.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-111 vA24-1.pdf",
+      "Transport_TRA/TRA-EQ-111 vA24-1 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-111 vA24-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-111 vA24-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-113",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-113 vA14-1 : Lubrifiant économiseur d’énergie pour des véhicules de transport de personnes ou de marchandises PDF – 115.29 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-113.json",
+    "markdown_path": "data/markdown/TRA-EQ-113.md",
+    "text_path": "data/text/TRA-EQ-113.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-113 vA14-1.pdf",
+      "Transport_TRA/TRA-EQ-113 vA14-1 - Parties A, B et C.pdf",
+      "Transport_TRA/TRA-EQ-113 vA14-1 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+      "Transport_TRA/TRA-EQ-113 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-113 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-114",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-114 vA76-4 à compter du 01-10-2025 : Achat ou location d’un véhicule léger électrique neuf ou opération de rétrofit électrique d’un véhicule léger, par une collectivité locale ou une autre personne morale PDF – 121.11 Ko",
+    "version": "vA76-4",
+    "effective_date": "2025-10-01",
+    "json_path": "data/json/TRA-EQ-114.json",
+    "markdown_path": "data/markdown/TRA-EQ-114.md",
+    "text_path": "data/text/TRA-EQ-114.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025.pdf",
+      "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-114 vA76-4 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-114 vA68-3 Feuille récapitulative_0.xls"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-115",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-115 vA14-1 : Véhicules de transport de marchandises optimisé PDF – 111.62 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-115.json",
+    "markdown_path": "data/markdown/TRA-EQ-115.md",
+    "text_path": "data/text/TRA-EQ-115.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "Transport_TRA/TRA-EQ-115 vA14-1 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-115 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-115 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-115 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-117",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-117 vA76-5 à compter du 01-10-2025 : Achat ou location d’un véhicule léger électrique neuf ou opération de rétrofit électrique d’un véhicule léger par des personnes physiques PDF – 108.6 Ko",
+    "version": "vA76-5",
+    "effective_date": "2025-10-01",
+    "json_path": "data/json/TRA-EQ-117.json",
+    "markdown_path": "data/markdown/TRA-EQ-117.md",
+    "text_path": "data/text/TRA-EQ-117.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-117 vA76-5 à compter du 01-10-2025.pdf",
+      "Transport_TRA/TRA-EQ-117 vA76-5 à compter du 01-10-2025 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-117 vA76-5 à compter du 01-10-2025 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-117 vA76-5 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-117 vA76-5 à compter du 01-10-2025 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-118",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-118 vA15-1 : Lubrifiant économiseur d’énergie pour la pêche professionnelle PDF – 137.81 Ko",
+    "version": "vA15-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-118.json",
+    "markdown_path": "data/markdown/TRA-EQ-118.md",
+    "text_path": "data/text/TRA-EQ-118.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-118 vA15-1.pdf",
+      "Transport_TRA/TRA-EQ-118 vA15-1 - Parties A, B et C.pdf",
+      "Transport_TRA/TRA-EQ-118 vA15-1 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+      "Transport_TRA/TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-118 vA15-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-119",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-119 vA17-2 : Optimisation de la combustion et de la propreté des moteurs Diesel PDF – 117.4 Ko",
+    "version": "vA17-2",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-119.json",
+    "markdown_path": "data/markdown/TRA-EQ-119.md",
+    "text_path": "data/text/TRA-EQ-119.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-119 vA17-2.pdf",
+      "Transport_TRA/TRA-EQ-119 vA17-2 - Parties A, B et C.pdf",
+      "Transport_TRA/TRA-EQ-119 vA17-2 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+      "Transport_TRA/TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-119 vA17-2 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-120",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-120 vA27-1 : Hélice avec tuyère sur une unité de transport fluvial PDF – 129.19 Ko",
+    "version": "vA27-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-EQ-120.json",
+    "markdown_path": "data/markdown/TRA-EQ-120.md",
+    "text_path": "data/text/TRA-EQ-120.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",
+      "Transport_TRA/TRA-EQ-120 vA27-1 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-120 vA27-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-120 vA27-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-120 vA27-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-121",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-121 vA54-2 à compter du 01-01-2024 : Vélo à assistance électrique PDF – 138.48 Ko",
+    "version": "vA54-2",
+    "effective_date": "2024-01-01",
+    "json_path": "data/json/TRA-EQ-121.json",
+    "markdown_path": "data/markdown/TRA-EQ-121.md",
+    "text_path": "data/text/TRA-EQ-121.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",
+      "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-122",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-122 vA32-1 à compter du 31-01-2020 : « Stop & Start » pour engins automoteurs non routiers neufs PDF – 105.68 Ko",
+    "version": "vA32-1",
+    "effective_date": "2020-01-31",
+    "json_path": "data/json/TRA-EQ-122.json",
+    "markdown_path": "data/markdown/TRA-EQ-122.md",
+    "text_path": "data/text/TRA-EQ-122.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-122 vA32-1 à compter du 31-01-2020.pdf",
+      "Transport_TRA/TRA-EQ-122 vA32-1 à compter du 31-01-2020 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-122 vA32-1 à compter du 31-01-2020 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-122 vA32-1 à compter du 31-01-2020 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-122 vA32-1 à compter du 31-01-2020 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-123",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-123 v A38-2 à compter du 01-11-2021 : Simulateur de conduite PDF – 109.27 Ko",
+    "version": null,
+    "effective_date": "2021-11-01",
+    "json_path": "data/json/TRA-EQ-123.json",
+    "markdown_path": "data/markdown/TRA-EQ-123.md",
+    "text_path": "data/text/TRA-EQ-123.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-123 v A38-2 à compter du 01-11-2021_0.pdf",
+      "Transport_TRA/TRA-EQ-123 v A38-2 à compter du 01-11-2021 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-123 v A38-2 à compter du 01-11-2021 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-124",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-124 vA35-1 à compter du 03-08-2020 : Branchement électrique des navires et bateaux à quai PDF – 103.53 Ko",
+    "version": "vA35-1",
+    "effective_date": "2020-08-03",
+    "json_path": "data/json/TRA-EQ-124.json",
+    "markdown_path": "data/markdown/TRA-EQ-124.md",
+    "text_path": "data/text/TRA-EQ-124.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020.pdf",
+      "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-124 vA35-1 à compter du 03-08-2020 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-125",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-125 vA40-2 à compter du 01-04-2022 : « Stop & Start » pour véhicules ferroviaires PDF – 106.21 Ko",
+    "version": "vA40-2",
+    "effective_date": "2022-04-01",
+    "json_path": "data/json/TRA-EQ-125.json",
+    "markdown_path": "data/markdown/TRA-EQ-125.md",
+    "text_path": "data/text/TRA-EQ-125.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-125 vA40-2 à compter du 01-04-2022_0.pdf",
+      "Transport_TRA/TRA-EQ-125 vA40-2 à compter du 01-04-2022 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-125 vA40-2 à compter du 01-04-2022 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-125 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-125 vA40-2 à compter du 01-04-2022 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-126",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-126 vA43-1 à compter du 23-02-2022 : Remotorisation en propulsion électrique ou hybride d’un bateau naviguant en eaux intérieures PDF – 120.58 Ko",
+    "version": "vA43-1",
+    "effective_date": "2022-02-23",
+    "json_path": "data/json/TRA-EQ-126.json",
+    "markdown_path": "data/markdown/TRA-EQ-126.md",
+    "text_path": "data/text/TRA-EQ-126.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022.pdf",
+      "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-126 vA43-1 à compter du 23-02-2022 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-127",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-127 vA54-1 à compter du 01-10-2023 : Acquisition d’un bateau neuf à propulsion électrique ou hybride, naviguant en eaux intérieures PDF – 142.11 Ko",
+    "version": "vA54-1",
+    "effective_date": "2023-10-01",
+    "json_path": "data/json/TRA-EQ-127.json",
+    "markdown_path": "data/markdown/TRA-EQ-127.md",
+    "text_path": "data/text/TRA-EQ-127.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023_0.pdf",
+      "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Partie A_0.pdf",
+      "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-127 vA54-1 à compter du 01-10-2023 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-128",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-128 vA68-3 à compter du 28-05-2025 : Achat ou location d’un autocar ou d’un autobus électrique neuf ou réalisation d’une opération de rétrofit électrique d’autocar ou d’autobus PDF – 144.17 Ko",
+    "version": "vA68-3",
+    "effective_date": "2025-05-28",
+    "json_path": "data/json/TRA-EQ-128.json",
+    "markdown_path": "data/markdown/TRA-EQ-128.md",
+    "text_path": "data/text/TRA-EQ-128.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025.pdf",
+      "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-128 vA68-3 à compter du 28-05-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-128 vA68-3 Feuille récapitulative_0.xlsx"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-129",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 : Achat ou location d’un véhicule lourd électrique neuf de transport de marchandises ou issu d’une opération de rétrofit électrique PDF – 194.59 Ko",
+    "version": "vA73-3",
+    "effective_date": "2025-11-01",
+    "json_path": "data/json/TRA-EQ-129.json",
+    "markdown_path": "data/markdown/TRA-EQ-129.md",
+    "text_path": "data/text/TRA-EQ-129.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-129 vA73-3 Feuille récapitulative.xlsx"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-130",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-130 vA73-3 à compter du 01-09-2025 : Achat ou location d’un quadricycle électrique neuf PDF – 131.3 Ko",
+    "version": "vA73-3",
+    "effective_date": "2025-09-01",
+    "json_path": "data/json/TRA-EQ-130.json",
+    "markdown_path": "data/markdown/TRA-EQ-130.md",
+    "text_path": "data/text/TRA-EQ-130.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-130 vA73-3 à compter du 01-09-2025.pdf",
+      "Transport_TRA/TRA-EQ-130 vA73-3 à compter du 01-09-2025 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-130 vA73-3 à compter du 01-09-2025 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-130 vA73-3 à compter du 01-09-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-EQ-130 vA73-3 à compter du 01-09-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-130 vA73-3 Feuille récapitulative.xls"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-131",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 : Achat ou location, par une personne morale, de vélos-cargos neufs ou reconditionnés PDF – 111.41 Ko",
+    "version": "vA73-2",
+    "effective_date": "2025-08-23",
+    "json_path": "data/json/TRA-EQ-131.json",
+    "markdown_path": "data/markdown/TRA-EQ-131.md",
+    "text_path": "data/text/TRA-EQ-131.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Annexe 2 à compter du 23-08-2025.pdf",
+      "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-EQ-131 vA73-2 Feuille récapitulative_0.xlsx"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-EQ-132",
+    "sector": "transport",
+    "family": "EQ",
+    "title": "TRA-EQ-132 vA65-1 à compter du 01-01-2025 : Appareil de mesure, d’analyse et d’optimisation de la consommation de carburant d’un navire de pêche PDF – 244.94 Ko",
+    "version": "vA65-1",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/TRA-EQ-132.json",
+    "markdown_path": "data/markdown/TRA-EQ-132.md",
+    "text_path": "data/text/TRA-EQ-132.txt",
+    "source_files": [
+      "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025_0.pdf",
+      "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A.pdf",
+      "Transport_TRA/TRA-EQ-132 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-101",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-101 vA14-1 : Formation d’un chauffeur de transport à la conduite économe PDF – 109.64 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-101.json",
+    "markdown_path": "data/markdown/TRA-SE-101.md",
+    "text_path": "data/text/TRA-SE-101.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-101 vA14-1.pdf",
+      "Transport_TRA/TRA-SE-101 vA14-1 - Parties A, B et C.pdf",
+      "Transport_TRA/TRA-SE-101 vA14-1 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+      "Transport_TRA/TRA-SE-101 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-101 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-102",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-102 vA14-1 : Formation d’un chauffeur de véhicule léger à la conduite économe PDF – 110.35 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-102.json",
+    "markdown_path": "data/markdown/TRA-SE-102.md",
+    "text_path": "data/text/TRA-SE-102.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-102 vA14-1.pdf",
+      "Transport_TRA/TRA-SE-102 vA14-1 - Parties A, B et C.pdf",
+      "Transport_TRA/TRA-SE-102 vA14-1 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+      "Transport_TRA/TRA-SE-102 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-102 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-104",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-104 vA14-1 : Station de gonflage des pneumatiques PDF – 133.96 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-104.json",
+    "markdown_path": "data/markdown/TRA-SE-104.md",
+    "text_path": "data/text/TRA-SE-104.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-104 vA14-1.pdf",
+      "Transport_TRA/TRA-SE-104 vA14-1 - Partie A.pdf",
+      "Transport_TRA/TRA-SE-104 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-104 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-104 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-105",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-105 vA14-1 : Recreusage des pneumatiques PDF – 154.71 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-105.json",
+    "markdown_path": "data/markdown/TRA-SE-105.md",
+    "text_path": "data/text/TRA-SE-105.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-105 vA14-1.pdf",
+      "Transport_TRA/TRA-SE-105 vA14-1 - Partie A.pdf",
+      "Transport_TRA/TRA-SE-105 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-105 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-105 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-106",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-106 vA19-2 : Mesure et optimisation des consommations de carburant pour une unité de transport fluvial PDF – 133.89 Ko",
+    "version": "vA19-2",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-106.json",
+    "markdown_path": "data/markdown/TRA-SE-106.md",
+    "text_path": "data/text/TRA-SE-106.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-106 vA19-2_0.pdf",
+      "Transport_TRA/TRA-SE-106 vA19-2 - Partie A.pdf",
+      "Transport_TRA/TRA-SE-106 vA19-2 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-106 vA19-2 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-106 vA19-2 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-107",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-107 vA19-1 : Carénage sur une unité de transport fluvial PDF – 131.18 Ko",
+    "version": "vA19-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-107.json",
+    "markdown_path": "data/markdown/TRA-SE-107.md",
+    "text_path": "data/text/TRA-SE-107.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-107 vA19-1.pdf",
+      "Transport_TRA/TRA-SE-107 vA19-1 - Partie A.pdf",
+      "Transport_TRA/TRA-SE-107 vA19-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-107 vA19-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-107 vA19-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-108",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-108 vA14-1 : Gestion externalisée de la globalité du poste pneumatique (Véhicules de transport de marchandises) PDF – 149.37 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-108.json",
+    "markdown_path": "data/markdown/TRA-SE-108.md",
+    "text_path": "data/text/TRA-SE-108.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-108 vA14-1.pdf",
+      "Transport_TRA/TRA-SE-108 vA14-1 - Partie A.pdf",
+      "Transport_TRA/TRA-SE-108 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-108 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-108 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-109",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-109 vA14-1 : Gestion externalisée de la globalité du poste pneumatique (Véhicules de transport de personnes) PDF – 153.56 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-109.json",
+    "markdown_path": "data/markdown/TRA-SE-109.md",
+    "text_path": "data/text/TRA-SE-109.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-109 vA14-1_0.pdf",
+      "Transport_TRA/TRA-SE-109 vA14-1 - Partie A.pdf",
+      "Transport_TRA/TRA-SE-109 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-109 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-109 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-110",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-110 vA14-1 : Gestion optimisée de la globalité du poste pneumatique (Véhicules de transport de marchandises) PDF – 140 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-110.json",
+    "markdown_path": "data/markdown/TRA-SE-110.md",
+    "text_path": "data/text/TRA-SE-110.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-110 vA14-1.pdf",
+      "Transport_TRA/TRA-SE-110 vA14-1 - Partie A.pdf",
+      "Transport_TRA/TRA-SE-110 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-110 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-110 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-111",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-111 vA14-1 : Gestion optimisée de la globalité du poste pneumatique (Véhicules de transport de personnes) PDF – 105.85 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-111.json",
+    "markdown_path": "data/markdown/TRA-SE-111.md",
+    "text_path": "data/text/TRA-SE-111.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-111 vA14-1.pdf",
+      "Transport_TRA/TRA-SE-111 vA14-1 - Partie A.pdf",
+      "Transport_TRA/TRA-SE-111 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-111 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-111 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-112",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-112 vA15-1 : Service d’autopartage en boucle PDF – 101.94 Ko",
+    "version": "vA15-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-112.json",
+    "markdown_path": "data/markdown/TRA-SE-112.md",
+    "text_path": "data/text/TRA-SE-112.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-112 vA15-1.pdf",
+      "Transport_TRA/TRA-SE-112 vA15-1 - Parties A et B.pdf",
+      "Transport_TRA/TRA-SE-112 vA15-1 - Partie A à compter du 01-07-2026 - Partie B.pdf",
+      "Transport_TRA/TRA-SE-112 vA15-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-112 vA15-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-113",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-113 vA14-1 : Suivi des consommations de carburants grâce à des cartes privatives PDF – 100.08 Ko",
+    "version": "vA14-1",
+    "effective_date": null,
+    "json_path": "data/json/TRA-SE-113.json",
+    "markdown_path": "data/markdown/TRA-SE-113.md",
+    "text_path": "data/text/TRA-SE-113.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-113 vA14-1.pdf",
+      "Transport_TRA/TRA-SE-113 vA14-1 - Parties A, B et C.pdf",
+      "Transport_TRA/TRA-SE-113 vA14-1 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+      "Transport_TRA/TRA-SE-113 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-113 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-116",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-116 vA65-2 à compter du 01-01-2025 : Fret ferroviaire PDF – 122.64 Ko",
+    "version": "vA65-2",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/TRA-SE-116.json",
+    "markdown_path": "data/markdown/TRA-SE-116.md",
+    "text_path": "data/text/TRA-SE-116.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025_0.pdf",
+      "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Partie A.pdf",
+      "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-116 vA65-2 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-116 vA65-2 Feuille récapitulative_0.xlsx"
+    ],
+    "needs_human_review": false
+  },
+  {
+    "code": "TRA-SE-117",
+    "sector": "transport",
+    "family": "SE",
+    "title": "TRA-SE-117 vA65-1 à compter du 01-01-2025 : Fret fluvial PDF – 177.34 Ko",
+    "version": "vA65-1",
+    "effective_date": "2025-01-01",
+    "json_path": "data/json/TRA-SE-117.json",
+    "markdown_path": "data/markdown/TRA-SE-117.md",
+    "text_path": "data/text/TRA-SE-117.txt",
+    "source_files": [
+      "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",
+      "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025 - Partie A.pdf",
+      "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+      "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "Transport_TRA/TRA-SE-117 vA65-1 Feuille récapitulative_0.xlsx"
+    ],
+    "needs_human_review": false
+  }
+]

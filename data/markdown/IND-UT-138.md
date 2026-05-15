@@ -1,0 +1,229 @@
+# IND-UT-138 - IND-UT-138 vA62-1 à compter du 01-01-2025 : Conversion de chaleur fatale en électricité ou en air comprimé PDF – 228.86 Ko
+- Secteur: industrie
+- Famille: UT
+- Version: vA62-1
+- Date d'application: 2025-01-01
+
+## Documents sources
+- `Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025_0.pdf`
+- `Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A.pdf`
+- `Industrie_IND/IND-UT-138 vA62-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- Ne sont pas éligibles à la présente fiche :
+- 3. Conditions pour la délivrance de certificats
+- consommations des auxiliaires), η, respectant la condition suivante :
+
+## Exigences techniques detectees
+- ii. Le rendement brut de la machine thermodynamique (ne prenant pas en compte les auxiliaires) η (%) :
+- La machine thermodynamique installée présente un rendement énergétique brut (ne prenant pas en compte les
+- - le rendement brut du système installé est supérieur ou égal au rendement brut, η, issu de l’étude de
+- - η est le rendement brut estimé de la machine thermodynamique (en %) ;
+
+## Pieces justificatives detectees
+- d) Evaluation de l’impact économique de l’opération sur la facture énergétique du bénéficiaire.
+- Le bénéficiaire s’engage à transmettre ses données à des fins de traitements statistiques et de contrôle, ou sur
+- Le document justificatif spécifique à l’opération est l’étude de dimensionnement susmentionnée. Cette étude est
+- tenue à disposition par le bénéficiaire en cas de contrôle.
+- La preuve de la réalisation de l’opération mentionne la mise en place d'un système de récupération de chaleur fatale
+- À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques et
+- l’opération. Elle est complétée par un document issu du fabricant indiquant que les équipements de marques et
+- d’énergie archive les preuves des dates d’engagement et d’achèvement des deux installations.
+
+## Formules / calcul detectes
+- v. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;
+- 5. Montant de certificats en kWh cumac
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° IND-UT-138
+
+Conversion de chaleur fatale en électricité ou en air comprimé
+
+
+1. Secteur d’application
+Industrie.
+
+2. Dénomination
+Mise en place d'un système de récupération de chaleur fatale sur les effluents d'un équipement industriel ou d'un
+ensemble d'équipements industriels (fours, sécheurs, groupes frigorifiques, traitements humides, traitements
+thermiques, etc.) pour conversion en électricité ou en air comprimé autoconsommés sur site, via un échangeur
+thermique et une machine thermodynamique.
+
+La chaleur fatale est une chaleur générée par une installation qui n’en constitue pas une des finalités premières, et
+qui n’est pas récupérée. Dans le cadre de la présente fiche, est considérée comme chaleur fatale un effluent liquide
+ou gazeux répondant à la définition précédente et ayant une température de rejet supérieure à 25°C.
+
+La chaleur fatale est générée par le site industriel concerné par l’opération.
+
+Ne sont pas éligibles à la présente fiche :
+- l’installation d’un système de récupération et de conversion de chaleur fatale sur les effluents d’un équipement de
+secours ;
+- la production d’électricité ou d'air comprimé pour vente à un tiers ;
+- les installations valorisant une quantité de chaleur fatale prélevée supérieure à 16 GWh/an.
+
+La présente fiche n'est pas cumulable avec les fiches IND-BA-112, IND-UT-103, IND-UT-117, IND-UT-118, IND-
+UT-137 et IND-UT-139.
+
+La présente fiche s’applique aux opérations engagées avant le 1er janvier 2030.
+
+3. Conditions pour la délivrance de certificats
+La mise en place du système de récupération et de conversion de chaleur fatale fait l’objet d’une étude préalable de
+dimensionnement établie, datée et signée par le professionnel ou un bureau d’étude.
+
+Cette étude comporte les éléments suivants :
+
+I. Identification de l’opération
+a) Raison sociale et adresse du bénéficiaire ;
+b) Adresse du chantier si différente de l’adresse du bénéficiaire.
+
+II. Identification des équipements émetteurs de chaleur fatale et des auxiliaires
+a) Identification du ou des équipement(s) émetteur(s) de chaleur fatale concerné(s) par l'opération :
+i. Type d'équipement (ex : four, sécheur…) ;
+ii. Marque et référence ;
+iii. Durée et mode de fonctionnement annuels ;
+
+iv. Sur la base de l’historique de fonctionnement des deux dernières années a minima, ou à défaut, de
+simulations, évalue la puissance de chaleur fatale récupérable, c’est-à-dire le gisement total disponible en y
+soustrayant l’éventuelle puissance de chaleur fatale déjà récupérée avant l’opération ;
+b) Identification des équipements auxiliaires préexistants nécessaires à l’évacuation de la chaleur fatale avant
+l’opération :
+i. Type d’équipement (ventilateur, pompe) ;
+ii. Evaluation de leur consommation électrique sur la base de l’historique de fonctionnement des deux
+dernières années a minima, ou à défaut, de simulations ;
+c) Identification des équipements auxiliaires supplémentaires à installer dans le cadre de l’opération (incluant les
+éventuels auxiliaires servant au respect des textes en vigueur en matière de réglementation des dilutions sur les
+effluents en sortie de machine thermodynamique) :
+i. Type d’équipement ;
+ii. Evaluation de leur consommation électrique.
+
+III. Validation du projet et dimensionnement des équipements
+a) Validation et justification de la pertinence technique d'une valorisation de la chaleur fatale en électricité / en air
+comprimé plutôt qu'en chaleur utile ou en froid, sur la base d'une évaluation des besoins du site industriel et de son
+environnement local (sites industriels voisins, réseaux de chaleur urbains, etc.) ;
+b) Dimensionnement de l'échangeur et de la machine thermodynamique en fonction des caractéristiques des
+effluents valorisés (puissance de chaleur récupérée, gamme de température, caractéristiques physico-chimiques,
+puissance électrique absorbée par la machine thermodynamique et, selon le cas, puissance électrique produite ou
+volume d’air comprimé produit) ; dans le cas d'effluents encrassants ou corrosifs, l’étude de dimensionnement inclut
+la définition d'un plan de maintenance de l'échangeur ;
+c) Evaluation des économies d’énergie attendues en calculant :
+i. Précup (kW), la puissance thermique apportée en entrée de la machine thermodynamique, en cohérence avec
+le dimensionnement de l’échangeur et de la machine thermodynamique ;
+ii. Le rendement brut de la machine thermodynamique (ne prenant pas en compte les auxiliaires) η (%) :
+- dans le cas de la production d’électricité :
+
+η =
+Puissance électrique produite
+par la machine thermodynamique −
+Puissance électrique absorbée
+par la machine thermodynamique
+Puissance thermique absorbée
+
+
+- dans le cas de la production d’air comprimé :
+
+η =
+(
+Volume d′air
+comprimé produit [Nm3/h] × 0,15) −
+Puissance électrique absorbée
+par la machine thermodynamique
+Puissance thermique absorbée
+
+
+iii. La puissance électrique absorbée par les auxiliaires avant et après l’opération, et Pconso (kW), la variation
+de la puissance électrique absorbée par les auxiliaires avant et après l’opération ;
+iv. D (heures), la durée annuelle de fonctionnement de la machine thermodynamique, fonction du rythme de
+fonctionnement et des arrêts de maintenance des sources de chaleur, ainsi que des arrêts de maintenance du
+système de récupération de chaleur ;
+v. Calcul des économies d’énergie annuelles selon la formule suivante (kWh/an) : D x (Précup x η – Pconso) ;
+d) Evaluation de l’impact économique de l’opération sur la facture énergétique du bénéficiaire.
+
+L'installation des équipements est réalisée par un professionnel.
+
+La machine thermodynamique installée présente un rendement énergétique brut (ne prenant pas en compte les
+consommations des auxiliaires), η, respectant la condition suivante :
+
+η ≥0,1 × (1 −T°source froide
+T°chaleur en entrée
+de la machine
+ )
+
+Dans le cadre de la présente fiche, le terme « auxiliaires » désigne les pompes et/ou ventilateurs utilisés pour :
+- évacuer l’effluent porteur de chaleur fatale préalablement à l’opération ;
+- transférer tout ou partie de l’effluent porteur de chaleur fatale vers la machine thermodynamique ;
+- évacuer l’effluent porteur de la chaleur fatale résiduelle issue de la machine thermodynamique.
+
+Le système de récupération de chaleur fatale installé est tel que :
+- la puissance de chaleur récupérée nominale du système installé est supérieure ou égale à Précup issue de l’étude de
+dimensionnement ;
+- selon le cas, la puissance électrique nominale produite par le système installé est supérieure ou égale à la puissance
+électrique produite par le système issue de l’étude de dimensionnement ou le volume d’air comprimé produit par le
+système installé est supérieur ou égal à celui issu de l’étude de dimensionnement ;
+- la puissance électrique absorbée nominale du système installé (ne prenant pas en compte les auxiliaires) est
+inférieure ou égale à celle issue de l’étude de dimensionnement ;
+- le rendement brut du système installé est supérieur ou égal au rendement brut, η, issu de l’étude de
+dimensionnement ;
+- la variation de la puissance électrique absorbée par les auxiliaires induite par le système installé est inférieure ou
+égale à Pconso issue de l’étude de dimensionnement.
+
+Les équipements installés sont équipés d'un système de mesure permettant de suivre :
+- la quantité de chaleur absorbée par la machine thermodynamique ;
+- la quantité d'énergie électrique absorbée par la machine thermodynamique ;
+- la quantité d'énergie électrique absorbée par les auxiliaires ;
+- la quantité d’énergie électrique ou de volume normé d’air comprimé produite en sortie de la machine
+thermodynamique.
+
+Les données de suivi issues du système de mesure susmentionné sont archivées par le bénéficiaire sous forme de
+bilans annuels et mensuels et sont conservées pendant neuf ans à compter de la date d’achèvement de l’opération.
+Le bénéficiaire s’engage à transmettre ses données à des fins de traitements statistiques et de contrôle, ou sur
+demande de l’agence de l'environnement et de la maîtrise de l'énergie afin de contribuer à l’amélioration des
+connaissances.
+
+Le document justificatif spécifique à l’opération est l’étude de dimensionnement susmentionnée. Cette étude est
+tenue à disposition par le bénéficiaire en cas de contrôle.
+
+La preuve de la réalisation de l’opération mentionne la mise en place d'un système de récupération de chaleur fatale
+pour conversion, selon le cas, en électricité ou en air comprimé. Elle précise également :
+- la marque, la référence et la puissance de chaleur récupérée nominale (kW) du ou des échangeurs installés ;
+- la puissance électrique absorbée nominale de la machine thermodynamique hors auxiliaires (kW) ;
+- la marque, la référence et la puissance électrique absorbée nominale des auxiliaires, en distinguant les auxiliaires
+préexistants à l’opération et les auxiliaires installés dans le cadre de l’opération ;
+- selon le cas, la puissance électrique nominale produite (kW) ou le volume d’air comprimé produit (Nm3/h) par la
+machine thermodynamique installée.
+
+À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques et
+références et la marque, la référence et la puissance électrique absorbée nominale des auxiliaires préexistants à
+l’opération. Elle est complétée par un document issu du fabricant indiquant que les équipements de marques et
+références installés constituent un système de récupération et de conversion de chaleur, selon le cas, en électricité
+
+ou en air comprimé, mentionnant sa puissance de chaleur récupérée nominale (kW), sa puissance électrique absorbée
+nominale hors auxiliaires (kW) et, selon le cas, sa puissance électrique nominale produite (kW) ou le volume d’air
+comprimé produit (Nm3/h), et précisant la liste des auxiliaires devant être installés et leur puissance électrique
+nominale absorbée (kW).
+
+Dans le cas d’une machine thermodynamique modulaire mise en œuvre en deux étapes (installation initiale de faible
+puissance puis installation complémentaire pour atteindre la puissance finale), la demande de certificats
+d’économies d’énergie ne peut être déposée qu’après l’installation finale. Le demandeur de certificats d’économies
+d’énergie archive les preuves des dates d’engagement et d’achèvement des deux installations.
+
+4. Durée de vie conventionnelle
+20 ans.
+
+5. Montant de certificats en kWh cumac
+Le volume de certificats d’économies d’énergie est déterminé comme suit :
+
+14,134 x D x (Précup x η – Pconso)
+
+D, Précup, η et Pconso sont des paramètres dont les valeurs sont indiquées dans l’étude de dimensionnement :
+- D est la durée annuelle de fonctionnement (en heures) ;
+- Précup est la puissance thermique apportée par le fluide caloporteur à la machine thermodynamique (en kW
+thermique) ;
+- η est le rendement brut estimé de la machine thermodynamique (en %) ;
+- Pconso est la puissance électrique absorbée par les auxiliaires (en kW électrique).

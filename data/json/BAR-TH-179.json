@@ -1,0 +1,481 @@
+{
+  "code": "BAR-TH-179",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-179 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type air/eau PDF – 140.74 Ko",
+  "version": "vA81-2",
+  "document_version": "vA81-2",
+  "effective_date": "2026-04-30",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2026-04-30",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": true,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Seuls sont éligibles les pompes à chaleur dimensionnées pour répondre intégralement ou en partie aux besoins du",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Seuls sont éligibles les pompes à chaleur dimensionnées pour répondre intégralement ou en partie aux besoins du",
+      "confidence": "low"
+    },
+    {
+      "text": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie les PAC utilisées uniquement pour la",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie les PAC utilisées uniquement pour la",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné),",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné),",
+      "confidence": "low"
+    },
+    {
+      "text": "(pour les conditions climatiques moyennes définies par le règlement susmentionné) est à considérer ;",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "(pour les conditions climatiques moyennes définies par le règlement susmentionné) est à considérer ;",
+      "confidence": "low"
+    },
+    {
+      "text": "moyenne ou haute température et l’Etas à 55°C (pour les conditions climatiques moyennes définies par le règlement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "moyenne ou haute température et l’Etas à 55°C (pour les conditions climatiques moyennes définies par le règlement",
+      "confidence": "low"
+    },
+    {
+      "text": "(pour les conditions climatiques moyennes définies par le règlement susmentionné) est à considérer.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "(pour les conditions climatiques moyennes définies par le règlement susmentionné) est à considérer.",
+      "confidence": "low"
+    },
+    {
+      "text": "(Etas) (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "(Etas) (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon",
+      "confidence": "low"
+    },
+    {
+      "text": "commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement",
+      "confidence": "low"
+    },
+    {
+      "text": "août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée",
+      "confidence": "low"
+    },
+    {
+      "text": "commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné (soit",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné (soit",
+      "confidence": "low"
+    },
+    {
+      "text": "(pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon l’application",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "(pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon l’application",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "L’efficacité énergétique saisonnière pour le chauffage des locaux (Etas) selon le règlement (EU) n° 813/2013 de la",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière pour le chauffage des locaux (Etas) selon le règlement (EU) n° 813/2013 de la",
+      "confidence": "low"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de",
+      "confidence": "low"
+    },
+    {
+      "text": "i) la description des équipements installés au titre de la présente fiche (marque, référence, efficacité énergétique",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "i) la description des équipements installés au titre de la présente fiche (marque, référence, efficacité énergétique",
+      "confidence": "low"
+    },
+    {
+      "text": "- l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2",
+      "confidence": "low"
+    },
+    {
+      "text": "européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou",
+      "confidence": "low"
+    },
+    {
+      "text": "- l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013",
+      "confidence": "low"
+    },
+    {
+      "text": "Efficacité énergétique",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Efficacité énergétique",
+      "confidence": "low"
+    },
+    {
+      "text": "On entend par PAC différentes, des PAC relevant de classes d'efficacité énergétique saisonnière (Etas) différentes.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "On entend par PAC différentes, des PAC relevant de classes d'efficacité énergétique saisonnière (Etas) différentes.",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que :",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que :",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant kWh",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "cumac par",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumac par",
+      "confidence": "low"
+    },
+    {
+      "text": "Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la base du montant de kWh cumac par",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la base du montant de kWh cumac par",
+      "confidence": "low"
+    },
+    {
+      "text": "appartement de la PAC ayant le montant le plus faible.",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "appartement de la PAC ayant le montant le plus faible.",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-179 vA81-2 à compter du 30-04-2026",
+      "code": "BAR-TH-179",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-179 vA81-2 à compter du 30-04-2026 : Pompe à chaleur collective de type air/eau PDF – 140.74 Ko",
+      "path": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-179%20vA81-2%20%C3%A0%20compter%20du%2030-04-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-04-30",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A",
+      "code": "BAR-TH-179",
+      "document_type": "partie_a",
+      "title": "BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A PDF – 112.04 Ko",
+      "path": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-179%20vA81-2%20%C3%A0%20compter%20du%2030-04-2026%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2026-04-30",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-179",
+      "document_type": "partie_a",
+      "title": "BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026 PDF – 115.24 Ko",
+      "path": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-179%20vA81-2%20%C3%A0%20compter%20du%2030-04-2026%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-04-30",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+    "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.052295+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

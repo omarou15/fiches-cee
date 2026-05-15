@@ -1,0 +1,185 @@
+{
+  "code": "RES-CH-105",
+  "sector": "reseaux",
+  "family": "CH",
+  "title": "RES-CH-105 vA36-3 à compter du 12-10-2020 : Passage d'un réseau de chaleur en basse température PDF – 129.03 Ko",
+  "version": "vA36-3",
+  "document_version": "vA36-3",
+  "effective_date": "2020-10-12",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2020-10-12",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": true,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération est apportée par le courrier de déclaration à l’administration compétente du",
+      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération est apportée par le courrier de déclaration à l’administration compétente du",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est le descriptif des portions du réseau de chaleur existant passées",
+      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est le descriptif des portions du réseau de chaleur existant passées",
+      "confidence": "low"
+    },
+    {
+      "text": "nominal initial. Ce document est daté et signé par le bénéficiaire de l’opération et le gestionnaire de ce réseau.",
+      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "nominal initial. Ce document est daté et signé par le bénéficiaire de l’opération et le gestionnaire de ce réseau.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller",
+      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant unitaire en kWh cumac",
+      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant unitaire en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac/m",
+      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac/m",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "RES-CH-105 vA36-3 à compter du 12-10-2020_0",
+      "code": "RES-CH-105",
+      "document_type": "fiche_principale",
+      "title": "RES-CH-105 vA36-3 à compter du 12-10-2020 : Passage d'un réseau de chaleur en basse température PDF – 129.03 Ko",
+      "path": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-CH-105%20vA36-3%20%C3%A0%20compter%20du%2012-10-2020_0.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-12",
+      "metadata": {}
+    },
+    {
+      "document_id": "RES-CH-105 vA36-3 à compter du 12-10-2020 - Parties A, B et C",
+      "code": "RES-CH-105",
+      "document_type": "fiche_principale",
+      "title": "RES-CH-105 vA36-3 à compter du 12-10-2020 - Parties A, B et C PDF – 129.23 Ko",
+      "path": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020 - Parties A, B et C.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-CH-105%20vA36-3%20%C3%A0%20compter%20du%2012-10-2020%20-%20Parties%20A%2C%20B%20et%20C.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-12",
+      "metadata": {}
+    },
+    {
+      "document_id": "RES-CH-105 vA36-3 à compter du 12-10-2020 - Partie A à compter du 01-07-2026 - Parties B et C",
+      "code": "RES-CH-105",
+      "document_type": "partie_a",
+      "title": "RES-CH-105 vA36-3 à compter du 12-10-2020 - Partie A à compter du 01-07-2026 - Parties B et C PDF – 131.74 Ko",
+      "path": "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020 - Partie A à compter du 01-07-2026 - Parties B et C.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-CH-105%20vA36-3%20%C3%A0%20compter%20du%2012-10-2020%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026%20-%20Parties%20B%20et%20C.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-12",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020_0.pdf",
+    "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020 - Parties A, B et C.pdf",
+    "Reseaux_RES/RES-CH-105 vA36-3 à compter du 12-10-2020 - Partie A à compter du 01-07-2026 - Parties B et C.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.665869+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "code": "BAR-TH-173",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-173 vA69-2 à compter du 01-07-2025 : Système de régulation par programmation horaire pièce par pièce PDF – 154.48 Ko",
+  "version": "vA69-2",
+  "document_version": "vA69-2",
+  "effective_date": "2025-07-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-07-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": true,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Les logements éligibles à la présente fiche sont ceux disposant d’au moins 2 émetteurs de chaleur pilotables faisant",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Les logements éligibles à la présente fiche sont ceux disposant d’au moins 2 émetteurs de chaleur pilotables faisant",
+      "confidence": "low"
+    },
+    {
+      "text": "L’installation de têtes thermostatiques seules n’est pas éligible au titre de la présente fiche.",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "L’installation de têtes thermostatiques seules n’est pas éligible au titre de la présente fiche.",
+      "confidence": "low"
+    },
+    {
+      "text": "Les systèmes de chauffage « mixte » (hydraulique et électrique) sont éligibles à la présente fiche si le système de",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Les systèmes de chauffage « mixte » (hydraulique et électrique) sont éligibles à la présente fiche si le système de",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "confort, économie, hors-gel et arrêt) selon les normes EN 12098-1 et EN 12098-3 dans toutes les pièces équipées",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "confort, économie, hors-gel et arrêt) selon les normes EN 12098-1 et EN 12098-3 dans toutes les pièces équipées",
+      "confidence": "low"
+    },
+    {
+      "text": "d’au plus de classe C selon la norme NF EN ISO 52120-1 pour les bâtiments résidentiels.",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "d’au plus de classe C selon la norme NF EN ISO 52120-1 pour les bâtiments résidentiels.",
+      "confidence": "low"
+    },
+    {
+      "text": "On entend par classe C au sens de la norme NF EN ISO 52120-1 une régulation individuelle par pièce au moyen",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "On entend par classe C au sens de la norme NF EN ISO 52120-1 une régulation individuelle par pièce au moyen",
+      "confidence": "low"
+    },
+    {
+      "text": "Le dispositif de régulation répond aux fonctionnalités de la classe B ou de la classe A de la norme NF EN ISO",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le dispositif de régulation répond aux fonctionnalités de la classe B ou de la classe A de la norme NF EN ISO",
+      "confidence": "low"
+    },
+    {
+      "text": "On entend par classe B au sens de la norme NF EN ISO 52120-1 une régulation modulante individuelle par pièce",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "On entend par classe B au sens de la norme NF EN ISO 52120-1 une régulation modulante individuelle par pièce",
+      "confidence": "low"
+    },
+    {
+      "text": "par classe A au sens de la norme NF EN ISO 52120-1, une régulation modulante individuelle par pièce du signal de",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "par classe A au sens de la norme NF EN ISO 52120-1, une régulation modulante individuelle par pièce du signal de",
+      "confidence": "low"
+    },
+    {
+      "text": "classe du régulateur de température n’est pas dégradée entre l’état existant et l’état rénové (définis conformément",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "classe du régulateur de température n’est pas dégradée entre l’état existant et l’état rénové (définis conformément",
+      "confidence": "low"
+    },
+    {
+      "text": "- de la certification NF performance catégories 3 étoiles œil.",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- de la certification NF performance catégories 3 étoiles œil.",
+      "confidence": "low"
+    },
+    {
+      "text": "chaleur par pièce chauffée, assurant les fonctions de régulation de la classe B ou A de la norme NF EN ISO 52120-",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "chaleur par pièce chauffée, assurant les fonctions de régulation de la classe B ou A de la norme NF EN ISO 52120-",
+      "confidence": "low"
+    },
+    {
+      "text": "fabricant indiquant que le système de marque et référence installé est un système de régulation de classe B ou A au",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "fabricant indiquant que le système de marque et référence installé est un système de régulation de classe B ou A au",
+      "confidence": "low"
+    },
+    {
+      "text": "sens de la norme NF EN ISO 52120-1 pour les bâtiments résidentiels, comprenant un appareil central et assurant les",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "sens de la norme NF EN ISO 52120-1 pour les bâtiments résidentiels, comprenant un appareil central et assurant les",
+      "confidence": "low"
+    },
+    {
+      "text": "fiche : la déclaration de conformité UE et la certification NF Electricité-performance catégorie 3 étoiles œil de ces",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "fiche : la déclaration de conformité UE et la certification NF Electricité-performance catégorie 3 étoiles œil de ces",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "Un délai minimal de sept jours francs est respecté entre la date d’acceptation du devis et la date de début des travaux",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Un délai minimal de sept jours francs est respecté entre la date d’acceptation du devis et la date de début des travaux",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l’opération mentionne :",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de la réalisation mentionne la mise en place d’un système avec ses marques et références, le",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de la réalisation mentionne la mise en place d’un système avec ses marques et références, le",
+      "confidence": "low"
+    },
+    {
+      "text": "nombre d’émetteurs de chaleur équipés du dispositif de régulation. Elle est accompagnée d’un document issu du",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "nombre d’émetteurs de chaleur équipés du dispositif de régulation. Elle est accompagnée d’un document issu du",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    },
+    {
+      "text": "- un document du fournisseur d'énergie du bénéficiaire faisant figurer le nom du bénéficiaire, l'adresse du",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- un document du fournisseur d'énergie du bénéficiaire faisant figurer le nom du bénéficiaire, l'adresse du",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Forfait (kWhc)",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Forfait (kWhc)",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone Climatique",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone Climatique",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-173 vA69-2 à compter du 01-07-2025",
+      "code": "BAR-TH-173",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-173 vA69-2 à compter du 01-07-2025 : Système de régulation par programmation horaire pièce par pièce PDF – 154.48 Ko",
+      "path": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-173%20vA69-2%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A",
+      "code": "BAR-TH-173",
+      "document_type": "partie_a",
+      "title": "BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A PDF – 126.75 Ko",
+      "path": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-173%20vA69-2%20%C3%A0%20compter%20du%2001-07-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-173",
+      "document_type": "partie_a",
+      "title": "BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A à compter du 01-07-2026 PDF – 129.34 Ko",
+      "path": "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-173%20vA69-2%20%C3%A0%20compter%20du%2001-07-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025.pdf",
+    "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-173 vA69-2 à compter du 01-07-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.831670+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "code": "BAT-EQ-134",
+  "sector": "tertiaire",
+  "family": "EQ",
+  "title": "BAT-EQ-134 vA58-2 à compter du 01-04-2024 : Meuble frigorifique de vente performant avec groupe de production de froid intégré PDF – 138.56 Ko",
+  "version": "vA58-2",
+  "document_version": "vA58-2",
+  "effective_date": "2024-04-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2024-04-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "autres que le respect de la chaîne du froid, ne sont pas éligibles à la présente fiche.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "autres que le respect de la chaîne du froid, ne sont pas éligibles à la présente fiche.",
+      "confidence": "low"
+    },
+    {
+      "text": "Les meubles bi-tempérés ne sont pas éligibles à la présente fiche.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Les meubles bi-tempérés ne sont pas éligibles à la présente fiche.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "une classe d’efficacité énergétique D évaluée conformément au règlement délégué (UE) 2019/2018 de la",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "une classe d’efficacité énergétique D évaluée conformément au règlement délégué (UE) 2019/2018 de la",
+      "confidence": "low"
+    },
+    {
+      "text": "accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre",
+      "confidence": "low"
+    },
+    {
+      "text": "DAKKS, etc.), atteste des performances énergétiques des produits installés selon la norme ISO 23953-2 (2023 ou",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "DAKKS, etc.), atteste des performances énergétiques des produits installés selon la norme ISO 23953-2 (2023 ou",
+      "confidence": "low"
+    },
+    {
+      "text": "postérieure) pour une classe d’ambiance 3 (à 25°C et 60 % d’humidité relative). Pour ce faire, l’organisme",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "postérieure) pour une classe d’ambiance 3 (à 25°C et 60 % d’humidité relative). Pour ce faire, l’organisme",
+      "confidence": "low"
+    },
+    {
+      "text": "certificateur s’appuie sur un laboratoire d’essais accrédité selon la norme NF EN ISO/IEC 17025.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "certificateur s’appuie sur un laboratoire d’essais accrédité selon la norme NF EN ISO/IEC 17025.",
+      "confidence": "low"
+    },
+    {
+      "text": "horizontal) et la classe d’efficacité énergétique évaluée conformément au règlement délégué (UE) 2019/2018 de la",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "horizontal) et la classe d’efficacité énergétique évaluée conformément au règlement délégué (UE) 2019/2018 de la",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour la mise en place d’un meuble frigorifique de vente de classe énergétique D :",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour la mise en place d’un meuble frigorifique de vente de classe énergétique D :",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour la mise en place d’un meuble frigorifique de vente de classe énergétique C :",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour la mise en place d’un meuble frigorifique de vente de classe énergétique C :",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour la mise en place d’un meuble frigorifique de vente de classe énergétique B :",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour la mise en place d’un meuble frigorifique de vente de classe énergétique B :",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour la mise en place d’un meuble frigorifique de vente de classe énergétique A :",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour la mise en place d’un meuble frigorifique de vente de classe énergétique A :",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne les marques et références du ou des produits installés et, pour une",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne les marques et références du ou des produits installés et, pour une",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération, issu d’un organisme établi dans l'Espace économique européen et",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération, issu d’un organisme établi dans l'Espace économique européen et",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que l’équipement de marque et référence installé est un meuble frigorifique de vente équipé",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que l’équipement de marque et référence installé est un meuble frigorifique de vente équipé",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "cumac par ml installé",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumac par ml installé",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "cumac par ml installé",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumac par ml installé",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "cumac par ml installé",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumac par ml installé",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "cumac par ml installé",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumac par ml installé",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-EQ-134 vA58-2 à compter du 01-04-2024_1",
+      "code": "BAT-EQ-134",
+      "document_type": "fiche_principale",
+      "title": "BAT-EQ-134 vA58-2 à compter du 01-04-2024 : Meuble frigorifique de vente performant avec groupe de production de froid intégré PDF – 138.56 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-134%20vA58-2%20%C3%A0%20compter%20du%2001-04-2024_1.pdf",
+      "format": "pdf",
+      "effective_date": "2024-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A",
+      "code": "BAT-EQ-134",
+      "document_type": "partie_a",
+      "title": "BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A PDF – 116.74 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-134%20vA58-2%20%C3%A0%20compter%20du%2001-04-2024%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2024-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A à compter du 01-07-2026",
+      "code": "BAT-EQ-134",
+      "document_type": "partie_a",
+      "title": "BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A à compter du 01-07-2026 PDF – 113.83 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-134%20vA58-2%20%C3%A0%20compter%20du%2001-04-2024%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2024-04-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024_1.pdf",
+    "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-EQ-134 vA58-2 à compter du 01-04-2024 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.534241+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

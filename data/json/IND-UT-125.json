@@ -1,0 +1,282 @@
+{
+  "code": "IND-UT-125",
+  "sector": "industrie",
+  "family": "UT",
+  "title": "IND-UT-125 v A14-1 : Traitement d’eau performant sur chaudière de production de vapeur PDF – 150.62 Ko",
+  "version": null,
+  "document_version": null,
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": true
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": true,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "La mise en place d’un traitement d’eau performant sur une chaudière de secours n’est pas éligible à l’opération.",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "La mise en place d’un traitement d’eau performant sur une chaudière de secours n’est pas éligible à l’opération.",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place d’un traitement d'eau par osmose inverse ou",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d’un traitement d'eau par osmose inverse ou",
+      "confidence": "low"
+    },
+    {
+      "text": "À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'un équipement avec ses marque et",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "À défaut, la preuve de réalisation de l'opération mentionne la mise en place d'un équipement avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence",
+      "confidence": "low"
+    },
+    {
+      "text": "indiquée sur un document issu du fabricant. Elle est définie par l’article R.224-20 du code de l’environnement",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "indiquée sur un document issu du fabricant. Elle est définie par l’article R.224-20 du code de l’environnement",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Le montant de certificats d’économies d’énergie dépend de la zone géographique dans laquelle se situe l’installation.",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le montant de certificats d’économies d’énergie dépend de la zone géographique dans laquelle se situe l’installation.",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par kW selon la",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par kW selon la",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Le montant de certificats d’économies d’énergie dépend de la zone géographique dans laquelle se situe l’installation.",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Le montant de certificats d’économies d’énergie dépend de la zone géographique dans laquelle se situe l’installation.",
+      "confidence": "low"
+    },
+    {
+      "text": "Quatre zones sont définies et correspondent aux listes de départements suivantes :",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Quatre zones sont définies et correspondent aux listes de départements suivantes :",
+      "confidence": "low"
+    },
+    {
+      "text": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,",
+      "confidence": "low"
+    },
+    {
+      "text": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,",
+      "confidence": "low"
+    },
+    {
+      "text": "- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91.",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91.",
+      "confidence": "low"
+    },
+    {
+      "text": "zone géographique d’installation de la",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "zone géographique d’installation de la",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone A",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone A",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone B",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone B",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone C",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone C",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone D",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone D",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Industrie_IND/IND-UT-125 v A14-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "IND-UT-125 v A14-1",
+      "code": "IND-UT-125",
+      "document_type": "fiche_principale",
+      "title": "IND-UT-125 v A14-1 : Traitement d’eau performant sur chaudière de production de vapeur PDF – 150.62 Ko",
+      "path": "Industrie_IND/IND-UT-125 v A14-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-125%20v%20A14-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-125 v A14-1 - Partie A",
+      "code": "IND-UT-125",
+      "document_type": "partie_a",
+      "title": "IND-UT-125 v A14-1 - Partie A PDF – 113.71 Ko",
+      "path": "Industrie_IND/IND-UT-125 v A14-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-125%20v%20A14-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-125 v A14-1 - Partie A à compter du 01-07-2026",
+      "code": "IND-UT-125",
+      "document_type": "partie_a",
+      "title": "IND-UT-125 v A14-1 - Partie A à compter du 01-07-2026 PDF – 116.4 Ko",
+      "path": "Industrie_IND/IND-UT-125 v A14-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-125%20v%20A14-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Industrie_IND/IND-UT-125 v A14-1.pdf",
+    "Industrie_IND/IND-UT-125 v A14-1 - Partie A.pdf",
+    "Industrie_IND/IND-UT-125 v A14-1 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.289875+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

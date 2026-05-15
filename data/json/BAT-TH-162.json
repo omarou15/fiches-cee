@@ -1,0 +1,569 @@
+{
+  "code": "BAT-TH-162",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-162 vA81-2 à compter du 30-04-2026 : Système géothermique PDF – 221.85 Ko",
+  "version": "vA81-2",
+  "document_version": "vA81-2",
+  "effective_date": "2026-04-30",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2026-04-30",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": true,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "totale de 30 kW mesurée dans les conditions de performance nominale du mode chauffage basse température",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "totale de 30 kW mesurée dans les conditions de performance nominale du mode chauffage basse température",
+      "confidence": "low"
+    },
+    {
+      "text": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie les systèmes géothermiques installés",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie les systèmes géothermiques installés",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement) déterminée selon",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement) déterminée selon",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les pompes à chaleur réputées d’application basse température, l’Etas à 35°C (pour les conditions climatiques",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Pour les pompes à chaleur réputées d’application basse température, l’Etas à 35°C (pour les conditions climatiques",
+      "confidence": "low"
+    },
+    {
+      "text": "d’application moyenne ou haute température, l’Etas à 55°C (pour les conditions climatiques moyennes définies par",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "d’application moyenne ou haute température, l’Etas à 55°C (pour les conditions climatiques moyennes définies par",
+      "confidence": "low"
+    },
+    {
+      "text": "conditions de performance nominales de la norme EN 14511-2 soit régime de température 0/-3°C et +30 °C / +35 °C,",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "conditions de performance nominales de la norme EN 14511-2 soit régime de température 0/-3°C et +30 °C / +35 °C,",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour une pompe à chaleur eau/eau, le coefficient de performance (COP) mesuré conformément aux conditions de",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Pour une pompe à chaleur eau/eau, le coefficient de performance (COP) mesuré conformément aux conditions de",
+      "confidence": "low"
+    },
+    {
+      "text": "conformément aux conditions de performance nominales de la norme EN 14511 soit en régimes de températures",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "conformément aux conditions de performance nominales de la norme EN 14511 soit en régimes de températures",
+      "confidence": "low"
+    },
+    {
+      "text": "(Etas) (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "(Etas) (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon",
+      "confidence": "low"
+    },
+    {
+      "text": "conditions climatiques moyennes définies par ce règlement (soit Prated dans les conditions",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "conditions climatiques moyennes définies par ce règlement (soit Prated dans les conditions",
+      "confidence": "low"
+    },
+    {
+      "text": "nominale mesurée aux conditions de performance nominale de la norme EN 14511-2 :",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "nominale mesurée aux conditions de performance nominale de la norme EN 14511-2 :",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "totale de 30 kW mesurée dans les conditions de performance nominale du mode chauffage basse température",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "totale de 30 kW mesurée dans les conditions de performance nominale du mode chauffage basse température",
+      "confidence": "low"
+    },
+    {
+      "text": "prévues par la norme NF EN 14511-2 (soit en régime de température 10/7°C et 30/35°C pour les pompes à chaleur",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "prévues par la norme NF EN 14511-2 (soit en régime de température 10/7°C et 30/35°C pour les pompes à chaleur",
+      "confidence": "low"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière (Etas) pour le chauffage des locaux selon le règlement (EU) n° 813/2013 de la",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière (Etas) pour le chauffage des locaux selon le règlement (EU) n° 813/2013 de la",
+      "confidence": "low"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour une pompe à chaleur eau glycolée/eau, le coefficient de performance (COP) mesuré conformément aux",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour une pompe à chaleur eau glycolée/eau, le coefficient de performance (COP) mesuré conformément aux",
+      "confidence": "low"
+    },
+    {
+      "text": "conditions de performance nominales de la norme EN 14511-2 soit régime de température 0/-3°C et +30 °C / +35 °C,",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "conditions de performance nominales de la norme EN 14511-2 soit régime de température 0/-3°C et +30 °C / +35 °C,",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour une pompe à chaleur eau/eau, le coefficient de performance (COP) mesuré conformément aux conditions de",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour une pompe à chaleur eau/eau, le coefficient de performance (COP) mesuré conformément aux conditions de",
+      "confidence": "low"
+    },
+    {
+      "text": "performance nominales de la norme EN 14511-2 soit en régime de température +10 °C / +7 °C et +30 °C / +35 °C,",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "performance nominales de la norme EN 14511-2 soit en régime de température +10 °C / +7 °C et +30 °C / +35 °C,",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les installations produisant du rafraichissement actif, le coefficient de performance frigorifique (EER), mesuré",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour les installations produisant du rafraichissement actif, le coefficient de performance frigorifique (EER), mesuré",
+      "confidence": "low"
+    },
+    {
+      "text": "conformément aux conditions de performance nominales de la norme EN 14511 soit en régimes de températures",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "conformément aux conditions de performance nominales de la norme EN 14511 soit en régimes de températures",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les installations produisant du froid par geocooling, le coefficient de performance annuel froid (SEER) est",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour les installations produisant du froid par geocooling, le coefficient de performance annuel froid (SEER) est",
+      "confidence": "low"
+    },
+    {
+      "text": "i) la description des équipements installés au titre de la présente fiche (marque, référence, efficacité énergétique",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "i) la description des équipements installés au titre de la présente fiche (marque, référence, efficacité énergétique",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation mentionne :",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’une ou de plusieurs pompe(s) à chaleur",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’une ou de plusieurs pompe(s) à chaleur",
+      "confidence": "low"
+    },
+    {
+      "text": "associé à un système géothermique avec ses marques et références et elle est complétée par un document issu du",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "associé à un système géothermique avec ses marques et références et elle est complétée par un document issu du",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique :",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique :",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l'opération sont :",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l'opération sont :",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "Pour une pompe à chaleur eau glycolée/eau, le coefficient de performance (COP) mesuré conformément aux",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Pour une pompe à chaleur eau glycolée/eau, le coefficient de performance (COP) mesuré conformément aux",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Pour une pompe à chaleur eau glycolée/eau, le coefficient de performance (COP) mesuré conformément aux",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour une pompe à chaleur eau/eau, le coefficient de performance (COP) mesuré conformément aux conditions de",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Pour une pompe à chaleur eau/eau, le coefficient de performance (COP) mesuré conformément aux conditions de",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les installations produisant du rafraichissement actif, le coefficient de performance frigorifique (EER), mesuré",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Pour les installations produisant du rafraichissement actif, le coefficient de performance frigorifique (EER), mesuré",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les installations produisant du froid par geocooling, le coefficient de performance annuel froid (SEER) est",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Pour les installations produisant du froid par geocooling, le coefficient de performance annuel froid (SEER) est",
+      "confidence": "low"
+    },
+    {
+      "text": "+10 °C / +7 °C et +30 °C / +35 °C pour les PAC eau/eau), éventuellement le coefficient de performance",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "+10 °C / +7 °C et +30 °C / +35 °C pour les PAC eau/eau), éventuellement le coefficient de performance",
+      "confidence": "low"
+    },
+    {
+      "text": "température +10 °C / +7 °C et +30 °C / +35 °C pour les PAC eau/eau), éventuellement le coefficient de",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "température +10 °C / +7 °C et +30 °C / +35 °C pour les PAC eau/eau), éventuellement le coefficient de",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant kWh cumac par",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant kWh cumac par",
+      "confidence": "low"
+    },
+    {
+      "text": "Coefficient de",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Coefficient de",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant kWh cumac par",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant kWh cumac par",
+      "confidence": "low"
+    },
+    {
+      "text": "nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient",
+      "confidence": "low"
+    },
+    {
+      "text": "de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "de performance (COP) différentes. Dans ce cas, le calcul du montant de kWh cumac de l’opération se fait sur la",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-162 vA81-2 à compter du 30-04-2026",
+      "code": "BAT-TH-162",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-162 vA81-2 à compter du 30-04-2026 : Système géothermique PDF – 221.85 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-162%20vA81-2%20%C3%A0%20compter%20du%2030-04-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-04-30",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-162 vA81-2 à compter du 30-04-2026 - Partie A",
+      "code": "BAT-TH-162",
+      "document_type": "partie_a",
+      "title": "BAT-TH-162 vA81-2 à compter du 30-04-2026 - Partie A PDF – 159.87 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-162%20vA81-2%20%C3%A0%20compter%20du%2030-04-2026%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2026-04-30",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-162 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026",
+      "code": "BAT-TH-162",
+      "document_type": "partie_a",
+      "title": "BAT-TH-162 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026 PDF – 161.96 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-162%20vA81-2%20%C3%A0%20compter%20du%2030-04-2026%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-04-30",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf",
+    "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.209527+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "code": "BAR-TH-123",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-123 vA54-2 à compter du 01-01-2024 : Optimiseur de relance en chauffage collectif PDF – 113.1 Ko",
+  "version": "vA54-2",
+  "document_version": "vA54-2",
+  "effective_date": "2024-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2024-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": true,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "système de chauffage, au sens de la norme NF EN 12098-1 « Performance énergétique des bâtiments - Régulation",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "système de chauffage, au sens de la norme NF EN 12098-1 « Performance énergétique des bâtiments - Régulation",
+      "confidence": "low"
+    },
+    {
+      "text": "été/hiver » au sens de la norme NF EN 12098-1.",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "été/hiver » au sens de la norme NF EN 12098-1.",
+      "confidence": "low"
+    },
+    {
+      "text": "fonction auto-adaptative au sens de la norme NF EN 12098-1.",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "fonction auto-adaptative au sens de la norme NF EN 12098-1.",
+      "confidence": "low"
+    },
+    {
+      "text": "référence mis en place est un optimiseur de relance comprenant une fonction auto-adaptative au sens de la norme",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "référence mis en place est un optimiseur de relance comprenant une fonction auto-adaptative au sens de la norme",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la mise en place d’un optimiseur de relance comprenant une",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne la mise en place d’un optimiseur de relance comprenant une",
+      "confidence": "low"
+    },
+    {
+      "text": "À défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "À défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est accompagnée d’un document issu du fabricant indiquant que l’équipement de marque et",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est accompagnée d’un document issu du fabricant indiquant que l’équipement de marque et",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-123 vA54-2 à compter du 01-01-2024_1",
+      "code": "BAR-TH-123",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-123 vA54-2 à compter du 01-01-2024 : Optimiseur de relance en chauffage collectif PDF – 113.1 Ko",
+      "path": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-123%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024_1.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A",
+      "code": "BAR-TH-123",
+      "document_type": "partie_a",
+      "title": "BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A PDF – 103.35 Ko",
+      "path": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-123%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-123",
+      "document_type": "partie_a",
+      "title": "BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026 PDF – 106.98 Ko",
+      "path": "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-123%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024_1.pdf",
+    "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-123 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.306055+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

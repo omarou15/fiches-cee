@@ -1,0 +1,74 @@
+# IND-UT-120 - IND-UT-120 v A14-1 : Compresseur d’air basse pression à vis ou centrifuge PDF – 101.92 Ko
+- Secteur: industrie
+- Famille: UT
+- Version: unknown
+- Date d'application: unknown
+
+## Documents sources
+- `Industrie_IND/IND-UT-120 v A14-1.pdf`
+- `Industrie_IND/IND-UT-120 v A14-1 - Partie A.pdf`
+- `Industrie_IND/IND-UT-120 v A14-1 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- soufflantes) ne sont pas éligibles à l’opération.
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+_Non detecte automatiquement._
+
+## Pieces justificatives detectees
+- La preuve de réalisation de l’opération mentionne la mise en place d’un compresseur d’air basse pression à vis ou
+- À défaut, la preuve de la réalisation de l’opération mentionne la mise en place d'un équipement avec ses marques et
+- référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence
+- installé est un compresseur d’air basse pression à vis ou centrifuge. Ce document précise la puissance électrique
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac par kW
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° IND-UT-120
+
+Compresseur d’air basse pression à vis ou centrifuge
+
+
+1. Secteur d’application
+Industrie.
+
+2. Dénomination
+Mise en place d’un compresseur d’air à vis ou d’un compresseur d’air centrifuge de puissance électrique nominale
+inférieure à 400 kW pour des applications nécessitant de l’air à basse pression (<1.5 bar relatif).
+
+Les compresseurs d’air de type lobes (ou roots) et ceux utilisant plusieurs étages de compression en série (de type
+soufflantes) ne sont pas éligibles à l’opération.
+
+3. Conditions pour la délivrance de certificats
+La mise en place est réalisée par un professionnel.
+
+La preuve de réalisation de l’opération mentionne la mise en place d’un compresseur d’air basse pression à vis ou
+centrifuge et sa puissance électrique nominale.
+
+À défaut, la preuve de la réalisation de l’opération mentionne la mise en place d'un équipement avec ses marques et
+référence et elle est complétée par un document issu du fabricant indiquant que l'équipement de marque et référence
+installé est un compresseur d’air basse pression à vis ou centrifuge. Ce document précise la puissance électrique
+nominale du compresseur d’air.
+
+4. Durée de vie conventionnelle
+15 ans.
+
+5. Montant de certificats en kWh cumac
+
+Montant en kWh cumac par kW
+
+Puissance électrique nominale du
+compresseur d’air en kW
+19 300
+X
+P

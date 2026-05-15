@@ -1,0 +1,266 @@
+{
+  "code": "TRA-EQ-115",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-115 vA14-1 : Véhicules de transport de marchandises optimisé PDF – 111.62 Ko",
+  "version": "vA14-1",
+  "document_version": "vA14-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Le véhicule neuf optimisé respecte les normes environnementales en vigueur et comporte les trois technologies",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le véhicule neuf optimisé respecte les normes environnementales en vigueur et comporte les trois technologies",
+      "confidence": "low"
+    },
+    {
+      "text": "- pneus à basse résistance au roulement : ils doivent appartenir à une classe d’efficacité en carburant au moins égale",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- pneus à basse résistance au roulement : ils doivent appartenir à une classe d’efficacité en carburant au moins égale",
+      "confidence": "low"
+    },
+    {
+      "text": "à C et à une classe d’adhérence sur sol mouillé au moins égale à C (classification au sens du règlement européen",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "à C et à une classe d’adhérence sur sol mouillé au moins égale à C (classification au sens du règlement européen",
+      "confidence": "low"
+    },
+    {
+      "text": "n°1222/2009 du 25 novembre 2009 sur l’étiquetage des pneumatiques en relation avec l’efficacité en carburant et",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "n°1222/2009 du 25 novembre 2009 sur l’étiquetage des pneumatiques en relation avec l’efficacité en carburant et",
+      "confidence": "low"
+    },
+    {
+      "text": "- pneus à basse résistance au roulement de classe d’efficacité en carburant supérieure ou égale à C et de classe",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- pneus à basse résistance au roulement de classe d’efficacité en carburant supérieure ou égale à C et de classe",
+      "confidence": "low"
+    },
+    {
+      "text": "- pneus à basse résistance au roulement de classe d’efficacité en carburant supérieure ou égale à C et de classe",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- pneus à basse résistance au roulement de classe d’efficacité en carburant supérieure ou égale à C et de classe",
+      "confidence": "low"
+    },
+    {
+      "text": "- une copie du certificat d’immatriculation du véhicule optimisé ;",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- une copie du certificat d’immatriculation du véhicule optimisé ;",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne l’achat ou la location d’un véhicule de transport de marchandises",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne l’achat ou la location d’un véhicule de transport de marchandises",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne l’achat ou la location d’un véhicule neuf avec ses marque",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne l’achat ou la location d’un véhicule neuf avec ses marque",
+      "confidence": "low"
+    },
+    {
+      "text": "et référence et elle est complétée par un document issu du fabricant indiquant que le véhicule de marque et référence",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "et référence et elle est complétée par un document issu du fabricant indiquant que le véhicule de marque et référence",
+      "confidence": "low"
+    },
+    {
+      "text": "acheté ou loué est un véhicule optimisé. Ce document indique que le véhicule optimisé comporte les trois",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "acheté ou loué est un véhicule optimisé. Ce document indique que le véhicule optimisé comporte les trois",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par véhicule",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par véhicule",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-115 vA14-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-115 vA14-1",
+      "code": "TRA-EQ-115",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-115 vA14-1 : Véhicules de transport de marchandises optimisé PDF – 111.62 Ko",
+      "path": "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-115%20vA14-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-115 vA14-1 - Partie A",
+      "code": "TRA-EQ-115",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-115 vA14-1 - Partie A PDF – 101.72 Ko",
+      "path": "Transport_TRA/TRA-EQ-115 vA14-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-115%20vA14-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-115 vA14-1 - Partie A à compter du 01-07-2026",
+      "code": "TRA-EQ-115",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-115 vA14-1 - Partie A à compter du 01-07-2026 PDF – 105.26 Ko",
+      "path": "Transport_TRA/TRA-EQ-115 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-115%20vA14-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-115 vA14-1 - Annexe 2 à compter du 01-07-2025",
+      "code": "TRA-EQ-115",
+      "document_type": "annexe",
+      "title": "TRA-EQ-115 vA14-1 - Annexe 2 à compter du 01-07-2025 PDF – 105.81 Ko",
+      "path": "Transport_TRA/TRA-EQ-115 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-115%20vA14-1%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-07-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-115 vA14-1 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-EQ-115",
+      "document_type": "annexe",
+      "title": "TRA-EQ-115 vA14-1 - Annexe 2 à compter du 01-07-2026 PDF – 107.96 Ko",
+      "path": "Transport_TRA/TRA-EQ-115 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-115%20vA14-1%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-115 vA14-1.pdf",
+    "Transport_TRA/TRA-EQ-115 vA14-1 - Partie A.pdf",
+    "Transport_TRA/TRA-EQ-115 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-115 vA14-1 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Transport_TRA/TRA-EQ-115 vA14-1 - Annexe 2 à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.543067+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

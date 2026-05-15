@@ -1,0 +1,261 @@
+Certificats d’économies d’énergie
+
+Opération n° BAR-EQ-115
+
+Dispositif d’affichage et d’interprétation des consommations d’énergie
+
+
+1. Secteur d’application
+Bâtiments résidentiels existants.
+
+Dans le cas de logements équipés d’un chauffage collectif par combustible, seuls les logements équipés de
+compteurs individuels d’énergie ou de répartiteurs sont éligibles à la présente fiche.
+
+2. Dénomination
+Acquisition ou location d’un dispositif d’affichage et d’interprétation des consommations d’énergie électrique et
+combustible couplé à un système de mesure de l’énergie fournie au logement lorsque celui-ci est dépourvu d’un tel
+dispositif.
+
+Ce dispositif a pour fonction :
+- d’exploiter la mesure des consommations d’énergie pour les interpréter ;
+- de communiquer vers l’utilisateur les résultats obtenus et des conseils adaptés de façon à l’inciter à réduire sa
+consommation d’énergie ;
+- d’alerter l’utilisateur en cas de dépassement de seuils de consommation de référence.
+
+3. Conditions pour la délivrance de certificats
+Le dispositif permet de collecter l’ensemble des données de consommations d’énergie du logement.
+
+
+Les informations et statistiques élaborées par le dispositif et restituées à l’utilisateur comprennent a minima les
+éléments suivants :
+- affichage de l’ensemble des consommations d’énergie mesurées à un pas inférieur ou égal à une heure. Les données
+collectées sont mises à jour au moins toutes les heures, et idéalement en temps réel ;
+- affichage des consommations d’énergie en m3 et/ou en kWh selon l’énergie et valorisées en euros ;
+- possibilité d’accès par l’utilisateur à différents cumuls (heure / journée / semaine / mois / année) ;
+- historique de tous les cumuls disponibles sur 3 mois ;
+- historique des cumuls, pour une durée supérieure ou égale à la journée, disponible pendant 2 années glissantes.
+
+Le dispositif permet de comparer les consommations réalisées à des consommations types et à des seuils. A minima,
+la comparaison doit être effectuée par rapport à des statistiques de consommations extraites de l’historique
+disponible. Les consommations types sont établies à partir de moyennes nationales et locales pour des profils de
+consommations comparables à ceux de l’utilisateur.
+
+En cas de dépassement d’un seuil de consommation de référence, le dispositif émet une alarme explicite (par
+exemple SMS, mail, notification...).
+Le dispositif permet l’affichage de statistiques de consommation sur au moins un support numérique de la liste
+suivante :
+- écran dédié ;
+- site Web ;
+
+- tablette ou Smartphone (via des applications dédiées) ;
+- télévision.
+
+Le dispositif informe l’utilisateur de manière régulière, à un pas inférieur ou égal à un mois, des données disponibles
+sur l’affichage en lui adressant un bilan de la période écoulée et en l’invitant à consulter l’affichage pour davantage
+de détails. Le dispositif apporte à l’utilisateur des conseils adaptés à sa situation, l’aide à interpréter les données
+affichées et à réduire ses consommations d’énergie.
+
+Dans le cas d’une location du dispositif d’affichage et d’interprétation des consommations d’énergie, la durée du
+contrat de location est égale ou supérieure à 24 mois.
+
+Le dispositif peut inclure une option « suivi du confort », lorsqu’il inclut la collecte locale et l’affichage des données
+de température et d’hygrométrie intérieures et extérieures au logement.
+
+La preuve de la réalisation de l’opération mentionne la mise en place d’un dispositif d’affichage et d’interprétation
+des consommations relié à un système de mesure d’énergie électrique si le logement est chauffé à l’électricité ou à
+un système de mesure d’énergie électrique et à un système de mesure d’énergie du combustible si le logement est
+chauffé avec un combustible. La preuve de la réalisation de l’opération mentionne la présence de l’option « suivi
+du confort » lorsque celle-ci est présente.
+
+Le document justificatif spécifique à l’opération est un descriptif du dispositif issu du fabricant indiquant la présence
+des fonctions détaillées dans la présente fiche et portant sur :
+- la collecte des données des consommations d’énergie du logement ;
+- l’affichage des consommations, de leurs cumuls et de leurs historiques ainsi que les modalités d’affichage et les
+moyens utilisés ;
+- la communication vers l’utilisateur des résultats obtenus et des conseils adaptés de façon à l’inciter à réduire ses
+consommations d’énergie ;
+- l’alerte de l’utilisateur en cas de dépassement d’un ou plusieurs seuil(s) de consommation(s) de référence et les
+moyens d’alerte ;
+- la communication de bilans réguliers des données disponibles à un pas inférieur ou égal à un mois ;
+- dans le cas de l’option « suivi du confort », la collecte locale et l’affichage des données de température et
+d’hygrométrie intérieures et extérieures au logement.
+
+4. Durée de vie conventionnelle
+4 ans
+
+5. Montant de certificats en kWh cumac
+Pour une maison individuelle :
+Zone
+climatique
+Montant en
+kWh cumac
+
+Option
+« suivi du
+confort »
+Coefficient
+
+Facteur
+correctif
+Surface
+habitable S
+(m²)
+
+Part fixe à
+ajouter en
+kWh cumac
+H1
+4 400
+x
+Oui
+1
+x
+0,3
+S < 35
++
+650
+H2
+3 700
+Non
+0,8
+0,5
+35 ≤ S < 60
+H3
+2 700
+
+
+
+
+0,6
+60 ≤ S < 70
+
+
+
+
+
+
+
+
+0,7
+70 ≤ S < 90
+
+
+
+
+
+
+
+
+1
+90 ≤ S < 110
+
+
+
+
+
+
+
+
+1,1
+110 ≤ S ≤ 130
+
+
+
+
+
+
+
+
+1,6
+>130
+
+Pour un appartement :
+Zone
+climatique
+Montant en
+kWh cumac
+
+Option
+« suivi du
+confort »
+Coefficient
+
+Facteur
+correctif
+Surface
+habitable S
+(m²)
+
+Part fixe à
+ajouter en
+kWh cumac
+H1
+2 600
+x
+Oui
+1
+x
+0,5
+S < 35
++
+410
+H2
+2 200
+Non
+0,8
+0,7
+35 ≤ S < 60
+H3
+1 700
+
+
+
+
+1
+60 ≤ S < 70
+
+
+
+
+
+
+
+
+1,2
+70 ≤ S < 90
+
+
+
+
+
+
+
+
+1,5
+90 ≤ S < 110
+
+
+
+
+
+
+
+
+1,9
+110 ≤ S ≤ 130
+
+
+
+
+
+
+
+
+2,5
+>130
+
+
+
+Dans le cas où le bénéficiaire est une personne morale équipant plusieurs logements à la même adresse, le montant
+des certificats d’économies d’énergie, calculé pour un appartement, est multiplié par le nombre N d’appartements,
+de même surface, équipés du dispositif.

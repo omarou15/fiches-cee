@@ -1,0 +1,202 @@
+{
+  "code": "AGRI-TH-109",
+  "sector": "agriculture",
+  "family": "TH",
+  "title": "AGRI-TH-109 vA54-2 à compter du 01-01-2024 : Récupérateur de chaleur à condensation pour serres horticoles PDF – 114.62 Ko",
+  "version": "vA54-2",
+  "document_version": "vA54-2",
+  "effective_date": "2024-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2024-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": true,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "La présente fiche n’est pas cumulable avec la fiche AGRI-TH-110 « Chaudière à haute performance énergétique",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La présente fiche n’est pas cumulable avec la fiche AGRI-TH-110 « Chaudière à haute performance énergétique",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne l’installation d’un récupérateur de chaleur à condensation.",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne l’installation d’un récupérateur de chaleur à condensation.",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est complétée par un document issu du fabricant indiquant que l’équipement de marque et référence",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant de certificats pour une serre horticole :",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant de certificats pour une serre horticole :",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant unitaire en kWh cumac par m²",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant unitaire en kWh cumac par m²",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant de certificats pour une serre maraîchère :",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant de certificats pour une serre maraîchère :",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant unitaire en kWh cumac par m² de",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant unitaire en kWh cumac par m² de",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "AGRI-TH-109 vA54-2 à compter du 01-01-2024_0",
+      "code": "AGRI-TH-109",
+      "document_type": "fiche_principale",
+      "title": "AGRI-TH-109 vA54-2 à compter du 01-01-2024 : Récupérateur de chaleur à condensation pour serres horticoles PDF – 114.62 Ko",
+      "path": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-TH-109%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024_0.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-TH-109 vA54-2 à compter du 01-01-2024 - Partie A",
+      "code": "AGRI-TH-109",
+      "document_type": "partie_a",
+      "title": "AGRI-TH-109 vA54-2 à compter du 01-01-2024 - Partie A PDF – 104.45 Ko",
+      "path": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-TH-109%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-TH-109 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026",
+      "code": "AGRI-TH-109",
+      "document_type": "partie_a",
+      "title": "AGRI-TH-109 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026 PDF – 107.78 Ko",
+      "path": "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-TH-109%20vA54-2%20%C3%A0%20compter%20du%2001-01-2024%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024_0.pdf",
+    "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024 - Partie A.pdf",
+    "Agriculture_AGRI/AGRI-TH-109 vA54-2 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:56.948748+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

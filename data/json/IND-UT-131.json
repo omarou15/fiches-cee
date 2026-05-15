@@ -1,0 +1,266 @@
+{
+  "code": "IND-UT-131",
+  "sector": "industrie",
+  "family": "UT",
+  "title": "IND-UT-131 vA37-2 à compter du 01-04-2021 : Isolation thermique des parois planes ou cylindriques sur des installations industrielles (France métropolitaine) PDF – 142.01 Ko",
+  "version": "vA37-2",
+  "document_version": "vA37-2",
+  "effective_date": "2021-04-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2021-04-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": true,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Ne sont pas éligibles l’isolation des points singuliers couverte par la fiche d’opération standardisée IND-UT-121,",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Ne sont pas éligibles l’isolation des points singuliers couverte par la fiche d’opération standardisée IND-UT-121,",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "La mise en place est réalisée par un professionnel et respecte les exigences de la norme NF DTU 45.2, avril 2018",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La mise en place est réalisée par un professionnel et respecte les exigences de la norme NF DTU 45.2, avril 2018",
+      "confidence": "low"
+    },
+    {
+      "text": "norme équivalente.",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "norme équivalente.",
+      "confidence": "low"
+    },
+    {
+      "text": "Les performances de l’isolation thermique des installations sont déterminées à partir de la résistance thermique",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Les performances de l’isolation thermique des installations sont déterminées à partir de la résistance thermique",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la mise en place d’une isolation sur une installation industrielle",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne la mise en place d’une isolation sur une installation industrielle",
+      "confidence": "low"
+    },
+    {
+      "text": "Elle est accompagnée d’un document issu du fabricant précisant la nature du matériel posé et sa référence, les",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Elle est accompagnée d’un document issu du fabricant précisant la nature du matériel posé et sa référence, les",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques,",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements avec leurs marques,",
+      "confidence": "low"
+    },
+    {
+      "text": "natures et références ainsi que les quantités en surface, ou en longueurs posées, et elle est complétée par un document",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "natures et références ainsi que les quantités en surface, ou en longueurs posées, et elle est complétée par un document",
+      "confidence": "low"
+    },
+    {
+      "text": "issu du fabricant stipulant que le matériau posé est un isolant. Ce document précise la nature de l’isolant constitutif",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "issu du fabricant stipulant que le matériau posé est un isolant. Ce document précise la nature de l’isolant constitutif",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont (i) le document issu du fabricant, (ii) l’état récapitulatif",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont (i) le document issu du fabricant, (ii) l’état récapitulatif",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Coefficient multiplicateur selon le",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Coefficient multiplicateur selon le",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en",
+      "confidence": "low"
+    },
+    {
+      "text": "kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Coefficient multiplicateur selon le",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Coefficient multiplicateur selon le",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "IND-UT-131 vA37-2 à compter du 01-04-2021_0",
+      "code": "IND-UT-131",
+      "document_type": "fiche_principale",
+      "title": "IND-UT-131 vA37-2 à compter du 01-04-2021 : Isolation thermique des parois planes ou cylindriques sur des installations industrielles (France métropolitaine) PDF – 142.01 Ko",
+      "path": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-131%20vA37-2%20%C3%A0%20compter%20du%2001-04-2021_0.pdf",
+      "format": "pdf",
+      "effective_date": "2021-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A",
+      "code": "IND-UT-131",
+      "document_type": "partie_a",
+      "title": "IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A PDF – 178.02 Ko",
+      "path": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-131%20vA37-2%20%C3%A0%20compter%20du%2001-04-2021%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2021-04-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A à compter du 01-07-2026",
+      "code": "IND-UT-131",
+      "document_type": "partie_a",
+      "title": "IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A à compter du 01-07-2026 PDF – 183.28 Ko",
+      "path": "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-131%20vA37-2%20%C3%A0%20compter%20du%2001-04-2021%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2021-04-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021_0.pdf",
+    "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A.pdf",
+    "Industrie_IND/IND-UT-131 vA37-2 à compter du 01-04-2021 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.347185+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

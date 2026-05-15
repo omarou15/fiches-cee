@@ -1,0 +1,289 @@
+{
+  "code": "IND-UT-139",
+  "sector": "industrie",
+  "family": "UT",
+  "title": "IND-UT-139 vA73-2 à compter du 01-11-2025 : Système de stockage de chaleur fatale PDF – 125.91 Ko",
+  "version": "vA73-2",
+  "document_version": "vA73-2",
+  "effective_date": "2025-11-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-11-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": true,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "g) η, le rendement du système de stockage proposé (en %). Ce rendement prend en compte les conditions",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "g) η, le rendement du système de stockage proposé (en %). Ce rendement prend en compte les conditions",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "g) η, le rendement du système de stockage proposé (en %). Ce rendement prend en compte les conditions",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "g) η, le rendement du système de stockage proposé (en %). Ce rendement prend en compte les conditions",
+      "confidence": "low"
+    },
+    {
+      "text": "- le rendement du système installé est supérieur ou égal au rendement issu de l’étude de dimensionnement.",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le rendement du système installé est supérieur ou égal au rendement issu de l’étude de dimensionnement.",
+      "confidence": "low"
+    },
+    {
+      "text": "capacité maximale et son rendement (en %).",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "capacité maximale et son rendement (en %).",
+      "confidence": "low"
+    },
+    {
+      "text": "système de stockage et son rendement (en %).",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "système de stockage et son rendement (en %).",
+      "confidence": "low"
+    },
+    {
+      "text": "- η est le rendement du système de stockage (en %) ;",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- η est le rendement du système de stockage (en %) ;",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "k) Une évaluation de l’impact économique de l’opération sur la facture énergétique du bénéficiaire.",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "k) Une évaluation de l’impact économique de l’opération sur la facture énergétique du bénéficiaire.",
+      "confidence": "low"
+    },
+    {
+      "text": "de l’opération. Le bénéficiaire s’engage à transmettre ses mesures à des fins de traitements statistiques et de contrôle.",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "de l’opération. Le bénéficiaire s’engage à transmettre ses mesures à des fins de traitements statistiques et de contrôle.",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la mise en place d’un système de stockage de chaleur, sa capacité",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne la mise en place d’un système de stockage de chaleur, sa capacité",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un système de stockage de chaleur et",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un système de stockage de chaleur et",
+      "confidence": "low"
+    },
+    {
+      "text": "elle est accompagnée d’un document issu du fabricant mentionnant la capacité maximale de stockage de chaleur du",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "elle est accompagnée d’un document issu du fabricant mentionnant la capacité maximale de stockage de chaleur du",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "de l’opération. Le bénéficiaire s’engage à transmettre ses mesures à des fins de traitements statistiques et de contrôle.",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "de l’opération. Le bénéficiaire s’engage à transmettre ses mesures à des fins de traitements statistiques et de contrôle.",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "a) La capacité maximale, C, de stockage de chaleur du système (en kWh) ;",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "a) La capacité maximale, C, de stockage de chaleur du système (en kWh) ;",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "a) La capacité maximale, C, de stockage de chaleur du système (en kWh) ;",
+      "confidence": "low"
+    },
+    {
+      "text": "maximale de stockage de chaleur (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "maximale de stockage de chaleur (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la",
+      "confidence": "low"
+    },
+    {
+      "text": "système (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la capacité maximale du",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "système (en kWh), son nombre annuel de cycles d’utilisation équivalents à 100 % de la capacité maximale du",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "- C est la capacité maximale de stockage de chaleur du système (en kWh) ;",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- C est la capacité maximale de stockage de chaleur du système (en kWh) ;",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "IND-UT-139 vA73-2 à compter du 01-11-2025_0",
+      "code": "IND-UT-139",
+      "document_type": "fiche_principale",
+      "title": "IND-UT-139 vA73-2 à compter du 01-11-2025 : Système de stockage de chaleur fatale PDF – 125.91 Ko",
+      "path": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-139%20vA73-2%20%C3%A0%20compter%20du%2001-11-2025_0.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A",
+      "code": "IND-UT-139",
+      "document_type": "partie_a",
+      "title": "IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A PDF – 109.36 Ko",
+      "path": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-139%20vA73-2%20%C3%A0%20compter%20du%2001-11-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A à compter du 01-07-2026",
+      "code": "IND-UT-139",
+      "document_type": "partie_a",
+      "title": "IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A à compter du 01-07-2026 PDF – 114.29 Ko",
+      "path": "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-139%20vA73-2%20%C3%A0%20compter%20du%2001-11-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025_0.pdf",
+    "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A.pdf",
+    "Industrie_IND/IND-UT-139 vA73-2 à compter du 01-11-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.585021+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "code": "BAR-TH-162",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-162 vA28-1 : Système énergétique comportant des capteurs solaires photovoltaïques et thermiques à circulation d’eau (France métropolitaine) PDF – 123.58 Ko",
+  "version": "vA28-1",
+  "document_version": "vA28-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": true,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "optique du capteur mesuré en condition ΔT=0 par un rayonnement (G) de 1000W/m2. Ils possèdent une certification",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "optique du capteur mesuré en condition ΔT=0 par un rayonnement (G) de 1000W/m2. Ils possèdent une certification",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "productivité supérieure ou égale à 500 W/m2 de surface d’entrée des capteurs calculée en multipliant le rendement",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "productivité supérieure ou égale à 500 W/m2 de surface d’entrée des capteurs calculée en multipliant le rendement",
+      "confidence": "low"
+    },
+    {
+      "text": "CSTBat ou SolarKeymark, ou une certification des caractéristiques de performances et de qualité équivalentes dès",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "CSTBat ou SolarKeymark, ou une certification des caractéristiques de performances et de qualité équivalentes dès",
+      "confidence": "low"
+    },
+    {
+      "text": "lors que cette certification repose sur les normes NF EN 12975 ou NF EN 12976 et qu’elle est mentionnée comme",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "lors que cette certification repose sur les normes NF EN 12975 ou NF EN 12976 et qu’elle est mentionnée comme",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "telle sur la facture ou une attestation fournie par l’entreprise.",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "telle sur la facture ou une attestation fournie par l’entreprise.",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l’opération mentionne la mise en place d’un système composé de capteurs solaires",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne la mise en place d’un système composé de capteurs solaires",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement composé de capteurs",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement composé de capteurs",
+      "confidence": "low"
+    },
+    {
+      "text": "sanitaire et/ou chauffage des locaux) et elle est complétée par un document issu du fabricant indiquant que",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "sanitaire et/ou chauffage des locaux) et elle est complétée par un document issu du fabricant indiquant que",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": true,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-162 vA28-1",
+      "code": "BAR-TH-162",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-162 vA28-1 : Système énergétique comportant des capteurs solaires photovoltaïques et thermiques à circulation d’eau (France métropolitaine) PDF – 123.58 Ko",
+      "path": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-162%20vA28-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-162 vA28-1 - Partie A",
+      "code": "BAR-TH-162",
+      "document_type": "partie_a",
+      "title": "BAR-TH-162 vA28-1 - Partie A PDF – 121.88 Ko",
+      "path": "Residentiel_BAR/BAR-TH-162 vA28-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-162%20vA28-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-162 vA28-1 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-162",
+      "document_type": "partie_a",
+      "title": "BAR-TH-162 vA28-1 - Partie A à compter du 01-07-2026 PDF – 126.95 Ko",
+      "path": "Residentiel_BAR/BAR-TH-162 vA28-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-162%20vA28-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",
+    "Residentiel_BAR/BAR-TH-162 vA28-1 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-162 vA28-1 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.624053+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

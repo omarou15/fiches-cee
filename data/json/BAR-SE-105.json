@@ -1,0 +1,345 @@
+{
+  "code": "BAR-SE-105",
+  "sector": "residentiel",
+  "family": "SE",
+  "title": "BAR-SE-105 vA28-1 : Contrat de Performance Energétique Services (CPE Services) PDF – 149.74 Ko",
+  "version": "vA28-1",
+  "document_version": "vA28-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": true,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "situation de référence. Le contrat ne doit pas prévoir de travaux éligibles aux certificats d’économies",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "situation de référence. Le contrat ne doit pas prévoir de travaux éligibles aux certificats d’économies",
+      "confidence": "low"
+    },
+    {
+      "text": "Opérations éligibles aux CEE engagées ou réalisées",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Opérations éligibles aux CEE engagées ou réalisées",
+      "confidence": "low"
+    },
+    {
+      "text": "4. L'engagement de résultat est garanti sur une durée déterminée contractuellement. La durée éligible",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "4. L'engagement de résultat est garanti sur une durée déterminée contractuellement. La durée éligible",
+      "confidence": "low"
+    },
+    {
+      "text": "éligible pour l’opération est la durée de la garantie.",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "éligible pour l’opération est la durée de la garantie.",
+      "confidence": "low"
+    },
+    {
+      "text": "du dispositif des certificats d’économies d’énergie, de même que toutes les opérations éligibles au dispositif CEE",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "du dispositif des certificats d’économies d’énergie, de même que toutes les opérations éligibles au dispositif CEE",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Contrat de Performance Energétique Services (CPE Services)",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Contrat de Performance Energétique Services (CPE Services)",
+      "confidence": "low"
+    },
+    {
+      "text": "Mise en place d’un contrat de performance énergétique de services (CPE Services) pour une installation collective",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Mise en place d’un contrat de performance énergétique de services (CPE Services) pour une installation collective",
+      "confidence": "low"
+    },
+    {
+      "text": "Le contrat est un contrat de performance énergétique de services (CPE Services) ayant pour objet une installation",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le contrat est un contrat de performance énergétique de services (CPE Services) ayant pour objet une installation",
+      "confidence": "low"
+    },
+    {
+      "text": "collective de chauffage et/ou d’eau-chaude sanitaire. Un contrat de performance énergétique de services est un",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "collective de chauffage et/ou d’eau-chaude sanitaire. Un contrat de performance énergétique de services est un",
+      "confidence": "low"
+    },
+    {
+      "text": "de l’efficacité énergétique (conduisant à une diminution des consommations énergétiques) du bâtiment ou du parc",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "de l’efficacité énergétique (conduisant à une diminution des consommations énergétiques) du bâtiment ou du parc",
+      "confidence": "low"
+    },
+    {
+      "text": "performance énergétique des installations couvertes par le contrat. Elle tient compte des",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "performance énergétique des installations couvertes par le contrat. Elle tient compte des",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Le CPE comporte un plan de mesure et de vérification de la performance énergétique, faisant l'objet",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "5. Le CPE comporte un plan de mesure et de vérification de la performance énergétique, faisant l'objet",
+      "confidence": "low"
+    },
+    {
+      "text": "de la prise en compte, le cas échéant, des paramètres d’ajustement. Il indique si la performance",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "de la prise en compte, le cas échéant, des paramètres d’ajustement. Il indique si la performance",
+      "confidence": "low"
+    },
+    {
+      "text": "6. En cas de non atteinte de la performance garantie par le CPE Services, ce dernier prévoit que",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "6. En cas de non atteinte de la performance garantie par le CPE Services, ce dernier prévoit que",
+      "confidence": "low"
+    },
+    {
+      "text": "g) La pénalité en cas de non-atteinte de la performance garantie par le contrat.",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "g) La pénalité en cas de non-atteinte de la performance garantie par le contrat.",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "dessous, intégré à la partie A de l’attestation sur l’honneur (des variables peuvent être ajoutées dans",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "dessous, intégré à la partie A de l’attestation sur l’honneur (des variables peuvent être ajoutées dans",
+      "confidence": "low"
+    },
+    {
+      "text": "(comptage / facture / mesures…)",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "(comptage / facture / mesures…)",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont :",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "garantie par le contrat est respectée et dans le cas contraire le montant de la pénalité due. Le plan de",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "garantie par le contrat est respectée et dans le cas contraire le montant de la pénalité due. Le plan de",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "garantie par le contrat est respectée et dans le cas contraire le montant de la pénalité due. Le plan de",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant unitaire en kWh cumac par appartement",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant unitaire en kWh cumac par appartement",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-SE-105 vA28-1",
+      "code": "BAR-SE-105",
+      "document_type": "fiche_principale",
+      "title": "BAR-SE-105 vA28-1 : Contrat de Performance Energétique Services (CPE Services) PDF – 149.74 Ko",
+      "path": "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-SE-105%20vA28-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-SE-105 vA28-1 - Parties A et C",
+      "code": "BAR-SE-105",
+      "document_type": "fiche_principale",
+      "title": "BAR-SE-105 vA28-1 - Parties A et C PDF – 138.16 Ko",
+      "path": "Residentiel_BAR/BAR-SE-105 vA28-1 - Parties A et C.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-SE-105%20vA28-1%20-%20Parties%20A%20et%20C.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-SE-105 vA28-1 - Partie A à compter du 01-07-2026 et Partie C",
+      "code": "BAR-SE-105",
+      "document_type": "partie_a",
+      "title": "BAR-SE-105 vA28-1 - Partie A à compter du 01-07-2026 et Partie C PDF – 134.91 Ko",
+      "path": "Residentiel_BAR/BAR-SE-105 vA28-1 - Partie A à compter du 01-07-2026 et Partie C.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-SE-105%20vA28-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026%20et%20Partie%20C.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-SE-105 vA28-1.pdf",
+    "Residentiel_BAR/BAR-SE-105 vA28-1 - Parties A et C.pdf",
+    "Residentiel_BAR/BAR-SE-105 vA28-1 - Partie A à compter du 01-07-2026 et Partie C.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.100270+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

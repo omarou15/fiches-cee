@@ -1,0 +1,420 @@
+{
+  "code": "BAR-TH-161",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-161 vA71-3 à compter du 01-08-2025 : Isolation de points singuliers d’un réseau PDF – 134.27 Ko",
+  "version": "vA71-3",
+  "document_version": "vA71-3",
+  "effective_date": "2025-08-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-08-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": true,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": true,
+    "ventilation": false,
+    "insulation": true,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "complètement le ou les points singuliers. Les manchons isolants ne sont pas éligibles.",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "complètement le ou les points singuliers. Les manchons isolants ne sont pas éligibles.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "sont mesurées dans les conditions définies par la norme NF EN 14303.",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "sont mesurées dans les conditions définies par la norme NF EN 14303.",
+      "confidence": "low"
+    },
+    {
+      "text": "d’énergie dans le cadre du dispositif de délivrance des certificats d’économies d’énergie » par le Comité français",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "d’énergie dans le cadre du dispositif de délivrance des certificats d’économies d’énergie » par le Comité français",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "La housse est constituée d’un isolant à base de laine minérale et répond aux exigences de la norme NF EN 14303",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La housse est constituée d’un isolant à base de laine minérale et répond aux exigences de la norme NF EN 14303",
+      "confidence": "low"
+    },
+    {
+      "text": "sont mesurées dans les conditions définies par la norme NF EN 14303.",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "sont mesurées dans les conditions définies par la norme NF EN 14303.",
+      "confidence": "low"
+    },
+    {
+      "text": "références des normes utilisées pour déterminer les différentes caractéristiques de l’isolant.",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "références des normes utilisées pour déterminer les différentes caractéristiques de l’isolant.",
+      "confidence": "low"
+    },
+    {
+      "text": "L'organisme d'inspection est accrédité selon la norme NF EN ISO/CEI 17020 ou toute version ultérieure, en tant",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L'organisme d'inspection est accrédité selon la norme NF EN ISO/CEI 17020 ou toute version ultérieure, en tant",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place de housses souples, démontables et équipées",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place de housses souples, démontables et équipées",
+      "confidence": "low"
+    },
+    {
+      "text": "exigée ainsi que le diamètre nominal des points singuliers isolés. La preuve de réalisation de l’opération précise la",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "exigée ainsi que le diamètre nominal des points singuliers isolés. La preuve de réalisation de l’opération précise la",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements d’isolation de points",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l'opération mentionne la mise en place d'équipements d’isolation de points",
+      "confidence": "low"
+    },
+    {
+      "text": "complétée par un document issu du fabricant indiquant que les équipements de marques et références installés sont",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "complétée par un document issu du fabricant indiquant que les équipements de marques et références installés sont",
+      "confidence": "low"
+    },
+    {
+      "text": "document précise la résistance thermique de l’isolant à la température exigée (ou à défaut sa conductivité thermique",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "document précise la résistance thermique de l’isolant à la température exigée (ou à défaut sa conductivité thermique",
+      "confidence": "low"
+    },
+    {
+      "text": "Les travaux d’isolation des points singuliers font l’objet, après réalisation, d’un contrôle sur site par un organisme",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les travaux d’isolation des points singuliers font l’objet, après réalisation, d’un contrôle sur site par un organisme",
+      "confidence": "low"
+    },
+    {
+      "text": "d’inspection. Un rapport de contrôle, établi par cet organisme, atteste :",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d’inspection. Un rapport de contrôle, établi par cet organisme, atteste :",
+      "confidence": "low"
+    },
+    {
+      "text": "au besoin par un examen documentaire. Cette vérification ne doit révéler aucun écart avec l’état récapitulatif établi,",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "au besoin par un examen documentaire. Cette vérification ne doit révéler aucun écart avec l’état récapitulatif établi,",
+      "confidence": "low"
+    },
+    {
+      "text": "la preuve de réalisation de l'opération, la raison sociale et le numéro SIREN du professionnel, l'identité du",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "la preuve de réalisation de l'opération, la raison sociale et le numéro SIREN du professionnel, l'identité du",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont l’état récapitulatif établi, signé et daté par le professionnel",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont l’état récapitulatif établi, signé et daté par le professionnel",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "Les travaux d’isolation des points singuliers font l’objet, après réalisation, d’un contrôle sur site par un organisme",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "Les travaux d’isolation des points singuliers font l’objet, après réalisation, d’un contrôle sur site par un organisme",
+      "confidence": "low"
+    },
+    {
+      "text": "d’inspection. Un rapport de contrôle, établi par cet organisme, atteste :",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "d’inspection. Un rapport de contrôle, établi par cet organisme, atteste :",
+      "confidence": "low"
+    },
+    {
+      "text": "L’organisme d’inspection procède à la vérification aléatoire d’au moins 10 % des points singuliers isolés (nombre",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "L’organisme d’inspection procède à la vérification aléatoire d’au moins 10 % des points singuliers isolés (nombre",
+      "confidence": "low"
+    },
+    {
+      "text": "L'organisme d'inspection est accrédité selon la norme NF EN ISO/CEI 17020 ou toute version ultérieure, en tant",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "L'organisme d'inspection est accrédité selon la norme NF EN ISO/CEI 17020 ou toute version ultérieure, en tant",
+      "confidence": "low"
+    },
+    {
+      "text": "qu'organisme d'inspection de type A pour le domaine 15.1.5 « Inspection d’opérations standardisées d’économies",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "qu'organisme d'inspection de type A pour le domaine 15.1.5 « Inspection d’opérations standardisées d’économies",
+      "confidence": "low"
+    },
+    {
+      "text": "et le bénéficiaire à l’issue des travaux et la justification de l'accréditation de l'organisme d'inspection.",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "et le bénéficiaire à l’issue des travaux et la justification de l'accréditation de l'organisme d'inspection.",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWhcumac",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWhcumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWhcumac",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWhcumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-161 vA71-3 à compter du 01-08-2025",
+      "code": "BAR-TH-161",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-161 vA71-3 à compter du 01-08-2025 : Isolation de points singuliers d’un réseau PDF – 134.27 Ko",
+      "path": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-161%20vA71-3%20%C3%A0%20compter%20du%2001-08-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-161 vA71-3 à compter du 01-08-2025 - Partie A",
+      "code": "BAR-TH-161",
+      "document_type": "partie_a",
+      "title": "BAR-TH-161 vA71-3 à compter du 01-08-2025 - Partie A PDF – 111.26 Ko",
+      "path": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-161%20vA71-3%20%C3%A0%20compter%20du%2001-08-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-161 vA71-3 à compter du 01-08-2025 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-161",
+      "document_type": "partie_a",
+      "title": "BAR-TH-161 vA71-3 à compter du 01-08-2025 - Partie A à compter du 01-07-2026 PDF – 116 Ko",
+      "path": "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-161%20vA71-3%20%C3%A0%20compter%20du%2001-08-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025.pdf",
+    "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-161 vA71-3 à compter du 01-08-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.604644+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

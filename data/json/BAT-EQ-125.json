@@ -1,0 +1,264 @@
+{
+  "code": "BAT-EQ-125",
+  "sector": "tertiaire",
+  "family": "EQ",
+  "title": "BAT-EQ-125 vA22-1 : Fermeture des meubles frigorifiques de vente à température négative PDF – 152.8 Ko",
+  "version": "vA22-1",
+  "document_version": "vA22-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "norme EN 673).",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "norme EN 673).",
+      "confidence": "low"
+    },
+    {
+      "text": "frigorifiques, leur coefficient de transmission thermique Ug (évalué conformément à la norme EN 673), la longueur",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "frigorifiques, leur coefficient de transmission thermique Ug (évalué conformément à la norme EN 673), la longueur",
+      "confidence": "low"
+    },
+    {
+      "text": "ou d’un organisme établi dans l’Espace économique européen et accrédité selon la norme NF EN 45011 par le",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "ou d’un organisme établi dans l’Espace économique européen et accrédité selon la norme NF EN 45011 par le",
+      "confidence": "low"
+    },
+    {
+      "text": "Il précise ses caractéristiques thermiques (Ug) évaluées selon la norme EN 673, ainsi que l’architecture du meuble",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Il précise ses caractéristiques thermiques (Ug) évaluées selon la norme EN 673, ainsi que l’architecture du meuble",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne l'installation de couvercles performants en verre sur les meubles",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne l'installation de couvercles performants en verre sur les meubles",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne les marques et références des produits installés ainsi que",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne les marques et références des produits installés ainsi que",
+      "confidence": "low"
+    },
+    {
+      "text": "la longueur de meubles frigorifiques équipés de couvercles. Elle est complétée par un document issu du fabricant",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "la longueur de meubles frigorifiques équipés de couvercles. Elle est complétée par un document issu du fabricant",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que l’équipement de marque et référence installé est un couvercle pour meuble frigorifique.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que l’équipement de marque et référence installé est un couvercle pour meuble frigorifique.",
+      "confidence": "low"
+    },
+    {
+      "text": "(simple, double ou combiné) auquel il est destiné. En cas de mention d’une date de validité, ce document est",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "(simple, double ou combiné) auquel il est destiné. En cas de mention d’une date de validité, ce document est",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "Le vitrage des couvercles a un coefficient de transmission thermique Ug ≤ 3,8 W/m².K (évalué conformément à la",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Le vitrage des couvercles a un coefficient de transmission thermique Ug ≤ 3,8 W/m².K (évalué conformément à la",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le vitrage des couvercles a un coefficient de transmission thermique Ug ≤ 3,8 W/m².K (évalué conformément à la",
+      "confidence": "low"
+    },
+    {
+      "text": "frigorifiques, leur coefficient de transmission thermique Ug (évalué conformément à la norme EN 673), la longueur",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "frigorifiques, leur coefficient de transmission thermique Ug (évalué conformément à la norme EN 673), la longueur",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant unitaire",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant unitaire",
+      "confidence": "low"
+    },
+    {
+      "text": "(en kWh cumac par mètre de couvercle)",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "(en kWh cumac par mètre de couvercle)",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-EQ-125 vA22-1",
+      "code": "BAT-EQ-125",
+      "document_type": "fiche_principale",
+      "title": "BAT-EQ-125 vA22-1 : Fermeture des meubles frigorifiques de vente à température négative PDF – 152.8 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-125%20vA22-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-EQ-125 vA22-1 - Partie A",
+      "code": "BAT-EQ-125",
+      "document_type": "partie_a",
+      "title": "BAT-EQ-125 vA22-1 - Partie A PDF – 105.5 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-125 vA22-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-125%20vA22-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-EQ-125 vA22-1 - Partie A à compter du 01-07-2026",
+      "code": "BAT-EQ-125",
+      "document_type": "partie_a",
+      "title": "BAT-EQ-125 vA22-1 - Partie A à compter du 01-07-2026 PDF – 109.68 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-125 vA22-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-125%20vA22-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-EQ-125 vA22-1.pdf",
+    "Tertiaire_BAT/BAT-EQ-125 vA22-1 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-EQ-125 vA22-1 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.449287+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

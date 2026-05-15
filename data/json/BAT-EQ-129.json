@@ -1,0 +1,267 @@
+{
+  "code": "BAT-EQ-129",
+  "sector": "tertiaire",
+  "family": "EQ",
+  "title": "BAT-EQ-129 vA26-1 : Lanterneaux d’éclairage zénithal (France Métropolitaine) PDF – 158.37 Ko",
+  "version": "vA26-1",
+  "document_version": "vA26-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "nombre, leur destination (éclairage, évacuation des fumées), leur implantation et conditions d’installation dans le",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "nombre, leur destination (éclairage, évacuation des fumées), leur implantation et conditions d’installation dans le",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "La classe de durabilité des lanterneaux est ΔA.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La classe de durabilité des lanterneaux est ΔA.",
+      "confidence": "low"
+    },
+    {
+      "text": "Les spécifications des lanterneaux (conductance thermique, classe de durabilité, facteur de transmission lumineuse",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Les spécifications des lanterneaux (conductance thermique, classe de durabilité, facteur de transmission lumineuse",
+      "confidence": "low"
+    },
+    {
+      "text": "totale) sont déterminées suivant la norme européenne EN1873+A1 pour les lanterneaux d’éclairage zénithal",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "totale) sont déterminées suivant la norme européenne EN1873+A1 pour les lanterneaux d’éclairage zénithal",
+      "confidence": "low"
+    },
+    {
+      "text": "ponctuels et suivant la norme européenne EN14963 pour les lanterneaux d’éclairage zénithal continus.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "ponctuels et suivant la norme européenne EN14963 pour les lanterneaux d’éclairage zénithal continus.",
+      "confidence": "low"
+    },
+    {
+      "text": "- la classe de durabilité des lanterneaux.",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- la classe de durabilité des lanterneaux.",
+      "confidence": "low"
+    },
+    {
+      "text": "conductance thermique, le facteur de transmission lumineuse totale τD65 et la classe de durabilité des lanterneaux",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "conductance thermique, le facteur de transmission lumineuse totale τD65 et la classe de durabilité des lanterneaux",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation mentionne :",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipement(s) avec",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipement(s) avec",
+      "confidence": "low"
+    },
+    {
+      "text": "lumière en fonction des apports de lumière naturelle. Elle est complétée par un document issu du fabricant indiquant",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "lumière en fonction des apports de lumière naturelle. Elle est complétée par un document issu du fabricant indiquant",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place des",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document justificatif spécifique à l’opération est l’étude de dimensionnement préalable à la mise en place des",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par m²",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par m²",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-EQ-129 vA26-1",
+      "code": "BAT-EQ-129",
+      "document_type": "fiche_principale",
+      "title": "BAT-EQ-129 vA26-1 : Lanterneaux d’éclairage zénithal (France Métropolitaine) PDF – 158.37 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-129%20vA26-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-EQ-129 vA26-1 - Partie A",
+      "code": "BAT-EQ-129",
+      "document_type": "partie_a",
+      "title": "BAT-EQ-129 vA26-1 - Partie A PDF – 119.54 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-129 vA26-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-129%20vA26-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-EQ-129 vA26-1 - Partie A à compter du 01-07-2026",
+      "code": "BAT-EQ-129",
+      "document_type": "partie_a",
+      "title": "BAT-EQ-129 vA26-1 - Partie A à compter du 01-07-2026.pdf PDF – 124.34 Ko",
+      "path": "Tertiaire_BAT/BAT-EQ-129 vA26-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-EQ-129%20vA26-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-EQ-129 vA26-1.pdf",
+    "Tertiaire_BAT/BAT-EQ-129 vA26-1 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-EQ-129 vA26-1 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.468283+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

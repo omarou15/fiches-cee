@@ -1,0 +1,344 @@
+{
+  "code": "AGRI-TH-108",
+  "sector": "agriculture",
+  "family": "TH",
+  "title": "AGRI-TH-108 vA35-2 à compter du 01-10-2020 : Pompe à chaleur de type air/eau ou eau/eau PDF – 132.25 Ko",
+  "version": "vA35-2",
+  "document_version": "vA35-2",
+  "effective_date": "2020-10-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2020-10-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": true,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Les PAC installées en relève d'une chaudière à haute performance énergétique ne donnent pas lieu à la délivrance",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Les PAC installées en relève d'une chaudière à haute performance énergétique ne donnent pas lieu à la délivrance",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Les PAC installées en relève d'une chaudière à haute performance énergétique ne donnent pas lieu à la délivrance",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Les PAC installées en relève d'une chaudière à haute performance énergétique ne donnent pas lieu à la délivrance",
+      "confidence": "low"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière (ηs) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 est",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière (ηs) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 est",
+      "confidence": "low"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de",
+      "confidence": "low"
+    },
+    {
+      "text": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
+      "confidence": "low"
+    },
+    {
+      "text": "nominales de la norme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C, est",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "nominales de la norme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C, est",
+      "confidence": "low"
+    },
+    {
+      "text": "- et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe à",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe à",
+      "confidence": "low"
+    },
+    {
+      "text": "chaleur, le COP explicitement mesuré selon la norme EN 14511-2 pour une température à la sortie de",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "chaleur, le COP explicitement mesuré selon la norme EN 14511-2 pour une température à la sortie de",
+      "confidence": "low"
+    },
+    {
+      "text": "l'échangeur thermique intérieur de 35°C, ou l’efficacité énergétique saisonnière (ηs) mesurée conformément au",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "l'échangeur thermique intérieur de 35°C, ou l’efficacité énergétique saisonnière (ηs) mesurée conformément au",
+      "confidence": "low"
+    },
+    {
+      "text": "européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou",
+      "confidence": "low"
+    },
+    {
+      "text": "- et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe",
+      "confidence": "low"
+    },
+    {
+      "text": "à chaleur, le COP explicitement mesuré selon la norme EN 14511-2 pour une température à la sortie de",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "à chaleur, le COP explicitement mesuré selon la norme EN 14511-2 pour une température à la sortie de",
+      "confidence": "low"
+    },
+    {
+      "text": "l'échangeur thermique intérieur de 35°C, ou l’efficacité énergétique saisonnière (ηs) mesurée conformément",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "l'échangeur thermique intérieur de 35°C, ou l’efficacité énergétique saisonnière (ηs) mesurée conformément",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique :",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique :",
+      "confidence": "low"
+    },
+    {
+      "text": "En cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après sa date de",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "En cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après sa date de",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Le coefficient de performance (COP) de la pompe à chaleur, mesuré conformément aux conditions de performance",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par",
+      "confidence": "low"
+    },
+    {
+      "text": "La surface chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie est la",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "La surface chauffée Smin prise en compte dans le calcul du montant des certificats d’économies d’énergie est la",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "AGRI-TH-108 vA35-2 à compter du 01-10-2020",
+      "code": "AGRI-TH-108",
+      "document_type": "fiche_principale",
+      "title": "AGRI-TH-108 vA35-2 à compter du 01-10-2020 : Pompe à chaleur de type air/eau ou eau/eau PDF – 132.25 Ko",
+      "path": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-TH-108%20vA35-2%20%C3%A0%20compter%20du%2001-10-2020.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A",
+      "code": "AGRI-TH-108",
+      "document_type": "partie_a",
+      "title": "AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A PDF – 116.96 Ko",
+      "path": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-TH-108%20vA35-2%20%C3%A0%20compter%20du%2001-10-2020%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026",
+      "code": "AGRI-TH-108",
+      "document_type": "partie_a",
+      "title": "AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026 PDF – 120.48 Ko",
+      "path": "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-TH-108%20vA35-2%20%C3%A0%20compter%20du%2001-10-2020%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2020-10-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020.pdf",
+    "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A.pdf",
+    "Agriculture_AGRI/AGRI-TH-108 vA35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:56.938182+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

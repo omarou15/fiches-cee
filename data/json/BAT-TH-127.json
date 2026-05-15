@@ -1,0 +1,266 @@
+{
+  "code": "BAT-TH-127",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-127 vA79-5 à compter du 01-01-2026 : Raccordement d'un bâtiment tertiaire à un réseau de chaleur PDF – 131.77 Ko",
+  "version": "vA79-5",
+  "document_version": "vA79-5",
+  "effective_date": "2026-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2026-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": true,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "L’opération respecte les conditions cumulatives suivantes :",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "L’opération respecte les conditions cumulatives suivantes :",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération est le contrat de fourniture de chaleur entre le bénéficiaire de l’opération et",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération est le contrat de fourniture de chaleur entre le bénéficiaire de l’opération et",
+      "confidence": "low"
+    },
+    {
+      "text": "Le document de preuve de réalisation de l’opération produit à l’appui de la demande de certificats d’économies",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Le document de preuve de réalisation de l’opération produit à l’appui de la demande de certificats d’économies",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par m² de surface chauffée",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par m² de surface chauffée",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par m² de surface chauffée",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par m² de surface chauffée",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone climatique",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone climatique",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone climatique",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone climatique",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-127 vA79-5 à compter du 01-01-2026_1",
+      "code": "BAT-TH-127",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-127 vA79-5 à compter du 01-01-2026 : Raccordement d'un bâtiment tertiaire à un réseau de chaleur PDF – 131.77 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-127%20vA79-5%20%C3%A0%20compter%20du%2001-01-2026_1.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-127 vA79-5 à compter du 01-01-2026 - Parties A, B, C et D",
+      "code": "BAT-TH-127",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-127 vA79-5 à compter du 01-01-2026 - Parties A, B, C et D PDF – 160.53 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Parties A, B, C et D.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-127%20vA79-5%20%C3%A0%20compter%20du%2001-01-2026%20-%20Parties%20A%2C%20B%2C%20C%20et%20D.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-127 vA79-5 à compter du 01-01-2026 - Partie A à compter du 01-07-2026 - Parties B, C et D",
+      "code": "BAT-TH-127",
+      "document_type": "partie_a",
+      "title": "BAT-TH-127 vA79-5 à compter du 01-01-2026 - Partie A à compter du 01-07-2026 - Parties B, C et D PDF – 163.67 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Partie A à compter du 01-07-2026 - Parties B, C et D.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-127%20vA79-5%20%C3%A0%20compter%20du%2001-01-2026%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026%20-%20Parties%20B%2C%20C%20et%20D.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-127 vA79-5 à compter du 01-01-2026 - Annexe 2",
+      "code": "BAT-TH-127",
+      "document_type": "annexe",
+      "title": "BAT-TH-127 vA79-5 à compter du 01-01-2026 - Annexe 2 PDF – 152.7 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Annexe 2.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-127%20vA79-5%20%C3%A0%20compter%20du%2001-01-2026%20-%20Annexe%202.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-127 vA79-5 à compter du 01-01-2026 - Annexe 2 à compter du 01-07-2026",
+      "code": "BAT-TH-127",
+      "document_type": "annexe",
+      "title": "BAT-TH-127 vA79-5 à compter du 01-01-2026 - Annexe 2 à compter du 01-07-2026 PDF – 156.24 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-127%20vA79-5%20%C3%A0%20compter%20du%2001-01-2026%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026_1.pdf",
+    "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Parties A, B, C et D.pdf",
+    "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Partie A à compter du 01-07-2026 - Parties B, C et D.pdf",
+    "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Annexe 2.pdf",
+    "Tertiaire_BAT/BAT-TH-127 vA79-5 à compter du 01-01-2026 - Annexe 2 à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:59.889926+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

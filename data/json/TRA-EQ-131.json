@@ -1,0 +1,300 @@
+{
+  "code": "TRA-EQ-131",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 : Achat ou location, par une personne morale, de vélos-cargos neufs ou reconditionnés PDF – 111.41 Ko",
+  "version": "vA73-2",
+  "document_version": "vA73-2",
+  "effective_date": "2025-08-23",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-08-23",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Le vélo-cargo est certifié conforme à la norme EN 15194 et à au moins une des normes suivantes, ou normes",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le vélo-cargo est certifié conforme à la norme EN 15194 et à au moins une des normes suivantes, ou normes",
+      "confidence": "low"
+    },
+    {
+      "text": "- la déclaration de conformité CE du fabricant attestant la conformité à la norme EN 15194, à la norme NF R30-",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- la déclaration de conformité CE du fabricant attestant la conformité à la norme EN 15194, à la norme NF R30-",
+      "confidence": "low"
+    },
+    {
+      "text": "- le rapport de tests de conformité aux normes, rédigé en français ou anglais, démontrant que le poids total maximal",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le rapport de tests de conformité aux normes, rédigé en français ou anglais, démontrant que le poids total maximal",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "nombre de vélos-cargos supérieur à son effectif déclaré sur son dernier exercice clos, ou document équivalent",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "nombre de vélos-cargos supérieur à son effectif déclaré sur son dernier exercice clos, ou document équivalent",
+      "confidence": "low"
+    },
+    {
+      "text": "d’une personne morale de droit public ou association ne pouvant produire de liasse fiscale ou document équivalent,",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d’une personne morale de droit public ou association ne pouvant produire de liasse fiscale ou document équivalent,",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne l’achat ou la location longue durée d’un ou plusieurs vélos-",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne l’achat ou la location longue durée d’un ou plusieurs vélos-",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont les suivants :",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont les suivants :",
+      "confidence": "low"
+    },
+    {
+      "text": "- la documentation technique du vélo-cargo incluant : photo contractuelle du modèle, désignation du modèle,",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- la documentation technique du vélo-cargo incluant : photo contractuelle du modèle, désignation du modèle,",
+      "confidence": "low"
+    },
+    {
+      "text": "- la liasse fiscale du dernier exercice clos à la date d’engagement de l’opération, ou document équivalent permettant",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- la liasse fiscale du dernier exercice clos à la date d’engagement de l’opération, ou document équivalent permettant",
+      "confidence": "low"
+    },
+    {
+      "text": "de justifier l’effectif, ou une attestation sur l’honneur signée par le responsable légal mentionnant les effectifs",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "de justifier l’effectif, ou une attestation sur l’honneur signée par le responsable légal mentionnant les effectifs",
+      "confidence": "low"
+    },
+    {
+      "text": "- L’extrait K ou Kbis, ou extrait RNE, ou document équivalent permettant d’attester de la date de création de l’entité",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- L’extrait K ou Kbis, ou extrait RNE, ou document équivalent permettant d’attester de la date de création de l’entité",
+      "confidence": "low"
+    },
+    {
+      "text": "déclaré sur le dernier exercice clos, ou document équivalent permettant de justifier l’effectif, ou inférieur ou égal à",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "déclaré sur le dernier exercice clos, ou document équivalent permettant de justifier l’effectif, ou inférieur ou égal à",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": true,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-131 vA73-2 à compter du 23-08-2025_0",
+      "code": "TRA-EQ-131",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 : Achat ou location, par une personne morale, de vélos-cargos neufs ou reconditionnés PDF – 111.41 Ko",
+      "path": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-131%20vA73-2%20%C3%A0%20compter%20du%2023-08-2025_0.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-23",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Partie A",
+      "code": "TRA-EQ-131",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Partie A PDF – 98.04 Ko",
+      "path": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-131%20vA73-2%20%C3%A0%20compter%20du%2023-08-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-23",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Partie A à compter du 01-07-2026",
+      "code": "TRA-EQ-131",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Partie A à compter du 01-07-2026 PDF – 103.04 Ko",
+      "path": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-131%20vA73-2%20%C3%A0%20compter%20du%2023-08-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-23",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Annexe 2 à compter du 23-08-2025",
+      "code": "TRA-EQ-131",
+      "document_type": "annexe",
+      "title": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Annexe 2 à compter du 23-08-2025 PDF – 124.35 Ko",
+      "path": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Annexe 2 à compter du 23-08-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-131%20vA73-2%20%C3%A0%20compter%20du%2023-08-2025%20-%20Annexe%202%20%C3%A0%20compter%20du%2023-08-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-23",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-EQ-131",
+      "document_type": "annexe",
+      "title": "TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Annexe 2 à compter du 01-07-2026 PDF – 117.1 Ko",
+      "path": "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-131%20vA73-2%20%C3%A0%20compter%20du%2023-08-2025%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-08-23",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-131 vA73-2 Feuille récapitulative_0",
+      "code": "TRA-EQ-131",
+      "document_type": "feuille_recapitulative",
+      "title": "TRA-EQ-131 vA73-2 Feuille récapitulative XLSX – 11.38 Ko",
+      "path": "Transport_TRA/TRA-EQ-131 vA73-2 Feuille récapitulative_0.xlsx",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-131%20vA73-2%20Feuille%20r%C3%A9capitulative_0.xlsx",
+      "format": "xlsx",
+      "effective_date": null,
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025_0.pdf",
+    "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Partie A.pdf",
+    "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Partie A à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Annexe 2 à compter du 23-08-2025.pdf",
+    "Transport_TRA/TRA-EQ-131 vA73-2 à compter du 23-08-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-131 vA73-2 Feuille récapitulative_0.xlsx"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.872745+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

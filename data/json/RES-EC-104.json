@@ -1,0 +1,346 @@
+{
+  "code": "RES-EC-104",
+  "sector": "reseaux",
+  "family": "EC",
+  "title": "RES-EC-104 vA77-3 à compter du 26-11-2025 : Rénovation d’éclairage extérieur PDF – 126.74 Ko",
+  "version": "vA77-3",
+  "document_version": "vA77-3",
+  "effective_date": "2025-11-26",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-11-26",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "Est éligible à la présente fiche toute rénovation d’éclairage extérieur pour laquelle chaque luminaire neuf ou",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Est éligible à la présente fiche toute rénovation d’éclairage extérieur pour laquelle chaque luminaire neuf ou",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "- les modules LED de température de couleur supérieure ou égale à 2 500 K ont une efficacité lumineuse à 50 % du",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- les modules LED de température de couleur supérieure ou égale à 2 500 K ont une efficacité lumineuse à 50 % du",
+      "confidence": "low"
+    },
+    {
+      "text": "- les modules LED de température de couleur strictement inférieure à 2 500 K ont une efficacité lumineuse à 50 %",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- les modules LED de température de couleur strictement inférieure à 2 500 K ont une efficacité lumineuse à 50 %",
+      "confidence": "low"
+    },
+    {
+      "text": "L'efficacité lumineuse est le ratio entre le flux lumineux total sortant du module LED et la puissance totale du",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "L'efficacité lumineuse est le ratio entre le flux lumineux total sortant du module LED et la puissance totale du",
+      "confidence": "low"
+    },
+    {
+      "text": "de couleur (en kelvin), efficacité lumineuse en lumens par watt à 50 % du flux lumineux nominal (i.e. à pleine",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "de couleur (en kelvin), efficacité lumineuse en lumens par watt à 50 % du flux lumineux nominal (i.e. à pleine",
+      "confidence": "low"
+    },
+    {
+      "text": "- le nombre de luminaires rééquipés et leurs caractéristiques : température de couleur (en kelvin), efficacité",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le nombre de luminaires rééquipés et leurs caractéristiques : température de couleur (en kelvin), efficacité",
+      "confidence": "low"
+    },
+    {
+      "text": "document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme",
+      "confidence": "low"
+    },
+    {
+      "text": "- pour les luminaires neufs : degré de protection du luminaire (IP), température de couleur (en kelvin), efficacité",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- pour les luminaires neufs : degré de protection du luminaire (IP), température de couleur (en kelvin), efficacité",
+      "confidence": "low"
+    },
+    {
+      "text": "- pour les luminaires rééquipés : température de couleur (en kelvin), efficacité lumineuse en lumens par watt à 50 %",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- pour les luminaires rééquipés : température de couleur (en kelvin), efficacité lumineuse en lumens par watt à 50 %",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l'opération mentionne :",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l'opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation indique que l’opération concerne la dépose de luminaires existants ou le",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation indique que l’opération concerne la dépose de luminaires existants ou le",
+      "confidence": "low"
+    },
+    {
+      "text": "que les marque et référence des équipements installés. Dans ce cas, la preuve de réalisation est accompagnée par un",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "que les marque et référence des équipements installés. Dans ce cas, la preuve de réalisation est accompagnée par un",
+      "confidence": "low"
+    },
+    {
+      "text": "document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique les mentions suivantes pour les équipements de marque et référence mis en place :",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique les mentions suivantes pour les équipements de marque et référence mis en place :",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont les suivants :",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont les suivants :",
+      "confidence": "low"
+    },
+    {
+      "text": "- un document daté et signé par le bénéficiaire indiquant la localisation et le nombre des luminaires installés ; la",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- un document daté et signé par le bénéficiaire indiquant la localisation et le nombre des luminaires installés ; la",
+      "confidence": "low"
+    },
+    {
+      "text": "- - une ou des preuves de recyclage des luminaires ou des sources lumineuses déposés dans le cadre de l’opération.",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- - une ou des preuves de recyclage des luminaires ou des sources lumineuses déposés dans le cadre de l’opération.",
+      "confidence": "low"
+    },
+    {
+      "text": "Ces documents sont tenus à disposition par le bénéficiaire pour les besoins de contrôle de l’opération.",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ces documents sont tenus à disposition par le bénéficiaire pour les besoins de contrôle de l’opération.",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "Ces documents sont tenus à disposition par le bénéficiaire pour les besoins de contrôle de l’opération.",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "Ces documents sont tenus à disposition par le bénéficiaire pour les besoins de contrôle de l’opération.",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac par",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac par",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "les zones extérieures couvertes.",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "les zones extérieures couvertes.",
+      "confidence": "low"
+    },
+    {
+      "text": "couvre l'ensemble de l'espace concerné et deux zones de détection successives se chevauchent.",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "couvre l'ensemble de l'espace concerné et deux zones de détection successives se chevauchent.",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "RES-EC-104 vA77-3 à compter du 26-11-2025_1",
+      "code": "RES-EC-104",
+      "document_type": "fiche_principale",
+      "title": "RES-EC-104 vA77-3 à compter du 26-11-2025 : Rénovation d’éclairage extérieur PDF – 126.74 Ko",
+      "path": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-EC-104%20vA77-3%20%C3%A0%20compter%20du%2026-11-2025_1.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-26",
+      "metadata": {}
+    },
+    {
+      "document_id": "RES-EC-104 vA77-3 à compter du 26-11-2025 - Partie A",
+      "code": "RES-EC-104",
+      "document_type": "partie_a",
+      "title": "RES-EC-104 vA77-3 à compter du 26-11-2025 - Partie A PDF – 109.51 Ko",
+      "path": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-EC-104%20vA77-3%20%C3%A0%20compter%20du%2026-11-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-26",
+      "metadata": {}
+    },
+    {
+      "document_id": "RES-EC-104 vA77-3 à compter du 26-11-2025 - Partie A à compter du 01-07-2026",
+      "code": "RES-EC-104",
+      "document_type": "partie_a",
+      "title": "RES-EC-104 vA77-3 à compter du 26-11-2025 - Partie A à compter du 01-07-2026 PDF – 114.03 Ko",
+      "path": "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/RES-EC-104%20vA77-3%20%C3%A0%20compter%20du%2026-11-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-26",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025_1.pdf",
+    "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025 - Partie A.pdf",
+    "Reseaux_RES/RES-EC-104 vA77-3 à compter du 26-11-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.791521+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

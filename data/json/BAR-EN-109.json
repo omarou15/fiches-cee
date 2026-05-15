@@ -1,0 +1,288 @@
+{
+  "code": "BAR-EN-109",
+  "sector": "residentiel",
+  "family": "EN",
+  "title": "BAR-EN-109 vA24-1 : Réduction des apports solaires par la toiture (France d'outre-mer) PDF – 135.8 Ko",
+  "version": "vA24-1",
+  "document_version": "vA24-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": true,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": true
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "L’application de peintures réfléchissantes sur la toiture en place n’est pas éligible dans le cadre de cette fiche.",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "L’application de peintures réfléchissantes sur la toiture en place n’est pas éligible dans le cadre de cette fiche.",
+      "confidence": "low"
+    },
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN 45011 par le",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN 45011 par le",
+      "confidence": "low"
+    },
+    {
+      "text": "organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN 45011 par le Comité",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN 45011 par le Comité",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un dispositif avec ses marque et",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un dispositif avec ses marque et",
+      "confidence": "low"
+    },
+    {
+      "text": "référence et la surface de toiture couverte par le dispositif, et elle est complétée par un document issu du fabricant",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "référence et la surface de toiture couverte par le dispositif, et elle est complétée par un document issu du fabricant",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique que le dispositif de marque et référence mis en place est un système de toiture permettant la",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique que le dispositif de marque et référence mis en place est un système de toiture permettant la",
+      "confidence": "low"
+    },
+    {
+      "text": "ce document est considéré comme valable jusqu’à un an après sa date de fin de validité.",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "ce document est considéré comme valable jusqu’à un an après sa date de fin de validité.",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’une toiture, ou d’éléments de toitures,",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’une toiture, ou d’éléments de toitures,",
+      "confidence": "low"
+    },
+    {
+      "text": "surface de toiture couverte par le dispositif, et elle est complétée par un ou des documents issus du fabricant ou d’un",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "surface de toiture couverte par le dispositif, et elle est complétée par un ou des documents issus du fabricant ou d’un",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce ou ces documents indiquent les caractéristiques techniques des matériaux de marque et référence mis en place",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce ou ces documents indiquent les caractéristiques techniques des matériaux de marque et référence mis en place",
+      "confidence": "low"
+    },
+    {
+      "text": "Dans le cas de la pose d’éléments séparés, le document justificatif spécifique à l’opération est la note de calcul,",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Dans le cas de la pose d’éléments séparés, le document justificatif spécifique à l’opération est la note de calcul,",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "- la liste des éléments constituant la toiture et leurs caractéristiques techniques (couleur ou coefficient d’absorption,",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "- la liste des éléments constituant la toiture et leurs caractéristiques techniques (couleur ou coefficient d’absorption,",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- la liste des éléments constituant la toiture et leurs caractéristiques techniques (couleur ou coefficient d’absorption,",
+      "confidence": "low"
+    },
+    {
+      "text": "(couleur ou coefficient d’absorption, résistance thermique, émissivité, … selon la nature des matériaux).",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "(couleur ou coefficient d’absorption, résistance thermique, émissivité, … selon la nature des matériaux).",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-EN-109 vA24-1",
+      "code": "BAR-EN-109",
+      "document_type": "fiche_principale",
+      "title": "BAR-EN-109 vA24-1 : Réduction des apports solaires par la toiture (France d'outre-mer) PDF – 135.8 Ko",
+      "path": "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-EN-109%20vA24-1.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-EN-109 vA24-1 - Partie A",
+      "code": "BAR-EN-109",
+      "document_type": "partie_a",
+      "title": "BAR-EN-109 vA24-1 - Partie A PDF – 122.55 Ko",
+      "path": "Residentiel_BAR/BAR-EN-109 vA24-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-EN-109%20vA24-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-EN-109 vA24-1 - Partie A à compter du 01-07-2026",
+      "code": "BAR-EN-109",
+      "document_type": "partie_a",
+      "title": "BAR-EN-109 vA24-1 - Partie A à compter du 01-07-2026 PDF – 111.64 Ko",
+      "path": "Residentiel_BAR/BAR-EN-109 vA24-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-EN-109%20vA24-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-EN-109 vA24-1.pdf",
+    "Residentiel_BAR/BAR-EN-109 vA24-1 - Partie A.pdf",
+    "Residentiel_BAR/BAR-EN-109 vA24-1 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.973407+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

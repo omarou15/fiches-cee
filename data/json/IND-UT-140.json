@@ -1,0 +1,170 @@
+{
+  "code": "IND-UT-140",
+  "sector": "industrie",
+  "family": "UT",
+  "title": "IND-UT-140 vA65-1 à compter du 01-01-2025 : Mise en veille automatique d’une machine utilisant de l’air comprimé PDF – 127.86 Ko",
+  "version": "vA65-1",
+  "document_version": "vA65-1",
+  "effective_date": "2025-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne la mise en place d’un dispositif de mise en veille automatique",
+      "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d’un dispositif de mise en veille automatique",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "il est installé et dispose d’un filtre accessible permettant de vérifier la bonne qualité de l’air comprimé.",
+      "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "control_points",
+      "quote": "il est installé et dispose d’un filtre accessible permettant de vérifier la bonne qualité de l’air comprimé.",
+      "confidence": "low"
+    }
+  ],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant du forfait",
+      "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant du forfait",
+      "confidence": "low"
+    },
+    {
+      "text": "(kWhc/(L/min))",
+      "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "(kWhc/(L/min))",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "IND-UT-140 vA65-1 à compter du 01-01-2025_0",
+      "code": "IND-UT-140",
+      "document_type": "fiche_principale",
+      "title": "IND-UT-140 vA65-1 à compter du 01-01-2025 : Mise en veille automatique d’une machine utilisant de l’air comprimé PDF – 127.86 Ko",
+      "path": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-140%20vA65-1%20%C3%A0%20compter%20du%2001-01-2025_0.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A",
+      "code": "IND-UT-140",
+      "document_type": "partie_a",
+      "title": "IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A PDF – 117.16 Ko",
+      "path": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-140%20vA65-1%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026",
+      "code": "IND-UT-140",
+      "document_type": "partie_a",
+      "title": "IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026 PDF – 123.52 Ko",
+      "path": "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/IND-UT-140%20vA65-1%20%C3%A0%20compter%20du%2001-01-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025_0.pdf",
+    "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A.pdf",
+    "Industrie_IND/IND-UT-140 vA65-1 à compter du 01-01-2025 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.604028+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

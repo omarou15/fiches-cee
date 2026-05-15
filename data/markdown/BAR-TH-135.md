@@ -1,0 +1,199 @@
+# BAR-TH-135 - BAR-TH-135 v A35-2 à compter du 01-10-2020 : Chauffe-eau solaire collectif (France d'outre mer) PDF – 145.85 Ko
+- Secteur: residentiel
+- Famille: TH
+- Version: unknown
+- Date d'application: 2020-10-01
+
+## Documents sources
+- `Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020_0.pdf`
+- `Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020 - Partie A.pdf`
+- `Residentiel_BAR/BAR-TH-135 v A35-2 à compter du 01-10-2020 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+- solaire T sont déterminés à partir d’une étude de dimensionnement de l’installation réalisée dans les conditions
+
+## Exigences techniques detectees
+- La superficie hors-tout de capteurs, au sens de la norme ISO 9488, à installer, les besoins annuels en eau chaude
+- sanitaire à produire par l’énergie solaire, l’efficacité énergétique pour le chauffage de l’eau et le taux de couverture
+- L’efficacité énergétique pour le chauffage de l'eau, définie par le règlement (UE) n° 814/2013 de la Commission du
+- - ou des caractéristiques de performances et de qualité équivalentes, établies par un organisme localisé dans l’Espace
+- Economique Européen et accrédité selon la norme NF EN ISO/CEI 17065 par le Comité français d’accréditation
+- - seuil de tenue à l'arrachement du vitrage du (des) capteur(s) supérieur ou égal à 3 000 Pa mesuré selon la norme
+- d'essai ISO 9806, obtenu par un laboratoire accrédité conformément à la norme NF EN ISO/CEI 17065 ;
+- - la tenue à la corrosion des matériaux aux atmosphères extérieures définies dans la norme NF P 24-351, soit a
+- posés et l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau.
+- norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme
+- appoint centralisé (CESC) ou à appoint individualisé (CESCI) et mentionne l’efficacité énergétique pour le
+
+## Pieces justificatives detectees
+- La preuve de réalisation de l’opération mentionne la mise en place d’un chauffe-eau solaire collectif à appoint
+- A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et
+- document(s) issu(s) du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la
+- Ce document indique que l’équipement de marque et référence mis en place est un chauffe-eau solaire collectif à
+- chauffage de l'eau du chauffe-eau. En cas de mention d’une date de validité, ce document est considéré comme
+- Les documents justificatifs spécifiques à l’opération sont :
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac pour
+- Montant en kWh cumac pour un
+- Montant en kWh cumac
+- Montant en kWh cumac pour un
+- B : besoin annuel en eau chaude sanitaire à produire par l’énergie solaire, exprimé en kWh par an et issu de l’étude
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° BAR-TH-135
+
+Chauffe-eau solaire collectif (France d’outre-mer)
+
+1. Secteur d’application
+Bâtiment résidentiel collectif existant ou projets de construction de bâtiments résidentiels collectifs neufs et de
+parties nouvelles de bâtiments résidentiels collectifs existants, en France d’outre-mer.
+
+2. Dénomination
+Mise en place d’un chauffe-eau solaire collectif à appoint centralisé (CESC) ou à appoint individualisé (CESCI)
+pour la production d’eau chaude sanitaire.
+
+3. Conditions pour la délivrance de certificats
+La superficie hors-tout de capteurs, au sens de la norme ISO 9488, à installer, les besoins annuels en eau chaude
+sanitaire à produire par l’énergie solaire, l’efficacité énergétique pour le chauffage de l’eau et le taux de couverture
+solaire T sont déterminés à partir d’une étude de dimensionnement de l’installation réalisée dans les conditions
+suivantes :
+
+Superficie hors-tout S de
+capteurs solaires installés
+Type d’étude exigée
+S ≤ 25 m²
+Etude SOLO, SCHEFF, POLYSUN ou équivalente réalisée par le
+professionnel ou un bureau d’études indépendant.
+25 m² < S
+Dimensionnement réalisé par un bureau d’études indépendant
+« Reconnu Garant pour l’Environnement » pour la réalisation
+d’études d'installations de production utilisant l'énergie solaire
+thermique ou d’études d’ingénierie des installations de production
+utilisant l'énergie solaire thermique.
+
+Nonobstant toute définition différente utilisée par les logiciels susmentionnés, le taux de couverture solaire T est
+défini comme le ratio de l’énergie solaire utile (à la sortie du ballon de stockage pour les CESC ou fournie aux
+ballons d’appoints pour les CESCI) sur les besoins en eau chaude sanitaire de soutirage. Il est supérieur à 50 %.
+
+L’efficacité énergétique pour le chauffage de l'eau, définie par le règlement (UE) n° 814/2013 de la Commission du
+2 août 2013 portant application de la directive 2009/125/CE du Parlement européen et du Conseil en ce qui concerne
+les exigences d'écoconception applicables aux chauffe-eau et aux ballons d'eau chaude, est supérieure ou égale à :
+
+Energie de l’appoint
+Profil de soutirage
+M
+L
+XL
+XXL
+3XL
+4XL
+Electrique à effet Joule
+36 %
+37 %
+38 %
+60 %
+64 %
+64 %
+Autre
+95 %
+100 %
+110 %
+120 %
+120 %
+120 %
+
+La mise en place est réalisée par un professionnel possédant une qualification Qualibat ou Qualit’ENR ou
+équivalente, lui permettant l’installation de système solaire thermique collectif.
+
+Les équipements ont :
+- une certification QB dont le domaine d’emploi de l’avis technique couvre explicitement les départements d’outre-
+mer ;
+- ou des caractéristiques de performances et de qualité équivalentes, établies par un organisme localisé dans l’Espace
+Economique Européen et accrédité selon la norme NF EN ISO/CEI 17065 par le Comité français d’accréditation
+(COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans
+le cadre de la coordination européenne des organismes d’accréditation.
+
+Pour justifier de l’équivalence à la certification QB dans le domaine d’emploi considéré, le procédé doit comporter
+a minima une certification Solar Keymark « Capteur » ou équivalent, et les justificatifs suivants :
+1 / Pour la résistance à l’arrachement :
+- seuil de tenue à l'arrachement du vitrage du (des) capteur(s) supérieur ou égal à 3 000 Pa mesuré selon la norme
+d'essai ISO 9806, obtenu par un laboratoire accrédité conformément à la norme NF EN ISO/CEI 17065 ;
+- note de calcul réalisée selon les Eurocodes par un bureau d’études indépendant validant la tenue des fixations
+vis-à-vis des charges mécaniques, climatiques et sismiques de la zone d’installation de l’équipement.
+2 / Pour la corrosion, un rapport d’étude d’un organisme tiers certifié ISO 9001 validant :
+- la tenue à la corrosion des matériaux aux atmosphères extérieures définies dans la norme NF P 24-351, soit a
+minima de type E17 en ce qui concerne le châssis, la visserie et le système de fixation et a minima de type E16
+pour le capteur et le ballon de stockage ;
+- la compatibilité des matériaux face aux environnements extérieurs spécifiques en outre-mer, par une étude du
+couple électrochimique induit par l’assemblage de ces matériaux.
+
+La preuve de réalisation de l’opération mentionne la mise en place d’un chauffe-eau solaire collectif à appoint
+centralisé (CESC) ou à appoint individualisé (CESCI), la superficie hors-tout totale de capteurs solaires thermiques
+posés et l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau.
+
+A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et
+référence et la superficie hors-tout totale des capteurs solaires thermiques posés, et elle est complétée par un (des)
+document(s) issu(s) du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la
+norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme
+d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination européenne
+des organismes d'accréditation.
+
+Ce document indique que l’équipement de marque et référence mis en place est un chauffe-eau solaire collectif à
+appoint centralisé (CESC) ou à appoint individualisé (CESCI) et mentionne l’efficacité énergétique pour le
+chauffage de l'eau du chauffe-eau. En cas de mention d’une date de validité, ce document est considéré comme
+valable jusqu’à un an après la date de fin de validité.
+
+Les documents justificatifs spécifiques à l’opération sont :
+- l’avis de certification QB susmentionné ou les pièces justifiant de son équivalence ;
+- l’étude de dimensionnement de l’installation et la décision de qualification du prestataire l’ayant réalisée lorsque
+cette qualification est requise ;
+- la décision de qualification ou de certification du professionnel ayant réalisé l’opération.
+
+4. Durée de vie conventionnelle
+20 ans.
+
+5. Montant de certificats en kWh cumac
+
+1 - Logement existant :
+Zone géographique
+Montant en kWh cumac pour
+un chauffe-eau collectif à
+appoint individualisé
+Montant en kWh cumac pour un
+chauffe-eau collectif à appoint
+centralisé
+Toutes zones
+0,148 x B x T
+0,086 x B x T
+
+2 - Logement neuf ou parties nouvelles de logement existant :
+Zone géographique
+Montant en kWh cumac
+pour un chauffe-eau collectif
+à appoint individualisé
+Montant en kWh cumac pour un
+chauffe-eau collectif à appoint
+centralisé
+Guyane
+0,148 x B x (T – 44)
+0,086 x B x (T – 44)
+Réunion / Mayotte / Martinique /
+Guadeloupe
+0,148 x B x (T – 50)
+0,086 x B x (T – 50)
+
+B : besoin annuel en eau chaude sanitaire à produire par l’énergie solaire, exprimé en kWh par an et issu de l’étude
+de dimensionnement.
+
+T : taux de couverture solaire de l’installation déterminé dans l’étude de dimensionnement et tel que 50 < T ≤ 100.
+Pour toute valeur de T supérieure ou égale à 90 %, le taux de couverture T sera pris égal à 90 %.

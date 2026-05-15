@@ -1,0 +1,294 @@
+{
+  "code": "TRA-EQ-129",
+  "sector": "transport",
+  "family": "EQ",
+  "title": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 : Achat ou location d’un véhicule lourd électrique neuf de transport de marchandises ou issu d’une opération de rétrofit électrique PDF – 194.59 Ko",
+  "version": "vA73-3",
+  "document_version": "vA73-3",
+  "effective_date": "2025-11-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2025-11-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": null,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": false,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "thermique en motorisation électrique selon les conditions prévues par l’arrêté du 13 mars 2020 relatif au rétrofit,",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "thermique en motorisation électrique selon les conditions prévues par l’arrêté du 13 mars 2020 relatif au rétrofit,",
+      "confidence": "low"
+    },
+    {
+      "text": "l’arrêté du 9 février 2009 relatif aux modalités d'immatriculation des véhicules, est éligible à la présente fiche si",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "l’arrêté du 9 février 2009 relatif aux modalités d'immatriculation des véhicules, est éligible à la présente fiche si",
+      "confidence": "low"
+    },
+    {
+      "text": "Ne sont pas éligibles les véhicules dont l’achat ou la location a fait l’objet d’une contractualisation avec l’ADEME",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Ne sont pas éligibles les véhicules dont l’achat ou la location a fait l’objet d’une contractualisation avec l’ADEME",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "- la copie du certificat provisoire ou définitif d’immatriculation définitive des véhicules achetés ou loués ou des",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- la copie du certificat provisoire ou définitif d’immatriculation définitive des véhicules achetés ou loués ou des",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont les suivants :",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont les suivants :",
+      "confidence": "low"
+    },
+    {
+      "text": "- pour les véhicules ayant fait l’objet d’une opération de rétrofit électrique, l’attestation de transformation, telle que",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "- pour les véhicules ayant fait l’objet d’une opération de rétrofit électrique, l’attestation de transformation, telle que",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les opérations d’achat ou de location de véhicules lourds neufs, le montant de certificats d’économie d’énergie",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Pour les opérations d’achat ou de location de véhicules lourds neufs, le montant de certificats d’économie d’énergie",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "cumac par véhicule",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumac par véhicule",
+      "confidence": "low"
+    },
+    {
+      "text": "Pour les opérations de rétrofit électrique, le montant de certificats d’économie d’énergie s’établit comme suit :",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Pour les opérations de rétrofit électrique, le montant de certificats d’économie d’énergie s’établit comme suit :",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh",
+      "confidence": "low"
+    },
+    {
+      "text": "cumac par véhicule",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "cumac par véhicule",
+      "confidence": "low"
+    },
+    {
+      "text": "*Le montant de certificats indiqué concerne les véhicules spéciaux achetés ou loués ou issus d’une opération de",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "*Le montant de certificats indiqué concerne les véhicules spéciaux achetés ou loués ou issus d’une opération de",
+      "confidence": "low"
+    },
+    {
+      "text": "**Les montants de certificats indiqués concernent les véhicules spéciaux achetés ou loués ou issus d’une opération",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "**Les montants de certificats indiqués concernent les véhicules spéciaux achetés ou loués ou issus d’une opération",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "TRA-EQ-129 vA73-3 à compter du 01-11-2025",
+      "code": "TRA-EQ-129",
+      "document_type": "fiche_principale",
+      "title": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 : Achat ou location d’un véhicule lourd électrique neuf de transport de marchandises ou issu d’une opération de rétrofit électrique PDF – 194.59 Ko",
+      "path": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-129%20vA73-3%20%C3%A0%20compter%20du%2001-11-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Partie A",
+      "code": "TRA-EQ-129",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Partie A PDF – 128.99 Ko",
+      "path": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-129%20vA73-3%20%C3%A0%20compter%20du%2001-11-2025%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Partie A à compter du 01-07-2026",
+      "code": "TRA-EQ-129",
+      "document_type": "partie_a",
+      "title": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Partie A à compter du 01-07-2026 PDF – 132.43 Ko",
+      "path": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-129%20vA73-3%20%C3%A0%20compter%20du%2001-11-2025%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Annexe 2 à compter du 01-07-2025",
+      "code": "TRA-EQ-129",
+      "document_type": "annexe",
+      "title": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Annexe 2 à compter du 01-07-2025 PDF – 107.78 Ko",
+      "path": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-129%20vA73-3%20%C3%A0%20compter%20du%2001-11-2025%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2025.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Annexe 2 à compter du 01-07-2026",
+      "code": "TRA-EQ-129",
+      "document_type": "annexe",
+      "title": "TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Annexe 2 à compter du 01-07-2026 PDF – 101.11 Ko",
+      "path": "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-129%20vA73-3%20%C3%A0%20compter%20du%2001-11-2025%20-%20Annexe%202%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2025-11-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "TRA-EQ-129 vA73-3 Feuille récapitulative",
+      "code": "TRA-EQ-129",
+      "document_type": "feuille_recapitulative",
+      "title": "TRA-EQ-129 vA73-3 Feuille récapitulative XLSX – 11.9 Ko",
+      "path": "Transport_TRA/TRA-EQ-129 vA73-3 Feuille récapitulative.xlsx",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/TRA-EQ-129%20vA73-3%20Feuille%20r%C3%A9capitulative.xlsx",
+      "format": "xlsx",
+      "effective_date": null,
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025.pdf",
+    "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Partie A.pdf",
+    "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Partie A à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Annexe 2 à compter du 01-07-2025.pdf",
+    "Transport_TRA/TRA-EQ-129 vA73-3 à compter du 01-11-2025 - Annexe 2 à compter du 01-07-2026.pdf",
+    "Transport_TRA/TRA-EQ-129 vA73-3 Feuille récapitulative.xlsx"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.837700+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "code": "AGRI-TH-118",
+  "sector": "agriculture",
+  "family": "TH",
+  "title": "AGRI-TH-118 vA14-1 - Partie A : Double tube de chauffage pour serres PDF – 103.91 Ko",
+  "version": "vA14-1",
+  "document_version": "vA14-1",
+  "effective_date": null,
+  "dates": {
+    "arrete_date": null,
+    "effective_date": null,
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "unknown"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": false,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": false,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [],
+  "technical_requirements": [],
+  "required_documents": [
+    {
+      "text": "définissant le contenu de la partie A de l’attestation sur l’honneur",
+      "source_file": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "définissant le contenu de la partie A de l’attestation sur l’honneur",
+      "confidence": "low"
+    },
+    {
+      "text": "*Date d’engagement de l'opération (ex : date d’acceptation du devis) : …..........................",
+      "source_file": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "*Date d’engagement de l'opération (ex : date d’acceptation du devis) : …..........................",
+      "confidence": "low"
+    },
+    {
+      "text": "Date de preuve de réalisation de l’opération (ex : date de la facture) : ….........................",
+      "source_file": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Date de preuve de réalisation de l’opération (ex : date de la facture) : ….........................",
+      "confidence": "low"
+    },
+    {
+      "text": "Référence de la facture : ….........................",
+      "source_file": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Référence de la facture : ….........................",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": null,
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": true,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "medium",
+      "source_file": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "AGRI-TH-118 vA14-1 - Partie A",
+      "code": "AGRI-TH-118",
+      "document_type": "partie_a",
+      "title": "AGRI-TH-118 vA14-1 - Partie A : Double tube de chauffage pour serres PDF – 103.91 Ko",
+      "path": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-TH-118%20vA14-1%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-TH-118 vA14-1 - Partie A_0",
+      "code": "AGRI-TH-118",
+      "document_type": "partie_a",
+      "title": "AGRI-TH-118 vA14-1 - Partie A PDF – 103.91 Ko",
+      "path": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A_0.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-TH-118%20vA14-1%20-%20Partie%20A_0.pdf",
+      "format": "pdf",
+      "effective_date": null,
+      "metadata": {}
+    },
+    {
+      "document_id": "AGRI-TH-118 vA14-1 - Partie A à compter du 01-07-2026",
+      "code": "AGRI-TH-118",
+      "document_type": "partie_a",
+      "title": "AGRI-TH-118 vA14-1 - Partie A à compter du 01-07-2026 PDF – 108.28 Ko",
+      "path": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/AGRI-TH-118%20vA14-1%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-07-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf",
+    "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A_0.pdf",
+    "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "needs_review",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:57.005444+00:00",
+    "needs_human_review": true,
+    "notes": "Formule non detectee automatiquement. Conditions d'eligibilite non detectees automatiquement."
+  }
+}

@@ -1,0 +1,101 @@
+# BAT-TH-111 - BAT-TH-111 vA17-1 : Chauffe-eau solaire collectif (France métropolitaine) PDF – 115.06 Ko
+- Secteur: tertiaire
+- Famille: TH
+- Version: vA17-1
+- Date d'application: unknown
+
+## Documents sources
+- `Tertiaire_BAT/BAT-TH-111 vA17-1.pdf`
+- `Tertiaire_BAT/BAT-TH-111 vA17-1 - Partie A.pdf`
+- `Tertiaire_BAT/BAT-TH-111 vA17-1 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+- - ou des caractéristiques de performance et de qualité équivalentes établies par un organisme établi dans l'Espace
+- économique européen et accrédité selon les normes NF EN ISO/CEI 17025 et NF EN 45011 par le Comité français
+- fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon les normes NF EN
+
+## Pieces justificatives detectees
+- La preuve de réalisation de l’opération mentionne la mise en place d’un chauffe-eau solaire collectif et la surface
+- À défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et
+- référence et la surface totale de capteurs solaires posés, et elle est complétée par un (des) document(s) issu(s) du
+- Accreditation (EA), coordination européenne des organismes d'accréditation. Ce document indique que
+- Les documents justificatifs spécifiques à l’opération sont :
+- de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après la date de fin de
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac
+- B est le besoin annuel en eau chaude sanitaire à produire par l’énergie solaire exprimé en kWh par an.
+- PES est la production solaire utile (exprimé en kWh/an).
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° BAT-TH-111
+
+Chauffe-eau solaire collectif (France métropolitaine)
+
+
+1. Secteur d’application
+Bâtiments tertiaires existants en France métropolitaine.
+
+2. Dénomination
+Mise en place d’un chauffe-eau solaire collectif pour la production d’eau chaude sanitaire.
+
+3. Conditions pour la délivrance de certificats
+Les capteurs hybrides sont exclus.
+
+La mise en place est réalisée par un professionnel.
+
+Les capteurs ont :
+- une certification CSTBat ou Solarkeymark ;
+- ou des caractéristiques de performance et de qualité équivalentes établies par un organisme établi dans l'Espace
+économique européen et accrédité selon les normes NF EN ISO/CEI 17025 et NF EN 45011 par le Comité français
+d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral
+pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne des
+organismes d’accréditation.
+
+La surface de capteurs à installer, les besoins annuels en eau chaude sanitaire à produire par l’énergie solaire, le taux
+de couverture solaire et la production solaire utile sont déterminés dans l’étude de dimensionnement de l’installation.
+Ce dimensionnement de l’installation est réalisé par un bureau d’étude.
+
+La preuve de réalisation de l’opération mentionne la mise en place d’un chauffe-eau solaire collectif et la surface
+totale de capteurs solaires thermiques posés.
+
+À défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et
+référence et la surface totale de capteurs solaires posés, et elle est complétée par un (des) document(s) issu(s) du
+fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon les normes NF EN
+ISO/CEI 17025 et NF EN 45011 par le Comité français d'accréditation (COFRAC) ou tout autre organisme
+d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de European co-operation for
+Accreditation (EA), coordination européenne des organismes d'accréditation. Ce document indique que
+l’équipement de marque et référence mis en place est un chauffe-eau solaire collectif.
+
+Les documents justificatifs spécifiques à l’opération sont :
+- la certification CSTBat ou SolarKeymark des capteurs solaires, ou les pièces justifiant de son équivalence. En cas
+de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après la date de fin de
+validité.
+- l’étude de dimensionnement de l’installation.
+
+4. Durée de vie conventionnelle
+22 ans.
+
+5. Montant de certificats en kWh cumac
+
+Zone géographique
+Montant en kWh cumac
+Toutes zones
+B x T x 0,196
+
+B est le besoin annuel en eau chaude sanitaire à produire par l’énergie solaire exprimé en kWh par an.
+T est le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100.
+PES est la production solaire utile (exprimé en kWh/an).
+
+Les valeurs de B, T et PES sont issues de l’étude de dimensionnement.

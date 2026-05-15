@@ -1,0 +1,368 @@
+{
+  "code": "BAT-TH-161",
+  "sector": "tertiaire",
+  "family": "TH",
+  "title": "BAT-TH-161 vA62-1 à compter du 31-08-2024 : Maintien en température des groupes électrogènes de secours par pompe à chaleur de type air/eau PDF – 159.29 Ko",
+  "version": "vA62-1",
+  "document_version": "vA62-1",
+  "effective_date": "2024-08-31",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2024-08-31",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": false,
+    "tertiary": true,
+    "collective": false,
+    "individual": false,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": null,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    },
+    {
+      "text": "Le COP susmentionné est déterminé en appliquant les norme et conditions suivantes :",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "Le COP susmentionné est déterminé en appliquant les norme et conditions suivantes :",
+      "confidence": "low"
+    },
+    {
+      "text": "a) NF EN 14511, sous les conditions suivantes de température : température à l’entrée (échangeur extérieur) de 7°C",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "a) NF EN 14511, sous les conditions suivantes de température : température à l’entrée (échangeur extérieur) de 7°C",
+      "confidence": "low"
+    },
+    {
+      "text": "b) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 20°C/",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "b) NF EN 14511, sous les conditions de température : température à l’entrée (échangeur extérieur) de 20°C/",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "Pour les PAC concernées par le règlement (UE) n° 813/2013 de la Commission du 2 août 2013, l’efficacité",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Pour les PAC concernées par le règlement (UE) n° 813/2013 de la Commission du 2 août 2013, l’efficacité",
+      "confidence": "low"
+    },
+    {
+      "text": "Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :",
+      "confidence": "low"
+    },
+    {
+      "text": "Le COP susmentionné est déterminé en appliquant les norme et conditions suivantes :",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "Le COP susmentionné est déterminé en appliquant les norme et conditions suivantes :",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
+      "confidence": "low"
+    },
+    {
+      "text": "l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
+      "confidence": "low"
+    },
+    {
+      "text": "accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne :",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de la réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, dans le cas du a ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, dans le cas du a ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un",
+      "confidence": "low"
+    },
+    {
+      "text": "d’un groupe électrogène et elle est complétée par un document issu du fabricant ou d’un organisme établi dans",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d’un groupe électrogène et elle est complétée par un document issu du fabricant ou d’un organisme établi dans",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique :",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, dans le cas du b ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, dans le cas du b ci-dessus, la preuve de réalisation de l’opération mentionne la mise en place d’un",
+      "confidence": "low"
+    },
+    {
+      "text": "complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et",
+      "confidence": "low"
+    },
+    {
+      "text": "Ce document indique :",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Ce document indique :",
+      "confidence": "low"
+    },
+    {
+      "text": "En cas de mention d’une date de validité, ces documents sont considérés comme valables jusqu’à un an après leur",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "En cas de mention d’une date de validité, ces documents sont considérés comme valables jusqu’à un an après leur",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Dans tous les cas, le coefficient de performance (COP) de la PAC s’élève au moins à :",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche ;",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
+      "confidence": "low"
+    },
+    {
+      "text": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "- le coefficient de performance (COP) de la PAC, mesuré conformément aux exigences de la présente fiche.",
+      "confidence": "low"
+    },
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAT-TH-161 vA62-1 à compter du 31-08-2024_1",
+      "code": "BAT-TH-161",
+      "document_type": "fiche_principale",
+      "title": "BAT-TH-161 vA62-1 à compter du 31-08-2024 : Maintien en température des groupes électrogènes de secours par pompe à chaleur de type air/eau PDF – 159.29 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-161%20vA62-1%20%C3%A0%20compter%20du%2031-08-2024_1.pdf",
+      "format": "pdf",
+      "effective_date": "2024-08-31",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A",
+      "code": "BAT-TH-161",
+      "document_type": "partie_a",
+      "title": "BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A PDF – 136.52 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-161%20vA62-1%20%C3%A0%20compter%20du%2031-08-2024%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2024-08-31",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A à compter du 01-07-2026",
+      "code": "BAT-TH-161",
+      "document_type": "partie_a",
+      "title": "BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A à compter du 01-07-2026 PDF – 141.73 Ko",
+      "path": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAT-TH-161%20vA62-1%20%C3%A0%20compter%20du%2031-08-2024%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2024-08-31",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",
+    "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A.pdf",
+    "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:30:00.161278+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

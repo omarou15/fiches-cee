@@ -1,0 +1,457 @@
+{
+  "code": "BAR-TH-125",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-125 vA54-5 à compter du 01-01-2024 : Système de ventilation double flux autoréglable ou modulé à haute performance (France métropolitaine) PDF – 146.04 Ko",
+  "version": "vA54-5",
+  "document_version": "vA54-5",
+  "effective_date": "2024-01-01",
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2024-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": true,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": false,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": true,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "3. Conditions pour la délivrance de certificats",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "eligibility",
+      "quote": "3. Conditions pour la délivrance de certificats",
+      "confidence": "low"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "à haute performance (France métropolitaine)",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "à haute performance (France métropolitaine)",
+      "confidence": "low"
+    },
+    {
+      "text": "La centrale double-flux est autoréglable ou à modulation hygroréglable et est de classe d’efficacité énergétique A",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La centrale double-flux est autoréglable ou à modulation hygroréglable et est de classe d’efficacité énergétique A",
+      "confidence": "low"
+    },
+    {
+      "text": "double flux présente un rapport de température (efficacité thermique) mesuré selon la norme NF EN 13141-7",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "double flux présente un rapport de température (efficacité thermique) mesuré selon la norme NF EN 13141-7",
+      "confidence": "low"
+    },
+    {
+      "text": "selon la norme NF EN ISO/CEI 17065 par le comité français d’accréditation (COFRAC) ou tout autre organisme",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "selon la norme NF EN ISO/CEI 17065 par le comité français d’accréditation (COFRAC) ou tout autre organisme",
+      "confidence": "low"
+    },
+    {
+      "text": "des organismes d’accréditation. Est réputé satisfaire cette exigence de rapport de température (efficacité thermique),",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "des organismes d’accréditation. Est réputé satisfaire cette exigence de rapport de température (efficacité thermique),",
+      "confidence": "low"
+    },
+    {
+      "text": "- la classe d’efficacité énergétique de la centrale double flux selon le règlement européen (UE) n° 1254/2014 de la",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- la classe d’efficacité énergétique de la centrale double flux selon le règlement européen (UE) n° 1254/2014 de la",
+      "confidence": "low"
+    },
+    {
+      "text": "- le rapport de température mesuré selon la norme NF EN 13141-7 et certifié ou faisant référence à la certification",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "- le rapport de température mesuré selon la norme NF EN 13141-7 et certifié ou faisant référence à la certification",
+      "confidence": "low"
+    },
+    {
+      "text": "l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français",
+      "confidence": "low"
+    },
+    {
+      "text": "d’extraction autoréglables ou hygroréglables. Ce(s) document(s) précise(nt) également la classe énergétique du",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "d’extraction autoréglables ou hygroréglables. Ce(s) document(s) précise(nt) également la classe énergétique du",
+      "confidence": "low"
+    },
+    {
+      "text": "caisson de ventilation double flux, le rapport de température de l’échangeur mesuré selon la norme NF EN 13141-",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "caisson de ventilation double flux, le rapport de température de l’échangeur mesuré selon la norme NF EN 13141-",
+      "confidence": "low"
+    },
+    {
+      "text": "La centrale double flux est collective et autoréglable.  L’échangeur de chaleur est collectif, a un rendement en",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "La centrale double flux est collective et autoréglable.  L’échangeur de chaleur est collectif, a un rendement en",
+      "confidence": "low"
+    },
+    {
+      "text": "température (efficacité thermique) supérieur ou égal à 75 % selon la norme NF EN 308 et est certifié par un",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "technical_requirements",
+      "quote": "température (efficacité thermique) supérieur ou égal à 75 % selon la norme NF EN 308 et est certifié par un",
+      "confidence": "low"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de réalisation de l’opération mentionne :",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place des équipements avec leurs marques et",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place des équipements avec leurs marques et",
+      "confidence": "low"
+    },
+    {
+      "text": "références et elle est accompagnée d’un ou plusieurs document(s) issu(s) du fabricant ou d’un organisme établi dans",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "références et elle est accompagnée d’un ou plusieurs document(s) issu(s) du fabricant ou d’un organisme établi dans",
+      "confidence": "low"
+    },
+    {
+      "text": "d’extraction autoréglables ou hygroréglables. Ce(s) document(s) précise(nt) également la classe énergétique du",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "d’extraction autoréglables ou hygroréglables. Ce(s) document(s) précise(nt) également la classe énergétique du",
+      "confidence": "low"
+    },
+    {
+      "text": "La preuve de réalisation de l’opération mentionne :",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "La preuve de réalisation de l’opération mentionne :",
+      "confidence": "low"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place des équipements avec leurs marques et",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place des équipements avec leurs marques et",
+      "confidence": "low"
+    },
+    {
+      "text": "références et elle est accompagnée d’un ou plusieurs document(s) issu(s) du fabricant ou d’un organisme établi dans",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "références et elle est accompagnée d’un ou plusieurs document(s) issu(s) du fabricant ou d’un organisme établi dans",
+      "confidence": "low"
+    },
+    {
+      "text": "autoréglables. Ce(s) document(s) précisent le rendement en température de l’échangeur de chaleur déterminé selon",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "autoréglables. Ce(s) document(s) précisent le rendement en température de l’échangeur de chaleur déterminé selon",
+      "confidence": "low"
+    },
+    {
+      "text": "3.3 Document justificatif spécifique :",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "3.3 Document justificatif spécifique :",
+      "confidence": "low"
+    },
+    {
+      "text": "Dans le cas d’une installation individuelle à modulation hygroréglable, le document justificatif spécifique à",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "required_documents",
+      "quote": "Dans le cas d’une installation individuelle à modulation hygroréglable, le document justificatif spécifique à",
+      "confidence": "low"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [],
+  "calculation": {
+    "formula_text": "5. Montant de certificats en kWh cumac",
+    "variables": [],
+    "tables": []
+  },
+  "formulas": [
+    {
+      "text": "5. Montant de certificats en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "5. Montant de certificats en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    },
+    {
+      "text": "Montant en kWh cumac",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "formula",
+      "quote": "Montant en kWh cumac",
+      "confidence": "low"
+    }
+  ],
+  "zones": [
+    {
+      "text": "Zone climatique",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone climatique",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone climatique",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone climatique",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    },
+    {
+      "text": "Zone climatique",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "Zone climatique",
+      "confidence": "low"
+    },
+    {
+      "text": "H1",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H1",
+      "confidence": "low"
+    },
+    {
+      "text": "H2",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H2",
+      "confidence": "low"
+    },
+    {
+      "text": "H3",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "page": null,
+      "section_title": "zones",
+      "quote": "H3",
+      "confidence": "low"
+    }
+  ],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "puissance_pac",
+      "unit": "kW",
+      "required": true,
+      "reason": "dimensionnement et controle de coherence",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf"
+    },
+    {
+      "field": "cop_etou_etasp",
+      "unit": null,
+      "required": true,
+      "reason": "performance technique de la pompe a chaleur",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf"
+    },
+    {
+      "field": "surface_ou_nombre_logements",
+      "unit": null,
+      "required": true,
+      "reason": "perimetre de l'operation et calcul",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": null,
+    "attestation_required": false,
+    "photos_required": false,
+    "manufacturer_datasheet_required": false
+  },
+  "risks": [
+    {
+      "risk": "Extraction automatique heuristique : verifier les champs metier avant usage operationnel.",
+      "severity": "low",
+      "source_file": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-125 vA54-5 à compter du 01-01-2024_1",
+      "code": "BAR-TH-125",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-125 vA54-5 à compter du 01-01-2024 : Système de ventilation double flux autoréglable ou modulé à haute performance (France métropolitaine) PDF – 146.04 Ko",
+      "path": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-125%20vA54-5%20%C3%A0%20compter%20du%2001-01-2024_1.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-125 vA54-5 à compter du 01-01-2024 - Partie A",
+      "code": "BAR-TH-125",
+      "document_type": "partie_a",
+      "title": "BAR-TH-125 vA54-5 à compter du 01-01-2024 - Partie A PDF – 120.12 Ko",
+      "path": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-125%20vA54-5%20%C3%A0%20compter%20du%2001-01-2024%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-125 vA54-5 à compter du 01-01-2024 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-125",
+      "document_type": "partie_a",
+      "title": "BAR-TH-125 vA54-5 à compter du 01-01-2024 - Partie A à compter du 01-07-2026 PDF – 124.47 Ko",
+      "path": "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-125%20vA54-5%20%C3%A0%20compter%20du%2001-01-2024%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2024-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024_1.pdf",
+    "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-125 vA54-5 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "extracted",
+    "tool": "scripts/build_indexes.py",
+    "extracted_at": "2026-05-15T15:29:58.349940+00:00",
+    "needs_human_review": false,
+    "notes": null
+  }
+}

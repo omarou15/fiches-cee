@@ -1,0 +1,105 @@
+# BAR-EN-108 - BAR-EN-108 vA54-3 à compter du 01-01-2024 : Fermeture isolante PDF – 121.83 Ko
+- Secteur: residentiel
+- Famille: EN
+- Version: vA54-3
+- Date d'application: 2024-01-01
+
+## Documents sources
+- `Residentiel_BAR/BAR-EN-108 vA54-3 à compter du 01-01-2024_1.pdf`
+- `Residentiel_BAR/BAR-EN-108 vA54-3 à compter du 01-01-2024 - Partie A.pdf`
+- `Residentiel_BAR/BAR-EN-108 vA54-3 à compter du 01-01-2024 - Partie A à compter du 01-07-2026.pdf`
+
+## Extraction automatique
+- Statut: extracted
+- Revue humaine requise: False
+- Notes: 
+
+## Conditions detectees
+- 3. Conditions pour la délivrance de certificats
+
+## Exigences techniques detectees
+- organisme établi dans l’Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le
+
+## Pieces justificatives detectees
+- La preuve de réalisation de l’opération mentionne :
+- A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec
+- leur marque et référence et la quantité installée et elle est complétée par un document issu du fabricant ou d’un
+- Ce document indique que l’équipement de marque et référence mis en place est une fermeture et précise ses
+- validité, ce document est considéré comme valable jusqu’à un an après sa date de fin de validité.
+- Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel
+
+## Formules / calcul detectes
+- 5. Montant de certificats en kWh cumac
+- Montant en kWh cumac
+
+## Texte extrait
+Certificats d’économies d’énergie
+
+Opération n° BAR-EN-108
+
+Fermeture isolante
+
+1. Secteur d’application
+Bâtiments résidentiels existants.
+
+2. Dénomination
+Mise en place ou remplacement d’une fermeture isolante sur fenêtre ou porte-fenêtre existante.
+
+La présente fiche est applicable aux opérations engagées avant le 1er juillet 2028.
+
+3. Conditions pour la délivrance de certificats
+La résistance thermique additionnelle de la fermeture isolante ΔR est telle que :
+- ΔR > 0,22 m².K/W
+
+La mise en place est réalisée par un professionnel.
+
+Le professionnel réalisant l’opération est titulaire d’un signe de qualité conforme aux exigences prévues à l’article
+2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du
+code général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des
+textes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 9° du I de l'article 1er du
+décret précité.
+
+La preuve de réalisation de l’opération mentionne :
+- la mise en place d’une ou plusieurs fermeture(s) ;
+- et le nombre de fermetures ;
+- et la surface des fermetures ;
+- et la résistance thermique additionnelle ΔR de la ou des fermeture(s) installée(s).
+
+A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un ou plusieurs équipements avec
+leur marque et référence et la quantité installée et elle est complétée par un document issu du fabricant ou d’un
+organisme établi dans l’Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le
+Comité français d’accréditation (COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen
+multilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne
+des organismes d’accréditation.
+
+Ce document indique que l’équipement de marque et référence mis en place est une fermeture et précise ses
+caractéristiques thermiques (résistance thermique additionnelle) et sa surface. En cas de mention d’une date de
+validité, ce document est considéré comme valable jusqu’à un an après sa date de fin de validité.
+
+Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel
+délivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé.
+
+4. Durée de vie conventionnelle
+30 ans.
+
+5. Montant de certificats en kWh cumac
+
+
+
+
+Zone
+climatique
+Montant en kWh cumac
+par m² de surface de
+fermeture isolante posée
+Surface totale de
+fermeture isolante
+posée (m²)
+H1
+510
+X
+S
+H2
+420
+H3
+280
