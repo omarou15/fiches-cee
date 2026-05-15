@@ -48,6 +48,16 @@ Le dossier `_CEE_complements` contient les elements importants des autres pages 
 
 Ce dossier est volontairement selectif : il ne contient pas toutes les archives historiques, seulement les documents utiles et les pages de reference.
 
+## Vers un CEE Knowledge Engine
+
+Le depot contient maintenant une couche de conception pour transformer cette archive en base de connaissance exploitable par IA :
+
+- `docs/CEE_KNOWLEDGE_ENGINE.md` : architecture RAG/MCP cible ;
+- `docs/DATA_CONVENTIONS.md` : conventions de nommage, chunks, metadonnees et champs critiques ;
+- `schemas/` : schemas JSON pour les fiches, documents et rapports d'extraction ;
+- `scripts/README.md` : pipeline reproductible recommande ;
+- `data/README.md` : structure cible des donnees derivees.
+
 ## Note
 
 La page officielle du ministere classe les fiches en six secteurs : agriculture, residentiel, tertiaire, industrie, reseaux et transport.

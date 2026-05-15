@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/schemas/extraction_report.schema.json",
+  "title": "Rapport d'extraction CEE",
+  "type": "object",
+  "required": ["generated_at", "summary", "items"],
+  "properties": {
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "tool_version": {
+      "type": ["string", "null"]
+    },
+    "summary": {
+      "type": "object",
+      "required": ["total_documents", "extracted", "failed", "needs_review"],
+      "properties": {
+        "total_documents": { "type": "integer", "minimum": 0 },
+        "extracted": { "type": "integer", "minimum": 0 },
+        "failed": { "type": "integer", "minimum": 0 },
+        "needs_review": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_file", "status"],
+        "properties": {
+          "source_file": { "type": "string" },
+          "output_files": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "status": {
+            "type": "string",
+            "enum": ["not_started", "extracted", "needs_review", "validated", "failed"]
+          },
+          "text_length": {
+            "type": ["integer", "null"],
+            "minimum": 0
+          },
+          "warnings": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "error": {
+            "type": ["string", "null"]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
