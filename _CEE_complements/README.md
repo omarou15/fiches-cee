@@ -14,6 +14,7 @@ Le but n'est pas de faire un miroir complet des archives du ministere. Les eleme
 - documents 2026 pour les lettres d'information, flash infos et statistiques ;
 - guides, doctrine, catalogues et formulaires utiles pour les programmes CEE ;
 - textes consolides ou recents pour le dispositif general.
+- ensemble complet des documents associes a la page Questions-reponses CEE.
 
 Les conventions anciennes, supports d'ateliers historiques, tableaux repetitifs et archives non essentielles ont ete volontairement exclus.
 
