@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/schemas/dossier_predepot.schema.json",
+  "title": "Dossier CEE pre-depot",
+  "type": "object",
+  "required": ["generated_at", "operation_id", "fiche_code", "status", "eligibility", "calculation", "document_check", "missing_questions", "risks", "sources", "no_hallucination"],
+  "properties": {
+    "generated_at": { "type": "string", "format": "date-time" },
+    "operation_id": { "type": "string" },
+    "fiche_code": { "type": "string" },
+    "status": { "type": "string", "enum": ["pret_predepot", "incomplet_questions", "a_risque", "non_eligible"] },
+    "summary": { "type": "string" },
+    "eligibility": {
+      "type": "object",
+      "required": ["eligible", "checks"],
+      "properties": {
+        "eligible": { "type": ["boolean", "null"] },
+        "checks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "label", "status"],
+            "properties": {
+              "id": { "type": "string" },
+              "label": { "type": "string" },
+              "status": { "type": "string", "enum": ["pass", "fail", "missing", "warning"] },
+              "detail": { "type": ["string", "null"] },
+              "source": { "type": ["string", "null"] },
+              "blocking": { "type": "boolean" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "calculation": {
+      "type": "object",
+      "required": ["status", "formula_text", "missing_inputs"],
+      "properties": {
+        "status": { "type": "string", "enum": ["computed", "missing_inputs", "not_applicable"] },
+        "formula_text": { "type": ["string", "null"] },
+        "kwh_cumac": { "type": ["number", "null"] },
+        "unit": { "type": ["string", "null"] },
+        "inputs": { "type": "object", "additionalProperties": true },
+        "amount_row": { "type": ["object", "null"], "additionalProperties": true },
+        "r_factor": { "type": ["object", "null"], "additionalProperties": true },
+        "missing_inputs": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "document_check": { "$ref": "https://github.com/omarou15/fiches-cee/schemas/document_check.schema.json" },
+    "missing_questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "field_path", "question", "blocking"],
+        "properties": {
+          "id": { "type": "string" },
+          "field_path": { "type": "string" },
+          "question": { "type": "string" },
+          "expected_input": { "type": ["string", "null"] },
+          "blocking": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "severity", "text"],
+        "properties": {
+          "id": { "type": "string" },
+          "severity": { "type": "string", "enum": ["low", "medium", "high"] },
+          "text": { "type": "string" },
+          "source": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "path"],
+        "properties": {
+          "label": { "type": "string" },
+          "path": { "type": "string" },
+          "page": { "type": ["integer", "null"] },
+          "section": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "no_hallucination": {
+      "type": "object",
+      "required": ["invented_values", "unknown_fields"],
+      "properties": {
+        "invented_values": { "type": "boolean" },
+        "unknown_fields": { "type": "array", "items": { "type": "string" } },
+        "rule": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

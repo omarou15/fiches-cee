@@ -30,6 +30,7 @@ def main() -> int:
     pdf_audit_path = REPO_ROOT / "data" / "indexes" / "pdf_audit_unique_fiches.json"
     formulas_index_path = REPO_ROOT / "data" / "indexes" / "formulas_cee_index.json"
     formula_audit_path = REPO_ROOT / "data" / "indexes" / "formula_audit_report.json"
+    dossier_examples_dir = REPO_ROOT / "examples" / "dossier_agent"
 
     fiche_files = sorted(json_dir.glob("*.json"))
     if not fiche_files:
@@ -110,6 +111,14 @@ def main() -> int:
         summary = report.get("summary", {})
         if summary.get("needs_review") or summary.get("failed") or summary.get("total_missing_values"):
             errors.append("formula_audit_report.json: unresolved formula audit issues")
+
+    if dossier_examples_dir.exists() and jsonschema:
+        client_operation_schema = load_json(REPO_ROOT / "schemas" / "client_operation.schema.json")
+        for example_path in sorted(dossier_examples_dir.glob("*.json")):
+            try:
+                jsonschema.validate(load_json(example_path), client_operation_schema)
+            except Exception as exc:
+                errors.append(f"{example_path.name}: client operation schema error: {exc}")
 
     if errors:
         print("Validation failed:")

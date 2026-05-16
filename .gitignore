@@ -1,0 +1,9 @@
+# Local client cases and generated dossier packs must never be committed.
+dossiers_local/
+client_cases/
+cases/
+.local_dossiers/
+
+# Python caches
+__pycache__/
+.pytest_cache/

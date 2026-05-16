@@ -67,6 +67,21 @@ Le pipeline produit maintenant des donnees derivees exploitables :
 - `data/indexes/formulas_cee_index.json` : formules de calcul extraites des sections 5 ;
 - `data/curated/` : enrichissements metier verifies, reappliques a chaque build.
 
+## CEE Dossier Agent
+
+Le depot contient aussi une V1 d'agent pre-depot CEE sans SaaS CRM :
+
+- `docs/CEE_DOSSIER_AGENT.md` : workflow et regles anti-hallucination ;
+- `docs/CHATGPT_5_5_DOSSIER_PROMPT.md` : prompt operationnel pour ChatGPT ;
+- `schemas/client_operation.schema.json` : entree client structuree ;
+- `schemas/dossier_predepot.schema.json` : sortie pre-depot ;
+- `schemas/document_check.schema.json` : controle documentaire ;
+- `scripts/dossier_agent.py` : moteur strict BAR-TH-179 ;
+- `examples/dossier_agent/` : cas anonymises de test.
+
+Les dossiers clients reels doivent rester hors du repo public. Les sorties locales
+peuvent etre generees dans `dossiers_local/`, ignore par Git.
+
 ## Note
 
 La page officielle du ministere classe les fiches en six secteurs : agriculture, residentiel, tertiaire, industrie, reseaux et transport.

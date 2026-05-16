@@ -41,6 +41,11 @@ Ce dossier est reserve au futur pipeline reproductible.
 8. `search_fiches.py`
    - recherche un code exact ou une requete plein texte dans les fiches et chunks.
 
+9. `dossier_agent.py`
+   - genere un pack CEE pre-depot local a partir d'un `client_operation.json` ;
+   - couvre strictement `BAR-TH-179` en V1 ;
+   - marque toute donnee absente comme question bloquante au lieu de l'inventer.
+
 ## Commandes
 
 Generer les donnees derivees :
@@ -74,6 +79,12 @@ python scripts/search_fiches.py "BAR-TH-179"
 python scripts/search_fiches.py "PAC collective"
 python scripts/search_fiches.py "PAC collective" --sector residentiel --family TH
 python scripts/search_fiches.py "dimensionnement pompe à chaleur" --priority-energyco --markdown
+```
+
+Generer un pack pre-depot BAR-TH-179 local :
+
+```bash
+python scripts/dossier_agent.py examples/dossier_agent/bar_th_179_complete.json --output dossiers_local/demo_bar_th_179
 ```
 
 ## Regle

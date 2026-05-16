@@ -99,6 +99,23 @@ Un MCP Server CEE pourrait exposer :
 - `find_control_risks(code, operation_json)`
 - `compare_versions(code)`
 
+## Couche CEE Dossier Agent
+
+La premiere couche agentique executable est documentee dans
+`docs/CEE_DOSSIER_AGENT.md`.
+
+Elle ajoute un flux pre-depot sans SaaS CRM :
+
+- entree client structuree par `schemas/client_operation.schema.json` ;
+- controle documentaire par `schemas/document_check.schema.json` ;
+- sortie pre-depot par `schemas/dossier_predepot.schema.json` ;
+- moteur strict `scripts/dossier_agent.py` ;
+- cas anonymises dans `examples/dossier_agent/`.
+
+La V1 couvre volontairement `BAR-TH-179`. Les dossiers clients reels restent
+hors du depot public et doivent etre geres localement ou dans la conversation
+ChatGPT de l'utilisateur.
+
 ## Regles RAG
 
 Pour eviter les reponses fragiles :

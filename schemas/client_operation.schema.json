@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/schemas/client_operation.schema.json",
+  "title": "Operation client CEE",
+  "type": "object",
+  "required": ["operation_id", "fiche_code", "beneficiary", "site", "operation", "professional", "documents", "non_cumulation"],
+  "properties": {
+    "operation_id": { "type": "string", "minLength": 1 },
+    "fiche_code": { "type": "string", "pattern": "^(AGRI|BAR|BAT|IND|RES|TRA)-[A-Z]+-[0-9]+$" },
+    "source_summary": { "type": ["string", "null"] },
+    "beneficiary": {
+      "type": "object",
+      "properties": {
+        "type": { "type": ["string", "null"] },
+        "name": { "type": ["string", "null"] },
+        "address": { "type": ["string", "null"] },
+        "siren": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "site": {
+      "type": "object",
+      "properties": {
+        "address": { "type": ["string", "null"] },
+        "postal_code": { "type": ["string", "null"] },
+        "climate_zone": { "type": ["string", "null"], "enum": ["H1", "H2", "H3", "unknown", null] },
+        "building_type": { "type": ["string", "null"] },
+        "existing_building": { "type": ["boolean", "null"] },
+        "residential_collective": { "type": ["boolean", "null"] },
+        "apartment_count_heated_by_pac": { "type": ["number", "null"], "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "operation": {
+      "type": "object",
+      "properties": {
+        "engagement_date": { "type": ["string", "null"], "format": "date" },
+        "completion_date": { "type": ["string", "null"], "format": "date" },
+        "usage": { "type": ["string", "null"] },
+        "pac_type": { "type": ["string", "null"] },
+        "heating_system_collective": { "type": ["boolean", "null"] },
+        "pac_nominal_power_kw": { "type": ["number", "null"], "minimum": 0 },
+        "chaufferie_useful_power_after_works_kw": { "type": ["number", "null"], "minimum": 0 },
+        "backup_equipment_excluded": { "type": ["boolean", "null"] },
+        "etas_percent": { "type": ["number", "null"], "minimum": 0 },
+        "application_temperature": { "type": ["string", "null"] },
+        "emitter_types": { "type": "array", "items": { "type": "string" } },
+        "dhw_priority_by_pac": { "type": ["boolean", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "professional": {
+      "type": "object",
+      "properties": {
+        "name": { "type": ["string", "null"] },
+        "rge_quality_sign": { "type": ["boolean", "null"] },
+        "qualification_document_provided": { "type": ["boolean", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "documents": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "provided": { "type": ["boolean", "null"] },
+          "signed": { "type": ["boolean", "null"] },
+          "dated": { "type": ["boolean", "null"] },
+          "given_at_engagement": { "type": ["boolean", "null"] },
+          "updated_if_needed": { "type": ["boolean", "null"] },
+          "notes": { "type": ["string", "null"] }
+        },
+        "additionalProperties": true
+      }
+    },
+    "non_cumulation": {
+      "type": "object",
+      "properties": {
+        "uses_bar_th_169": { "type": ["boolean", "null"] }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,57 @@
+{
+  "operation_id": "demo-bar-th-179-incomplete",
+  "fiche_code": "BAR-TH-179",
+  "source_summary": "Cas anonymise incomplet : valeurs et pieces critiques absentes.",
+  "beneficiary": {
+    "type": "copropriete",
+    "name": "Beneficiaire Exemple",
+    "address": "22 avenue Exemple, 75000 Paris",
+    "siren": null
+  },
+  "site": {
+    "address": "22 avenue Exemple, 75000 Paris",
+    "postal_code": "75000",
+    "climate_zone": "H1",
+    "building_type": "residentiel_collectif",
+    "existing_building": true,
+    "residential_collective": true,
+    "apartment_count_heated_by_pac": 18
+  },
+  "operation": {
+    "engagement_date": "2026-06-01",
+    "completion_date": null,
+    "usage": "chauffage",
+    "pac_type": "air_eau",
+    "heating_system_collective": true,
+    "pac_nominal_power_kw": 72,
+    "chaufferie_useful_power_after_works_kw": 260,
+    "backup_equipment_excluded": null,
+    "etas_percent": null,
+    "application_temperature": "moyenne_haute_temperature",
+    "emitter_types": ["radiateurs"],
+    "dhw_priority_by_pac": null
+  },
+  "professional": {
+    "name": "Installateur Exemple",
+    "rge_quality_sign": null,
+    "qualification_document_provided": false
+  },
+  "documents": {
+    "dimensioning_study": {
+      "provided": false,
+      "signed": null,
+      "dated": null,
+      "given_at_engagement": null,
+      "updated_if_needed": null
+    },
+    "proof_of_completion": { "provided": false },
+    "professional_qualification": { "provided": false },
+    "manufacturer_datasheet": { "provided": false },
+    "attestation_honor": { "provided": false },
+    "quote_or_order": { "provided": true },
+    "invoice": { "provided": false }
+  },
+  "non_cumulation": {
+    "uses_bar_th_169": null
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "operation_id": "demo-bar-th-179-ecs-only",
+  "fiche_code": "BAR-TH-179",
+  "source_summary": "Cas anonymise non eligible : PAC uniquement pour l'eau chaude sanitaire.",
+  "beneficiary": {
+    "type": "copropriete",
+    "name": "Beneficiaire Exemple",
+    "address": "5 rue Exemple, 33000 Bordeaux",
+    "siren": null
+  },
+  "site": {
+    "address": "5 rue Exemple, 33000 Bordeaux",
+    "postal_code": "33000",
+    "climate_zone": "H2",
+    "building_type": "residentiel_collectif",
+    "existing_building": true,
+    "residential_collective": true,
+    "apartment_count_heated_by_pac": 12
+  },
+  "operation": {
+    "engagement_date": "2026-05-20",
+    "completion_date": "2026-08-15",
+    "usage": "ecs_only",
+    "pac_type": "air_eau",
+    "heating_system_collective": true,
+    "pac_nominal_power_kw": 60,
+    "chaufferie_useful_power_after_works_kw": 180,
+    "backup_equipment_excluded": true,
+    "etas_percent": 130,
+    "application_temperature": "moyenne_haute_temperature",
+    "emitter_types": [],
+    "dhw_priority_by_pac": true
+  },
+  "professional": {
+    "name": "Installateur Exemple",
+    "rge_quality_sign": true,
+    "qualification_document_provided": true
+  },
+  "documents": {
+    "dimensioning_study": {
+      "provided": true,
+      "signed": true,
+      "dated": true,
+      "given_at_engagement": true,
+      "updated_if_needed": true
+    },
+    "proof_of_completion": { "provided": true },
+    "professional_qualification": { "provided": true },
+    "manufacturer_datasheet": { "provided": true },
+    "attestation_honor": { "provided": true },
+    "quote_or_order": { "provided": true },
+    "invoice": { "provided": true }
+  },
+  "non_cumulation": {
+    "uses_bar_th_169": false
+  }
+}

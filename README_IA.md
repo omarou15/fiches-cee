@@ -36,6 +36,15 @@ Pour une IA :
 4. Si la reponse a un impact dossier, citer le PDF source.
 5. Si la question depend d'une date, verifier la page officielle du ministere.
 
+## Pour monter un dossier CEE pre-depot
+
+1. Lire `docs/CHATGPT_5_5_DOSSIER_PROMPT.md`.
+2. Transformer les informations client en `client_operation.json`.
+3. Valider la structure avec `schemas/client_operation.schema.json`.
+4. Pour la V1, traiter uniquement `BAR-TH-179` avec `scripts/dossier_agent.py`.
+5. Generer un pack local hors repo public.
+6. Si une donnee ou piece manque, poser une question precise et ne jamais inventer.
+
 ## Regle anti-hallucination
 
 Les champs vides, `null`, `unknown` ou `needs_human_review: true` signifient que l'information n'a pas ete extraite avec assez de confiance.

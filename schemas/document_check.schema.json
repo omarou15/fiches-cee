@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/schemas/document_check.schema.json",
+  "title": "Controle documentaire CEE",
+  "type": "object",
+  "required": ["operation_id", "fiche_code", "documents"],
+  "properties": {
+    "operation_id": { "type": "string" },
+    "fiche_code": { "type": "string" },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "required", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "required": { "type": "boolean" },
+          "status": { "type": "string", "enum": ["received", "missing", "non_conform", "unknown", "not_required"] },
+          "issues": { "type": "array", "items": { "type": "string" } },
+          "source": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
