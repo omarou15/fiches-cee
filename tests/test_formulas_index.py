@@ -40,6 +40,16 @@ def test_formula_extraction_handles_table_and_direct_expression_shapes():
     assert "N" in bar_th_179["variable_names"]
     assert "R" in bar_th_179["variable_names"]
 
+    bar_th_101 = by_code(index, "BAR-TH-101")
+    assert bar_th_101["formula_text"] == "Montant CEE = forfait selon zone climatique"
+    assert bar_th_101["amount_table_count"] == 3
+    bar_th_101_json = json.loads((ROOT / "data/json/BAR-TH-101.json").read_text(encoding="utf-8"))
+    assert bar_th_101_json["calculation"]["amount_table"] == [
+        {"table_type": "zone_fixed_amount", "zone": "H1", "kwh_cumac": 18500},
+        {"table_type": "zone_fixed_amount", "zone": "H2", "kwh_cumac": 21000},
+        {"table_type": "zone_fixed_amount", "zone": "H3", "kwh_cumac": 24200},
+    ]
+
     bar_th_135 = by_code(index, "BAR-TH-135")
     assert "0,148 x B x T" in bar_th_135["formula_text"]
     assert "0,086 x B x (T" in bar_th_135["formula_text"]

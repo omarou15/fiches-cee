@@ -238,22 +238,49 @@
   "attestation_fields": [],
   "control_points": [],
   "calculation": {
-    "formula_text": "Montant en kWh cumac",
+    "formula_text": "Montant CEE = forfait selon zone climatique",
     "variables": [],
     "tables": [],
-    "amount_table": [],
+    "amount_table": [
+      {
+        "table_type": "zone_fixed_amount",
+        "zone": "H1",
+        "kwh_cumac": 18500
+      },
+      {
+        "table_type": "zone_fixed_amount",
+        "zone": "H2",
+        "kwh_cumac": 21000
+      },
+      {
+        "table_type": "zone_fixed_amount",
+        "zone": "H3",
+        "kwh_cumac": 24200
+      }
+    ],
     "formula_section_title": "Montant de certificats en kWh cumac",
     "formula_section_text": "Zone clima-\ntique\nMontant en kWh cumac\nH1\n18 500\nH2\n21 000\nH3\n24 200",
     "formula_section_page_start": 3,
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac",
     "expressions": [],
-    "calculation_methods": [],
+    "calculation_methods": [
+      "structured_amount_table",
+      "zone_fixed_amount_table"
+    ],
     "formula_status": "extracted",
     "source_file": "Residentiel_BAR/BAR-TH-101 vA78-3 à compter du 01-01-2026.pdf",
     "confidence": "medium"
   },
   "formulas": [
+    {
+      "text": "Montant CEE = forfait selon zone climatique",
+      "source_file": "Residentiel_BAR/BAR-TH-101 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Montant CEE = forfait selon zone climatique",
+      "confidence": "medium"
+    },
     {
       "text": "Montant en kWh cumac",
       "source_file": "Residentiel_BAR/BAR-TH-101 vA78-3 à compter du 01-01-2026.pdf",

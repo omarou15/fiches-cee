@@ -37,6 +37,7 @@
 - Le document justificatif spécifique à l’opération est la décision de qualification ou de certification du professionnel
 
 ## Formules / calcul detectes
+- Montant CEE = forfait selon zone climatique
 - Montant en kWh cumac
 
 ## Sections officielles detectees

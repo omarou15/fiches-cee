@@ -188,6 +188,25 @@ def parse_amount_table(text: str) -> list[dict]:
     return rows
 
 
+def parse_zone_fixed_amount_table(text: str) -> list[dict]:
+    """Parse simple fixed amount tables: H1 amount, H2 amount, H3 amount."""
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    rows: list[dict] = []
+    for index, line in enumerate(lines[:-1]):
+        if line in {"H1", "H2", "H3"}:
+            value = parse_int(lines[index + 1])
+            if value is not None:
+                rows.append({
+                    "table_type": "zone_fixed_amount",
+                    "zone": line,
+                    "kwh_cumac": value,
+                })
+    zones = [row["zone"] for row in rows]
+    if zones == ["H1", "H2", "H3"] and not any(line in {"X", "x", "×"} for line in lines):
+        return rows
+    return []
+
+
 def section_by_number(sections: list[dict], number: str) -> dict | None:
     return next((section for section in sections if section.get("number") == number), None)
 
@@ -323,6 +342,8 @@ def infer_calculation_methods(text: str, expressions: list[str], variables: list
     normalized = strip_accents(text).lower()
     if amount_table:
         methods.append("structured_amount_table")
+    if any(row.get("table_type") == "zone_fixed_amount" for row in amount_table):
+        methods.append("zone_fixed_amount_table")
     if expressions:
         methods.append("direct_expression")
     if "montant" in normalized and has_kwh_cumac_unit(text) and (" x " in f" {normalized} " or "\nx\n" in normalized or variables):
@@ -336,6 +357,8 @@ def summarize_formula_text(unit: str | None, expressions: list[str], variables: 
     if expressions:
         return " ; ".join(expressions[:12])
     if amount_table:
+        if any(row.get("table_type") == "zone_fixed_amount" for row in amount_table):
+            return "Montant CEE = forfait selon zone climatique"
         return "Montant CEE = montant_kWh_cumac_unitaire × variables de la fiche"
     if unit and variables:
         names = " × ".join(variable["name"] for variable in variables)
@@ -369,6 +392,7 @@ def extract_calculation(sections: list[dict], source_file: str | None, amount_ta
         unit = section.get("title")
     expressions = extract_direct_expressions(text)
     variables = extract_formula_variables(text)
+    amount_table = amount_table or parse_zone_fixed_amount_table(text)
     methods = infer_calculation_methods(text, expressions, variables, amount_table)
     formula_text = summarize_formula_text(unit, expressions, variables, amount_table)
     return {

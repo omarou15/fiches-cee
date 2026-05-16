@@ -40,6 +40,7 @@
 - Les documents justificatifs spécifiques à l’opération sont :
 
 ## Formules / calcul detectes
+- Montant CEE = forfait selon zone climatique
 - Montant en kWh cumac
 
 ## Sections officielles detectees
