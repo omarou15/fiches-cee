@@ -14,5 +14,5 @@ def infer_building_from_visit(case: dict) -> dict:
         "residential_collective": field(collective if collective else None, "deduced" if collective else "missing", "medium", "notes de visite"),
         "existing_building": field(existing, "deduced", "low", "absence d'indice batiment neuf dans les notes"),
         "apartment_count_heated_by_pac": field(int_or_none(apartments), "deduced" if apartments else "missing", "medium" if apartments else "high", "notes de visite"),
-        "heated_surface_m2": field(surface, "deduced" if surface else "estimated", "medium" if surface else "low", "notes de visite" if surface else "ratio 65 m2/logement"),
+        "heated_surface_m2": field(surface, "deduced" if surface else "missing", "medium" if surface else "high", "notes de visite" if surface else "surface absente des notes"),
     }

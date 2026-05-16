@@ -7,10 +7,15 @@ def infer_works_scope(project: dict) -> dict:
     return {
         "works_scope": field(
             [
-                "mise en place PAC collective air/eau",
-                "adaptation hydraulique chaufferie",
-                "regulation et raccordements",
-                "etudes et mise en service",
+                "fourniture PAC collective air/eau",
+                "pose PAC",
+                "raccordement hydraulique",
+                "regulation",
+                "electricite et protections",
+                "adaptation chaufferie",
+                "etude dimensionnement",
+                "mise en service",
+                "dossier CEE",
             ],
             "assumption",
             "medium",

@@ -48,7 +48,8 @@ Ce dossier est reserve au futur pipeline reproductible.
 
 10. `infer_case.py`
    - transforme un cas minimal fictif ou local en `inferred_project.json` ;
-   - chaque valeur inferee porte statut, confiance, source et validation humaine.
+   - chaque valeur inferee porte statut, confiance, source et validation humaine ;
+   - l'entree minimale ne demande pas les variables techniques comme puissance PAC, Etas, Tbase ou deperditions.
 
 11. `compute_cee.py`
    - calcule les kWh cumac depuis un projet infere.

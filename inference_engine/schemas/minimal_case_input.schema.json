@@ -3,7 +3,7 @@
   "$id": "https://github.com/omarou15/fiches-cee/inference_engine/schemas/minimal_case_input.schema.json",
   "title": "Minimal CEE case input",
   "type": "object",
-  "required": ["case_id", "target_code", "client", "site", "visit"],
+  "required": ["case_id", "target_code", "client", "site", "visit", "objective"],
   "properties": {
     "case_id": { "type": "string" },
     "target_code": { "type": "string" },
@@ -32,6 +32,30 @@
       "properties": {
         "notes": { "type": "string" },
         "photos": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "path_or_label", "status"],
+        "properties": {
+          "type": { "type": "string" },
+          "path_or_label": { "type": "string" },
+          "status": { "type": "string", "enum": ["available", "missing", "unknown"] },
+          "notes": { "type": ["string", "null"] }
+        },
+        "additionalProperties": true
+      }
+    },
+    "objective": {
+      "type": "object",
+      "required": ["cee_code", "description"],
+      "properties": {
+        "cee_code": { "type": "string" },
+        "description": { "type": "string" },
+        "generation_mode": { "type": "string", "enum": ["draft", "strict"] }
       },
       "additionalProperties": true
     }

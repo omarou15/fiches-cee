@@ -3,9 +3,18 @@
   "currency": "EUR",
   "items": {
     "engineering_fees_flat": {
+      "id": "engineering_fees_flat",
+      "label": "Etudes, dimensionnement, mise en service et dossier CEE",
       "unit": "forfait",
-      "unit_price_eur_ht": 6500,
-      "notes": "Synthetic draft value for sizing note, DPT and commissioning support."
+      "price_ht_min": 3500,
+      "price_ht_typical": 6500,
+      "price_ht_max": 12000,
+      "conditions": [
+        "Forfait synthetique pour estimation initiale",
+        "A valider selon complexite du dossier"
+      ],
+      "confidence": "low",
+      "notes": "Inclut un ordre de grandeur pour la note de dimensionnement et le dossier technique."
     }
   }
 }

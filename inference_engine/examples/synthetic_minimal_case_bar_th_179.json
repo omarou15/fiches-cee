@@ -17,5 +17,18 @@
       "photos/placeholders/emetteurs_radiateurs.jpg",
       "photos/placeholders/local_pac_exterieur.jpg"
     ]
+  },
+  "documents": [
+    {
+      "type": "visite_technique",
+      "path_or_label": "notes de visite fictives",
+      "status": "available",
+      "notes": "Exemple public sans donnees reelles."
+    }
+  ],
+  "objective": {
+    "cee_code": "BAR-TH-179",
+    "description": "Generer un dossier CEE brouillon pour une PAC collective air/eau.",
+    "generation_mode": "draft"
   }
 }

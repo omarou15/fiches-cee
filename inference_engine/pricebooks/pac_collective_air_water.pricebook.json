@@ -3,9 +3,18 @@
   "currency": "EUR",
   "items": {
     "pac_air_water_collective_per_kw": {
+      "id": "pac_air_water_collective_per_kw",
+      "label": "Fourniture pompe a chaleur collective air/eau",
       "unit": "kW",
-      "unit_price_eur_ht": 1250,
-      "notes": "Synthetic draft value, not a market quote."
+      "price_ht_min": 950,
+      "price_ht_typical": 1250,
+      "price_ht_max": 1650,
+      "conditions": [
+        "Prix synthetique de demonstration",
+        "A remplacer par un pricebook local"
+      ],
+      "confidence": "low",
+      "notes": "Valeur ouverte et modifiable par l'utilisateur dans son environnement local."
     }
   }
 }

@@ -40,6 +40,9 @@ def load_pricebook() -> dict:
 def build_project(case: dict, code: str) -> dict:
     if code != "BAR-TH-179":
         raise ValueError("V1 inference supports BAR-TH-179 only.")
+    target_code = case.get("target_code") or case.get("objective", {}).get("cee_code")
+    if target_code and target_code != code:
+        raise ValueError(f"Input target_code {target_code} does not match --code {code}.")
     fields: dict[str, dict] = {
         "climate_zone": infer_climate_zone(case),
     }
@@ -59,6 +62,8 @@ def build_project(case: dict, code: str) -> dict:
         "client": case["client"],
         "site": case["site"],
         "visit": case.get("visit", {}),
+        "documents": case.get("documents", []),
+        "objective": case.get("objective", {}),
         "fields": fields,
         "calculation": {"status": "missing_inputs", "kwh_cumac": None, "formula_text": None, "missing_inputs": [], "details": {}},
         "assumptions": [],

@@ -34,6 +34,7 @@ def main() -> int:
     minimal_case_path = REPO_ROOT / "inference_engine" / "examples" / "synthetic_minimal_case_bar_th_179.json"
     synthetic_company_path = REPO_ROOT / "document_engine" / "examples" / "synthetic_company_profile.json"
     synthetic_operation_path = REPO_ROOT / "document_engine" / "examples" / "synthetic_operation_bar_th_179.json"
+    pricebook_schema_path = REPO_ROOT / "inference_engine" / "schemas" / "pricebook.schema.json"
 
     fiche_files = sorted(json_dir.glob("*.json"))
     if not fiche_files:
@@ -149,6 +150,14 @@ def main() -> int:
             )
         except Exception as exc:
             errors.append(f"{synthetic_operation_path.name}: operation input schema error: {exc}")
+
+    if pricebook_schema_path.exists() and jsonschema:
+        pricebook_schema = load_json(pricebook_schema_path)
+        for pricebook_path in sorted((REPO_ROOT / "inference_engine" / "pricebooks").glob("*.pricebook.json")):
+            try:
+                jsonschema.validate(load_json(pricebook_path), pricebook_schema)
+            except Exception as exc:
+                errors.append(f"{pricebook_path.name}: pricebook schema error: {exc}")
 
     if errors:
         print("Validation failed:")

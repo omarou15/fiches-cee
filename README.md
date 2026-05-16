@@ -91,6 +91,7 @@ peuvent etre generees dans `dossiers_local/`, ignore par Git.
 Architecture generique ajoutee :
 
 - `inference_engine/` : schemas, enrichers, pricebooks et exemple minimal fictif ;
+- `inference_engine/prompts/` : prompts pour visite, photos et controle des hypotheses ;
 - `document_engine/` : schemas, profil entreprise fictif, templates et generateurs ;
 - `rules/` : regles metier par fiche ;
 - `scripts/infer_case.py` : transforme un cas minimal en projet infere ;

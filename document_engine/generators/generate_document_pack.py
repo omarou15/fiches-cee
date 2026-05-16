@@ -91,6 +91,159 @@ def render_risks(project: dict) -> str:
     return "# Risques conformite\n\n- Toute donnee estimee ou en hypothese doit etre confirmee avant signature ou depot.\n- Le depot EMMY/PNCEE n'est pas automatise par ce pack.\n"
 
 
+def inferred_value(project: dict, name: str, default=None):
+    return (project.get("fields", {}).get(name) or {}).get("value", default)
+
+
+def inferred_needs_validation(project: dict) -> list[str]:
+    lines: list[str] = []
+    for name, item in sorted(project.get("fields", {}).items()):
+        if item.get("needs_human_validation"):
+            value = item.get("value")
+            if value is None or value == "":
+                display = "[A COMPLETER]"
+                marker = "[A COMPLETER]"
+            elif name == "quote_lines":
+                display = f"{len(value)} lignes estimatives"
+                marker = "[HYPOTHESE A VALIDER]"
+            elif isinstance(value, dict):
+                display = json.dumps(value, ensure_ascii=False)
+                marker = "[HYPOTHESE A VALIDER]"
+            else:
+                display = value
+                marker = "[HYPOTHESE A VALIDER]" if item.get("status") in {"estimated", "assumption"} else "[A VALIDER]"
+            lines.append(f"{marker} {name}: {display} ({item.get('status')}, {item.get('confidence')})")
+    return lines
+
+
+def operation_from_inferred(project: dict) -> dict:
+    cost = inferred_value(project, "estimated_works_cost_eur_ht")
+    quote_lines = []
+    for line in inferred_value(project, "quote_lines", []) or []:
+        quote_lines.append(
+            {
+                "description": line.get("description", "Ligne estimative"),
+                "quantity": line.get("quantity", 1),
+                "unit": line.get("unit", "forfait"),
+                "unit_price_ht": line.get("unit_price_ht_typical"),
+                "total_ht": line.get("total_ht_typical"),
+            }
+        )
+    if not quote_lines:
+        quote_lines = [
+            {
+                "description": "[A COMPLETER] Travaux a chiffrer",
+                "quantity": 1,
+                "unit": "forfait",
+                "unit_price_ht": None,
+                "total_ht": None,
+            }
+        ]
+
+    site = project.get("site", {})
+    client = project.get("client", {})
+    missing = inferred_needs_validation(project)
+    missing.extend(project.get("calculation", {}).get("missing_inputs", []) or [])
+    blocking_points = list(project.get("blocking_points") or [])
+    if project.get("calculation", {}).get("status") != "computed":
+        blocking_points.append("Calcul CEE incomplet ou non confirme.")
+
+    return {
+        "operation": {
+            "case_id": project.get("case_id", "A_COMPLETER"),
+            "cee_code": project.get("code", "A_COMPLETER"),
+            "description": project.get("visit", {}).get("notes", "Operation inferee depuis visite technique."),
+            "engagement_date": "[A COMPLETER]",
+            "completion_date": None,
+            "status": "draft_from_inference",
+        },
+        "client": {
+            "name": client.get("name", "[A COMPLETER]"),
+            "type": client.get("type", "[A COMPLETER]"),
+            "contact_name": client.get("contact_name", "[A COMPLETER]"),
+            "email": client.get("contact_email") or client.get("email") or "[A COMPLETER]",
+            "phone": client.get("phone", "[A COMPLETER]"),
+            "address": client.get("address", "[A COMPLETER]"),
+        },
+        "site": {
+            "address": site.get("address", "[A COMPLETER]"),
+            "postal_code": site.get("postal_code", "[A COMPLETER]"),
+            "city": site.get("city", "[A COMPLETER]"),
+            "climate_zone": inferred_value(project, "climate_zone", "[A COMPLETER]"),
+            "building_type": inferred_value(project, "building_type", "[A COMPLETER]"),
+            "apartments_count": inferred_value(project, "apartment_count_heated_by_pac"),
+            "heated_surface_m2": inferred_value(project, "heated_surface_m2"),
+            "emitters": inferred_value(project, "emitters", "[A COMPLETER]"),
+            "base_temperature_c": inferred_value(project, "tbase_c"),
+        },
+        "technical": {
+            "usage": inferred_value(project, "usage", "[A COMPLETER]"),
+            "equipment_description": inferred_value(project, "pac_type", "[A COMPLETER]"),
+            "brand": "[A COMPLETER]",
+            "reference": "[A COMPLETER]",
+            "performance_value": inferred_value(project, "etas_percent", "[A COMPLETER]"),
+            "etas_percent": inferred_value(project, "etas_percent"),
+            "application_temperature": inferred_value(project, "application_temperature", "[A COMPLETER]"),
+            "pac_power_kw_prated_minus_10": inferred_value(project, "pac_nominal_power_kw"),
+            "chaufferie_useful_power_after_works_kw": inferred_value(project, "chaufferie_useful_power_after_works_kw"),
+            "backup_equipment_excluded": inferred_value(project, "backup_equipment_excluded"),
+            "r_factor": inferred_value(project, "r_factor"),
+            "annual_heating_coverage_percent": "[A COMPLETER]",
+            "heat_losses_kw_at_tbase": inferred_value(project, "heat_losses_kw"),
+            "flow_temperature_c": inferred_value(project, "flow_temperature_c"),
+            "indoor_setpoint_c": inferred_value(project, "indoor_setpoint_temperature_c"),
+            "professional_qualification": "[A COMPLETER]",
+            "dimensioning_study_status": "[A COMPLETER]",
+            "notes": "Donnees inferees automatiquement, a valider humainement.",
+        },
+        "calculation": {
+            "formula_text": project.get("calculation", {}).get("formula_text"),
+            "amount_per_apartment_kwh_cumac": (project.get("calculation", {}).get("details", {}).get("amount_row") or {}).get("kwh_cumac_per_apartment"),
+            "apartments_count": inferred_value(project, "apartment_count_heated_by_pac"),
+            "r_factor": inferred_value(project, "r_factor"),
+            "total_kwh_cumac": project.get("calculation", {}).get("kwh_cumac"),
+            "status": project.get("calculation", {}).get("status", "missing_inputs"),
+        },
+        "quote": {
+            "number": f"DRAFT-{project.get('case_id', 'CEE')}",
+            "date": "[A COMPLETER]",
+            "valid_until": None,
+            "status": "document genere automatiquement a valider",
+            "total_ht": cost,
+            "total_ttc": round(float(cost) * 1.1, 2) if cost is not None else None,
+            "lines": quote_lines,
+        },
+        "invoice": {
+            "number": f"DRAFT-FAC-{project.get('case_id', 'CEE')}",
+            "date": "[A COMPLETER]",
+            "due_date": None,
+            "status": "brouillon a remplacer par facture finale",
+            "total_ht": cost,
+            "total_ttc": round(float(cost) * 1.1, 2) if cost is not None else None,
+            "lines": quote_lines,
+        },
+        "documents": {
+            "available": ["donnees minimales et notes de visite fournies"],
+            "missing": sorted(set(missing)) or ["verification humaine finale"],
+            "non_compliant": [],
+        },
+        "compliance": {
+            "eligibility_status": "draft_to_validate",
+            "blocking_points": sorted(set(blocking_points)),
+            "risks": [
+                "Toute donnee estimee ou en hypothese doit etre validee avant signature.",
+                "Verifier les justificatifs reglementaires exacts de la fiche.",
+                "Verifier la derniere version officielle avant depot.",
+            ],
+        },
+        "mail": {
+            "recipient": client.get("contact_email") or client.get("email") or "[A COMPLETER]",
+            "subject": f"Pieces manquantes dossier CEE {project.get('code', '')}",
+            "sender_name": "[A COMPLETER]",
+        },
+    }
+
+
 def render_operation_summary(operation: dict, company: dict, code: str, fiche: dict | None = None) -> str:
     ctx = build_context(company, operation, code, fiche)
     return (
@@ -204,20 +357,9 @@ def generate_pack_from_operation(company: dict, operation: dict, code: str | Non
 def generate_pack(project: dict, company: dict, mode: str, output_dir: Path) -> dict:
     if mode == "strict" and project.get("blocking_points"):
         raise ValueError("Strict mode blocked: inferred project contains blocking points.")
-    files: list[str] = []
-    write(output_dir / "00_SYNTHESE" / "synthese_dossier.md", render_summary(project, company), files, output_dir)
-    write(output_dir / "00_SYNTHESE" / "pieces_manquantes.md", render_missing(project), files, output_dir)
-    write(output_dir / "00_SYNTHESE" / "controle_eligibilite.md", render_summary(project, company), files, output_dir)
-    write(output_dir / "01_ADMIN" / "devis.md", generate_devis.render(project, company, mode), files, output_dir)
-    write(output_dir / "01_ADMIN" / "facture.md", generate_facture.render(project, company, mode), files, output_dir)
-    write(output_dir / "01_ADMIN" / "mail_pieces_manquantes.md", render_missing(project), files, output_dir)
-    write(output_dir / "02_CEE" / "attestation_honneur.md", generate_ah.render(project, company, mode), files, output_dir)
-    write(output_dir / "02_CEE" / "calcul_kwh_cumac.md", json.dumps(project.get("calculation", {}), ensure_ascii=False, indent=2) + "\n", files, output_dir)
-    write(output_dir / "02_CEE" / "checklist_cee.md", render_missing(project), files, output_dir)
-    write(output_dir / "03_TECHNIQUE" / "note_dimensionnement.md", generate_note_dimensionnement.render(project, company, mode), files, output_dir)
-    write(output_dir / "03_TECHNIQUE" / "dpt.md", generate_dpt.render(project, company, mode), files, output_dir)
-    write(output_dir / "04_CONTROLE_INTERNE" / "rapport_controle_interne.md", render_summary(project, company), files, output_dir)
-    write(output_dir / "04_CONTROLE_INTERNE" / "risques_pncee.md", render_risks(project), files, output_dir)
-    manifest = {"case_id": project["case_id"], "code": project["code"], "mode": mode, "source_type": "inferred_project", "files": files, "blocking_points": project.get("blocking_points", [])}
+    if mode == "strict" and project.get("calculation", {}).get("status") != "computed":
+        raise ValueError("Strict mode blocked: inferred project calculation is not complete.")
+    manifest = generate_pack_from_operation(company, operation_from_inferred(project), project.get("code"), output_dir, mode)
+    manifest["source_type"] = "inferred_project"
     (output_dir / "dossier_manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     return manifest

@@ -3,9 +3,18 @@
   "currency": "EUR",
   "items": {
     "boiler_room_hydraulics_flat": {
+      "id": "boiler_room_hydraulics_flat",
+      "label": "Adaptation hydraulique chaufferie et raccordements",
       "unit": "forfait",
-      "unit_price_eur_ht": 18000,
-      "notes": "Synthetic draft value for piping, valves and hydraulic adaptation."
+      "price_ht_min": 12000,
+      "price_ht_typical": 18000,
+      "price_ht_max": 32000,
+      "conditions": [
+        "Forfait synthetique pour brouillon",
+        "Depend fortement du site et des raccordements"
+      ],
+      "confidence": "low",
+      "notes": "Ne remplace pas un devis d'execution."
     }
   }
 }
