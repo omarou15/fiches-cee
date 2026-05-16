@@ -1,8 +1,9 @@
 """Generate strict CEE pre-deposit packs from client operation JSON.
 
-The V1 dossier agent intentionally supports BAR-TH-179 only. It never invents
-missing values: absent inputs become blocking questions and the dossier cannot
-be marked ready for pre-deposit.
+BAR-TH-179 keeps its full strict evaluator. Other fiche codes are accepted as
+generic drafts: the agent exposes available reference material but never invents
+eligibility, blocking points, or calculation values when machine-readable rules
+are absent.
 """
 
 from __future__ import annotations
@@ -17,7 +18,9 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-SUPPORTED_FICHE_CODES = {"BAR-TH-179"}
+RULES_DIR = REPO_ROOT / "rules"
+CURATED_DIR = REPO_ROOT / "data" / "curated"
+JSON_DIR = REPO_ROOT / "data" / "json"
 
 BAR_TH_179_SOURCE = "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
 BAR_TH_179_EFFECTIVE_DATE = "2026-04-30"
@@ -43,6 +46,67 @@ def get_path(data: dict[str, Any], path: str) -> Any:
             return None
         current = current.get(part)
     return current
+
+
+def get_operation_fiche_code(operation: dict[str, Any]) -> str:
+    value = operation.get("fiche_code") or get_path(operation, "operation.cee_code") or operation.get("code")
+    return str(value or "").strip().upper()
+
+
+def relative_repo_path(path: Path) -> str:
+    try:
+        return path.relative_to(REPO_ROOT).as_posix()
+    except ValueError:
+        return path.as_posix()
+
+
+def reference_paths(fiche_code: str) -> dict[str, Path]:
+    return {
+        "rules": RULES_DIR / f"{fiche_code}.rules.json",
+        "curated": CURATED_DIR / f"{fiche_code}.json",
+        "json": JSON_DIR / f"{fiche_code}.json",
+    }
+
+
+def detect_support_level(fiche_code: str) -> str:
+    paths = reference_paths(fiche_code)
+    has_rules = paths["rules"].exists()
+    has_curated = paths["curated"].exists()
+    has_json = paths["json"].exists()
+    if has_rules and has_curated:
+        return "supported_full"
+    if has_curated or has_json:
+        return "supported_partial"
+    return "supported_generic"
+
+
+def load_reference_fiche(fiche_code: str) -> tuple[dict[str, Any] | None, str, Path | None]:
+    paths = reference_paths(fiche_code)
+    if paths["curated"].exists():
+        return load_json(paths["curated"]), "curated", paths["curated"]
+    if paths["json"].exists():
+        return load_json(paths["json"]), "json", paths["json"]
+    return None, "none", None
+
+
+def source_from_item(item: Any, fallback: str | None = None) -> str | None:
+    if isinstance(item, dict):
+        return item.get("source_file") or item.get("source") or fallback
+    return fallback
+
+
+def text_from_item(item: Any) -> str:
+    if isinstance(item, dict):
+        value = item.get("text") or item.get("label") or item.get("quote") or item.get("description")
+        return str(value or "").strip()
+    return str(item or "").strip()
+
+
+def reference_items(fiche: dict[str, Any] | None, key: str) -> list[Any]:
+    if not isinstance(fiche, dict):
+        return []
+    items = fiche.get(key)
+    return items if isinstance(items, list) else []
 
 
 def normalize_text(value: Any) -> str:
@@ -532,11 +596,157 @@ def build_bar_th_179_dossier(operation: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def build_generic_draft_dossier(operation: dict[str, Any], fiche_code: str, support_level: str) -> dict[str, Any]:
+    fiche, reference_type, reference_path = load_reference_fiche(fiche_code)
+    paths = reference_paths(fiche_code)
+    operation_id = str(operation.get("operation_id") or operation.get("case_id") or f"draft-{fiche_code.lower()}")
+
+    checks: list[dict[str, Any]] = []
+    conditions = reference_items(fiche, "eligibility_conditions")
+    if conditions:
+        for index, item in enumerate(conditions, start=1):
+            text = text_from_item(item)
+            if not text:
+                continue
+            checks.append(
+                {
+                    "id": f"reference_condition_{index:03d}",
+                    "label": "Condition issue de la fiche a valider",
+                    "status": "warning",
+                    "detail": f"[A VALIDER] {text}",
+                    "source": source_from_item(item, relative_repo_path(reference_path) if reference_path else None),
+                    "blocking": False,
+                }
+            )
+    else:
+        detail = (
+            "[A VALIDER] Aucune condition exploitable automatiquement sans rules.json."
+            if reference_path
+            else "[A VALIDER] Aucune fiche structuree locale disponible pour ce code."
+        )
+        checks.append(
+            {
+                "id": "reference_conditions_unavailable",
+                "label": "Conditions fiche non evaluables automatiquement",
+                "status": "warning",
+                "detail": detail,
+                "source": relative_repo_path(reference_path) if reference_path else None,
+                "blocking": False,
+            }
+        )
+
+    required_documents = reference_items(fiche, "required_documents")
+    documents: list[dict[str, Any]] = []
+    for index, item in enumerate(required_documents, start=1):
+        text = text_from_item(item)
+        if not text:
+            continue
+        documents.append(
+            {
+                "id": f"reference_document_{index:03d}",
+                "label": text,
+                "required": True,
+                "status": "unknown",
+                "issues": ["[A VALIDER] Piece issue de la fiche, non controlee sans rules.json."],
+                "source": source_from_item(item, relative_repo_path(reference_path) if reference_path else None),
+            }
+        )
+    if not documents:
+        documents.append(
+            {
+                "id": "documents_to_validate",
+                "label": "Pieces a determiner depuis la fiche officielle",
+                "required": True,
+                "status": "unknown",
+                "issues": ["[A VALIDER] Aucune liste documentaire exploitable automatiquement."],
+                "source": relative_repo_path(reference_path) if reference_path else None,
+            }
+        )
+
+    risks: list[dict[str, Any]] = []
+    for index, item in enumerate(reference_items(fiche, "compliance_risks"), start=1):
+        text = text_from_item(item)
+        if text:
+            risks.append(
+                {
+                    "id": f"reference_risk_{index:03d}",
+                    "severity": "medium",
+                    "text": f"[A VALIDER] {text}",
+                    "source": source_from_item(item, relative_repo_path(reference_path) if reference_path else None),
+                }
+            )
+    for index, item in enumerate(reference_items(fiche, "control_points"), start=1):
+        text = text_from_item(item)
+        if text:
+            risks.append(
+                {
+                    "id": f"reference_control_point_{index:03d}",
+                    "severity": "medium",
+                    "text": f"[A VALIDER] Point de controle fiche : {text}",
+                    "source": source_from_item(item, relative_repo_path(reference_path) if reference_path else None),
+                }
+            )
+    if not risks:
+        risks.append(
+            {
+                "id": "generic_rules_missing",
+                "severity": "medium",
+                "text": "[A VALIDER] Aucun rules.json machine-readable : controle humain obligatoire avant pre-depot.",
+                "source": relative_repo_path(reference_path) if reference_path else None,
+            }
+        )
+
+    calculation_ref = fiche.get("calculation", {}) if isinstance(fiche, dict) else {}
+    formula_text = calculation_ref.get("formula_text") if isinstance(calculation_ref, dict) else None
+    sources: list[dict[str, Any]] = []
+    if paths["rules"].exists():
+        sources.append({"label": f"Rules {fiche_code}", "path": relative_repo_path(paths["rules"]), "page": None, "section": None})
+    if reference_path:
+        sources.append({"label": f"Fiche {fiche_code} {reference_type}", "path": relative_repo_path(reference_path), "page": None, "section": None})
+
+    return {
+        "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "operation_id": operation_id,
+        "fiche_code": fiche_code,
+        "status": "draft_generic_no_rules",
+        "summary": (
+            f"Brouillon generique {fiche_code} ({support_level}) : aucune regle machine-readable complete "
+            "n'a ete appliquee. Tous les elements marques [A VALIDER] doivent etre controles humainement."
+        ),
+        "eligibility": {"eligible": None, "checks": checks},
+        "calculation": {
+            "status": "missing_inputs",
+            "formula_text": formula_text,
+            "kwh_cumac": None,
+            "unit": "kWh cumac",
+            "inputs": {},
+            "amount_row": None,
+            "r_factor": None,
+            "missing_inputs": [],
+        },
+        "document_check": {"operation_id": operation_id, "fiche_code": fiche_code, "documents": documents},
+        "missing_questions": [],
+        "risks": risks,
+        "sources": sources,
+        "no_hallucination": {
+            "invented_values": False,
+            "unknown_fields": [],
+            "rule": "Sans rules.json complet, le dossier reste un brouillon generique et aucun blocking point n'est invente.",
+        },
+    }
+
+
 def build_dossier(operation: dict[str, Any]) -> dict[str, Any]:
-    fiche_code = operation.get("fiche_code")
-    if fiche_code not in SUPPORTED_FICHE_CODES:
-        raise ValueError(f"Unsupported fiche_code for dossier V1: {fiche_code}. Supported: {sorted(SUPPORTED_FICHE_CODES)}")
-    return build_bar_th_179_dossier(operation)
+    fiche_code = get_operation_fiche_code(operation)
+    if not fiche_code:
+        raise ValueError("Missing fiche_code in operation JSON.")
+
+    support_level = detect_support_level(fiche_code)
+    if fiche_code == "BAR-TH-179" and support_level == "supported_full":
+        return build_bar_th_179_dossier(operation)
+
+    return build_generic_draft_dossier(operation, fiche_code, support_level)
+
 
 
 def render_markdown(dossier: dict[str, Any]) -> str:

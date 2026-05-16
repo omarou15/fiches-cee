@@ -189,6 +189,23 @@ def test_cli_writes_local_pack(tmp_path):
     assert generated["status"] == "pret_predepot"
 
 
+def test_fiche_without_rules_generates_generic_draft_without_invented_blockers():
+    operation = load_example("bar_th_179_complete.json")
+    operation["operation_id"] = "demo-generic-no-rules"
+    operation["fiche_code"] = "BAR-TH-113"
+
+    dossier = dossier_agent.build_dossier(operation)
+
+    assert dossier["fiche_code"] == "BAR-TH-113"
+    assert dossier["status"] == "draft_generic_no_rules"
+    assert dossier["eligibility"]["eligible"] is None
+    assert dossier["missing_questions"] == []
+    assert dossier["calculation"]["missing_inputs"] == []
+    assert dossier["no_hallucination"]["invented_values"] is False
+    assert dossier["no_hallucination"]["unknown_fields"] == []
+    validate_dossier_schema(dossier)
+
+
 def test_build_dossier_does_not_mutate_input():
     operation = load_example("bar_th_179_complete.json")
     original = copy.deepcopy(operation)

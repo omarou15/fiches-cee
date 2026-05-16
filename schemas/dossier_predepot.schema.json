@@ -8,7 +8,7 @@
     "generated_at": { "type": "string", "format": "date-time" },
     "operation_id": { "type": "string" },
     "fiche_code": { "type": "string" },
-    "status": { "type": "string", "enum": ["pret_predepot", "incomplet_questions", "a_risque", "non_eligible"] },
+    "status": { "type": "string", "enum": ["pret_predepot", "incomplet_questions", "a_risque", "non_eligible", "draft_generic_no_rules"] },
     "summary": { "type": "string" },
     "eligibility": {
       "type": "object",
