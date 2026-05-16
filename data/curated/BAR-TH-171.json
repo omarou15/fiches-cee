@@ -1,0 +1,679 @@
+{
+  "code": "BAR-TH-171",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-171 vA78-4 à compter du 01-01-2026 : Pompe à chaleur de type air/eau PDF – 133.79 Ko",
+  "title_clean": "Pompe ? chaleur de type air/eau",
+  "application_sector": "B?timents r?sidentiels existants",
+  "operation_description": "Mise en place d?une pompe ? chaleur de type air/eau pour le chauffage ou pour le chauffage et la production d?eau chaude sanitaire.",
+  "eligible_uses": [
+    "chauffage",
+    "chauffage et eau chaude sanitaire"
+  ],
+  "excluded_uses": [
+    "PAC associ?es ? un autre syst?me de chauffage",
+    "PAC utilis?es uniquement pour le chauffage de l?eau chaude sanitaire"
+  ],
+  "non_cumulation": [
+    {
+      "code": "BAR-TH-101",
+      "condition": "Non-cumul mentionn? dans la d?nomination de la fiche.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1
+    },
+    {
+      "code": "BAR-TH-124",
+      "condition": "Non-cumul mentionn? dans la d?nomination de la fiche.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1
+    },
+    {
+      "code": "BAR-TH-143",
+      "condition": "Non-cumul mentionn? dans la d?nomination de la fiche.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1
+    },
+    {
+      "code": "BAR-TH-148",
+      "condition": "Non-cumul mentionn? dans la d?nomination de la fiche.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1
+    },
+    {
+      "code": "BAR-TH-168",
+      "condition": "Non-cumul mentionn? dans la d?nomination de la fiche.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1
+    }
+  ],
+  "version": "vA78-4",
+  "document_version": "vA78-4",
+  "effective_date": "2026-01-01",
+  "validity": {
+    "effective_date": "2026-01-01",
+    "engagement_deadline": "2030-12-31"
+  },
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2026-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiments résidentiels existants.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’une pompe à chaleur (PAC) de type air/eau pour le chauffage ou pour le chauffage et la production\nd’eau chaude sanitaire.\n\nLa PAC est installée et mise en service pour s'assurer de son bon fonctionnement. Si l'installation a lieu durant la\npériode de chauffe, la PAC est conservée en fonctionnement durant le reste de la période de chauffe.\n\nNe donnent pas lieu à la délivrance de certificats d’économies d’énergie au titre de la présente fiche, les PAC\nassociées à un autre système de chauffage et les PAC utilisées uniquement pour le chauffage de l'eau chaude\nsanitaire.\n\nLa présente opération n’est pas cumulable avec les opérations relevant des fiches BAR-TH-101 « Chauffe-eau\nsolaire individuel (France métropolitaine) », BAR-TH-124 « Chauffe-eau solaire individuel (Outre-mer) », BAR-\nTH-143 « Système solaire combiné (France métropolitaine) », BAR-TH-148 « Chauffe-eau thermodynamique à\naccumulation » et BAR-TH-168 « Dispositif solaire thermique (France métropolitaine) ».\n\nLa présente fiche s’applique aux opérations engagées jusqu’au 31 décembre 2030.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe professionnel ayant réalisé l’opération est titulaire d’un signe de qualité répondant aux mêmes exigences que\ncelles prévues à l’article 2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de\nl’article 200 quater du code général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code\ngénéral des impôts et des textes pris pour son application. Ce signe de qualité correspond à des travaux relevant du\n5° (dans le cas d’une PAC assurant uniquement le chauffage du logement) ou du 5° et du 6° (dans le cas d’une PAC\nassurant le chauffage du logement et de l’eau chaude sanitaire) du I de l’article 1er du décret précité.\n\nL’efficacité énergétique saisonnière pour le chauffage des locaux (Etas) de la PAC selon le règlement (EU)\nn° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes définies par le règlement\nsusmentionné), déterminée selon l’application de la PAC installée, est supérieure ou égale à :\n- 126% pour une application basse température au sens du règlement susmentionné.\n- 111% pour une application moyenne ou haute température.\n\nL’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de\nchauffage des locaux (hors dispositif de régulation).\n\nTout type de systèmes déportés à la PAC installée, permettant la production de l’eau chaude sanitaire par celle-ci,\nest de même marque que la PAC. Pour ce type de systèmes, seule la PAC consomme de l’énergie pour la production\n\nde l’eau chaude sanitaire. Par dérogation, les systèmes déportés intégrant une résistance électrique à des fins de\nsecours ou de cycles anti-légionelle, et pour lesquels la régulation priorise la pompe à chaleur pour la production de\nl’eau chaude sanitaire, sont éligible à la présente opération.\n\nPour les PAC assurant uniquement le chauffage :\n- pour les émetteurs de type : plancher chauffant, plafond chauffant et mur chauffant et les émetteurs localisés du\ntype ventilo-convecteurs à eau, la pompe à chaleur installée est d’application basse température et l’Etas à 35°C est\nà considérer ;\n- pour tous les autres types d’émetteurs, y compris les solutions mixtes (ex. : radiateurs et plancher chauffant) ainsi\nque les radiateurs dits « basse température » à régime d’eau 45°C, la PAC installée est d’application moyenne ou\nhaute température et l’Etas à 55°C est à considérer.\n\nPour les PAC assurant le chauffage et la production d’eau chaude sanitaire et pour toute association de système\ndéporté à la PAC installée, permettant la production de l’eau chaude sanitaire par celle-ci, la PAC installée est\nd’application moyenne ou haute température et l’Etas à 55°C est à considérer.\n\nLa PAC est équipée d’un régulateur relevant de l’une des classes IV, V, VI, VII ou VIII telles que définies au\nparagraphe 6.1 de la communication de la Commission 2014/C 207/02.\n\nLe professionnel rédige une note de dimensionnement du générateur par rapport aux déperditions calculées à\nT = Tbase. Les déperditions concernent les pièces du logement desservies par le réseau de chauffage, sans\nconsidération des éventuels autres générateurs présents La PAC installée est conforme aux préconisations de la note\nde dimensionnement. Cette note est remise au bénéficiaire à l’engagement de l’opération. Le cas échéant elle est\nactualisée et remise au bénéficiaire à l’achèvement des travaux.\n\nLa preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une pompe à chaleur de type air/eau avec ses marque et référence ;\n- et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute\ntempérature) ;\n- et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013\n(pour des conditions climatiques moyennes) déterminée selon l’application de la PAC installée ;\n- et l’installation d’un régulateur ainsi que la classe de celui-ci ;\n- et, dans le cas d’un système déporté à la PAC installée, permettant la production de l’eau chaude sanitaire par\ncelle-ci, la mise en place du système déporté avec ses marque et référence.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique\neuropéen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou\ntout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de\nEuropean co-operation for Accreditation (EA), coordination européenne des organismes d'accréditation.\n\nCe document indique :\n- que l’équipement de marque et référence mis en place est une pompe à chaleur de type air/eau ;\n- et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute\ntempérature) ;\n- et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013\n(pour des conditions climatiques moyennes), déterminée selon l’application de la PAC installée ;\n- et que l’équipement est équipé d’un régulateur, en précisant la classe de celui-ci ;\n\n- et, dans le cas d’un système déporté à la PAC installée, permettant la production de l’eau chaude sanitaire par\ncelle-ci, la mise en place du système déporté avec ses marque et référence.\n\nEn cas de mention d’une date de validité, ce document est considéré comme valable jusqu’à un an après sa date de\nfin de validité.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- la note de dimensionnement susmentionnée ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé ;\n- la fiche d’information sur le produit de la PAC, mentionnée à l'article 3 du Règlement (UE) 2017/1369 établissant\nun cadre pour l'étiquetage énergétique (dont le texte d’application spécifique au chauffage centralisé est le règlement\nécoconception 811/2013).",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "17 ans.",
+      "page_start": 3,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Pour un appartement :\n\nEfficacité énergé-\ntique saisonnière\n(Etas)\nMontant\nkWhc\nX\nFacteur cor-\nrectif selon\nla surface\nchauffée\nSurface\nchauffée S\nen m² par la\nPAC instal-\nlée\nX\nFacteur correc-\ntif selon la zone\ngéographique\nZone géogra-\nphique\n111%≤ Etas<140%\n48 700\n0,5\nS < 35\n1,2\nH1\n140%≤ Etas\n58 900\n0,7\n35 ≤ S < 60\n1\nH2\n\n\n1\n60 ≤ S\n0,7\nH3\n\nPour une maison individuelle :\nEfficacité énergé-\ntique saisonnière\n(Etas)\nMontant\nkWhc\nX\nFacteur cor-\nrectif selon\nla surface\nchauffée\nSurface\nchauffée S\nen m² par la\nPAC instal-\nlée\nX\nFacteur correc-\ntif selon la zone\ngéographique\nZone géogra-\nphique\n111%≤ Etas<140%\n90 900\n0,5\nS < 70\n1,2\nH1\n140%≤ Etas\n109 200\n0,7\n70  ≤ S < 90\n1\nH2\n\n\n1\n90 ≤ S\n0,7\nH3\n\nNB : La surface chauffée prise en compte est la surface habitable, au sens de l'article R. 156-1 du code de la\nconstruction et de l'habitation, chauffée par la PAC installée et correspond aux surfaces des pièces disposant d’un\németteur de chaleur alimenté par la PAC installée.",
+      "page_start": 3,
+      "page_end": 3
+    }
+  ],
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": true
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": false,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": true,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Mise en place d’une pompe à chaleur (PAC) de type air/eau pour le chauffage ou pour le chauffage et la production d’eau chaude sanitaire.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "Mise en place d’une pompe à chaleur (PAC) de type air/eau pour le chauffage ou pour le chauffage et la production\nd’eau chaude sanitaire.",
+      "confidence": "high"
+    },
+    {
+      "text": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie au titre de la présente fiche, les PAC associées à un autre système de chauffage et les PAC utilisées uniquement pour le chauffage de l'eau chaude sanitaire.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie au titre de la présente fiche, les PAC\nassociées à un autre système de chauffage et les PAC utilisées uniquement pour le chauffage de l'eau chaude\nsanitaire.",
+      "confidence": "high"
+    },
+    {
+      "text": "La présente opération n’est pas cumulable avec les opérations relevant des fiches BAR-TH-101 « Chauffe-eau solaire individuel (France métropolitaine) », BAR-TH-124 « Chauffe-eau solaire individuel (Outre-mer) », BAR- TH-143 « Système solaire combiné (France métropolitaine) », BAR-TH-148 « Chauffe-eau thermodynamique à accumulation » et BAR-TH-168 « Dispositif solaire thermique (France métropolitaine) ».",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "La présente opération n’est pas cumulable avec les opérations relevant des fiches BAR-TH-101 « Chauffe-eau\nsolaire individuel (France métropolitaine) », BAR-TH-124 « Chauffe-eau solaire individuel (Outre-mer) », BAR-\nTH-143 « Système solaire combiné (France métropolitaine) », BAR-TH-148 « Chauffe-eau thermodynamique à\naccumulation » et BAR-TH-168 « Dispositif solaire thermique (France métropolitaine) ».",
+      "confidence": "high"
+    },
+    {
+      "text": "La présente fiche s’applique aux opérations engagées jusqu’au 31 décembre 2030.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "La présente fiche s’applique aux opérations engagées jusqu’au 31 décembre 2030.",
+      "confidence": "high"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière pour le chauffage des locaux (Etas) de la PAC selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes définies par le règlement susmentionné), déterminée selon l’application de la PAC installée, est supérieure ou égale à : - 126% pour une application basse température au sens du règlement susmentionné. - 111% pour une application moyenne ou haute température.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "L’efficacité énergétique saisonnière pour le chauffage des locaux (Etas) de la PAC selon le règlement (EU)\nn° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes définies par le règlement\nsusmentionné), déterminée selon l’application de la PAC installée, est supérieure ou égale à :\n- 126% pour une application basse température au sens du règlement susmentionné.\n- 111% pour une application moyenne ou haute température.",
+      "confidence": "high"
+    },
+    {
+      "text": "de l’eau chaude sanitaire. Par dérogation, les systèmes déportés intégrant une résistance électrique à des fins de secours ou de cycles anti-légionelle, et pour lesquels la régulation priorise la pompe à chaleur pour la production de l’eau chaude sanitaire, sont éligible à la présente opération.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "de l’eau chaude sanitaire. Par dérogation, les systèmes déportés intégrant une résistance électrique à des fins de\nsecours ou de cycles anti-légionelle, et pour lesquels la régulation priorise la pompe à chaleur pour la production de\nl’eau chaude sanitaire, sont éligible à la présente opération.",
+      "confidence": "high"
+    },
+    {
+      "text": "Pour les PAC assurant uniquement le chauffage : - pour les émetteurs de type : plancher chauffant, plafond chauffant et mur chauffant et les émetteurs localisés du type ventilo-convecteurs à eau, la pompe à chaleur installée est d’application basse température et l’Etas à 35°C est à considérer ; - pour tous les autres types d’émetteurs, y compris les solutions mixtes (ex. : radiateurs et plancher chauffant) ainsi que les radiateurs dits « basse température » à régime d’eau 45°C, la PAC installée est d’application moyenne ou haute température et l’Etas à 55°C est à considérer.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "Pour les PAC assurant uniquement le chauffage :\n- pour les émetteurs de type : plancher chauffant, plafond chauffant et mur chauffant et les émetteurs localisés du\ntype ventilo-convecteurs à eau, la pompe à chaleur installée est d’application basse température et l’Etas à 35°C est\nà considérer ;\n- pour tous les autres types d’émetteurs, y compris les solutions mixtes (ex. : radiateurs et plancher chauffant) ainsi\nque les radiateurs dits « basse température » à régime d’eau 45°C, la PAC installée est d’application moyenne ou\nhaute température et l’Etas à 55°C est à considérer.",
+      "confidence": "high"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "La mise en place est réalisée par un professionnel.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "La mise en place est réalisée par un professionnel.",
+      "confidence": "high"
+    },
+    {
+      "text": "Le professionnel ayant réalisé l’opération est titulaire d’un signe de qualité répondant aux mêmes exigences que celles prévues à l’article 2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du code général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des textes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 5° (dans le cas d’une PAC assurant uniquement le chauffage du logement) ou du 5° et du 6° (dans le cas d’une PAC assurant le chauffage du logement et de l’eau chaude sanitaire) du I de l’article 1er du décret précité.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Le professionnel ayant réalisé l’opération est titulaire d’un signe de qualité répondant aux mêmes exigences que\ncelles prévues à l’article 2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de\nl’article 200 quater du code général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code\ngénéral des impôts et des textes pris pour son application. Ce signe de qualité correspond à des travaux relevant du\n5° (dans le cas d’une PAC assurant uniquement le chauffage du logement) ou du 5° et du 6° (dans le cas d’une PAC\nassurant le chauffage du logement et de l’eau chaude sanitaire) du I de l’article 1er du décret précité.",
+      "confidence": "high"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière pour le chauffage des locaux (Etas) de la PAC selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes définies par le règlement susmentionné), déterminée selon l’application de la PAC installée, est supérieure ou égale à : - 126% pour une application basse température au sens du règlement susmentionné. - 111% pour une application moyenne ou haute température.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "L’efficacité énergétique saisonnière pour le chauffage des locaux (Etas) de la PAC selon le règlement (EU)\nn° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes définies par le règlement\nsusmentionné), déterminée selon l’application de la PAC installée, est supérieure ou égale à :\n- 126% pour une application basse température au sens du règlement susmentionné.\n- 111% pour une application moyenne ou haute température.",
+      "confidence": "high"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de chauffage des locaux (hors dispositif de régulation).",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "L’efficacité énergétique saisonnière prise en compte est celle de la pompe à chaleur seule pour les besoins de\nchauffage des locaux (hors dispositif de régulation).",
+      "confidence": "high"
+    },
+    {
+      "text": "Pour les PAC assurant uniquement le chauffage : - pour les émetteurs de type : plancher chauffant, plafond chauffant et mur chauffant et les émetteurs localisés du type ventilo-convecteurs à eau, la pompe à chaleur installée est d’application basse température et l’Etas à 35°C est à considérer ; - pour tous les autres types d’émetteurs, y compris les solutions mixtes (ex. : radiateurs et plancher chauffant) ainsi que les radiateurs dits « basse température » à régime d’eau 45°C, la PAC installée est d’application moyenne ou haute température et l’Etas à 55°C est à considérer.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Pour les PAC assurant uniquement le chauffage :\n- pour les émetteurs de type : plancher chauffant, plafond chauffant et mur chauffant et les émetteurs localisés du\ntype ventilo-convecteurs à eau, la pompe à chaleur installée est d’application basse température et l’Etas à 35°C est\nà considérer ;\n- pour tous les autres types d’émetteurs, y compris les solutions mixtes (ex. : radiateurs et plancher chauffant) ainsi\nque les radiateurs dits « basse température » à régime d’eau 45°C, la PAC installée est d’application moyenne ou\nhaute température et l’Etas à 55°C est à considérer.",
+      "confidence": "high"
+    },
+    {
+      "text": "Pour les PAC assurant le chauffage et la production d’eau chaude sanitaire et pour toute association de système déporté à la PAC installée, permettant la production de l’eau chaude sanitaire par celle-ci, la PAC installée est d’application moyenne ou haute température et l’Etas à 55°C est à considérer.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Pour les PAC assurant le chauffage et la production d’eau chaude sanitaire et pour toute association de système\ndéporté à la PAC installée, permettant la production de l’eau chaude sanitaire par celle-ci, la PAC installée est\nd’application moyenne ou haute température et l’Etas à 55°C est à considérer.",
+      "confidence": "high"
+    },
+    {
+      "text": "La PAC est équipée d’un régulateur relevant de l’une des classes IV, V, VI, VII ou VIII telles que définies au paragraphe 6.1 de la communication de la Commission 2014/C 207/02.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "La PAC est équipée d’un régulateur relevant de l’une des classes IV, V, VI, VII ou VIII telles que définies au\nparagraphe 6.1 de la communication de la Commission 2014/C 207/02.",
+      "confidence": "high"
+    },
+    {
+      "text": "Le professionnel rédige une note de dimensionnement du générateur par rapport aux déperditions calculées à T = Tbase. Les déperditions concernent les pièces du logement desservies par le réseau de chauffage, sans considération des éventuels autres générateurs présents La PAC installée est conforme aux préconisations de la note de dimensionnement. Cette note est remise au bénéficiaire à l’engagement de l’opération. Le cas échéant elle est actualisée et remise au bénéficiaire à l’achèvement des travaux.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Le professionnel rédige une note de dimensionnement du générateur par rapport aux déperditions calculées à\nT = Tbase. Les déperditions concernent les pièces du logement desservies par le réseau de chauffage, sans\nconsidération des éventuels autres générateurs présents La PAC installée est conforme aux préconisations de la note\nde dimensionnement. Cette note est remise au bénéficiaire à l’engagement de l’opération. Le cas échéant elle est\nactualisée et remise au bénéficiaire à l’achèvement des travaux.",
+      "confidence": "high"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "La preuve de la réalisation de l’opération mentionne : - la mise en place d’une pompe à chaleur de type air/eau avec ses marque et référence ; - et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute température) ; - et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ; - et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes) déterminée selon l’application de la PAC installée ; - et l’installation d’un régulateur ainsi que la classe de celui-ci ; - et, dans le cas d’un système déporté à la PAC installée, permettant la production de l’eau chaude sanitaire par celle-ci, la mise en place du système déporté avec ses marque et référence.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Pi?ces et preuves",
+      "quote": "La preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une pompe à chaleur de type air/eau avec ses marque et référence ;\n- et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute\ntempérature) ;\n- et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013\n(pour des conditions climatiques moyennes) déterminée selon l’application de la PAC installée ;\n- et l’installation d’un régulateur ainsi que la classe de celui-ci ;\n- et, dans le cas d’un système déporté à la PAC installée, permettant la production de l’eau chaude sanitaire par\ncelle-ci, la mise en place du système déporté avec ses marque et référence.",
+      "confidence": "high"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne des organismes d'accréditation.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Pi?ces et preuves",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique\neuropéen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou\ntout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de\nEuropean co-operation for Accreditation (EA), coordination européenne des organismes d'accréditation.",
+      "confidence": "high"
+    },
+    {
+      "text": "Ce document indique : - que l’équipement de marque et référence mis en place est une pompe à chaleur de type air/eau ; - et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute température) ; - et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ; - et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes), déterminée selon l’application de la PAC installée ; - et que l’équipement est équipé d’un régulateur, en précisant la classe de celui-ci ;",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Pi?ces et preuves",
+      "quote": "Ce document indique :\n- que l’équipement de marque et référence mis en place est une pompe à chaleur de type air/eau ;\n- et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute\ntempérature) ;\n- et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013\n(pour des conditions climatiques moyennes), déterminée selon l’application de la PAC installée ;\n- et que l’équipement est équipé d’un régulateur, en précisant la classe de celui-ci ;",
+      "confidence": "high"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont : - la note de dimensionnement susmentionnée ; - la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé ; - la fiche d’information sur le produit de la PAC, mentionnée à l'article 3 du Règlement (UE) 2017/1369 établissant un cadre pour l'étiquetage énergétique (dont le texte d’application spécifique au chauffage centralisé est le règlement écoconception 811/2013).",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Pi?ces et preuves",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :\n- la note de dimensionnement susmentionnée ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé ;\n- la fiche d’information sur le produit de la PAC, mentionnée à l'article 3 du Règlement (UE) 2017/1369 établissant\nun cadre pour l'étiquetage énergétique (dont le texte d’application spécifique au chauffage centralisé est le règlement\nécoconception 811/2013).",
+      "confidence": "high"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie au titre de la présente fiche, les PAC associées à un autre système de chauffage et les PAC utilisées uniquement pour le chauffage de l'eau chaude sanitaire.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Ne donnent pas lieu à la délivrance de certificats d’économies d’énergie au titre de la présente fiche, les PAC\nassociées à un autre système de chauffage et les PAC utilisées uniquement pour le chauffage de l'eau chaude\nsanitaire.",
+      "confidence": "high"
+    },
+    {
+      "text": "La présente opération n’est pas cumulable avec les opérations relevant des fiches BAR-TH-101 « Chauffe-eau solaire individuel (France métropolitaine) », BAR-TH-124 « Chauffe-eau solaire individuel (Outre-mer) », BAR- TH-143 « Système solaire combiné (France métropolitaine) », BAR-TH-148 « Chauffe-eau thermodynamique à accumulation » et BAR-TH-168 « Dispositif solaire thermique (France métropolitaine) ».",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "La présente opération n’est pas cumulable avec les opérations relevant des fiches BAR-TH-101 « Chauffe-eau\nsolaire individuel (France métropolitaine) », BAR-TH-124 « Chauffe-eau solaire individuel (Outre-mer) », BAR-\nTH-143 « Système solaire combiné (France métropolitaine) », BAR-TH-148 « Chauffe-eau thermodynamique à\naccumulation » et BAR-TH-168 « Dispositif solaire thermique (France métropolitaine) ».",
+      "confidence": "high"
+    },
+    {
+      "text": "La présente fiche s’applique aux opérations engagées jusqu’au 31 décembre 2030.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "La présente fiche s’applique aux opérations engagées jusqu’au 31 décembre 2030.",
+      "confidence": "high"
+    },
+    {
+      "text": "L’efficacité énergétique saisonnière pour le chauffage des locaux (Etas) de la PAC selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes définies par le règlement susmentionné), déterminée selon l’application de la PAC installée, est supérieure ou égale à : - 126% pour une application basse température au sens du règlement susmentionné. - 111% pour une application moyenne ou haute température.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "L’efficacité énergétique saisonnière pour le chauffage des locaux (Etas) de la PAC selon le règlement (EU)\nn° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes définies par le règlement\nsusmentionné), déterminée selon l’application de la PAC installée, est supérieure ou égale à :\n- 126% pour une application basse température au sens du règlement susmentionné.\n- 111% pour une application moyenne ou haute température.",
+      "confidence": "high"
+    },
+    {
+      "text": "Pour les PAC assurant uniquement le chauffage : - pour les émetteurs de type : plancher chauffant, plafond chauffant et mur chauffant et les émetteurs localisés du type ventilo-convecteurs à eau, la pompe à chaleur installée est d’application basse température et l’Etas à 35°C est à considérer ; - pour tous les autres types d’émetteurs, y compris les solutions mixtes (ex. : radiateurs et plancher chauffant) ainsi que les radiateurs dits « basse température » à régime d’eau 45°C, la PAC installée est d’application moyenne ou haute température et l’Etas à 55°C est à considérer.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Pour les PAC assurant uniquement le chauffage :\n- pour les émetteurs de type : plancher chauffant, plafond chauffant et mur chauffant et les émetteurs localisés du\ntype ventilo-convecteurs à eau, la pompe à chaleur installée est d’application basse température et l’Etas à 35°C est\nà considérer ;\n- pour tous les autres types d’émetteurs, y compris les solutions mixtes (ex. : radiateurs et plancher chauffant) ainsi\nque les radiateurs dits « basse température » à régime d’eau 45°C, la PAC installée est d’application moyenne ou\nhaute température et l’Etas à 55°C est à considérer.",
+      "confidence": "high"
+    },
+    {
+      "text": "Pour les PAC assurant le chauffage et la production d’eau chaude sanitaire et pour toute association de système déporté à la PAC installée, permettant la production de l’eau chaude sanitaire par celle-ci, la PAC installée est d’application moyenne ou haute température et l’Etas à 55°C est à considérer.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Pour les PAC assurant le chauffage et la production d’eau chaude sanitaire et pour toute association de système\ndéporté à la PAC installée, permettant la production de l’eau chaude sanitaire par celle-ci, la PAC installée est\nd’application moyenne ou haute température et l’Etas à 55°C est à considérer.",
+      "confidence": "high"
+    },
+    {
+      "text": "Le professionnel rédige une note de dimensionnement du générateur par rapport aux déperditions calculées à T = Tbase. Les déperditions concernent les pièces du logement desservies par le réseau de chauffage, sans considération des éventuels autres générateurs présents La PAC installée est conforme aux préconisations de la note de dimensionnement. Cette note est remise au bénéficiaire à l’engagement de l’opération. Le cas échéant elle est actualisée et remise au bénéficiaire à l’achèvement des travaux.",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Le professionnel rédige une note de dimensionnement du générateur par rapport aux déperditions calculées à\nT = Tbase. Les déperditions concernent les pièces du logement desservies par le réseau de chauffage, sans\nconsidération des éventuels autres générateurs présents La PAC installée est conforme aux préconisations de la note\nde dimensionnement. Cette note est remise au bénéficiaire à l’engagement de l’opération. Le cas échéant elle est\nactualisée et remise au bénéficiaire à l’achèvement des travaux.",
+      "confidence": "high"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont : - la note de dimensionnement susmentionnée ; - la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé ; - la fiche d’information sur le produit de la PAC, mentionnée à l'article 3 du Règlement (UE) 2017/1369 établissant un cadre pour l'étiquetage énergétique (dont le texte d’application spécifique au chauffage centralisé est le règlement écoconception 811/2013).",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :\n- la note de dimensionnement susmentionnée ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé ;\n- la fiche d’information sur le produit de la PAC, mentionnée à l'article 3 du Règlement (UE) 2017/1369 établissant\nun cadre pour l'étiquetage énergétique (dont le texte d’application spécifique au chauffage centralisé est le règlement\nécoconception 811/2013).",
+      "confidence": "high"
+    },
+    {
+      "text": "Pour un appartement :",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 3,
+      "section_title": "Points de contr?le",
+      "quote": "Pour un appartement :",
+      "confidence": "high"
+    }
+  ],
+  "calculation": {
+    "formula_type": "table",
+    "formula_text": "Pour un appartement :\n\nEfficacité énergé-\ntique saisonnière\n(Etas)\nMontant\nkWhc\nX\nFacteur cor-\nrectif selon\nla surface\nchauffée\nSurface\nchauffée S\nen m² par la\nPAC instal-\nlée\nX\nFacteur correc-\ntif selon la zone\ngéographique\nZone géogra-\nphique\n111%≤ Etas<140%\n48 700\n0,5\nS < 35\n1,2\nH1\n140%≤ Etas\n58 900\n0,7\n35 ≤ S < 60\n1\nH2\n\n\n1\n60 ≤ S\n0,7\nH3\n\nPour une maison individuelle :\nEfficacité énergé-\ntique saisonnière\n(Etas)\nMontant\nkWhc\nX\nFacteur cor-\nrectif selon\nla surface\nchauffée\nSurface\nchauffée S\nen m² par la\nPAC instal-\nlée\nX\nFacteur correc-\ntif selon la zone\ngéographique\nZone géogra-\nphique\n111%≤ Etas<140%\n90 900\n0,5\nS < 70\n1,2\nH1\n140%≤ Etas\n109 200\n0,7\n70  ≤ S < 90\n1\nH2\n\n\n1\n90 ≤ S\n0,7\nH3\n\nNB : La surface chauffée prise en compte est la surface habitable, au sens de l'article R. 156-1 du code de la\nconstruction et de l'habitation, chauffée par la PAC installée et correspond aux surfaces des pièces disposant d’un\németteur de chaleur alimenté par la PAC installée.",
+    "variables": [
+      {
+        "name": "dwelling_type",
+        "label": "Type de logement",
+        "unit": null,
+        "value_type": "enum",
+        "description": "Appartement ou maison individuelle selon le tableau de la fiche."
+      },
+      {
+        "name": "etas_percent",
+        "label": "Efficacit? ?nerg?tique saisonni?re Etas",
+        "unit": "%",
+        "value_type": "number",
+        "description": "S?lection de la plage 111%?Etas<140% ou 140%?Etas."
+      },
+      {
+        "name": "S",
+        "label": "Surface chauff?e par la PAC install?e",
+        "unit": "m2",
+        "value_type": "number",
+        "description": "Surface habitable chauff?e par la PAC install?e."
+      },
+      {
+        "name": "climate_zone",
+        "label": "Zone g?ographique",
+        "unit": null,
+        "value_type": "enum",
+        "description": "Zone H1, H2 ou H3."
+      },
+      {
+        "name": "surface_factor",
+        "label": "Facteur correctif selon la surface chauff?e",
+        "unit": null,
+        "value_type": "number",
+        "description": "Facteur d?fini par la table de surface."
+      },
+      {
+        "name": "zone_factor",
+        "label": "Facteur correctif selon la zone g?ographique",
+        "unit": null,
+        "value_type": "number",
+        "description": "Facteur d?fini par la table de zone."
+      }
+    ],
+    "tables": [
+      {
+        "table": "amount_by_dwelling_and_etas",
+        "dwelling_type": "appartement",
+        "etas_min": 111,
+        "etas_max": 140,
+        "value_kwh_cumac": 48700
+      },
+      {
+        "table": "amount_by_dwelling_and_etas",
+        "dwelling_type": "appartement",
+        "etas_min": 140,
+        "etas_max": null,
+        "value_kwh_cumac": 58900
+      },
+      {
+        "table": "amount_by_dwelling_and_etas",
+        "dwelling_type": "maison_individuelle",
+        "etas_min": 111,
+        "etas_max": 140,
+        "value_kwh_cumac": 90900
+      },
+      {
+        "table": "amount_by_dwelling_and_etas",
+        "dwelling_type": "maison_individuelle",
+        "etas_min": 140,
+        "etas_max": null,
+        "value_kwh_cumac": 109200
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "appartement",
+        "s_min_m2": null,
+        "s_max_m2": 35,
+        "factor": 0.5
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "appartement",
+        "s_min_m2": 35,
+        "s_max_m2": 60,
+        "factor": 0.7
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "appartement",
+        "s_min_m2": 60,
+        "s_max_m2": null,
+        "factor": 1.0
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "maison_individuelle",
+        "s_min_m2": null,
+        "s_max_m2": 70,
+        "factor": 0.5
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "maison_individuelle",
+        "s_min_m2": 70,
+        "s_max_m2": 90,
+        "factor": 0.7
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "maison_individuelle",
+        "s_min_m2": 90,
+        "s_max_m2": null,
+        "factor": 1.0
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H1",
+        "factor": 1.2
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H2",
+        "factor": 1.0
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H3",
+        "factor": 0.7
+      }
+    ]
+  },
+  "formulas": [
+    {
+      "text": "Pour un appartement :",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Pour un appartement :",
+      "confidence": "high"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "dwelling_type",
+      "unit": null,
+      "required": true,
+      "reason": "s?lection du bar?me appartement ou maison individuelle",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "heated_surface_s_m2",
+      "unit": "m2",
+      "required": true,
+      "reason": "facteur correctif selon la surface chauff?e par la PAC",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "climate_zone",
+      "unit": null,
+      "required": true,
+      "reason": "facteur correctif selon la zone g?ographique",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "usage",
+      "unit": null,
+      "required": true,
+      "reason": "chauffage ou chauffage et eau chaude sanitaire",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "etas_percent",
+      "unit": "%",
+      "required": true,
+      "reason": "s?lection de la plage Etas",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "application_temperature",
+      "unit": null,
+      "required": true,
+      "reason": "contr?le Etas 35?C ou 55?C",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "pac_type",
+      "unit": null,
+      "required": true,
+      "reason": "v?rifier PAC air/eau",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "regulator_class",
+      "unit": null,
+      "required": true,
+      "reason": "classe IV ? VIII du r?gulateur",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "professional_quality_sign",
+      "unit": null,
+      "required": true,
+      "reason": "qualification professionnelle requise",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": true,
+    "dpt_required": false,
+    "attestation_required": true,
+    "photos_required": null,
+    "manufacturer_datasheet_required": true
+  },
+  "compliance_risks": [
+    "high: PAC associ?e ? un autre syst?me de chauffage d?clar?e ?ligible",
+    "high: PAC utilis?e uniquement pour l?ECS",
+    "high: Etas insuffisant ou mauvaise application 35?C/55?C",
+    "high: Absence de r?gulateur classe IV, V, VI, VII ou VIII",
+    "high: Note de dimensionnement absente ou non remise au b?n?ficiaire",
+    "high: Cumul avec une fiche non cumulable",
+    "medium: Surface chauff?e S ou zone climatique erron?e",
+    "medium: Preuve de r?alisation incompl?te marque/r?f?rence/usage/Etas/r?gulateur"
+  ],
+  "lifetime_years": 17,
+  "risks": [
+    {
+      "risk": "PAC associ?e ? un autre syst?me de chauffage d?clar?e ?ligible",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "PAC utilis?e uniquement pour l?ECS",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Etas insuffisant ou mauvaise application 35?C/55?C",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Absence de r?gulateur classe IV, V, VI, VII ou VIII",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Note de dimensionnement absente ou non remise au b?n?ficiaire",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Cumul avec une fiche non cumulable",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Surface chauff?e S ou zone climatique erron?e",
+      "severity": "medium",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Preuve de r?alisation incompl?te marque/r?f?rence/usage/Etas/r?gulateur",
+      "severity": "medium",
+      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-171 vA78-4 à compter du 01-01-2026",
+      "code": "BAR-TH-171",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-171 vA78-4 à compter du 01-01-2026 : Pompe à chaleur de type air/eau PDF – 133.79 Ko",
+      "path": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-171%20vA78-4%20%C3%A0%20compter%20du%2001-01-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-171 vA78-4 à compter du 01-01-2026 - Partie A",
+      "code": "BAR-TH-171",
+      "document_type": "partie_a",
+      "title": "BAR-TH-171 vA78-4 à compter du 01-01-2026 - Partie A PDF – 114.27 Ko",
+      "path": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-171%20vA78-4%20%C3%A0%20compter%20du%2001-01-2026%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-171 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-171",
+      "document_type": "partie_a",
+      "title": "BAR-TH-171 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026 PDF – 117.83 Ko",
+      "path": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-171%20vA78-4%20%C3%A0%20compter%20du%2001-01-2026%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+    "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "validated",
+    "tool": "manual_curated_from_data_text",
+    "extracted_at": "2026-05-16T00:00:00+00:00",
+    "needs_human_review": false,
+    "notes": "Curated depuis data/text et data/json extraits du PDF officiel. Les libell?s source priment sur les intitul?s m?tier externes."
+  }
+}

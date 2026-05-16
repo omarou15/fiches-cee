@@ -1,0 +1,688 @@
+{
+  "code": "BAR-TH-168",
+  "sector": "residentiel",
+  "family": "TH",
+  "title": "BAR-TH-168 vA78-3 à compter du 01-01-2026 : Dispositif solaire thermique (France métropolitaine) PDF – 160.76 Ko",
+  "title_clean": "Dispositif solaire thermique (France m?tropolitaine)",
+  "application_sector": "Maisons individuelles existantes en France m?tropolitaine",
+  "operation_description": "Mise en place d?un dispositif solaire thermique individuel install? sur appoint s?par?, neuf ou existant.",
+  "eligible_uses": [
+    "eau chaude sanitaire",
+    "eau chaude sanitaire et chauffage"
+  ],
+  "excluded_uses": [
+    "capteurs hybrides produisant ? la fois ?lectricit? et chaleur",
+    "appoint ?lectrique pour usage ECS et chauffage"
+  ],
+  "non_cumulation": [
+    {
+      "code": "BAR-TH-171",
+      "condition": "Non-cumul mentionn? dans la d?nomination de la fiche.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1
+    },
+    {
+      "code": "BAR-TH-172",
+      "condition": "Non-cumul mentionn? dans la d?nomination de la fiche.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1
+    }
+  ],
+  "version": "vA78-3",
+  "document_version": "vA78-3",
+  "effective_date": "2026-01-01",
+  "validity": {
+    "effective_date": "2026-01-01",
+    "engagement_deadline": "2030-12-31"
+  },
+  "dates": {
+    "arrete_date": null,
+    "effective_date": "2026-01-01",
+    "partie_a_effective_date": null,
+    "end_date": null,
+    "date_source": "filename"
+  },
+  "scope": {
+    "building_types": [],
+    "operation_types": [],
+    "energy_systems": []
+  },
+  "sections": [
+    {
+      "number": "1",
+      "title": "Secteur d’application",
+      "text": "Bâtiment résidentiel : maisons individuelles existantes en France métropolitaine.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "2",
+      "title": "Dénomination",
+      "text": "Mise en place d’un dispositif solaire thermique individuel installé sur appoint séparé, neuf ou existant, destiné à la\nproduction de chauffage et à la production d’eau chaude sanitaire ou à la production d’eau chaude sanitaire\nseulement.\n\nLa présente opération n’est pas cumulable avec les opérations relevant des fiches BAR-TH-171 « Pompe à chaleur\nde type air/eau » et BAR-TH-172 « Pompe à chaleur de type eau/eau ou eau glycolée/eau ».\n\nLa présente fiche s'applique aux opérations engagées avant le 1er janvier 2031.",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "number": "3",
+      "title": "Conditions pour la délivrance de certificats",
+      "text": "La mise en place est réalisée par un professionnel.\n\nLe professionnel réalisant l’opération est titulaire d’un signe de qualité conforme aux exigences prévues à l’article\n2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du\ncode général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des\ntextes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 2° du I de l'article 1er du\ndécret précité.\n\nLe dispositif solaire thermique est livré sans appoint et comprend des capteurs solaires thermiques, un ballon de\nstockage solaire et un régulateur de température qui pilote le circuit solaire et le groupe de sécurité avec le vase\nd’expansion.\n\nLes capteurs hybrides produisant à la fois électricité et chaleur sont exclus.\n\nLes capteurs solaires ont une puissance de sortie disponible supérieure ou égale à 450 W/m² de surface hors tout du\ncapteur, mesurée selon la norme ISO 9806 pour une différence entre la température moyenne du fluide caloporteur\net la température de l'air ambiant Δ𝑇=50𝐾.\n\nLes capteurs solaires installés sont des capteurs thermiques vitrés à circulation d’eau ou d’eau glycolée, dans les\nconditions de pose et d’utilisation de l’équipement, et ont :\n- une certification QB ou SolarKeymark fondée sur les normes ISO 9806 et NF EN 12975 ou toute autre méthode\néquivalente ;\n- ou des caractéristiques de performances et de qualité équivalentes, établies par un organisme établi dans l’Espace\nEconomique Européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité Français d’Accréditation\n(COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans\nle cadre de European co-operation for Accreditation (EA), coordination européenne des organismes d’accréditation.\n\nSi la capacité de stockage du ou des ballons d'eau chaude solaires est inférieure ou égale à 500 litres, leur classe\nd'efficacité énergétique, déterminée conformément à l'annexe II, point 2 du règlement délégué (UE) n° 812/2013 de\nla Commission du 18 février 2013 complétant la directive 2010/30/UE du Parlement européen et du Conseil en ce\nqui concerne l'étiquetage énergétique des chauffe-eau, des ballons d’eau chaude et des produits combinés constitués\nd'un chauffe-eau et d'un dispositif solaire, est a minima la classe C.\n\na) Si le dispositif solaire thermique est installé pour la production de chauffage et la production d’eau chaude\nsanitaire :\n\nLe dispositif solaire thermique n’est pas installé sur un appoint électrique.\n\nLe système est couplé à des émetteurs de chauffage central de type basse température permettant une optimisation\nde la valorisation de l’énergie solaire.\n\nLa surface hors-tout totale de capteurs solaires thermiques vitrés installés est supérieure ou égale à 8 m².\n\nL'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n° 813/2013\nde la commission du 2 août 2013, est supérieure ou égale à :\n- 82 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est inférieure à 82 % ;\n- 90 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est supérieure ou égale à 82% et\ninférieure à 90 % ;\n- 98 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est supérieure ou égale à 90 % et\ninférieure à 98 % ;\n- Supérieure d'au moins 5 points de pourcentage à l'efficacité énergétique saisonnière de l'appoint séparé dans les\nautres cas.\n\nLes capteurs installés sont associés à un ou plusieurs ballons d'eau chaude solaires. La capacité de stockage du ou\ndes ballons d'eau chaude solaires est strictement supérieure à 400 litres.\n\nb) Si le dispositif solaire thermique est installé pour la production d’eau chaude sanitaire seule :\n\nLa surface hors-tout totale de capteurs solaires thermiques vitrés installés est supérieure ou égale à 2 m².\n\nL’efficacité énergétique pour le chauffage de l'eau, établie en fonction du profil de soutirage conformément au\nrèglement (UE) n° 814/2013 de la Commission du 2 août 2013 portant application de la directive 2009/125/CE du\nParlement européen et du Conseil en ce qui concerne les exigences d'écoconception applicables aux chauffe-eau et\naux ballons d'eau chaude, correspond à un profil de soutirage déclaré M, L, XL ou XXL et est supérieure ou égale\nà :\n\nEnergie de l’appoint\nProfil de soutirage\nM\nL\nXL\nXXL\nElectrique à effet Joule\n36 %\n37 %\n38 %\n60 %\nAutre\n95 %\n100 %\n110 %\n120 %\n\nLes capteurs solaires installés sont associés à un ou plusieurs ballons d'eau chaude solaires.\n\nPour les dispositifs solaires thermiques mentionnés au a) et au b), la preuve de réalisation de l’opération mentionne :\n- la mise en place d’un dispositif solaire thermique et les caractéristiques des capteurs associés ;\n- l’usage pour lequel le dispositif solaire thermique individuel est installé (production de chauffage et production\nd’eau chaude sanitaire ou production d’eau chaude sanitaire uniquement) ;\n\n- l’énergie du système d’appoint séparé, neuf ou existant, accompagnant le dispositif solaire ;\n- la nature du fluide circulant dans les capteurs solaires, dans les conditions de pose et d’utilisation de l’équipement\n(eau ou eau glycolée) ;\n- la surface hors-tout totale des capteurs solaires thermiques mis en place en m² ;\n- la puissance de sortie disponible des capteurs solaires en W/m² ;\n- le nombre de ballons d’eau chaude solaires installés ;\n- la capacité de stockage de chaque ballon d'eau chaude solaire installé (en litres) ;\n- la classe d’efficacité énergétique des ballons d'eau chaude solaires installés dont la capacité de stockage est\ninférieure ou égale à 500 litres, selon le règlement (UE) n° 812/2013 susmentionné ;\n- l'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n°\n813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau selon le règlement\n(UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré.\n\nA défaut, la preuve de réalisation de l’opération mentionne la mise en place des éléments constitutifs du dispositif\nsolaire thermique avec leurs marques et références, ainsi que les caractéristiques de l’installation (l’usage pour le-\nquel le dispositif solaire thermique individuel est installé, l’énergie du système d’appoint séparé neuf ou existant\naccompagnant le dispositif solaire, la surface hors-tout totale des capteurs thermiques installés en m², le nombre et\nla capacité en litres des ballons d’eau chaude solaires installés, la nature du fluide circulant dans les capteurs solaires)\net elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen\net accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre\norganisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination\neuropéenne des organismes d'accréditation.\n\nCe document indique que les équipements de marques et références installés constituent un dispositif solaire\nthermique et précise les caractéristiques des capteurs associés, la puissance de sortie disponible des capteurs solaires\ninstallés en W/m², l’efficacité énergétique pour la production de chauffage et la production d’eau chaude sanitaire\nselon le règlement (UE) n°813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-\neau selon le règlement (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré, ainsi que la classe\nd’efficacité énergétique selon le règlement (UE) n° 812/2013 susmentionné des ballons d'eau chaude solaires dont\nla capacité de stockage est inférieure ou égale à 500 litres.\n\nLes documents justificatifs spécifiques à l’opération sont :\n- la certification QB ou Solar Keymark ou équivalente des capteurs solaires ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé.",
+      "page_start": 1,
+      "page_end": 3
+    },
+    {
+      "number": "4",
+      "title": "Durée de vie conventionnelle",
+      "text": "25 ans.",
+      "page_start": 3,
+      "page_end": 3
+    },
+    {
+      "number": "5",
+      "title": "Montant de certificats en kWh cumac",
+      "text": "Zone\ngéographique\nMontant en kWh cumac par m2 de capteur\n\nSurface hors-tout\nde capteurs solaires\nmis en place (m2)\nUsage ECS\nUsage ECS\net Chauffage\n\nS\nH1\n6 000\n14 000\n\nH2\n7 200\n12 700\nX\nH3\n9 600\n10 300\n\n« ECS » signifie : eau chaude sanitaire.",
+      "page_start": 3,
+      "page_end": 3
+    }
+  ],
+  "applicability": {
+    "residential": true,
+    "tertiary": false,
+    "collective": false,
+    "individual": true,
+    "new_building": null,
+    "existing_building": true,
+    "metropolitan_france": true,
+    "overseas": null
+  },
+  "systems": {
+    "heating": true,
+    "domestic_hot_water": true,
+    "heat_pump": true,
+    "boiler": false,
+    "hybrid_system": true,
+    "district_heating": false,
+    "ventilation": false,
+    "insulation": false,
+    "regulation": false,
+    "gtb": false
+  },
+  "eligibility_conditions": [
+    {
+      "text": "Bâtiment résidentiel : maisons individuelles existantes en France métropolitaine.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "Bâtiment résidentiel : maisons individuelles existantes en France métropolitaine.",
+      "confidence": "high"
+    },
+    {
+      "text": "Mise en place d’un dispositif solaire thermique individuel installé sur appoint séparé, neuf ou existant, destiné à la production de chauffage et à la production d’eau chaude sanitaire ou à la production d’eau chaude sanitaire seulement.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "Mise en place d’un dispositif solaire thermique individuel installé sur appoint séparé, neuf ou existant, destiné à la\nproduction de chauffage et à la production d’eau chaude sanitaire ou à la production d’eau chaude sanitaire\nseulement.",
+      "confidence": "high"
+    },
+    {
+      "text": "La présente opération n’est pas cumulable avec les opérations relevant des fiches BAR-TH-171 « Pompe à chaleur de type air/eau » et BAR-TH-172 « Pompe à chaleur de type eau/eau ou eau glycolée/eau ».",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "La présente opération n’est pas cumulable avec les opérations relevant des fiches BAR-TH-171 « Pompe à chaleur\nde type air/eau » et BAR-TH-172 « Pompe à chaleur de type eau/eau ou eau glycolée/eau ».",
+      "confidence": "high"
+    },
+    {
+      "text": "Le dispositif solaire thermique est livré sans appoint et comprend des capteurs solaires thermiques, un ballon de stockage solaire et un régulateur de température qui pilote le circuit solaire et le groupe de sécurité avec le vase d’expansion.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "Le dispositif solaire thermique est livré sans appoint et comprend des capteurs solaires thermiques, un ballon de\nstockage solaire et un régulateur de température qui pilote le circuit solaire et le groupe de sécurité avec le vase\nd’expansion.",
+      "confidence": "high"
+    },
+    {
+      "text": "Les capteurs hybrides produisant à la fois électricité et chaleur sont exclus.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "Les capteurs hybrides produisant à la fois électricité et chaleur sont exclus.",
+      "confidence": "high"
+    },
+    {
+      "text": "a) Si le dispositif solaire thermique est installé pour la production de chauffage et la production d’eau chaude sanitaire :",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "a) Si le dispositif solaire thermique est installé pour la production de chauffage et la production d’eau chaude\nsanitaire :",
+      "confidence": "high"
+    },
+    {
+      "text": "b) Si le dispositif solaire thermique est installé pour la production d’eau chaude sanitaire seule :",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "?ligibilit?",
+      "quote": "b) Si le dispositif solaire thermique est installé pour la production d’eau chaude sanitaire seule :",
+      "confidence": "high"
+    }
+  ],
+  "technical_requirements": [
+    {
+      "text": "La mise en place est réalisée par un professionnel.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "La mise en place est réalisée par un professionnel.",
+      "confidence": "high"
+    },
+    {
+      "text": "Le professionnel réalisant l’opération est titulaire d’un signe de qualité conforme aux exigences prévues à l’article 2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du code général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des textes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 2° du I de l'article 1er du décret précité.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Le professionnel réalisant l’opération est titulaire d’un signe de qualité conforme aux exigences prévues à l’article\n2 du décret n° 2014-812 du 16 juillet 2014 pris pour l’application du second alinéa du 2 de l’article 200 quater du\ncode général des impôts et du dernier alinéa du 2 du I de l’article 244 quater U du code général des impôts et des\ntextes pris pour son application. Ce signe de qualité correspond à des travaux relevant du 2° du I de l'article 1er du\ndécret précité.",
+      "confidence": "high"
+    },
+    {
+      "text": "Le dispositif solaire thermique est livré sans appoint et comprend des capteurs solaires thermiques, un ballon de stockage solaire et un régulateur de température qui pilote le circuit solaire et le groupe de sécurité avec le vase d’expansion.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Le dispositif solaire thermique est livré sans appoint et comprend des capteurs solaires thermiques, un ballon de\nstockage solaire et un régulateur de température qui pilote le circuit solaire et le groupe de sécurité avec le vase\nd’expansion.",
+      "confidence": "high"
+    },
+    {
+      "text": "Les capteurs solaires ont une puissance de sortie disponible supérieure ou égale à 450 W/m² de surface hors tout du capteur, mesurée selon la norme ISO 9806 pour une différence entre la température moyenne du fluide caloporteur et la température de l'air ambiant Δ𝑇=50𝐾.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Les capteurs solaires ont une puissance de sortie disponible supérieure ou égale à 450 W/m² de surface hors tout du\ncapteur, mesurée selon la norme ISO 9806 pour une différence entre la température moyenne du fluide caloporteur\net la température de l'air ambiant Δ𝑇=50𝐾.",
+      "confidence": "high"
+    },
+    {
+      "text": "Les capteurs solaires installés sont des capteurs thermiques vitrés à circulation d’eau ou d’eau glycolée, dans les conditions de pose et d’utilisation de l’équipement, et ont : - une certification QB ou SolarKeymark fondée sur les normes ISO 9806 et NF EN 12975 ou toute autre méthode équivalente ; - ou des caractéristiques de performances et de qualité équivalentes, établies par un organisme établi dans l’Espace Economique Européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité Français d’Accréditation (COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne des organismes d’accréditation.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Les capteurs solaires installés sont des capteurs thermiques vitrés à circulation d’eau ou d’eau glycolée, dans les\nconditions de pose et d’utilisation de l’équipement, et ont :\n- une certification QB ou SolarKeymark fondée sur les normes ISO 9806 et NF EN 12975 ou toute autre méthode\néquivalente ;\n- ou des caractéristiques de performances et de qualité équivalentes, établies par un organisme établi dans l’Espace\nEconomique Européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité Français d’Accréditation\n(COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans\nle cadre de European co-operation for Accreditation (EA), coordination européenne des organismes d’accréditation.",
+      "confidence": "high"
+    },
+    {
+      "text": "Si la capacité de stockage du ou des ballons d'eau chaude solaires est inférieure ou égale à 500 litres, leur classe d'efficacité énergétique, déterminée conformément à l'annexe II, point 2 du règlement délégué (UE) n° 812/2013 de la Commission du 18 février 2013 complétant la directive 2010/30/UE du Parlement européen et du Conseil en ce qui concerne l'étiquetage énergétique des chauffe-eau, des ballons d’eau chaude et des produits combinés constitués d'un chauffe-eau et d'un dispositif solaire, est a minima la classe C.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Si la capacité de stockage du ou des ballons d'eau chaude solaires est inférieure ou égale à 500 litres, leur classe\nd'efficacité énergétique, déterminée conformément à l'annexe II, point 2 du règlement délégué (UE) n° 812/2013 de\nla Commission du 18 février 2013 complétant la directive 2010/30/UE du Parlement européen et du Conseil en ce\nqui concerne l'étiquetage énergétique des chauffe-eau, des ballons d’eau chaude et des produits combinés constitués\nd'un chauffe-eau et d'un dispositif solaire, est a minima la classe C.",
+      "confidence": "high"
+    },
+    {
+      "text": "Le dispositif solaire thermique n’est pas installé sur un appoint électrique.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Le dispositif solaire thermique n’est pas installé sur un appoint électrique.",
+      "confidence": "high"
+    },
+    {
+      "text": "Le système est couplé à des émetteurs de chauffage central de type basse température permettant une optimisation de la valorisation de l’énergie solaire.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Le système est couplé à des émetteurs de chauffage central de type basse température permettant une optimisation\nde la valorisation de l’énergie solaire.",
+      "confidence": "high"
+    },
+    {
+      "text": "La surface hors-tout totale de capteurs solaires thermiques vitrés installés est supérieure ou égale à 8 m².",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "La surface hors-tout totale de capteurs solaires thermiques vitrés installés est supérieure ou égale à 8 m².",
+      "confidence": "high"
+    },
+    {
+      "text": "L'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n° 813/2013 de la commission du 2 août 2013, est supérieure ou égale à : - 82 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est inférieure à 82 % ; - 90 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est supérieure ou égale à 82% et inférieure à 90 % ; - 98 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est supérieure ou égale à 90 % et inférieure à 98 % ; - Supérieure d'au moins 5 points de pourcentage à l'efficacité énergétique saisonnière de l'appoint séparé dans les autres cas.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "L'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n° 813/2013\nde la commission du 2 août 2013, est supérieure ou égale à :\n- 82 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est inférieure à 82 % ;\n- 90 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est supérieure ou égale à 82% et\ninférieure à 90 % ;\n- 98 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est supérieure ou égale à 90 % et\ninférieure à 98 % ;\n- Supérieure d'au moins 5 points de pourcentage à l'efficacité énergétique saisonnière de l'appoint séparé dans les\nautres cas.",
+      "confidence": "high"
+    },
+    {
+      "text": "Les capteurs installés sont associés à un ou plusieurs ballons d'eau chaude solaires. La capacité de stockage du ou des ballons d'eau chaude solaires est strictement supérieure à 400 litres.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Les capteurs installés sont associés à un ou plusieurs ballons d'eau chaude solaires. La capacité de stockage du ou\ndes ballons d'eau chaude solaires est strictement supérieure à 400 litres.",
+      "confidence": "high"
+    },
+    {
+      "text": "La surface hors-tout totale de capteurs solaires thermiques vitrés installés est supérieure ou égale à 2 m².",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "La surface hors-tout totale de capteurs solaires thermiques vitrés installés est supérieure ou égale à 2 m².",
+      "confidence": "high"
+    },
+    {
+      "text": "L’efficacité énergétique pour le chauffage de l'eau, établie en fonction du profil de soutirage conformément au règlement (UE) n° 814/2013 de la Commission du 2 août 2013 portant application de la directive 2009/125/CE du Parlement européen et du Conseil en ce qui concerne les exigences d'écoconception applicables aux chauffe-eau et aux ballons d'eau chaude, correspond à un profil de soutirage déclaré M, L, XL ou XXL et est supérieure ou égale à :",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "L’efficacité énergétique pour le chauffage de l'eau, établie en fonction du profil de soutirage conformément au\nrèglement (UE) n° 814/2013 de la Commission du 2 août 2013 portant application de la directive 2009/125/CE du\nParlement européen et du Conseil en ce qui concerne les exigences d'écoconception applicables aux chauffe-eau et\naux ballons d'eau chaude, correspond à un profil de soutirage déclaré M, L, XL ou XXL et est supérieure ou égale\nà :",
+      "confidence": "high"
+    },
+    {
+      "text": "Energie de l’appoint Profil de soutirage M L XL XXL Electrique à effet Joule 36 % 37 % 38 % 60 % Autre 95 % 100 % 110 % 120 %",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Energie de l’appoint\nProfil de soutirage\nM\nL\nXL\nXXL\nElectrique à effet Joule\n36 %\n37 %\n38 %\n60 %\nAutre\n95 %\n100 %\n110 %\n120 %",
+      "confidence": "high"
+    },
+    {
+      "text": "Les capteurs solaires installés sont associés à un ou plusieurs ballons d'eau chaude solaires.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Exigences techniques",
+      "quote": "Les capteurs solaires installés sont associés à un ou plusieurs ballons d'eau chaude solaires.",
+      "confidence": "high"
+    }
+  ],
+  "required_documents": [
+    {
+      "text": "Pour les dispositifs solaires thermiques mentionnés au a) et au b), la preuve de réalisation de l’opération mentionne : - la mise en place d’un dispositif solaire thermique et les caractéristiques des capteurs associés ; - l’usage pour lequel le dispositif solaire thermique individuel est installé (production de chauffage et production d’eau chaude sanitaire ou production d’eau chaude sanitaire uniquement) ;",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Pi?ces et preuves",
+      "quote": "Pour les dispositifs solaires thermiques mentionnés au a) et au b), la preuve de réalisation de l’opération mentionne :\n- la mise en place d’un dispositif solaire thermique et les caractéristiques des capteurs associés ;\n- l’usage pour lequel le dispositif solaire thermique individuel est installé (production de chauffage et production\nd’eau chaude sanitaire ou production d’eau chaude sanitaire uniquement) ;",
+      "confidence": "high"
+    },
+    {
+      "text": "- l’énergie du système d’appoint séparé, neuf ou existant, accompagnant le dispositif solaire ; - la nature du fluide circulant dans les capteurs solaires, dans les conditions de pose et d’utilisation de l’équipement (eau ou eau glycolée) ; - la surface hors-tout totale des capteurs solaires thermiques mis en place en m² ; - la puissance de sortie disponible des capteurs solaires en W/m² ; - le nombre de ballons d’eau chaude solaires installés ; - la capacité de stockage de chaque ballon d'eau chaude solaire installé (en litres) ; - la classe d’efficacité énergétique des ballons d'eau chaude solaires installés dont la capacité de stockage est inférieure ou égale à 500 litres, selon le règlement (UE) n° 812/2013 susmentionné ; - l'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n° 813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau selon le règlement (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Pi?ces et preuves",
+      "quote": "- l’énergie du système d’appoint séparé, neuf ou existant, accompagnant le dispositif solaire ;\n- la nature du fluide circulant dans les capteurs solaires, dans les conditions de pose et d’utilisation de l’équipement\n(eau ou eau glycolée) ;\n- la surface hors-tout totale des capteurs solaires thermiques mis en place en m² ;\n- la puissance de sortie disponible des capteurs solaires en W/m² ;\n- le nombre de ballons d’eau chaude solaires installés ;\n- la capacité de stockage de chaque ballon d'eau chaude solaire installé (en litres) ;\n- la classe d’efficacité énergétique des ballons d'eau chaude solaires installés dont la capacité de stockage est\ninférieure ou égale à 500 litres, selon le règlement (UE) n° 812/2013 susmentionné ;\n- l'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n°\n813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau selon le règlement\n(UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré.",
+      "confidence": "high"
+    },
+    {
+      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place des éléments constitutifs du dispositif solaire thermique avec leurs marques et références, ainsi que les caractéristiques de l’installation (l’usage pour le- quel le dispositif solaire thermique individuel est installé, l’énergie du système d’appoint séparé neuf ou existant accompagnant le dispositif solaire, la surface hors-tout totale des capteurs thermiques installés en m², le nombre et la capacité en litres des ballons d’eau chaude solaires installés, la nature du fluide circulant dans les capteurs solaires) et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination européenne des organismes d'accréditation.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Pi?ces et preuves",
+      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place des éléments constitutifs du dispositif\nsolaire thermique avec leurs marques et références, ainsi que les caractéristiques de l’installation (l’usage pour le-\nquel le dispositif solaire thermique individuel est installé, l’énergie du système d’appoint séparé neuf ou existant\naccompagnant le dispositif solaire, la surface hors-tout totale des capteurs thermiques installés en m², le nombre et\nla capacité en litres des ballons d’eau chaude solaires installés, la nature du fluide circulant dans les capteurs solaires)\net elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen\net accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre\norganisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination\neuropéenne des organismes d'accréditation.",
+      "confidence": "high"
+    },
+    {
+      "text": "Ce document indique que les équipements de marques et références installés constituent un dispositif solaire thermique et précise les caractéristiques des capteurs associés, la puissance de sortie disponible des capteurs solaires installés en W/m², l’efficacité énergétique pour la production de chauffage et la production d’eau chaude sanitaire selon le règlement (UE) n°813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe- eau selon le règlement (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré, ainsi que la classe d’efficacité énergétique selon le règlement (UE) n° 812/2013 susmentionné des ballons d'eau chaude solaires dont la capacité de stockage est inférieure ou égale à 500 litres.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Pi?ces et preuves",
+      "quote": "Ce document indique que les équipements de marques et références installés constituent un dispositif solaire\nthermique et précise les caractéristiques des capteurs associés, la puissance de sortie disponible des capteurs solaires\ninstallés en W/m², l’efficacité énergétique pour la production de chauffage et la production d’eau chaude sanitaire\nselon le règlement (UE) n°813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-\neau selon le règlement (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré, ainsi que la classe\nd’efficacité énergétique selon le règlement (UE) n° 812/2013 susmentionné des ballons d'eau chaude solaires dont\nla capacité de stockage est inférieure ou égale à 500 litres.",
+      "confidence": "high"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont : - la certification QB ou Solar Keymark ou équivalente des capteurs solaires ; - la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Pi?ces et preuves",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :\n- la certification QB ou Solar Keymark ou équivalente des capteurs solaires ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé.",
+      "confidence": "high"
+    }
+  ],
+  "attestation_fields": [],
+  "control_points": [
+    {
+      "text": "Les capteurs hybrides produisant à la fois électricité et chaleur sont exclus.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Les capteurs hybrides produisant à la fois électricité et chaleur sont exclus.",
+      "confidence": "high"
+    },
+    {
+      "text": "Les capteurs solaires ont une puissance de sortie disponible supérieure ou égale à 450 W/m² de surface hors tout du capteur, mesurée selon la norme ISO 9806 pour une différence entre la température moyenne du fluide caloporteur et la température de l'air ambiant Δ𝑇=50𝐾.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Les capteurs solaires ont une puissance de sortie disponible supérieure ou égale à 450 W/m² de surface hors tout du\ncapteur, mesurée selon la norme ISO 9806 pour une différence entre la température moyenne du fluide caloporteur\net la température de l'air ambiant Δ𝑇=50𝐾.",
+      "confidence": "high"
+    },
+    {
+      "text": "Les capteurs solaires installés sont des capteurs thermiques vitrés à circulation d’eau ou d’eau glycolée, dans les conditions de pose et d’utilisation de l’équipement, et ont : - une certification QB ou SolarKeymark fondée sur les normes ISO 9806 et NF EN 12975 ou toute autre méthode équivalente ; - ou des caractéristiques de performances et de qualité équivalentes, établies par un organisme établi dans l’Espace Economique Européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité Français d’Accréditation (COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne des organismes d’accréditation.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Les capteurs solaires installés sont des capteurs thermiques vitrés à circulation d’eau ou d’eau glycolée, dans les\nconditions de pose et d’utilisation de l’équipement, et ont :\n- une certification QB ou SolarKeymark fondée sur les normes ISO 9806 et NF EN 12975 ou toute autre méthode\néquivalente ;\n- ou des caractéristiques de performances et de qualité équivalentes, établies par un organisme établi dans l’Espace\nEconomique Européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité Français d’Accréditation\n(COFRAC) ou tout autre organisme d’accréditation signataire de l’accord européen multilatéral pertinent pris dans\nle cadre de European co-operation for Accreditation (EA), coordination européenne des organismes d’accréditation.",
+      "confidence": "high"
+    },
+    {
+      "text": "Si la capacité de stockage du ou des ballons d'eau chaude solaires est inférieure ou égale à 500 litres, leur classe d'efficacité énergétique, déterminée conformément à l'annexe II, point 2 du règlement délégué (UE) n° 812/2013 de la Commission du 18 février 2013 complétant la directive 2010/30/UE du Parlement européen et du Conseil en ce qui concerne l'étiquetage énergétique des chauffe-eau, des ballons d’eau chaude et des produits combinés constitués d'un chauffe-eau et d'un dispositif solaire, est a minima la classe C.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Si la capacité de stockage du ou des ballons d'eau chaude solaires est inférieure ou égale à 500 litres, leur classe\nd'efficacité énergétique, déterminée conformément à l'annexe II, point 2 du règlement délégué (UE) n° 812/2013 de\nla Commission du 18 février 2013 complétant la directive 2010/30/UE du Parlement européen et du Conseil en ce\nqui concerne l'étiquetage énergétique des chauffe-eau, des ballons d’eau chaude et des produits combinés constitués\nd'un chauffe-eau et d'un dispositif solaire, est a minima la classe C.",
+      "confidence": "high"
+    },
+    {
+      "text": "Le dispositif solaire thermique n’est pas installé sur un appoint électrique.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Le dispositif solaire thermique n’est pas installé sur un appoint électrique.",
+      "confidence": "high"
+    },
+    {
+      "text": "La surface hors-tout totale de capteurs solaires thermiques vitrés installés est supérieure ou égale à 8 m².",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "La surface hors-tout totale de capteurs solaires thermiques vitrés installés est supérieure ou égale à 8 m².",
+      "confidence": "high"
+    },
+    {
+      "text": "L'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n° 813/2013 de la commission du 2 août 2013, est supérieure ou égale à : - 82 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est inférieure à 82 % ; - 90 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est supérieure ou égale à 82% et inférieure à 90 % ; - 98 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est supérieure ou égale à 90 % et inférieure à 98 % ; - Supérieure d'au moins 5 points de pourcentage à l'efficacité énergétique saisonnière de l'appoint séparé dans les autres cas.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "L'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n° 813/2013\nde la commission du 2 août 2013, est supérieure ou égale à :\n- 82 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est inférieure à 82 % ;\n- 90 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est supérieure ou égale à 82% et\ninférieure à 90 % ;\n- 98 % dans le cas où l'efficacité énergétique saisonnière de l'appoint séparé est supérieure ou égale à 90 % et\ninférieure à 98 % ;\n- Supérieure d'au moins 5 points de pourcentage à l'efficacité énergétique saisonnière de l'appoint séparé dans les\nautres cas.",
+      "confidence": "high"
+    },
+    {
+      "text": "Les capteurs installés sont associés à un ou plusieurs ballons d'eau chaude solaires. La capacité de stockage du ou des ballons d'eau chaude solaires est strictement supérieure à 400 litres.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Les capteurs installés sont associés à un ou plusieurs ballons d'eau chaude solaires. La capacité de stockage du ou\ndes ballons d'eau chaude solaires est strictement supérieure à 400 litres.",
+      "confidence": "high"
+    },
+    {
+      "text": "La surface hors-tout totale de capteurs solaires thermiques vitrés installés est supérieure ou égale à 2 m².",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "La surface hors-tout totale de capteurs solaires thermiques vitrés installés est supérieure ou égale à 2 m².",
+      "confidence": "high"
+    },
+    {
+      "text": "L’efficacité énergétique pour le chauffage de l'eau, établie en fonction du profil de soutirage conformément au règlement (UE) n° 814/2013 de la Commission du 2 août 2013 portant application de la directive 2009/125/CE du Parlement européen et du Conseil en ce qui concerne les exigences d'écoconception applicables aux chauffe-eau et aux ballons d'eau chaude, correspond à un profil de soutirage déclaré M, L, XL ou XXL et est supérieure ou égale à :",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "L’efficacité énergétique pour le chauffage de l'eau, établie en fonction du profil de soutirage conformément au\nrèglement (UE) n° 814/2013 de la Commission du 2 août 2013 portant application de la directive 2009/125/CE du\nParlement européen et du Conseil en ce qui concerne les exigences d'écoconception applicables aux chauffe-eau et\naux ballons d'eau chaude, correspond à un profil de soutirage déclaré M, L, XL ou XXL et est supérieure ou égale\nà :",
+      "confidence": "high"
+    },
+    {
+      "text": "Energie de l’appoint Profil de soutirage M L XL XXL Electrique à effet Joule 36 % 37 % 38 % 60 % Autre 95 % 100 % 110 % 120 %",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Energie de l’appoint\nProfil de soutirage\nM\nL\nXL\nXXL\nElectrique à effet Joule\n36 %\n37 %\n38 %\n60 %\nAutre\n95 %\n100 %\n110 %\n120 %",
+      "confidence": "high"
+    },
+    {
+      "text": "Les documents justificatifs spécifiques à l’opération sont : - la certification QB ou Solar Keymark ou équivalente des capteurs solaires ; - la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé.",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 1,
+      "section_title": "Points de contr?le",
+      "quote": "Les documents justificatifs spécifiques à l’opération sont :\n- la certification QB ou Solar Keymark ou équivalente des capteurs solaires ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé.",
+      "confidence": "high"
+    },
+    {
+      "text": "Zone géographique Montant en kWh cumac par m2 de capteur",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 3,
+      "section_title": "Points de contr?le",
+      "quote": "Zone\ngéographique\nMontant en kWh cumac par m2 de capteur",
+      "confidence": "high"
+    }
+  ],
+  "calculation": {
+    "formula_type": "table",
+    "formula_text": "Zone\ngéographique\nMontant en kWh cumac par m2 de capteur\n\nSurface hors-tout\nde capteurs solaires\nmis en place (m2)\nUsage ECS\nUsage ECS\net Chauffage\n\nS\nH1\n6 000\n14 000\n\nH2\n7 200\n12 700\nX\nH3\n9 600\n10 300\n\n« ECS » signifie : eau chaude sanitaire.",
+    "variables": [
+      {
+        "name": "S",
+        "label": "Surface hors-tout de capteurs solaires mis en place",
+        "unit": "m2",
+        "value_type": "number",
+        "description": "Surface utilis?e dans le calcul."
+      },
+      {
+        "name": "usage",
+        "label": "Usage du dispositif solaire thermique",
+        "unit": null,
+        "value_type": "enum",
+        "description": "Usage ECS ou ECS et chauffage."
+      },
+      {
+        "name": "climate_zone",
+        "label": "Zone g?ographique",
+        "unit": null,
+        "value_type": "enum",
+        "description": "Zone H1, H2 ou H3."
+      },
+      {
+        "name": "value_kwh_cumac_per_m2",
+        "label": "Montant en kWh cumac par m2 de capteur",
+        "unit": "kWh cumac/m2",
+        "value_type": "number",
+        "description": "Valeur issue du tableau selon usage et zone."
+      }
+    ],
+    "tables": [
+      {
+        "zone": "H1",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 6000
+      },
+      {
+        "zone": "H1",
+        "usage": "ecs_et_chauffage",
+        "value_kwh_cumac_per_m2": 14000
+      },
+      {
+        "zone": "H2",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 7200
+      },
+      {
+        "zone": "H2",
+        "usage": "ecs_et_chauffage",
+        "value_kwh_cumac_per_m2": 12700
+      },
+      {
+        "zone": "H3",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 9600
+      },
+      {
+        "zone": "H3",
+        "usage": "ecs_et_chauffage",
+        "value_kwh_cumac_per_m2": 10300
+      }
+    ]
+  },
+  "formulas": [
+    {
+      "text": "Zone géographique Montant en kWh cumac par m2 de capteur",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "page": 3,
+      "section_title": "Montant de certificats en kWh cumac",
+      "quote": "Zone\ngéographique\nMontant en kWh cumac par m2 de capteur",
+      "confidence": "high"
+    }
+  ],
+  "zones": [],
+  "bonifications": [],
+  "site_data_requirements": [
+    {
+      "field": "usage",
+      "unit": null,
+      "required": true,
+      "reason": "ECS seule ou ECS et chauffage",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "climate_zone",
+      "unit": null,
+      "required": true,
+      "reason": "s?lection du montant H1/H2/H3",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "collector_area_m2",
+      "unit": "m2",
+      "required": true,
+      "reason": "surface hors-tout S de capteurs solaires",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "collector_power_w_m2",
+      "unit": "W/m2",
+      "required": true,
+      "reason": "seuil de puissance de sortie disponible ? 450 W/m2",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "collector_certification",
+      "unit": null,
+      "required": true,
+      "reason": "certification QB, SolarKeymark ou ?quivalente",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "storage_volume_l",
+      "unit": "L",
+      "required": true,
+      "reason": "capacit? des ballons solaires",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "storage_energy_class",
+      "unit": null,
+      "required": true,
+      "reason": "classe minimale C si ballon ? 500 L",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "backup_energy",
+      "unit": null,
+      "required": true,
+      "reason": "?nergie de l?appoint s?par?",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "field": "professional_quality_sign",
+      "unit": null,
+      "required": true,
+      "reason": "qualification professionnelle requise",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    }
+  ],
+  "output_documents": {
+    "note_dimensionnement_required": false,
+    "dpt_required": true,
+    "attestation_required": true,
+    "photos_required": null,
+    "manufacturer_datasheet_required": true
+  },
+  "compliance_risks": [
+    "high: Capteurs hybrides ?lectricit?/chaleur inclus ? tort",
+    "high: Capteurs solaires sous 450 W/m2",
+    "high: Absence de certification QB/SolarKeymark ou ?quivalente",
+    "high: Usage chauffage avec appoint ?lectrique",
+    "high: Surface capteurs insuffisante selon usage",
+    "medium: Ballon solaire ?500 L sans classe minimale C",
+    "medium: Surface S ou zone climatique erron?e",
+    "medium: Preuve de r?alisation incompl?te sur capteurs, ballon, appoint ou performances"
+  ],
+  "lifetime_years": 25,
+  "risks": [
+    {
+      "risk": "Capteurs hybrides ?lectricit?/chaleur inclus ? tort",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Capteurs solaires sous 450 W/m2",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Absence de certification QB/SolarKeymark ou ?quivalente",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Usage chauffage avec appoint ?lectrique",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Surface capteurs insuffisante selon usage",
+      "severity": "high",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Ballon solaire ?500 L sans classe minimale C",
+      "severity": "medium",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Surface S ou zone climatique erron?e",
+      "severity": "medium",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "risk": "Preuve de r?alisation incompl?te sur capteurs, ballon, appoint ou performances",
+      "severity": "medium",
+      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    }
+  ],
+  "related_documents": [
+    {
+      "document_id": "BAR-TH-168 vA78-3 à compter du 01-01-2026",
+      "code": "BAR-TH-168",
+      "document_type": "fiche_principale",
+      "title": "BAR-TH-168 vA78-3 à compter du 01-01-2026 : Dispositif solaire thermique (France métropolitaine) PDF – 160.76 Ko",
+      "path": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-168%20vA78-3%20%C3%A0%20compter%20du%2001-01-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-168 vA78-3 à compter du 01-01-2026 - Partie A",
+      "code": "BAR-TH-168",
+      "document_type": "partie_a",
+      "title": "BAR-TH-168 vA78-3 à compter du 01-01-2026 - Partie A PDF – 146.44 Ko",
+      "path": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026 - Partie A.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-168%20vA78-3%20%C3%A0%20compter%20du%2001-01-2026%20-%20Partie%20A.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    },
+    {
+      "document_id": "BAR-TH-168 vA78-3 à compter du 01-01-2026 - Partie A à compter du 01-07-2026",
+      "code": "BAR-TH-168",
+      "document_type": "partie_a",
+      "title": "BAR-TH-168 vA78-3 à compter du 01-01-2026 - Partie A à compter du 01-07-2026 PDF – 150.03 Ko",
+      "path": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf",
+      "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/BAR-TH-168%20vA78-3%20%C3%A0%20compter%20du%2001-01-2026%20-%20Partie%20A%20%C3%A0%20compter%20du%2001-07-2026.pdf",
+      "format": "pdf",
+      "effective_date": "2026-01-01",
+      "metadata": {}
+    }
+  ],
+  "source_files": [
+    "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+    "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026 - Partie A.pdf",
+    "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026 - Partie A à compter du 01-07-2026.pdf"
+  ],
+  "extraction": {
+    "status": "validated",
+    "tool": "manual_curated_from_data_text",
+    "extracted_at": "2026-05-16T00:00:00+00:00",
+    "needs_human_review": false,
+    "notes": "Curated depuis data/text et data/json extraits du PDF officiel. Les libell?s source priment sur les intitul?s m?tier externes."
+  }
+}

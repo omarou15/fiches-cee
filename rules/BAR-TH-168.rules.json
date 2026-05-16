@@ -1,0 +1,239 @@
+{
+  "code": "BAR-TH-168",
+  "name": "Dispositif solaire thermique (France m?tropolitaine)",
+  "source_json": "data/json/BAR-TH-168.json",
+  "source_curated": "data/curated/BAR-TH-168.json",
+  "eligible_usages": [
+    "eau chaude sanitaire",
+    "eau chaude sanitaire et chauffage"
+  ],
+  "excluded_usages": [
+    "capteurs hybrides produisant ? la fois ?lectricit? et chaleur",
+    "appoint ?lectrique pour usage ECS et chauffage"
+  ],
+  "effective_date": "2026-01-01",
+  "engagement_deadline": "2030-12-31",
+  "required_fields": [
+    "usage",
+    "climate_zone",
+    "collector_area_m2",
+    "collector_power_w_m2",
+    "collector_certification",
+    "storage_volume_l",
+    "professional_quality_sign"
+  ],
+  "strict_blocking_documents": [
+    "proof_of_completion",
+    "collector_certification",
+    "professional_qualification"
+  ],
+  "eligibility_rules": [
+    {
+      "type": "required",
+      "field": "usage",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "climate_zone",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "collector_area_m2",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "collector_power_w_m2",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "collector_certification",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "storage_volume_l",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "professional_quality_sign",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    }
+  ],
+  "calculation": {
+    "formula": "Voir data/curated/BAR-TH-168.json calculation.formula_text",
+    "variables_map": {
+      "usage": "usage",
+      "climate_zone": "climate_zone",
+      "collector_area_m2": "collector_area_m2",
+      "collector_power_w_m2": "collector_power_w_m2",
+      "collector_certification": "collector_certification",
+      "storage_volume_l": "storage_volume_l",
+      "professional_quality_sign": "professional_quality_sign"
+    },
+    "lookup_table": [
+      {
+        "zone": "H1",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 6000
+      },
+      {
+        "zone": "H1",
+        "usage": "ecs_et_chauffage",
+        "value_kwh_cumac_per_m2": 14000
+      },
+      {
+        "zone": "H2",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 7200
+      },
+      {
+        "zone": "H2",
+        "usage": "ecs_et_chauffage",
+        "value_kwh_cumac_per_m2": 12700
+      },
+      {
+        "zone": "H3",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 9600
+      },
+      {
+        "zone": "H3",
+        "usage": "ecs_et_chauffage",
+        "value_kwh_cumac_per_m2": 10300
+      }
+    ],
+    "corrective_factors": []
+  },
+  "blocking_questions": [
+    {
+      "field": "usage",
+      "question": "Merci de fournir ou confirmer usage.",
+      "blocking": true
+    },
+    {
+      "field": "climate_zone",
+      "question": "Merci de fournir ou confirmer climate_zone.",
+      "blocking": true
+    },
+    {
+      "field": "collector_area_m2",
+      "question": "Merci de fournir ou confirmer collector_area_m2.",
+      "blocking": true
+    },
+    {
+      "field": "collector_power_w_m2",
+      "question": "Merci de fournir ou confirmer collector_power_w_m2.",
+      "blocking": true
+    },
+    {
+      "field": "collector_certification",
+      "question": "Merci de fournir ou confirmer collector_certification.",
+      "blocking": true
+    },
+    {
+      "field": "storage_volume_l",
+      "question": "Merci de fournir ou confirmer storage_volume_l.",
+      "blocking": true
+    },
+    {
+      "field": "professional_quality_sign",
+      "question": "Merci de fournir ou confirmer professional_quality_sign.",
+      "blocking": true
+    },
+    {
+      "field": "documents.proof_of_completion",
+      "question": "Merci de fournir le document requis : proof_of_completion.",
+      "blocking": true
+    },
+    {
+      "field": "documents.collector_certification",
+      "question": "Merci de fournir le document requis : collector_certification.",
+      "blocking": true
+    },
+    {
+      "field": "documents.professional_qualification",
+      "question": "Merci de fournir le document requis : professional_qualification.",
+      "blocking": true
+    }
+  ],
+  "non_cumulation": [
+    {
+      "code": "BAR-TH-171",
+      "justification": "Non-cumul mentionn? dans la fiche officielle.",
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "code": "BAR-TH-172",
+      "justification": "Non-cumul mentionn? dans la fiche officielle.",
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    }
+  ],
+  "control_points": [
+    {
+      "severity": "high",
+      "text": "Capteurs hybrides ?lectricit?/chaleur inclus ? tort",
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Capteurs solaires sous 450 W/m2",
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Absence de certification QB/SolarKeymark ou ?quivalente",
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Usage chauffage avec appoint ?lectrique",
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Surface capteurs insuffisante selon usage",
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "Ballon solaire ?500 L sans classe minimale C",
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "Surface S ou zone climatique erron?e",
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "Preuve de r?alisation incompl?te sur capteurs, ballon, appoint ou performances",
+      "source": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf"
+    }
+  ]
+}

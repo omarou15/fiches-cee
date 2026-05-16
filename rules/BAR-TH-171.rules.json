@@ -1,0 +1,403 @@
+{
+  "code": "BAR-TH-171",
+  "name": "Pompe ? chaleur de type air/eau",
+  "source_json": "data/json/BAR-TH-171.json",
+  "source_curated": "data/curated/BAR-TH-171.json",
+  "eligible_usages": [
+    "chauffage",
+    "chauffage et eau chaude sanitaire"
+  ],
+  "excluded_usages": [
+    "PAC associ?es ? un autre syst?me de chauffage",
+    "PAC utilis?es uniquement pour le chauffage de l?eau chaude sanitaire"
+  ],
+  "effective_date": "2026-01-01",
+  "engagement_deadline": "2030-12-31",
+  "required_fields": [
+    "dwelling_type",
+    "heated_surface_s_m2",
+    "climate_zone",
+    "usage",
+    "etas_percent",
+    "application_temperature",
+    "pac_type",
+    "regulator_class",
+    "professional_quality_sign"
+  ],
+  "strict_blocking_documents": [
+    "dimensioning_note",
+    "proof_of_completion",
+    "professional_qualification",
+    "product_information_sheet"
+  ],
+  "eligibility_rules": [
+    {
+      "type": "required",
+      "field": "dwelling_type",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "heated_surface_s_m2",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "climate_zone",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "usage",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "etas_percent",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "application_temperature",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "pac_type",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "regulator_class",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "professional_quality_sign",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    }
+  ],
+  "calculation": {
+    "formula": "Voir data/curated/BAR-TH-171.json calculation.formula_text",
+    "variables_map": {
+      "dwelling_type": "dwelling_type",
+      "heated_surface_s_m2": "heated_surface_s_m2",
+      "climate_zone": "climate_zone",
+      "usage": "usage",
+      "etas_percent": "etas_percent",
+      "application_temperature": "application_temperature",
+      "pac_type": "pac_type",
+      "regulator_class": "regulator_class",
+      "professional_quality_sign": "professional_quality_sign"
+    },
+    "lookup_table": [
+      {
+        "table": "amount_by_dwelling_and_etas",
+        "dwelling_type": "appartement",
+        "etas_min": 111,
+        "etas_max": 140,
+        "value_kwh_cumac": 48700
+      },
+      {
+        "table": "amount_by_dwelling_and_etas",
+        "dwelling_type": "appartement",
+        "etas_min": 140,
+        "etas_max": null,
+        "value_kwh_cumac": 58900
+      },
+      {
+        "table": "amount_by_dwelling_and_etas",
+        "dwelling_type": "maison_individuelle",
+        "etas_min": 111,
+        "etas_max": 140,
+        "value_kwh_cumac": 90900
+      },
+      {
+        "table": "amount_by_dwelling_and_etas",
+        "dwelling_type": "maison_individuelle",
+        "etas_min": 140,
+        "etas_max": null,
+        "value_kwh_cumac": 109200
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "appartement",
+        "s_min_m2": null,
+        "s_max_m2": 35,
+        "factor": 0.5
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "appartement",
+        "s_min_m2": 35,
+        "s_max_m2": 60,
+        "factor": 0.7
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "appartement",
+        "s_min_m2": 60,
+        "s_max_m2": null,
+        "factor": 1.0
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "maison_individuelle",
+        "s_min_m2": null,
+        "s_max_m2": 70,
+        "factor": 0.5
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "maison_individuelle",
+        "s_min_m2": 70,
+        "s_max_m2": 90,
+        "factor": 0.7
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "maison_individuelle",
+        "s_min_m2": 90,
+        "s_max_m2": null,
+        "factor": 1.0
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H1",
+        "factor": 1.2
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H2",
+        "factor": 1.0
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H3",
+        "factor": 0.7
+      }
+    ],
+    "corrective_factors": [
+      {
+        "table": "surface_factor",
+        "dwelling_type": "appartement",
+        "s_min_m2": null,
+        "s_max_m2": 35,
+        "factor": 0.5
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "appartement",
+        "s_min_m2": 35,
+        "s_max_m2": 60,
+        "factor": 0.7
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "appartement",
+        "s_min_m2": 60,
+        "s_max_m2": null,
+        "factor": 1.0
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "maison_individuelle",
+        "s_min_m2": null,
+        "s_max_m2": 70,
+        "factor": 0.5
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "maison_individuelle",
+        "s_min_m2": 70,
+        "s_max_m2": 90,
+        "factor": 0.7
+      },
+      {
+        "table": "surface_factor",
+        "dwelling_type": "maison_individuelle",
+        "s_min_m2": 90,
+        "s_max_m2": null,
+        "factor": 1.0
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H1",
+        "factor": 1.2
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H2",
+        "factor": 1.0
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H3",
+        "factor": 0.7
+      }
+    ]
+  },
+  "blocking_questions": [
+    {
+      "field": "dwelling_type",
+      "question": "Merci de fournir ou confirmer dwelling_type.",
+      "blocking": true
+    },
+    {
+      "field": "heated_surface_s_m2",
+      "question": "Merci de fournir ou confirmer heated_surface_s_m2.",
+      "blocking": true
+    },
+    {
+      "field": "climate_zone",
+      "question": "Merci de fournir ou confirmer climate_zone.",
+      "blocking": true
+    },
+    {
+      "field": "usage",
+      "question": "Merci de fournir ou confirmer usage.",
+      "blocking": true
+    },
+    {
+      "field": "etas_percent",
+      "question": "Merci de fournir ou confirmer etas_percent.",
+      "blocking": true
+    },
+    {
+      "field": "application_temperature",
+      "question": "Merci de fournir ou confirmer application_temperature.",
+      "blocking": true
+    },
+    {
+      "field": "pac_type",
+      "question": "Merci de fournir ou confirmer pac_type.",
+      "blocking": true
+    },
+    {
+      "field": "regulator_class",
+      "question": "Merci de fournir ou confirmer regulator_class.",
+      "blocking": true
+    },
+    {
+      "field": "professional_quality_sign",
+      "question": "Merci de fournir ou confirmer professional_quality_sign.",
+      "blocking": true
+    },
+    {
+      "field": "documents.dimensioning_note",
+      "question": "Merci de fournir le document requis : dimensioning_note.",
+      "blocking": true
+    },
+    {
+      "field": "documents.proof_of_completion",
+      "question": "Merci de fournir le document requis : proof_of_completion.",
+      "blocking": true
+    },
+    {
+      "field": "documents.professional_qualification",
+      "question": "Merci de fournir le document requis : professional_qualification.",
+      "blocking": true
+    },
+    {
+      "field": "documents.product_information_sheet",
+      "question": "Merci de fournir le document requis : product_information_sheet.",
+      "blocking": true
+    }
+  ],
+  "non_cumulation": [
+    {
+      "code": "BAR-TH-101",
+      "justification": "Non-cumul mentionn? dans la fiche officielle.",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "code": "BAR-TH-124",
+      "justification": "Non-cumul mentionn? dans la fiche officielle.",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "code": "BAR-TH-143",
+      "justification": "Non-cumul mentionn? dans la fiche officielle.",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "code": "BAR-TH-148",
+      "justification": "Non-cumul mentionn? dans la fiche officielle.",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "code": "BAR-TH-168",
+      "justification": "Non-cumul mentionn? dans la fiche officielle.",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    }
+  ],
+  "control_points": [
+    {
+      "severity": "high",
+      "text": "PAC associ?e ? un autre syst?me de chauffage d?clar?e ?ligible",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "PAC utilis?e uniquement pour l?ECS",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Etas insuffisant ou mauvaise application 35?C/55?C",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Absence de r?gulateur classe IV, V, VI, VII ou VIII",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Note de dimensionnement absente ou non remise au b?n?ficiaire",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Cumul avec une fiche non cumulable",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "Surface chauff?e S ou zone climatique erron?e",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "Preuve de r?alisation incompl?te marque/r?f?rence/usage/Etas/r?gulateur",
+      "source": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf"
+    }
+  ]
+}

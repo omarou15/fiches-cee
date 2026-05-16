@@ -1,0 +1,592 @@
+{
+  "code": "BAT-TH-162",
+  "name": "Syst?me g?othermique",
+  "source_json": "data/json/BAT-TH-162.json",
+  "source_curated": "data/curated/BAT-TH-162.json",
+  "eligible_usages": [
+    "chauffage",
+    "chauffage et eau chaude sanitaire",
+    "refroidissement compl?mentaire"
+  ],
+  "excluded_usages": [
+    "syst?mes g?othermiques install?s uniquement pour le refroidissement des locaux"
+  ],
+  "effective_date": "2026-04-30",
+  "engagement_deadline": "2030-12-31",
+  "required_fields": [
+    "pac_power_regime",
+    "pac_type",
+    "usage",
+    "heated_surface_m2",
+    "climate_zone",
+    "sector_activity",
+    "r_factor",
+    "boiler_room_useful_power_after_works_kw"
+  ],
+  "strict_blocking_documents": [
+    "dimensioning_study",
+    "geothermal_resources_study",
+    "proof_of_completion",
+    "professional_qualifications",
+    "forage_doe",
+    "forage_end_report"
+  ],
+  "eligibility_rules": [
+    {
+      "type": "required",
+      "field": "pac_power_regime",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "pac_type",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "usage",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "heated_surface_m2",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "climate_zone",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "sector_activity",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "r_factor",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "type": "required",
+      "field": "boiler_room_useful_power_after_works_kw",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    }
+  ],
+  "calculation": {
+    "formula": "Voir data/curated/BAT-TH-162.json calculation.formula_text",
+    "variables_map": {
+      "pac_power_regime": "pac_power_regime",
+      "pac_type": "pac_type",
+      "usage": "usage",
+      "heated_surface_m2": "heated_surface_m2",
+      "climate_zone": "climate_zone",
+      "sector_activity": "sector_activity",
+      "r_factor": "r_factor",
+      "boiler_room_useful_power_after_works_kw": "boiler_room_useful_power_after_works_kw"
+    },
+    "lookup_table": [
+      {
+        "table": "sector_factor",
+        "sector_activity": "hotellerie_restauration",
+        "factor": 0.7
+      },
+      {
+        "table": "sector_factor",
+        "sector_activity": "sante",
+        "factor": 1.1
+      },
+      {
+        "table": "sector_factor",
+        "sector_activity": "enseignement",
+        "factor": 0.8
+      },
+      {
+        "table": "sector_factor",
+        "sector_activity": "bureaux",
+        "factor": 1.2
+      },
+      {
+        "table": "sector_factor",
+        "sector_activity": "commerces",
+        "factor": 0.9
+      },
+      {
+        "table": "sector_factor",
+        "sector_activity": "autres",
+        "factor": 0.7
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 111,
+        "max": 126,
+        "zone": "H1",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 1400
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 111,
+        "max": 126,
+        "zone": "H1",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1600
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 111,
+        "max": 126,
+        "zone": "H2",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 1100
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 111,
+        "max": 126,
+        "zone": "H2",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1400
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 111,
+        "max": 126,
+        "zone": "H3",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 800
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 111,
+        "max": 126,
+        "zone": "H3",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1000
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 126,
+        "max": 175,
+        "zone": "H1",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 1500
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 126,
+        "max": 175,
+        "zone": "H1",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1800
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 126,
+        "max": 175,
+        "zone": "H2",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 1200
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 126,
+        "max": 175,
+        "zone": "H2",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1500
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 126,
+        "max": 175,
+        "zone": "H3",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 800
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 126,
+        "max": 175,
+        "zone": "H3",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1100
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 175,
+        "max": null,
+        "zone": "H1",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 1600
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 175,
+        "max": null,
+        "zone": "H1",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1900
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 175,
+        "max": null,
+        "zone": "H2",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 1300
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 175,
+        "max": null,
+        "zone": "H2",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1600
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 175,
+        "max": null,
+        "zone": "H3",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 900
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "le_400_kw",
+        "metric": "etas",
+        "min": 175,
+        "max": null,
+        "zone": "H3",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1200
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 4,
+        "max": 5,
+        "zone": "H1",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 1500
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 4,
+        "max": 5,
+        "zone": "H1",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1800
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 4,
+        "max": 5,
+        "zone": "H2",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 1300
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 4,
+        "max": 5,
+        "zone": "H2",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1500
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 4,
+        "max": 5,
+        "zone": "H3",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 800
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 4,
+        "max": 5,
+        "zone": "H3",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1100
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 5,
+        "max": null,
+        "zone": "H1",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 1600
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 5,
+        "max": null,
+        "zone": "H1",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1900
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 5,
+        "max": null,
+        "zone": "H2",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 1300
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 5,
+        "max": null,
+        "zone": "H2",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1600
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 5,
+        "max": null,
+        "zone": "H3",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 900
+      },
+      {
+        "table": "amount_by_power_metric_zone_usage",
+        "power_regime": "gt_400_kw",
+        "metric": "cop",
+        "min": 5,
+        "max": null,
+        "zone": "H3",
+        "usage": "chauffage_et_ecs",
+        "value_kwh_cumac_per_m2": 1200
+      }
+    ],
+    "corrective_factors": [
+      {
+        "table": "sector_factor",
+        "sector_activity": "hotellerie_restauration",
+        "factor": 0.7
+      },
+      {
+        "table": "sector_factor",
+        "sector_activity": "sante",
+        "factor": 1.1
+      },
+      {
+        "table": "sector_factor",
+        "sector_activity": "enseignement",
+        "factor": 0.8
+      },
+      {
+        "table": "sector_factor",
+        "sector_activity": "bureaux",
+        "factor": 1.2
+      },
+      {
+        "table": "sector_factor",
+        "sector_activity": "commerces",
+        "factor": 0.9
+      },
+      {
+        "table": "sector_factor",
+        "sector_activity": "autres",
+        "factor": 0.7
+      }
+    ]
+  },
+  "blocking_questions": [
+    {
+      "field": "pac_power_regime",
+      "question": "Merci de fournir ou confirmer pac_power_regime.",
+      "blocking": true
+    },
+    {
+      "field": "pac_type",
+      "question": "Merci de fournir ou confirmer pac_type.",
+      "blocking": true
+    },
+    {
+      "field": "usage",
+      "question": "Merci de fournir ou confirmer usage.",
+      "blocking": true
+    },
+    {
+      "field": "heated_surface_m2",
+      "question": "Merci de fournir ou confirmer heated_surface_m2.",
+      "blocking": true
+    },
+    {
+      "field": "climate_zone",
+      "question": "Merci de fournir ou confirmer climate_zone.",
+      "blocking": true
+    },
+    {
+      "field": "sector_activity",
+      "question": "Merci de fournir ou confirmer sector_activity.",
+      "blocking": true
+    },
+    {
+      "field": "r_factor",
+      "question": "Merci de fournir ou confirmer r_factor.",
+      "blocking": true
+    },
+    {
+      "field": "boiler_room_useful_power_after_works_kw",
+      "question": "Merci de fournir ou confirmer boiler_room_useful_power_after_works_kw.",
+      "blocking": true
+    },
+    {
+      "field": "documents.dimensioning_study",
+      "question": "Merci de fournir le document requis : dimensioning_study.",
+      "blocking": true
+    },
+    {
+      "field": "documents.geothermal_resources_study",
+      "question": "Merci de fournir le document requis : geothermal_resources_study.",
+      "blocking": true
+    },
+    {
+      "field": "documents.proof_of_completion",
+      "question": "Merci de fournir le document requis : proof_of_completion.",
+      "blocking": true
+    },
+    {
+      "field": "documents.professional_qualifications",
+      "question": "Merci de fournir le document requis : professional_qualifications.",
+      "blocking": true
+    },
+    {
+      "field": "documents.forage_doe",
+      "question": "Merci de fournir le document requis : forage_doe.",
+      "blocking": true
+    },
+    {
+      "field": "documents.forage_end_report",
+      "question": "Merci de fournir le document requis : forage_end_report.",
+      "blocking": true
+    }
+  ],
+  "non_cumulation": [],
+  "control_points": [
+    {
+      "severity": "high",
+      "text": "Syst?me g?othermique uniquement refroidissement",
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Qualification RGE Etudes g?othermie ou ma?trise d??uvre absente",
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Etas/COP/EER/SEER sous seuil r?glementaire",
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "?tude pr?alable de dimensionnement ou ?tude ressources g?othermiques absente",
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Facteur R non appliqu? si puissance PAC < 40 % de la chaufferie",
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "?quipements de secours inclus ? tort dans la puissance chaufferie",
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "DOE forage ou rapport de fin de forage absent",
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "Table de calcul choisie avec mauvais r?gime de puissance ou mauvais usage",
+      "source": "Tertiaire_BAT/BAT-TH-162 vA81-2 à compter du 30-04-2026.pdf"
+    }
+  ]
+}

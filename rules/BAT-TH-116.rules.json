@@ -1,0 +1,550 @@
+{
+  "code": "BAT-TH-116",
+  "name": "Syst?me de gestion technique du b?timent",
+  "source_json": "data/json/BAT-TH-116.json",
+  "source_curated": "data/curated/BAT-TH-116.json",
+  "eligible_usages": [
+    "chauffage",
+    "eau chaude sanitaire",
+    "refroidissement/climatisation",
+    "?clairage",
+    "auxiliaires"
+  ],
+  "excluded_usages": [
+    "simple raccordement ? un syst?me existant de gestion technique du b?timent"
+  ],
+  "effective_date": "2025-01-01",
+  "engagement_deadline": null,
+  "required_fields": [
+    "gtb_class_after",
+    "managed_surface_m2",
+    "climate_zone",
+    "sector_activity",
+    "usage",
+    "professional"
+  ],
+  "strict_blocking_documents": [
+    "proof_of_completion",
+    "professional_document"
+  ],
+  "eligibility_rules": [
+    {
+      "type": "required",
+      "field": "gtb_class_after",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "type": "required",
+      "field": "managed_surface_m2",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "type": "required",
+      "field": "climate_zone",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "type": "required",
+      "field": "sector_activity",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "type": "required",
+      "field": "usage",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "type": "required",
+      "field": "professional",
+      "operator": "present",
+      "value": true,
+      "blocking": true,
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    }
+  ],
+  "calculation": {
+    "formula": "Voir data/curated/BAT-TH-116.json calculation.formula_text",
+    "variables_map": {
+      "gtb_class_after": "gtb_class_after",
+      "managed_surface_m2": "managed_surface_m2",
+      "climate_zone": "climate_zone",
+      "sector_activity": "sector_activity",
+      "usage": "usage",
+      "professional": "professional"
+    },
+    "lookup_table": [
+      {
+        "table": "zone_factor",
+        "zone": "H1",
+        "factor": 1.1
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H2",
+        "factor": 0.9
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H3",
+        "factor": 0.6
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "bureaux",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 360
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "bureaux",
+        "usage": "refroidissement_climatisation",
+        "value_kwh_cumac_per_m2": 233
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "bureaux",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 15
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "bureaux",
+        "usage": "eclairage",
+        "value_kwh_cumac_per_m2": 184
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "bureaux",
+        "usage": "auxiliaire",
+        "value_kwh_cumac_per_m2": 19
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "enseignement",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 170
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "enseignement",
+        "usage": "refroidissement_climatisation",
+        "value_kwh_cumac_per_m2": 60
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "enseignement",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 82
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "enseignement",
+        "usage": "eclairage",
+        "value_kwh_cumac_per_m2": 46
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "enseignement",
+        "usage": "auxiliaire",
+        "value_kwh_cumac_per_m2": 6
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "commerces",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 520
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "commerces",
+        "usage": "refroidissement_climatisation",
+        "value_kwh_cumac_per_m2": 150
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "commerces",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 30
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "commerces",
+        "usage": "eclairage",
+        "value_kwh_cumac_per_m2": null
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "commerces",
+        "usage": "auxiliaire",
+        "value_kwh_cumac_per_m2": 6
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "hotellerie_restauration",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 400
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "hotellerie_restauration",
+        "usage": "refroidissement_climatisation",
+        "value_kwh_cumac_per_m2": 60
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "hotellerie_restauration",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 32
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "hotellerie_restauration",
+        "usage": "eclairage",
+        "value_kwh_cumac_per_m2": 65
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "hotellerie_restauration",
+        "usage": "auxiliaire",
+        "value_kwh_cumac_per_m2": 6
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "sante",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 150
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "sante",
+        "usage": "refroidissement_climatisation",
+        "value_kwh_cumac_per_m2": 60
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "sante",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 87
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "sante",
+        "usage": "eclairage",
+        "value_kwh_cumac_per_m2": null
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "A",
+        "sector_activity": "sante",
+        "usage": "auxiliaire",
+        "value_kwh_cumac_per_m2": 19
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "bureaux",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 240
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "bureaux",
+        "usage": "refroidissement_climatisation",
+        "value_kwh_cumac_per_m2": 97
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "bureaux",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 7
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "bureaux",
+        "usage": "eclairage",
+        "value_kwh_cumac_per_m2": 90
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "bureaux",
+        "usage": "auxiliaire",
+        "value_kwh_cumac_per_m2": 8
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "enseignement",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 100
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "enseignement",
+        "usage": "refroidissement_climatisation",
+        "value_kwh_cumac_per_m2": 23
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "enseignement",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 38
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "enseignement",
+        "usage": "eclairage",
+        "value_kwh_cumac_per_m2": 21
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "enseignement",
+        "usage": "auxiliaire",
+        "value_kwh_cumac_per_m2": 3
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "commerces",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 250
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "commerces",
+        "usage": "refroidissement_climatisation",
+        "value_kwh_cumac_per_m2": 44
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "commerces",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 13
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "commerces",
+        "usage": "eclairage",
+        "value_kwh_cumac_per_m2": null
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "commerces",
+        "usage": "auxiliaire",
+        "value_kwh_cumac_per_m2": 3
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "hotellerie_restauration",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 200
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "hotellerie_restauration",
+        "usage": "refroidissement_climatisation",
+        "value_kwh_cumac_per_m2": 23
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "hotellerie_restauration",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 14
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "hotellerie_restauration",
+        "usage": "eclairage",
+        "value_kwh_cumac_per_m2": 30
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "hotellerie_restauration",
+        "usage": "auxiliaire",
+        "value_kwh_cumac_per_m2": 3
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "sante",
+        "usage": "chauffage",
+        "value_kwh_cumac_per_m2": 90
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "sante",
+        "usage": "refroidissement_climatisation",
+        "value_kwh_cumac_per_m2": 23
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "sante",
+        "usage": "ecs",
+        "value_kwh_cumac_per_m2": 40
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "sante",
+        "usage": "eclairage",
+        "value_kwh_cumac_per_m2": null
+      },
+      {
+        "table": "amount_by_class_sector_usage",
+        "gtb_class": "B",
+        "sector_activity": "sante",
+        "usage": "auxiliaire",
+        "value_kwh_cumac_per_m2": 9
+      }
+    ],
+    "corrective_factors": [
+      {
+        "table": "zone_factor",
+        "zone": "H1",
+        "factor": 1.1
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H2",
+        "factor": 0.9
+      },
+      {
+        "table": "zone_factor",
+        "zone": "H3",
+        "factor": 0.6
+      }
+    ]
+  },
+  "blocking_questions": [
+    {
+      "field": "gtb_class_after",
+      "question": "Merci de fournir ou confirmer gtb_class_after.",
+      "blocking": true
+    },
+    {
+      "field": "managed_surface_m2",
+      "question": "Merci de fournir ou confirmer managed_surface_m2.",
+      "blocking": true
+    },
+    {
+      "field": "climate_zone",
+      "question": "Merci de fournir ou confirmer climate_zone.",
+      "blocking": true
+    },
+    {
+      "field": "sector_activity",
+      "question": "Merci de fournir ou confirmer sector_activity.",
+      "blocking": true
+    },
+    {
+      "field": "usage",
+      "question": "Merci de fournir ou confirmer usage.",
+      "blocking": true
+    },
+    {
+      "field": "professional",
+      "question": "Merci de fournir ou confirmer professional.",
+      "blocking": true
+    },
+    {
+      "field": "documents.proof_of_completion",
+      "question": "Merci de fournir le document requis : proof_of_completion.",
+      "blocking": true
+    },
+    {
+      "field": "documents.professional_document",
+      "question": "Merci de fournir le document requis : professional_document.",
+      "blocking": true
+    }
+  ],
+  "non_cumulation": [],
+  "control_points": [
+    {
+      "severity": "high",
+      "text": "Simple raccordement ? une GTB existante valoris? ? tort",
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Syst?me existant avant am?lioration sup?rieur ? classe C",
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "severity": "high",
+      "text": "Syst?me install? non classe A ou B NF EN ISO 52120-1:2022",
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "Surface g?r?e S ou usage consid?r? mal justifi?",
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "Secteur d?activit? ou zone climatique erron?",
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    },
+    {
+      "severity": "medium",
+      "text": "Preuve de r?alisation sans marque/r?f?rence ou classe GTB",
+      "source": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf"
+    }
+  ]
+}
