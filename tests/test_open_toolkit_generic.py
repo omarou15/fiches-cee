@@ -1,9 +1,11 @@
 import json
+import shutil
 import subprocess
 import sys
 from pathlib import Path
 
 import jsonschema
+import pytest
 from referencing import Registry, Resource
 
 
@@ -84,6 +86,8 @@ def test_common_use_cases_index_is_generic():
 
 
 def test_public_repo_has_no_vendor_specific_references():
+    if shutil.which("rg") is None:
+        pytest.skip("ripgrep is not installed in this environment")
     vendor_pattern = "Energy" + "co|energy" + "co|ENERGY" + "CO|priority-energy" + "co"
     result = subprocess.run(
         ["rg", "-n", "-S", "-e", vendor_pattern, "--glob", "!tests/test_open_toolkit_generic.py", "."],

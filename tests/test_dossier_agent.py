@@ -206,6 +206,46 @@ def test_fiche_without_rules_generates_generic_draft_without_invented_blockers()
     validate_dossier_schema(dossier)
 
 
+def test_inferred_bar_th_179_project_with_document_list_generates_ready_dossier(tmp_path):
+    inferred = tmp_path / "inferred_project.json"
+    infer = subprocess.run(
+        [
+            sys.executable,
+            "scripts/infer_case.py",
+            "--input",
+            "inference_engine/examples/synthetic_minimal_case_bar_th_179.json",
+            "--code",
+            "BAR-TH-179",
+            "--output",
+            str(inferred),
+        ],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    assert infer.returncode == 0, infer.stdout + infer.stderr
+
+    result = subprocess.run(
+        [sys.executable, "scripts/dossier_agent.py", str(inferred), "--json"],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+
+    assert result.returncode == 0, result.stdout + result.stderr
+    dossier = json.loads(result.stdout)
+    assert dossier["operation_id"] == "synthetic-bar-th-179-minimal"
+    assert dossier["fiche_code"] == "BAR-TH-179"
+    assert dossier["status"] == "pret_predepot"
+    assert dossier["calculation"]["status"] == "computed"
+    assert dossier["calculation"]["kwh_cumac"] == 5542000.0
+    assert dossier["missing_questions"] == []
+    assert all(doc["status"] == "unknown" for doc in dossier["document_check"]["documents"])
+    validate_dossier_schema(dossier)
+
+
 def test_build_dossier_does_not_mutate_input():
     operation = load_example("bar_th_179_complete.json")
     original = copy.deepcopy(operation)
