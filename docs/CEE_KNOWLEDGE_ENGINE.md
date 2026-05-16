@@ -146,4 +146,4 @@ Pour eviter les reponses fragiles :
 5. Construire un premier MCP en lecture seule.
 6. Ajouter les outils d'eligibilite et de calcul.
 
-Priorite Energyco actuelle : utiliser `BAR-TH-179` comme fiche modele, puis reproduire le meme niveau de structuration sur les autres fiches chauffage/PAC/GTB/reseaux prioritaires.
+Priorite toolkit actuelle : utiliser `BAR-TH-179` comme fiche modele, puis reproduire le meme niveau de structuration sur les autres fiches chauffage/PAC/GTB/reseaux prioritaires pour les installateurs et acteurs CEE.

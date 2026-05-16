@@ -50,7 +50,7 @@ def filter_fiche(fiche: dict, args: argparse.Namespace, priority_codes: set[str]
         return False
     if args.family and fiche.get("family") != args.family:
         return False
-    if args.priority_energyco and fiche["code"] not in priority_codes:
+    if args.common_use_cases and fiche["code"] not in priority_codes:
         return False
     return True
 
@@ -63,7 +63,7 @@ def main() -> int:
     parser.add_argument("--code", help="restrict to one fiche code")
     parser.add_argument("--sector", help="filter by normalized sector, e.g. residentiel")
     parser.add_argument("--family", help="filter by family, e.g. TH")
-    parser.add_argument("--priority-energyco", action="store_true", help="search only Energyco priority fiches")
+    parser.add_argument("--common-use-cases", action="store_true", help="search only common installer use-case fiches")
     parser.add_argument("--limit", type=int, default=10)
     parser.add_argument("--json", action="store_true", help="emit JSON output")
     parser.add_argument("--markdown", action="store_true", help="emit Markdown output")
@@ -71,7 +71,7 @@ def main() -> int:
 
     fiches_path = INDEX_DIR / "fiches_cee_index.json"
     chunks_path = INDEX_DIR / "chunks_cee.jsonl"
-    priority_path = INDEX_DIR / "energyco_priority_index.json"
+    priority_path = INDEX_DIR / "common_use_cases_index.json"
     if not fiches_path.exists():
         raise SystemExit("Run scripts/build_indexes.py first.")
 

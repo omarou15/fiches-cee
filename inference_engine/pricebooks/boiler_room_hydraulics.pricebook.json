@@ -1,0 +1,11 @@
+{
+  "name": "Generic boiler room hydraulics pricebook",
+  "currency": "EUR",
+  "items": {
+    "boiler_room_hydraulics_flat": {
+      "unit": "forfait",
+      "unit_price_eur_ht": 18000,
+      "notes": "Synthetic draft value for piping, valves and hydraulic adaptation."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/document_engine/schemas/quote.schema.json",
+  "title": "Draft quote",
+  "type": "object",
+  "required": ["case_id", "amount_eur_ht", "status"],
+  "properties": {
+    "case_id": { "type": "string" },
+    "amount_eur_ht": { "type": ["number", "null"] },
+    "status": { "type": "string" }
+  },
+  "additionalProperties": true
+}

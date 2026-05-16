@@ -1,0 +1,21 @@
+{
+  "case_id": "synthetic-bar-th-179-minimal",
+  "target_code": "BAR-TH-179",
+  "client": {
+    "name": "Syndicat fictif Residence des Tilleuls",
+    "address": "12 rue Exemple, 69003 Lyon",
+    "contact_email": "contact.demo@example.invalid"
+  },
+  "site": {
+    "address": "12 rue Exemple, 69003 Lyon",
+    "postal_code": "69003"
+  },
+  "visit": {
+    "notes": "Visite fictive : copropriete residentielle collective existante, 34 logements, surface chauffee environ 2200 m2. Chaufferie collective gaz existante. Projet PAC air/eau collective 120 kW pour chauffage et ECS, radiateurs, Etas 151%, puissance chaufferie apres travaux 250 kW hors secours.",
+    "photos": [
+      "photos/placeholders/chaufferie_avant.jpg",
+      "photos/placeholders/emetteurs_radiateurs.jpg",
+      "photos/placeholders/local_pac_exterieur.jpg"
+    ]
+  }
+}

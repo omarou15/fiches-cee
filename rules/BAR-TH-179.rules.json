@@ -1,0 +1,27 @@
+{
+  "code": "BAR-TH-179",
+  "name": "Pompe a chaleur collective de type air/eau",
+  "source_json": "data/json/BAR-TH-179.json",
+  "eligible_usages": ["chauffage", "chauffage_et_ecs"],
+  "excluded_usages": ["ecs_only"],
+  "effective_date": "2026-04-30",
+  "engagement_deadline": "2030-12-31",
+  "required_fields": [
+    "climate_zone",
+    "apartment_count_heated_by_pac",
+    "usage",
+    "etas_percent",
+    "pac_nominal_power_kw",
+    "chaufferie_useful_power_after_works_kw",
+    "backup_equipment_excluded"
+  ],
+  "strict_blocking_documents": [
+    "dimensioning_study",
+    "proof_of_completion",
+    "professional_qualification",
+    "manufacturer_datasheet",
+    "attestation_honor",
+    "quote_or_order",
+    "invoice"
+  ]
+}

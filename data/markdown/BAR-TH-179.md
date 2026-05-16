@@ -12,7 +12,7 @@
 ## Extraction automatique
 - Statut: validated
 - Revue humaine requise: False
-- Notes: Fiche Energyco modèle structurée depuis le PDF source et les sections extraites.
+- Notes: Fiche modele generique structuree depuis le PDF source et les sections extraites.
 
 ## Conditions detectees
 - La PAC doit être de type air/eau, de puissance thermique nominale inférieure ou égale à 400 kW, pour un système de chauffage collectif.
@@ -40,7 +40,7 @@
 - 4. Durée de vie conventionnelle (pages 3-3)
 - 5. Montant de certificats en kWh cumac (pages 3-4)
 
-## Donnees Energyco structurees
+## Donnees metier structurees
 - Titre propre: Pompe à chaleur collective de type air/eau
 - Secteur d'application: Bâtiments résidentiels collectifs existants
 - Duree de vie: 22

@@ -1,0 +1,16 @@
+{
+  "company_name": "CEE Demo Installateur SAS",
+  "siret": "12345678900012",
+  "address": "1 avenue Fictive, 75000 Paris",
+  "email": "contact@example.invalid",
+  "phone": "01 00 00 00 00",
+  "logo": "assets/logo-placeholder.png",
+  "signatory": {
+    "name": "Camille Exemple",
+    "title": "Responsable travaux"
+  },
+  "branding": {
+    "primary_color": "#164E63",
+    "secondary_color": "#64748B"
+  }
+}

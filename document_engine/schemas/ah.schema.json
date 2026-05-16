@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/document_engine/schemas/ah.schema.json",
+  "title": "Draft attestation sur l'honneur",
+  "type": "object",
+  "required": ["case_id", "status"],
+  "properties": {
+    "case_id": { "type": "string" },
+    "status": { "type": "string" },
+    "missing_fields": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

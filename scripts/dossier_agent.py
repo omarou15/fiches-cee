@@ -487,8 +487,8 @@ def build_bar_th_179_dossier(operation: dict[str, Any]) -> dict[str, Any]:
             }
         )
 
-    for risk_text in fiche.get("energyco_risks", []):
-        risks.append({"id": "energyco_reference_risk", "severity": "medium", "text": risk_text, "source": BAR_TH_179_SOURCE})
+    for risk_text in fiche.get("compliance_risks", []):
+        risks.append({"id": "compliance_reference_risk", "severity": "medium", "text": risk_text, "source": BAR_TH_179_SOURCE})
 
     failed = [check for check in checks if check["status"] == "fail" and check.get("blocking")]
     missing = [check for check in checks if check["status"] == "missing" and check.get("blocking")]

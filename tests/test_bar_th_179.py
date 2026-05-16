@@ -43,6 +43,6 @@ def test_bar_th_179_exclusions_and_non_cumulation():
     fiche = load_bar_th_179()
     assert any("eau chaude sanitaire" in item for item in fiche["excluded_uses"])
     assert any(item["code"] == "BAR-TH-169" for item in fiche["non_cumulation"])
-    assert any("PAC ECS seule" in item for item in fiche["energyco_risks"])
+    assert any("PAC ECS seule" in item for item in fiche["compliance_risks"])
     assert fiche["extraction"]["status"] == "validated"
     assert fiche["extraction"]["needs_human_review"] is False

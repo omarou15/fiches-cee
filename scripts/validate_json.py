@@ -31,6 +31,8 @@ def main() -> int:
     formulas_index_path = REPO_ROOT / "data" / "indexes" / "formulas_cee_index.json"
     formula_audit_path = REPO_ROOT / "data" / "indexes" / "formula_audit_report.json"
     dossier_examples_dir = REPO_ROOT / "examples" / "dossier_agent"
+    minimal_case_path = REPO_ROOT / "inference_engine" / "examples" / "synthetic_minimal_case_bar_th_179.json"
+    synthetic_company_path = REPO_ROOT / "document_engine" / "examples" / "synthetic_company_profile.json"
 
     fiche_files = sorted(json_dir.glob("*.json"))
     if not fiche_files:
@@ -119,6 +121,24 @@ def main() -> int:
                 jsonschema.validate(load_json(example_path), client_operation_schema)
             except Exception as exc:
                 errors.append(f"{example_path.name}: client operation schema error: {exc}")
+
+    if minimal_case_path.exists() and jsonschema:
+        try:
+            jsonschema.validate(
+                load_json(minimal_case_path),
+                load_json(REPO_ROOT / "inference_engine" / "schemas" / "minimal_case_input.schema.json"),
+            )
+        except Exception as exc:
+            errors.append(f"{minimal_case_path.name}: minimal case schema error: {exc}")
+
+    if synthetic_company_path.exists() and jsonschema:
+        try:
+            jsonschema.validate(
+                load_json(synthetic_company_path),
+                load_json(REPO_ROOT / "document_engine" / "schemas" / "company_profile.schema.json"),
+            )
+        except Exception as exc:
+            errors.append(f"{synthetic_company_path.name}: company profile schema error: {exc}")
 
     if errors:
         print("Validation failed:")

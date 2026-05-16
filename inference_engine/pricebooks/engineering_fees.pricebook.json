@@ -1,0 +1,11 @@
+{
+  "name": "Generic engineering fees pricebook",
+  "currency": "EUR",
+  "items": {
+    "engineering_fees_flat": {
+      "unit": "forfait",
+      "unit_price_eur_ht": 6500,
+      "notes": "Synthetic draft value for sizing note, DPT and commissioning support."
+    }
+  }
+}

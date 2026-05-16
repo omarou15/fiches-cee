@@ -1,4 +1,8 @@
-# Fiches CEE officielles
+# CEE Open Toolkit
+
+Toolkit open source pour structurer les fiches CEE officielles, inferer des
+projets a partir de donnees minimales, calculer les volumes CEE et generer des
+brouillons de dossiers documentaires locaux.
 
 Archive des fiches d'operations standardisees CEE telechargees depuis la page officielle du ministere le 15 mai 2026.
 
@@ -69,7 +73,7 @@ Le pipeline produit maintenant des donnees derivees exploitables :
 
 ## CEE Dossier Agent
 
-Le depot contient aussi une V1 d'agent pre-depot CEE sans SaaS CRM :
+Le depot contient aussi une V1 d'agent pre-depot CEE generique sans SaaS CRM :
 
 - `docs/CEE_DOSSIER_AGENT.md` : workflow et regles anti-hallucination ;
 - `docs/CHATGPT_5_5_DOSSIER_PROMPT.md` : prompt operationnel pour ChatGPT ;
@@ -81,6 +85,24 @@ Le depot contient aussi une V1 d'agent pre-depot CEE sans SaaS CRM :
 
 Les dossiers clients reels doivent rester hors du repo public. Les sorties locales
 peuvent etre generees dans `dossiers_local/`, ignore par Git.
+
+## Inference Engine et Document Engine
+
+Architecture generique ajoutee :
+
+- `inference_engine/` : schemas, enrichers, pricebooks et exemple minimal fictif ;
+- `document_engine/` : schemas, profil entreprise fictif, templates et generateurs ;
+- `rules/` : regles metier par fiche ;
+- `scripts/infer_case.py` : transforme un cas minimal en projet infere ;
+- `scripts/compute_cee.py` : calcule les kWh cumac depuis un projet infere ;
+- `scripts/generate_document_pack.py` : genere un pack documentaire local.
+
+Exemple :
+
+```bash
+python scripts/infer_case.py --input inference_engine/examples/synthetic_minimal_case_bar_th_179.json --code BAR-TH-179 --output outputs/demo/inferred_project.json
+python scripts/generate_document_pack.py --company document_engine/examples/synthetic_company_profile.json --inferred outputs/demo/inferred_project.json --mode draft --output outputs/demo_pack
+```
 
 ## Note
 

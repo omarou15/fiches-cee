@@ -175,15 +175,11 @@
       "type": "array",
       "items": { "$ref": "#/$defs/site_data_requirement" }
     },
-    "energyco_site_data_requirements": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
     "output_documents": {
       "type": "object",
       "additionalProperties": { "type": ["boolean", "null"] }
     },
-    "energyco_risks": {
+    "compliance_risks": {
       "type": "array",
       "items": { "type": "string" }
     },

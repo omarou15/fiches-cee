@@ -47,7 +47,7 @@
 - 4. Durée de vie conventionnelle (pages 2-2)
 - 5. Montant de certificats en kWh cumac (pages 2-2)
 
-## Donnees Energyco structurees
+## Donnees metier structurees
 - Titre propre: 
 - Secteur d'application: 
 - Duree de vie: 16

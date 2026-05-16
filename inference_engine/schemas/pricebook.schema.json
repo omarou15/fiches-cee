@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/inference_engine/schemas/pricebook.schema.json",
+  "title": "Generic pricebook",
+  "type": "object",
+  "required": ["name", "currency", "items"],
+  "properties": {
+    "name": { "type": "string" },
+    "currency": { "type": "string" },
+    "items": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["unit", "unit_price_eur_ht"],
+        "properties": {
+          "unit": { "type": "string" },
+          "unit_price_eur_ht": { "type": "number" },
+          "notes": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

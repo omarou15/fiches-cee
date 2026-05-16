@@ -3,6 +3,12 @@ dossiers_local/
 client_cases/
 cases/
 .local_dossiers/
+private/
+outputs/
+clients/
+dossiers/
+.env
+*.zip
 
 # Python caches
 __pycache__/

@@ -46,6 +46,16 @@ Ce dossier est reserve au futur pipeline reproductible.
    - couvre strictement `BAR-TH-179` en V1 ;
    - marque toute donnee absente comme question bloquante au lieu de l'inventer.
 
+10. `infer_case.py`
+   - transforme un cas minimal fictif ou local en `inferred_project.json` ;
+   - chaque valeur inferee porte statut, confiance, source et validation humaine.
+
+11. `compute_cee.py`
+   - calcule les kWh cumac depuis un projet infere.
+
+12. `generate_document_pack.py`
+   - genere un pack documentaire local en mode `draft` ou `strict`.
+
 ## Commandes
 
 Generer les donnees derivees :
@@ -78,13 +88,20 @@ Chercher une fiche ou un sujet :
 python scripts/search_fiches.py "BAR-TH-179"
 python scripts/search_fiches.py "PAC collective"
 python scripts/search_fiches.py "PAC collective" --sector residentiel --family TH
-python scripts/search_fiches.py "dimensionnement pompe à chaleur" --priority-energyco --markdown
+python scripts/search_fiches.py "dimensionnement pompe à chaleur" --common-use-cases --markdown
 ```
 
 Generer un pack pre-depot BAR-TH-179 local :
 
 ```bash
 python scripts/dossier_agent.py examples/dossier_agent/bar_th_179_complete.json --output dossiers_local/demo_bar_th_179
+```
+
+Inferer un cas minimal puis generer un pack documentaire generique :
+
+```bash
+python scripts/infer_case.py --input inference_engine/examples/synthetic_minimal_case_bar_th_179.json --code BAR-TH-179 --output outputs/demo/inferred_project.json
+python scripts/generate_document_pack.py --company document_engine/examples/synthetic_company_profile.json --inferred outputs/demo/inferred_project.json --mode draft --output outputs/demo_pack
 ```
 
 ## Regle

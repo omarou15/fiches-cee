@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/inference_engine/schemas/inferred_project.schema.json",
+  "title": "Inferred CEE project",
+  "type": "object",
+  "required": ["generated_at", "case_id", "code", "client", "site", "fields", "calculation", "assumptions", "blocking_points"],
+  "properties": {
+    "generated_at": { "type": "string", "format": "date-time" },
+    "case_id": { "type": "string" },
+    "code": { "type": "string" },
+    "client": { "type": "object" },
+    "site": { "type": "object" },
+    "fields": {
+      "type": "object",
+      "additionalProperties": { "$ref": "https://github.com/omarou15/fiches-cee/inference_engine/schemas/assumption.schema.json" }
+    },
+    "calculation": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": { "type": "string", "enum": ["computed", "missing_inputs", "not_applicable"] },
+        "kwh_cumac": { "type": ["number", "null"] },
+        "formula_text": { "type": ["string", "null"] },
+        "missing_inputs": { "type": "array", "items": { "type": "string" } },
+        "details": { "type": "object", "additionalProperties": true }
+      },
+      "additionalProperties": false
+    },
+    "assumptions": { "type": "array", "items": { "type": "string" } },
+    "blocking_points": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

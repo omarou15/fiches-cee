@@ -17,8 +17,8 @@ Pour une IA :
 - `data/indexes/fiches_cee_index.json` : index des fiches normalisees.
 - `data/indexes/documents_cee_index.json` : documents associes aux fiches.
 - `data/indexes/chunks_cee.jsonl` : chunks RAG avec metadonnees.
-- `data/indexes/energyco_priority_index.json` : fiches prioritaires pour les cas Energyco.
-- `data/indexes/keyword_hits_index.json` : fiches detectees par mots-cles, sans validation prioritaire Energyco.
+- `data/indexes/common_use_cases_index.json` : fiches prioritaires pour les cas installateurs courants.
+- `data/indexes/keyword_hits_index.json` : fiches detectees par mots-cles, sans selection metier.
 - `data/indexes/formulas_cee_index.json` : formules de calcul extraites des sections 5 des fiches uniques.
 - `data/indexes/extraction_report.json` : rapport qualite de l'extraction.
 - `data/indexes/pdf_audit_unique_fiches.json` : audit des PDF principaux des fiches uniques uniquement.
@@ -69,7 +69,7 @@ Pour un MCP Server, les outils minimaux a exposer sont :
 - `get_cee_fiche(code)`
 - `get_cee_chunks(code)`
 - `list_required_documents(code)`
-- `list_energyco_priority_fiches()`
+- `list_common_use_case_fiches()`
 
 Le fichier `data/indexes/chunks_cee.jsonl` peut etre indexe dans une base vectorielle. Les champs `code`, `sector`, `family`, `document_type`, `source_file` et `page_start` doivent rester dans les metadonnees.
 
@@ -79,6 +79,6 @@ Exemples :
 
 ```bash
 python scripts/search_fiches.py "PAC collective" --sector residentiel --family TH
-python scripts/search_fiches.py "dimensionnement pompe à chaleur" --priority-energyco --markdown
+python scripts/search_fiches.py "dimensionnement pompe à chaleur" --common-use-cases --markdown
 python scripts/search_fiches.py "facteur R puissance chaufferie" --code BAR-TH-179
 ```

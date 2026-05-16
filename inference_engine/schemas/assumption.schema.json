@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/inference_engine/schemas/assumption.schema.json",
+  "title": "CEE inferred value",
+  "type": "object",
+  "required": ["value", "status", "confidence", "source", "needs_human_validation"],
+  "properties": {
+    "value": {},
+    "status": { "type": "string", "enum": ["confirmed", "deduced", "estimated", "assumption", "missing", "blocking"] },
+    "confidence": { "type": "string", "enum": ["low", "medium", "high"] },
+    "source": { "type": "string" },
+    "needs_human_validation": { "type": "boolean" }
+  },
+  "additionalProperties": false
+}

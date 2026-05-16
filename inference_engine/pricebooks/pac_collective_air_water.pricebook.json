@@ -1,0 +1,11 @@
+{
+  "name": "Generic collective air/water heat pump pricebook",
+  "currency": "EUR",
+  "items": {
+    "pac_air_water_collective_per_kw": {
+      "unit": "kW",
+      "unit_price_eur_ht": 1250,
+      "notes": "Synthetic draft value, not a market quote."
+    }
+  }
+}

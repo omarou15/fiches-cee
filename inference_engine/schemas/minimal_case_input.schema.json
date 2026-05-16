@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/inference_engine/schemas/minimal_case_input.schema.json",
+  "title": "Minimal CEE case input",
+  "type": "object",
+  "required": ["case_id", "target_code", "client", "site", "visit"],
+  "properties": {
+    "case_id": { "type": "string" },
+    "target_code": { "type": "string" },
+    "client": {
+      "type": "object",
+      "required": ["name", "address"],
+      "properties": {
+        "name": { "type": "string" },
+        "address": { "type": "string" },
+        "contact_email": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "site": {
+      "type": "object",
+      "required": ["address"],
+      "properties": {
+        "address": { "type": "string" },
+        "postal_code": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "visit": {
+      "type": "object",
+      "required": ["notes"],
+      "properties": {
+        "notes": { "type": "string" },
+        "photos": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

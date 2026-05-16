@@ -198,7 +198,7 @@ def markdown_for_fiche(fiche: dict, main_text: str) -> str:
         "## Sections officielles detectees",
         "\n".join(f"- {section['number']}. {section['title']} (pages {section.get('page_start')}-{section.get('page_end')})" for section in fiche.get("sections", [])) or "_Non detecte automatiquement._",
         "",
-        "## Donnees Energyco structurees",
+        "## Donnees metier structurees",
         f"- Titre propre: {fiche.get('title_clean') or ''}",
         f"- Secteur d'application: {fiche.get('application_sector') or ''}",
         f"- Duree de vie: {fiche.get('lifetime_years') or ''}",
@@ -244,7 +244,7 @@ def build_keyword_hits_index(fiches: list[dict]) -> list[dict]:
     return entries
 
 
-def build_energyco_priority(fiches: list[dict], keyword_hits: list[dict]) -> list[dict]:
+def build_common_use_cases_index(fiches: list[dict], keyword_hits: list[dict]) -> list[dict]:
     allowed_prefixes = {"BAR", "BAT", "RES"}
     explicit_high = {"BAR-TH-179", "BAR-TH-163", "BAR-TH-137", "BAT-TH-116", "BAT-TH-163", "BAT-TH-164", "RES-CH-106"}
     hit_by_code = {item["code"]: item["keyword_hits"] for item in keyword_hits}
@@ -253,21 +253,20 @@ def build_energyco_priority(fiches: list[dict], keyword_hits: list[dict]) -> lis
         prefix = fiche["code"].split("-", 1)[0]
         tags = hit_by_code.get(fiche["code"], [])
         in_scope = prefix in allowed_prefixes
-        has_energyco_tag = any(tag in tags for tag in [
+        has_common_tag = any(tag in tags for tag in [
             "PAC", "chaudière", "système hybride PAC + gaz", "chauffage collectif", "ECS",
             "calorifugeage", "réseau de chaleur", "régulation", "GTB", "ventilation",
             "isolation", "résidentiel collectif", "tertiaire",
         ])
-        if fiche["code"] in explicit_high or (in_scope and has_energyco_tag):
+        if fiche["code"] in explicit_high or (in_scope and has_common_tag):
             entries.append({
                 "code": fiche["code"],
                 "priority": "high" if fiche["code"] in explicit_high or {"PAC", "chauffage collectif", "GTB", "calorifugeage"} & set(tags) else "medium",
-                "energyco_use_cases": tags,
-                "why_important": "Fiche liée aux cas Energyco chauffage, PAC, régulation, réseaux ou enveloppe.",
+                "common_use_cases": tags,
+                "why_important": "Fiche liee aux cas courants des installateurs : chauffage, PAC, regulation, reseaux ou enveloppe.",
                 "required_site_data": fiche.get("site_data_requirements", []),
-                "energyco_site_data_requirements": fiche.get("energyco_site_data_requirements", []),
                 "risk_points": fiche.get("risks", []),
-                "energyco_risks": fiche.get("energyco_risks", []),
+                "compliance_risks": fiche.get("compliance_risks", []),
                 "json_path": f"data/json/{fiche['code']}.json",
                 "markdown_path": f"data/markdown/{fiche['code']}.md",
             })
@@ -389,7 +388,7 @@ def main() -> int:
     )
     keyword_hits = build_keyword_hits_index(fiches)
     write_json(INDEX_DIR / "keyword_hits_index.json", keyword_hits)
-    write_json(INDEX_DIR / "energyco_priority_index.json", build_energyco_priority(fiches, keyword_hits))
+    write_json(INDEX_DIR / "common_use_cases_index.json", build_common_use_cases_index(fiches, keyword_hits))
     write_json(INDEX_DIR / "formulas_cee_index.json", build_formulas_index(fiches))
 
     failed = [item for item in report_items if item["status"] == "failed"]

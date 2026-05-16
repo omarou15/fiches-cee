@@ -32,7 +32,7 @@ _Non detecte automatiquement._
 ## Sections officielles detectees
 _Non detecte automatiquement._
 
-## Donnees Energyco structurees
+## Donnees metier structurees
 - Titre propre: 
 - Secteur d'application: 
 - Duree de vie: 

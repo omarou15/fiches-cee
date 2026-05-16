@@ -1116,24 +1116,101 @@
   "bonifications": [],
   "site_data_requirements": [
     {
-      "field": "puissance_pac",
+      "field": "apartment_count_heated_by_pac",
+      "unit": "appartement",
+      "required": true,
+      "reason": "variable N de calcul BAR-TH-179",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "climate_zone",
+      "unit": null,
+      "required": true,
+      "reason": "selection de la ligne H1/H2/H3",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "pac_usage",
+      "unit": null,
+      "required": true,
+      "reason": "chauffage ou chauffage et ECS",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "etas_percent",
+      "unit": "%",
+      "required": true,
+      "reason": "selection de la plage Etas",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "application_temperature",
+      "unit": null,
+      "required": true,
+      "reason": "controle du seuil Etas 35/55 deg C",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "pac_nominal_power_prated_minus_10_kw",
       "unit": "kW",
       "required": true,
-      "reason": "dimensionnement et controle de coherence",
+      "reason": "controle puissance PAC et facteur R",
       "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
     },
     {
-      "field": "cop_etou_etasp",
-      "unit": null,
+      "field": "boiler_room_useful_power_after_works_kw",
+      "unit": "kW",
       "required": true,
-      "reason": "performance technique de la pompe a chaleur",
+      "reason": "calcul du facteur R",
       "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
     },
     {
-      "field": "surface_ou_nombre_logements",
+      "field": "backup_equipment_excluded",
       "unit": null,
       "required": true,
-      "reason": "perimetre de l'operation et calcul",
+      "reason": "la puissance chaufferie ne comptabilise pas les secours",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "heated_surface",
+      "unit": "m2",
+      "required": true,
+      "reason": "donnee de l'etude de dimensionnement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "emitter_types",
+      "unit": null,
+      "required": true,
+      "reason": "choix de l'application basse ou moyenne/haute temperature",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "tbase",
+      "unit": "degC",
+      "required": true,
+      "reason": "donnee de l'etude de dimensionnement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "heat_losses",
+      "unit": "kW",
+      "required": true,
+      "reason": "donnee de l'etude de dimensionnement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "supply_temperature",
+      "unit": "degC",
+      "required": true,
+      "reason": "donnee de l'etude de dimensionnement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "indoor_setpoint_temperature",
+      "unit": "degC",
+      "required": true,
+      "reason": "donnee de l'etude de dimensionnement",
       "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
     }
   ],
@@ -1201,7 +1278,7 @@
     "tool": "scripts/build_indexes.py",
     "extracted_at": "2026-05-15T00:00:00+00:00",
     "needs_human_review": false,
-    "notes": "Fiche Energyco modèle structurée depuis le PDF source et les sections extraites."
+    "notes": "Fiche modele generique structuree depuis le PDF source et les sections extraites."
   },
   "title_clean": "Pompe à chaleur collective de type air/eau",
   "application_sector": "Bâtiments résidentiels collectifs existants",
@@ -1286,23 +1363,7 @@
     "étude préalable de dimensionnement",
     "décision de qualification ou de certification du professionnel"
   ],
-  "energyco_site_data_requirements": [
-    "nombre d'appartements chauffés par la PAC",
-    "zone climatique",
-    "usage PAC : chauffage ou chauffage et ECS",
-    "Etas",
-    "application basse, moyenne ou haute température",
-    "puissance nominale PAC Prated à -10°C",
-    "puissance utile chaufferie après travaux",
-    "équipements de secours à exclure",
-    "surface chauffée",
-    "types d'émetteurs",
-    "Tbase",
-    "déperditions",
-    "température de départ",
-    "température intérieure de consigne"
-  ],
-  "energyco_risks": [
+  "compliance_risks": [
     "PAC ECS seule non éligible",
     "mauvaise application Etas 35°C/55°C",
     "absence d'étude de dimensionnement signée/datée",
