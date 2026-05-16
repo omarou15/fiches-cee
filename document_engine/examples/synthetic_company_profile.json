@@ -1,13 +1,25 @@
 {
+  "name": "CEE Demo Installateur",
+  "legal_name": "CEE Demo Installateur SAS",
   "company_name": "CEE Demo Installateur SAS",
   "siret": "12345678900012",
+  "vat_number": "FR00123456789",
   "address": "1 avenue Fictive, 75000 Paris",
-  "email": "contact@example.invalid",
   "phone": "01 00 00 00 00",
+  "email": "contact@example.invalid",
+  "website": "https://example.invalid",
+  "logo_path": "assets/logo-placeholder.png",
   "logo": "assets/logo-placeholder.png",
+  "iban": "FR7612345987650123456789014",
+  "bic": "DEMOFRPPXXX",
   "signatory": {
     "name": "Camille Exemple",
-    "title": "Responsable travaux"
+    "title": "Responsable travaux",
+    "signature_path": "assets/signature-placeholder.png"
+  },
+  "brand_colors": {
+    "primary": "#164E63",
+    "secondary": "#64748B"
   },
   "branding": {
     "primary_color": "#164E63",

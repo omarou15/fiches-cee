@@ -3,11 +3,29 @@
   "$id": "https://github.com/omarou15/fiches-cee/document_engine/schemas/invoice.schema.json",
   "title": "Draft invoice",
   "type": "object",
-  "required": ["case_id", "amount_eur_ht", "status"],
+  "required": ["number", "date", "total_ht", "total_ttc", "status"],
   "properties": {
-    "case_id": { "type": "string" },
-    "amount_eur_ht": { "type": ["number", "null"] },
-    "status": { "type": "string" }
+    "number": { "type": "string" },
+    "date": { "type": "string" },
+    "due_date": { "type": ["string", "null"] },
+    "total_ht": { "type": ["number", "integer", "null"] },
+    "total_ttc": { "type": ["number", "integer", "null"] },
+    "status": { "type": "string" },
+    "lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["description", "quantity", "unit_price_ht", "total_ht"],
+        "properties": {
+          "description": { "type": "string" },
+          "quantity": { "type": ["number", "integer"] },
+          "unit": { "type": ["string", "null"] },
+          "unit_price_ht": { "type": ["number", "integer", "null"] },
+          "total_ht": { "type": ["number", "integer", "null"] }
+        },
+        "additionalProperties": true
+      }
+    }
   },
   "additionalProperties": true
 }

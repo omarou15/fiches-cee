@@ -8,8 +8,11 @@
     "case_id": { "type": "string" },
     "code": { "type": "string" },
     "mode": { "type": "string", "enum": ["draft", "strict"] },
+    "source_type": { "type": "string", "enum": ["operation_input", "inferred_project"] },
     "files": { "type": "array", "items": { "type": "string" } },
-    "blocking_points": { "type": "array", "items": { "type": "string" } }
+    "blocking_points": { "type": "array", "items": { "type": "string" } },
+    "missing_documents": { "type": "array", "items": { "type": "string" } },
+    "non_compliant_documents": { "type": "array", "items": { "type": "string" } }
   },
   "additionalProperties": false
 }

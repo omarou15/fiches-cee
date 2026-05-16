@@ -3,22 +3,39 @@
   "$id": "https://github.com/omarou15/fiches-cee/document_engine/schemas/company_profile.schema.json",
   "title": "Generic company profile",
   "type": "object",
-  "required": ["company_name", "siret", "address", "email", "signatory", "branding"],
+  "required": ["name", "legal_name", "siret", "address", "phone", "email", "signatory", "brand_colors"],
   "properties": {
+    "name": { "type": "string" },
+    "legal_name": { "type": "string" },
     "company_name": { "type": "string" },
     "siret": { "type": "string" },
+    "vat_number": { "type": ["string", "null"] },
     "address": { "type": "string" },
+    "phone": { "type": "string" },
     "email": { "type": "string" },
-    "phone": { "type": ["string", "null"] },
+    "website": { "type": ["string", "null"] },
+    "logo_path": { "type": ["string", "null"] },
     "logo": { "type": ["string", "null"] },
+    "iban": { "type": ["string", "null"] },
+    "bic": { "type": ["string", "null"] },
     "signatory": {
       "type": "object",
-      "required": ["name", "title"],
+      "required": ["name", "title", "signature_path"],
       "properties": {
         "name": { "type": "string" },
-        "title": { "type": "string" }
+        "title": { "type": "string" },
+        "signature_path": { "type": ["string", "null"] }
       },
       "additionalProperties": false
+    },
+    "brand_colors": {
+      "type": "object",
+      "required": ["primary", "secondary"],
+      "properties": {
+        "primary": { "type": "string" },
+        "secondary": { "type": "string" }
+      },
+      "additionalProperties": true
     },
     "branding": {
       "type": "object",

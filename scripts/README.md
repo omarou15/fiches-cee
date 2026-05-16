@@ -104,6 +104,12 @@ python scripts/infer_case.py --input inference_engine/examples/synthetic_minimal
 python scripts/generate_document_pack.py --company document_engine/examples/synthetic_company_profile.json --inferred outputs/demo/inferred_project.json --mode draft --output outputs/demo_pack
 ```
 
+Generer directement un pack documentaire depuis une operation structuree :
+
+```bash
+python scripts/generate_document_pack.py --code BAR-TH-179 --company document_engine/examples/synthetic_company_profile.json --operation document_engine/examples/synthetic_operation_bar_th_179.json --output outputs/demo_bar_th_179
+```
+
 ## Regle
 
 Tout script doit etre idempotent : relancer le pipeline ne doit pas casser les sorties existantes ni modifier les sources officielles.

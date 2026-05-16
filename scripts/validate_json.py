@@ -33,6 +33,7 @@ def main() -> int:
     dossier_examples_dir = REPO_ROOT / "examples" / "dossier_agent"
     minimal_case_path = REPO_ROOT / "inference_engine" / "examples" / "synthetic_minimal_case_bar_th_179.json"
     synthetic_company_path = REPO_ROOT / "document_engine" / "examples" / "synthetic_company_profile.json"
+    synthetic_operation_path = REPO_ROOT / "document_engine" / "examples" / "synthetic_operation_bar_th_179.json"
 
     fiche_files = sorted(json_dir.glob("*.json"))
     if not fiche_files:
@@ -139,6 +140,15 @@ def main() -> int:
             )
         except Exception as exc:
             errors.append(f"{synthetic_company_path.name}: company profile schema error: {exc}")
+
+    if synthetic_operation_path.exists() and jsonschema:
+        try:
+            jsonschema.validate(
+                load_json(synthetic_operation_path),
+                load_json(REPO_ROOT / "document_engine" / "schemas" / "operation_input.schema.json"),
+            )
+        except Exception as exc:
+            errors.append(f"{synthetic_operation_path.name}: operation input schema error: {exc}")
 
     if errors:
         print("Validation failed:")

@@ -1,0 +1,134 @@
+{
+  "operation": {
+    "case_id": "DEMO-BAR-TH-179-001",
+    "cee_code": "BAR-TH-179",
+    "description": "Mise en place d'une pompe a chaleur collective air/eau pour chauffage collectif",
+    "engagement_date": "2026-05-20",
+    "completion_date": null,
+    "status": "draft_to_validate"
+  },
+  "client": {
+    "name": "Syndicat fictif Residence des Lilas",
+    "type": "copropriete",
+    "contact_name": "Alex Martin",
+    "email": "conseil-syndical@example.invalid",
+    "phone": "01 11 22 33 44",
+    "address": "10 rue Exemple, 75015 Paris"
+  },
+  "site": {
+    "address": "10 rue Exemple",
+    "postal_code": "75015",
+    "city": "Paris",
+    "climate_zone": "H1",
+    "building_type": "residentiel_collectif_existant",
+    "apartments_count": 62,
+    "heated_surface_m2": 4100,
+    "emitters": "radiateurs eau chaude",
+    "base_temperature_c": -7
+  },
+  "technical": {
+    "usage": "chauffage",
+    "etas_percent": 126,
+    "application_temperature": "basse_temperature",
+    "pac_brand": "Marque fictive",
+    "pac_reference": "PAC-AW-180-DEMO",
+    "pac_power_kw_prated_minus_10": 180,
+    "chaufferie_useful_power_after_works_kw": 420,
+    "backup_equipment_excluded": true,
+    "r_factor": 1,
+    "annual_heating_coverage_percent": 72,
+    "heat_losses_kw_at_tbase": 265,
+    "flow_temperature_c": 45,
+    "indoor_setpoint_c": 19,
+    "professional_qualification": "RGE fictif - pompe a chaleur collective",
+    "dimensioning_study_status": "draft_to_validate"
+  },
+  "calculation": {
+    "formula_text": "Montant CEE = montant_kWh_cumac_par_appartement x N x R",
+    "amount_per_apartment_kwh_cumac": 100000,
+    "apartments_count": 62,
+    "r_factor": 1,
+    "total_kwh_cumac": 6200000,
+    "status": "computed_from_synthetic_inputs"
+  },
+  "quote": {
+    "number": "DEV-DEMO-2026-001",
+    "date": "2026-05-16",
+    "valid_until": "2026-06-15",
+    "status": "draft",
+    "total_ht": 420000,
+    "total_ttc": 462000,
+    "lines": [
+      {
+        "description": "Fourniture PAC collective air/eau 180 kW",
+        "quantity": 1,
+        "unit": "forfait",
+        "unit_price_ht": 210000,
+        "total_ht": 210000
+      },
+      {
+        "description": "Hydraulique chaufferie, raccordements et regulation",
+        "quantity": 1,
+        "unit": "forfait",
+        "unit_price_ht": 150000,
+        "total_ht": 150000
+      },
+      {
+        "description": "Etudes, mise en service et dossier technique",
+        "quantity": 1,
+        "unit": "forfait",
+        "unit_price_ht": 60000,
+        "total_ht": 60000
+      }
+    ]
+  },
+  "invoice": {
+    "number": "FAC-DEMO-2026-001",
+    "date": "2026-09-30",
+    "due_date": "2026-10-30",
+    "status": "draft_placeholder",
+    "total_ht": 420000,
+    "total_ttc": 462000,
+    "lines": [
+      {
+        "description": "Travaux PAC collective BAR-TH-179 - brouillon",
+        "quantity": 1,
+        "unit": "forfait",
+        "unit_price_ht": 420000,
+        "total_ht": 420000
+      }
+    ]
+  },
+  "documents": {
+    "available": [
+      "visite technique fictive",
+      "photos chaufferie placeholders",
+      "fiche technique PAC placeholder"
+    ],
+    "missing": [
+      "devis signe",
+      "facture finale",
+      "attestation sur l'honneur signee",
+      "etude de dimensionnement signee et datee",
+      "qualification professionnelle valide"
+    ],
+    "non_compliant": []
+  },
+  "compliance": {
+    "eligibility_status": "draft_to_validate",
+    "blocking_points": [
+      "Les documents signes reels sont absents de l'exemple synthetique."
+    ],
+    "risks": [
+      "Verifier que la PAC n'est pas utilisee uniquement pour l'ECS.",
+      "Verifier la valeur Etas et le regime basse/moyenne/haute temperature.",
+      "Verifier le facteur R si la puissance PAC represente moins de 40 % de la puissance utile chaufferie apres travaux.",
+      "Verifier que l'etude de dimensionnement est remise au beneficiaire a l'engagement."
+    ]
+  },
+  "mail": {
+    "recipient": "conseil-syndical@example.invalid",
+    "subject": "Pieces manquantes dossier CEE BAR-TH-179",
+    "sender_name": "Camille Exemple"
+  }
+}
