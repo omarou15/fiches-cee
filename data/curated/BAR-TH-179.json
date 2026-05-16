@@ -258,14 +258,46 @@
     {"field": "indoor_setpoint_temperature", "unit": "degC", "required": true, "reason": "donnee de l'etude de dimensionnement", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"}
   ],
   "compliance_risks": [
-    "PAC ECS seule non éligible",
-    "mauvaise application Etas 35°C/55°C",
-    "absence d'étude de dimensionnement signée/datée",
-    "puissance PAC < 40% sans application du facteur R",
-    "prise en compte erronée des équipements de secours dans la puissance chaufferie",
-    "absence de preuve marque/référence/Prated/Etas",
-    "non-respect de la qualification professionnelle",
-    "cumul erroné avec BAR-TH-169"
+    {
+      "text": "PAC ECS seule non éligible",
+      "severity": "high",
+      "source": "section 2 - Denomination"
+    },
+    {
+      "text": "mauvaise application Etas 35°C/55°C",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "absence d'étude de dimensionnement signée/datée",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "puissance PAC < 40% sans application du facteur R",
+      "severity": "high",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "prise en compte erronée des équipements de secours dans la puissance chaufferie",
+      "severity": "high",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "absence de preuve marque/référence/Prated/Etas",
+      "severity": "medium",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "non-respect de la qualification professionnelle",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "cumul erroné avec BAR-TH-169",
+      "severity": "high",
+      "source": "section 2 - Denomination"
+    }
   ],
   "output_documents": {
     "note_dimensionnement_required": true,

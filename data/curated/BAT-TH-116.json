@@ -742,12 +742,36 @@
     "manufacturer_datasheet_required": true
   },
   "compliance_risks": [
-    "high: Simple raccordement ? une GTB existante valoris? ? tort",
-    "high: Syst?me existant avant am?lioration sup?rieur ? classe C",
-    "high: Syst?me install? non classe A ou B NF EN ISO 52120-1:2022",
-    "medium: Surface g?r?e S ou usage consid?r? mal justifi?",
-    "medium: Secteur d?activit? ou zone climatique erron?",
-    "medium: Preuve de r?alisation sans marque/r?f?rence ou classe GTB"
+    {
+      "text": "Simple raccordement ? une GTB existante valoris? ? tort",
+      "severity": "high",
+      "source": "section 2 - Denomination"
+    },
+    {
+      "text": "Syst?me existant avant am?lioration sup?rieur ? classe C",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Syst?me install? non classe A ou B NF EN ISO 52120-1:2022",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Surface g?r?e S ou usage consid?r? mal justifi?",
+      "severity": "medium",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "Secteur d?activit? ou zone climatique erron?",
+      "severity": "medium",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "Preuve de r?alisation sans marque/r?f?rence ou classe GTB",
+      "severity": "medium",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    }
   ],
   "lifetime_years": 15,
   "risks": [

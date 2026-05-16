@@ -577,14 +577,46 @@
     "manufacturer_datasheet_required": true
   },
   "compliance_risks": [
-    "high: PAC associ?e ? un autre syst?me de chauffage d?clar?e ?ligible",
-    "high: PAC utilis?e uniquement pour l?ECS",
-    "high: Etas insuffisant ou mauvaise application 35?C/55?C",
-    "high: Absence de r?gulateur classe IV, V, VI, VII ou VIII",
-    "high: Note de dimensionnement absente ou non remise au b?n?ficiaire",
-    "high: Cumul avec une fiche non cumulable",
-    "medium: Surface chauff?e S ou zone climatique erron?e",
-    "medium: Preuve de r?alisation incompl?te marque/r?f?rence/usage/Etas/r?gulateur"
+    {
+      "text": "PAC associ?e ? un autre syst?me de chauffage d?clar?e ?ligible",
+      "severity": "high",
+      "source": "section 2 - Denomination"
+    },
+    {
+      "text": "PAC utilis?e uniquement pour l?ECS",
+      "severity": "high",
+      "source": "section 2 - Denomination"
+    },
+    {
+      "text": "Etas insuffisant ou mauvaise application 35?C/55?C",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Absence de r?gulateur classe IV, V, VI, VII ou VIII",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Note de dimensionnement absente ou non remise au b?n?ficiaire",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Cumul avec une fiche non cumulable",
+      "severity": "high",
+      "source": "section 2 - Denomination"
+    },
+    {
+      "text": "Surface chauff?e S ou zone climatique erron?e",
+      "severity": "medium",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "Preuve de r?alisation incompl?te marque/r?f?rence/usage/Etas/r?gulateur",
+      "severity": "medium",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    }
   ],
   "lifetime_years": 17,
   "risks": [

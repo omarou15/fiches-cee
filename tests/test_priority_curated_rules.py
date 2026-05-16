@@ -14,6 +14,7 @@ from scripts import dossier_agent  # noqa: E402
 
 
 PRIORITY_CODES = ["BAR-TH-171", "BAR-TH-168", "BAT-TH-116", "BAT-TH-162", "BAT-TH-163"]
+CURATED_COMPLIANCE_RISK_CODES = ["BAR-TH-179", *PRIORITY_CODES]
 
 
 def load_json(path):
@@ -34,11 +35,27 @@ def test_priority_curated_json_validates_schema(code):
     assert curated["technical_requirements"]
     assert curated["required_documents"]
     assert curated["control_points"]
+    assert curated["compliance_risks"]
+    assert all(isinstance(item, dict) for item in curated["compliance_risks"])
+    assert all({"text", "severity"}.issubset(item) for item in curated["compliance_risks"])
+    assert {item["severity"] for item in curated["compliance_risks"]}.issubset({"high", "medium", "low"})
 
 
 @pytest.mark.parametrize("code", PRIORITY_CODES)
 def test_priority_code_is_supported_full(code):
     assert dossier_agent.detect_support_level(code) == "supported_full"
+
+
+@pytest.mark.parametrize("code", CURATED_COMPLIANCE_RISK_CODES)
+def test_curated_compliance_risks_are_structured_objects(code):
+    curated = load_json(ROOT / "data/curated" / f"{code}.json")
+
+    assert curated["compliance_risks"]
+    assert all(isinstance(item, dict) for item in curated["compliance_risks"])
+    for item in curated["compliance_risks"]:
+        assert isinstance(item["text"], str) and item["text"]
+        assert item["severity"] in {"high", "medium", "low"}
+        assert isinstance(item.get("source"), str) and item["source"].startswith("section ")
 
 
 @pytest.mark.parametrize("code", PRIORITY_CODES)

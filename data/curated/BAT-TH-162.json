@@ -955,14 +955,46 @@
     "manufacturer_datasheet_required": true
   },
   "compliance_risks": [
-    "high: Syst?me g?othermique uniquement refroidissement",
-    "high: Qualification RGE Etudes g?othermie ou ma?trise d??uvre absente",
-    "high: Etas/COP/EER/SEER sous seuil r?glementaire",
-    "high: ?tude pr?alable de dimensionnement ou ?tude ressources g?othermiques absente",
-    "high: Facteur R non appliqu? si puissance PAC < 40 % de la chaufferie",
-    "medium: ?quipements de secours inclus ? tort dans la puissance chaufferie",
-    "medium: DOE forage ou rapport de fin de forage absent",
-    "medium: Table de calcul choisie avec mauvais r?gime de puissance ou mauvais usage"
+    {
+      "text": "Syst?me g?othermique uniquement refroidissement",
+      "severity": "high",
+      "source": "section 2 - Denomination"
+    },
+    {
+      "text": "Qualification RGE Etudes g?othermie ou ma?trise d??uvre absente",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Etas/COP/EER/SEER sous seuil r?glementaire",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "?tude pr?alable de dimensionnement ou ?tude ressources g?othermiques absente",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Facteur R non appliqu? si puissance PAC < 40 % de la chaufferie",
+      "severity": "high",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "?quipements de secours inclus ? tort dans la puissance chaufferie",
+      "severity": "medium",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "DOE forage ou rapport de fin de forage absent",
+      "severity": "medium",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Table de calcul choisie avec mauvais r?gime de puissance ou mauvais usage",
+      "severity": "medium",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    }
   ],
   "lifetime_years": 25,
   "risks": [

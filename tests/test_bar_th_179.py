@@ -9,6 +9,10 @@ def load_bar_th_179():
     return json.loads((ROOT / "data/json/BAR-TH-179.json").read_text(encoding="utf-8"))
 
 
+def load_curated_bar_th_179():
+    return json.loads((ROOT / "data/curated/BAR-TH-179.json").read_text(encoding="utf-8"))
+
+
 def test_bar_th_179_core_dates_and_lifetime():
     fiche = load_bar_th_179()
     assert fiche["effective_date"] == "2026-04-30"
@@ -43,6 +47,8 @@ def test_bar_th_179_exclusions_and_non_cumulation():
     fiche = load_bar_th_179()
     assert any("eau chaude sanitaire" in item for item in fiche["excluded_uses"])
     assert any(item["code"] == "BAR-TH-169" for item in fiche["non_cumulation"])
-    assert any("PAC ECS seule" in item for item in fiche["compliance_risks"])
+    curated = load_curated_bar_th_179()
+    assert any(item["text"] == "PAC ECS seule non éligible" and item["severity"] == "high" for item in curated["compliance_risks"])
+    assert all({"text", "severity"}.issubset(item) for item in curated["compliance_risks"])
     assert fiche["extraction"]["status"] == "validated"
     assert fiche["extraction"]["needs_human_review"] is False

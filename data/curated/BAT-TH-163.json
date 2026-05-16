@@ -680,14 +680,46 @@
     "manufacturer_datasheet_required": true
   },
   "compliance_risks": [
-    "high: PAC utilis?e uniquement pour l?ECS",
-    "high: Etas ou COP sous seuil r?glementaire",
-    "high: ?tude pr?alable de dimensionnement absente ou non remise",
-    "high: Facteur R non appliqu? si puissance PAC < 40 % de la chaufferie",
-    "medium: ?quipements de secours inclus ? tort dans la puissance chaufferie",
-    "medium: Mauvaise table de calcul selon puissance ?400 kW ou >400 kW",
-    "medium: Surface chauff?e S, secteur ou zone climatique erron?",
-    "medium: Preuve de r?alisation ou document fabricant incomplet"
+    {
+      "text": "PAC utilis?e uniquement pour l?ECS",
+      "severity": "high",
+      "source": "section 2 - Denomination"
+    },
+    {
+      "text": "Etas ou COP sous seuil r?glementaire",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "?tude pr?alable de dimensionnement absente ou non remise",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Facteur R non appliqu? si puissance PAC < 40 % de la chaufferie",
+      "severity": "high",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "?quipements de secours inclus ? tort dans la puissance chaufferie",
+      "severity": "medium",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "Mauvaise table de calcul selon puissance ?400 kW ou >400 kW",
+      "severity": "medium",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "Surface chauff?e S, secteur ou zone climatique erron?",
+      "severity": "medium",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "Preuve de r?alisation ou document fabricant incomplet",
+      "severity": "medium",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    }
   ],
   "lifetime_years": 22,
   "risks": [

@@ -181,7 +181,12 @@
     },
     "compliance_risks": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "anyOf": [
+          { "$ref": "#/$defs/compliance_risk" },
+          { "type": "string" }
+        ]
+      }
     },
     "lifetime_years": {
       "type": ["integer", "null"]
@@ -281,6 +286,19 @@
           "enum": ["low", "medium", "high"]
         },
         "source_file": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "compliance_risk": {
+      "type": "object",
+      "required": ["text", "severity"],
+      "properties": {
+        "text": { "type": "string" },
+        "severity": {
+          "type": "string",
+          "enum": ["low", "medium", "high"]
+        },
+        "source": { "type": ["string", "null"] }
       },
       "additionalProperties": false
     },

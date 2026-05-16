@@ -586,14 +586,46 @@
     "manufacturer_datasheet_required": true
   },
   "compliance_risks": [
-    "high: Capteurs hybrides ?lectricit?/chaleur inclus ? tort",
-    "high: Capteurs solaires sous 450 W/m2",
-    "high: Absence de certification QB/SolarKeymark ou ?quivalente",
-    "high: Usage chauffage avec appoint ?lectrique",
-    "high: Surface capteurs insuffisante selon usage",
-    "medium: Ballon solaire ?500 L sans classe minimale C",
-    "medium: Surface S ou zone climatique erron?e",
-    "medium: Preuve de r?alisation incompl?te sur capteurs, ballon, appoint ou performances"
+    {
+      "text": "Capteurs hybrides ?lectricit?/chaleur inclus ? tort",
+      "severity": "high",
+      "source": "section 2 - Denomination"
+    },
+    {
+      "text": "Capteurs solaires sous 450 W/m2",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Absence de certification QB/SolarKeymark ou ?quivalente",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Usage chauffage avec appoint ?lectrique",
+      "severity": "high",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Surface capteurs insuffisante selon usage",
+      "severity": "high",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "Ballon solaire ?500 L sans classe minimale C",
+      "severity": "medium",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    },
+    {
+      "text": "Surface S ou zone climatique erron?e",
+      "severity": "medium",
+      "source": "section 5 - Montant de certificats en kWh cumac"
+    },
+    {
+      "text": "Preuve de r?alisation incompl?te sur capteurs, ballon, appoint ou performances",
+      "severity": "medium",
+      "source": "section 3 - Conditions pour la delivrance de certificats"
+    }
   ],
   "lifetime_years": 25,
   "risks": [
