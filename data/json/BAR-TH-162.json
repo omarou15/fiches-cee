@@ -176,6 +176,15 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "20 900",
+        "normalized": "20900",
+        "line": 2,
+        "context": "20 900"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Residentiel_BAR/BAR-TH-162 vA28-1.pdf",

@@ -168,6 +168,225 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1 049 900",
+        "normalized": "1049900",
+        "line": 9,
+        "context": "1 049 900"
+      },
+      {
+        "type": "number",
+        "raw": "1 602 800",
+        "normalized": "1602800",
+        "line": 13,
+        "context": "1 602 800"
+      },
+      {
+        "type": "number",
+        "raw": "2 564 500",
+        "normalized": "2564500",
+        "line": 16,
+        "context": "2 564 500"
+      },
+      {
+        "type": "number",
+        "raw": "250 000",
+        "normalized": "250000",
+        "line": 18,
+        "context": "*Pour une agglomération ≤ 250 000 habitants"
+      },
+      {
+        "type": "number",
+        "raw": "1 538 500",
+        "normalized": "1538500",
+        "line": 22,
+        "context": "1 538 500"
+      },
+      {
+        "type": "number",
+        "raw": "2 350 700",
+        "normalized": "2350700",
+        "line": 25,
+        "context": "2 350 700"
+      },
+      {
+        "type": "number",
+        "raw": "3 291 000",
+        "normalized": "3291000",
+        "line": 28,
+        "context": "3 291 000"
+      },
+      {
+        "type": "number",
+        "raw": "250 000",
+        "normalized": "250000",
+        "line": 30,
+        "context": "**Pour une agglomération > 250 000 habitants"
+      },
+      {
+        "type": "number",
+        "raw": "769 200",
+        "normalized": "769200",
+        "line": 34,
+        "context": "769 200"
+      },
+      {
+        "type": "number",
+        "raw": "1 175 300",
+        "normalized": "1175300",
+        "line": 37,
+        "context": "1 175 300"
+      },
+      {
+        "type": "number",
+        "raw": "1 645 500",
+        "normalized": "1645500",
+        "line": 40,
+        "context": "1 645 500"
+      },
+      {
+        "type": "number",
+        "raw": "22",
+        "normalized": "22",
+        "line": 44,
+        "context": "pour desservir des communes non mentionnées à l’annexe I de l’arrêté du 22 décembre 2021 établissant les listes"
+      },
+      {
+        "type": "number",
+        "raw": "2021",
+        "normalized": "2021",
+        "line": 44,
+        "context": "pour desservir des communes non mentionnées à l’annexe I de l’arrêté du 22 décembre 2021 établissant les listes"
+      },
+      {
+        "type": "number",
+        "raw": "100 000",
+        "normalized": "100000",
+        "line": 45,
+        "context": "d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "150 000",
+        "normalized": "150000",
+        "line": 45,
+        "context": "d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "250 000",
+        "normalized": "250000",
+        "line": 45,
+        "context": "d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "221",
+        "normalized": "221",
+        "line": 45,
+        "context": "d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 45,
+        "context": "d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "2213",
+        "normalized": "2213",
+        "line": 46,
+        "context": "l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 46,
+        "context": "l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 46,
+        "context": "l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "22",
+        "normalized": "22",
+        "line": 49,
+        "context": "pour desservir des communes mentionnées à l’annexe I de l’arrêté du 22 décembre 2021 établissant les listes"
+      },
+      {
+        "type": "number",
+        "raw": "2021",
+        "normalized": "2021",
+        "line": 49,
+        "context": "pour desservir des communes mentionnées à l’annexe I de l’arrêté du 22 décembre 2021 établissant les listes"
+      },
+      {
+        "type": "number",
+        "raw": "100 000",
+        "normalized": "100000",
+        "line": 50,
+        "context": "d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "150 000",
+        "normalized": "150000",
+        "line": 50,
+        "context": "d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "250 000",
+        "normalized": "250000",
+        "line": 50,
+        "context": "d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "221",
+        "normalized": "221",
+        "line": 50,
+        "context": "d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 50,
+        "context": "d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article R. 221-2 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "2213",
+        "normalized": "2213",
+        "line": 51,
+        "context": "l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 51,
+        "context": "l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 51,
+        "context": "l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

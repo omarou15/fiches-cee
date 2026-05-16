@@ -216,6 +216,414 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1,5 %",
+        "normalized": "1.5%",
+        "line": 6,
+        "context": "Y = Gain de consommation du lubrifiant (en %). Exemple : pour un gain de 1,5 %, Y = 1,5"
+      },
+      {
+        "type": "number",
+        "raw": "1,5",
+        "normalized": "1.5",
+        "line": 6,
+        "context": "Y = Gain de consommation du lubrifiant (en %). Exemple : pour un gain de 1,5 %, Y = 1,5"
+      },
+      {
+        "type": "number",
+        "raw": "1 %",
+        "normalized": "1%",
+        "line": 8,
+        "context": "Le gain G en kWh cumac/m3/navire pour 1 % d’économies d’énergie est mentionné dans le tableau suivant :"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 33,
+        "context": "L < 12"
+      },
+      {
+        "type": "number",
+        "raw": "10 100",
+        "normalized": "10100",
+        "line": 34,
+        "context": "10 100"
+      },
+      {
+        "type": "number",
+        "raw": "4 500",
+        "normalized": "4500",
+        "line": 35,
+        "context": "4 500"
+      },
+      {
+        "type": "number",
+        "raw": "12 700",
+        "normalized": "12700",
+        "line": 36,
+        "context": "12 700"
+      },
+      {
+        "type": "number",
+        "raw": "3700",
+        "normalized": "3700",
+        "line": 37,
+        "context": "3700"
+      },
+      {
+        "type": "number",
+        "raw": "7 400",
+        "normalized": "7400",
+        "line": 38,
+        "context": "7 400"
+      },
+      {
+        "type": "number",
+        "raw": "1 100",
+        "normalized": "1100",
+        "line": 39,
+        "context": "1 100"
+      },
+      {
+        "type": "number",
+        "raw": "11 300",
+        "normalized": "11300",
+        "line": 40,
+        "context": "11 300"
+      },
+      {
+        "type": "number",
+        "raw": "2 600",
+        "normalized": "2600",
+        "line": 41,
+        "context": "2 600"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 42,
+        "context": "12 ≤ L <16"
+      },
+      {
+        "type": "number",
+        "raw": "16",
+        "normalized": "16",
+        "line": 42,
+        "context": "12 ≤ L <16"
+      },
+      {
+        "type": "number",
+        "raw": "12 400",
+        "normalized": "12400",
+        "line": 43,
+        "context": "12 400"
+      },
+      {
+        "type": "number",
+        "raw": "6 000",
+        "normalized": "6000",
+        "line": 44,
+        "context": "6 000"
+      },
+      {
+        "type": "number",
+        "raw": "14 000",
+        "normalized": "14000",
+        "line": 45,
+        "context": "14 000"
+      },
+      {
+        "type": "number",
+        "raw": "6 100",
+        "normalized": "6100",
+        "line": 46,
+        "context": "6 100"
+      },
+      {
+        "type": "number",
+        "raw": "13 200",
+        "normalized": "13200",
+        "line": 47,
+        "context": "13 200"
+      },
+      {
+        "type": "number",
+        "raw": "6 100",
+        "normalized": "6100",
+        "line": 48,
+        "context": "6 100"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 49,
+        "context": "0"
+      },
+      {
+        "type": "number",
+        "raw": "6 100",
+        "normalized": "6100",
+        "line": 50,
+        "context": "6 100"
+      },
+      {
+        "type": "number",
+        "raw": "16",
+        "normalized": "16",
+        "line": 51,
+        "context": "16 ≤ L < 20"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 51,
+        "context": "16 ≤ L < 20"
+      },
+      {
+        "type": "number",
+        "raw": "13 700",
+        "normalized": "13700",
+        "line": 52,
+        "context": "13 700"
+      },
+      {
+        "type": "number",
+        "raw": "5 700",
+        "normalized": "5700",
+        "line": 53,
+        "context": "5 700"
+      },
+      {
+        "type": "number",
+        "raw": "18 500",
+        "normalized": "18500",
+        "line": 54,
+        "context": "18 500"
+      },
+      {
+        "type": "number",
+        "raw": "6 100",
+        "normalized": "6100",
+        "line": 55,
+        "context": "6 100"
+      },
+      {
+        "type": "number",
+        "raw": "19 100",
+        "normalized": "19100",
+        "line": 56,
+        "context": "19 100"
+      },
+      {
+        "type": "number",
+        "raw": "3 600",
+        "normalized": "3600",
+        "line": 57,
+        "context": "3 600"
+      },
+      {
+        "type": "number",
+        "raw": "17 400",
+        "normalized": "17400",
+        "line": 58,
+        "context": "17 400"
+      },
+      {
+        "type": "number",
+        "raw": "5 800",
+        "normalized": "5800",
+        "line": 59,
+        "context": "5 800"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 60,
+        "context": "20 ≤ L < 24"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 60,
+        "context": "20 ≤ L < 24"
+      },
+      {
+        "type": "number",
+        "raw": "20 300",
+        "normalized": "20300",
+        "line": 61,
+        "context": "20 300"
+      },
+      {
+        "type": "number",
+        "raw": "5 800",
+        "normalized": "5800",
+        "line": 62,
+        "context": "5 800"
+      },
+      {
+        "type": "number",
+        "raw": "18 900",
+        "normalized": "18900",
+        "line": 63,
+        "context": "18 900"
+      },
+      {
+        "type": "number",
+        "raw": "6 400",
+        "normalized": "6400",
+        "line": 64,
+        "context": "6 400"
+      },
+      {
+        "type": "number",
+        "raw": "13 600",
+        "normalized": "13600",
+        "line": 65,
+        "context": "13 600"
+      },
+      {
+        "type": "number",
+        "raw": "6 200",
+        "normalized": "6200",
+        "line": 66,
+        "context": "6 200"
+      },
+      {
+        "type": "number",
+        "raw": "18 800",
+        "normalized": "18800",
+        "line": 67,
+        "context": "18 800"
+      },
+      {
+        "type": "number",
+        "raw": "6 200",
+        "normalized": "6200",
+        "line": 68,
+        "context": "6 200"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 69,
+        "context": "24 ≤ L"
+      },
+      {
+        "type": "number",
+        "raw": "23 700",
+        "normalized": "23700",
+        "line": 70,
+        "context": "23 700"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 71,
+        "context": "0"
+      },
+      {
+        "type": "number",
+        "raw": "29 500",
+        "normalized": "29500",
+        "line": 72,
+        "context": "29 500"
+      },
+      {
+        "type": "number",
+        "raw": "7 900",
+        "normalized": "7900",
+        "line": 73,
+        "context": "7 900"
+      },
+      {
+        "type": "number",
+        "raw": "16 800",
+        "normalized": "16800",
+        "line": 74,
+        "context": "16 800"
+      },
+      {
+        "type": "number",
+        "raw": "6 500",
+        "normalized": "6500",
+        "line": 75,
+        "context": "6 500"
+      },
+      {
+        "type": "number",
+        "raw": "22 900",
+        "normalized": "22900",
+        "line": 76,
+        "context": "22 900"
+      },
+      {
+        "type": "number",
+        "raw": "7 000",
+        "normalized": "7000",
+        "line": 77,
+        "context": "7 000"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 86,
+        "context": "Le test consiste à comparer sur une période de 6 mois deux échantillons de navires homogènes et représentatifs de"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 87,
+        "context": "la flotte (tels que définis ci-dessous). Le test est divisé en deux séquences égales de 3 mois :"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 95,
+        "context": "Le test doit porter sur un minimum de 6 navires (3 référents et 3 testeurs). Pour assurer une bonne représentativité"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 95,
+        "context": "Le test doit porter sur un minimum de 6 navires (3 référents et 3 testeurs). Pour assurer une bonne représentativité"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 97,
+        "context": "appartiennent à la classe des 20-24 m pour les hauturiers et 12-20 m pour les côtiers. Tous ces navires doivent"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 97,
+        "context": "appartiennent à la classe des 20-24 m pour les hauturiers et 12-20 m pour les côtiers. Tous ces navires doivent"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 97,
+        "context": "appartiennent à la classe des 20-24 m pour les hauturiers et 12-20 m pour les côtiers. Tous ces navires doivent"
+      }
+    ],
     "calculation_methods": [
       "coefficient_based"
     ],

@@ -209,6 +209,155 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par m² de fenêtre ou",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 13,
+        "context": "H1"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 14,
+        "context": "H2"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 15,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "3 300",
+        "normalized": "3300",
+        "line": 17,
+        "context": "3 300"
+      },
+      {
+        "type": "number",
+        "raw": "2 800",
+        "normalized": "2800",
+        "line": 18,
+        "context": "2 800"
+      },
+      {
+        "type": "number",
+        "raw": "2 100",
+        "normalized": "2100",
+        "line": 19,
+        "context": "2 100"
+      },
+      {
+        "type": "number",
+        "raw": "3 700",
+        "normalized": "3700",
+        "line": 22,
+        "context": "3 700"
+      },
+      {
+        "type": "number",
+        "raw": "3 200",
+        "normalized": "3200",
+        "line": 23,
+        "context": "3 200"
+      },
+      {
+        "type": "number",
+        "raw": "2 300",
+        "normalized": "2300",
+        "line": 24,
+        "context": "2 300"
+      },
+      {
+        "type": "number",
+        "raw": "3 300",
+        "normalized": "3300",
+        "line": 26,
+        "context": "3 300"
+      },
+      {
+        "type": "number",
+        "raw": "2 900",
+        "normalized": "2900",
+        "line": 27,
+        "context": "2 900"
+      },
+      {
+        "type": "number",
+        "raw": "2 100",
+        "normalized": "2100",
+        "line": 28,
+        "context": "2 100"
+      },
+      {
+        "type": "number",
+        "raw": "4 000",
+        "normalized": "4000",
+        "line": 30,
+        "context": "4 000"
+      },
+      {
+        "type": "number",
+        "raw": "3 500",
+        "normalized": "3500",
+        "line": 31,
+        "context": "3 500"
+      },
+      {
+        "type": "number",
+        "raw": "2 500",
+        "normalized": "2500",
+        "line": 32,
+        "context": "2 500"
+      },
+      {
+        "type": "number",
+        "raw": "6 600",
+        "normalized": "6600",
+        "line": 34,
+        "context": "6 600"
+      },
+      {
+        "type": "number",
+        "raw": "5 500",
+        "normalized": "5500",
+        "line": 35,
+        "context": "5 500"
+      },
+      {
+        "type": "number",
+        "raw": "3 900",
+        "normalized": "3900",
+        "line": 36,
+        "context": "3 900"
+      },
+      {
+        "type": "number",
+        "raw": "3 300",
+        "normalized": "3300",
+        "line": 38,
+        "context": "3 300"
+      },
+      {
+        "type": "number",
+        "raw": "2 800",
+        "normalized": "2800",
+        "line": 39,
+        "context": "2 800"
+      },
+      {
+        "type": "number",
+        "raw": "2 100",
+        "normalized": "2100",
+        "line": 40,
+        "context": "2 100"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

@@ -146,6 +146,43 @@
     "expressions": [
       "6 290 * 2 * V"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 11,
+        "context": "deux points, par des voies ouvertes à la circulation routière des poids lourds de plus de 12 tonnes, relevées à partir"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 19,
+        "context": "On considère que le trafic réalisé par le wagon sur 6 mois consécutifs au maximum est maintenu en moyenne sur la"
+      },
+      {
+        "type": "number",
+        "raw": "6 290",
+        "normalized": "6290",
+        "line": 25,
+        "context": "6 290 * 2 * V"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 25,
+        "context": "6 290 * 2 * V"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 29,
+        "context": "On considère que le trafic réalisé par le wagon sur 6 mois consécutifs au maximum est maintenu en moyenne sur la"
+      }
+    ],
     "calculation_methods": [
       "direct_expression"
     ],

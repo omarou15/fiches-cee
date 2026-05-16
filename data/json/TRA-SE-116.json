@@ -198,6 +198,169 @@
     "formula_section_page_end": 4,
     "unit": "Montant en kWh cumac par t.km Durée du contrat",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "5.1",
+        "normalized": "5.1",
+        "line": 1,
+        "context": "5.1 Pour les flux de marchandises existants (et précédemment transportées par route) :"
+      },
+      {
+        "type": "number",
+        "raw": "0,190",
+        "normalized": "0.190",
+        "line": 14,
+        "context": "0,190"
+      },
+      {
+        "type": "number",
+        "raw": "5.2",
+        "normalized": "5.2",
+        "line": 20,
+        "context": "5.2 Pour les nouveaux flux de marchandises :"
+      },
+      {
+        "type": "number",
+        "raw": "2007",
+        "normalized": "2007",
+        "line": 25,
+        "context": "2007 (niveau 1)"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 25,
+        "context": "2007 (niveau 1)"
+      },
+      {
+        "type": "number",
+        "raw": "01",
+        "normalized": "01",
+        "line": 37,
+        "context": "01, 03, 04, 09"
+      },
+      {
+        "type": "number",
+        "raw": "03",
+        "normalized": "03",
+        "line": 37,
+        "context": "01, 03, 04, 09"
+      },
+      {
+        "type": "number",
+        "raw": "04",
+        "normalized": "04",
+        "line": 37,
+        "context": "01, 03, 04, 09"
+      },
+      {
+        "type": "number",
+        "raw": "09",
+        "normalized": "09",
+        "line": 37,
+        "context": "01, 03, 04, 09"
+      },
+      {
+        "type": "number",
+        "raw": "0,172",
+        "normalized": "0.172",
+        "line": 38,
+        "context": "0,172"
+      },
+      {
+        "type": "number",
+        "raw": "07",
+        "normalized": "07",
+        "line": 43,
+        "context": "07, 08, 12"
+      },
+      {
+        "type": "number",
+        "raw": "08",
+        "normalized": "08",
+        "line": 43,
+        "context": "07, 08, 12"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 43,
+        "context": "07, 08, 12"
+      },
+      {
+        "type": "number",
+        "raw": "0,142",
+        "normalized": "0.142",
+        "line": 44,
+        "context": "0,142"
+      },
+      {
+        "type": "number",
+        "raw": "0,105",
+        "normalized": "0.105",
+        "line": 50,
+        "context": "0,105"
+      },
+      {
+        "type": "number",
+        "raw": "2007",
+        "normalized": "2007",
+        "line": 67,
+        "context": "*Les catégories du système de la NST 2007 susmentionnées sont les suivantes :"
+      },
+      {
+        "type": "number",
+        "raw": "01",
+        "normalized": "01",
+        "line": 68,
+        "context": "01 : Produits de l’agriculture, de la chasse et de la forêt ; poissons et autres produits de la pêche."
+      },
+      {
+        "type": "number",
+        "raw": "03",
+        "normalized": "03",
+        "line": 70,
+        "context": "03 : Minerais métalliques et autres produits d’extraction ; tourbe ; minerais d’uranium et de thorium."
+      },
+      {
+        "type": "number",
+        "raw": "04",
+        "normalized": "04",
+        "line": 71,
+        "context": "04 : Produits alimentaires, boissons et tabac."
+      },
+      {
+        "type": "number",
+        "raw": "07",
+        "normalized": "07",
+        "line": 72,
+        "context": "07 : Coke et produits pétroliers raffinés."
+      },
+      {
+        "type": "number",
+        "raw": "08",
+        "normalized": "08",
+        "line": 73,
+        "context": "08 : Produits chimiques et fibres synthétiques ; produits en caoutchouc ou en plastique ; produits des industries"
+      },
+      {
+        "type": "number",
+        "raw": "09",
+        "normalized": "09",
+        "line": 75,
+        "context": "09 : Autres produits minéraux non métalliques."
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 76,
+        "context": "12 : Matériel de tranport."
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

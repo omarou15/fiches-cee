@@ -127,6 +127,176 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac selon l’usage",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 8,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 9,
+        "context": "400"
+      },
+      {
+        "type": "number",
+        "raw": "620",
+        "normalized": "620",
+        "line": 10,
+        "context": "620"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 11,
+        "context": "90"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 12,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "340",
+        "normalized": "340",
+        "line": 13,
+        "context": "340"
+      },
+      {
+        "type": "number",
+        "raw": "510",
+        "normalized": "510",
+        "line": 14,
+        "context": "510"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 15,
+        "context": "90"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 16,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 17,
+        "context": "250"
+      },
+      {
+        "type": "number",
+        "raw": "380",
+        "normalized": "380",
+        "line": 18,
+        "context": "380"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 19,
+        "context": "90"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 27,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "160",
+        "normalized": "160",
+        "line": 28,
+        "context": "160"
+      },
+      {
+        "type": "number",
+        "raw": "340",
+        "normalized": "340",
+        "line": 29,
+        "context": "340"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 30,
+        "context": "60"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 31,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "140",
+        "normalized": "140",
+        "line": 32,
+        "context": "140"
+      },
+      {
+        "type": "number",
+        "raw": "290",
+        "normalized": "290",
+        "line": 33,
+        "context": "290"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 34,
+        "context": "60"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 35,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "110",
+        "normalized": "110",
+        "line": 36,
+        "context": "110"
+      },
+      {
+        "type": "number",
+        "raw": "220",
+        "normalized": "220",
+        "line": 37,
+        "context": "220"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 38,
+        "context": "60"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Residentiel_BAR/BAR-SE-106 vA32-1.pdf",

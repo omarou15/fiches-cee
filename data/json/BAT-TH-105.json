@@ -152,6 +152,92 @@
     "formula_section_page_end": 1,
     "unit": "Montant en kWh cumac par m2 de surface de bâtiment chauffée par les radiateurs",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 15,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "56",
+        "normalized": "56",
+        "line": 16,
+        "context": "56"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 21,
+        "context": "1,2"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 22,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "46",
+        "normalized": "46",
+        "line": 23,
+        "context": "46"
+      },
+      {
+        "type": "number",
+        "raw": "0,8",
+        "normalized": "0.8",
+        "line": 27,
+        "context": "0,8"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 28,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "31",
+        "normalized": "31",
+        "line": 29,
+        "context": "31"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 33,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 40,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "1,3",
+        "normalized": "1.3",
+        "line": 48,
+        "context": "1,3"
+      },
+      {
+        "type": "number",
+        "raw": "0,8",
+        "normalized": "0.8",
+        "line": 55,
+        "context": "0,8"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

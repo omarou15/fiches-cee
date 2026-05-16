@@ -144,6 +144,92 @@
     "formula_section_page_end": 1,
     "unit": "Montant en kWh cumac par radiateur installé",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 14,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1700",
+        "normalized": "1700",
+        "line": 15,
+        "context": "1700"
+      },
+      {
+        "type": "number",
+        "raw": "1100",
+        "normalized": "1100",
+        "line": 16,
+        "context": "1100"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 17,
+        "context": "1000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 20,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "1400",
+        "normalized": "1400",
+        "line": 21,
+        "context": "1400"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 22,
+        "context": "880"
+      },
+      {
+        "type": "number",
+        "raw": "850",
+        "normalized": "850",
+        "line": 23,
+        "context": "850"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 24,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "910",
+        "normalized": "910",
+        "line": 25,
+        "context": "910"
+      },
+      {
+        "type": "number",
+        "raw": "590",
+        "normalized": "590",
+        "line": 26,
+        "context": "590"
+      },
+      {
+        "type": "number",
+        "raw": "560",
+        "normalized": "560",
+        "line": 27,
+        "context": "560"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

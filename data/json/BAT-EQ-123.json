@@ -168,6 +168,43 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "13 700",
+        "normalized": "13700",
+        "line": 9,
+        "context": "13 700"
+      },
+      {
+        "type": "number",
+        "raw": "16 300",
+        "normalized": "16300",
+        "line": 13,
+        "context": "16 300"
+      },
+      {
+        "type": "number",
+        "raw": "8 000",
+        "normalized": "8000",
+        "line": 15,
+        "context": "8 000"
+      },
+      {
+        "type": "number",
+        "raw": "2 000",
+        "normalized": "2000",
+        "line": 17,
+        "context": "2 000"
+      },
+      {
+        "type": "number",
+        "raw": "2 000",
+        "normalized": "2000",
+        "line": 19,
+        "context": "2 000"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

@@ -428,6 +428,463 @@
     "formula_section_page_end": 5,
     "unit": "Montant en kWh cumac par m²",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 1,
+        "context": "Pour une PAC de puissance thermique nominale ≤ 400 kW :"
+      },
+      {
+        "type": "number",
+        "raw": "111%",
+        "normalized": "111%",
+        "line": 28,
+        "context": "111% ≤ Etas <"
+      },
+      {
+        "type": "number",
+        "raw": "126%",
+        "normalized": "126%",
+        "line": 29,
+        "context": "126%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 30,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1100",
+        "normalized": "1100",
+        "line": 31,
+        "context": "1100"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 37,
+        "context": "0,7"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 40,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "900",
+        "normalized": "900",
+        "line": 41,
+        "context": "900"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 43,
+        "context": "1,1"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 44,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "600",
+        "normalized": "600",
+        "line": 45,
+        "context": "600"
+      },
+      {
+        "type": "number",
+        "raw": "0,8",
+        "normalized": "0.8",
+        "line": 47,
+        "context": "0,8"
+      },
+      {
+        "type": "number",
+        "raw": "126%",
+        "normalized": "126%",
+        "line": 48,
+        "context": "126% ≤ Etas <"
+      },
+      {
+        "type": "number",
+        "raw": "175%",
+        "normalized": "175%",
+        "line": 49,
+        "context": "175%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 50,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1200",
+        "normalized": "1200",
+        "line": 51,
+        "context": "1200"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 53,
+        "context": "1,2"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 54,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 55,
+        "context": "1000"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 57,
+        "context": "0,9"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 58,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "700",
+        "normalized": "700",
+        "line": 59,
+        "context": "700"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 61,
+        "context": "0,7"
+      },
+      {
+        "type": "number",
+        "raw": "175%",
+        "normalized": "175%",
+        "line": 62,
+        "context": "175% ≤ Etas"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 63,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1300",
+        "normalized": "1300",
+        "line": 64,
+        "context": "1300"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 67,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 68,
+        "context": "1000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 71,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "700",
+        "normalized": "700",
+        "line": 72,
+        "context": "700"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 76,
+        "context": "Pour une PAC de puissance thermique nominale > 400 kW :"
+      },
+      {
+        "type": "number",
+        "raw": "14511",
+        "normalized": "14511",
+        "line": 80,
+        "context": "(COP – EN 14511-"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 81,
+        "context": "2"
+      },
+      {
+        "type": "number",
+        "raw": "3,4",
+        "normalized": "3.4",
+        "line": 104,
+        "context": "3,4 ≤ COP < 4,5"
+      },
+      {
+        "type": "number",
+        "raw": "4,5",
+        "normalized": "4.5",
+        "line": 104,
+        "context": "3,4 ≤ COP < 4,5"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 105,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1100",
+        "normalized": "1100",
+        "line": 106,
+        "context": "1100"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 112,
+        "context": "0,7"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 115,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "900",
+        "normalized": "900",
+        "line": 116,
+        "context": "900"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 118,
+        "context": "1,1"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 119,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "600",
+        "normalized": "600",
+        "line": 120,
+        "context": "600"
+      },
+      {
+        "type": "number",
+        "raw": "0,8",
+        "normalized": "0.8",
+        "line": 122,
+        "context": "0,8"
+      },
+      {
+        "type": "number",
+        "raw": "4,5",
+        "normalized": "4.5",
+        "line": 123,
+        "context": "4,5 ≤ COP"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 124,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1200",
+        "normalized": "1200",
+        "line": 125,
+        "context": "1200"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 127,
+        "context": "1,2"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 128,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 129,
+        "context": "1000"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 131,
+        "context": "0,9"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 132,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "700",
+        "normalized": "700",
+        "line": 133,
+        "context": "700"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 135,
+        "context": "0,7"
+      },
+      {
+        "type": "number",
+        "raw": "40 %",
+        "normalized": "40%",
+        "line": 144,
+        "context": "l’installation de plusieurs PAC identiques ou différentes) est strictement inférieure à 40 % de la puissance utile de"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 157,
+        "context": "- pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique nominale selon le"
+      },
+      {
+        "type": "number",
+        "raw": "813",
+        "normalized": "813",
+        "line": 158,
+        "context": "règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques moyennes définies"
+      },
+      {
+        "type": "number",
+        "raw": "2013",
+        "normalized": "2013",
+        "line": 158,
+        "context": "règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques moyennes définies"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 158,
+        "context": "règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques moyennes définies"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 159,
+        "context": "par le règlement susmentionné (soit Prated à la température de conception de référence de -10°C) déterminée selon"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 161,
+        "context": "- pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance mesurée aux conditions de"
+      },
+      {
+        "type": "number",
+        "raw": "14511",
+        "normalized": "14511",
+        "line": 162,
+        "context": "performance nominale de la norme EN 14511-2, au régime de température d’air à +7°C et pour une température à"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 162,
+        "context": "performance nominale de la norme EN 14511-2, au régime de température d’air à +7°C et pour une température à"
+      },
+      {
+        "type": "number",
+        "raw": "7",
+        "normalized": "7",
+        "line": 162,
+        "context": "performance nominale de la norme EN 14511-2, au régime de température d’air à +7°C et pour une température à"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 166,
+        "context": "nominale ≤ 400 kW et > 400 kW), de classes d'efficacité énergétique saisonnière (Etas) ou de classes de coefficient"
+      }
+    ],
     "calculation_methods": [
       "structured_amount_table",
       "table_amount_times_variables",

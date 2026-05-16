@@ -353,6 +353,162 @@
     "formula_section_page_end": 4,
     "unit": "Montant unitaire en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 10,
+        "context": "2"
+      },
+      {
+        "type": "number",
+        "raw": "360 200",
+        "normalized": "360200",
+        "line": 11,
+        "context": "360 200"
+      },
+      {
+        "type": "number",
+        "raw": "0,4",
+        "normalized": "0.4",
+        "line": 13,
+        "context": "0,4"
+      },
+      {
+        "type": "number",
+        "raw": "35",
+        "normalized": "35",
+        "line": 14,
+        "context": "Shab < 35"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 15,
+        "context": "3"
+      },
+      {
+        "type": "number",
+        "raw": "447 900",
+        "normalized": "447900",
+        "line": 16,
+        "context": "447 900"
+      },
+      {
+        "type": "number",
+        "raw": "0,5",
+        "normalized": "0.5",
+        "line": 18,
+        "context": "0,5"
+      },
+      {
+        "type": "number",
+        "raw": "35",
+        "normalized": "35",
+        "line": 19,
+        "context": "35 ≤ Shab < 60"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 19,
+        "context": "35 ≤ Shab < 60"
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 20,
+        "context": "4 ou plus"
+      },
+      {
+        "type": "number",
+        "raw": "568 600",
+        "normalized": "568600",
+        "line": 21,
+        "context": "568 600"
+      },
+      {
+        "type": "number",
+        "raw": "0,8",
+        "normalized": "0.8",
+        "line": 23,
+        "context": "0,8"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 24,
+        "context": "60 ≤ Shab < 90"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 24,
+        "context": "60 ≤ Shab < 90"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 28,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 29,
+        "context": "90 ≤ Shab < 110"
+      },
+      {
+        "type": "number",
+        "raw": "110",
+        "normalized": "110",
+        "line": 29,
+        "context": "90 ≤ Shab < 110"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 33,
+        "context": "1,2"
+      },
+      {
+        "type": "number",
+        "raw": "110",
+        "normalized": "110",
+        "line": 34,
+        "context": "110 ≤ Shab ≤ 130"
+      },
+      {
+        "type": "number",
+        "raw": "130",
+        "normalized": "130",
+        "line": 34,
+        "context": "110 ≤ Shab ≤ 130"
+      },
+      {
+        "type": "number",
+        "raw": "1,3",
+        "normalized": "1.3",
+        "line": 38,
+        "context": "1,3"
+      },
+      {
+        "type": "number",
+        "raw": "130",
+        "normalized": "130",
+        "line": 39,
+        "context": "130 < Shab"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

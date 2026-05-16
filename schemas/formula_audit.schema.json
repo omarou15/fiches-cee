@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/schemas/formula_audit.schema.json",
+  "title": "Audit des formules de calcul CEE",
+  "type": "object",
+  "required": ["generated_at", "scope", "source_index", "summary", "items"],
+  "properties": {
+    "generated_at": { "type": "string", "format": "date-time" },
+    "scope": { "type": "string", "const": "unique_fiche_main_pdf_formula_sections" },
+    "source_index": { "type": "string", "const": "index_fiches_uniques.csv" },
+    "summary": {
+      "type": "object",
+      "required": [
+        "total_unique_fiches",
+        "pdf_checked",
+        "ok",
+        "known_missing_source",
+        "needs_review",
+        "failed",
+        "section5_found",
+        "section5_missing",
+        "total_source_values",
+        "total_json_values",
+        "total_missing_values"
+      ],
+      "properties": {
+        "total_unique_fiches": { "type": "integer", "minimum": 0 },
+        "pdf_checked": { "type": "integer", "minimum": 0 },
+        "ok": { "type": "integer", "minimum": 0 },
+        "known_missing_source": { "type": "integer", "minimum": 0 },
+        "needs_review": { "type": "integer", "minimum": 0 },
+        "failed": { "type": "integer", "minimum": 0 },
+        "section5_found": { "type": "integer", "minimum": 0 },
+        "section5_missing": { "type": "integer", "minimum": 0 },
+        "total_source_values": { "type": "integer", "minimum": 0 },
+        "total_json_values": { "type": "integer", "minimum": 0 },
+        "total_missing_values": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "sector",
+          "source_file",
+          "page_count",
+          "section5_found",
+          "formula_status",
+          "source_value_count",
+          "json_value_count",
+          "missing_value_count",
+          "status",
+          "warnings",
+          "error"
+        ],
+        "properties": {
+          "code": { "type": "string" },
+          "sector": { "type": "string" },
+          "source_file": { "type": "string" },
+          "source_url": { "type": ["string", "null"] },
+          "page_count": { "type": "integer", "minimum": 0 },
+          "section5_found": { "type": "boolean" },
+          "section5_page_start": { "type": ["integer", "null"] },
+          "section5_page_end": { "type": ["integer", "null"] },
+          "formula_status": { "type": ["string", "null"] },
+          "formula_text": { "type": ["string", "null"] },
+          "source_value_count": { "type": "integer", "minimum": 0 },
+          "json_value_count": { "type": "integer", "minimum": 0 },
+          "missing_value_count": { "type": "integer", "minimum": 0 },
+          "known_missing_reason": { "type": ["string", "null"] },
+          "status": {
+            "type": "string",
+            "enum": ["ok", "known_missing_source", "needs_review", "failed"]
+          },
+          "warnings": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "error": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -216,6 +216,274 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWhc/m² Surface totale",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 1,
+        "context": "Cas d’une PAC de puissance calorifique nominale inférieure ou égale à 12 kW :"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 13,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "860",
+        "normalized": "860",
+        "line": 14,
+        "context": "860"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 18,
+        "context": "0,7"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 19,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "760",
+        "normalized": "760",
+        "line": 20,
+        "context": "760"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 23,
+        "context": "1,1"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 24,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "620",
+        "normalized": "620",
+        "line": 25,
+        "context": "620"
+      },
+      {
+        "type": "number",
+        "raw": "0,8",
+        "normalized": "0.8",
+        "line": 27,
+        "context": "0,8"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 29,
+        "context": "1,2"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 31,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 33,
+        "context": "0,7"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 35,
+        "context": "Cas d’une PAC de puissance calorifique nominale supérieure à 12 kW :"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 47,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "870",
+        "normalized": "870",
+        "line": 48,
+        "context": "870"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 52,
+        "context": "0,7"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 53,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "770",
+        "normalized": "770",
+        "line": 54,
+        "context": "770"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 57,
+        "context": "1,1"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 58,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "630",
+        "normalized": "630",
+        "line": 59,
+        "context": "630"
+      },
+      {
+        "type": "number",
+        "raw": "0,8",
+        "normalized": "0.8",
+        "line": 61,
+        "context": "0,8"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 63,
+        "context": "1,2"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 65,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 68,
+        "context": "0,7"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 81,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "660",
+        "normalized": "660",
+        "line": 82,
+        "context": "660"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 86,
+        "context": "0,7"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 87,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "540",
+        "normalized": "540",
+        "line": 88,
+        "context": "540"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 91,
+        "context": "1,1"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 92,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "360",
+        "normalized": "360",
+        "line": 93,
+        "context": "360"
+      },
+      {
+        "type": "number",
+        "raw": "0,8",
+        "normalized": "0.8",
+        "line": 95,
+        "context": "0,8"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 97,
+        "context": "1,2"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 99,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 101,
+        "context": "0,7"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

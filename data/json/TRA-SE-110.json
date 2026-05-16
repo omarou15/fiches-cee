@@ -152,6 +152,22 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par ensemble Nombre d’ensembles articulés",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "3 900",
+        "normalized": "3900",
+        "line": 10,
+        "context": "3 900"
+      },
+      {
+        "type": "number",
+        "raw": "1 400",
+        "normalized": "1400",
+        "line": 24,
+        "context": "1 400"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

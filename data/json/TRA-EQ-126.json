@@ -165,6 +165,64 @@
       "40,809 x R x Wi",
       "29,212 x R x Wi"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "147,567",
+        "normalized": "147.567",
+        "line": 8,
+        "context": "147,567 x R x Wi"
+      },
+      {
+        "type": "number",
+        "raw": "103,285",
+        "normalized": "103.285",
+        "line": 10,
+        "context": "103,285 x R x Wi"
+      },
+      {
+        "type": "number",
+        "raw": "71,655",
+        "normalized": "71.655",
+        "line": 13,
+        "context": "71,655 x R x Wi"
+      },
+      {
+        "type": "number",
+        "raw": "54,024",
+        "normalized": "54.024",
+        "line": 22,
+        "context": "54,024 x R x Wi"
+      },
+      {
+        "type": "number",
+        "raw": "40,809",
+        "normalized": "40.809",
+        "line": 24,
+        "context": "40,809 x R x Wi"
+      },
+      {
+        "type": "number",
+        "raw": "29,212",
+        "normalized": "29.212",
+        "line": 27,
+        "context": "29,212 x R x Wi"
+      },
+      {
+        "type": "number",
+        "raw": "275",
+        "normalized": "275",
+        "line": 31,
+        "context": "la période d’utilisation du bateau, R, est plafonné à 275 heures."
+      },
+      {
+        "type": "number",
+        "raw": "0,7355",
+        "normalized": "0.7355",
+        "line": 37,
+        "context": "de multiplier cette puissance par 0,7355 et arrondir à l’unité."
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

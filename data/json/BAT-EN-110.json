@@ -168,6 +168,71 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par m2 de surface de baie protégée",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "0,25",
+        "normalized": "0.25",
+        "line": 18,
+        "context": "0,25 < FS ≤ 0,4"
+      },
+      {
+        "type": "number",
+        "raw": "0,4",
+        "normalized": "0.4",
+        "line": 18,
+        "context": "0,25 < FS ≤ 0,4"
+      },
+      {
+        "type": "number",
+        "raw": "1 100",
+        "normalized": "1100",
+        "line": 19,
+        "context": "1 100"
+      },
+      {
+        "type": "number",
+        "raw": "330",
+        "normalized": "330",
+        "line": 20,
+        "context": "330"
+      },
+      {
+        "type": "number",
+        "raw": "760",
+        "normalized": "760",
+        "line": 21,
+        "context": "760"
+      },
+      {
+        "type": "number",
+        "raw": "0,25",
+        "normalized": "0.25",
+        "line": 24,
+        "context": "FS ≤ 0,25"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 25,
+        "context": "1 600"
+      },
+      {
+        "type": "number",
+        "raw": "640",
+        "normalized": "640",
+        "line": 26,
+        "context": "640"
+      },
+      {
+        "type": "number",
+        "raw": "1 100",
+        "normalized": "1100",
+        "line": 27,
+        "context": "1 100"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

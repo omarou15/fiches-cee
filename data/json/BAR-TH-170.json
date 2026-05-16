@@ -176,6 +176,15 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac par kW de puissance électrique de l’installation",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "82 300",
+        "normalized": "82300",
+        "line": 7,
+        "context": "82 300"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

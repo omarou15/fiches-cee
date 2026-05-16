@@ -156,6 +156,211 @@
       "3x8 avec arrêt le",
       "3x8 sans arrêt le"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 35,
+        "context": "[12°C;15°C["
+      },
+      {
+        "type": "number",
+        "raw": "15",
+        "normalized": "15",
+        "line": 35,
+        "context": "[12°C;15°C["
+      },
+      {
+        "type": "number",
+        "raw": "15",
+        "normalized": "15",
+        "line": 36,
+        "context": "[15°C;18°C["
+      },
+      {
+        "type": "number",
+        "raw": "18",
+        "normalized": "18",
+        "line": 36,
+        "context": "[15°C;18°C["
+      },
+      {
+        "type": "number",
+        "raw": "18",
+        "normalized": "18",
+        "line": 37,
+        "context": "[18°C;21°C]"
+      },
+      {
+        "type": "number",
+        "raw": "21",
+        "normalized": "21",
+        "line": 37,
+        "context": "[18°C;21°C]"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 38,
+        "context": "1x8"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 39,
+        "context": "1"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 42,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "7 400",
+        "normalized": "7400",
+        "line": 43,
+        "context": "7 400"
+      },
+      {
+        "type": "number",
+        "raw": "9 900",
+        "normalized": "9900",
+        "line": 44,
+        "context": "9 900"
+      },
+      {
+        "type": "number",
+        "raw": "12 300",
+        "normalized": "12300",
+        "line": 45,
+        "context": "12 300"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 46,
+        "context": "2x8"
+      },
+      {
+        "type": "number",
+        "raw": "5",
+        "normalized": "5",
+        "line": 47,
+        "context": "5j/7 ou 6j/7"
+      },
+      {
+        "type": "number",
+        "raw": "7",
+        "normalized": "7",
+        "line": 47,
+        "context": "5j/7 ou 6j/7"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 47,
+        "context": "5j/7 ou 6j/7"
+      },
+      {
+        "type": "number",
+        "raw": "2,2",
+        "normalized": "2.2",
+        "line": 48,
+        "context": "2,2"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 49,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "4 900",
+        "normalized": "4900",
+        "line": 50,
+        "context": "4 900"
+      },
+      {
+        "type": "number",
+        "raw": "8 200",
+        "normalized": "8200",
+        "line": 51,
+        "context": "8 200"
+      },
+      {
+        "type": "number",
+        "raw": "11 500",
+        "normalized": "11500",
+        "line": 52,
+        "context": "11 500"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 53,
+        "context": "3x8 avec arrêt le"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 55,
+        "context": "3"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 56,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "3 300",
+        "normalized": "3300",
+        "line": 57,
+        "context": "3 300"
+      },
+      {
+        "type": "number",
+        "raw": "5 800",
+        "normalized": "5800",
+        "line": 58,
+        "context": "5 800"
+      },
+      {
+        "type": "number",
+        "raw": "9 000",
+        "normalized": "9000",
+        "line": 59,
+        "context": "9 000"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 60,
+        "context": "3x8 sans arrêt le"
+      },
+      {
+        "type": "number",
+        "raw": "4,2",
+        "normalized": "4.2",
+        "line": 62,
+        "context": "4,2"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables",

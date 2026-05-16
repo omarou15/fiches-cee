@@ -272,6 +272,22 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac par luminaire remplacé ou rééquipé Nombre de luminaires",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "4 000",
+        "normalized": "4000",
+        "line": 8,
+        "context": "4 000"
+      },
+      {
+        "type": "number",
+        "raw": "5 600",
+        "normalized": "5600",
+        "line": 19,
+        "context": "5 600"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

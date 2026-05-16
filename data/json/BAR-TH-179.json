@@ -456,6 +456,533 @@
     "formula_section_page_end": 4,
     "unit": "kWh cumac par appartement",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "111%",
+        "normalized": "111%",
+        "line": 21,
+        "context": "111% ≤ Etas < 126%"
+      },
+      {
+        "type": "number",
+        "raw": "126%",
+        "normalized": "126%",
+        "line": 21,
+        "context": "111% ≤ Etas < 126%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 23,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "100 000",
+        "normalized": "100000",
+        "line": 24,
+        "context": "100 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 29,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "84 000",
+        "normalized": "84000",
+        "line": 30,
+        "context": "84 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 31,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "60 000",
+        "normalized": "60000",
+        "line": 32,
+        "context": "60 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 35,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "146 000",
+        "normalized": "146000",
+        "line": 36,
+        "context": "146 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 37,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "127 000",
+        "normalized": "127000",
+        "line": 38,
+        "context": "127 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 39,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "100 000",
+        "normalized": "100000",
+        "line": 40,
+        "context": "100 000"
+      },
+      {
+        "type": "number",
+        "raw": "126%",
+        "normalized": "126%",
+        "line": 41,
+        "context": "126% ≤ Etas < 150%"
+      },
+      {
+        "type": "number",
+        "raw": "150%",
+        "normalized": "150%",
+        "line": 41,
+        "context": "126% ≤ Etas < 150%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 43,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "107 000",
+        "normalized": "107000",
+        "line": 44,
+        "context": "107 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 45,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "89 000",
+        "normalized": "89000",
+        "line": 46,
+        "context": "89 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 47,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "64 000",
+        "normalized": "64000",
+        "line": 48,
+        "context": "64 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 51,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "155 000",
+        "normalized": "155000",
+        "line": 52,
+        "context": "155 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 53,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "135 000",
+        "normalized": "135000",
+        "line": 54,
+        "context": "135 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 55,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "107 000",
+        "normalized": "107000",
+        "line": 56,
+        "context": "107 000"
+      },
+      {
+        "type": "number",
+        "raw": "150%",
+        "normalized": "150%",
+        "line": 57,
+        "context": "150% ≤ Etas < 175%"
+      },
+      {
+        "type": "number",
+        "raw": "175%",
+        "normalized": "175%",
+        "line": 57,
+        "context": "150% ≤ Etas < 175%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 59,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "112 000",
+        "normalized": "112000",
+        "line": 60,
+        "context": "112 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 61,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "93 000",
+        "normalized": "93000",
+        "line": 62,
+        "context": "93 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 63,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "67 000",
+        "normalized": "67000",
+        "line": 64,
+        "context": "67 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 65,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "163 000",
+        "normalized": "163000",
+        "line": 66,
+        "context": "163 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 70,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "142 000",
+        "normalized": "142000",
+        "line": 71,
+        "context": "142 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 72,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "112 000",
+        "normalized": "112000",
+        "line": 73,
+        "context": "112 000"
+      },
+      {
+        "type": "number",
+        "raw": "175%",
+        "normalized": "175%",
+        "line": 74,
+        "context": "175% ≤ Etas < 190%"
+      },
+      {
+        "type": "number",
+        "raw": "190%",
+        "normalized": "190%",
+        "line": 74,
+        "context": "175% ≤ Etas < 190%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 76,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "115 000",
+        "normalized": "115000",
+        "line": 77,
+        "context": "115 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 78,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "96 000",
+        "normalized": "96000",
+        "line": 79,
+        "context": "96 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 80,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "69 000",
+        "normalized": "69000",
+        "line": 81,
+        "context": "69 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 84,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "167 000",
+        "normalized": "167000",
+        "line": 85,
+        "context": "167 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 86,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "146 000",
+        "normalized": "146000",
+        "line": 87,
+        "context": "146 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 88,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "115 000",
+        "normalized": "115000",
+        "line": 89,
+        "context": "115 000"
+      },
+      {
+        "type": "number",
+        "raw": "190%",
+        "normalized": "190%",
+        "line": 90,
+        "context": "190% ≤ Etas"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 92,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "117 000",
+        "normalized": "117000",
+        "line": 93,
+        "context": "117 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 94,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "97 000",
+        "normalized": "97000",
+        "line": 95,
+        "context": "97 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 96,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "70 000",
+        "normalized": "70000",
+        "line": 97,
+        "context": "70 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 100,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "170 000",
+        "normalized": "170000",
+        "line": 101,
+        "context": "170 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 102,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "148 000",
+        "normalized": "148000",
+        "line": 103,
+        "context": "148 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 104,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "117 000",
+        "normalized": "117000",
+        "line": 105,
+        "context": "117 000"
+      },
+      {
+        "type": "number",
+        "raw": "40 %",
+        "normalized": "40%",
+        "line": 113,
+        "context": "l’installation de plusieurs PAC identiques ou différentes) est strictement inférieure à 40 % de la puissance utile de"
+      },
+      {
+        "type": "number",
+        "raw": "813",
+        "normalized": "813",
+        "line": 120,
+        "context": "On entend par puissance thermique nominale la puissance thermique nominale selon le règlement (EU) n° 813/2013"
+      },
+      {
+        "type": "number",
+        "raw": "2013",
+        "normalized": "2013",
+        "line": 120,
+        "context": "On entend par puissance thermique nominale la puissance thermique nominale selon le règlement (EU) n° 813/2013"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 121,
+        "context": "de la commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné"
+      },
+      {
+        "type": "number",
+        "raw": "2013",
+        "normalized": "2013",
+        "line": 121,
+        "context": "de la commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 122,
+        "context": "(soit Prated à la température de conception de référence de -10°C) déterminée selon l’application de la PAC"
+      }
+    ],
     "calculation_methods": [
       "structured_amount_table",
       "table_amount_times_variables"

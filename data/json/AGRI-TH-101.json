@@ -127,6 +127,15 @@
     "formula_section_page_end": 1,
     "unit": "Montant unitaire en kWh cumac par m² Surface de serres chauffée",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "96",
+        "normalized": "96",
+        "line": 6,
+        "context": "96"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

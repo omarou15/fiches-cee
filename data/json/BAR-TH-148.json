@@ -176,6 +176,22 @@
     "formula_section_page_end": 2,
     "unit": "Montant unitaire en kWh cumac Maison individuelle",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "14 700",
+        "normalized": "14700",
+        "line": 5,
+        "context": "14 700"
+      },
+      {
+        "type": "number",
+        "raw": "11 800",
+        "normalized": "11800",
+        "line": 7,
+        "context": "11 800"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Residentiel_BAR/BAR-TH-148 vA78-4 à compter du 01-01-2026.pdf",

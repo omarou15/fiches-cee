@@ -135,6 +135,414 @@
     "formula_section_page_end": 2,
     "unit": "Le montant de certificats est calculé pour chaque portion de canalisation de diamètre nominal de la tuyauterie aller de diamètre DN et de longueur L, et selon la durée annuelle d’utilisation du réseau : Montant unitaire en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "32",
+        "normalized": "32",
+        "line": 24,
+        "context": "32"
+      },
+      {
+        "type": "number",
+        "raw": "3 200",
+        "normalized": "3200",
+        "line": 25,
+        "context": "3 200"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 27,
+        "context": "12 mois"
+      },
+      {
+        "type": "number",
+        "raw": "1,00",
+        "normalized": "1.00",
+        "line": 28,
+        "context": "1,00"
+      },
+      {
+        "type": "number",
+        "raw": "40",
+        "normalized": "40",
+        "line": 31,
+        "context": "40"
+      },
+      {
+        "type": "number",
+        "raw": "3 500",
+        "normalized": "3500",
+        "line": 32,
+        "context": "3 500"
+      },
+      {
+        "type": "number",
+        "raw": "11",
+        "normalized": "11",
+        "line": 34,
+        "context": "11 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,92",
+        "normalized": "0.92",
+        "line": 35,
+        "context": "0,92"
+      },
+      {
+        "type": "number",
+        "raw": "50",
+        "normalized": "50",
+        "line": 39,
+        "context": "50"
+      },
+      {
+        "type": "number",
+        "raw": "3 900",
+        "normalized": "3900",
+        "line": 40,
+        "context": "3 900"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 42,
+        "context": "10 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,83",
+        "normalized": "0.83",
+        "line": 43,
+        "context": "0,83"
+      },
+      {
+        "type": "number",
+        "raw": "65",
+        "normalized": "65",
+        "line": 45,
+        "context": "65"
+      },
+      {
+        "type": "number",
+        "raw": "4 500",
+        "normalized": "4500",
+        "line": 46,
+        "context": "4 500"
+      },
+      {
+        "type": "number",
+        "raw": "9",
+        "normalized": "9",
+        "line": 48,
+        "context": "9 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,75",
+        "normalized": "0.75",
+        "line": 49,
+        "context": "0,75"
+      },
+      {
+        "type": "number",
+        "raw": "80",
+        "normalized": "80",
+        "line": 52,
+        "context": "80"
+      },
+      {
+        "type": "number",
+        "raw": "5 000",
+        "normalized": "5000",
+        "line": 53,
+        "context": "5 000"
+      },
+      {
+        "type": "number",
+        "raw": "8",
+        "normalized": "8",
+        "line": 55,
+        "context": "8 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,67",
+        "normalized": "0.67",
+        "line": 56,
+        "context": "0,67"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 58,
+        "context": "100"
+      },
+      {
+        "type": "number",
+        "raw": "5 800",
+        "normalized": "5800",
+        "line": 59,
+        "context": "5 800"
+      },
+      {
+        "type": "number",
+        "raw": "7",
+        "normalized": "7",
+        "line": 61,
+        "context": "7 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,58",
+        "normalized": "0.58",
+        "line": 62,
+        "context": "0,58"
+      },
+      {
+        "type": "number",
+        "raw": "125",
+        "normalized": "125",
+        "line": 65,
+        "context": "125"
+      },
+      {
+        "type": "number",
+        "raw": "6 500",
+        "normalized": "6500",
+        "line": 66,
+        "context": "6 500"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 68,
+        "context": "6 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,50",
+        "normalized": "0.50",
+        "line": 69,
+        "context": "0,50"
+      },
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 72,
+        "context": "150"
+      },
+      {
+        "type": "number",
+        "raw": "7 200",
+        "normalized": "7200",
+        "line": 73,
+        "context": "7 200"
+      },
+      {
+        "type": "number",
+        "raw": "175",
+        "normalized": "175",
+        "line": 79,
+        "context": "175"
+      },
+      {
+        "type": "number",
+        "raw": "8 000",
+        "normalized": "8000",
+        "line": 80,
+        "context": "8 000"
+      },
+      {
+        "type": "number",
+        "raw": "200",
+        "normalized": "200",
+        "line": 86,
+        "context": "200"
+      },
+      {
+        "type": "number",
+        "raw": "8 700",
+        "normalized": "8700",
+        "line": 87,
+        "context": "8 700"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 93,
+        "context": "250"
+      },
+      {
+        "type": "number",
+        "raw": "10 000",
+        "normalized": "10000",
+        "line": 94,
+        "context": "10 000"
+      },
+      {
+        "type": "number",
+        "raw": "300",
+        "normalized": "300",
+        "line": 100,
+        "context": "300"
+      },
+      {
+        "type": "number",
+        "raw": "11 300",
+        "normalized": "11300",
+        "line": 101,
+        "context": "11 300"
+      },
+      {
+        "type": "number",
+        "raw": "350",
+        "normalized": "350",
+        "line": 107,
+        "context": "350"
+      },
+      {
+        "type": "number",
+        "raw": "12 600",
+        "normalized": "12600",
+        "line": 108,
+        "context": "12 600"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 114,
+        "context": "400"
+      },
+      {
+        "type": "number",
+        "raw": "13 800",
+        "normalized": "13800",
+        "line": 115,
+        "context": "13 800"
+      },
+      {
+        "type": "number",
+        "raw": "450",
+        "normalized": "450",
+        "line": 121,
+        "context": "450"
+      },
+      {
+        "type": "number",
+        "raw": "14 900",
+        "normalized": "14900",
+        "line": 122,
+        "context": "14 900"
+      },
+      {
+        "type": "number",
+        "raw": "500",
+        "normalized": "500",
+        "line": 128,
+        "context": "500"
+      },
+      {
+        "type": "number",
+        "raw": "16 100",
+        "normalized": "16100",
+        "line": 129,
+        "context": "16 100"
+      },
+      {
+        "type": "number",
+        "raw": "550",
+        "normalized": "550",
+        "line": 135,
+        "context": "550"
+      },
+      {
+        "type": "number",
+        "raw": "17 300",
+        "normalized": "17300",
+        "line": 136,
+        "context": "17 300"
+      },
+      {
+        "type": "number",
+        "raw": "600",
+        "normalized": "600",
+        "line": 142,
+        "context": "600"
+      },
+      {
+        "type": "number",
+        "raw": "18 400",
+        "normalized": "18400",
+        "line": 143,
+        "context": "18 400"
+      },
+      {
+        "type": "number",
+        "raw": "700",
+        "normalized": "700",
+        "line": 149,
+        "context": "700"
+      },
+      {
+        "type": "number",
+        "raw": "20 700",
+        "normalized": "20700",
+        "line": 150,
+        "context": "20 700"
+      },
+      {
+        "type": "number",
+        "raw": "800",
+        "normalized": "800",
+        "line": 156,
+        "context": "800"
+      },
+      {
+        "type": "number",
+        "raw": "22 900",
+        "normalized": "22900",
+        "line": 157,
+        "context": "22 900"
+      },
+      {
+        "type": "number",
+        "raw": "900",
+        "normalized": "900",
+        "line": 163,
+        "context": "900"
+      },
+      {
+        "type": "number",
+        "raw": "25 300",
+        "normalized": "25300",
+        "line": 164,
+        "context": "25 300"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 170,
+        "context": "1000"
+      },
+      {
+        "type": "number",
+        "raw": "27 800",
+        "normalized": "27800",
+        "line": 171,
+        "context": "27 800"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

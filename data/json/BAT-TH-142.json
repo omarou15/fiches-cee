@@ -191,6 +191,71 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWhc par kW",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 14,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "3 900",
+        "normalized": "3900",
+        "line": 15,
+        "context": "3 900"
+      },
+      {
+        "type": "number",
+        "raw": "1 400",
+        "normalized": "1400",
+        "line": 16,
+        "context": "1 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 19,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "4 500",
+        "normalized": "4500",
+        "line": 20,
+        "context": "4 500"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 21,
+        "context": "1 600"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 22,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "4 600",
+        "normalized": "4600",
+        "line": 23,
+        "context": "4 600"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 24,
+        "context": "1 600"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

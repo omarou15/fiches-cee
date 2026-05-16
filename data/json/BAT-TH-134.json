@@ -168,6 +168,197 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par kW",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 16,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "2 000",
+        "normalized": "2000",
+        "line": 17,
+        "context": "2 000"
+      },
+      {
+        "type": "number",
+        "raw": "670",
+        "normalized": "670",
+        "line": 18,
+        "context": "670"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 20,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "1 800",
+        "normalized": "1800",
+        "line": 21,
+        "context": "1 800"
+      },
+      {
+        "type": "number",
+        "raw": "480",
+        "normalized": "480",
+        "line": 22,
+        "context": "480"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 23,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 24,
+        "context": "1 600"
+      },
+      {
+        "type": "number",
+        "raw": "290",
+        "normalized": "290",
+        "line": 25,
+        "context": "290"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 42,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "22 800",
+        "normalized": "22800",
+        "line": 43,
+        "context": "22 800"
+      },
+      {
+        "type": "number",
+        "raw": "14 500",
+        "normalized": "14500",
+        "line": 44,
+        "context": "14 500"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 46,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "20 500",
+        "normalized": "20500",
+        "line": 47,
+        "context": "20 500"
+      },
+      {
+        "type": "number",
+        "raw": "13 900",
+        "normalized": "13900",
+        "line": 48,
+        "context": "13 900"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 49,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "20 200",
+        "normalized": "20200",
+        "line": 50,
+        "context": "20 200"
+      },
+      {
+        "type": "number",
+        "raw": "11 300",
+        "normalized": "11300",
+        "line": 51,
+        "context": "11 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 68,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "19 100",
+        "normalized": "19100",
+        "line": 69,
+        "context": "19 100"
+      },
+      {
+        "type": "number",
+        "raw": "13 400",
+        "normalized": "13400",
+        "line": 70,
+        "context": "13 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 72,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "17 000",
+        "normalized": "17000",
+        "line": 73,
+        "context": "17 000"
+      },
+      {
+        "type": "number",
+        "raw": "12 800",
+        "normalized": "12800",
+        "line": 74,
+        "context": "12 800"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 75,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "16 400",
+        "normalized": "16400",
+        "line": 76,
+        "context": "16 400"
+      },
+      {
+        "type": "number",
+        "raw": "10 500",
+        "normalized": "10500",
+        "line": 77,
+        "context": "10 500"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

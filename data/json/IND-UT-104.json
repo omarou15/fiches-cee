@@ -156,6 +156,78 @@
       "3x8h avec arrêt le week-end",
       "3x8h sans arrêt le week-end"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 8,
+        "context": "1x8h"
+      },
+      {
+        "type": "number",
+        "raw": "330",
+        "normalized": "330",
+        "line": 9,
+        "context": "330"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 12,
+        "context": "2x8h"
+      },
+      {
+        "type": "number",
+        "raw": "720",
+        "normalized": "720",
+        "line": 13,
+        "context": "720"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 14,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "990",
+        "normalized": "990",
+        "line": 15,
+        "context": "990"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 16,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "1 400",
+        "normalized": "1400",
+        "line": 17,
+        "context": "1 400"
+      },
+      {
+        "type": "number",
+        "raw": "224",
+        "normalized": "224",
+        "line": 20,
+        "context": "indiquée sur un document issu du fabricant de la chaudière. Elle est définie par l’article R.224-20 du code de"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 20,
+        "context": "indiquée sur un document issu du fabricant de la chaudière. Elle est définie par l’article R.224-20 du code de"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

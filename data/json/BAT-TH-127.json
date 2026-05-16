@@ -135,6 +135,274 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par m² de surface chauffée",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 1,
+        "context": "Si la puissance souscrite est inférieure ou égale à 400 kW :"
+      },
+      {
+        "type": "number",
+        "raw": "480",
+        "normalized": "480",
+        "line": 23,
+        "context": "480"
+      },
+      {
+        "type": "number",
+        "raw": "510",
+        "normalized": "510",
+        "line": 24,
+        "context": "510"
+      },
+      {
+        "type": "number",
+        "raw": "310",
+        "normalized": "310",
+        "line": 31,
+        "context": "310"
+      },
+      {
+        "type": "number",
+        "raw": "360",
+        "normalized": "360",
+        "line": 32,
+        "context": "360"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 34,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 35,
+        "context": "1,1"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 39,
+        "context": "400"
+      },
+      {
+        "type": "number",
+        "raw": "540",
+        "normalized": "540",
+        "line": 40,
+        "context": "540"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 42,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 43,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "370",
+        "normalized": "370",
+        "line": 46,
+        "context": "370"
+      },
+      {
+        "type": "number",
+        "raw": "420",
+        "normalized": "420",
+        "line": 47,
+        "context": "420"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 49,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 50,
+        "context": "0,6"
+      },
+      {
+        "type": "number",
+        "raw": "540",
+        "normalized": "540",
+        "line": 53,
+        "context": "540"
+      },
+      {
+        "type": "number",
+        "raw": "680",
+        "normalized": "680",
+        "line": 54,
+        "context": "680"
+      },
+      {
+        "type": "number",
+        "raw": "310",
+        "normalized": "310",
+        "line": 61,
+        "context": "310"
+      },
+      {
+        "type": "number",
+        "raw": "330",
+        "normalized": "330",
+        "line": 62,
+        "context": "330"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 69,
+        "context": "Si la puissance souscrite est strictement supérieure à 400 kW :"
+      },
+      {
+        "type": "number",
+        "raw": "370",
+        "normalized": "370",
+        "line": 92,
+        "context": "370"
+      },
+      {
+        "type": "number",
+        "raw": "390",
+        "normalized": "390",
+        "line": 93,
+        "context": "390"
+      },
+      {
+        "type": "number",
+        "raw": "240",
+        "normalized": "240",
+        "line": 100,
+        "context": "240"
+      },
+      {
+        "type": "number",
+        "raw": "270",
+        "normalized": "270",
+        "line": 101,
+        "context": "270"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 103,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 104,
+        "context": "1,1"
+      },
+      {
+        "type": "number",
+        "raw": "310",
+        "normalized": "310",
+        "line": 108,
+        "context": "310"
+      },
+      {
+        "type": "number",
+        "raw": "410",
+        "normalized": "410",
+        "line": 109,
+        "context": "410"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 111,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 112,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "280",
+        "normalized": "280",
+        "line": 115,
+        "context": "280"
+      },
+      {
+        "type": "number",
+        "raw": "320",
+        "normalized": "320",
+        "line": 116,
+        "context": "320"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 118,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 119,
+        "context": "0,6"
+      },
+      {
+        "type": "number",
+        "raw": "410",
+        "normalized": "410",
+        "line": 122,
+        "context": "410"
+      },
+      {
+        "type": "number",
+        "raw": "520",
+        "normalized": "520",
+        "line": 123,
+        "context": "520"
+      },
+      {
+        "type": "number",
+        "raw": "240",
+        "normalized": "240",
+        "line": 130,
+        "context": "240"
+      },
+      {
+        "type": "number",
+        "raw": "260",
+        "normalized": "260",
+        "line": 131,
+        "context": "260"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

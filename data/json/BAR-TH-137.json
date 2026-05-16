@@ -135,6 +135,141 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par appartement X",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 10,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "47 700",
+        "normalized": "47700",
+        "line": 11,
+        "context": "47 700"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 13,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "39 500",
+        "normalized": "39500",
+        "line": 14,
+        "context": "39 500"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 15,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "30 800",
+        "normalized": "30800",
+        "line": 16,
+        "context": "30 800"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 26,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "48 300",
+        "normalized": "48300",
+        "line": 27,
+        "context": "48 300"
+      },
+      {
+        "type": "number",
+        "raw": "0,5",
+        "normalized": "0.5",
+        "line": 28,
+        "context": "0,5"
+      },
+      {
+        "type": "number",
+        "raw": "70",
+        "normalized": "70",
+        "line": 29,
+        "context": "S < 70"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 30,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "40 200",
+        "normalized": "40200",
+        "line": 31,
+        "context": "40 200"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 32,
+        "context": "0,7"
+      },
+      {
+        "type": "number",
+        "raw": "70",
+        "normalized": "70",
+        "line": 33,
+        "context": "70 ≤ S < 90"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 33,
+        "context": "70 ≤ S < 90"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 34,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "29 600",
+        "normalized": "29600",
+        "line": 35,
+        "context": "29 600"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 36,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 37,
+        "context": "90 ≤ S"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

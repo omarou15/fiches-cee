@@ -282,6 +282,85 @@
     "expressions": [
       "* Le nombre d’émetteurs équipés valorisables au titre de la présente fiche (N), est supérieur ou égal à 2 et strictement"
     ],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 9,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "3200",
+        "normalized": "3200",
+        "line": 10,
+        "context": "3200"
+      },
+      {
+        "type": "number",
+        "raw": "2500",
+        "normalized": "2500",
+        "line": 11,
+        "context": "2500"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 13,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "2600",
+        "normalized": "2600",
+        "line": 14,
+        "context": "2600"
+      },
+      {
+        "type": "number",
+        "raw": "2100",
+        "normalized": "2100",
+        "line": 15,
+        "context": "2100"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 16,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "1900",
+        "normalized": "1900",
+        "line": 17,
+        "context": "1900"
+      },
+      {
+        "type": "number",
+        "raw": "1500",
+        "normalized": "1500",
+        "line": 18,
+        "context": "1500"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 21,
+        "context": "* Le nombre d’émetteurs équipés valorisables au titre de la présente fiche (N), est supérieur ou égal à 2 et strictement"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 22,
+        "context": "inférieur à 10."
+      }
+    ],
     "calculation_methods": [
       "direct_expression"
     ],

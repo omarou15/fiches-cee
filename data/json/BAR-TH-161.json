@@ -297,6 +297,253 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWhcumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "50",
+        "normalized": "50",
+        "line": 10,
+        "context": "50°C ≤ Tfluide ≤ 120°C"
+      },
+      {
+        "type": "number",
+        "raw": "120",
+        "normalized": "120",
+        "line": 10,
+        "context": "50°C ≤ Tfluide ≤ 120°C"
+      },
+      {
+        "type": "number",
+        "raw": "120",
+        "normalized": "120",
+        "line": 14,
+        "context": "Tfluide > 120°C"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 20,
+        "context": "20 ≤ DN ≤ 65"
+      },
+      {
+        "type": "number",
+        "raw": "65",
+        "normalized": "65",
+        "line": 20,
+        "context": "20 ≤ DN ≤ 65"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 21,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "11 700",
+        "normalized": "11700",
+        "line": 22,
+        "context": "11 700"
+      },
+      {
+        "type": "number",
+        "raw": "12 900",
+        "normalized": "12900",
+        "line": 23,
+        "context": "12 900"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 26,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "10 500",
+        "normalized": "10500",
+        "line": 27,
+        "context": "10 500"
+      },
+      {
+        "type": "number",
+        "raw": "11 600",
+        "normalized": "11600",
+        "line": 28,
+        "context": "11 600"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 29,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "8 800",
+        "normalized": "8800",
+        "line": 30,
+        "context": "8 800"
+      },
+      {
+        "type": "number",
+        "raw": "9 700",
+        "normalized": "9700",
+        "line": 31,
+        "context": "9 700"
+      },
+      {
+        "type": "number",
+        "raw": "65",
+        "normalized": "65",
+        "line": 32,
+        "context": "65 < DN ≤ 100"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 32,
+        "context": "65 < DN ≤ 100"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 33,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "25 100",
+        "normalized": "25100",
+        "line": 34,
+        "context": "25 100"
+      },
+      {
+        "type": "number",
+        "raw": "27 800",
+        "normalized": "27800",
+        "line": 35,
+        "context": "27 800"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 36,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "22 700",
+        "normalized": "22700",
+        "line": 37,
+        "context": "22 700"
+      },
+      {
+        "type": "number",
+        "raw": "25 100",
+        "normalized": "25100",
+        "line": 38,
+        "context": "25 100"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 39,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "18 900",
+        "normalized": "18900",
+        "line": 40,
+        "context": "18 900"
+      },
+      {
+        "type": "number",
+        "raw": "20 900",
+        "normalized": "20900",
+        "line": 41,
+        "context": "20 900"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 42,
+        "context": "100 < DN"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 43,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "40 900",
+        "normalized": "40900",
+        "line": 44,
+        "context": "40 900"
+      },
+      {
+        "type": "number",
+        "raw": "45 400",
+        "normalized": "45400",
+        "line": 45,
+        "context": "45 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 46,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "37 000",
+        "normalized": "37000",
+        "line": 47,
+        "context": "37 000"
+      },
+      {
+        "type": "number",
+        "raw": "41 000",
+        "normalized": "41000",
+        "line": 48,
+        "context": "41 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 49,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "30 800",
+        "normalized": "30800",
+        "line": 50,
+        "context": "30 800"
+      },
+      {
+        "type": "number",
+        "raw": "34 100",
+        "normalized": "34100",
+        "line": 51,
+        "context": "34 100"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

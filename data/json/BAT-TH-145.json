@@ -168,6 +168,22 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par kW Puissance électrique nominale",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "3 600",
+        "normalized": "3600",
+        "line": 11,
+        "context": "3 600"
+      },
+      {
+        "type": "number",
+        "raw": "310",
+        "normalized": "310",
+        "line": 15,
+        "context": "310"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

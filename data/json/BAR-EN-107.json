@@ -216,6 +216,106 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac / m² d’isolant posé",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "0,5",
+        "normalized": "0.5",
+        "line": 11,
+        "context": "0,5 ≤ R < 1,2"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 11,
+        "context": "0,5 ≤ R < 1,2"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 12,
+        "context": "1,2 ≤ R"
+      },
+      {
+        "type": "number",
+        "raw": "0,5",
+        "normalized": "0.5",
+        "line": 13,
+        "context": "0,5 ≤ R < 1,2"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 13,
+        "context": "0,5 ≤ R < 1,2"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 14,
+        "context": "1,2 ≤ R"
+      },
+      {
+        "type": "number",
+        "raw": "200",
+        "normalized": "200",
+        "line": 17,
+        "context": "200"
+      },
+      {
+        "type": "number",
+        "raw": "240",
+        "normalized": "240",
+        "line": 18,
+        "context": "240"
+      },
+      {
+        "type": "number",
+        "raw": "130",
+        "normalized": "130",
+        "line": 19,
+        "context": "130"
+      },
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 20,
+        "context": "150"
+      },
+      {
+        "type": "number",
+        "raw": "240",
+        "normalized": "240",
+        "line": 24,
+        "context": "240"
+      },
+      {
+        "type": "number",
+        "raw": "280",
+        "normalized": "280",
+        "line": 25,
+        "context": "280"
+      },
+      {
+        "type": "number",
+        "raw": "160",
+        "normalized": "160",
+        "line": 26,
+        "context": "160"
+      },
+      {
+        "type": "number",
+        "raw": "180",
+        "normalized": "180",
+        "line": 27,
+        "context": "180"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

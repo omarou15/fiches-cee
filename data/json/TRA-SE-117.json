@@ -288,6 +288,890 @@
     "formula_section_page_end": 5,
     "unit": "- Ga(i,j) est le gain énergétique net actualisé en kWh cumac/(t.km) mentionné, selon le cas, dans l’un des tableaux des parties 5.1 et 5.2 ci-dessous, selon le type de bateaux considéré et la voie fluviale utilisée ; - t.km(i,j) est le nombre de tonnes kilomètres mentionné dans le relevé de trafic selon le type de bateaux considéré",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "5.1",
+        "normalized": "5.1",
+        "line": 13,
+        "context": "des parties 5.1 et 5.2 ci-dessous, selon le type de bateaux considéré et la voie fluviale utilisée ;"
+      },
+      {
+        "type": "number",
+        "raw": "5.2",
+        "normalized": "5.2",
+        "line": 13,
+        "context": "des parties 5.1 et 5.2 ci-dessous, selon le type de bateaux considéré et la voie fluviale utilisée ;"
+      },
+      {
+        "type": "number",
+        "raw": "5.1",
+        "normalized": "5.1",
+        "line": 17,
+        "context": "5.1 Pour les flux de marchandises existants (et précédemment transportés par route)"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 39,
+        "context": "< 400 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,1156",
+        "normalized": "0.1156",
+        "line": 40,
+        "context": "0,1156"
+      },
+      {
+        "type": "number",
+        "raw": "0,1541",
+        "normalized": "0.1541",
+        "line": 41,
+        "context": "0,1541"
+      },
+      {
+        "type": "number",
+        "raw": "0,1043",
+        "normalized": "0.1043",
+        "line": 42,
+        "context": "0,1043"
+      },
+      {
+        "type": "number",
+        "raw": "0,2930",
+        "normalized": "0.2930",
+        "line": 43,
+        "context": "0,2930"
+      },
+      {
+        "type": "number",
+        "raw": "0,1005",
+        "normalized": "0.1005",
+        "line": 44,
+        "context": "0,1005"
+      },
+      {
+        "type": "number",
+        "raw": "0,2753",
+        "normalized": "0.2753",
+        "line": 45,
+        "context": "0,2753"
+      },
+      {
+        "type": "number",
+        "raw": "0,1748",
+        "normalized": "0.1748",
+        "line": 46,
+        "context": "0,1748"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 48,
+        "context": "≥ 400 et < 650 t"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 48,
+        "context": "≥ 400 et < 650 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,1391",
+        "normalized": "0.1391",
+        "line": 49,
+        "context": "0,1391"
+      },
+      {
+        "type": "number",
+        "raw": "0,1522",
+        "normalized": "0.1522",
+        "line": 50,
+        "context": "0,1522"
+      },
+      {
+        "type": "number",
+        "raw": "0,1353",
+        "normalized": "0.1353",
+        "line": 51,
+        "context": "0,1353"
+      },
+      {
+        "type": "number",
+        "raw": "0,2930",
+        "normalized": "0.2930",
+        "line": 52,
+        "context": "0,2930"
+      },
+      {
+        "type": "number",
+        "raw": "0,1325",
+        "normalized": "0.1325",
+        "line": 53,
+        "context": "0,1325"
+      },
+      {
+        "type": "number",
+        "raw": "0,2930",
+        "normalized": "0.2930",
+        "line": 54,
+        "context": "0,2930"
+      },
+      {
+        "type": "number",
+        "raw": "0,1794",
+        "normalized": "0.1794",
+        "line": 55,
+        "context": "0,1794"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 57,
+        "context": "≥ 650 et < 1 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 57,
+        "context": "≥ 650 et < 1 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,1823",
+        "normalized": "0.1823",
+        "line": 58,
+        "context": "0,1823"
+      },
+      {
+        "type": "number",
+        "raw": "0,2133",
+        "normalized": "0.2133",
+        "line": 59,
+        "context": "0,2133"
+      },
+      {
+        "type": "number",
+        "raw": "0,1794",
+        "normalized": "0.1794",
+        "line": 60,
+        "context": "0,1794"
+      },
+      {
+        "type": "number",
+        "raw": "0,2930",
+        "normalized": "0.2930",
+        "line": 61,
+        "context": "0,2930"
+      },
+      {
+        "type": "number",
+        "raw": "0,1776",
+        "normalized": "0.1776",
+        "line": 62,
+        "context": "0,1776"
+      },
+      {
+        "type": "number",
+        "raw": "0,2930",
+        "normalized": "0.2930",
+        "line": 63,
+        "context": "0,2930"
+      },
+      {
+        "type": "number",
+        "raw": "0,1841",
+        "normalized": "0.1841",
+        "line": 64,
+        "context": "0,1841"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 66,
+        "context": "≥ 1 000 et < 1 500 t"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 66,
+        "context": "≥ 1 000 et < 1 500 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,2217",
+        "normalized": "0.2217",
+        "line": 67,
+        "context": "0,2217"
+      },
+      {
+        "type": "number",
+        "raw": "0,2311",
+        "normalized": "0.2311",
+        "line": 68,
+        "context": "0,2311"
+      },
+      {
+        "type": "number",
+        "raw": "0,1982",
+        "normalized": "0.1982",
+        "line": 69,
+        "context": "0,1982"
+      },
+      {
+        "type": "number",
+        "raw": "0,1738",
+        "normalized": "0.1738",
+        "line": 70,
+        "context": "0,1738"
+      },
+      {
+        "type": "number",
+        "raw": "0,1964",
+        "normalized": "0.1964",
+        "line": 71,
+        "context": "0,1964"
+      },
+      {
+        "type": "number",
+        "raw": "0,1428",
+        "normalized": "0.1428",
+        "line": 72,
+        "context": "0,1428"
+      },
+      {
+        "type": "number",
+        "raw": "0,2930",
+        "normalized": "0.2930",
+        "line": 73,
+        "context": "0,2930"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 75,
+        "context": "≥ 1 500 et < 3 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "3 000",
+        "normalized": "3000",
+        "line": 75,
+        "context": "≥ 1 500 et < 3 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,2358",
+        "normalized": "0.2358",
+        "line": 76,
+        "context": "0,2358"
+      },
+      {
+        "type": "number",
+        "raw": "0,2321",
+        "normalized": "0.2321",
+        "line": 77,
+        "context": "0,2321"
+      },
+      {
+        "type": "number",
+        "raw": "0,2067",
+        "normalized": "0.2067",
+        "line": 78,
+        "context": "0,2067"
+      },
+      {
+        "type": "number",
+        "raw": "0,2123",
+        "normalized": "0.2123",
+        "line": 79,
+        "context": "0,2123"
+      },
+      {
+        "type": "number",
+        "raw": "0,2170",
+        "normalized": "0.2170",
+        "line": 80,
+        "context": "0,2170"
+      },
+      {
+        "type": "number",
+        "raw": "0,1926",
+        "normalized": "0.1926",
+        "line": 81,
+        "context": "0,1926"
+      },
+      {
+        "type": "number",
+        "raw": "3 000",
+        "normalized": "3000",
+        "line": 84,
+        "context": "≥ 3 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,2508",
+        "normalized": "0.2508",
+        "line": 85,
+        "context": "0,2508"
+      },
+      {
+        "type": "number",
+        "raw": "0,2930",
+        "normalized": "0.2930",
+        "line": 87,
+        "context": "0,2930"
+      },
+      {
+        "type": "number",
+        "raw": "0,2396",
+        "normalized": "0.2396",
+        "line": 89,
+        "context": "0,2396"
+      },
+      {
+        "type": "number",
+        "raw": "0,1926",
+        "normalized": "0.1926",
+        "line": 90,
+        "context": "0,1926"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 92,
+        "context": "Pousseur < 880 kW"
+      },
+      {
+        "type": "number",
+        "raw": "0,1735",
+        "normalized": "0.1735",
+        "line": 93,
+        "context": "0,1735"
+      },
+      {
+        "type": "number",
+        "raw": "0,1725",
+        "normalized": "0.1725",
+        "line": 95,
+        "context": "0,1725"
+      },
+      {
+        "type": "number",
+        "raw": "0,2120",
+        "normalized": "0.2120",
+        "line": 99,
+        "context": "0,2120"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 100,
+        "context": "Pousseur ≥ 880 kW"
+      },
+      {
+        "type": "number",
+        "raw": "0,2514",
+        "normalized": "0.2514",
+        "line": 101,
+        "context": "0,2514"
+      },
+      {
+        "type": "number",
+        "raw": "0,2458",
+        "normalized": "0.2458",
+        "line": 103,
+        "context": "0,2458"
+      },
+      {
+        "type": "number",
+        "raw": "0,2449",
+        "normalized": "0.2449",
+        "line": 104,
+        "context": "0,2449"
+      },
+      {
+        "type": "number",
+        "raw": "0,2458",
+        "normalized": "0.2458",
+        "line": 105,
+        "context": "0,2458"
+      },
+      {
+        "type": "number",
+        "raw": "0,2449",
+        "normalized": "0.2449",
+        "line": 106,
+        "context": "0,2449"
+      },
+      {
+        "type": "number",
+        "raw": "0,2749",
+        "normalized": "0.2749",
+        "line": 107,
+        "context": "0,2749"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 109,
+        "context": "Le canal à grand gabarit correspond à une voie fluviale de type canal de classe IV à VII (plus de 1 000 tonnes)."
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 112,
+        "context": "1 000 tonnes)."
+      },
+      {
+        "type": "number",
+        "raw": "5.2",
+        "normalized": "5.2",
+        "line": 114,
+        "context": "5.2 Pour les nouveaux flux de marchandises (non préexistants)"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 136,
+        "context": "< 400 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,1133",
+        "normalized": "0.1133",
+        "line": 137,
+        "context": "0,1133"
+      },
+      {
+        "type": "number",
+        "raw": "0,1510",
+        "normalized": "0.1510",
+        "line": 138,
+        "context": "0,1510"
+      },
+      {
+        "type": "number",
+        "raw": "0,1022",
+        "normalized": "0.1022",
+        "line": 139,
+        "context": "0,1022"
+      },
+      {
+        "type": "number",
+        "raw": "0,2872",
+        "normalized": "0.2872",
+        "line": 140,
+        "context": "0,2872"
+      },
+      {
+        "type": "number",
+        "raw": "0,0985",
+        "normalized": "0.0985",
+        "line": 141,
+        "context": "0,0985"
+      },
+      {
+        "type": "number",
+        "raw": "0,2698",
+        "normalized": "0.2698",
+        "line": 142,
+        "context": "0,2698"
+      },
+      {
+        "type": "number",
+        "raw": "0,1713",
+        "normalized": "0.1713",
+        "line": 143,
+        "context": "0,1713"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 145,
+        "context": "≥ 400 et < 650 t"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 145,
+        "context": "≥ 400 et < 650 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,1363",
+        "normalized": "0.1363",
+        "line": 146,
+        "context": "0,1363"
+      },
+      {
+        "type": "number",
+        "raw": "0,1492",
+        "normalized": "0.1492",
+        "line": 147,
+        "context": "0,1492"
+      },
+      {
+        "type": "number",
+        "raw": "0,1326",
+        "normalized": "0.1326",
+        "line": 148,
+        "context": "0,1326"
+      },
+      {
+        "type": "number",
+        "raw": "0,2872",
+        "normalized": "0.2872",
+        "line": 149,
+        "context": "0,2872"
+      },
+      {
+        "type": "number",
+        "raw": "0,1298",
+        "normalized": "0.1298",
+        "line": 150,
+        "context": "0,1298"
+      },
+      {
+        "type": "number",
+        "raw": "0,2872",
+        "normalized": "0.2872",
+        "line": 151,
+        "context": "0,2872"
+      },
+      {
+        "type": "number",
+        "raw": "0,1759",
+        "normalized": "0.1759",
+        "line": 152,
+        "context": "0,1759"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 154,
+        "context": "≥ 650 et < 1 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 154,
+        "context": "≥ 650 et < 1 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,1786",
+        "normalized": "0.1786",
+        "line": 155,
+        "context": "0,1786"
+      },
+      {
+        "type": "number",
+        "raw": "0,2090",
+        "normalized": "0.2090",
+        "line": 156,
+        "context": "0,2090"
+      },
+      {
+        "type": "number",
+        "raw": "0,1759",
+        "normalized": "0.1759",
+        "line": 157,
+        "context": "0,1759"
+      },
+      {
+        "type": "number",
+        "raw": "0,2872",
+        "normalized": "0.2872",
+        "line": 158,
+        "context": "0,2872"
+      },
+      {
+        "type": "number",
+        "raw": "0,1740",
+        "normalized": "0.1740",
+        "line": 159,
+        "context": "0,1740"
+      },
+      {
+        "type": "number",
+        "raw": "0,2872",
+        "normalized": "0.2872",
+        "line": 160,
+        "context": "0,2872"
+      },
+      {
+        "type": "number",
+        "raw": "0,1805",
+        "normalized": "0.1805",
+        "line": 161,
+        "context": "0,1805"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 163,
+        "context": "≥ 1 000 et < 1 500 t"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 163,
+        "context": "≥ 1 000 et < 1 500 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,2173",
+        "normalized": "0.2173",
+        "line": 164,
+        "context": "0,2173"
+      },
+      {
+        "type": "number",
+        "raw": "0,2265",
+        "normalized": "0.2265",
+        "line": 165,
+        "context": "0,2265"
+      },
+      {
+        "type": "number",
+        "raw": "0,1943",
+        "normalized": "0.1943",
+        "line": 166,
+        "context": "0,1943"
+      },
+      {
+        "type": "number",
+        "raw": "0,1703",
+        "normalized": "0.1703",
+        "line": 167,
+        "context": "0,1703"
+      },
+      {
+        "type": "number",
+        "raw": "0,1924",
+        "normalized": "0.1924",
+        "line": 168,
+        "context": "0,1924"
+      },
+      {
+        "type": "number",
+        "raw": "0,1400",
+        "normalized": "0.1400",
+        "line": 169,
+        "context": "0,1400"
+      },
+      {
+        "type": "number",
+        "raw": "0,2872",
+        "normalized": "0.2872",
+        "line": 170,
+        "context": "0,2872"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 172,
+        "context": "≥ 1 500 et < 3 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "3 000",
+        "normalized": "3000",
+        "line": 172,
+        "context": "≥ 1 500 et < 3 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,2311",
+        "normalized": "0.2311",
+        "line": 173,
+        "context": "0,2311"
+      },
+      {
+        "type": "number",
+        "raw": "0,2274",
+        "normalized": "0.2274",
+        "line": 174,
+        "context": "0,2274"
+      },
+      {
+        "type": "number",
+        "raw": "0,2026",
+        "normalized": "0.2026",
+        "line": 175,
+        "context": "0,2026"
+      },
+      {
+        "type": "number",
+        "raw": "0,2081",
+        "normalized": "0.2081",
+        "line": 176,
+        "context": "0,2081"
+      },
+      {
+        "type": "number",
+        "raw": "0,2127",
+        "normalized": "0.2127",
+        "line": 177,
+        "context": "0,2127"
+      },
+      {
+        "type": "number",
+        "raw": "0,1887",
+        "normalized": "0.1887",
+        "line": 178,
+        "context": "0,1887"
+      },
+      {
+        "type": "number",
+        "raw": "3 000",
+        "normalized": "3000",
+        "line": 181,
+        "context": "≥ 3 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,2458",
+        "normalized": "0.2458",
+        "line": 182,
+        "context": "0,2458"
+      },
+      {
+        "type": "number",
+        "raw": "0,2872",
+        "normalized": "0.2872",
+        "line": 184,
+        "context": "0,2872"
+      },
+      {
+        "type": "number",
+        "raw": "0,2348",
+        "normalized": "0.2348",
+        "line": 186,
+        "context": "0,2348"
+      },
+      {
+        "type": "number",
+        "raw": "0,1887",
+        "normalized": "0.1887",
+        "line": 187,
+        "context": "0,1887"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 189,
+        "context": "Pousseur < 880 kW"
+      },
+      {
+        "type": "number",
+        "raw": "0,1700",
+        "normalized": "0.1700",
+        "line": 190,
+        "context": "0,1700"
+      },
+      {
+        "type": "number",
+        "raw": "0,1691",
+        "normalized": "0.1691",
+        "line": 192,
+        "context": "0,1691"
+      },
+      {
+        "type": "number",
+        "raw": "0,2078",
+        "normalized": "0.2078",
+        "line": 196,
+        "context": "0,2078"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 197,
+        "context": "Pousseur ≥ 880 kW"
+      },
+      {
+        "type": "number",
+        "raw": "0,2464",
+        "normalized": "0.2464",
+        "line": 198,
+        "context": "0,2464"
+      },
+      {
+        "type": "number",
+        "raw": "0,2409",
+        "normalized": "0.2409",
+        "line": 200,
+        "context": "0,2409"
+      },
+      {
+        "type": "number",
+        "raw": "0,2400",
+        "normalized": "0.2400",
+        "line": 201,
+        "context": "0,2400"
+      },
+      {
+        "type": "number",
+        "raw": "0,2409",
+        "normalized": "0.2409",
+        "line": 202,
+        "context": "0,2409"
+      },
+      {
+        "type": "number",
+        "raw": "0,2400",
+        "normalized": "0.2400",
+        "line": 203,
+        "context": "0,2400"
+      },
+      {
+        "type": "number",
+        "raw": "0,2694",
+        "normalized": "0.2694",
+        "line": 204,
+        "context": "0,2694"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 206,
+        "context": "Le canal à grand gabarit correspond à une voie fluviale de type canal de classe IV à VII (plus de 1 000 tonnes)."
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 209,
+        "context": "1 000 tonnes)."
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Transport_TRA/TRA-SE-117 vA65-1 à compter du 01-01-2025_0.pdf",

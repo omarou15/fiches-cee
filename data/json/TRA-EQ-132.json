@@ -192,6 +192,148 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac par jour de mer du navire",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "16",
+        "normalized": "16",
+        "line": 16,
+        "context": "≤ 16 m"
+      },
+      {
+        "type": "number",
+        "raw": "2 600",
+        "normalized": "2600",
+        "line": 17,
+        "context": "2 600"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 18,
+        "context": "1 000"
+      },
+      {
+        "type": "number",
+        "raw": "1 400",
+        "normalized": "1400",
+        "line": 19,
+        "context": "1 400"
+      },
+      {
+        "type": "number",
+        "raw": "16",
+        "normalized": "16",
+        "line": 20,
+        "context": "> 16 m et < 24 m"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 20,
+        "context": "> 16 m et < 24 m"
+      },
+      {
+        "type": "number",
+        "raw": "6 200",
+        "normalized": "6200",
+        "line": 21,
+        "context": "6 200"
+      },
+      {
+        "type": "number",
+        "raw": "1 800",
+        "normalized": "1800",
+        "line": 22,
+        "context": "1 800"
+      },
+      {
+        "type": "number",
+        "raw": "2 600",
+        "normalized": "2600",
+        "line": 23,
+        "context": "2 600"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 24,
+        "context": "≥ 24 m"
+      },
+      {
+        "type": "number",
+        "raw": "7 800",
+        "normalized": "7800",
+        "line": 25,
+        "context": "7 800"
+      },
+      {
+        "type": "number",
+        "raw": "4 000",
+        "normalized": "4000",
+        "line": 26,
+        "context": "4 000"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 28,
+        "context": "Annexe 1 à la fiche d’opération standardisée TRA-EQ-132,"
+      },
+      {
+        "type": "number",
+        "raw": "132",
+        "normalized": "132",
+        "line": 28,
+        "context": "Annexe 1 à la fiche d’opération standardisée TRA-EQ-132,"
+      },
+      {
+        "type": "number",
+        "raw": "132",
+        "normalized": "132",
+        "line": 31,
+        "context": "A/ TRA-EQ-132 (v. A65.1) : Installation à bord d’un navire de pêche ou d’un navire-école d’un appareil de"
+      },
+      {
+        "type": "number",
+        "raw": "5.1",
+        "normalized": "5.1",
+        "line": 31,
+        "context": "A/ TRA-EQ-132 (v. A65.1) : Installation à bord d’un navire de pêche ou d’un navire-école d’un appareil de"
+      },
+      {
+        "type": "number",
+        "raw": "132",
+        "normalized": "132",
+        "line": 48,
+        "context": "*L’appareil installé inclut les fonctionnalités requises par la fiche d’opération standardisée TRA-EQ-132 : □ OUI □ NON"
+      },
+      {
+        "type": "number",
+        "raw": "50 %",
+        "normalized": "50%",
+        "line": 53,
+        "context": "*L’approvisionnement en carburant du navire est réalisé à plus de 50 % en volume en France : □ OUI □ NON"
+      },
+      {
+        "type": "number",
+        "raw": "16",
+        "normalized": "16",
+        "line": 59,
+        "context": "□ ≤ 16 m □ 16 < L < 24 m □ ≥ 24 m"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 59,
+        "context": "□ ≤ 16 m □ 16 < L < 24 m □ ≥ 24 m"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

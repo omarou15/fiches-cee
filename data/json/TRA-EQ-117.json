@@ -169,6 +169,50 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par véhicule Véhicule léger neuf M1",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "311",
+        "normalized": "311",
+        "line": 1,
+        "context": "Catégorie du véhicule au sens de l’article R. 311-1 du code"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 1,
+        "context": "Catégorie du véhicule au sens de l’article R. 311-1 du code"
+      },
+      {
+        "type": "number",
+        "raw": "49 100",
+        "normalized": "49100",
+        "line": 6,
+        "context": "49 100"
+      },
+      {
+        "type": "number",
+        "raw": "94 800",
+        "normalized": "94800",
+        "line": 9,
+        "context": "94 800"
+      },
+      {
+        "type": "number",
+        "raw": "39 500",
+        "normalized": "39500",
+        "line": 11,
+        "context": "39 500"
+      },
+      {
+        "type": "number",
+        "raw": "76 400",
+        "normalized": "76400",
+        "line": 14,
+        "context": "76 400"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Transport_TRA/TRA-EQ-117 vA76-5 à compter du 01-10-2025.pdf",

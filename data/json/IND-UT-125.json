@@ -156,6 +156,827 @@
       "3x8h avec arrêt le week-end",
       "3x8h sans arrêt le week-end"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "03",
+        "normalized": "03",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "15",
+        "normalized": "15",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "19",
+        "normalized": "19",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "22",
+        "normalized": "22",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "23",
+        "normalized": "23",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "29",
+        "normalized": "29",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "35",
+        "normalized": "35",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "42",
+        "normalized": "42",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "43",
+        "normalized": "43",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "47",
+        "normalized": "47",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "48",
+        "normalized": "48",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "49",
+        "normalized": "49",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "50",
+        "normalized": "50",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "53",
+        "normalized": "53",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "56",
+        "normalized": "56",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "58",
+        "normalized": "58",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "63",
+        "normalized": "63",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "64",
+        "normalized": "64",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "65",
+        "normalized": "65",
+        "line": 3,
+        "context": "- Zone A : départements 2A, 2B, 03, 12, 15, 19, 22, 23, 29, 35, 42, 43, 47, 48, 49, 50, 53, 56, 58, 63, 64, 65,"
+      },
+      {
+        "type": "number",
+        "raw": "70",
+        "normalized": "70",
+        "line": 4,
+        "context": "70, 74, 87, 88 et France d’outre-mer ;"
+      },
+      {
+        "type": "number",
+        "raw": "74",
+        "normalized": "74",
+        "line": 4,
+        "context": "70, 74, 87, 88 et France d’outre-mer ;"
+      },
+      {
+        "type": "number",
+        "raw": "87",
+        "normalized": "87",
+        "line": 4,
+        "context": "70, 74, 87, 88 et France d’outre-mer ;"
+      },
+      {
+        "type": "number",
+        "raw": "88",
+        "normalized": "88",
+        "line": 4,
+        "context": "70, 74, 87, 88 et France d’outre-mer ;"
+      },
+      {
+        "type": "number",
+        "raw": "01",
+        "normalized": "01",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "02",
+        "normalized": "02",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "04",
+        "normalized": "04",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "06",
+        "normalized": "06",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "11",
+        "normalized": "11",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "14",
+        "normalized": "14",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "17",
+        "normalized": "17",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "26",
+        "normalized": "26",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "27",
+        "normalized": "27",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "38",
+        "normalized": "38",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "39",
+        "normalized": "39",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "45",
+        "normalized": "45",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "55",
+        "normalized": "55",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "76",
+        "normalized": "76",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "77",
+        "normalized": "77",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "78",
+        "normalized": "78",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "80",
+        "normalized": "80",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "83",
+        "normalized": "83",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "84",
+        "normalized": "84",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "89",
+        "normalized": "89",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "95",
+        "normalized": "95",
+        "line": 5,
+        "context": "- Zone B : départements 01, 02, 04, 06, 11, 14, 17, 24, 26, 27, 38, 39, 45, 55, 76, 77, 78, 80, 83, 84, 89, 95 ;"
+      },
+      {
+        "type": "number",
+        "raw": "07",
+        "normalized": "07",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "08",
+        "normalized": "08",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "09",
+        "normalized": "09",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "13",
+        "normalized": "13",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "16",
+        "normalized": "16",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "18",
+        "normalized": "18",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "21",
+        "normalized": "21",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "25",
+        "normalized": "25",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "28",
+        "normalized": "28",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "30",
+        "normalized": "30",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "31",
+        "normalized": "31",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "32",
+        "normalized": "32",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "33",
+        "normalized": "33",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "36",
+        "normalized": "36",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "37",
+        "normalized": "37",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "40",
+        "normalized": "40",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "41",
+        "normalized": "41",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "44",
+        "normalized": "44",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "46",
+        "normalized": "46",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "51",
+        "normalized": "51",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "52",
+        "normalized": "52",
+        "line": 6,
+        "context": "- Zone C: départements 07, 08, 09, 10, 13, 16, 18, 21, 25, 28, 30, 31, 32, 33, 36, 37, 40, 41, 44, 46, 51, 52,"
+      },
+      {
+        "type": "number",
+        "raw": "54",
+        "normalized": "54",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "61",
+        "normalized": "61",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "66",
+        "normalized": "66",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "67",
+        "normalized": "67",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "68",
+        "normalized": "68",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "69",
+        "normalized": "69",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "71",
+        "normalized": "71",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "72",
+        "normalized": "72",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "75",
+        "normalized": "75",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "79",
+        "normalized": "79",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "81",
+        "normalized": "81",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "82",
+        "normalized": "82",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "85",
+        "normalized": "85",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "86",
+        "normalized": "86",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "92",
+        "normalized": "92",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "93",
+        "normalized": "93",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "94",
+        "normalized": "94",
+        "line": 7,
+        "context": "54, 61, 66, 67, 68, 69, 71, 72, 75, 79, 81, 82, 85, 86, 90, 92, 93, 94 ;"
+      },
+      {
+        "type": "number",
+        "raw": "05",
+        "normalized": "05",
+        "line": 8,
+        "context": "- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91."
+      },
+      {
+        "type": "number",
+        "raw": "34",
+        "normalized": "34",
+        "line": 8,
+        "context": "- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91."
+      },
+      {
+        "type": "number",
+        "raw": "57",
+        "normalized": "57",
+        "line": 8,
+        "context": "- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91."
+      },
+      {
+        "type": "number",
+        "raw": "59",
+        "normalized": "59",
+        "line": 8,
+        "context": "- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91."
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 8,
+        "context": "- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91."
+      },
+      {
+        "type": "number",
+        "raw": "62",
+        "normalized": "62",
+        "line": 8,
+        "context": "- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91."
+      },
+      {
+        "type": "number",
+        "raw": "73",
+        "normalized": "73",
+        "line": 8,
+        "context": "- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91."
+      },
+      {
+        "type": "number",
+        "raw": "91",
+        "normalized": "91",
+        "line": 8,
+        "context": "- Zone D : départements 05, 34, 57, 59, 60, 62, 73, 91."
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 24,
+        "context": "1x8h"
+      },
+      {
+        "type": "number",
+        "raw": "70",
+        "normalized": "70",
+        "line": 25,
+        "context": "70"
+      },
+      {
+        "type": "number",
+        "raw": "230",
+        "normalized": "230",
+        "line": 26,
+        "context": "230"
+      },
+      {
+        "type": "number",
+        "raw": "460",
+        "normalized": "460",
+        "line": 27,
+        "context": "460"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 28,
+        "context": "650"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 31,
+        "context": "2x8h"
+      },
+      {
+        "type": "number",
+        "raw": "160",
+        "normalized": "160",
+        "line": 32,
+        "context": "160"
+      },
+      {
+        "type": "number",
+        "raw": "520",
+        "normalized": "520",
+        "line": 33,
+        "context": "520"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 34,
+        "context": "1 000"
+      },
+      {
+        "type": "number",
+        "raw": "1 400",
+        "normalized": "1400",
+        "line": 35,
+        "context": "1 400"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 36,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "220",
+        "normalized": "220",
+        "line": 37,
+        "context": "220"
+      },
+      {
+        "type": "number",
+        "raw": "700",
+        "normalized": "700",
+        "line": 38,
+        "context": "700"
+      },
+      {
+        "type": "number",
+        "raw": "1 400",
+        "normalized": "1400",
+        "line": 39,
+        "context": "1 400"
+      },
+      {
+        "type": "number",
+        "raw": "1 900",
+        "normalized": "1900",
+        "line": 40,
+        "context": "1 900"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 41,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "300",
+        "normalized": "300",
+        "line": 42,
+        "context": "300"
+      },
+      {
+        "type": "number",
+        "raw": "990",
+        "normalized": "990",
+        "line": 43,
+        "context": "990"
+      },
+      {
+        "type": "number",
+        "raw": "2 000",
+        "normalized": "2000",
+        "line": 44,
+        "context": "2 000"
+      },
+      {
+        "type": "number",
+        "raw": "2 700",
+        "normalized": "2700",
+        "line": 45,
+        "context": "2 700"
+      },
+      {
+        "type": "number",
+        "raw": "224",
+        "normalized": "224",
+        "line": 50,
+        "context": "indiquée sur un document issu du fabricant. Elle est définie par l’article R.224-20 du code de l’environnement"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 50,
+        "context": "indiquée sur un document issu du fabricant. Elle est définie par l’article R.224-20 du code de l’environnement"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

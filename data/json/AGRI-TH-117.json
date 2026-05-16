@@ -232,6 +232,141 @@
     "formula_section_page_end": 4,
     "unit": "Montant du gain en kWh cumac par m² Surface de serre",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "710",
+        "normalized": "710",
+        "line": 6,
+        "context": "710"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 10,
+        "context": "Annexe 1 à la fiche d’opération standardisée AGRI-TH-117,"
+      },
+      {
+        "type": "number",
+        "raw": "117",
+        "normalized": "117",
+        "line": 10,
+        "context": "Annexe 1 à la fiche d’opération standardisée AGRI-TH-117,"
+      },
+      {
+        "type": "number",
+        "raw": "117",
+        "normalized": "117",
+        "line": 13,
+        "context": "A/ AGRI-TH-117 (v. A73.3) : Mise en place d’un système de déshumidification thermodynamique pour gérer"
+      },
+      {
+        "type": "number",
+        "raw": "3.3",
+        "normalized": "3.3",
+        "line": 13,
+        "context": "A/ AGRI-TH-117 (v. A73.3) : Mise en place d’un système de déshumidification thermodynamique pour gérer"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 32,
+        "context": "*La température de consigne minimale pour le chauffage est supérieure à 12 °C sur la période de culture : □ OUI □"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 47,
+        "context": "Modèle / Référence 1"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 48,
+        "context": "Modèle / Référence 2"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 78,
+        "context": "D (L/h) pour 1 000 m2"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 82,
+        "context": "- C est la capacité de déshumidification exprimée en litres/heure à 20°C et 80 % d’humidité relative (Hr). C > 9 L/h."
+      },
+      {
+        "type": "number",
+        "raw": "80 %",
+        "normalized": "80%",
+        "line": 82,
+        "context": "- C est la capacité de déshumidification exprimée en litres/heure à 20°C et 80 % d’humidité relative (Hr). C > 9 L/h."
+      },
+      {
+        "type": "number",
+        "raw": "9",
+        "normalized": "9",
+        "line": 82,
+        "context": "- C est la capacité de déshumidification exprimée en litres/heure à 20°C et 80 % d’humidité relative (Hr). C > 9 L/h."
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 83,
+        "context": "- P est la puissance électrique consommée exprimée en kW à 20°C et 80 % d’humidité relative (Hr)."
+      },
+      {
+        "type": "number",
+        "raw": "80 %",
+        "normalized": "80%",
+        "line": 83,
+        "context": "- P est la puissance électrique consommée exprimée en kW à 20°C et 80 % d’humidité relative (Hr)."
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 84,
+        "context": "- R est le rapport C/P exprimé en litres/kWh à 20°C et 80 % d’humidité relative (Hr). R > 2 L/kWh."
+      },
+      {
+        "type": "number",
+        "raw": "80 %",
+        "normalized": "80%",
+        "line": 84,
+        "context": "- R est le rapport C/P exprimé en litres/kWh à 20°C et 80 % d’humidité relative (Hr). R > 2 L/kWh."
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 84,
+        "context": "- R est le rapport C/P exprimé en litres/kWh à 20°C et 80 % d’humidité relative (Hr). R > 2 L/kWh."
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 87,
+        "context": "- D est la capacité totale du système CT ramenée à une surface de 1 000 m2. D > 9 L/h."
+      },
+      {
+        "type": "number",
+        "raw": "9",
+        "normalized": "9",
+        "line": 87,
+        "context": "- D est la capacité totale du système CT ramenée à une surface de 1 000 m2. D > 9 L/h."
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

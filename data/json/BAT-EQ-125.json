@@ -184,6 +184,29 @@
     "formula_section_page_end": 2,
     "unit": "Montant unitaire (en kWh cumac par mètre de couvercle) Longueur totale de",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "6 700",
+        "normalized": "6700",
+        "line": 10,
+        "context": "6 700"
+      },
+      {
+        "type": "number",
+        "raw": "8 200",
+        "normalized": "8200",
+        "line": 14,
+        "context": "8 200"
+      },
+      {
+        "type": "number",
+        "raw": "4 600",
+        "normalized": "4600",
+        "line": 16,
+        "context": "4 600"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

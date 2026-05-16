@@ -218,6 +218,22 @@
     "expressions": [
       "187 700 * (Rgpondéré - 1,93)"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "187 700",
+        "normalized": "187700",
+        "line": 1,
+        "context": "187 700 * (Rgpondéré - 1,93)"
+      },
+      {
+        "type": "number",
+        "raw": "1,93",
+        "normalized": "1.93",
+        "line": 1,
+        "context": "187 700 * (Rgpondéré - 1,93)"
+      }
+    ],
     "calculation_methods": [
       "direct_expression"
     ],

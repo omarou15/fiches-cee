@@ -240,6 +240,50 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par m² d’isolant en",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 6,
+        "context": "H1"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 7,
+        "context": "H2"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 8,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "1 100",
+        "normalized": "1100",
+        "line": 11,
+        "context": "1 100"
+      },
+      {
+        "type": "number",
+        "raw": "890",
+        "normalized": "890",
+        "line": 12,
+        "context": "890"
+      },
+      {
+        "type": "number",
+        "raw": "590",
+        "normalized": "590",
+        "line": 13,
+        "context": "590"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

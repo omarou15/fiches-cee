@@ -232,6 +232,120 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac par ml installé Longueur totale de",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "22 600",
+        "normalized": "22600",
+        "line": 13,
+        "context": "22 600"
+      },
+      {
+        "type": "number",
+        "raw": "6 300",
+        "normalized": "6300",
+        "line": 17,
+        "context": "6 300"
+      },
+      {
+        "type": "number",
+        "raw": "18 400",
+        "normalized": "18400",
+        "line": 19,
+        "context": "18 400"
+      },
+      {
+        "type": "number",
+        "raw": "9 900",
+        "normalized": "9900",
+        "line": 21,
+        "context": "9 900"
+      },
+      {
+        "type": "number",
+        "raw": "31 000",
+        "normalized": "31000",
+        "line": 35,
+        "context": "31 000"
+      },
+      {
+        "type": "number",
+        "raw": "8 700",
+        "normalized": "8700",
+        "line": 39,
+        "context": "8 700"
+      },
+      {
+        "type": "number",
+        "raw": "30 800",
+        "normalized": "30800",
+        "line": 41,
+        "context": "30 800"
+      },
+      {
+        "type": "number",
+        "raw": "14 700",
+        "normalized": "14700",
+        "line": 43,
+        "context": "14 700"
+      },
+      {
+        "type": "number",
+        "raw": "38 200",
+        "normalized": "38200",
+        "line": 57,
+        "context": "38 200"
+      },
+      {
+        "type": "number",
+        "raw": "10 500",
+        "normalized": "10500",
+        "line": 61,
+        "context": "10 500"
+      },
+      {
+        "type": "number",
+        "raw": "41 200",
+        "normalized": "41200",
+        "line": 63,
+        "context": "41 200"
+      },
+      {
+        "type": "number",
+        "raw": "18 800",
+        "normalized": "18800",
+        "line": 65,
+        "context": "18 800"
+      },
+      {
+        "type": "number",
+        "raw": "43 800",
+        "normalized": "43800",
+        "line": 79,
+        "context": "43 800"
+      },
+      {
+        "type": "number",
+        "raw": "12 100",
+        "normalized": "12100",
+        "line": 83,
+        "context": "12 100"
+      },
+      {
+        "type": "number",
+        "raw": "49 400",
+        "normalized": "49400",
+        "line": 85,
+        "context": "49 400"
+      },
+      {
+        "type": "number",
+        "raw": "21 900",
+        "normalized": "21900",
+        "line": 87,
+        "context": "21 900"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

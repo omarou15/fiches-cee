@@ -216,6 +216,92 @@
     "formula_section_page_end": 2,
     "unit": "Montant de certificats en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1 200",
+        "normalized": "1200",
+        "line": 20,
+        "context": "1 200"
+      },
+      {
+        "type": "number",
+        "raw": "860",
+        "normalized": "860",
+        "line": 21,
+        "context": "860"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 22,
+        "context": "0"
+      },
+      {
+        "type": "number",
+        "raw": "1 300",
+        "normalized": "1300",
+        "line": 26,
+        "context": "1 300"
+      },
+      {
+        "type": "number",
+        "raw": "950",
+        "normalized": "950",
+        "line": 27,
+        "context": "950"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 28,
+        "context": "0"
+      },
+      {
+        "type": "number",
+        "raw": "2 100",
+        "normalized": "2100",
+        "line": 30,
+        "context": "2 100"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 31,
+        "context": "1 600"
+      },
+      {
+        "type": "number",
+        "raw": "1 300",
+        "normalized": "1300",
+        "line": 33,
+        "context": "1 300"
+      },
+      {
+        "type": "number",
+        "raw": "900",
+        "normalized": "900",
+        "line": 34,
+        "context": "900"
+      },
+      {
+        "type": "number",
+        "raw": "2 000",
+        "normalized": "2000",
+        "line": 36,
+        "context": "2 000"
+      },
+      {
+        "type": "number",
+        "raw": "1 400",
+        "normalized": "1400",
+        "line": 37,
+        "context": "1 400"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Tertiaire_BAT/BAT-EN-109 vA24-1.pdf",

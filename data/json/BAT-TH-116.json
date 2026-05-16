@@ -216,6 +216,414 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac par m2 de surface gérée par le système pour l’usage",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 24,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 25,
+        "context": "1,1"
+      },
+      {
+        "type": "number",
+        "raw": "360",
+        "normalized": "360",
+        "line": 30,
+        "context": "360"
+      },
+      {
+        "type": "number",
+        "raw": "233",
+        "normalized": "233",
+        "line": 31,
+        "context": "233"
+      },
+      {
+        "type": "number",
+        "raw": "15",
+        "normalized": "15",
+        "line": 32,
+        "context": "15"
+      },
+      {
+        "type": "number",
+        "raw": "184",
+        "normalized": "184",
+        "line": 33,
+        "context": "184"
+      },
+      {
+        "type": "number",
+        "raw": "19",
+        "normalized": "19",
+        "line": 34,
+        "context": "19"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 35,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 36,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "170",
+        "normalized": "170",
+        "line": 39,
+        "context": "170"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 40,
+        "context": "60"
+      },
+      {
+        "type": "number",
+        "raw": "82",
+        "normalized": "82",
+        "line": 41,
+        "context": "82"
+      },
+      {
+        "type": "number",
+        "raw": "46",
+        "normalized": "46",
+        "line": 42,
+        "context": "46"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 43,
+        "context": "6"
+      },
+      {
+        "type": "number",
+        "raw": "520",
+        "normalized": "520",
+        "line": 46,
+        "context": "520"
+      },
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 47,
+        "context": "150"
+      },
+      {
+        "type": "number",
+        "raw": "30",
+        "normalized": "30",
+        "line": 48,
+        "context": "30"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 50,
+        "context": "6"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 54,
+        "context": "400"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 55,
+        "context": "60"
+      },
+      {
+        "type": "number",
+        "raw": "32",
+        "normalized": "32",
+        "line": 56,
+        "context": "32"
+      },
+      {
+        "type": "number",
+        "raw": "65",
+        "normalized": "65",
+        "line": 57,
+        "context": "65"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 58,
+        "context": "6"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 59,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 60,
+        "context": "0,6"
+      },
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 63,
+        "context": "150"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 64,
+        "context": "60"
+      },
+      {
+        "type": "number",
+        "raw": "87",
+        "normalized": "87",
+        "line": 65,
+        "context": "87"
+      },
+      {
+        "type": "number",
+        "raw": "19",
+        "normalized": "19",
+        "line": 67,
+        "context": "19"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 99,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 100,
+        "context": "1,1"
+      },
+      {
+        "type": "number",
+        "raw": "240",
+        "normalized": "240",
+        "line": 105,
+        "context": "240"
+      },
+      {
+        "type": "number",
+        "raw": "97",
+        "normalized": "97",
+        "line": 106,
+        "context": "97"
+      },
+      {
+        "type": "number",
+        "raw": "7",
+        "normalized": "7",
+        "line": 107,
+        "context": "7"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 108,
+        "context": "90"
+      },
+      {
+        "type": "number",
+        "raw": "8",
+        "normalized": "8",
+        "line": 109,
+        "context": "8"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 110,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 111,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 114,
+        "context": "100"
+      },
+      {
+        "type": "number",
+        "raw": "23",
+        "normalized": "23",
+        "line": 115,
+        "context": "23"
+      },
+      {
+        "type": "number",
+        "raw": "38",
+        "normalized": "38",
+        "line": 116,
+        "context": "38"
+      },
+      {
+        "type": "number",
+        "raw": "21",
+        "normalized": "21",
+        "line": 117,
+        "context": "21"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 118,
+        "context": "3"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 121,
+        "context": "250"
+      },
+      {
+        "type": "number",
+        "raw": "44",
+        "normalized": "44",
+        "line": 122,
+        "context": "44"
+      },
+      {
+        "type": "number",
+        "raw": "13",
+        "normalized": "13",
+        "line": 123,
+        "context": "13"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 125,
+        "context": "3"
+      },
+      {
+        "type": "number",
+        "raw": "200",
+        "normalized": "200",
+        "line": 129,
+        "context": "200"
+      },
+      {
+        "type": "number",
+        "raw": "23",
+        "normalized": "23",
+        "line": 130,
+        "context": "23"
+      },
+      {
+        "type": "number",
+        "raw": "14",
+        "normalized": "14",
+        "line": 131,
+        "context": "14"
+      },
+      {
+        "type": "number",
+        "raw": "30",
+        "normalized": "30",
+        "line": 132,
+        "context": "30"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 133,
+        "context": "3"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 134,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 135,
+        "context": "0,6"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 138,
+        "context": "90"
+      },
+      {
+        "type": "number",
+        "raw": "23",
+        "normalized": "23",
+        "line": 139,
+        "context": "23"
+      },
+      {
+        "type": "number",
+        "raw": "40",
+        "normalized": "40",
+        "line": 140,
+        "context": "40"
+      },
+      {
+        "type": "number",
+        "raw": "9",
+        "normalized": "9",
+        "line": 142,
+        "context": "9"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

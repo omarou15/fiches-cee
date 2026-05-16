@@ -42,6 +42,7 @@ VARIABLE_DEFINITION_RE = re.compile(
 DIRECT_EXPRESSION_RE = re.compile(
     r"(?i)(?:\d+(?:[ ,.]\d+)?|\b[A-Z]\b)\s*(?:x|×|\*)\s*(?:\d+(?:[ ,.]\d+)?|\b[A-Z]\b)"
 )
+NUMERIC_VALUE_RE = re.compile(r"(?<![A-Za-z])\d+(?:[\s\u00a0\u202f]\d{3})*(?:[,.]\d+)?\s*%?")
 
 
 def fiche_family(code: str) -> str:
@@ -312,6 +313,52 @@ def extract_formula_variables(text: str) -> list[dict]:
     return list(variables.values())
 
 
+def normalize_numeric_token(token: str) -> str:
+    token = token.strip()
+    is_percent = token.endswith("%")
+    token = token.rstrip("%").strip()
+    token = token.replace("\u00a0", " ").replace("\u202f", " ")
+    token = re.sub(r"\s+", "", token)
+    token = token.replace(",", ".")
+    return f"{token}%" if is_percent else token
+
+
+def extract_formula_values(text: str) -> list[dict]:
+    values: list[dict] = []
+    seen: set[tuple[str, str, int]] = set()
+    for line_no, line in enumerate(text.splitlines(), start=1):
+        compact = compact_line(line)
+        if not compact:
+            continue
+        for match in NUMERIC_VALUE_RE.finditer(line):
+            raw = match.group(0).strip()
+            normalized = normalize_numeric_token(raw)
+            key = ("number", normalized, line_no)
+            if key in seen:
+                continue
+            values.append({
+                "type": "number",
+                "raw": raw,
+                "normalized": normalized,
+                "line": line_no,
+                "context": compact,
+            })
+            seen.add(key)
+        for zone in re.findall(r"\bH[123]\b", line):
+            key = ("zone", zone, line_no)
+            if key in seen:
+                continue
+            values.append({
+                "type": "zone",
+                "raw": zone,
+                "normalized": zone,
+                "line": line_no,
+                "context": compact,
+            })
+            seen.add(key)
+    return values
+
+
 def infer_variable_unit(label: str | None) -> str | None:
     if not label:
         return None
@@ -380,6 +427,7 @@ def extract_calculation(sections: list[dict], source_file: str | None, amount_ta
             "formula_section_page_end": None,
             "unit": None,
             "expressions": [],
+            "extracted_values": [],
             "calculation_methods": [],
             "formula_status": "missing_section",
             "source_file": source_file,
@@ -392,6 +440,7 @@ def extract_calculation(sections: list[dict], source_file: str | None, amount_ta
         unit = section.get("title")
     expressions = extract_direct_expressions(text)
     variables = extract_formula_variables(text)
+    extracted_values = extract_formula_values(text)
     amount_table = amount_table or parse_zone_fixed_amount_table(text)
     methods = infer_calculation_methods(text, expressions, variables, amount_table)
     formula_text = summarize_formula_text(unit, expressions, variables, amount_table)
@@ -406,6 +455,7 @@ def extract_calculation(sections: list[dict], source_file: str | None, amount_ta
         "formula_section_page_end": section.get("page_end"),
         "unit": unit,
         "expressions": expressions,
+        "extracted_values": extracted_values,
         "calculation_methods": methods,
         "formula_status": "extracted" if formula_text else "needs_review",
         "source_file": source_file,

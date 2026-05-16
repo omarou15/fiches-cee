@@ -328,6 +328,169 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "66 %",
+        "normalized": "66%",
+        "line": 6,
+        "context": "66 % ≤ Etas < 72 %"
+      },
+      {
+        "type": "number",
+        "raw": "72 %",
+        "normalized": "72%",
+        "line": 6,
+        "context": "66 % ≤ Etas < 72 %"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 7,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "9 400",
+        "normalized": "9400",
+        "line": 8,
+        "context": "9 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 9,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "7 700",
+        "normalized": "7700",
+        "line": 10,
+        "context": "7 700"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 11,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "5 100",
+        "normalized": "5100",
+        "line": 12,
+        "context": "5 100"
+      },
+      {
+        "type": "number",
+        "raw": "72 %",
+        "normalized": "72%",
+        "line": 13,
+        "context": "72 % ≤ Etas < 80 %"
+      },
+      {
+        "type": "number",
+        "raw": "80 %",
+        "normalized": "80%",
+        "line": 13,
+        "context": "72 % ≤ Etas < 80 %"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 14,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "23 500",
+        "normalized": "23500",
+        "line": 15,
+        "context": "23 500"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 16,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "19 300",
+        "normalized": "19300",
+        "line": 17,
+        "context": "19 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 18,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "12 800",
+        "normalized": "12800",
+        "line": 19,
+        "context": "12 800"
+      },
+      {
+        "type": "number",
+        "raw": "80%",
+        "normalized": "80%",
+        "line": 20,
+        "context": "Etas ≥ 80%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 21,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "35 300",
+        "normalized": "35300",
+        "line": 22,
+        "context": "35 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 23,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "28 900",
+        "normalized": "28900",
+        "line": 24,
+        "context": "28 900"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 25,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "19 200",
+        "normalized": "19200",
+        "line": 26,
+        "context": "19 200"
+      }
+    ],
     "calculation_methods": [
       "structured_amount_table"
     ],

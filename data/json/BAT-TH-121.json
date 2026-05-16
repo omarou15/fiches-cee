@@ -251,6 +251,43 @@
       "0,148 x B x T",
       "0,086 x B x T"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "0,148",
+        "normalized": "0.148",
+        "line": 9,
+        "context": "0,148 x B x T"
+      },
+      {
+        "type": "number",
+        "raw": "0,086",
+        "normalized": "0.086",
+        "line": 11,
+        "context": "0,086 x B x T"
+      },
+      {
+        "type": "number",
+        "raw": "50",
+        "normalized": "50",
+        "line": 16,
+        "context": "T : taux de couverture solaire de l’installation déterminé dans l’étude de dimensionnement et tel que 50 < T ≤ 100."
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 16,
+        "context": "T : taux de couverture solaire de l’installation déterminé dans l’étude de dimensionnement et tel que 50 < T ≤ 100."
+      },
+      {
+        "type": "number",
+        "raw": "90 %",
+        "normalized": "90%",
+        "line": 17,
+        "context": "Pour toute valeur de T supérieure ou égale à 90 %, le taux de couverture T sera pris égal à 90 %."
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

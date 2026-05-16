@@ -135,6 +135,92 @@
     "formula_section_page_end": 1,
     "unit": "Montant en kWh cumac par m2 de surface de bâtiment",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 18,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "300",
+        "normalized": "300",
+        "line": 19,
+        "context": "300"
+      },
+      {
+        "type": "number",
+        "raw": "210",
+        "normalized": "210",
+        "line": 20,
+        "context": "210"
+      },
+      {
+        "type": "number",
+        "raw": "280",
+        "normalized": "280",
+        "line": 21,
+        "context": "280"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 24,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 25,
+        "context": "250"
+      },
+      {
+        "type": "number",
+        "raw": "170",
+        "normalized": "170",
+        "line": 26,
+        "context": "170"
+      },
+      {
+        "type": "number",
+        "raw": "230",
+        "normalized": "230",
+        "line": 27,
+        "context": "230"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 29,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "160",
+        "normalized": "160",
+        "line": 30,
+        "context": "160"
+      },
+      {
+        "type": "number",
+        "raw": "110",
+        "normalized": "110",
+        "line": 31,
+        "context": "110"
+      },
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 32,
+        "context": "150"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

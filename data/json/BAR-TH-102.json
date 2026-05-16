@@ -201,6 +201,22 @@
       "B x T x 0,196",
       "T est le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "0,196",
+        "normalized": "0.196",
+        "line": 4,
+        "context": "B x T x 0,196"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 7,
+        "context": "T est le taux de couverture du chauffe-eau solaire collectif (exprimé en %) avec T = (PES/B) x 100"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

@@ -184,6 +184,15 @@
     "formula_section_page_end": 1,
     "unit": "Montant unitaire en kWh cumac par mètre linéaire Longueur linéaire de",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "25 600",
+        "normalized": "25600",
+        "line": 6,
+        "context": "25 600"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

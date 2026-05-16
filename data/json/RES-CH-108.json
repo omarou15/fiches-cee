@@ -151,6 +151,15 @@
     "formula_section_page_end": 2,
     "unit": "Montant de certificats en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "14,134",
+        "normalized": "14.134",
+        "line": 8,
+        "context": "14,134"
+      }
+    ],
     "calculation_methods": [
       "coefficient_based"
     ],

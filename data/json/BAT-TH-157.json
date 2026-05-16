@@ -299,6 +299,36 @@
       "Q x 4,8",
       "Q x 3,4"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "500",
+        "normalized": "500",
+        "line": 4,
+        "context": "inférieure ou égale à 500 kW"
+      },
+      {
+        "type": "number",
+        "raw": "500",
+        "normalized": "500",
+        "line": 6,
+        "context": "supérieure à 500 kW"
+      },
+      {
+        "type": "number",
+        "raw": "4,8",
+        "normalized": "4.8",
+        "line": 7,
+        "context": "Q x 4,8"
+      },
+      {
+        "type": "number",
+        "raw": "3,4",
+        "normalized": "3.4",
+        "line": 8,
+        "context": "Q x 3,4"
+      }
+    ],
     "calculation_methods": [
       "direct_expression"
     ],

@@ -248,6 +248,540 @@
     "formula_section_page_end": 4,
     "unit": "kWh cumac Nombres d’unités",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 1,
+        "context": "Cas 1 : Débits inégaux*"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 19,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "13 000",
+        "normalized": "13000",
+        "line": 20,
+        "context": "13 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 27,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "12 200",
+        "normalized": "12200",
+        "line": 28,
+        "context": "12 200"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 29,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "10 900",
+        "normalized": "10900",
+        "line": 30,
+        "context": "10 900"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 33,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "18 100",
+        "normalized": "18100",
+        "line": 34,
+        "context": "18 100"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 39,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "17 100",
+        "normalized": "17100",
+        "line": 40,
+        "context": "17 100"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 41,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "15 300",
+        "normalized": "15300",
+        "line": 42,
+        "context": "15 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 44,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "6 400",
+        "normalized": "6400",
+        "line": 45,
+        "context": "6 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 49,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "6 000",
+        "normalized": "6000",
+        "line": 50,
+        "context": "6 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 51,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "5 300",
+        "normalized": "5300",
+        "line": 52,
+        "context": "5 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 55,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "72 200",
+        "normalized": "72200",
+        "line": 56,
+        "context": "72 200"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 61,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "67 900",
+        "normalized": "67900",
+        "line": 62,
+        "context": "67 900"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 63,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "60 900",
+        "normalized": "60900",
+        "line": 64,
+        "context": "60 900"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 67,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "33 300",
+        "normalized": "33300",
+        "line": 68,
+        "context": "33 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 72,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "27 100",
+        "normalized": "27100",
+        "line": 73,
+        "context": "27 100"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 74,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "17 900",
+        "normalized": "17900",
+        "line": 75,
+        "context": "17 900"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 80,
+        "context": "Cas 2 : Débits égaux**"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 97,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "16 500",
+        "normalized": "16500",
+        "line": 98,
+        "context": "16 500"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 105,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "15 500",
+        "normalized": "15500",
+        "line": 106,
+        "context": "15 500"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 107,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "13 800",
+        "normalized": "13800",
+        "line": 108,
+        "context": "13 800"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 110,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "22 900",
+        "normalized": "22900",
+        "line": 111,
+        "context": "22 900"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 116,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "21 600",
+        "normalized": "21600",
+        "line": 117,
+        "context": "21 600"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 118,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "19 300",
+        "normalized": "19300",
+        "line": 119,
+        "context": "19 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 121,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "8 100",
+        "normalized": "8100",
+        "line": 122,
+        "context": "8 100"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 126,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "7 600",
+        "normalized": "7600",
+        "line": 127,
+        "context": "7 600"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 128,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "6 800",
+        "normalized": "6800",
+        "line": 129,
+        "context": "6 800"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 131,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "91 400",
+        "normalized": "91400",
+        "line": 132,
+        "context": "91 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 137,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "86 000",
+        "normalized": "86000",
+        "line": 138,
+        "context": "86 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 139,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "77 000",
+        "normalized": "77000",
+        "line": 140,
+        "context": "77 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 142,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "42 100",
+        "normalized": "42100",
+        "line": 143,
+        "context": "42 100"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 147,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "34 300",
+        "normalized": "34300",
+        "line": 148,
+        "context": "34 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 149,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "22 700",
+        "normalized": "22700",
+        "line": 150,
+        "context": "22 700"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 154,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "35",
+        "normalized": "35",
+        "line": 155,
+        "context": "35"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 158,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "32",
+        "normalized": "32",
+        "line": 159,
+        "context": "32"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 160,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "27",
+        "normalized": "27",
+        "line": 161,
+        "context": "27"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 164,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "11",
+        "normalized": "11",
+        "line": 165,
+        "context": "11"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 168,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 169,
+        "context": "10"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 170,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "8",
+        "normalized": "8",
+        "line": 171,
+        "context": "8"
+      },
+      {
+        "type": "number",
+        "raw": "35%",
+        "normalized": "35%",
+        "line": 178,
+        "context": "NB : Pour une efficacité énergétique ε du récupérateur de 35%, la valeur prise en compte dans le calcul est de 0,35."
+      },
+      {
+        "type": "number",
+        "raw": "0,35",
+        "normalized": "0.35",
+        "line": 178,
+        "context": "NB : Pour une efficacité énergétique ε du récupérateur de 35%, la valeur prise en compte dans le calcul est de 0,35."
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Tertiaire_BAT/BAT-TH-154 vA28-1.pdf",

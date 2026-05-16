@@ -243,6 +243,211 @@
       "21,19 x R x W",
       "15,30 x R x W"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "100 %",
+        "normalized": "100%",
+        "line": 1,
+        "context": "Bateau à motorisation 100 % électrique :"
+      },
+      {
+        "type": "number",
+        "raw": "100 %",
+        "normalized": "100%",
+        "line": 4,
+        "context": "100 % électrique"
+      },
+      {
+        "type": "number",
+        "raw": "121,59",
+        "normalized": "121.59",
+        "line": 7,
+        "context": "121,59 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "79,21",
+        "normalized": "79.21",
+        "line": 9,
+        "context": "79,21 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "43,85",
+        "normalized": "43.85",
+        "line": 13,
+        "context": "43,85 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "31,96",
+        "normalized": "31.96",
+        "line": 15,
+        "context": "31,96 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "113,26",
+        "normalized": "113.26",
+        "line": 23,
+        "context": "113,26 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "70,88",
+        "normalized": "70.88",
+        "line": 25,
+        "context": "70,88 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "35,52",
+        "normalized": "35.52",
+        "line": 29,
+        "context": "35,52 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "23,63",
+        "normalized": "23.63",
+        "line": 31,
+        "context": "23,63 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "59,66",
+        "normalized": "59.66",
+        "line": 39,
+        "context": "59,66 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "38,69",
+        "normalized": "38.69",
+        "line": 41,
+        "context": "38,69 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "21,19",
+        "normalized": "21.19",
+        "line": 45,
+        "context": "21,19 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "15,30",
+        "normalized": "15.30",
+        "line": 47,
+        "context": "15,30 x R x W"
+      },
+      {
+        "type": "number",
+        "raw": "100 %",
+        "normalized": "100%",
+        "line": 52,
+        "context": "Pour un bateau à motorisation 100 % électrique et pour un bateau à motorisation hybride-série, le relevé d’heures"
+      },
+      {
+        "type": "number",
+        "raw": "275",
+        "normalized": "275",
+        "line": 58,
+        "context": "nombre total d’heures relevé sur la période d’utilisation du bateau, R, est plafonné à 275 heures."
+      },
+      {
+        "type": "number",
+        "raw": "28",
+        "normalized": "28",
+        "line": 61,
+        "context": "(rubrique 28) ou la carte de circulation du bateau pour les types de motorisation 100 % électrique et hybride-série."
+      },
+      {
+        "type": "number",
+        "raw": "100 %",
+        "normalized": "100%",
+        "line": 61,
+        "context": "(rubrique 28) ou la carte de circulation du bateau pour les types de motorisation 100 % électrique et hybride-série."
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 64,
+        "context": "Annexe 1 à la fiche d’opération standardisée TRA-EQ-127,"
+      },
+      {
+        "type": "number",
+        "raw": "127",
+        "normalized": "127",
+        "line": 64,
+        "context": "Annexe 1 à la fiche d’opération standardisée TRA-EQ-127,"
+      },
+      {
+        "type": "number",
+        "raw": "127",
+        "normalized": "127",
+        "line": 67,
+        "context": "A/ TRA-EQ-127 (v.A54.1) : Acquisition (achat ou location) d’un bateau neuf naviguant en eaux intérieures à"
+      },
+      {
+        "type": "number",
+        "raw": "4.1",
+        "normalized": "4.1",
+        "line": 67,
+        "context": "A/ TRA-EQ-127 (v.A54.1) : Acquisition (achat ou location) d’un bateau neuf naviguant en eaux intérieures à"
+      },
+      {
+        "type": "number",
+        "raw": "100 %",
+        "normalized": "100%",
+        "line": 85,
+        "context": "□ 100 % électrique □ Hybride série □ Hybride parallèle"
+      },
+      {
+        "type": "number",
+        "raw": "50 %",
+        "normalized": "50%",
+        "line": 86,
+        "context": "*Pour un bateau à propulsion hybride électrique, le taux d’hybridation est au moins de 50 % : □ Oui □ Non"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 91,
+        "context": "*Dans le cas d’une location, la durée de celle-ci est au moins de 60 mois (hors reconduction tacite) : □ Oui □ Non"
+      },
+      {
+        "type": "number",
+        "raw": "90 %",
+        "normalized": "90%",
+        "line": 94,
+        "context": "□ avec saisonnalité (i.e. au moins 90 % du chiffre d’affaires et/ou de la durée d’utilisation du bateau est réalisé entre mars et"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 133,
+        "context": "NB 1 : Pour les bateaux sans saisonnalité, la période de relevé couvre au maximum six mois consécutifs. Pour les bateaux avec"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 135,
+        "context": "NB 2 : Pour le bateau de réception, le nombre total d’heures relevées sur la période d’utilisation du bateau, R, est plafonné à"
+      },
+      {
+        "type": "number",
+        "raw": "275",
+        "normalized": "275",
+        "line": 136,
+        "context": "275 heures."
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

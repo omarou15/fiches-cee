@@ -33,7 +33,12 @@ Ce dossier est reserve au futur pipeline reproductible.
    - verifie lisibilite, texte extrait, presence du code fiche et fichiers generes ;
    - produit `data/indexes/pdf_audit_unique_fiches.json`.
 
-7. `search_fiches.py`
+7. `audit_formula_extraction.py`
+   - ouvre les PDF principaux des fiches uniques ;
+   - compare la section 5 officielle avec `calculation.formula_section_text` ;
+   - verifie que toutes les valeurs numeriques de la section 5 sont presentes dans `calculation.extracted_values`.
+
+8. `search_fiches.py`
    - recherche un code exact ou une requete plein texte dans les fiches et chunks.
 
 ## Commandes
@@ -54,6 +59,12 @@ Auditer les 217 fiches principales uniquement :
 
 ```bash
 python scripts/audit_unique_fiches.py --fail-on-issues
+```
+
+Auditer les formules et valeurs de calcul :
+
+```bash
+python scripts/audit_formula_extraction.py --fail-on-issues
 ```
 
 Chercher une fiche ou un sujet :

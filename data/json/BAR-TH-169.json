@@ -327,6 +327,351 @@
     "formula_section_page_end": 4,
     "unit": "Montant en kWh cumac par",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "2,8",
+        "normalized": "2.8",
+        "line": 14,
+        "context": "2,8 ≤ COP < 3,2"
+      },
+      {
+        "type": "number",
+        "raw": "3,2",
+        "normalized": "3.2",
+        "line": 14,
+        "context": "2,8 ≤ COP < 3,2"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 15,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "49 200",
+        "normalized": "49200",
+        "line": 16,
+        "context": "49 200"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 21,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "46 800",
+        "normalized": "46800",
+        "line": 22,
+        "context": "46 800"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 23,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "44 000",
+        "normalized": "44000",
+        "line": 24,
+        "context": "44 000"
+      },
+      {
+        "type": "number",
+        "raw": "3,2",
+        "normalized": "3.2",
+        "line": 25,
+        "context": "3,2 ≤ COP < 3,6"
+      },
+      {
+        "type": "number",
+        "raw": "3,6",
+        "normalized": "3.6",
+        "line": 25,
+        "context": "3,2 ≤ COP < 3,6"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 26,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "51 000",
+        "normalized": "51000",
+        "line": 27,
+        "context": "51 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 28,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "48 500",
+        "normalized": "48500",
+        "line": 29,
+        "context": "48 500"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 30,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "45 500",
+        "normalized": "45500",
+        "line": 31,
+        "context": "45 500"
+      },
+      {
+        "type": "number",
+        "raw": "3,6",
+        "normalized": "3.6",
+        "line": 32,
+        "context": "3,6 ≤ COP < 4"
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 32,
+        "context": "3,6 ≤ COP < 4"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 33,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "52 400",
+        "normalized": "52400",
+        "line": 34,
+        "context": "52 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 35,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "49 800",
+        "normalized": "49800",
+        "line": 36,
+        "context": "49 800"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 37,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "46 800",
+        "normalized": "46800",
+        "line": 38,
+        "context": "46 800"
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 39,
+        "context": "4 ≤ COP < 4,4"
+      },
+      {
+        "type": "number",
+        "raw": "4,4",
+        "normalized": "4.4",
+        "line": 39,
+        "context": "4 ≤ COP < 4,4"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 40,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "53 500",
+        "normalized": "53500",
+        "line": 41,
+        "context": "53 500"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 42,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "50 900",
+        "normalized": "50900",
+        "line": 43,
+        "context": "50 900"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 44,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "47 800",
+        "normalized": "47800",
+        "line": 45,
+        "context": "47 800"
+      },
+      {
+        "type": "number",
+        "raw": "4,4",
+        "normalized": "4.4",
+        "line": 46,
+        "context": "4,4 ≤ COP < 4,8"
+      },
+      {
+        "type": "number",
+        "raw": "4,8",
+        "normalized": "4.8",
+        "line": 46,
+        "context": "4,4 ≤ COP < 4,8"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 47,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "54 400",
+        "normalized": "54400",
+        "line": 48,
+        "context": "54 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 49,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "51 800",
+        "normalized": "51800",
+        "line": 50,
+        "context": "51 800"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 51,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "48 600",
+        "normalized": "48600",
+        "line": 52,
+        "context": "48 600"
+      },
+      {
+        "type": "number",
+        "raw": "4,8",
+        "normalized": "4.8",
+        "line": 53,
+        "context": "COP ≥ 4,8"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 54,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "55 000",
+        "normalized": "55000",
+        "line": 55,
+        "context": "55 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 56,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "52 300",
+        "normalized": "52300",
+        "line": 57,
+        "context": "52 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 58,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "49 200",
+        "normalized": "49200",
+        "line": 59,
+        "context": "49 200"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 61,
+        "context": "Le facteur R est défini en partie 3 de la présente fiche."
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 66,
+        "context": "NB : la somme des facteurs R des PAC installées est inférieure ou égale à 1."
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

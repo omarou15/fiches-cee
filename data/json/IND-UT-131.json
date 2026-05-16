@@ -204,6 +204,330 @@
       "3x8h avec arrêt le week-end",
       "3x8h sans arrêt le week-end"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "508",
+        "normalized": "508",
+        "line": 2,
+        "context": "508 mm (20’’) :"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 2,
+        "context": "508 mm (20’’) :"
+      },
+      {
+        "type": "number",
+        "raw": "80",
+        "normalized": "80",
+        "line": 17,
+        "context": "- 80°C < T ≤ -10°C"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 17,
+        "context": "- 80°C < T ≤ -10°C"
+      },
+      {
+        "type": "number",
+        "raw": "300",
+        "normalized": "300",
+        "line": 18,
+        "context": "300"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 20,
+        "context": "1x8h"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 21,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 24,
+        "context": "- 10°C < T ≤ 10°C"
+      },
+      {
+        "type": "number",
+        "raw": "180",
+        "normalized": "180",
+        "line": 25,
+        "context": "180"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 26,
+        "context": "2x8h"
+      },
+      {
+        "type": "number",
+        "raw": "2,2",
+        "normalized": "2.2",
+        "line": 27,
+        "context": "2,2"
+      },
+      {
+        "type": "number",
+        "raw": "40",
+        "normalized": "40",
+        "line": 28,
+        "context": "40°C < T ≤ 100°C"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 28,
+        "context": "40°C < T ≤ 100°C"
+      },
+      {
+        "type": "number",
+        "raw": "1050",
+        "normalized": "1050",
+        "line": 29,
+        "context": "1050"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 30,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 31,
+        "context": "3"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 32,
+        "context": "100°C < T ≤ 300°C"
+      },
+      {
+        "type": "number",
+        "raw": "300",
+        "normalized": "300",
+        "line": 32,
+        "context": "100°C < T ≤ 300°C"
+      },
+      {
+        "type": "number",
+        "raw": "1900",
+        "normalized": "1900",
+        "line": 33,
+        "context": "1900"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 34,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "4,2",
+        "normalized": "4.2",
+        "line": 35,
+        "context": "4,2"
+      },
+      {
+        "type": "number",
+        "raw": "300",
+        "normalized": "300",
+        "line": 36,
+        "context": "T > 300°C"
+      },
+      {
+        "type": "number",
+        "raw": "1850",
+        "normalized": "1850",
+        "line": 37,
+        "context": "1850"
+      },
+      {
+        "type": "number",
+        "raw": "508",
+        "normalized": "508",
+        "line": 40,
+        "context": "diamètre supérieur ou égal à 508 mm (20’’) :"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 40,
+        "context": "diamètre supérieur ou égal à 508 mm (20’’) :"
+      },
+      {
+        "type": "number",
+        "raw": "80",
+        "normalized": "80",
+        "line": 56,
+        "context": "- 80°C < T ≤ - 10°C"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 56,
+        "context": "- 80°C < T ≤ - 10°C"
+      },
+      {
+        "type": "number",
+        "raw": "450",
+        "normalized": "450",
+        "line": 57,
+        "context": "450"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 59,
+        "context": "1x8h"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 60,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 63,
+        "context": "- 10°C < T ≤ 10°C"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 64,
+        "context": "400"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 65,
+        "context": "2x8h"
+      },
+      {
+        "type": "number",
+        "raw": "2,2",
+        "normalized": "2.2",
+        "line": 66,
+        "context": "2,2"
+      },
+      {
+        "type": "number",
+        "raw": "40",
+        "normalized": "40",
+        "line": 67,
+        "context": "40°C < T ≤ 100°C"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 67,
+        "context": "40°C < T ≤ 100°C"
+      },
+      {
+        "type": "number",
+        "raw": "1300",
+        "normalized": "1300",
+        "line": 68,
+        "context": "1300"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 69,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 70,
+        "context": "3"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 71,
+        "context": "100°C < T≤ 300°C"
+      },
+      {
+        "type": "number",
+        "raw": "300",
+        "normalized": "300",
+        "line": 71,
+        "context": "100°C < T≤ 300°C"
+      },
+      {
+        "type": "number",
+        "raw": "2050",
+        "normalized": "2050",
+        "line": 72,
+        "context": "2050"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 73,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "4,2",
+        "normalized": "4.2",
+        "line": 74,
+        "context": "4,2"
+      },
+      {
+        "type": "number",
+        "raw": "300",
+        "normalized": "300",
+        "line": 75,
+        "context": "T > 300°C"
+      },
+      {
+        "type": "number",
+        "raw": "1850",
+        "normalized": "1850",
+        "line": 76,
+        "context": "1850"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables",

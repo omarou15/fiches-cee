@@ -313,6 +313,71 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par émetteur",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 14,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1 800",
+        "normalized": "1800",
+        "line": 15,
+        "context": "1 800"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 16,
+        "context": "1 500"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 18,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 19,
+        "context": "1 500"
+      },
+      {
+        "type": "number",
+        "raw": "1 200",
+        "normalized": "1200",
+        "line": 20,
+        "context": "1 200"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 21,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "1 100",
+        "normalized": "1100",
+        "line": 22,
+        "context": "1 100"
+      },
+      {
+        "type": "number",
+        "raw": "900",
+        "normalized": "900",
+        "line": 23,
+        "context": "900"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

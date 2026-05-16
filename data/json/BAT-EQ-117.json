@@ -199,6 +199,120 @@
     "formula_section_page_end": 5,
     "unit": "Montant en kWh cumac / kW",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 1,
+        "context": "Cas 1 : CO2 frigoporteur diphasique pour production de froid positif :"
+      },
+      {
+        "type": "number",
+        "raw": "7 300",
+        "normalized": "7300",
+        "line": 10,
+        "context": "7 300"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 24,
+        "context": "Cas 2 : froid négatif seul en cascade avec CO2 subcritique :"
+      },
+      {
+        "type": "number",
+        "raw": "8 400",
+        "normalized": "8400",
+        "line": 32,
+        "context": "8 400"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 48,
+        "context": "Cas 3 : froid positif et négatif ou positif seul ou négatif seul, mise en place d’une installation au CO2 transcritique :"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 63,
+        "context": "(Option 3)"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 64,
+        "context": "Option 0"
+      },
+      {
+        "type": "number",
+        "raw": "8 500",
+        "normalized": "8500",
+        "line": 65,
+        "context": "8 500"
+      },
+      {
+        "type": "number",
+        "raw": "12 500",
+        "normalized": "12500",
+        "line": 66,
+        "context": "12 500"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 68,
+        "context": "Option 1 ou 1 bis"
+      },
+      {
+        "type": "number",
+        "raw": "10 300",
+        "normalized": "10300",
+        "line": 69,
+        "context": "10 300"
+      },
+      {
+        "type": "number",
+        "raw": "14 100",
+        "normalized": "14100",
+        "line": 70,
+        "context": "14 100"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 72,
+        "context": "Option 2"
+      },
+      {
+        "type": "number",
+        "raw": "12 700",
+        "normalized": "12700",
+        "line": 73,
+        "context": "12 700"
+      },
+      {
+        "type": "number",
+        "raw": "16 300",
+        "normalized": "16300",
+        "line": 74,
+        "context": "16 300"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 86,
+        "context": "Les cas et options susmentionnés sont ceux indiqués dans le tableau de la partie 2 de la présente fiche."
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

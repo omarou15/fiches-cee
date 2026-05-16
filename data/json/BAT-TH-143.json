@@ -192,6 +192,344 @@
     "formula_section_page_end": 2,
     "unit": "Montant des certificats d’économies d’énergie en mode chauffage Mch Montant en kWh cumac par m2",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 23,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "65",
+        "normalized": "65",
+        "line": 24,
+        "context": "65"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 27,
+        "context": "H1"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 28,
+        "context": "H2"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 29,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "2,30",
+        "normalized": "2.30",
+        "line": 31,
+        "context": "2,30"
+      },
+      {
+        "type": "number",
+        "raw": "2,35",
+        "normalized": "2.35",
+        "line": 32,
+        "context": "2,35"
+      },
+      {
+        "type": "number",
+        "raw": "2,35",
+        "normalized": "2.35",
+        "line": 33,
+        "context": "2,35"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 34,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "57",
+        "normalized": "57",
+        "line": 35,
+        "context": "57"
+      },
+      {
+        "type": "number",
+        "raw": "2,20",
+        "normalized": "2.20",
+        "line": 38,
+        "context": "2,20"
+      },
+      {
+        "type": "number",
+        "raw": "2,20",
+        "normalized": "2.20",
+        "line": 39,
+        "context": "2,20"
+      },
+      {
+        "type": "number",
+        "raw": "2,20",
+        "normalized": "2.20",
+        "line": 40,
+        "context": "2,20"
+      },
+      {
+        "type": "number",
+        "raw": "0,65",
+        "normalized": "0.65",
+        "line": 42,
+        "context": "0,65"
+      },
+      {
+        "type": "number",
+        "raw": "0,60",
+        "normalized": "0.60",
+        "line": 43,
+        "context": "0,60"
+      },
+      {
+        "type": "number",
+        "raw": "0,65",
+        "normalized": "0.65",
+        "line": 44,
+        "context": "0,65"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 45,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "48",
+        "normalized": "48",
+        "line": 46,
+        "context": "48"
+      },
+      {
+        "type": "number",
+        "raw": "0,60",
+        "normalized": "0.60",
+        "line": 49,
+        "context": "0,60"
+      },
+      {
+        "type": "number",
+        "raw": "0,60",
+        "normalized": "0.60",
+        "line": 50,
+        "context": "0,60"
+      },
+      {
+        "type": "number",
+        "raw": "0,60",
+        "normalized": "0.60",
+        "line": 51,
+        "context": "0,60"
+      },
+      {
+        "type": "number",
+        "raw": "0,45",
+        "normalized": "0.45",
+        "line": 53,
+        "context": "0,45"
+      },
+      {
+        "type": "number",
+        "raw": "0,45",
+        "normalized": "0.45",
+        "line": 54,
+        "context": "0,45"
+      },
+      {
+        "type": "number",
+        "raw": "0,40",
+        "normalized": "0.40",
+        "line": 55,
+        "context": "0,40"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 79,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "9",
+        "normalized": "9",
+        "line": 80,
+        "context": "9"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 83,
+        "context": "H1"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 84,
+        "context": "H2"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 85,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "2,05",
+        "normalized": "2.05",
+        "line": 87,
+        "context": "2,05"
+      },
+      {
+        "type": "number",
+        "raw": "2,10",
+        "normalized": "2.10",
+        "line": 88,
+        "context": "2,10"
+      },
+      {
+        "type": "number",
+        "raw": "2,05",
+        "normalized": "2.05",
+        "line": 89,
+        "context": "2,05"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 90,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "13",
+        "normalized": "13",
+        "line": 91,
+        "context": "13"
+      },
+      {
+        "type": "number",
+        "raw": "3,10",
+        "normalized": "3.10",
+        "line": 94,
+        "context": "3,10"
+      },
+      {
+        "type": "number",
+        "raw": "3,35",
+        "normalized": "3.35",
+        "line": 95,
+        "context": "3,35"
+      },
+      {
+        "type": "number",
+        "raw": "2,60",
+        "normalized": "2.60",
+        "line": 96,
+        "context": "2,60"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 98,
+        "context": "0"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 99,
+        "context": "0"
+      },
+      {
+        "type": "number",
+        "raw": "0,80",
+        "normalized": "0.80",
+        "line": 100,
+        "context": "0,80"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 101,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 102,
+        "context": "24"
+      },
+      {
+        "type": "number",
+        "raw": "1,85",
+        "normalized": "1.85",
+        "line": 105,
+        "context": "1,85"
+      },
+      {
+        "type": "number",
+        "raw": "1,55",
+        "normalized": "1.55",
+        "line": 106,
+        "context": "1,55"
+      },
+      {
+        "type": "number",
+        "raw": "0,95",
+        "normalized": "0.95",
+        "line": 107,
+        "context": "0,95"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 109,
+        "context": "0"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 110,
+        "context": "0"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 111,
+        "context": "0"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

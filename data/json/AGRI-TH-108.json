@@ -267,6 +267,134 @@
       "- pour une serre maraichère : [S] ou [15 x P] ;",
       "- pour une serre horticole : [S] ou [31 x P]."
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 1,
+        "context": "Pour une PAC de puissance thermique nominale ≤ 400 kW :"
+      },
+      {
+        "type": "number",
+        "raw": "111%",
+        "normalized": "111%",
+        "line": 10,
+        "context": "111% ≤ ηs < 126%"
+      },
+      {
+        "type": "number",
+        "raw": "126%",
+        "normalized": "126%",
+        "line": 10,
+        "context": "111% ≤ ηs < 126%"
+      },
+      {
+        "type": "number",
+        "raw": "800",
+        "normalized": "800",
+        "line": 12,
+        "context": "800"
+      },
+      {
+        "type": "number",
+        "raw": "380",
+        "normalized": "380",
+        "line": 16,
+        "context": "380"
+      },
+      {
+        "type": "number",
+        "raw": "126%",
+        "normalized": "126%",
+        "line": 17,
+        "context": "126% ≤ ηs"
+      },
+      {
+        "type": "number",
+        "raw": "970",
+        "normalized": "970",
+        "line": 19,
+        "context": "970"
+      },
+      {
+        "type": "number",
+        "raw": "460",
+        "normalized": "460",
+        "line": 21,
+        "context": "460"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 23,
+        "context": "Pour une PAC de puissance thermique nominale > 400 kW :"
+      },
+      {
+        "type": "number",
+        "raw": "3,4",
+        "normalized": "3.4",
+        "line": 31,
+        "context": "3,4 ≤ COP < 4"
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 31,
+        "context": "3,4 ≤ COP < 4"
+      },
+      {
+        "type": "number",
+        "raw": "780",
+        "normalized": "780",
+        "line": 33,
+        "context": "780"
+      },
+      {
+        "type": "number",
+        "raw": "370",
+        "normalized": "370",
+        "line": 37,
+        "context": "370"
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 38,
+        "context": "4 ≤ COP"
+      },
+      {
+        "type": "number",
+        "raw": "1 040",
+        "normalized": "1040",
+        "line": 40,
+        "context": "1 040"
+      },
+      {
+        "type": "number",
+        "raw": "490",
+        "normalized": "490",
+        "line": 42,
+        "context": "490"
+      },
+      {
+        "type": "number",
+        "raw": "15",
+        "normalized": "15",
+        "line": 47,
+        "context": "- pour une serre maraichère : [S] ou [15 x P] ;"
+      },
+      {
+        "type": "number",
+        "raw": "31",
+        "normalized": "31",
+        "line": 48,
+        "context": "- pour une serre horticole : [S] ou [31 x P]."
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

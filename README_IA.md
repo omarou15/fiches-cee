@@ -22,6 +22,7 @@ Pour une IA :
 - `data/indexes/formulas_cee_index.json` : formules de calcul extraites des sections 5 des fiches uniques.
 - `data/indexes/extraction_report.json` : rapport qualite de l'extraction.
 - `data/indexes/pdf_audit_unique_fiches.json` : audit des PDF principaux des fiches uniques uniquement.
+- `data/indexes/formula_audit_report.json` : audit PDF -> JSON des sections 5 et des valeurs de calcul.
 - `data/curated/` : enrichissements metier reproductibles appliques au build.
 - `data/json/` : JSON metier par fiche.
 - `data/markdown/` : Markdown lisible par fiche.

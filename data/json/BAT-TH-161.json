@@ -264,6 +264,43 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "800",
+        "normalized": "800",
+        "line": 6,
+        "context": "800 kW ≤ P ≤ 1 200 kW"
+      },
+      {
+        "type": "number",
+        "raw": "1 200",
+        "normalized": "1200",
+        "line": 6,
+        "context": "800 kW ≤ P ≤ 1 200 kW"
+      },
+      {
+        "type": "number",
+        "raw": "167 800",
+        "normalized": "167800",
+        "line": 7,
+        "context": "167 800"
+      },
+      {
+        "type": "number",
+        "raw": "1 200",
+        "normalized": "1200",
+        "line": 8,
+        "context": "1 200 kW < P"
+      },
+      {
+        "type": "number",
+        "raw": "279 600",
+        "normalized": "279600",
+        "line": 9,
+        "context": "279 600"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Tertiaire_BAT/BAT-TH-161 vA62-1 à compter du 31-08-2024_1.pdf",

@@ -176,6 +176,155 @@
     "formula_section_page_end": 3,
     "unit": "Montant de certificats en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "17,984",
+        "normalized": "17.984",
+        "line": 2,
+        "context": "(Cefmax - Cef)*Sref* 17,984"
+      },
+      {
+        "type": "number",
+        "raw": "020",
+        "normalized": "020",
+        "line": 6,
+        "context": "Sref : Surface de référence au sens de la RE2020 du bâtiment ou de la partie de bâtiment."
+      },
+      {
+        "type": "number",
+        "raw": "2,3",
+        "normalized": "2.3",
+        "line": 13,
+        "context": "2,3"
+      },
+      {
+        "type": "number",
+        "raw": "0,90",
+        "normalized": "0.90",
+        "line": 17,
+        "context": "𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,90 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1"
+      },
+      {
+        "type": "number",
+        "raw": "0,1",
+        "normalized": "0.1",
+        "line": 17,
+        "context": "𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,90 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1"
+      },
+      {
+        "type": "number",
+        "raw": "2,3",
+        "normalized": "2.3",
+        "line": 18,
+        "context": "2,3"
+      },
+      {
+        "type": "number",
+        "raw": "0,65",
+        "normalized": "0.65",
+        "line": 23,
+        "context": "𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,65 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,25"
+      },
+      {
+        "type": "number",
+        "raw": "0,25",
+        "normalized": "0.25",
+        "line": 23,
+        "context": "𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,65 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,25"
+      },
+      {
+        "type": "number",
+        "raw": "2,3",
+        "normalized": "2.3",
+        "line": 24,
+        "context": "2,3"
+      },
+      {
+        "type": "number",
+        "raw": "0,1",
+        "normalized": "0.1",
+        "line": 25,
+        "context": "+ 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1"
+      },
+      {
+        "type": "number",
+        "raw": "2,3",
+        "normalized": "2.3",
+        "line": 26,
+        "context": "2,3"
+      },
+      {
+        "type": "number",
+        "raw": "0,3",
+        "normalized": "0.3",
+        "line": 31,
+        "context": "𝐶𝑒𝑓𝑚𝑎𝑥= 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,3"
+      },
+      {
+        "type": "number",
+        "raw": "2,3",
+        "normalized": "2.3",
+        "line": 32,
+        "context": "2,3"
+      },
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 33,
+        "context": "+ 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,6 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1"
+      },
+      {
+        "type": "number",
+        "raw": "0,1",
+        "normalized": "0.1",
+        "line": 33,
+        "context": "+ 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,6 + 𝐶𝑒𝑝𝑚𝑎𝑥𝑥0,1"
+      },
+      {
+        "type": "number",
+        "raw": "2,3",
+        "normalized": "2.3",
+        "line": 34,
+        "context": "2,3"
+      },
+      {
+        "type": "number",
+        "raw": "16.4",
+        "normalized": "16.4",
+        "line": 38,
+        "context": "Calcul de la quote-part combustible et électricité à valoriser selon la partie 16.4 FA_PAC_hybrides electriques gaz"
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 39,
+        "context": "de l’annexe III de l’arrêté du 4 août 2021 modifié relatif aux exigences de performance énergétique et"
+      },
+      {
+        "type": "number",
+        "raw": "2021",
+        "normalized": "2021",
+        "line": 39,
+        "context": "de l’annexe III de l’arrêté du 4 août 2021 modifié relatif aux exigences de performance énergétique et"
+      },
+      {
+        "type": "number",
+        "raw": "172",
+        "normalized": "172",
+        "line": 42,
+        "context": "calcul prévue à l’article R. 172-6 du code de la construction et de l’habitation."
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 42,
+        "context": "calcul prévue à l’article R. 172-6 du code de la construction et de l’habitation."
+      }
+    ],
     "calculation_methods": [
       "coefficient_based"
     ],

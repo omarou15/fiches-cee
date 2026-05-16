@@ -164,6 +164,330 @@
       "3x8 avec arrêt le week-end",
       "3x8 sans arrêt le week-end"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "600",
+        "normalized": "600",
+        "line": 15,
+        "context": "600 ≤ T ≤ 750"
+      },
+      {
+        "type": "number",
+        "raw": "750",
+        "normalized": "750",
+        "line": 15,
+        "context": "600 ≤ T ≤ 750"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 16,
+        "context": "1 600"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 19,
+        "context": "1x8"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 20,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "750",
+        "normalized": "750",
+        "line": 25,
+        "context": "750 < T ≤ 1000"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 25,
+        "context": "750 < T ≤ 1000"
+      },
+      {
+        "type": "number",
+        "raw": "2 500",
+        "normalized": "2500",
+        "line": 26,
+        "context": "2 500"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 27,
+        "context": "2x8"
+      },
+      {
+        "type": "number",
+        "raw": "2,2",
+        "normalized": "2.2",
+        "line": 28,
+        "context": "2,2"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 29,
+        "context": "1000 < T ≤ 1250"
+      },
+      {
+        "type": "number",
+        "raw": "1250",
+        "normalized": "1250",
+        "line": 29,
+        "context": "1000 < T ≤ 1250"
+      },
+      {
+        "type": "number",
+        "raw": "4 100",
+        "normalized": "4100",
+        "line": 30,
+        "context": "4 100"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 31,
+        "context": "3x8 avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 32,
+        "context": "3"
+      },
+      {
+        "type": "number",
+        "raw": "1250",
+        "normalized": "1250",
+        "line": 33,
+        "context": "1250 < T"
+      },
+      {
+        "type": "number",
+        "raw": "5 800",
+        "normalized": "5800",
+        "line": 34,
+        "context": "5 800"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 35,
+        "context": "3x8 sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "4,2",
+        "normalized": "4.2",
+        "line": 36,
+        "context": "4,2"
+      },
+      {
+        "type": "number",
+        "raw": "600",
+        "normalized": "600",
+        "line": 53,
+        "context": "600 ≤ T ≤ 750"
+      },
+      {
+        "type": "number",
+        "raw": "750",
+        "normalized": "750",
+        "line": 53,
+        "context": "600 ≤ T ≤ 750"
+      },
+      {
+        "type": "number",
+        "raw": "2 300",
+        "normalized": "2300",
+        "line": 54,
+        "context": "2 300"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 56,
+        "context": "1x8"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 57,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "750",
+        "normalized": "750",
+        "line": 60,
+        "context": "750 < T ≤ 1000"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 60,
+        "context": "750 < T ≤ 1000"
+      },
+      {
+        "type": "number",
+        "raw": "3 500",
+        "normalized": "3500",
+        "line": 61,
+        "context": "3 500"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 62,
+        "context": "2x8"
+      },
+      {
+        "type": "number",
+        "raw": "2,2",
+        "normalized": "2.2",
+        "line": 63,
+        "context": "2,2"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 64,
+        "context": "1000 < T ≤ 1250"
+      },
+      {
+        "type": "number",
+        "raw": "1250",
+        "normalized": "1250",
+        "line": 64,
+        "context": "1000 < T ≤ 1250"
+      },
+      {
+        "type": "number",
+        "raw": "5 600",
+        "normalized": "5600",
+        "line": 65,
+        "context": "5 600"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 66,
+        "context": "3x8 avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 67,
+        "context": "3"
+      },
+      {
+        "type": "number",
+        "raw": "1250",
+        "normalized": "1250",
+        "line": 68,
+        "context": "1250 < T"
+      },
+      {
+        "type": "number",
+        "raw": "7 800",
+        "normalized": "7800",
+        "line": 69,
+        "context": "7 800"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 70,
+        "context": "3x8 sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "4,2",
+        "normalized": "4.2",
+        "line": 71,
+        "context": "4,2"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 85,
+        "context": "1x8"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 86,
+        "context": "1 000"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 89,
+        "context": "2x8"
+      },
+      {
+        "type": "number",
+        "raw": "2 300",
+        "normalized": "2300",
+        "line": 90,
+        "context": "2 300"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 91,
+        "context": "3x8 avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "3 100",
+        "normalized": "3100",
+        "line": 92,
+        "context": "3 100"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 93,
+        "context": "3x8 sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "4 300",
+        "normalized": "4300",
+        "line": 94,
+        "context": "4 300"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables",

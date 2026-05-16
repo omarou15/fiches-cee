@@ -235,6 +235,29 @@
     "expressions": [
       "10,986 x (Q – Eélec)"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "10,986",
+        "normalized": "10.986",
+        "line": 3,
+        "context": "10,986 x (Q – Eélec)"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 6,
+        "context": "d du II.3 ci-dessus de l’étude de dimensionnement."
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 9,
+        "context": "électriques absorbées par le ou les compresseur(s) et les auxiliaires, calculée au e du II.3 ci-dessus de l’étude de"
+      }
+    ],
     "calculation_methods": [
       "direct_expression"
     ],

@@ -200,6 +200,50 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par m² Aire de la projection horizontale de la surface",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 8,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "3 400",
+        "normalized": "3400",
+        "line": 9,
+        "context": "3 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 12,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "4 000",
+        "normalized": "4000",
+        "line": 13,
+        "context": "4 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 14,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "6 400",
+        "normalized": "6400",
+        "line": 15,
+        "context": "6 400"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

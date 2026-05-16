@@ -127,6 +127,92 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 6,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "23 600",
+        "normalized": "23600",
+        "line": 7,
+        "context": "23 600"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 8,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "19 700",
+        "normalized": "19700",
+        "line": 9,
+        "context": "19 700"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 10,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "14 100",
+        "normalized": "14100",
+        "line": 11,
+        "context": "14 100"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 18,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "12 200",
+        "normalized": "12200",
+        "line": 19,
+        "context": "12 200"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 20,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "10 200",
+        "normalized": "10200",
+        "line": 21,
+        "context": "10 200"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 22,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "7 300",
+        "normalized": "7300",
+        "line": 23,
+        "context": "7 300"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Residentiel_BAR/BAR-SE-108 vA71-3 à compter du 01-08-2025.pdf",

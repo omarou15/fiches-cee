@@ -272,6 +272,274 @@
     "formula_section_page_end": 3,
     "unit": "Montant kWhc X",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "111%",
+        "normalized": "111%",
+        "line": 24,
+        "context": "111%≤ Etas<140%"
+      },
+      {
+        "type": "number",
+        "raw": "140%",
+        "normalized": "140%",
+        "line": 24,
+        "context": "111%≤ Etas<140%"
+      },
+      {
+        "type": "number",
+        "raw": "48 700",
+        "normalized": "48700",
+        "line": 25,
+        "context": "48 700"
+      },
+      {
+        "type": "number",
+        "raw": "0,5",
+        "normalized": "0.5",
+        "line": 26,
+        "context": "0,5"
+      },
+      {
+        "type": "number",
+        "raw": "35",
+        "normalized": "35",
+        "line": 27,
+        "context": "S < 35"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 28,
+        "context": "1,2"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 29,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "140%",
+        "normalized": "140%",
+        "line": 30,
+        "context": "140%≤ Etas"
+      },
+      {
+        "type": "number",
+        "raw": "58 900",
+        "normalized": "58900",
+        "line": 31,
+        "context": "58 900"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 32,
+        "context": "0,7"
+      },
+      {
+        "type": "number",
+        "raw": "35",
+        "normalized": "35",
+        "line": 33,
+        "context": "35 ≤ S < 60"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 33,
+        "context": "35 ≤ S < 60"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 34,
+        "context": "1"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 35,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 38,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 39,
+        "context": "60 ≤ S"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 40,
+        "context": "0,7"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 41,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "111%",
+        "normalized": "111%",
+        "line": 65,
+        "context": "111%≤ Etas<140%"
+      },
+      {
+        "type": "number",
+        "raw": "140%",
+        "normalized": "140%",
+        "line": 65,
+        "context": "111%≤ Etas<140%"
+      },
+      {
+        "type": "number",
+        "raw": "90 900",
+        "normalized": "90900",
+        "line": 66,
+        "context": "90 900"
+      },
+      {
+        "type": "number",
+        "raw": "0,5",
+        "normalized": "0.5",
+        "line": 67,
+        "context": "0,5"
+      },
+      {
+        "type": "number",
+        "raw": "70",
+        "normalized": "70",
+        "line": 68,
+        "context": "S < 70"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 69,
+        "context": "1,2"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 70,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "140%",
+        "normalized": "140%",
+        "line": 71,
+        "context": "140%≤ Etas"
+      },
+      {
+        "type": "number",
+        "raw": "109 200",
+        "normalized": "109200",
+        "line": 72,
+        "context": "109 200"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 73,
+        "context": "0,7"
+      },
+      {
+        "type": "number",
+        "raw": "70",
+        "normalized": "70",
+        "line": 74,
+        "context": "70 ≤ S < 90"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 74,
+        "context": "70 ≤ S < 90"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 75,
+        "context": "1"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 76,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 79,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "90",
+        "normalized": "90",
+        "line": 80,
+        "context": "90 ≤ S"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 81,
+        "context": "0,7"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 82,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "156",
+        "normalized": "156",
+        "line": 84,
+        "context": "NB : La surface chauffée prise en compte est la surface habitable, au sens de l'article R. 156-1 du code de la"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 84,
+        "context": "NB : La surface chauffée prise en compte est la surface habitable, au sens de l'article R. 156-1 du code de la"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

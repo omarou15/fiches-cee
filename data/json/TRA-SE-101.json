@@ -135,6 +135,22 @@
     "formula_section_page_end": 2,
     "unit": "kWh cumac par personne formée Nombre de personnes",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "12 400",
+        "normalized": "12400",
+        "line": 14,
+        "context": "12 400"
+      },
+      {
+        "type": "number",
+        "raw": "9 100",
+        "normalized": "9100",
+        "line": 22,
+        "context": "9 100"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Transport_TRA/TRA-SE-101 vA14-1.pdf",

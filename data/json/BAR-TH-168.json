@@ -264,6 +264,71 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac par m2 de capteur",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 13,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "6 000",
+        "normalized": "6000",
+        "line": 14,
+        "context": "6 000"
+      },
+      {
+        "type": "number",
+        "raw": "14 000",
+        "normalized": "14000",
+        "line": 15,
+        "context": "14 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 17,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "7 200",
+        "normalized": "7200",
+        "line": 18,
+        "context": "7 200"
+      },
+      {
+        "type": "number",
+        "raw": "12 700",
+        "normalized": "12700",
+        "line": 19,
+        "context": "12 700"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 21,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "9 600",
+        "normalized": "9600",
+        "line": 22,
+        "context": "9 600"
+      },
+      {
+        "type": "number",
+        "raw": "10 300",
+        "normalized": "10300",
+        "line": 23,
+        "context": "10 300"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

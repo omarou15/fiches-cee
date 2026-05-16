@@ -160,6 +160,43 @@
     "formula_section_page_end": 1,
     "unit": "Montant en kWh cumac par kW Puissance active de sortie",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 8,
+        "context": "100 kW < P ≤ 200 kW"
+      },
+      {
+        "type": "number",
+        "raw": "200",
+        "normalized": "200",
+        "line": 8,
+        "context": "100 kW < P ≤ 200 kW"
+      },
+      {
+        "type": "number",
+        "raw": "3 100",
+        "normalized": "3100",
+        "line": 9,
+        "context": "3 100"
+      },
+      {
+        "type": "number",
+        "raw": "200",
+        "normalized": "200",
+        "line": 12,
+        "context": "P > 200 kW"
+      },
+      {
+        "type": "number",
+        "raw": "2 500",
+        "normalized": "2500",
+        "line": 13,
+        "context": "2 500"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

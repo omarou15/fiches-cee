@@ -144,6 +144,22 @@
     "formula_section_page_end": 2,
     "unit": "Montant de certificats pour une serre horticole : Montant unitaire en kWh cumac par m² de serre horticole chauffée",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "86",
+        "normalized": "86",
+        "line": 7,
+        "context": "86"
+      },
+      {
+        "type": "number",
+        "raw": "9",
+        "normalized": "9",
+        "line": 17,
+        "context": "9"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

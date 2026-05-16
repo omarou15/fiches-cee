@@ -160,6 +160,134 @@
     "formula_section_page_end": 2,
     "unit": "Montant unitaire en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "66",
+        "normalized": "66",
+        "line": 16,
+        "context": "66"
+      },
+      {
+        "type": "number",
+        "raw": "37",
+        "normalized": "37",
+        "line": 17,
+        "context": "37"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 21,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 22,
+        "context": "1,1"
+      },
+      {
+        "type": "number",
+        "raw": "43",
+        "normalized": "43",
+        "line": 24,
+        "context": "43"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 25,
+        "context": "24"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 26,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 27,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "47",
+        "normalized": "47",
+        "line": 29,
+        "context": "47"
+      },
+      {
+        "type": "number",
+        "raw": "27",
+        "normalized": "27",
+        "line": 30,
+        "context": "27"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 31,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 32,
+        "context": "0,6"
+      },
+      {
+        "type": "number",
+        "raw": "78",
+        "normalized": "78",
+        "line": 34,
+        "context": "78"
+      },
+      {
+        "type": "number",
+        "raw": "29",
+        "normalized": "29",
+        "line": 35,
+        "context": "29"
+      },
+      {
+        "type": "number",
+        "raw": "54",
+        "normalized": "54",
+        "line": 38,
+        "context": "54"
+      },
+      {
+        "type": "number",
+        "raw": "31",
+        "normalized": "31",
+        "line": 39,
+        "context": "31"
+      },
+      {
+        "type": "number",
+        "raw": "43",
+        "normalized": "43",
+        "line": 41,
+        "context": "43"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 42,
+        "context": "24"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

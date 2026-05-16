@@ -143,6 +143,29 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 8,
+        "context": "10"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 13,
+        "context": "12"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 20,
+        "context": "ayant transité dans le silo ou l’installation de stockage en vrac de céréales au cours des 12 mois suivant la date de"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

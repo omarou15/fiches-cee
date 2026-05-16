@@ -156,6 +156,316 @@
       "3x8h avec arrêt le week-end",
       "3x8h sans arrêt le week-end"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 22,
+        "context": "1x8h"
+      },
+      {
+        "type": "number",
+        "raw": "12 000",
+        "normalized": "12000",
+        "line": 23,
+        "context": "12 000"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 26,
+        "context": "2x8h"
+      },
+      {
+        "type": "number",
+        "raw": "26 300",
+        "normalized": "26300",
+        "line": 27,
+        "context": "26 300"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 28,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "36 000",
+        "normalized": "36000",
+        "line": 29,
+        "context": "36 000"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 30,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "50 300",
+        "normalized": "50300",
+        "line": 31,
+        "context": "50 300"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 33,
+        "context": "Mise en place d’une presse à injecter hybride 2 :"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 42,
+        "context": "1x8h"
+      },
+      {
+        "type": "number",
+        "raw": "7 700",
+        "normalized": "7700",
+        "line": 43,
+        "context": "7 700"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 46,
+        "context": "2x8h"
+      },
+      {
+        "type": "number",
+        "raw": "17 000",
+        "normalized": "17000",
+        "line": 47,
+        "context": "17 000"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 48,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "23 100",
+        "normalized": "23100",
+        "line": 49,
+        "context": "23 100"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 50,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "32 400",
+        "normalized": "32400",
+        "line": 51,
+        "context": "32 400"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 53,
+        "context": "Mise en place d’une presse à injecter hybride 1 :"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 62,
+        "context": "1x8h"
+      },
+      {
+        "type": "number",
+        "raw": "4 500",
+        "normalized": "4500",
+        "line": 63,
+        "context": "4 500"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 66,
+        "context": "2x8h"
+      },
+      {
+        "type": "number",
+        "raw": "9 900",
+        "normalized": "9900",
+        "line": 67,
+        "context": "9 900"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 68,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "13 500",
+        "normalized": "13500",
+        "line": 69,
+        "context": "13 500"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 70,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "18 900",
+        "normalized": "18900",
+        "line": 71,
+        "context": "18 900"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 73,
+        "context": "Transformation d’une presse à injecter hydraulique existante en presse à injecter hybride 2 par l’installation d’un"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 83,
+        "context": "1x8h"
+      },
+      {
+        "type": "number",
+        "raw": "4 200",
+        "normalized": "4200",
+        "line": 84,
+        "context": "4 200"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 87,
+        "context": "2x8h"
+      },
+      {
+        "type": "number",
+        "raw": "9 200",
+        "normalized": "9200",
+        "line": 88,
+        "context": "9 200"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 89,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "12 600",
+        "normalized": "12600",
+        "line": 90,
+        "context": "12 600"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 91,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "17 600",
+        "normalized": "17600",
+        "line": 92,
+        "context": "17 600"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 94,
+        "context": "Transformation d’une presse à injecter hydraulique existante en presse à injecter hybride 1 par l’installation d’un"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 104,
+        "context": "1x8h"
+      },
+      {
+        "type": "number",
+        "raw": "2 800",
+        "normalized": "2800",
+        "line": 105,
+        "context": "2 800"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 108,
+        "context": "2x8h"
+      },
+      {
+        "type": "number",
+        "raw": "6 200",
+        "normalized": "6200",
+        "line": 109,
+        "context": "6 200"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 110,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "8 400",
+        "normalized": "8400",
+        "line": 111,
+        "context": "8 400"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 112,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "11 700",
+        "normalized": "11700",
+        "line": 113,
+        "context": "11 700"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

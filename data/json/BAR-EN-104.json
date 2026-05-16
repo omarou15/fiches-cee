@@ -200,6 +200,50 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par m² de fenêtres, doubles fenêtres ou portes fenêtres",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 14,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "3 800",
+        "normalized": "3800",
+        "line": 15,
+        "context": "3 800"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 18,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "3 100",
+        "normalized": "3100",
+        "line": 19,
+        "context": "3 100"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 20,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "2 100",
+        "normalized": "2100",
+        "line": 21,
+        "context": "2 100"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

@@ -232,6 +232,64 @@
     "formula_section_page_end": 1,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 5,
+        "context": "de 0 à 78"
+      },
+      {
+        "type": "number",
+        "raw": "78",
+        "normalized": "78",
+        "line": 5,
+        "context": "de 0 à 78"
+      },
+      {
+        "type": "number",
+        "raw": "8 000",
+        "normalized": "8000",
+        "line": 6,
+        "context": "8 000"
+      },
+      {
+        "type": "number",
+        "raw": "79",
+        "normalized": "79",
+        "line": 7,
+        "context": "de 79 à 133"
+      },
+      {
+        "type": "number",
+        "raw": "133",
+        "normalized": "133",
+        "line": 7,
+        "context": "de 79 à 133"
+      },
+      {
+        "type": "number",
+        "raw": "16 800",
+        "normalized": "16800",
+        "line": 8,
+        "context": "16 800"
+      },
+      {
+        "type": "number",
+        "raw": "134",
+        "normalized": "134",
+        "line": 9,
+        "context": "à compter de 134"
+      },
+      {
+        "type": "number",
+        "raw": "22 400",
+        "normalized": "22400",
+        "line": 10,
+        "context": "22 400"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Agriculture_AGRI/AGRI-SE-101 vA40-2 à compter du 01-04-2022_0.pdf",

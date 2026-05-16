@@ -156,6 +156,78 @@
       "3x8h avec arrêt le week-end",
       "3x8h sans arrêt le week-end"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 10,
+        "context": "1x8h"
+      },
+      {
+        "type": "number",
+        "raw": "550",
+        "normalized": "550",
+        "line": 11,
+        "context": "550"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 14,
+        "context": "2x8h"
+      },
+      {
+        "type": "number",
+        "raw": "1 200",
+        "normalized": "1200",
+        "line": 15,
+        "context": "1 200"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 16,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 17,
+        "context": "1 600"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 18,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "2 300",
+        "normalized": "2300",
+        "line": 19,
+        "context": "2 300"
+      },
+      {
+        "type": "number",
+        "raw": "224",
+        "normalized": "224",
+        "line": 23,
+        "context": "R.224-20 du code de l’environnement comme « la puissance thermique maximale fixée et garantie par le"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 23,
+        "context": "R.224-20 du code de l’environnement comme « la puissance thermique maximale fixée et garantie par le"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

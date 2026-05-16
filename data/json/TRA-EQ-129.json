@@ -168,6 +168,442 @@
     "formula_section_page_end": 4,
     "unit": "Montant en kWh cumac par véhicule Nombre de",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "3,5",
+        "normalized": "3.5",
+        "line": 10,
+        "context": "Camion porteur > 3,5 tonnes et < 4,25 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "4,25",
+        "normalized": "4.25",
+        "line": 10,
+        "context": "Camion porteur > 3,5 tonnes et < 4,25 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "222 300",
+        "normalized": "222300",
+        "line": 11,
+        "context": "222 300"
+      },
+      {
+        "type": "number",
+        "raw": "4,25",
+        "normalized": "4.25",
+        "line": 14,
+        "context": "Camion porteur ≥ 4,25 tonnes et < 7,5 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "7,5",
+        "normalized": "7.5",
+        "line": 14,
+        "context": "Camion porteur ≥ 4,25 tonnes et < 7,5 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "433 100",
+        "normalized": "433100",
+        "line": 15,
+        "context": "433 100"
+      },
+      {
+        "type": "number",
+        "raw": "7,5",
+        "normalized": "7.5",
+        "line": 16,
+        "context": "Camion porteur ≥ 7,5 tonnes et ≤ 12 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 16,
+        "context": "Camion porteur ≥ 7,5 tonnes et ≤ 12 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "671 500",
+        "normalized": "671500",
+        "line": 17,
+        "context": "671 500"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 18,
+        "context": "Camion porteur > 12 tonnes et < 19 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "19",
+        "normalized": "19",
+        "line": 18,
+        "context": "Camion porteur > 12 tonnes et < 19 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "824 000",
+        "normalized": "824000",
+        "line": 19,
+        "context": "824 000"
+      },
+      {
+        "type": "number",
+        "raw": "19",
+        "normalized": "19",
+        "line": 20,
+        "context": "Camion porteur ≥ 19 tonnes et < 26 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "26",
+        "normalized": "26",
+        "line": 20,
+        "context": "Camion porteur ≥ 19 tonnes et < 26 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "1 015 700",
+        "normalized": "1015700",
+        "line": 21,
+        "context": "1 015 700"
+      },
+      {
+        "type": "number",
+        "raw": "26",
+        "normalized": "26",
+        "line": 22,
+        "context": "Camion porteur ≥ 26 tonnes et tracteur routier"
+      },
+      {
+        "type": "number",
+        "raw": "1 918 500",
+        "normalized": "1918500",
+        "line": 23,
+        "context": "1 918 500"
+      },
+      {
+        "type": "number",
+        "raw": "250 000",
+        "normalized": "250000",
+        "line": 24,
+        "context": "*Pour une agglomération ≤ 250 000 habitants"
+      },
+      {
+        "type": "number",
+        "raw": "1 572 900",
+        "normalized": "1572900",
+        "line": 26,
+        "context": "1 572 900"
+      },
+      {
+        "type": "number",
+        "raw": "250 000",
+        "normalized": "250000",
+        "line": 27,
+        "context": "**Pour une agglomération > 250 000 habitants"
+      },
+      {
+        "type": "number",
+        "raw": "786 500",
+        "normalized": "786500",
+        "line": 29,
+        "context": "786 500"
+      },
+      {
+        "type": "number",
+        "raw": "3,5",
+        "normalized": "3.5",
+        "line": 40,
+        "context": "Camion porteur > 3,5 tonnes et < 4,25 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "4,25",
+        "normalized": "4.25",
+        "line": 40,
+        "context": "Camion porteur > 3,5 tonnes et < 4,25 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "132 100",
+        "normalized": "132100",
+        "line": 41,
+        "context": "132 100"
+      },
+      {
+        "type": "number",
+        "raw": "4,25",
+        "normalized": "4.25",
+        "line": 44,
+        "context": "Camion porteur ≥ 4,25 tonnes et < 7,5 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "7,5",
+        "normalized": "7.5",
+        "line": 44,
+        "context": "Camion porteur ≥ 4,25 tonnes et < 7,5 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "257 300",
+        "normalized": "257300",
+        "line": 45,
+        "context": "257 300"
+      },
+      {
+        "type": "number",
+        "raw": "7,5",
+        "normalized": "7.5",
+        "line": 46,
+        "context": "Camion porteur ≥ 7,5 tonnes et ≤ 12 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 46,
+        "context": "Camion porteur ≥ 7,5 tonnes et ≤ 12 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "425 600",
+        "normalized": "425600",
+        "line": 47,
+        "context": "425 600"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 49,
+        "context": "Camion porteur > 12 tonnes et < 19 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "19",
+        "normalized": "19",
+        "line": 49,
+        "context": "Camion porteur > 12 tonnes et < 19 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "522 200",
+        "normalized": "522200",
+        "line": 50,
+        "context": "522 200"
+      },
+      {
+        "type": "number",
+        "raw": "19",
+        "normalized": "19",
+        "line": 51,
+        "context": "Camion porteur ≥ 19 tonnes et < 26 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "26",
+        "normalized": "26",
+        "line": 51,
+        "context": "Camion porteur ≥ 19 tonnes et < 26 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "643 700",
+        "normalized": "643700",
+        "line": 52,
+        "context": "643 700"
+      },
+      {
+        "type": "number",
+        "raw": "26",
+        "normalized": "26",
+        "line": 53,
+        "context": "Camion porteur ≥ 26 tonnes et tracteur routier"
+      },
+      {
+        "type": "number",
+        "raw": "1 216 000",
+        "normalized": "1216000",
+        "line": 54,
+        "context": "1 216 000"
+      },
+      {
+        "type": "number",
+        "raw": "250 000",
+        "normalized": "250000",
+        "line": 55,
+        "context": "*Pour une agglomération ≤ 250 000 habitants"
+      },
+      {
+        "type": "number",
+        "raw": "996 900",
+        "normalized": "996900",
+        "line": 57,
+        "context": "996 900"
+      },
+      {
+        "type": "number",
+        "raw": "250 000",
+        "normalized": "250000",
+        "line": 58,
+        "context": "**Pour une agglomération > 250 000 habitants"
+      },
+      {
+        "type": "number",
+        "raw": "498 500",
+        "normalized": "498500",
+        "line": 60,
+        "context": "498 500"
+      },
+      {
+        "type": "number",
+        "raw": "22",
+        "normalized": "22",
+        "line": 63,
+        "context": "rétrofit électrique pour desservir des communes non mentionnées à l’annexe I de l’arrêté du 22 décembre 2021"
+      },
+      {
+        "type": "number",
+        "raw": "2021",
+        "normalized": "2021",
+        "line": 63,
+        "context": "rétrofit électrique pour desservir des communes non mentionnées à l’annexe I de l’arrêté du 22 décembre 2021"
+      },
+      {
+        "type": "number",
+        "raw": "100 000",
+        "normalized": "100000",
+        "line": 64,
+        "context": "établissant les listes d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article"
+      },
+      {
+        "type": "number",
+        "raw": "150 000",
+        "normalized": "150000",
+        "line": 64,
+        "context": "établissant les listes d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article"
+      },
+      {
+        "type": "number",
+        "raw": "250 000",
+        "normalized": "250000",
+        "line": 64,
+        "context": "établissant les listes d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article"
+      },
+      {
+        "type": "number",
+        "raw": "221",
+        "normalized": "221",
+        "line": 65,
+        "context": "R. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 65,
+        "context": "R. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "2213",
+        "normalized": "2213",
+        "line": 65,
+        "context": "R. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 65,
+        "context": "R. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 65,
+        "context": "R. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "22",
+        "normalized": "22",
+        "line": 68,
+        "context": "de rétrofit électrique pour desservir des communes mentionnées à l’annexe I de l’arrêté du 22 décembre 2021"
+      },
+      {
+        "type": "number",
+        "raw": "2021",
+        "normalized": "2021",
+        "line": 68,
+        "context": "de rétrofit électrique pour desservir des communes mentionnées à l’annexe I de l’arrêté du 22 décembre 2021"
+      },
+      {
+        "type": "number",
+        "raw": "100 000",
+        "normalized": "100000",
+        "line": 69,
+        "context": "établissant les listes d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article"
+      },
+      {
+        "type": "number",
+        "raw": "150 000",
+        "normalized": "150000",
+        "line": 69,
+        "context": "établissant les listes d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article"
+      },
+      {
+        "type": "number",
+        "raw": "250 000",
+        "normalized": "250000",
+        "line": 69,
+        "context": "établissant les listes d'agglomérations de plus de 100 000, 150 000 et 250 000 habitants conformément à l'article"
+      },
+      {
+        "type": "number",
+        "raw": "221",
+        "normalized": "221",
+        "line": 70,
+        "context": "R. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 70,
+        "context": "R. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "2213",
+        "normalized": "2213",
+        "line": 70,
+        "context": "R. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 70,
+        "context": "R. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 70,
+        "context": "R. 221-2 du code de l'environnement et à l'article L. 2213-4-1 du code général des collectivités territoriales."
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

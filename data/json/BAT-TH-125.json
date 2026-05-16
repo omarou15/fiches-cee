@@ -176,6 +176,218 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 20,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "770",
+        "normalized": "770",
+        "line": 21,
+        "context": "770"
+      },
+      {
+        "type": "number",
+        "raw": "0,48",
+        "normalized": "0.48",
+        "line": 24,
+        "context": "0,48"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 27,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "630",
+        "normalized": "630",
+        "line": 28,
+        "context": "630"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 30,
+        "context": "1"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 31,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "420",
+        "normalized": "420",
+        "line": 32,
+        "context": "420"
+      },
+      {
+        "type": "number",
+        "raw": "0,59",
+        "normalized": "0.59",
+        "line": 34,
+        "context": "0,59"
+      },
+      {
+        "type": "number",
+        "raw": "0,54",
+        "normalized": "0.54",
+        "line": 36,
+        "context": "0,54"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 53,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "690",
+        "normalized": "690",
+        "line": 54,
+        "context": "690"
+      },
+      {
+        "type": "number",
+        "raw": "0,4",
+        "normalized": "0.4",
+        "line": 57,
+        "context": "0,4"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 60,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "560",
+        "normalized": "560",
+        "line": 61,
+        "context": "560"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 63,
+        "context": "1"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 64,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "380",
+        "normalized": "380",
+        "line": 65,
+        "context": "380"
+      },
+      {
+        "type": "number",
+        "raw": "0,45",
+        "normalized": "0.45",
+        "line": 67,
+        "context": "0,45"
+      },
+      {
+        "type": "number",
+        "raw": "0,51",
+        "normalized": "0.51",
+        "line": 69,
+        "context": "0,51"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 86,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 87,
+        "context": "400"
+      },
+      {
+        "type": "number",
+        "raw": "0,4",
+        "normalized": "0.4",
+        "line": 90,
+        "context": "0,4"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 93,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "330",
+        "normalized": "330",
+        "line": 94,
+        "context": "330"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 96,
+        "context": "1"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 97,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "220",
+        "normalized": "220",
+        "line": 98,
+        "context": "220"
+      },
+      {
+        "type": "number",
+        "raw": "0,53",
+        "normalized": "0.53",
+        "line": 100,
+        "context": "0,53"
+      },
+      {
+        "type": "number",
+        "raw": "0,58",
+        "normalized": "0.58",
+        "line": 102,
+        "context": "0,58"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

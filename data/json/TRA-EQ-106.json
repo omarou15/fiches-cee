@@ -290,6 +290,29 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac X",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "0,011",
+        "normalized": "0.011",
+        "line": 20,
+        "context": "0,011"
+      },
+      {
+        "type": "number",
+        "raw": "0,008",
+        "normalized": "0.008",
+        "line": 24,
+        "context": "0,008"
+      },
+      {
+        "type": "number",
+        "raw": "0,006",
+        "normalized": "0.006",
+        "line": 27,
+        "context": "0,006"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

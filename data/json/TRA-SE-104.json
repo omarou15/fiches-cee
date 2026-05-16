@@ -166,6 +166,29 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par station X",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "534 200",
+        "normalized": "534200",
+        "line": 27,
+        "context": "534 200"
+      },
+      {
+        "type": "number",
+        "raw": "148 400",
+        "normalized": "148400",
+        "line": 30,
+        "context": "148 400"
+      },
+      {
+        "type": "number",
+        "raw": "39 600",
+        "normalized": "39600",
+        "line": 33,
+        "context": "39 600"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

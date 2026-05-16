@@ -219,6 +219,57 @@
       "38 700 * X * Y",
       "X = volume de lubrifiant utilisé en m3."
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "38 700",
+        "normalized": "38700",
+        "line": 1,
+        "context": "38 700 * X * Y"
+      },
+      {
+        "type": "number",
+        "raw": "1,5 %",
+        "normalized": "1.5%",
+        "line": 5,
+        "context": "Exemple : pour une performance de 1,5 %, Y = 1,5"
+      },
+      {
+        "type": "number",
+        "raw": "1,5",
+        "normalized": "1.5",
+        "line": 5,
+        "context": "Exemple : pour une performance de 1,5 %, Y = 1,5"
+      },
+      {
+        "type": "number",
+        "raw": "15",
+        "normalized": "15",
+        "line": 9,
+        "context": "Y1 en % : économie de carburant de l’huile de référence 15W-40 répondant au standard ACEA E7 utilisée, mesurée"
+      },
+      {
+        "type": "number",
+        "raw": "40",
+        "normalized": "40",
+        "line": 9,
+        "context": "Y1 en % : économie de carburant de l’huile de référence 15W-40 répondant au standard ACEA E7 utilisée, mesurée"
+      },
+      {
+        "type": "number",
+        "raw": "01",
+        "normalized": "01",
+        "line": 10,
+        "context": "par rapport à l’huile étalon de l’essai OM501FE (Y1 : valeur attendue négative)"
+      },
+      {
+        "type": "number",
+        "raw": "01",
+        "normalized": "01",
+        "line": 11,
+        "context": "Y2 en % : économie de carburant de l’huile à tester, mesurée par rapport à l’huile étalon de l’essai OM501FE (Y2 :"
+      }
+    ],
     "calculation_methods": [
       "direct_expression"
     ],

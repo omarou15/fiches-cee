@@ -223,6 +223,344 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1 100",
+        "normalized": "1100",
+        "line": 15,
+        "context": "1 100"
+      },
+      {
+        "type": "number",
+        "raw": "2 000",
+        "normalized": "2000",
+        "line": 16,
+        "context": "2 000"
+      },
+      {
+        "type": "number",
+        "raw": "2 700",
+        "normalized": "2700",
+        "line": 17,
+        "context": "2 700"
+      },
+      {
+        "type": "number",
+        "raw": "5 100",
+        "normalized": "5100",
+        "line": 18,
+        "context": "5 100"
+      },
+      {
+        "type": "number",
+        "raw": "900",
+        "normalized": "900",
+        "line": 20,
+        "context": "900"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 21,
+        "context": "1 600"
+      },
+      {
+        "type": "number",
+        "raw": "2 200",
+        "normalized": "2200",
+        "line": 22,
+        "context": "2 200"
+      },
+      {
+        "type": "number",
+        "raw": "4 100",
+        "normalized": "4100",
+        "line": 23,
+        "context": "4 100"
+      },
+      {
+        "type": "number",
+        "raw": "1 800",
+        "normalized": "1800",
+        "line": 25,
+        "context": "1 800"
+      },
+      {
+        "type": "number",
+        "raw": "3 200",
+        "normalized": "3200",
+        "line": 26,
+        "context": "3 200"
+      },
+      {
+        "type": "number",
+        "raw": "4 400",
+        "normalized": "4400",
+        "line": 27,
+        "context": "4 400"
+      },
+      {
+        "type": "number",
+        "raw": "8 200",
+        "normalized": "8200",
+        "line": 28,
+        "context": "8 200"
+      },
+      {
+        "type": "number",
+        "raw": "1 300",
+        "normalized": "1300",
+        "line": 30,
+        "context": "1 300"
+      },
+      {
+        "type": "number",
+        "raw": "2 300",
+        "normalized": "2300",
+        "line": 31,
+        "context": "2 300"
+      },
+      {
+        "type": "number",
+        "raw": "3 200",
+        "normalized": "3200",
+        "line": 32,
+        "context": "3 200"
+      },
+      {
+        "type": "number",
+        "raw": "5 900",
+        "normalized": "5900",
+        "line": 33,
+        "context": "5 900"
+      },
+      {
+        "type": "number",
+        "raw": "2 000",
+        "normalized": "2000",
+        "line": 35,
+        "context": "2 000"
+      },
+      {
+        "type": "number",
+        "raw": "3 700",
+        "normalized": "3700",
+        "line": 36,
+        "context": "3 700"
+      },
+      {
+        "type": "number",
+        "raw": "5 100",
+        "normalized": "5100",
+        "line": 37,
+        "context": "5 100"
+      },
+      {
+        "type": "number",
+        "raw": "9 500",
+        "normalized": "9500",
+        "line": 38,
+        "context": "9 500"
+      },
+      {
+        "type": "number",
+        "raw": "900",
+        "normalized": "900",
+        "line": 40,
+        "context": "900"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 41,
+        "context": "1 600"
+      },
+      {
+        "type": "number",
+        "raw": "2 200",
+        "normalized": "2200",
+        "line": 42,
+        "context": "2 200"
+      },
+      {
+        "type": "number",
+        "raw": "4 100",
+        "normalized": "4100",
+        "line": 43,
+        "context": "4 100"
+      },
+      {
+        "type": "number",
+        "raw": "2,05",
+        "normalized": "2.05",
+        "line": 51,
+        "context": "2,05 (7 000)"
+      },
+      {
+        "type": "number",
+        "raw": "7 000",
+        "normalized": "7000",
+        "line": 51,
+        "context": "2,05 (7 000)"
+      },
+      {
+        "type": "number",
+        "raw": "0,58",
+        "normalized": "0.58",
+        "line": 52,
+        "context": "0,58"
+      },
+      {
+        "type": "number",
+        "raw": "2,64",
+        "normalized": "2.64",
+        "line": 53,
+        "context": "2,64 (9 000)"
+      },
+      {
+        "type": "number",
+        "raw": "9 000",
+        "normalized": "9000",
+        "line": 53,
+        "context": "2,64 (9 000)"
+      },
+      {
+        "type": "number",
+        "raw": "0,75",
+        "normalized": "0.75",
+        "line": 54,
+        "context": "0,75"
+      },
+      {
+        "type": "number",
+        "raw": "3,52",
+        "normalized": "3.52",
+        "line": 55,
+        "context": "3,52 (12 000)"
+      },
+      {
+        "type": "number",
+        "raw": "12 000",
+        "normalized": "12000",
+        "line": 55,
+        "context": "3,52 (12 000)"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 56,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "4,40",
+        "normalized": "4.40",
+        "line": 57,
+        "context": "4,40 (15 000)"
+      },
+      {
+        "type": "number",
+        "raw": "15 000",
+        "normalized": "15000",
+        "line": 57,
+        "context": "4,40 (15 000)"
+      },
+      {
+        "type": "number",
+        "raw": "1,25",
+        "normalized": "1.25",
+        "line": 58,
+        "context": "1,25"
+      },
+      {
+        "type": "number",
+        "raw": "5,28",
+        "normalized": "5.28",
+        "line": 59,
+        "context": "5,28 (18 000)"
+      },
+      {
+        "type": "number",
+        "raw": "18 000",
+        "normalized": "18000",
+        "line": 59,
+        "context": "5,28 (18 000)"
+      },
+      {
+        "type": "number",
+        "raw": "1,5",
+        "normalized": "1.5",
+        "line": 60,
+        "context": "1,5"
+      },
+      {
+        "type": "number",
+        "raw": "6,16",
+        "normalized": "6.16",
+        "line": 61,
+        "context": "6,16 (21 000)"
+      },
+      {
+        "type": "number",
+        "raw": "21 000",
+        "normalized": "21000",
+        "line": 61,
+        "context": "6,16 (21 000)"
+      },
+      {
+        "type": "number",
+        "raw": "1,75",
+        "normalized": "1.75",
+        "line": 62,
+        "context": "1,75"
+      },
+      {
+        "type": "number",
+        "raw": "7,03",
+        "normalized": "7.03",
+        "line": 63,
+        "context": "7,03 (24 000)"
+      },
+      {
+        "type": "number",
+        "raw": "24 000",
+        "normalized": "24000",
+        "line": 63,
+        "context": "7,03 (24 000)"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 64,
+        "context": "2"
+      },
+      {
+        "type": "number",
+        "raw": "8,21",
+        "normalized": "8.21",
+        "line": 65,
+        "context": "8,21 (28 000)"
+      },
+      {
+        "type": "number",
+        "raw": "28 000",
+        "normalized": "28000",
+        "line": 65,
+        "context": "8,21 (28 000)"
+      },
+      {
+        "type": "number",
+        "raw": "2,33",
+        "normalized": "2.33",
+        "line": 66,
+        "context": "2,33"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables",
       "coefficient_based"

@@ -142,6 +142,85 @@
     "formula_section_page_end": 2,
     "unit": "kWh cumac Nombre d’appartements",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 12,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "16 300",
+        "normalized": "16300",
+        "line": 13,
+        "context": "16 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 18,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "14 000",
+        "normalized": "14000",
+        "line": 19,
+        "context": "14 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 22,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "10 200",
+        "normalized": "10200",
+        "line": 23,
+        "context": "10 200"
+      },
+      {
+        "type": "number",
+        "raw": "122",
+        "normalized": "122",
+        "line": 27,
+        "context": "Lorsque la rénovation de la chaufferie ne met en oeuvre que des équipements relevant de la fiche BAR-TH-122,"
+      },
+      {
+        "type": "number",
+        "raw": "122",
+        "normalized": "122",
+        "line": 36,
+        "context": "Dans le cas où la rénovation de la chaufferie met en œuvre des équipements relevant de la fiche BAR-TH-122 et de"
+      },
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 37,
+        "context": "la fiche BAR-TH-150 alors :"
+      },
+      {
+        "type": "number",
+        "raw": "40 %",
+        "normalized": "40%",
+        "line": 39,
+        "context": "- si la puissance de la ou des PAC nouvellement installée est strictement inférieure à 40 % de la puissance de la"
+      },
+      {
+        "type": "number",
+        "raw": "122",
+        "normalized": "122",
+        "line": 42,
+        "context": "- dans le cas contraire, aucun certificat n’est délivré pour la fiche BAR-TH-122. Pendant la durée de vie"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables",
       "coefficient_based"

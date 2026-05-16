@@ -240,6 +240,141 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "5,1",
+        "normalized": "5.1",
+        "line": 7,
+        "context": "(5,1 ≤ SEER < 5,6)"
+      },
+      {
+        "type": "number",
+        "raw": "5,6",
+        "normalized": "5.6",
+        "line": 7,
+        "context": "(5,1 ≤ SEER < 5,6)"
+      },
+      {
+        "type": "number",
+        "raw": "5,6",
+        "normalized": "5.6",
+        "line": 9,
+        "context": "(5,6 ≤ SEER < 6,1)"
+      },
+      {
+        "type": "number",
+        "raw": "6,1",
+        "normalized": "6.1",
+        "line": 9,
+        "context": "(5,6 ≤ SEER < 6,1)"
+      },
+      {
+        "type": "number",
+        "raw": "6,1",
+        "normalized": "6.1",
+        "line": 11,
+        "context": "(6,1 ≤ SEER < 8,5)"
+      },
+      {
+        "type": "number",
+        "raw": "8,5",
+        "normalized": "8.5",
+        "line": 11,
+        "context": "(6,1 ≤ SEER < 8,5)"
+      },
+      {
+        "type": "number",
+        "raw": "8,5",
+        "normalized": "8.5",
+        "line": 13,
+        "context": "SEER ≥ 8,5"
+      },
+      {
+        "type": "number",
+        "raw": "2,05",
+        "normalized": "2.05",
+        "line": 15,
+        "context": "2,05 (7000)"
+      },
+      {
+        "type": "number",
+        "raw": "7000",
+        "normalized": "7000",
+        "line": 15,
+        "context": "2,05 (7000)"
+      },
+      {
+        "type": "number",
+        "raw": "1 300",
+        "normalized": "1300",
+        "line": 16,
+        "context": "1 300"
+      },
+      {
+        "type": "number",
+        "raw": "2 500",
+        "normalized": "2500",
+        "line": 17,
+        "context": "2 500"
+      },
+      {
+        "type": "number",
+        "raw": "3 400",
+        "normalized": "3400",
+        "line": 18,
+        "context": "3 400"
+      },
+      {
+        "type": "number",
+        "raw": "6 300",
+        "normalized": "6300",
+        "line": 19,
+        "context": "6 300"
+      },
+      {
+        "type": "number",
+        "raw": "2,64",
+        "normalized": "2.64",
+        "line": 20,
+        "context": "2,64 (9000)"
+      },
+      {
+        "type": "number",
+        "raw": "9000",
+        "normalized": "9000",
+        "line": 20,
+        "context": "2,64 (9000)"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 21,
+        "context": "1 600"
+      },
+      {
+        "type": "number",
+        "raw": "2 900",
+        "normalized": "2900",
+        "line": 22,
+        "context": "2 900"
+      },
+      {
+        "type": "number",
+        "raw": "4 000",
+        "normalized": "4000",
+        "line": 23,
+        "context": "4 000"
+      },
+      {
+        "type": "number",
+        "raw": "7 400",
+        "normalized": "7400",
+        "line": 24,
+        "context": "7 400"
+      }
+    ],
     "calculation_methods": [
       "coefficient_based"
     ],

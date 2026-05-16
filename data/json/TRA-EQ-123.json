@@ -201,6 +201,22 @@
     "formula_section_page_end": 2,
     "unit": "kWh cumac pour un simulateur Nombre de",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "87 400",
+        "normalized": "87400",
+        "line": 8,
+        "context": "87 400"
+      },
+      {
+        "type": "number",
+        "raw": "39 000",
+        "normalized": "39000",
+        "line": 13,
+        "context": "39 000"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Transport_TRA/TRA-EQ-123 v A38-2 à compter du 01-11-2021_0.pdf",

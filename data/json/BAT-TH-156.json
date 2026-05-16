@@ -151,6 +151,113 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par kW",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "15",
+        "normalized": "15",
+        "line": 18,
+        "context": "[15°C ; 18°C["
+      },
+      {
+        "type": "number",
+        "raw": "18",
+        "normalized": "18",
+        "line": 18,
+        "context": "[15°C ; 18°C["
+      },
+      {
+        "type": "number",
+        "raw": "18",
+        "normalized": "18",
+        "line": 19,
+        "context": "[18°C ; 20°C]"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 19,
+        "context": "[18°C ; 20°C]"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 24,
+        "context": "1"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 25,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "5 100",
+        "normalized": "5100",
+        "line": 26,
+        "context": "5 100"
+      },
+      {
+        "type": "number",
+        "raw": "6 400",
+        "normalized": "6400",
+        "line": 27,
+        "context": "6 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 31,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "4 200",
+        "normalized": "4200",
+        "line": 32,
+        "context": "4 200"
+      },
+      {
+        "type": "number",
+        "raw": "5 900",
+        "normalized": "5900",
+        "line": 33,
+        "context": "5 900"
+      },
+      {
+        "type": "number",
+        "raw": "4,5",
+        "normalized": "4.5",
+        "line": 36,
+        "context": "4,5"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 37,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "3 000",
+        "normalized": "3000",
+        "line": 38,
+        "context": "3 000"
+      },
+      {
+        "type": "number",
+        "raw": "4 700",
+        "normalized": "4700",
+        "line": 39,
+        "context": "4 700"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables",
       "coefficient_based"

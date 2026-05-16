@@ -171,6 +171,36 @@
       "- [S] et [31 x P] pour une serre horticole,",
       "- [S] et [5,9 x P] pour une serre maraîchère."
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 8,
+        "context": "150"
+      },
+      {
+        "type": "number",
+        "raw": "19",
+        "normalized": "19",
+        "line": 19,
+        "context": "19"
+      },
+      {
+        "type": "number",
+        "raw": "31",
+        "normalized": "31",
+        "line": 26,
+        "context": "- [S] et [31 x P] pour une serre horticole,"
+      },
+      {
+        "type": "number",
+        "raw": "5,9",
+        "normalized": "5.9",
+        "line": 27,
+        "context": "- [S] et [5,9 x P] pour une serre maraîchère."
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

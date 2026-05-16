@@ -289,6 +289,106 @@
     "formula_section_page_end": 5,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "8 700",
+        "normalized": "8700",
+        "line": 5,
+        "context": "8 700"
+      },
+      {
+        "type": "number",
+        "raw": "4 000",
+        "normalized": "4000",
+        "line": 11,
+        "context": "4 000"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 13,
+        "context": "Annexe 1 à la fiche d’opération standardisée TRA-EQ-121,"
+      },
+      {
+        "type": "number",
+        "raw": "121",
+        "normalized": "121",
+        "line": 13,
+        "context": "Annexe 1 à la fiche d’opération standardisée TRA-EQ-121,"
+      },
+      {
+        "type": "number",
+        "raw": "121",
+        "normalized": "121",
+        "line": 16,
+        "context": "A/ TRA-EQ-121 (v. A54.2) : Acquisition (achat ou location) par une personne physique d’un cycle neuf à"
+      },
+      {
+        "type": "number",
+        "raw": "4.2",
+        "normalized": "4.2",
+        "line": 16,
+        "context": "A/ TRA-EQ-121 (v. A54.2) : Acquisition (achat ou location) par une personne physique d’un cycle neuf à"
+      },
+      {
+        "type": "number",
+        "raw": "6.11",
+        "normalized": "6.11",
+        "line": 17,
+        "context": "pédalage assisté conforme à la rubrique 6.11 de l’article R. 311-1 du code de la route."
+      },
+      {
+        "type": "number",
+        "raw": "311",
+        "normalized": "311",
+        "line": 17,
+        "context": "pédalage assisté conforme à la rubrique 6.11 de l’article R. 311-1 du code de la route."
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 17,
+        "context": "pédalage assisté conforme à la rubrique 6.11 de l’article R. 311-1 du code de la route."
+      },
+      {
+        "type": "number",
+        "raw": "15194",
+        "normalized": "15194",
+        "line": 26,
+        "context": "*Le certificat d’homologation mentionne que le cycle à pédalage assisté est conforme à la norme NF EN 15194:"
+      },
+      {
+        "type": "number",
+        "raw": "15194",
+        "normalized": "15194",
+        "line": 29,
+        "context": "NB : Les cycles à pédalage assisté destinés à une utilisation tout terrain au sens de la norme NF EN 15194 ne sont pas éligibles."
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 38,
+        "context": "NB : Les identifiants apposés sur les cycles sont composés de 10 caractères alphanumériques."
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 45,
+        "context": "Annexe 2 à la fiche d’opération standardisée TRA-EQ-121,"
+      },
+      {
+        "type": "number",
+        "raw": "121",
+        "normalized": "121",
+        "line": 45,
+        "context": "Annexe 2 à la fiche d’opération standardisée TRA-EQ-121,"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Transport_TRA/TRA-EQ-121 vA54-2 à compter du 01-01-2024_0.pdf",

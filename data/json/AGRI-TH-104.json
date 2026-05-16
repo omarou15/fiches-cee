@@ -178,6 +178,57 @@
       "Nota 2 : Si Précupérée excède la limite imposée dans le tableau ci-dessus ((2 x Pcompresseur(s)) – Pdéjà récupérée), le calcul du",
       "((2 x Pcompresseur(s)) – Pdéjà récupérée)."
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "9,9",
+        "normalized": "9.9",
+        "line": 18,
+        "context": "‘9,9"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 22,
+        "context": "(2 x Pcompresseurs) – Pdéjà récupérée"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 41,
+        "context": "Nota 1 : Lorsque le groupe de production de froid est une installation frigorifique à deux étages, alors :"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 43,
+        "context": "Pour des compresseurs compound (un (des) compresseur(s) assurant les 2 niveaux de pressions d’aspiration)"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 47,
+        "context": "Pour des compresseurs en cascades (2 fluides frigorigènes différents et/ou présence d’un échangeur"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 51,
+        "context": "Nota 2 : Si Précupérée excède la limite imposée dans le tableau ci-dessus ((2 x Pcompresseur(s)) – Pdéjà récupérée), le calcul du"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 53,
+        "context": "((2 x Pcompresseur(s)) – Pdéjà récupérée)."
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

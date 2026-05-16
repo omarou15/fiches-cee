@@ -161,6 +161,442 @@
       "x 2 (t.km réalisées par an).",
       "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 20,
+        "context": "M ≤ 400"
+      },
+      {
+        "type": "number",
+        "raw": "0,025",
+        "normalized": "0.025",
+        "line": 21,
+        "context": "0,025"
+      },
+      {
+        "type": "number",
+        "raw": "0,028",
+        "normalized": "0.028",
+        "line": 22,
+        "context": "0,028"
+      },
+      {
+        "type": "number",
+        "raw": "0,025",
+        "normalized": "0.025",
+        "line": 23,
+        "context": "0,025"
+      },
+      {
+        "type": "number",
+        "raw": "0,030",
+        "normalized": "0.030",
+        "line": 24,
+        "context": "0,030"
+      },
+      {
+        "type": "number",
+        "raw": "0,027",
+        "normalized": "0.027",
+        "line": 25,
+        "context": "0,027"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 26,
+        "context": "400 < M ≤ 650"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 26,
+        "context": "400 < M ≤ 650"
+      },
+      {
+        "type": "number",
+        "raw": "0,023",
+        "normalized": "0.023",
+        "line": 27,
+        "context": "0,023"
+      },
+      {
+        "type": "number",
+        "raw": "0,025",
+        "normalized": "0.025",
+        "line": 28,
+        "context": "0,025"
+      },
+      {
+        "type": "number",
+        "raw": "0,023",
+        "normalized": "0.023",
+        "line": 29,
+        "context": "0,023"
+      },
+      {
+        "type": "number",
+        "raw": "0,029",
+        "normalized": "0.029",
+        "line": 30,
+        "context": "0,029"
+      },
+      {
+        "type": "number",
+        "raw": "0,025",
+        "normalized": "0.025",
+        "line": 31,
+        "context": "0,025"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 32,
+        "context": "650 < M ≤ 1 000"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 32,
+        "context": "650 < M ≤ 1 000"
+      },
+      {
+        "type": "number",
+        "raw": "0,020",
+        "normalized": "0.020",
+        "line": 33,
+        "context": "0,020"
+      },
+      {
+        "type": "number",
+        "raw": "0,021",
+        "normalized": "0.021",
+        "line": 34,
+        "context": "0,021"
+      },
+      {
+        "type": "number",
+        "raw": "0,021",
+        "normalized": "0.021",
+        "line": 35,
+        "context": "0,021"
+      },
+      {
+        "type": "number",
+        "raw": "0,026",
+        "normalized": "0.026",
+        "line": 36,
+        "context": "0,026"
+      },
+      {
+        "type": "number",
+        "raw": "0,022",
+        "normalized": "0.022",
+        "line": 37,
+        "context": "0,022"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 38,
+        "context": "1 000 < M ≤ 1 500"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 38,
+        "context": "1 000 < M ≤ 1 500"
+      },
+      {
+        "type": "number",
+        "raw": "0,011",
+        "normalized": "0.011",
+        "line": 39,
+        "context": "0,011"
+      },
+      {
+        "type": "number",
+        "raw": "0,012",
+        "normalized": "0.012",
+        "line": 40,
+        "context": "0,012"
+      },
+      {
+        "type": "number",
+        "raw": "0,020",
+        "normalized": "0.020",
+        "line": 41,
+        "context": "0,020"
+      },
+      {
+        "type": "number",
+        "raw": "0,023",
+        "normalized": "0.023",
+        "line": 42,
+        "context": "0,023"
+      },
+      {
+        "type": "number",
+        "raw": "0,016",
+        "normalized": "0.016",
+        "line": 43,
+        "context": "0,016"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 44,
+        "context": "1 500 < M"
+      },
+      {
+        "type": "number",
+        "raw": "0,009",
+        "normalized": "0.009",
+        "line": 45,
+        "context": "0,009"
+      },
+      {
+        "type": "number",
+        "raw": "0,011",
+        "normalized": "0.011",
+        "line": 46,
+        "context": "0,011"
+      },
+      {
+        "type": "number",
+        "raw": "0,018",
+        "normalized": "0.018",
+        "line": 47,
+        "context": "0,018"
+      },
+      {
+        "type": "number",
+        "raw": "0,019",
+        "normalized": "0.019",
+        "line": 48,
+        "context": "0,019"
+      },
+      {
+        "type": "number",
+        "raw": "0,014",
+        "normalized": "0.014",
+        "line": 49,
+        "context": "0,014"
+      },
+      {
+        "type": "number",
+        "raw": "0,009",
+        "normalized": "0.009",
+        "line": 51,
+        "context": "0,009"
+      },
+      {
+        "type": "number",
+        "raw": "0,01",
+        "normalized": "0.01",
+        "line": 52,
+        "context": "0,01"
+      },
+      {
+        "type": "number",
+        "raw": "0,01",
+        "normalized": "0.01",
+        "line": 53,
+        "context": "0,01"
+      },
+      {
+        "type": "number",
+        "raw": "0,014",
+        "normalized": "0.014",
+        "line": 54,
+        "context": "0,014"
+      },
+      {
+        "type": "number",
+        "raw": "0,011",
+        "normalized": "0.011",
+        "line": 55,
+        "context": "0,011"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 59,
+        "context": "TK : t.km effectuées par l’unité de transport et relevées sur une période maximale de 6 mois à compter du carénage"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 60,
+        "context": "x 2 (t.km réalisées par an)."
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 62,
+        "context": "On considère que le trafic réalisé par l’unité de transport fluvial sur 6 mois consécutifs est maintenu en moyenne"
+      },
+      {
+        "type": "number",
+        "raw": "295",
+        "normalized": "295",
+        "line": 81,
+        "context": "295 ≤ P ≤ 590"
+      },
+      {
+        "type": "number",
+        "raw": "590",
+        "normalized": "590",
+        "line": 81,
+        "context": "295 ≤ P ≤ 590"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 82,
+        "context": "12"
+      },
+      {
+        "type": "number",
+        "raw": "13",
+        "normalized": "13",
+        "line": 83,
+        "context": "13"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 84,
+        "context": "10"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 86,
+        "context": "12"
+      },
+      {
+        "type": "number",
+        "raw": "590",
+        "normalized": "590",
+        "line": 87,
+        "context": "590 < P ≤ 880"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 87,
+        "context": "590 < P ≤ 880"
+      },
+      {
+        "type": "number",
+        "raw": "19",
+        "normalized": "19",
+        "line": 88,
+        "context": "19"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 89,
+        "context": "20"
+      },
+      {
+        "type": "number",
+        "raw": "13",
+        "normalized": "13",
+        "line": 90,
+        "context": "13"
+      },
+      {
+        "type": "number",
+        "raw": "18",
+        "normalized": "18",
+        "line": 92,
+        "context": "18"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 93,
+        "context": "880 < P"
+      },
+      {
+        "type": "number",
+        "raw": "24",
+        "normalized": "24",
+        "line": 94,
+        "context": "24"
+      },
+      {
+        "type": "number",
+        "raw": "23",
+        "normalized": "23",
+        "line": 95,
+        "context": "23"
+      },
+      {
+        "type": "number",
+        "raw": "19",
+        "normalized": "19",
+        "line": 96,
+        "context": "19"
+      },
+      {
+        "type": "number",
+        "raw": "39",
+        "normalized": "39",
+        "line": 97,
+        "context": "39"
+      },
+      {
+        "type": "number",
+        "raw": "26",
+        "normalized": "26",
+        "line": 98,
+        "context": "26"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 102,
+        "context": "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 102,
+        "context": "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois à compter du carénage x 2"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 105,
+        "context": "On considère que le trafic réalisé par l’unité de transport fluvial sur 6 mois consécutifs est maintenu en moyenne"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

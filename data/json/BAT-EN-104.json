@@ -208,6 +208,78 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par m² de fenêtre, double fenêtre ou porte-fenêtre complète",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 17,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "5 300",
+        "normalized": "5300",
+        "line": 18,
+        "context": "5 300"
+      },
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 23,
+        "context": "0,6"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 28,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "4 300",
+        "normalized": "4300",
+        "line": 29,
+        "context": "4 300"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 33,
+        "context": "0,7"
+      },
+      {
+        "type": "number",
+        "raw": "1,3",
+        "normalized": "1.3",
+        "line": 37,
+        "context": "1,3"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 39,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "2 900",
+        "normalized": "2900",
+        "line": 40,
+        "context": "2 900"
+      },
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 44,
+        "context": "0,6"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

@@ -224,6 +224,36 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par m2 d’isolant posé",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "320",
+        "normalized": "320",
+        "line": 13,
+        "context": "320"
+      },
+      {
+        "type": "number",
+        "raw": "210",
+        "normalized": "210",
+        "line": 14,
+        "context": "210"
+      },
+      {
+        "type": "number",
+        "raw": "380",
+        "normalized": "380",
+        "line": 17,
+        "context": "380"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 18,
+        "context": "250"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

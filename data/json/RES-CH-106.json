@@ -192,6 +192,1072 @@
     "formula_section_page_end": 4,
     "unit": "Montant unitaire en kWh cumac selon le",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 4,
+        "context": "Pour les canalisations respectant les exigences relatives à la classe d’isolation thermique 4 définie par la norme"
+      },
+      {
+        "type": "number",
+        "raw": "12828",
+        "normalized": "12828",
+        "line": 5,
+        "context": "NF EN 12828 :"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 37,
+        "context": "12 mois"
+      },
+      {
+        "type": "number",
+        "raw": "1,00",
+        "normalized": "1.00",
+        "line": 38,
+        "context": "1,00"
+      },
+      {
+        "type": "number",
+        "raw": "32",
+        "normalized": "32",
+        "line": 40,
+        "context": "32"
+      },
+      {
+        "type": "number",
+        "raw": "3 300",
+        "normalized": "3300",
+        "line": 41,
+        "context": "3 300"
+      },
+      {
+        "type": "number",
+        "raw": "5 000",
+        "normalized": "5000",
+        "line": 42,
+        "context": "5 000"
+      },
+      {
+        "type": "number",
+        "raw": "8 700",
+        "normalized": "8700",
+        "line": 43,
+        "context": "8 700"
+      },
+      {
+        "type": "number",
+        "raw": "11",
+        "normalized": "11",
+        "line": 46,
+        "context": "11 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,92",
+        "normalized": "0.92",
+        "line": 47,
+        "context": "0,92"
+      },
+      {
+        "type": "number",
+        "raw": "40",
+        "normalized": "40",
+        "line": 49,
+        "context": "40"
+      },
+      {
+        "type": "number",
+        "raw": "3 800",
+        "normalized": "3800",
+        "line": 50,
+        "context": "3 800"
+      },
+      {
+        "type": "number",
+        "raw": "5 900",
+        "normalized": "5900",
+        "line": 51,
+        "context": "5 900"
+      },
+      {
+        "type": "number",
+        "raw": "10 800",
+        "normalized": "10800",
+        "line": 52,
+        "context": "10 800"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 55,
+        "context": "10 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,83",
+        "normalized": "0.83",
+        "line": 56,
+        "context": "0,83"
+      },
+      {
+        "type": "number",
+        "raw": "50",
+        "normalized": "50",
+        "line": 58,
+        "context": "50"
+      },
+      {
+        "type": "number",
+        "raw": "4 500",
+        "normalized": "4500",
+        "line": 59,
+        "context": "4 500"
+      },
+      {
+        "type": "number",
+        "raw": "6 800",
+        "normalized": "6800",
+        "line": 60,
+        "context": "6 800"
+      },
+      {
+        "type": "number",
+        "raw": "13 000",
+        "normalized": "13000",
+        "line": 61,
+        "context": "13 000"
+      },
+      {
+        "type": "number",
+        "raw": "9",
+        "normalized": "9",
+        "line": 64,
+        "context": "9 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,75",
+        "normalized": "0.75",
+        "line": 65,
+        "context": "0,75"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 67,
+        "context": "60"
+      },
+      {
+        "type": "number",
+        "raw": "5 000",
+        "normalized": "5000",
+        "line": 68,
+        "context": "5 000"
+      },
+      {
+        "type": "number",
+        "raw": "7 700",
+        "normalized": "7700",
+        "line": 69,
+        "context": "7 700"
+      },
+      {
+        "type": "number",
+        "raw": "8",
+        "normalized": "8",
+        "line": 73,
+        "context": "8 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,67",
+        "normalized": "0.67",
+        "line": 74,
+        "context": "0,67"
+      },
+      {
+        "type": "number",
+        "raw": "65",
+        "normalized": "65",
+        "line": 76,
+        "context": "65"
+      },
+      {
+        "type": "number",
+        "raw": "5 300",
+        "normalized": "5300",
+        "line": 77,
+        "context": "5 300"
+      },
+      {
+        "type": "number",
+        "raw": "8 100",
+        "normalized": "8100",
+        "line": 78,
+        "context": "8 100"
+      },
+      {
+        "type": "number",
+        "raw": "13 600",
+        "normalized": "13600",
+        "line": 79,
+        "context": "13 600"
+      },
+      {
+        "type": "number",
+        "raw": "7",
+        "normalized": "7",
+        "line": 82,
+        "context": "7 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,58",
+        "normalized": "0.58",
+        "line": 83,
+        "context": "0,58"
+      },
+      {
+        "type": "number",
+        "raw": "80",
+        "normalized": "80",
+        "line": 85,
+        "context": "80"
+      },
+      {
+        "type": "number",
+        "raw": "6 000",
+        "normalized": "6000",
+        "line": 86,
+        "context": "6 000"
+      },
+      {
+        "type": "number",
+        "raw": "9 100",
+        "normalized": "9100",
+        "line": 87,
+        "context": "9 100"
+      },
+      {
+        "type": "number",
+        "raw": "15 900",
+        "normalized": "15900",
+        "line": 88,
+        "context": "15 900"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 91,
+        "context": "6 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,50",
+        "normalized": "0.50",
+        "line": 92,
+        "context": "0,50"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 94,
+        "context": "100"
+      },
+      {
+        "type": "number",
+        "raw": "6 800",
+        "normalized": "6800",
+        "line": 95,
+        "context": "6 800"
+      },
+      {
+        "type": "number",
+        "raw": "10 400",
+        "normalized": "10400",
+        "line": 96,
+        "context": "10 400"
+      },
+      {
+        "type": "number",
+        "raw": "19 700",
+        "normalized": "19700",
+        "line": 97,
+        "context": "19 700"
+      },
+      {
+        "type": "number",
+        "raw": "125",
+        "normalized": "125",
+        "line": 103,
+        "context": "125"
+      },
+      {
+        "type": "number",
+        "raw": "7 600",
+        "normalized": "7600",
+        "line": 104,
+        "context": "7 600"
+      },
+      {
+        "type": "number",
+        "raw": "11 700",
+        "normalized": "11700",
+        "line": 105,
+        "context": "11 700"
+      },
+      {
+        "type": "number",
+        "raw": "21 400",
+        "normalized": "21400",
+        "line": 106,
+        "context": "21 400"
+      },
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 112,
+        "context": "150"
+      },
+      {
+        "type": "number",
+        "raw": "8 400",
+        "normalized": "8400",
+        "line": 113,
+        "context": "8 400"
+      },
+      {
+        "type": "number",
+        "raw": "12 900",
+        "normalized": "12900",
+        "line": 114,
+        "context": "12 900"
+      },
+      {
+        "type": "number",
+        "raw": "24 900",
+        "normalized": "24900",
+        "line": 115,
+        "context": "24 900"
+      },
+      {
+        "type": "number",
+        "raw": "175",
+        "normalized": "175",
+        "line": 121,
+        "context": "175"
+      },
+      {
+        "type": "number",
+        "raw": "9 100",
+        "normalized": "9100",
+        "line": 122,
+        "context": "9 100"
+      },
+      {
+        "type": "number",
+        "raw": "14 000",
+        "normalized": "14000",
+        "line": 123,
+        "context": "14 000"
+      },
+      {
+        "type": "number",
+        "raw": "28 400",
+        "normalized": "28400",
+        "line": 124,
+        "context": "28 400"
+      },
+      {
+        "type": "number",
+        "raw": "200",
+        "normalized": "200",
+        "line": 130,
+        "context": "200"
+      },
+      {
+        "type": "number",
+        "raw": "9 800",
+        "normalized": "9800",
+        "line": 131,
+        "context": "9 800"
+      },
+      {
+        "type": "number",
+        "raw": "15 100",
+        "normalized": "15100",
+        "line": 132,
+        "context": "15 100"
+      },
+      {
+        "type": "number",
+        "raw": "31 700",
+        "normalized": "31700",
+        "line": 133,
+        "context": "31 700"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 139,
+        "context": "250"
+      },
+      {
+        "type": "number",
+        "raw": "11 100",
+        "normalized": "11100",
+        "line": 140,
+        "context": "11 100"
+      },
+      {
+        "type": "number",
+        "raw": "17 000",
+        "normalized": "17000",
+        "line": 141,
+        "context": "17 000"
+      },
+      {
+        "type": "number",
+        "raw": "38 400",
+        "normalized": "38400",
+        "line": 142,
+        "context": "38 400"
+      },
+      {
+        "type": "number",
+        "raw": "300",
+        "normalized": "300",
+        "line": 148,
+        "context": "300"
+      },
+      {
+        "type": "number",
+        "raw": "12 300",
+        "normalized": "12300",
+        "line": 149,
+        "context": "12 300"
+      },
+      {
+        "type": "number",
+        "raw": "18 800",
+        "normalized": "18800",
+        "line": 150,
+        "context": "18 800"
+      },
+      {
+        "type": "number",
+        "raw": "41 600",
+        "normalized": "41600",
+        "line": 151,
+        "context": "41 600"
+      },
+      {
+        "type": "number",
+        "raw": "350",
+        "normalized": "350",
+        "line": 157,
+        "context": "350"
+      },
+      {
+        "type": "number",
+        "raw": "13 400",
+        "normalized": "13400",
+        "line": 158,
+        "context": "13 400"
+      },
+      {
+        "type": "number",
+        "raw": "20 600",
+        "normalized": "20600",
+        "line": 159,
+        "context": "20 600"
+      },
+      {
+        "type": "number",
+        "raw": "43 000",
+        "normalized": "43000",
+        "line": 160,
+        "context": "43 000"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 166,
+        "context": "≥ 400"
+      },
+      {
+        "type": "number",
+        "raw": "14 600",
+        "normalized": "14600",
+        "line": 167,
+        "context": "14 600"
+      },
+      {
+        "type": "number",
+        "raw": "22 400",
+        "normalized": "22400",
+        "line": 168,
+        "context": "22 400"
+      },
+      {
+        "type": "number",
+        "raw": "44 800",
+        "normalized": "44800",
+        "line": 169,
+        "context": "44 800"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 171,
+        "context": "Pour les canalisations respectant les exigences relatives aux séries d’isolation thermique 1, 2 et 3 définies par la norme"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 171,
+        "context": "Pour les canalisations respectant les exigences relatives aux séries d’isolation thermique 1, 2 et 3 définies par la norme"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 171,
+        "context": "Pour les canalisations respectant les exigences relatives aux séries d’isolation thermique 1, 2 et 3 définies par la norme"
+      },
+      {
+        "type": "number",
+        "raw": "253",
+        "normalized": "253",
+        "line": 172,
+        "context": "NF EN 253 :"
+      },
+      {
+        "type": "number",
+        "raw": "12",
+        "normalized": "12",
+        "line": 204,
+        "context": "12 mois"
+      },
+      {
+        "type": "number",
+        "raw": "1,00",
+        "normalized": "1.00",
+        "line": 205,
+        "context": "1,00"
+      },
+      {
+        "type": "number",
+        "raw": "32",
+        "normalized": "32",
+        "line": 207,
+        "context": "32"
+      },
+      {
+        "type": "number",
+        "raw": "3 800",
+        "normalized": "3800",
+        "line": 208,
+        "context": "3 800"
+      },
+      {
+        "type": "number",
+        "raw": "5 800",
+        "normalized": "5800",
+        "line": 209,
+        "context": "5 800"
+      },
+      {
+        "type": "number",
+        "raw": "8 700",
+        "normalized": "8700",
+        "line": 210,
+        "context": "8 700"
+      },
+      {
+        "type": "number",
+        "raw": "11",
+        "normalized": "11",
+        "line": 213,
+        "context": "11 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,92",
+        "normalized": "0.92",
+        "line": 214,
+        "context": "0,92"
+      },
+      {
+        "type": "number",
+        "raw": "40",
+        "normalized": "40",
+        "line": 216,
+        "context": "40"
+      },
+      {
+        "type": "number",
+        "raw": "4 400",
+        "normalized": "4400",
+        "line": 217,
+        "context": "4 400"
+      },
+      {
+        "type": "number",
+        "raw": "6 700",
+        "normalized": "6700",
+        "line": 218,
+        "context": "6 700"
+      },
+      {
+        "type": "number",
+        "raw": "10 800",
+        "normalized": "10800",
+        "line": 219,
+        "context": "10 800"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 222,
+        "context": "10 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,83",
+        "normalized": "0.83",
+        "line": 223,
+        "context": "0,83"
+      },
+      {
+        "type": "number",
+        "raw": "50",
+        "normalized": "50",
+        "line": 225,
+        "context": "50"
+      },
+      {
+        "type": "number",
+        "raw": "4 900",
+        "normalized": "4900",
+        "line": 226,
+        "context": "4 900"
+      },
+      {
+        "type": "number",
+        "raw": "7 600",
+        "normalized": "7600",
+        "line": 227,
+        "context": "7 600"
+      },
+      {
+        "type": "number",
+        "raw": "13 000",
+        "normalized": "13000",
+        "line": 228,
+        "context": "13 000"
+      },
+      {
+        "type": "number",
+        "raw": "9",
+        "normalized": "9",
+        "line": 231,
+        "context": "9 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,75",
+        "normalized": "0.75",
+        "line": 232,
+        "context": "0,75"
+      },
+      {
+        "type": "number",
+        "raw": "60",
+        "normalized": "60",
+        "line": 234,
+        "context": "60"
+      },
+      {
+        "type": "number",
+        "raw": "5 400",
+        "normalized": "5400",
+        "line": 235,
+        "context": "5 400"
+      },
+      {
+        "type": "number",
+        "raw": "8 300",
+        "normalized": "8300",
+        "line": 236,
+        "context": "8 300"
+      },
+      {
+        "type": "number",
+        "raw": "8",
+        "normalized": "8",
+        "line": 240,
+        "context": "8 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,67",
+        "normalized": "0.67",
+        "line": 241,
+        "context": "0,67"
+      },
+      {
+        "type": "number",
+        "raw": "65",
+        "normalized": "65",
+        "line": 243,
+        "context": "65"
+      },
+      {
+        "type": "number",
+        "raw": "5 700",
+        "normalized": "5700",
+        "line": 244,
+        "context": "5 700"
+      },
+      {
+        "type": "number",
+        "raw": "8 700",
+        "normalized": "8700",
+        "line": 245,
+        "context": "8 700"
+      },
+      {
+        "type": "number",
+        "raw": "13 600",
+        "normalized": "13600",
+        "line": 246,
+        "context": "13 600"
+      },
+      {
+        "type": "number",
+        "raw": "7",
+        "normalized": "7",
+        "line": 249,
+        "context": "7 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,58",
+        "normalized": "0.58",
+        "line": 250,
+        "context": "0,58"
+      },
+      {
+        "type": "number",
+        "raw": "80",
+        "normalized": "80",
+        "line": 252,
+        "context": "80"
+      },
+      {
+        "type": "number",
+        "raw": "6 500",
+        "normalized": "6500",
+        "line": 253,
+        "context": "6 500"
+      },
+      {
+        "type": "number",
+        "raw": "10 000",
+        "normalized": "10000",
+        "line": 254,
+        "context": "10 000"
+      },
+      {
+        "type": "number",
+        "raw": "15 900",
+        "normalized": "15900",
+        "line": 255,
+        "context": "15 900"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 258,
+        "context": "6 mois"
+      },
+      {
+        "type": "number",
+        "raw": "0,50",
+        "normalized": "0.50",
+        "line": 259,
+        "context": "0,50"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 261,
+        "context": "100"
+      },
+      {
+        "type": "number",
+        "raw": "7 500",
+        "normalized": "7500",
+        "line": 262,
+        "context": "7 500"
+      },
+      {
+        "type": "number",
+        "raw": "11 500",
+        "normalized": "11500",
+        "line": 263,
+        "context": "11 500"
+      },
+      {
+        "type": "number",
+        "raw": "19 700",
+        "normalized": "19700",
+        "line": 264,
+        "context": "19 700"
+      },
+      {
+        "type": "number",
+        "raw": "125",
+        "normalized": "125",
+        "line": 270,
+        "context": "125"
+      },
+      {
+        "type": "number",
+        "raw": "8 300",
+        "normalized": "8300",
+        "line": 271,
+        "context": "8 300"
+      },
+      {
+        "type": "number",
+        "raw": "12 800",
+        "normalized": "12800",
+        "line": 272,
+        "context": "12 800"
+      },
+      {
+        "type": "number",
+        "raw": "21 400",
+        "normalized": "21400",
+        "line": 273,
+        "context": "21 400"
+      },
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 279,
+        "context": "150"
+      },
+      {
+        "type": "number",
+        "raw": "9 100",
+        "normalized": "9100",
+        "line": 280,
+        "context": "9 100"
+      },
+      {
+        "type": "number",
+        "raw": "14 000",
+        "normalized": "14000",
+        "line": 281,
+        "context": "14 000"
+      },
+      {
+        "type": "number",
+        "raw": "24 900",
+        "normalized": "24900",
+        "line": 282,
+        "context": "24 900"
+      },
+      {
+        "type": "number",
+        "raw": "175",
+        "normalized": "175",
+        "line": 288,
+        "context": "175"
+      },
+      {
+        "type": "number",
+        "raw": "10 100",
+        "normalized": "10100",
+        "line": 289,
+        "context": "10 100"
+      },
+      {
+        "type": "number",
+        "raw": "15 500",
+        "normalized": "15500",
+        "line": 290,
+        "context": "15 500"
+      },
+      {
+        "type": "number",
+        "raw": "28 400",
+        "normalized": "28400",
+        "line": 291,
+        "context": "28 400"
+      },
+      {
+        "type": "number",
+        "raw": "200",
+        "normalized": "200",
+        "line": 297,
+        "context": "200"
+      },
+      {
+        "type": "number",
+        "raw": "11 000",
+        "normalized": "11000",
+        "line": 298,
+        "context": "11 000"
+      },
+      {
+        "type": "number",
+        "raw": "16 900",
+        "normalized": "16900",
+        "line": 299,
+        "context": "16 900"
+      },
+      {
+        "type": "number",
+        "raw": "31 700",
+        "normalized": "31700",
+        "line": 300,
+        "context": "31 700"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 306,
+        "context": "250"
+      },
+      {
+        "type": "number",
+        "raw": "12 900",
+        "normalized": "12900",
+        "line": 307,
+        "context": "12 900"
+      },
+      {
+        "type": "number",
+        "raw": "19 900",
+        "normalized": "19900",
+        "line": 308,
+        "context": "19 900"
+      },
+      {
+        "type": "number",
+        "raw": "38 400",
+        "normalized": "38400",
+        "line": 309,
+        "context": "38 400"
+      },
+      {
+        "type": "number",
+        "raw": "300",
+        "normalized": "300",
+        "line": 315,
+        "context": "300"
+      },
+      {
+        "type": "number",
+        "raw": "14 300",
+        "normalized": "14300",
+        "line": 316,
+        "context": "14 300"
+      },
+      {
+        "type": "number",
+        "raw": "22 000",
+        "normalized": "22000",
+        "line": 317,
+        "context": "22 000"
+      },
+      {
+        "type": "number",
+        "raw": "41 600",
+        "normalized": "41600",
+        "line": 318,
+        "context": "41 600"
+      },
+      {
+        "type": "number",
+        "raw": "350",
+        "normalized": "350",
+        "line": 324,
+        "context": "350"
+      },
+      {
+        "type": "number",
+        "raw": "16 200",
+        "normalized": "16200",
+        "line": 325,
+        "context": "16 200"
+      },
+      {
+        "type": "number",
+        "raw": "24 900",
+        "normalized": "24900",
+        "line": 326,
+        "context": "24 900"
+      },
+      {
+        "type": "number",
+        "raw": "43 000",
+        "normalized": "43000",
+        "line": 327,
+        "context": "43 000"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 333,
+        "context": "≥ 400"
+      },
+      {
+        "type": "number",
+        "raw": "17 800",
+        "normalized": "17800",
+        "line": 334,
+        "context": "17 800"
+      },
+      {
+        "type": "number",
+        "raw": "27 300",
+        "normalized": "27300",
+        "line": 335,
+        "context": "27 300"
+      },
+      {
+        "type": "number",
+        "raw": "44 800",
+        "normalized": "44800",
+        "line": 336,
+        "context": "44 800"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

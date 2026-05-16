@@ -167,6 +167,36 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par kWh",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 7,
+        "context": "électrique sur 6 mois maximum"
+      },
+      {
+        "type": "number",
+        "raw": "13,4",
+        "normalized": "13.4",
+        "line": 9,
+        "context": "13,4"
+      },
+      {
+        "type": "number",
+        "raw": "45",
+        "normalized": "45",
+        "line": 13,
+        "context": "45"
+      },
+      {
+        "type": "number",
+        "raw": "100%",
+        "normalized": "100%",
+        "line": 16,
+        "context": "par une infrastructure d’alimentation électrique à quai. La consommation des navires et bateaux à propulsion 100%"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

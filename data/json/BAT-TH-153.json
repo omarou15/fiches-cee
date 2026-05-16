@@ -183,6 +183,15 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWhcumac par (kW.°C)",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 12,
+        "context": "1 500"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

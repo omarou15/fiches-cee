@@ -135,6 +135,15 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac pour un abonnement",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "6 000",
+        "normalized": "6000",
+        "line": 9,
+        "context": "6 000"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

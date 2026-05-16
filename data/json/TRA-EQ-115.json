@@ -208,6 +208,15 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par véhicule",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "181 300",
+        "normalized": "181300",
+        "line": 7,
+        "context": "181 300"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

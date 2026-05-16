@@ -183,6 +183,78 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par appartement Nombre",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 14,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "17 700",
+        "normalized": "17700",
+        "line": 15,
+        "context": "17 700"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 20,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "14 500",
+        "normalized": "14500",
+        "line": 21,
+        "context": "14 500"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 22,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "9 700",
+        "normalized": "9700",
+        "line": 23,
+        "context": "9 700"
+      },
+      {
+        "type": "number",
+        "raw": "0,98",
+        "normalized": "0.98",
+        "line": 34,
+        "context": "0,98"
+      },
+      {
+        "type": "number",
+        "raw": "0,93",
+        "normalized": "0.93",
+        "line": 35,
+        "context": "0,93"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 36,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "0,95",
+        "normalized": "0.95",
+        "line": 37,
+        "context": "0,95"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

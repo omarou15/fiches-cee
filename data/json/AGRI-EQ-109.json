@@ -184,6 +184,36 @@
     "formula_section_page_end": 2,
     "unit": "Montant de kWh cumac par m²",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1 060",
+        "normalized": "1060",
+        "line": 28,
+        "context": "1 060"
+      },
+      {
+        "type": "number",
+        "raw": "490",
+        "normalized": "490",
+        "line": 32,
+        "context": "490"
+      },
+      {
+        "type": "number",
+        "raw": "1 930",
+        "normalized": "1930",
+        "line": 40,
+        "context": "1 930"
+      },
+      {
+        "type": "number",
+        "raw": "900",
+        "normalized": "900",
+        "line": 44,
+        "context": "900"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

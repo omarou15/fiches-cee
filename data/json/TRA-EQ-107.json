@@ -137,6 +137,197 @@
     "expressions": [
       "V = nombre de voyages de l’UTI achetée ou louée relevés sur 6 mois x 2 (soit le nombre de voyages par an réalisés"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 14,
+        "context": "Bateau DEK (1 000 t)"
+      },
+      {
+        "type": "number",
+        "raw": "3 800",
+        "normalized": "3800",
+        "line": 15,
+        "context": "3 800"
+      },
+      {
+        "type": "number",
+        "raw": "3 200",
+        "normalized": "3200",
+        "line": 16,
+        "context": "3 200"
+      },
+      {
+        "type": "number",
+        "raw": "3 300",
+        "normalized": "3300",
+        "line": 17,
+        "context": "3 300"
+      },
+      {
+        "type": "number",
+        "raw": "1 200",
+        "normalized": "1200",
+        "line": 18,
+        "context": "1 200"
+      },
+      {
+        "type": "number",
+        "raw": "2 900",
+        "normalized": "2900",
+        "line": 19,
+        "context": "2 900"
+      },
+      {
+        "type": "number",
+        "raw": "1 350",
+        "normalized": "1350",
+        "line": 20,
+        "context": "Bateau RHK (1 350 t)"
+      },
+      {
+        "type": "number",
+        "raw": "7 900",
+        "normalized": "7900",
+        "line": 21,
+        "context": "7 900"
+      },
+      {
+        "type": "number",
+        "raw": "7 500",
+        "normalized": "7500",
+        "line": 22,
+        "context": "7 500"
+      },
+      {
+        "type": "number",
+        "raw": "4 000",
+        "normalized": "4000",
+        "line": 23,
+        "context": "4 000"
+      },
+      {
+        "type": "number",
+        "raw": "2 600",
+        "normalized": "2600",
+        "line": 24,
+        "context": "2 600"
+      },
+      {
+        "type": "number",
+        "raw": "5 500",
+        "normalized": "5500",
+        "line": 25,
+        "context": "5 500"
+      },
+      {
+        "type": "number",
+        "raw": "2 500",
+        "normalized": "2500",
+        "line": 26,
+        "context": "Bateau Grand Rhénan (2 500 t)"
+      },
+      {
+        "type": "number",
+        "raw": "8 500",
+        "normalized": "8500",
+        "line": 27,
+        "context": "8 500"
+      },
+      {
+        "type": "number",
+        "raw": "7 800",
+        "normalized": "7800",
+        "line": 28,
+        "context": "7 800"
+      },
+      {
+        "type": "number",
+        "raw": "4 700",
+        "normalized": "4700",
+        "line": 29,
+        "context": "4 700"
+      },
+      {
+        "type": "number",
+        "raw": "4 100",
+        "normalized": "4100",
+        "line": 30,
+        "context": "4 100"
+      },
+      {
+        "type": "number",
+        "raw": "6300",
+        "normalized": "6300",
+        "line": 31,
+        "context": "6300"
+      },
+      {
+        "type": "number",
+        "raw": "4 400",
+        "normalized": "4400",
+        "line": 32,
+        "context": "Bateau Convois (4 400 t)"
+      },
+      {
+        "type": "number",
+        "raw": "9 000",
+        "normalized": "9000",
+        "line": 33,
+        "context": "9 000"
+      },
+      {
+        "type": "number",
+        "raw": "8 500",
+        "normalized": "8500",
+        "line": 34,
+        "context": "8 500"
+      },
+      {
+        "type": "number",
+        "raw": "8 300",
+        "normalized": "8300",
+        "line": 35,
+        "context": "8 300"
+      },
+      {
+        "type": "number",
+        "raw": "6 500",
+        "normalized": "6500",
+        "line": 36,
+        "context": "6 500"
+      },
+      {
+        "type": "number",
+        "raw": "8 000",
+        "normalized": "8000",
+        "line": 37,
+        "context": "8 000"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 39,
+        "context": "V = nombre de voyages de l’UTI achetée ou louée relevés sur 6 mois x 2 (soit le nombre de voyages par an réalisés"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 39,
+        "context": "V = nombre de voyages de l’UTI achetée ou louée relevés sur 6 mois x 2 (soit le nombre de voyages par an réalisés"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 42,
+        "context": "On considère que le trafic réalisé par l’UTI sur 6 mois consécutifs est maintenu en moyenne sur la durée de vie du"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

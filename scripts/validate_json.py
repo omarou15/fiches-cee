@@ -29,6 +29,7 @@ def main() -> int:
     report_path = REPO_ROOT / "data" / "indexes" / "extraction_report.json"
     pdf_audit_path = REPO_ROOT / "data" / "indexes" / "pdf_audit_unique_fiches.json"
     formulas_index_path = REPO_ROOT / "data" / "indexes" / "formulas_cee_index.json"
+    formula_audit_path = REPO_ROOT / "data" / "indexes" / "formula_audit_report.json"
 
     fiche_files = sorted(json_dir.glob("*.json"))
     if not fiche_files:
@@ -95,6 +96,20 @@ def main() -> int:
             )
         except Exception as exc:
             errors.append(f"formulas_cee_index.json: schema error: {exc}")
+
+    if formula_audit_path.exists():
+        report = load_json(formula_audit_path)
+        if jsonschema:
+            try:
+                jsonschema.validate(
+                    report,
+                    load_json(REPO_ROOT / "schemas" / "formula_audit.schema.json"),
+                )
+            except Exception as exc:
+                errors.append(f"formula_audit_report.json: schema error: {exc}")
+        summary = report.get("summary", {})
+        if summary.get("needs_review") or summary.get("failed") or summary.get("total_missing_values"):
+            errors.append("formula_audit_report.json: unresolved formula audit issues")
 
     if errors:
         print("Validation failed:")

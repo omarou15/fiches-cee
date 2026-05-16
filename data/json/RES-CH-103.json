@@ -160,6 +160,92 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "210",
+        "normalized": "210",
+        "line": 10,
+        "context": "210"
+      },
+      {
+        "type": "number",
+        "raw": "140",
+        "normalized": "140",
+        "line": 16,
+        "context": "140"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 18,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1,1",
+        "normalized": "1.1",
+        "line": 19,
+        "context": "1,1"
+      },
+      {
+        "type": "number",
+        "raw": "200",
+        "normalized": "200",
+        "line": 23,
+        "context": "200"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 25,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 26,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "170",
+        "normalized": "170",
+        "line": 30,
+        "context": "170"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 32,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 33,
+        "context": "0,6"
+      },
+      {
+        "type": "number",
+        "raw": "260",
+        "normalized": "260",
+        "line": 37,
+        "context": "260"
+      },
+      {
+        "type": "number",
+        "raw": "140",
+        "normalized": "140",
+        "line": 43,
+        "context": "140"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

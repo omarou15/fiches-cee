@@ -235,6 +235,15 @@
     "expressions": [
       "14,134 x D x (Précup x η – Pconso)"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "14,134",
+        "normalized": "14.134",
+        "line": 3,
+        "context": "14,134 x D x (Précup x η – Pconso)"
+      }
+    ],
     "calculation_methods": [
       "direct_expression"
     ],

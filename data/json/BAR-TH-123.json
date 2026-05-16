@@ -168,6 +168,50 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par appartement Nombre",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 7,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "6 400",
+        "normalized": "6400",
+        "line": 8,
+        "context": "6 400"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 11,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "5 200",
+        "normalized": "5200",
+        "line": 12,
+        "context": "5 200"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 13,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "3 500",
+        "normalized": "3500",
+        "line": 14,
+        "context": "3 500"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

@@ -204,6 +204,85 @@
       "700 x P + 12 000",
       "1 600 x P"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "0,12",
+        "normalized": "0.12",
+        "line": 2,
+        "context": "0,12 kW ≤ P ≤ 0,75 kW"
+      },
+      {
+        "type": "number",
+        "raw": "0,75",
+        "normalized": "0.75",
+        "line": 2,
+        "context": "0,12 kW ≤ P ≤ 0,75 kW"
+      },
+      {
+        "type": "number",
+        "raw": "0,75",
+        "normalized": "0.75",
+        "line": 3,
+        "context": "0,75 kW < P ≤ 375 kW"
+      },
+      {
+        "type": "number",
+        "raw": "375",
+        "normalized": "375",
+        "line": 3,
+        "context": "0,75 kW < P ≤ 375 kW"
+      },
+      {
+        "type": "number",
+        "raw": "375",
+        "normalized": "375",
+        "line": 4,
+        "context": "375 kW < P ≤ 1000 kW"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 4,
+        "context": "375 kW < P ≤ 1000 kW"
+      },
+      {
+        "type": "number",
+        "raw": "4 900",
+        "normalized": "4900",
+        "line": 5,
+        "context": "4 900 x P + 2 600"
+      },
+      {
+        "type": "number",
+        "raw": "2 600",
+        "normalized": "2600",
+        "line": 5,
+        "context": "4 900 x P + 2 600"
+      },
+      {
+        "type": "number",
+        "raw": "700",
+        "normalized": "700",
+        "line": 6,
+        "context": "700 x P + 12 000"
+      },
+      {
+        "type": "number",
+        "raw": "12 000",
+        "normalized": "12000",
+        "line": 6,
+        "context": "700 x P + 12 000"
+      },
+      {
+        "type": "number",
+        "raw": "1 600",
+        "normalized": "1600",
+        "line": 7,
+        "context": "1 600 x P"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

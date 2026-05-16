@@ -160,6 +160,134 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par kW thermique installé Puissance thermique",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 16,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "42 700",
+        "normalized": "42700",
+        "line": 17,
+        "context": "42 700"
+      },
+      {
+        "type": "number",
+        "raw": "102 600",
+        "normalized": "102600",
+        "line": 18,
+        "context": "102 600"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 21,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "48 500",
+        "normalized": "48500",
+        "line": 22,
+        "context": "48 500"
+      },
+      {
+        "type": "number",
+        "raw": "116 600",
+        "normalized": "116600",
+        "line": 23,
+        "context": "116 600"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 24,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "55 700",
+        "normalized": "55700",
+        "line": 25,
+        "context": "55 700"
+      },
+      {
+        "type": "number",
+        "raw": "134 100",
+        "normalized": "134100",
+        "line": 26,
+        "context": "134 100"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 31,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "12 200",
+        "normalized": "12200",
+        "line": 32,
+        "context": "12 200"
+      },
+      {
+        "type": "number",
+        "raw": "16 900",
+        "normalized": "16900",
+        "line": 33,
+        "context": "16 900"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 34,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "13 900",
+        "normalized": "13900",
+        "line": 35,
+        "context": "13 900"
+      },
+      {
+        "type": "number",
+        "raw": "19 300",
+        "normalized": "19300",
+        "line": 36,
+        "context": "19 300"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 37,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "17 400",
+        "normalized": "17400",
+        "line": 38,
+        "context": "17 400"
+      },
+      {
+        "type": "number",
+        "raw": "24 100",
+        "normalized": "24100",
+        "line": 39,
+        "context": "24 100"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

@@ -179,6 +179,372 @@
     "formula_section_page_end": 3,
     "unit": "Le volume des certificats d’économies d’énergie (VCEE) en kWh cumac est déterminé selon la formule suivante : VCEE = Ga x TK Ga est le gain énergétique net actualisé par type d’unité de transport fluvial et par bassin de navigation, en kWh",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 21,
+        "context": "250 t < M ≤ 400 t"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 21,
+        "context": "250 t < M ≤ 400 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,93",
+        "normalized": "0.93",
+        "line": 22,
+        "context": "0,93"
+      },
+      {
+        "type": "number",
+        "raw": "1,06",
+        "normalized": "1.06",
+        "line": 23,
+        "context": "1,06"
+      },
+      {
+        "type": "number",
+        "raw": "0,94",
+        "normalized": "0.94",
+        "line": 24,
+        "context": "0,94"
+      },
+      {
+        "type": "number",
+        "raw": "1,11",
+        "normalized": "1.11",
+        "line": 25,
+        "context": "1,11"
+      },
+      {
+        "type": "number",
+        "raw": "1,02",
+        "normalized": "1.02",
+        "line": 26,
+        "context": "1,02"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 27,
+        "context": "400 < M ≤ 650 t"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 27,
+        "context": "400 < M ≤ 650 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,86",
+        "normalized": "0.86",
+        "line": 28,
+        "context": "0,86"
+      },
+      {
+        "type": "number",
+        "raw": "0,93",
+        "normalized": "0.93",
+        "line": 29,
+        "context": "0,93"
+      },
+      {
+        "type": "number",
+        "raw": "0,87",
+        "normalized": "0.87",
+        "line": 30,
+        "context": "0,87"
+      },
+      {
+        "type": "number",
+        "raw": "1,10",
+        "normalized": "1.10",
+        "line": 31,
+        "context": "1,10"
+      },
+      {
+        "type": "number",
+        "raw": "0,95",
+        "normalized": "0.95",
+        "line": 32,
+        "context": "0,95"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 33,
+        "context": "650 < M ≤ 1 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 33,
+        "context": "650 < M ≤ 1 000 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,75",
+        "normalized": "0.75",
+        "line": 34,
+        "context": "0,75"
+      },
+      {
+        "type": "number",
+        "raw": "0,80",
+        "normalized": "0.80",
+        "line": 35,
+        "context": "0,80"
+      },
+      {
+        "type": "number",
+        "raw": "0,80",
+        "normalized": "0.80",
+        "line": 36,
+        "context": "0,80"
+      },
+      {
+        "type": "number",
+        "raw": "0,97",
+        "normalized": "0.97",
+        "line": 37,
+        "context": "0,97"
+      },
+      {
+        "type": "number",
+        "raw": "0,83",
+        "normalized": "0.83",
+        "line": 38,
+        "context": "0,83"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 39,
+        "context": "1 000 < M ≤ 1 500 t"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 39,
+        "context": "1 000 < M ≤ 1 500 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,41",
+        "normalized": "0.41",
+        "line": 40,
+        "context": "0,41"
+      },
+      {
+        "type": "number",
+        "raw": "0,45",
+        "normalized": "0.45",
+        "line": 41,
+        "context": "0,45"
+      },
+      {
+        "type": "number",
+        "raw": "0,73",
+        "normalized": "0.73",
+        "line": 42,
+        "context": "0,73"
+      },
+      {
+        "type": "number",
+        "raw": "0,85",
+        "normalized": "0.85",
+        "line": 43,
+        "context": "0,85"
+      },
+      {
+        "type": "number",
+        "raw": "0,59",
+        "normalized": "0.59",
+        "line": 44,
+        "context": "0,59"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 45,
+        "context": "1 500 t < M"
+      },
+      {
+        "type": "number",
+        "raw": "0,37",
+        "normalized": "0.37",
+        "line": 46,
+        "context": "0,37"
+      },
+      {
+        "type": "number",
+        "raw": "0,42",
+        "normalized": "0.42",
+        "line": 47,
+        "context": "0,42"
+      },
+      {
+        "type": "number",
+        "raw": "0,68",
+        "normalized": "0.68",
+        "line": 48,
+        "context": "0,68"
+      },
+      {
+        "type": "number",
+        "raw": "0,73",
+        "normalized": "0.73",
+        "line": 49,
+        "context": "0,73"
+      },
+      {
+        "type": "number",
+        "raw": "0,52",
+        "normalized": "0.52",
+        "line": 50,
+        "context": "0,52"
+      },
+      {
+        "type": "number",
+        "raw": "295",
+        "normalized": "295",
+        "line": 80,
+        "context": "295 ≤ P ≤ 590"
+      },
+      {
+        "type": "number",
+        "raw": "590",
+        "normalized": "590",
+        "line": 80,
+        "context": "295 ≤ P ≤ 590"
+      },
+      {
+        "type": "number",
+        "raw": "460",
+        "normalized": "460",
+        "line": 81,
+        "context": "460"
+      },
+      {
+        "type": "number",
+        "raw": "490",
+        "normalized": "490",
+        "line": 82,
+        "context": "490"
+      },
+      {
+        "type": "number",
+        "raw": "360",
+        "normalized": "360",
+        "line": 83,
+        "context": "360"
+      },
+      {
+        "type": "number",
+        "raw": "440",
+        "normalized": "440",
+        "line": 85,
+        "context": "440"
+      },
+      {
+        "type": "number",
+        "raw": "590",
+        "normalized": "590",
+        "line": 86,
+        "context": "590 < P ≤ 880"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 86,
+        "context": "590 < P ≤ 880"
+      },
+      {
+        "type": "number",
+        "raw": "710",
+        "normalized": "710",
+        "line": 87,
+        "context": "710"
+      },
+      {
+        "type": "number",
+        "raw": "750",
+        "normalized": "750",
+        "line": 88,
+        "context": "750"
+      },
+      {
+        "type": "number",
+        "raw": "500",
+        "normalized": "500",
+        "line": 89,
+        "context": "500"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 91,
+        "context": "650"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 92,
+        "context": "880 < P"
+      },
+      {
+        "type": "number",
+        "raw": "900",
+        "normalized": "900",
+        "line": 93,
+        "context": "900"
+      },
+      {
+        "type": "number",
+        "raw": "870",
+        "normalized": "870",
+        "line": 94,
+        "context": "870"
+      },
+      {
+        "type": "number",
+        "raw": "700",
+        "normalized": "700",
+        "line": 95,
+        "context": "700"
+      },
+      {
+        "type": "number",
+        "raw": "1 500",
+        "normalized": "1500",
+        "line": 96,
+        "context": "1 500"
+      },
+      {
+        "type": "number",
+        "raw": "980",
+        "normalized": "980",
+        "line": 97,
+        "context": "980"
+      }
+    ],
     "calculation_methods": [],
     "formula_status": "extracted",
     "source_file": "Transport_TRA/TRA-EQ-120 vA27-1_0.pdf",

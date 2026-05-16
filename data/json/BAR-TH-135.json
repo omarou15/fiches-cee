@@ -255,6 +255,113 @@
       "0,148 x B x (T – 50)",
       "0,086 x B x (T – 50)"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 1,
+        "context": "1 - Logement existant :"
+      },
+      {
+        "type": "number",
+        "raw": "0,148",
+        "normalized": "0.148",
+        "line": 10,
+        "context": "0,148 x B x T"
+      },
+      {
+        "type": "number",
+        "raw": "0,086",
+        "normalized": "0.086",
+        "line": 11,
+        "context": "0,086 x B x T"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 13,
+        "context": "2 - Logement neuf ou parties nouvelles de logement existant :"
+      },
+      {
+        "type": "number",
+        "raw": "0,148",
+        "normalized": "0.148",
+        "line": 22,
+        "context": "0,148 x B x (T – 44)"
+      },
+      {
+        "type": "number",
+        "raw": "44",
+        "normalized": "44",
+        "line": 22,
+        "context": "0,148 x B x (T – 44)"
+      },
+      {
+        "type": "number",
+        "raw": "0,086",
+        "normalized": "0.086",
+        "line": 23,
+        "context": "0,086 x B x (T – 44)"
+      },
+      {
+        "type": "number",
+        "raw": "44",
+        "normalized": "44",
+        "line": 23,
+        "context": "0,086 x B x (T – 44)"
+      },
+      {
+        "type": "number",
+        "raw": "0,148",
+        "normalized": "0.148",
+        "line": 26,
+        "context": "0,148 x B x (T – 50)"
+      },
+      {
+        "type": "number",
+        "raw": "50",
+        "normalized": "50",
+        "line": 26,
+        "context": "0,148 x B x (T – 50)"
+      },
+      {
+        "type": "number",
+        "raw": "0,086",
+        "normalized": "0.086",
+        "line": 27,
+        "context": "0,086 x B x (T – 50)"
+      },
+      {
+        "type": "number",
+        "raw": "50",
+        "normalized": "50",
+        "line": 27,
+        "context": "0,086 x B x (T – 50)"
+      },
+      {
+        "type": "number",
+        "raw": "50",
+        "normalized": "50",
+        "line": 32,
+        "context": "T : taux de couverture solaire de l’installation déterminé dans l’étude de dimensionnement et tel que 50 < T ≤ 100."
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 32,
+        "context": "T : taux de couverture solaire de l’installation déterminé dans l’étude de dimensionnement et tel que 50 < T ≤ 100."
+      },
+      {
+        "type": "number",
+        "raw": "90 %",
+        "normalized": "90%",
+        "line": 33,
+        "context": "Pour toute valeur de T supérieure ou égale à 90 %, le taux de couverture T sera pris égal à 90 %."
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

@@ -152,6 +152,15 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "430",
+        "normalized": "430",
+        "line": 13,
+        "context": "430"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

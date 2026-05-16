@@ -160,6 +160,225 @@
     "formula_section_page_end": 4,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "311",
+        "normalized": "311",
+        "line": 2,
+        "context": "R. 311-1 du code de la route"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 2,
+        "context": "R. 311-1 du code de la route"
+      },
+      {
+        "type": "number",
+        "raw": "74 200",
+        "normalized": "74200",
+        "line": 9,
+        "context": "74 200"
+      },
+      {
+        "type": "number",
+        "raw": "156 800",
+        "normalized": "156800",
+        "line": 14,
+        "context": "156 800"
+      },
+      {
+        "type": "number",
+        "raw": "59 800",
+        "normalized": "59800",
+        "line": 17,
+        "context": "59 800"
+      },
+      {
+        "type": "number",
+        "raw": "126 300",
+        "normalized": "126300",
+        "line": 21,
+        "context": "126 300"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 23,
+        "context": "filiale d'un groupe gérant un parc total supérieur à 100 véhicules *:"
+      },
+      {
+        "type": "number",
+        "raw": "2025",
+        "normalized": "2025",
+        "line": 26,
+        "context": "années 2025 et"
+      },
+      {
+        "type": "number",
+        "raw": "2026",
+        "normalized": "2026",
+        "line": 27,
+        "context": "2026"
+      },
+      {
+        "type": "number",
+        "raw": "2027",
+        "normalized": "2027",
+        "line": 29,
+        "context": "2027"
+      },
+      {
+        "type": "number",
+        "raw": "59 400",
+        "normalized": "59400",
+        "line": 31,
+        "context": "59 400"
+      },
+      {
+        "type": "number",
+        "raw": "44 500",
+        "normalized": "44500",
+        "line": 32,
+        "context": "44 500"
+      },
+      {
+        "type": "number",
+        "raw": "125 400",
+        "normalized": "125400",
+        "line": 35,
+        "context": "125 400"
+      },
+      {
+        "type": "number",
+        "raw": "94 100",
+        "normalized": "94100",
+        "line": 36,
+        "context": "94 100"
+      },
+      {
+        "type": "number",
+        "raw": "47 800",
+        "normalized": "47800",
+        "line": 39,
+        "context": "47 800"
+      },
+      {
+        "type": "number",
+        "raw": "35 900",
+        "normalized": "35900",
+        "line": 40,
+        "context": "35 900"
+      },
+      {
+        "type": "number",
+        "raw": "101 100",
+        "normalized": "101100",
+        "line": 44,
+        "context": "101 100"
+      },
+      {
+        "type": "number",
+        "raw": "75 800",
+        "normalized": "75800",
+        "line": 45,
+        "context": "75 800"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 46,
+        "context": "Pour une collectivité locale gérant un parc supérieur à 20 véhicules**, un"
+      },
+      {
+        "type": "number",
+        "raw": "44 500",
+        "normalized": "44500",
+        "line": 49,
+        "context": "44 500"
+      },
+      {
+        "type": "number",
+        "raw": "94 100",
+        "normalized": "94100",
+        "line": 52,
+        "context": "94 100"
+      },
+      {
+        "type": "number",
+        "raw": "35 900",
+        "normalized": "35900",
+        "line": 55,
+        "context": "35 900"
+      },
+      {
+        "type": "number",
+        "raw": "75 800",
+        "normalized": "75800",
+        "line": 59,
+        "context": "75 800"
+      },
+      {
+        "type": "number",
+        "raw": "100",
+        "normalized": "100",
+        "line": 60,
+        "context": "*Désigne les entreprises et autres personnes morales gérant un parc de plus de 100 véhicules dont chaque"
+      },
+      {
+        "type": "number",
+        "raw": "3,5",
+        "normalized": "3.5",
+        "line": 61,
+        "context": "véhicule a un poids total autorisé en charge inférieur ou égal à 3,5 tonnes (équivalent M1 ou N1 ou N2"
+      },
+      {
+        "type": "number",
+        "raw": "312",
+        "normalized": "312",
+        "line": 62,
+        "context": "après déduction du poids dérogatoire, conformément au IV de l'article R. 312-4 du code de la route), ou"
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 62,
+        "context": "après déduction du poids dérogatoire, conformément au IV de l'article R. 312-4 du code de la route), ou"
+      },
+      {
+        "type": "number",
+        "raw": "20",
+        "normalized": "20",
+        "line": 67,
+        "context": "de plus de 20 véhicules, dont chaque véhicule a un poids total autorisé en charge inférieur ou égal à 3,5"
+      },
+      {
+        "type": "number",
+        "raw": "3,5",
+        "normalized": "3.5",
+        "line": 67,
+        "context": "de plus de 20 véhicules, dont chaque véhicule a un poids total autorisé en charge inférieur ou égal à 3,5"
+      },
+      {
+        "type": "number",
+        "raw": "312",
+        "normalized": "312",
+        "line": 69,
+        "context": "l'article R. 312-4 du code de la route)."
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 69,
+        "context": "l'article R. 312-4 du code de la route)."
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

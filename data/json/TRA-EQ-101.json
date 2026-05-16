@@ -143,6 +143,50 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par voyage Nombre de voyages moyen",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "9",
+        "normalized": "9",
+        "line": 7,
+        "context": "UTI ≥ 9 m ou UTI < 9 m dont le"
+      },
+      {
+        "type": "number",
+        "raw": "30",
+        "normalized": "30",
+        "line": 9,
+        "context": "supérieur à 30 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "18 500",
+        "normalized": "18500",
+        "line": 10,
+        "context": "18 500"
+      },
+      {
+        "type": "number",
+        "raw": "9",
+        "normalized": "9",
+        "line": 13,
+        "context": "UTI < 9 m dont le PTC est"
+      },
+      {
+        "type": "number",
+        "raw": "30",
+        "normalized": "30",
+        "line": 14,
+        "context": "inférieur à 30 tonnes"
+      },
+      {
+        "type": "number",
+        "raw": "9 300",
+        "normalized": "9300",
+        "line": 15,
+        "context": "9 300"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

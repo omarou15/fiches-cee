@@ -248,6 +248,281 @@
     "formula_section_page_end": 3,
     "unit": "Montant en kWh cumac",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 24,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "1 000",
+        "normalized": "1000",
+        "line": 25,
+        "context": "1 000"
+      },
+      {
+        "type": "number",
+        "raw": "0,53",
+        "normalized": "0.53",
+        "line": 27,
+        "context": "0,53"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 30,
+        "context": "1"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 31,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "830",
+        "normalized": "830",
+        "line": 32,
+        "context": "830"
+      },
+      {
+        "type": "number",
+        "raw": "0,68",
+        "normalized": "0.68",
+        "line": 34,
+        "context": "0,68"
+      },
+      {
+        "type": "number",
+        "raw": "0,22",
+        "normalized": "0.22",
+        "line": 36,
+        "context": "0,22"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 37,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "560",
+        "normalized": "560",
+        "line": 38,
+        "context": "560"
+      },
+      {
+        "type": "number",
+        "raw": "0,71",
+        "normalized": "0.71",
+        "line": 40,
+        "context": "0,71"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 42,
+        "context": "supérieur à 250 m3*"
+      },
+      {
+        "type": "number",
+        "raw": "1,88",
+        "normalized": "1.88",
+        "line": 43,
+        "context": "1,88"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 45,
+        "context": "*Salles d’un volume supérieur à 250 m3 : salle de cinéma, salle des fêtes, salles polyvalentes, salles de conférence,"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 68,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "970",
+        "normalized": "970",
+        "line": 69,
+        "context": "970"
+      },
+      {
+        "type": "number",
+        "raw": "0,51",
+        "normalized": "0.51",
+        "line": 71,
+        "context": "0,51"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 74,
+        "context": "1"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 75,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "800",
+        "normalized": "800",
+        "line": 76,
+        "context": "800"
+      },
+      {
+        "type": "number",
+        "raw": "0,63",
+        "normalized": "0.63",
+        "line": 78,
+        "context": "0,63"
+      },
+      {
+        "type": "number",
+        "raw": "0,17",
+        "normalized": "0.17",
+        "line": 80,
+        "context": "0,17"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 81,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "530",
+        "normalized": "530",
+        "line": 82,
+        "context": "530"
+      },
+      {
+        "type": "number",
+        "raw": "0,71",
+        "normalized": "0.71",
+        "line": 84,
+        "context": "0,71"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 100,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "850",
+        "normalized": "850",
+        "line": 101,
+        "context": "850"
+      },
+      {
+        "type": "number",
+        "raw": "0,48",
+        "normalized": "0.48",
+        "line": 104,
+        "context": "0,48"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 108,
+        "context": "1"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 109,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "700",
+        "normalized": "700",
+        "line": 110,
+        "context": "700"
+      },
+      {
+        "type": "number",
+        "raw": "0,61",
+        "normalized": "0.61",
+        "line": 112,
+        "context": "0,61"
+      },
+      {
+        "type": "number",
+        "raw": "0,52",
+        "normalized": "0.52",
+        "line": 114,
+        "context": "0,52"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 115,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "460",
+        "normalized": "460",
+        "line": 116,
+        "context": "460"
+      },
+      {
+        "type": "number",
+        "raw": "0,71",
+        "normalized": "0.71",
+        "line": 118,
+        "context": "0,71"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 120,
+        "context": "supérieur à 250 m3*"
+      },
+      {
+        "type": "number",
+        "raw": "1,44",
+        "normalized": "1.44",
+        "line": 121,
+        "context": "1,44"
+      },
+      {
+        "type": "number",
+        "raw": "250",
+        "normalized": "250",
+        "line": 123,
+        "context": "*Salles d’un volume supérieur à 250 m3 : salle de cinéma, salle des fêtes, salles polyvalentes, salles de conférence,"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

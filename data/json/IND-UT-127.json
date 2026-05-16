@@ -151,6 +151,22 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par kW",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "820",
+        "normalized": "820",
+        "line": 7,
+        "context": "820"
+      },
+      {
+        "type": "number",
+        "raw": "1900",
+        "normalized": "1900",
+        "line": 17,
+        "context": "1900"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

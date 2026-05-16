@@ -165,6 +165,421 @@
       "C’ x Y x K",
       "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2."
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 21,
+        "context": "M ≤ 400 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,80",
+        "normalized": "0.80",
+        "line": 22,
+        "context": "0,80"
+      },
+      {
+        "type": "number",
+        "raw": "0,91",
+        "normalized": "0.91",
+        "line": 23,
+        "context": "0,91"
+      },
+      {
+        "type": "number",
+        "raw": "0,81",
+        "normalized": "0.81",
+        "line": 24,
+        "context": "0,81"
+      },
+      {
+        "type": "number",
+        "raw": "0,95",
+        "normalized": "0.95",
+        "line": 25,
+        "context": "0,95"
+      },
+      {
+        "type": "number",
+        "raw": "0,87",
+        "normalized": "0.87",
+        "line": 26,
+        "context": "0,87"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 27,
+        "context": "400 t < M ≤ 650 t"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 27,
+        "context": "400 t < M ≤ 650 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,74",
+        "normalized": "0.74",
+        "line": 28,
+        "context": "0,74"
+      },
+      {
+        "type": "number",
+        "raw": "0,80",
+        "normalized": "0.80",
+        "line": 29,
+        "context": "0,80"
+      },
+      {
+        "type": "number",
+        "raw": "0,74",
+        "normalized": "0.74",
+        "line": 30,
+        "context": "0,74"
+      },
+      {
+        "type": "number",
+        "raw": "0,94",
+        "normalized": "0.94",
+        "line": 31,
+        "context": "0,94"
+      },
+      {
+        "type": "number",
+        "raw": "0,81",
+        "normalized": "0.81",
+        "line": 32,
+        "context": "0,81"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 33,
+        "context": "650 t < M ≤ 1000 t"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 33,
+        "context": "650 t < M ≤ 1000 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,65",
+        "normalized": "0.65",
+        "line": 34,
+        "context": "0,65"
+      },
+      {
+        "type": "number",
+        "raw": "0,69",
+        "normalized": "0.69",
+        "line": 35,
+        "context": "0,69"
+      },
+      {
+        "type": "number",
+        "raw": "0,68",
+        "normalized": "0.68",
+        "line": 36,
+        "context": "0,68"
+      },
+      {
+        "type": "number",
+        "raw": "0,83",
+        "normalized": "0.83",
+        "line": 37,
+        "context": "0,83"
+      },
+      {
+        "type": "number",
+        "raw": "0,71",
+        "normalized": "0.71",
+        "line": 38,
+        "context": "0,71"
+      },
+      {
+        "type": "number",
+        "raw": "1000",
+        "normalized": "1000",
+        "line": 39,
+        "context": "1000 t < M ≤ 1500 t"
+      },
+      {
+        "type": "number",
+        "raw": "1500",
+        "normalized": "1500",
+        "line": 39,
+        "context": "1000 t < M ≤ 1500 t"
+      },
+      {
+        "type": "number",
+        "raw": "0,36",
+        "normalized": "0.36",
+        "line": 40,
+        "context": "0,36"
+      },
+      {
+        "type": "number",
+        "raw": "0,38",
+        "normalized": "0.38",
+        "line": 41,
+        "context": "0,38"
+      },
+      {
+        "type": "number",
+        "raw": "0,63",
+        "normalized": "0.63",
+        "line": 42,
+        "context": "0,63"
+      },
+      {
+        "type": "number",
+        "raw": "0,73",
+        "normalized": "0.73",
+        "line": 43,
+        "context": "0,73"
+      },
+      {
+        "type": "number",
+        "raw": "0,52",
+        "normalized": "0.52",
+        "line": 44,
+        "context": "0,52"
+      },
+      {
+        "type": "number",
+        "raw": "1500",
+        "normalized": "1500",
+        "line": 45,
+        "context": "1500 t < M"
+      },
+      {
+        "type": "number",
+        "raw": "0,32",
+        "normalized": "0.32",
+        "line": 46,
+        "context": "0,32"
+      },
+      {
+        "type": "number",
+        "raw": "0,36",
+        "normalized": "0.36",
+        "line": 47,
+        "context": "0,36"
+      },
+      {
+        "type": "number",
+        "raw": "0,58",
+        "normalized": "0.58",
+        "line": 48,
+        "context": "0,58"
+      },
+      {
+        "type": "number",
+        "raw": "0,63",
+        "normalized": "0.63",
+        "line": 49,
+        "context": "0,63"
+      },
+      {
+        "type": "number",
+        "raw": "0,47",
+        "normalized": "0.47",
+        "line": 50,
+        "context": "0,47"
+      },
+      {
+        "type": "number",
+        "raw": "0,05",
+        "normalized": "0.05",
+        "line": 55,
+        "context": "Y = 0,05 pour l’installation d’un débitmètre ou d’un économètre,"
+      },
+      {
+        "type": "number",
+        "raw": "0,07",
+        "normalized": "0.07",
+        "line": 56,
+        "context": "Y = 0,07 pour l’installation d’un débitmètre ou d’un économètre, et d'un ensemble"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 60,
+        "context": "TK : t.km relevées sur une période maximale de 6 mois x 2."
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 60,
+        "context": "TK : t.km relevées sur une période maximale de 6 mois x 2."
+      },
+      {
+        "type": "number",
+        "raw": "295",
+        "normalized": "295",
+        "line": 85,
+        "context": "295 kW ≤ P ≤ 590 kW"
+      },
+      {
+        "type": "number",
+        "raw": "590",
+        "normalized": "590",
+        "line": 85,
+        "context": "295 kW ≤ P ≤ 590 kW"
+      },
+      {
+        "type": "number",
+        "raw": "400",
+        "normalized": "400",
+        "line": 86,
+        "context": "400"
+      },
+      {
+        "type": "number",
+        "raw": "420",
+        "normalized": "420",
+        "line": 87,
+        "context": "420"
+      },
+      {
+        "type": "number",
+        "raw": "310",
+        "normalized": "310",
+        "line": 88,
+        "context": "310"
+      },
+      {
+        "type": "number",
+        "raw": "370",
+        "normalized": "370",
+        "line": 90,
+        "context": "370"
+      },
+      {
+        "type": "number",
+        "raw": "590",
+        "normalized": "590",
+        "line": 91,
+        "context": "590 kW < P ≤ 880 kW"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 91,
+        "context": "590 kW < P ≤ 880 kW"
+      },
+      {
+        "type": "number",
+        "raw": "610",
+        "normalized": "610",
+        "line": 92,
+        "context": "610"
+      },
+      {
+        "type": "number",
+        "raw": "650",
+        "normalized": "650",
+        "line": 93,
+        "context": "650"
+      },
+      {
+        "type": "number",
+        "raw": "430",
+        "normalized": "430",
+        "line": 94,
+        "context": "430"
+      },
+      {
+        "type": "number",
+        "raw": "560",
+        "normalized": "560",
+        "line": 96,
+        "context": "560"
+      },
+      {
+        "type": "number",
+        "raw": "880",
+        "normalized": "880",
+        "line": 97,
+        "context": "880 kW < P"
+      },
+      {
+        "type": "number",
+        "raw": "770",
+        "normalized": "770",
+        "line": 98,
+        "context": "770"
+      },
+      {
+        "type": "number",
+        "raw": "750",
+        "normalized": "750",
+        "line": 99,
+        "context": "750"
+      },
+      {
+        "type": "number",
+        "raw": "600",
+        "normalized": "600",
+        "line": 100,
+        "context": "600"
+      },
+      {
+        "type": "number",
+        "raw": "1 300",
+        "normalized": "1300",
+        "line": 101,
+        "context": "1 300"
+      },
+      {
+        "type": "number",
+        "raw": "840",
+        "normalized": "840",
+        "line": 102,
+        "context": "840"
+      },
+      {
+        "type": "number",
+        "raw": "0,05",
+        "normalized": "0.05",
+        "line": 107,
+        "context": "Y = 0,05 pour l’installation d’un débitmètre ou d’un économètre,"
+      },
+      {
+        "type": "number",
+        "raw": "0,07",
+        "normalized": "0.07",
+        "line": 108,
+        "context": "Y = 0,07 pour l’installation d’un débitmètre ou d’un économètre, et d'un ensemble"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 112,
+        "context": "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2."
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 112,
+        "context": "K : km déclarés et certifiés par le bénéficiaire sur une période maximale de 6 mois consécutifs x 2."
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

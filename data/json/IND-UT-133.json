@@ -168,6 +168,50 @@
       "H x F x 9,25 x P",
       "faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "9,25",
+        "normalized": "9.25",
+        "line": 2,
+        "context": "H x F x 9,25 x P"
+      },
+      {
+        "type": "number",
+        "raw": "5%",
+        "normalized": "5%",
+        "line": 10,
+        "context": "dans l’étude de dimensionnement du bureau d’étude ou du professionnel. Pour un pourcentage de 5%, la valeur"
+      },
+      {
+        "type": "number",
+        "raw": "0,05",
+        "normalized": "0.05",
+        "line": 11,
+        "context": "prise en compte dans le calcul est de 0,05."
+      },
+      {
+        "type": "number",
+        "raw": "9,25",
+        "normalized": "9.25",
+        "line": 17,
+        "context": "faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 17,
+        "context": "faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 17,
+        "context": "faire pour chaque moteur et à sommer (H1 x F1 x 9,25 x P1 + H2 x F2 x 9,25 x P2 + ….), Hi, Fi et Pi correspondent"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables"

@@ -292,6 +292,169 @@
       "3x8h avec arrêt le week-end",
       "3x8h sans arrêt le week-end"
     ],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "29,4",
+        "normalized": "29.4",
+        "line": 17,
+        "context": "29,4"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 19,
+        "context": "1x8h, avec ou sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 20,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 25,
+        "context": "2x8h, avec ou sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "2,2",
+        "normalized": "2.2",
+        "line": 26,
+        "context": "2,2"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 27,
+        "context": "3x8h avec arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 28,
+        "context": "3"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 29,
+        "context": "3x8h sans arrêt le week-end"
+      },
+      {
+        "type": "number",
+        "raw": "4,2",
+        "normalized": "4.2",
+        "line": 30,
+        "context": "4,2"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 40,
+        "context": "se référant au tableau ci-dessous. En cas d’achat ou d’abonnement d’une durée supérieure à 6 ans, le facteur correctif"
+      },
+      {
+        "type": "number",
+        "raw": "5,45",
+        "normalized": "5.45",
+        "line": 41,
+        "context": "à prendre en compte est égal à 5,45."
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 48,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "1",
+        "normalized": "1",
+        "line": 49,
+        "context": "1"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 50,
+        "context": "2"
+      },
+      {
+        "type": "number",
+        "raw": "1,96",
+        "normalized": "1.96",
+        "line": 51,
+        "context": "1,96"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 52,
+        "context": "3"
+      },
+      {
+        "type": "number",
+        "raw": "2,89",
+        "normalized": "2.89",
+        "line": 53,
+        "context": "2,89"
+      },
+      {
+        "type": "number",
+        "raw": "4",
+        "normalized": "4",
+        "line": 54,
+        "context": "4"
+      },
+      {
+        "type": "number",
+        "raw": "3,78",
+        "normalized": "3.78",
+        "line": 55,
+        "context": "3,78"
+      },
+      {
+        "type": "number",
+        "raw": "5",
+        "normalized": "5",
+        "line": 56,
+        "context": "5"
+      },
+      {
+        "type": "number",
+        "raw": "4,63",
+        "normalized": "4.63",
+        "line": 57,
+        "context": "4,63"
+      },
+      {
+        "type": "number",
+        "raw": "6",
+        "normalized": "6",
+        "line": 58,
+        "context": "6"
+      },
+      {
+        "type": "number",
+        "raw": "5,45",
+        "normalized": "5.45",
+        "line": 59,
+        "context": "5,45"
+      }
+    ],
     "calculation_methods": [
       "direct_expression",
       "table_amount_times_variables",

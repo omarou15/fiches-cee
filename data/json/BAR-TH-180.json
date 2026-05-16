@@ -522,6 +522,554 @@
     "formula_section_page_end": 5,
     "unit": "Montant kWh cumac par appartement",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "111%",
+        "normalized": "111%",
+        "line": 22,
+        "context": "111% ≤ Etas <"
+      },
+      {
+        "type": "number",
+        "raw": "126%",
+        "normalized": "126%",
+        "line": 23,
+        "context": "126%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 25,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "100 000",
+        "normalized": "100000",
+        "line": 26,
+        "context": "100 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 31,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "84 000",
+        "normalized": "84000",
+        "line": 32,
+        "context": "84 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 33,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "60 000",
+        "normalized": "60000",
+        "line": 34,
+        "context": "60 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 37,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "146 000",
+        "normalized": "146000",
+        "line": 38,
+        "context": "146 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 39,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "127 000",
+        "normalized": "127000",
+        "line": 40,
+        "context": "127 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 41,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "100 000",
+        "normalized": "100000",
+        "line": 42,
+        "context": "100 000"
+      },
+      {
+        "type": "number",
+        "raw": "126%",
+        "normalized": "126%",
+        "line": 43,
+        "context": "126% ≤ Etas <"
+      },
+      {
+        "type": "number",
+        "raw": "150%",
+        "normalized": "150%",
+        "line": 44,
+        "context": "150%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 46,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "107 000",
+        "normalized": "107000",
+        "line": 47,
+        "context": "107 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 48,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "89 000",
+        "normalized": "89000",
+        "line": 49,
+        "context": "89 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 50,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "64 000",
+        "normalized": "64000",
+        "line": 51,
+        "context": "64 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 54,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "155 000",
+        "normalized": "155000",
+        "line": 55,
+        "context": "155 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 56,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "135 000",
+        "normalized": "135000",
+        "line": 57,
+        "context": "135 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 58,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "107 000",
+        "normalized": "107000",
+        "line": 59,
+        "context": "107 000"
+      },
+      {
+        "type": "number",
+        "raw": "150%",
+        "normalized": "150%",
+        "line": 60,
+        "context": "150% ≤ Etas <"
+      },
+      {
+        "type": "number",
+        "raw": "175%",
+        "normalized": "175%",
+        "line": 61,
+        "context": "175%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 63,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "112 000",
+        "normalized": "112000",
+        "line": 64,
+        "context": "112 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 65,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "93 000",
+        "normalized": "93000",
+        "line": 66,
+        "context": "93 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 67,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "67 000",
+        "normalized": "67000",
+        "line": 68,
+        "context": "67 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 71,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "163 000",
+        "normalized": "163000",
+        "line": 72,
+        "context": "163 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 73,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "142 000",
+        "normalized": "142000",
+        "line": 74,
+        "context": "142 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 75,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "112 000",
+        "normalized": "112000",
+        "line": 76,
+        "context": "112 000"
+      },
+      {
+        "type": "number",
+        "raw": "175%",
+        "normalized": "175%",
+        "line": 77,
+        "context": "175% ≤ Etas <"
+      },
+      {
+        "type": "number",
+        "raw": "190%",
+        "normalized": "190%",
+        "line": 78,
+        "context": "190%"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 80,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "115 000",
+        "normalized": "115000",
+        "line": 81,
+        "context": "115 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 82,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "96 000",
+        "normalized": "96000",
+        "line": 83,
+        "context": "96 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 84,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "69 000",
+        "normalized": "69000",
+        "line": 85,
+        "context": "69 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 88,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "167 000",
+        "normalized": "167000",
+        "line": 89,
+        "context": "167 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 90,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "146 000",
+        "normalized": "146000",
+        "line": 91,
+        "context": "146 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 92,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "115 000",
+        "normalized": "115000",
+        "line": 93,
+        "context": "115 000"
+      },
+      {
+        "type": "number",
+        "raw": "190%",
+        "normalized": "190%",
+        "line": 94,
+        "context": "190% ≤ Etas"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 96,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "117 000",
+        "normalized": "117000",
+        "line": 97,
+        "context": "117 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 98,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "97 000",
+        "normalized": "97000",
+        "line": 99,
+        "context": "97 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 100,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "70 000",
+        "normalized": "70000",
+        "line": 101,
+        "context": "70 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 104,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "170 000",
+        "normalized": "170000",
+        "line": 105,
+        "context": "170 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 106,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "148 000",
+        "normalized": "148000",
+        "line": 107,
+        "context": "148 000"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 108,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "117 000",
+        "normalized": "117000",
+        "line": 109,
+        "context": "117 000"
+      },
+      {
+        "type": "number",
+        "raw": "40 %",
+        "normalized": "40%",
+        "line": 117,
+        "context": "l’installation de plusieurs PAC identiques ou différentes) est strictement inférieure à 40 % de la puissance utile de"
+      },
+      {
+        "type": "number",
+        "raw": "813",
+        "normalized": "813",
+        "line": 130,
+        "context": "On entend par puissance thermique nominale, la puissance thermique nominale selon le règlement (EU) n°813/2013"
+      },
+      {
+        "type": "number",
+        "raw": "2013",
+        "normalized": "2013",
+        "line": 130,
+        "context": "On entend par puissance thermique nominale, la puissance thermique nominale selon le règlement (EU) n°813/2013"
+      },
+      {
+        "type": "number",
+        "raw": "2",
+        "normalized": "2",
+        "line": 131,
+        "context": "de la commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné"
+      },
+      {
+        "type": "number",
+        "raw": "2013",
+        "normalized": "2013",
+        "line": 131,
+        "context": "de la commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné"
+      },
+      {
+        "type": "number",
+        "raw": "0",
+        "normalized": "0",
+        "line": 133,
+        "context": "température 0 °C / –3 °C, pour une pompe à chaleur eau/eau en régime de température +10 °C / +7 °C) déterminée"
+      },
+      {
+        "type": "number",
+        "raw": "3",
+        "normalized": "3",
+        "line": 133,
+        "context": "température 0 °C / –3 °C, pour une pompe à chaleur eau/eau en régime de température +10 °C / +7 °C) déterminée"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 133,
+        "context": "température 0 °C / –3 °C, pour une pompe à chaleur eau/eau en régime de température +10 °C / +7 °C) déterminée"
+      },
+      {
+        "type": "number",
+        "raw": "7",
+        "normalized": "7",
+        "line": 133,
+        "context": "température 0 °C / –3 °C, pour une pompe à chaleur eau/eau en régime de température +10 °C / +7 °C) déterminée"
+      }
+    ],
     "calculation_methods": [
       "structured_amount_table",
       "table_amount_times_variables"

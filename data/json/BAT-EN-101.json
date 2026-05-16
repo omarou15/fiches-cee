@@ -224,6 +224,78 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par m² d’isolant Secteur d’activité",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 19,
+        "context": "0,6"
+      },
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 22,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "2 600",
+        "normalized": "2600",
+        "line": 23,
+        "context": "2 600"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 24,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "2 100",
+        "normalized": "2100",
+        "line": 25,
+        "context": "2 100"
+      },
+      {
+        "type": "number",
+        "raw": "0,7",
+        "normalized": "0.7",
+        "line": 28,
+        "context": "0,7"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 30,
+        "context": "1,2"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 31,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "1 400",
+        "normalized": "1400",
+        "line": 32,
+        "context": "1 400"
+      },
+      {
+        "type": "number",
+        "raw": "0,6",
+        "normalized": "0.6",
+        "line": 34,
+        "context": "0,6"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

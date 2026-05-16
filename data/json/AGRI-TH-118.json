@@ -90,6 +90,7 @@
     "formula_section_page_end": null,
     "unit": null,
     "expressions": [],
+    "extracted_values": [],
     "calculation_methods": [],
     "formula_status": "missing_section",
     "source_file": "Agriculture_AGRI/AGRI-TH-118 vA14-1 - Partie A.pdf",

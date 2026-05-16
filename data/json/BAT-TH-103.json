@@ -119,6 +119,92 @@
     "formula_section_page_end": 1,
     "unit": "Montant en kWh cumac par m2 de",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 14,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "210",
+        "normalized": "210",
+        "line": 15,
+        "context": "210"
+      },
+      {
+        "type": "number",
+        "raw": "1,2",
+        "normalized": "1.2",
+        "line": 20,
+        "context": "1,2"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 21,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "170",
+        "normalized": "170",
+        "line": 22,
+        "context": "170"
+      },
+      {
+        "type": "number",
+        "raw": "0,8",
+        "normalized": "0.8",
+        "line": 25,
+        "context": "0,8"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 26,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "110",
+        "normalized": "110",
+        "line": 27,
+        "context": "110"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 31,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "1,3",
+        "normalized": "1.3",
+        "line": 38,
+        "context": "1,3"
+      },
+      {
+        "type": "number",
+        "raw": "0,9",
+        "normalized": "0.9",
+        "line": 45,
+        "context": "0,9"
+      },
+      {
+        "type": "number",
+        "raw": "0,8",
+        "normalized": "0.8",
+        "line": 52,
+        "context": "0,8"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

@@ -128,6 +128,106 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac par logement",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 15,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "9 000",
+        "normalized": "9000",
+        "line": 16,
+        "context": "9 000"
+      },
+      {
+        "type": "number",
+        "raw": "7 100",
+        "normalized": "7100",
+        "line": 17,
+        "context": "7 100"
+      },
+      {
+        "type": "number",
+        "raw": "10",
+        "normalized": "10",
+        "line": 19,
+        "context": "10 L ≤ Vchauffe-eau ≤ 150 L"
+      },
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 19,
+        "context": "10 L ≤ Vchauffe-eau ≤ 150 L"
+      },
+      {
+        "type": "number",
+        "raw": "0,96",
+        "normalized": "0.96",
+        "line": 20,
+        "context": "0,96"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 21,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "8 600",
+        "normalized": "8600",
+        "line": 22,
+        "context": "8 600"
+      },
+      {
+        "type": "number",
+        "raw": "7 100",
+        "normalized": "7100",
+        "line": 23,
+        "context": "7 100"
+      },
+      {
+        "type": "number",
+        "raw": "150",
+        "normalized": "150",
+        "line": 25,
+        "context": "Vchauffe-eau > 150 L"
+      },
+      {
+        "type": "number",
+        "raw": "1,04",
+        "normalized": "1.04",
+        "line": 26,
+        "context": "1,04"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 27,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "8 000",
+        "normalized": "8000",
+        "line": 28,
+        "context": "8 000"
+      },
+      {
+        "type": "number",
+        "raw": "6 500",
+        "normalized": "6500",
+        "line": 29,
+        "context": "6 500"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

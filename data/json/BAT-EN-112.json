@@ -168,6 +168,50 @@
     "formula_section_page_end": 2,
     "unit": "Montant en kWh cumac pour un m² de toiture couvert par un",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "zone",
+        "raw": "H1",
+        "normalized": "H1",
+        "line": 10,
+        "context": "H1"
+      },
+      {
+        "type": "number",
+        "raw": "160",
+        "normalized": "160",
+        "line": 11,
+        "context": "160"
+      },
+      {
+        "type": "zone",
+        "raw": "H2",
+        "normalized": "H2",
+        "line": 14,
+        "context": "H2"
+      },
+      {
+        "type": "number",
+        "raw": "170",
+        "normalized": "170",
+        "line": 15,
+        "context": "170"
+      },
+      {
+        "type": "zone",
+        "raw": "H3",
+        "normalized": "H3",
+        "line": 16,
+        "context": "H3"
+      },
+      {
+        "type": "number",
+        "raw": "270",
+        "normalized": "270",
+        "line": 17,
+        "context": "270"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],

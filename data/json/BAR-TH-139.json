@@ -151,6 +151,15 @@
     "formula_section_page_end": 2,
     "unit": "Montant unitaire en kWh cumac par kW X",
     "expressions": [],
+    "extracted_values": [
+      {
+        "type": "number",
+        "raw": "14 600",
+        "normalized": "14600",
+        "line": 8,
+        "context": "14 600"
+      }
+    ],
     "calculation_methods": [
       "table_amount_times_variables"
     ],
