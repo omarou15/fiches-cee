@@ -22,7 +22,7 @@ def main() -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser()
-    parser.add_argument("--code", default="BAR-TH-179")
+    parser.add_argument("--code")
     parser.add_argument("--company", required=True)
     parser.add_argument("--operation")
     parser.add_argument("--inferred")
@@ -36,7 +36,11 @@ def main() -> int:
     try:
         company = load_json(Path(args.company))
         if args.operation:
-            manifest = generate_pack_from_operation(company, load_json(Path(args.operation)), args.code, Path(args.output), args.mode)
+            operation = load_json(Path(args.operation))
+            code = args.code or operation.get("operation", {}).get("cee_code")
+            if not code:
+                parser.error("Provide --code or operation.operation.cee_code.")
+            manifest = generate_pack_from_operation(company, operation, code, Path(args.output), args.mode)
         else:
             manifest = generate_pack(load_json(Path(args.inferred)), company, args.mode, Path(args.output))
     except ValueError as exc:

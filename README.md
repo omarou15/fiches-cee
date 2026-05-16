@@ -95,7 +95,9 @@ Architecture generique ajoutee :
 - `rules/` : regles metier par fiche ;
 - `scripts/infer_case.py` : transforme un cas minimal en projet infere ;
 - `scripts/compute_cee.py` : calcule les kWh cumac depuis un projet infere ;
+- `scripts/init_operation_input.py` : cree un squelette operation pour n'importe quelle fiche ;
 - `scripts/generate_document_pack.py` : genere un pack documentaire local.
+- `scripts/audit_document_engine.py` : controle que le moteur documentaire rend un pack pour toutes les fiches.
 
 Exemple :
 
@@ -104,6 +106,8 @@ python scripts/infer_case.py --input inference_engine/examples/synthetic_minimal
 python scripts/generate_document_pack.py --company document_engine/examples/synthetic_company_profile.json --inferred outputs/demo/inferred_project.json --mode draft --output outputs/demo_pack
 
 python scripts/generate_document_pack.py --code BAR-TH-179 --company document_engine/examples/synthetic_company_profile.json --operation document_engine/examples/synthetic_operation_bar_th_179.json --output outputs/demo_bar_th_179
+python scripts/init_operation_input.py --code BAR-TH-101 --output private/operation_input.json
+python scripts/audit_document_engine.py --all-codes --fail-on-issues
 ```
 
 ## Note

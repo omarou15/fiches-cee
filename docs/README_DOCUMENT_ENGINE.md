@@ -13,6 +13,11 @@ document_engine/examples/synthetic_company_profile.json
 document_engine/examples/synthetic_operation_bar_th_179.json
 ```
 
+Le moteur supporte les 217 fiches structurees du depot. Si une fiche a des
+templates specifiques, ils sont utilises. Sinon, le pack est rendu avec les
+templates generiques enrichis par `data/json/{CODE}.json`. Le manifeste indique
+`template_profile: specific` ou `generic`.
+
 Les donnees reelles doivent rester hors Git, par exemple :
 
 ```text
@@ -24,9 +29,27 @@ private/signature.png
 
 ## Generation
 
+Creer un squelette local pour n'importe quelle fiche :
+
+```bash
+python scripts/init_operation_input.py \
+  --code BAR-TH-101 \
+  --output private/operation_input.json
+```
+
+Generer un pack depuis des fichiers locaux :
+
 ```bash
 python scripts/generate_document_pack.py \
-  --code BAR-TH-179 \
+  --company private/company_profile.json \
+  --operation private/operation_input.json \
+  --output outputs/mon_dossier_cee
+```
+
+Exemple public BAR-TH-179 :
+
+```bash
+python scripts/generate_document_pack.py \
   --company document_engine/examples/synthetic_company_profile.json \
   --operation document_engine/examples/synthetic_operation_bar_th_179.json \
   --output outputs/demo_bar_th_179
@@ -81,3 +104,12 @@ Si une piece ou une valeur critique manque, elle doit rester visible dans
 
 La V1 produit du Markdown. Les conversions DOCX/PDF pourront etre ajoutees
 ensuite via Pandoc si disponible, ou via `python-docx` pour une sortie DOCX.
+
+## Audit toutes fiches
+
+```bash
+python scripts/audit_document_engine.py --all-codes --fail-on-issues
+```
+
+Cet audit rend un pack temporaire pour chaque fiche et verifie que tous les
+documents attendus existent sans placeholder `{{ ... }}` non resolu.

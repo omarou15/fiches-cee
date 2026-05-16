@@ -82,12 +82,81 @@ def test_generate_document_pack_from_operation_creates_expected_files(tmp_path):
     manifest = load_json(output / "dossier_manifest.json")
     assert manifest["source_type"] == "operation_input"
     assert manifest["code"] == "BAR-TH-179"
+    assert manifest["template_profile"] == "specific"
     devis = (output / "01_ADMIN/devis.md").read_text(encoding="utf-8")
     assert "DEV-DEMO-2026-001" in devis
     assert "{{" not in devis
     ah = (output / "02_CEE/attestation_honneur.md").read_text(encoding="utf-8")
     assert "6200000" in ah
     assert "PAC-AW-180-DEMO" in ah
+
+
+def test_generate_document_pack_for_generic_fiche(tmp_path):
+    operation = tmp_path / "operation_bar_th_101.json"
+    output = tmp_path / "demo_bar_th_101"
+    init = subprocess.run(
+        [
+            sys.executable,
+            "scripts/init_operation_input.py",
+            "--code",
+            "BAR-TH-101",
+            "--output",
+            str(operation),
+        ],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    assert init.returncode == 0, init.stdout + init.stderr
+    jsonschema.validate(load_json(operation), load_json(ROOT / "document_engine/schemas/operation_input.schema.json"))
+
+    generate = subprocess.run(
+        [
+            sys.executable,
+            "scripts/generate_document_pack.py",
+            "--company",
+            "document_engine/examples/synthetic_company_profile.json",
+            "--operation",
+            str(operation),
+            "--output",
+            str(output),
+        ],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    assert generate.returncode == 0, generate.stdout + generate.stderr
+    manifest = load_json(output / "dossier_manifest.json")
+    assert manifest["code"] == "BAR-TH-101"
+    assert manifest["template_profile"] == "generic"
+    assert manifest["templates_used"]["ah"] == "ah/ah_generic.md"
+    assert (output / "03_TECHNIQUE/dpt.md").exists()
+    ah = (output / "02_CEE/attestation_honneur.md").read_text(encoding="utf-8")
+    assert "brouillon generique" in ah
+    assert "{{" not in ah
+
+
+def test_document_engine_audit_supports_multiple_fiches():
+    result = subprocess.run(
+        [
+            sys.executable,
+            "scripts/audit_document_engine.py",
+            "--code",
+            "BAR-TH-179",
+            "--code",
+            "BAR-TH-101",
+            "--code",
+            "BAT-TH-116",
+            "--fail-on-issues",
+        ],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    assert result.returncode == 0, result.stdout + result.stderr
 
 
 def test_private_and_outputs_are_not_tracked():

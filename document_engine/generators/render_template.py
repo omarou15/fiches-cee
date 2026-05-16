@@ -46,6 +46,26 @@ def markdown_list(values: Any, field: str | None = None) -> str:
     return "\n".join(lines)
 
 
+def evidence_list(values: Any) -> str:
+    if not values:
+        return "- A COMPLETER"
+    lines: list[str] = []
+    for item in values:
+        if isinstance(item, dict):
+            text = item.get("text") or item.get("quote") or item.get("label") or json.dumps(item, ensure_ascii=False)
+            source = item.get("source_file")
+            page = item.get("page")
+            suffix = ""
+            if source:
+                suffix += f" Source: {source}"
+            if page:
+                suffix += f" page {page}"
+            lines.append(f"- {text}{suffix}")
+        else:
+            lines.append(f"- {item}")
+    return "\n".join(lines)
+
+
 def format_quote_lines(lines: Any) -> str:
     if not lines:
         return "| Designation | Quantite | Prix unitaire HT | Total HT |\n|---|---:|---:|---:|\n| A COMPLETER |  |  |  |"
@@ -72,7 +92,7 @@ def stringify(value: Any) -> str:
     return str(value)
 
 
-def build_context(company: dict[str, Any], operation: dict[str, Any], code: str | None = None) -> dict[str, Any]:
+def build_context(company: dict[str, Any], operation: dict[str, Any], code: str | None = None, fiche: dict[str, Any] | None = None) -> dict[str, Any]:
     quote = operation.get("quote", {})
     invoice = operation.get("invoice", {})
     documents = operation.get("documents", {})
@@ -89,6 +109,10 @@ def build_context(company: dict[str, Any], operation: dict[str, Any], code: str 
     if "logo_path" not in enriched_company and enriched_company.get("logo"):
         enriched_company["logo_path"] = enriched_company["logo"]
 
+    fiche = fiche or {}
+    calculation = fiche.get("calculation", {}) if isinstance(fiche.get("calculation"), dict) else {}
+    sections = fiche.get("sections") or []
+    amount_section = next((section for section in sections if str(section.get("number")) == "5"), {})
     return {
         "company": enriched_company,
         "operation": operation_block,
@@ -119,6 +143,22 @@ def build_context(company: dict[str, Any], operation: dict[str, Any], code: str 
             "risks_markdown": markdown_list(compliance.get("risks")),
             "blocking_points_markdown": markdown_list(compliance.get("blocking_points")),
         },
+        "fiche": {
+            "code": fiche.get("code") or code or operation_block.get("cee_code"),
+            "title": fiche.get("title") or "A COMPLETER",
+            "sector": fiche.get("sector") or "A COMPLETER",
+            "family": fiche.get("family") or "A COMPLETER",
+            "version": fiche.get("version") or fiche.get("document_version") or "A COMPLETER",
+            "effective_date": fiche.get("effective_date") or "A COMPLETER",
+            "required_documents_markdown": evidence_list(fiche.get("required_documents")),
+            "technical_requirements_markdown": evidence_list(fiche.get("technical_requirements")),
+            "eligibility_conditions_markdown": evidence_list(fiche.get("eligibility_conditions")),
+            "control_points_markdown": evidence_list(fiche.get("control_points")),
+            "compliance_risks_markdown": evidence_list(fiche.get("compliance_risks") or fiche.get("risks")),
+            "source_files_markdown": markdown_list(fiche.get("source_files"), "path"),
+            "formula_text": calculation.get("formula_text") or fiche.get("formula_text") or "A COMPLETER",
+            "amount_section_text": amount_section.get("text") or "A COMPLETER",
+        },
     }
 
 
@@ -145,9 +185,10 @@ def render_template_file(
     output_path: Path,
     *,
     code: str | None = None,
+    fiche: dict[str, Any] | None = None,
     strict: bool = False,
 ) -> None:
-    context = build_context(company, operation, code)
+    context = build_context(company, operation, code, fiche)
     rendered = render_string(template_path.read_text(encoding="utf-8"), context, strict=strict)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(rendered, encoding="utf-8", newline="\n")

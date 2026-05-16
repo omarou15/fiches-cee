@@ -56,6 +56,12 @@ Ce dossier est reserve au futur pipeline reproductible.
 12. `generate_document_pack.py`
    - genere un pack documentaire local en mode `draft` ou `strict`.
 
+13. `init_operation_input.py`
+   - cree un squelette `operation_input.json` pour n'importe quelle fiche structuree.
+
+14. `audit_document_engine.py`
+   - rend un pack temporaire pour toutes les fiches et signale les placeholders non resolus.
+
 ## Commandes
 
 Generer les donnees derivees :
@@ -108,6 +114,14 @@ Generer directement un pack documentaire depuis une operation structuree :
 
 ```bash
 python scripts/generate_document_pack.py --code BAR-TH-179 --company document_engine/examples/synthetic_company_profile.json --operation document_engine/examples/synthetic_operation_bar_th_179.json --output outputs/demo_bar_th_179
+```
+
+Creer une operation locale pour une autre fiche :
+
+```bash
+python scripts/init_operation_input.py --code BAT-TH-116 --output private/operation_input.json
+python scripts/generate_document_pack.py --company private/company_profile.json --operation private/operation_input.json --output outputs/dossier_bat_th_116
+python scripts/audit_document_engine.py --all-codes --fail-on-issues
 ```
 
 ## Regle

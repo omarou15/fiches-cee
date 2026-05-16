@@ -9,16 +9,39 @@ from .render_template import build_context, field_line, header, markdown_list, r
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 TEMPLATES_ROOT = REPO_ROOT / "document_engine" / "templates"
+FICHE_JSON_ROOT = REPO_ROOT / "data" / "json"
 
-OPERATION_TEMPLATE_OUTPUTS = [
-    ("controle/controle_eligibilite_bar_th_179.md", "00_SYNTHESE/controle_eligibilite.md"),
-    ("devis/devis_pac_collective.md", "01_ADMIN/devis.md"),
-    ("facture/facture_pac_collective.md", "01_ADMIN/facture.md"),
-    ("emails/mail_pieces_manquantes.md", "01_ADMIN/mail_pieces_manquantes.md"),
-    ("ah/ah_bar_th_179.md", "02_CEE/attestation_honneur.md"),
-    ("controle/checklist_pieces.md", "02_CEE/checklist_cee.md"),
-    ("note_dimensionnement/note_dimensionnement_bar_th_179.md", "03_TECHNIQUE/note_dimensionnement.md"),
-    ("dpt/dpt_bar_th_179.md", "03_TECHNIQUE/dpt.md"),
+GENERIC_OPERATION_TEMPLATES = {
+    "controle": "controle/controle_eligibilite_generic.md",
+    "devis": "devis/devis_generic.md",
+    "facture": "facture/facture_generic.md",
+    "mail": "emails/mail_pieces_manquantes.md",
+    "ah": "ah/ah_generic.md",
+    "checklist": "controle/checklist_pieces.md",
+    "note": "note_dimensionnement/note_dimensionnement_generic.md",
+    "dpt": "dpt/dpt_generic.md",
+}
+
+SPECIFIC_OPERATION_TEMPLATES = {
+    "BAR-TH-179": {
+        "controle": "controle/controle_eligibilite_bar_th_179.md",
+        "devis": "devis/devis_pac_collective.md",
+        "facture": "facture/facture_pac_collective.md",
+        "ah": "ah/ah_bar_th_179.md",
+        "note": "note_dimensionnement/note_dimensionnement_bar_th_179.md",
+        "dpt": "dpt/dpt_bar_th_179.md",
+    }
+}
+
+OPERATION_OUTPUTS = [
+    ("controle", "00_SYNTHESE/controle_eligibilite.md"),
+    ("devis", "01_ADMIN/devis.md"),
+    ("facture", "01_ADMIN/facture.md"),
+    ("mail", "01_ADMIN/mail_pieces_manquantes.md"),
+    ("ah", "02_CEE/attestation_honneur.md"),
+    ("checklist", "02_CEE/checklist_cee.md"),
+    ("note", "03_TECHNIQUE/note_dimensionnement.md"),
+    ("dpt", "03_TECHNIQUE/dpt.md"),
 ]
 
 
@@ -26,6 +49,20 @@ def write(path: Path, text: str, files: list[str], root: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8", newline="\n")
     files.append(path.relative_to(root).as_posix())
+
+
+def load_fiche(code: str) -> dict:
+    path = FICHE_JSON_ROOT / f"{code}.json"
+    if not path.exists():
+        return {"code": code, "title": "Fiche inconnue", "source_files": []}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def template_for(code: str, key: str) -> tuple[str, bool]:
+    specific = SPECIFIC_OPERATION_TEMPLATES.get(code, {}).get(key)
+    if specific and (TEMPLATES_ROOT / specific).exists():
+        return specific, True
+    return GENERIC_OPERATION_TEMPLATES[key], False
 
 
 def render_summary(project: dict, company: dict) -> str:
@@ -54,12 +91,14 @@ def render_risks(project: dict) -> str:
     return "# Risques conformite\n\n- Toute donnee estimee ou en hypothese doit etre confirmee avant signature ou depot.\n- Le depot EMMY/PNCEE n'est pas automatise par ce pack.\n"
 
 
-def render_operation_summary(operation: dict, company: dict, code: str) -> str:
-    ctx = build_context(company, operation, code)
+def render_operation_summary(operation: dict, company: dict, code: str, fiche: dict | None = None) -> str:
+    ctx = build_context(company, operation, code, fiche)
     return (
         "# Synthese dossier CEE\n\n"
         f"- Dossier: {ctx['operation'].get('case_id', 'A COMPLETER')}\n"
         f"- Fiche: {ctx['operation'].get('cee_code', code)}\n"
+        f"- Intitule fiche: {ctx['fiche'].get('title', 'A COMPLETER')}\n"
+        f"- Gabarit documentaire: {'specifique' if code in SPECIFIC_OPERATION_TEMPLATES else 'generique'}\n"
         f"- Client: {ctx['client'].get('name', 'A COMPLETER')}\n"
         f"- Site: {ctx['site'].get('address', 'A COMPLETER')}, {ctx['site'].get('postal_code', '')} {ctx['site'].get('city', '')}\n"
         f"- Entreprise: {ctx['company'].get('name', 'A COMPLETER')}\n"
@@ -85,11 +124,13 @@ def render_operation_missing(operation: dict) -> str:
     )
 
 
-def render_operation_calculation(operation: dict) -> str:
+def render_operation_calculation(operation: dict, fiche: dict | None = None) -> str:
     calculation = operation.get("calculation", {})
+    fiche_formula = (fiche or {}).get("calculation", {}).get("formula_text") if isinstance((fiche or {}).get("calculation"), dict) else None
     return (
         "# Calcul kWh cumac\n\n"
-        f"- Formule: {calculation.get('formula_text', 'A COMPLETER')}\n"
+        f"- Formule operation: {calculation.get('formula_text', 'A COMPLETER')}\n"
+        f"- Formule fiche: {fiche_formula or 'A COMPLETER'}\n"
         f"- Montant unitaire: {calculation.get('amount_per_apartment_kwh_cumac', 'A COMPLETER')} kWh cumac/appartement\n"
         f"- Nombre d'appartements: {calculation.get('apartments_count', 'A COMPLETER')}\n"
         f"- Facteur R: {calculation.get('r_factor', 'A COMPLETER')}\n"
@@ -100,7 +141,7 @@ def render_operation_calculation(operation: dict) -> str:
 
 def render_operation_internal_report(operation: dict, company: dict, code: str) -> str:
     return (
-        render_operation_summary(operation, company, code)
+        render_operation_summary(operation, company, code, load_fiche(code))
         + "\n## Controle interne\n\n"
         "- Verifier la coherence devis/facture/AH.\n"
         "- Verifier les justificatifs techniques et la qualification professionnelle.\n"
@@ -113,7 +154,10 @@ def render_operation_pncee_risks(operation: dict) -> str:
     return "# Risques PNCEE / conformite\n\n" + markdown_list(operation.get("compliance", {}).get("risks")) + "\n"
 
 
-def generate_pack_from_operation(company: dict, operation: dict, code: str, output_dir: Path, mode: str = "draft") -> dict:
+def generate_pack_from_operation(company: dict, operation: dict, code: str | None, output_dir: Path, mode: str = "draft") -> dict:
+    operation_code = operation.get("operation", {}).get("cee_code")
+    code = operation_code or code or "UNKNOWN"
+    fiche = load_fiche(code)
     documents = operation.get("documents", {})
     compliance = operation.get("compliance", {})
     blocking_points = list(compliance.get("blocking_points") or [])
@@ -123,13 +167,19 @@ def generate_pack_from_operation(company: dict, operation: dict, code: str, outp
         raise ValueError("Strict mode blocked: operation contains missing, non-compliant or blocking items.")
 
     files: list[str] = []
-    write(output_dir / "00_SYNTHESE" / "synthese_dossier.md", render_operation_summary(operation, company, code), files, output_dir)
+    templates_used: dict[str, str] = {}
+    specific_templates_used: list[str] = []
+    write(output_dir / "00_SYNTHESE" / "synthese_dossier.md", render_operation_summary(operation, company, code, fiche), files, output_dir)
     write(output_dir / "00_SYNTHESE" / "pieces_manquantes.md", render_operation_missing(operation), files, output_dir)
-    for template_rel, output_rel in OPERATION_TEMPLATE_OUTPUTS:
+    for template_key, output_rel in OPERATION_OUTPUTS:
+        template_rel, is_specific = template_for(code, template_key)
+        templates_used[template_key] = template_rel
+        if is_specific:
+            specific_templates_used.append(template_key)
         destination = output_dir / output_rel
-        render_template_file(TEMPLATES_ROOT / template_rel, company, operation, destination, code=code)
+        render_template_file(TEMPLATES_ROOT / template_rel, company, operation, destination, code=code, fiche=fiche)
         files.append(destination.relative_to(output_dir).as_posix())
-    write(output_dir / "02_CEE" / "calcul_kwh_cumac.md", render_operation_calculation(operation), files, output_dir)
+    write(output_dir / "02_CEE" / "calcul_kwh_cumac.md", render_operation_calculation(operation, fiche), files, output_dir)
     write(output_dir / "04_CONTROLE_INTERNE" / "rapport_controle_interne.md", render_operation_internal_report(operation, company, code), files, output_dir)
     write(output_dir / "04_CONTROLE_INTERNE" / "risques_pncee.md", render_operation_pncee_risks(operation), files, output_dir)
 
@@ -139,6 +189,9 @@ def generate_pack_from_operation(company: dict, operation: dict, code: str, outp
         "code": operation.get("operation", {}).get("cee_code", code),
         "mode": mode,
         "source_type": "operation_input",
+        "template_profile": "specific" if specific_templates_used else "generic",
+        "templates_used": templates_used,
+        "specific_templates_used": sorted(specific_templates_used),
         "files": sorted(files),
         "blocking_points": blocking_points,
         "missing_documents": missing_documents,
