@@ -15,7 +15,10 @@ from starlette.requests import Request  # noqa: E402
 from starlette.responses import JSONResponse  # noqa: E402
 
 from mcp_server.tools.calcul import compute_kwh_cumac as compute_kwh_cumac_tool  # noqa: E402
+from mcp_server.tools.chronology import check_chronology as check_chronology_tool  # noqa: E402
 from mcp_server.tools.dossier import generate_dossier as generate_dossier_tool  # noqa: E402
+from mcp_server.tools.dossier import get_annexe6_row as get_annexe6_row_tool  # noqa: E402
+from mcp_server.tools.dossier import get_cadre_contribution as get_cadre_contribution_tool  # noqa: E402
 from mcp_server.tools.eligibility import (  # noqa: E402
     check_eligibility as check_eligibility_tool,
     find_control_risks as find_control_risks_tool,
@@ -107,6 +110,24 @@ def generate_dossier(
     return generate_dossier_tool(code=code, operation=operation, company=company, mode=mode)
 
 
+@mcp.tool
+def check_chronology(code: str, dates: dict[str, Any]) -> dict[str, Any]:
+    """Validate the documentary chronology of a CEE operation."""
+    return check_chronology_tool(code=code, dates=dates)
+
+
+@mcp.tool
+def get_cadre_contribution(code: str, operation: dict[str, Any], company: dict[str, Any]) -> dict[str, Any]:
+    """Generate the annexe 8 contribution frame as Markdown."""
+    return get_cadre_contribution_tool(code=code, operation=operation, company=company)
+
+
+@mcp.tool
+def get_annexe6_row(code: str, operation: dict[str, Any]) -> dict[str, Any]:
+    """Generate the annexe 6 recap row for one operation."""
+    return get_annexe6_row_tool(code=code, operation=operation)
+
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", "8000"))
     mcp.run(
@@ -116,4 +137,3 @@ if __name__ == "__main__":
         path="/mcp",
         stateless_http=True,
     )
-

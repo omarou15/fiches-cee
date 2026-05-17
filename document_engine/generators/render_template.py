@@ -49,6 +49,18 @@ def markdown_list(values: Any, field: str | None = None) -> str:
 def evidence_list(values: Any) -> str:
     if not values:
         return "- A COMPLETER"
+    if isinstance(values, dict):
+        lines: list[str] = []
+        for category, items in values.items():
+            lines.append(f"- {category}")
+            for item in items or []:
+                if isinstance(item, dict):
+                    document = item.get("document") or item.get("text") or item.get("quote") or json.dumps(item, ensure_ascii=False)
+                    timing = f" ({item.get('timing')})" if item.get("timing") else ""
+                    lines.append(f"  - {document}{timing}")
+                else:
+                    lines.append(f"  - {item}")
+        return "\n".join(lines)
     lines: list[str] = []
     for item in values:
         if isinstance(item, dict):
@@ -108,11 +120,21 @@ def build_context(company: dict[str, Any], operation: dict[str, Any], code: str 
         enriched_company["name"] = enriched_company["company_name"]
     if "logo_path" not in enriched_company and enriched_company.get("logo"):
         enriched_company["logo_path"] = enriched_company["logo"]
+    if "siren" not in enriched_company and enriched_company.get("siret"):
+        enriched_company["siren"] = str(enriched_company["siret"])[:9]
 
     fiche = fiche or {}
     calculation = fiche.get("calculation", {}) if isinstance(fiche.get("calculation"), dict) else {}
     sections = fiche.get("sections") or []
     amount_section = next((section for section in sections if str(section.get("number")) == "5"), {})
+    contribution = operation.get("contribution", {})
+    if not contribution:
+        contribution = {
+            "type": "prime CEE ou contribution a confirmer",
+            "amount": "A COMPLETER",
+            "conditions": "sous reserve de recevabilite du dossier CEE",
+            "date": "A COMPLETER",
+        }
     return {
         "company": enriched_company,
         "operation": operation_block,
@@ -140,9 +162,13 @@ def build_context(company: dict[str, Any], operation: dict[str, Any], code: str 
         },
         "compliance": {
             **compliance,
+            "precarity_status": compliance.get("precarity_status", "non"),
+            "coup_de_pouce_status": compliance.get("coup_de_pouce_status", "non"),
+            "coup_de_pouce_type": compliance.get("coup_de_pouce_type", "A COMPLETER"),
             "risks_markdown": markdown_list(compliance.get("risks")),
             "blocking_points_markdown": markdown_list(compliance.get("blocking_points")),
         },
+        "contribution": contribution,
         "fiche": {
             "code": fiche.get("code") or code or operation_block.get("cee_code"),
             "title": fiche.get("title") or "A COMPLETER",

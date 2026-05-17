@@ -12,6 +12,7 @@ TEMPLATES_ROOT = REPO_ROOT / "document_engine" / "templates"
 FICHE_JSON_ROOT = REPO_ROOT / "data" / "json"
 
 GENERIC_OPERATION_TEMPLATES = {
+    "cadre_contribution": "cadre_contribution/cadre_contribution_generic.md",
     "controle": "controle/controle_eligibilite_generic.md",
     "devis": "devis/devis_generic.md",
     "facture": "facture/facture_generic.md",
@@ -20,6 +21,7 @@ GENERIC_OPERATION_TEMPLATES = {
     "checklist": "controle/checklist_pieces.md",
     "note": "note_dimensionnement/note_dimensionnement_generic.md",
     "dpt": "dpt/dpt_generic.md",
+    "annexe6": "annexe6/tableau_recap_annexe6_generic.md",
 }
 
 SPECIFIC_OPERATION_TEMPLATES = {
@@ -34,6 +36,7 @@ SPECIFIC_OPERATION_TEMPLATES = {
 }
 
 OPERATION_OUTPUTS = [
+    ("cadre_contribution", "00_ENGAGEMENT/cadre_contribution.md"),
     ("controle", "00_SYNTHESE/controle_eligibilite.md"),
     ("devis", "01_ADMIN/devis.md"),
     ("facture", "01_ADMIN/facture.md"),
@@ -42,6 +45,7 @@ OPERATION_OUTPUTS = [
     ("checklist", "02_CEE/checklist_cee.md"),
     ("note", "03_TECHNIQUE/note_dimensionnement.md"),
     ("dpt", "03_TECHNIQUE/dpt.md"),
+    ("annexe6", "05_EMMY/tableau_recap_annexe6.md"),
 ]
 
 

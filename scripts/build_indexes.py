@@ -168,6 +168,19 @@ def infer_keywords(text: str) -> list[str]:
 
 
 def markdown_for_fiche(fiche: dict, main_text: str) -> str:
+    def render_required_documents(value):
+        if isinstance(value, dict):
+            lines = []
+            for category, items in value.items():
+                lines.append(f"- {category}")
+                for item in items or []:
+                    if isinstance(item, dict):
+                        lines.append(f"  - {item.get('document') or item.get('text') or item.get('quote') or item}")
+                    else:
+                        lines.append(f"  - {item}")
+            return "\n".join(lines)
+        return "\n".join(f"- {item['text']}" for item in value or [])
+
     sections = [
         f"# {fiche['code']} - {fiche['title']}",
         f"- Secteur: {fiche['sector']}",
@@ -190,7 +203,7 @@ def markdown_for_fiche(fiche: dict, main_text: str) -> str:
         "\n".join(f"- {item['text']}" for item in fiche.get("technical_requirements", [])) or "_Non detecte automatiquement._",
         "",
         "## Pieces justificatives detectees",
-        "\n".join(f"- {item['text']}" for item in fiche.get("required_documents", [])) or "_Non detecte automatiquement._",
+        render_required_documents(fiche.get("required_documents")) or "_Non detecte automatiquement._",
         "",
         "## Formules / calcul detectes",
         "\n".join(f"- {item['text']}" for item in fiche.get("formulas", [])) or "_Non detecte automatiquement._",

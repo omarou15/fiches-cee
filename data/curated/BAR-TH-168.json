@@ -286,48 +286,121 @@
       "confidence": "high"
     }
   ],
-  "required_documents": [
-    {
-      "text": "Pour les dispositifs solaires thermiques mentionnés au a) et au b), la preuve de réalisation de l’opération mentionne : - la mise en place d’un dispositif solaire thermique et les caractéristiques des capteurs associés ; - l’usage pour lequel le dispositif solaire thermique individuel est installé (production de chauffage et production d’eau chaude sanitaire ou production d’eau chaude sanitaire uniquement) ;",
-      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "Pour les dispositifs solaires thermiques mentionnés au a) et au b), la preuve de réalisation de l’opération mentionne :\n- la mise en place d’un dispositif solaire thermique et les caractéristiques des capteurs associés ;\n- l’usage pour lequel le dispositif solaire thermique individuel est installé (production de chauffage et production\nd’eau chaude sanitaire ou production d’eau chaude sanitaire uniquement) ;",
-      "confidence": "high"
-    },
-    {
-      "text": "- l’énergie du système d’appoint séparé, neuf ou existant, accompagnant le dispositif solaire ; - la nature du fluide circulant dans les capteurs solaires, dans les conditions de pose et d’utilisation de l’équipement (eau ou eau glycolée) ; - la surface hors-tout totale des capteurs solaires thermiques mis en place en m² ; - la puissance de sortie disponible des capteurs solaires en W/m² ; - le nombre de ballons d’eau chaude solaires installés ; - la capacité de stockage de chaque ballon d'eau chaude solaire installé (en litres) ; - la classe d’efficacité énergétique des ballons d'eau chaude solaires installés dont la capacité de stockage est inférieure ou égale à 500 litres, selon le règlement (UE) n° 812/2013 susmentionné ; - l'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n° 813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau selon le règlement (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré.",
-      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "- l’énergie du système d’appoint séparé, neuf ou existant, accompagnant le dispositif solaire ;\n- la nature du fluide circulant dans les capteurs solaires, dans les conditions de pose et d’utilisation de l’équipement\n(eau ou eau glycolée) ;\n- la surface hors-tout totale des capteurs solaires thermiques mis en place en m² ;\n- la puissance de sortie disponible des capteurs solaires en W/m² ;\n- le nombre de ballons d’eau chaude solaires installés ;\n- la capacité de stockage de chaque ballon d'eau chaude solaire installé (en litres) ;\n- la classe d’efficacité énergétique des ballons d'eau chaude solaires installés dont la capacité de stockage est\ninférieure ou égale à 500 litres, selon le règlement (UE) n° 812/2013 susmentionné ;\n- l'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n°\n813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau selon le règlement\n(UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré.",
-      "confidence": "high"
-    },
-    {
-      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place des éléments constitutifs du dispositif solaire thermique avec leurs marques et références, ainsi que les caractéristiques de l’installation (l’usage pour le- quel le dispositif solaire thermique individuel est installé, l’énergie du système d’appoint séparé neuf ou existant accompagnant le dispositif solaire, la surface hors-tout totale des capteurs thermiques installés en m², le nombre et la capacité en litres des ballons d’eau chaude solaires installés, la nature du fluide circulant dans les capteurs solaires) et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination européenne des organismes d'accréditation.",
-      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place des éléments constitutifs du dispositif\nsolaire thermique avec leurs marques et références, ainsi que les caractéristiques de l’installation (l’usage pour le-\nquel le dispositif solaire thermique individuel est installé, l’énergie du système d’appoint séparé neuf ou existant\naccompagnant le dispositif solaire, la surface hors-tout totale des capteurs thermiques installés en m², le nombre et\nla capacité en litres des ballons d’eau chaude solaires installés, la nature du fluide circulant dans les capteurs solaires)\net elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen\net accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre\norganisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination\neuropéenne des organismes d'accréditation.",
-      "confidence": "high"
-    },
-    {
-      "text": "Ce document indique que les équipements de marques et références installés constituent un dispositif solaire thermique et précise les caractéristiques des capteurs associés, la puissance de sortie disponible des capteurs solaires installés en W/m², l’efficacité énergétique pour la production de chauffage et la production d’eau chaude sanitaire selon le règlement (UE) n°813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe- eau selon le règlement (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré, ainsi que la classe d’efficacité énergétique selon le règlement (UE) n° 812/2013 susmentionné des ballons d'eau chaude solaires dont la capacité de stockage est inférieure ou égale à 500 litres.",
-      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "Ce document indique que les équipements de marques et références installés constituent un dispositif solaire\nthermique et précise les caractéristiques des capteurs associés, la puissance de sortie disponible des capteurs solaires\ninstallés en W/m², l’efficacité énergétique pour la production de chauffage et la production d’eau chaude sanitaire\nselon le règlement (UE) n°813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-\neau selon le règlement (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré, ainsi que la classe\nd’efficacité énergétique selon le règlement (UE) n° 812/2013 susmentionné des ballons d'eau chaude solaires dont\nla capacité de stockage est inférieure ou égale à 500 litres.",
-      "confidence": "high"
-    },
-    {
-      "text": "Les documents justificatifs spécifiques à l’opération sont : - la certification QB ou Solar Keymark ou équivalente des capteurs solaires ; - la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé.",
-      "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "Les documents justificatifs spécifiques à l’opération sont :\n- la certification QB ou Solar Keymark ou équivalente des capteurs solaires ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé.",
-      "confidence": "high"
-    }
-  ],
+  "required_documents": {
+    "common_pieces_annexe5": [
+      {
+        "document": "Cadre de contribution (annexe 8)",
+        "timing": "Avant ou max 14j apres devis signe pour PP/copropriete, et avant travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 3 et annexe 8 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Devis signe et date par le beneficiaire",
+        "timing": "Avant travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 4 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Attestation sur l'honneur (parties A+B+C)",
+        "timing": "Apres travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 5 et annexe 7 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Facture de travaux",
+        "timing": "Apres travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 2 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Certificat RGE ou qualification professionnelle valide a la date d'engagement",
+        "timing": "A la date d'engagement",
+        "obligatoire": true,
+        "source": "Arrete du 22 decembre 2014 modifie et fiche FOS"
+      },
+      {
+        "document": "K-bis ou SIRENE si beneficiaire personne morale",
+        "timing": "Au dossier",
+        "obligatoire": "si_pm",
+        "source": "Annexe 5 section 1 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Tableau recapitulatif annexe 6",
+        "timing": "Au depot PNCEE",
+        "obligatoire": true,
+        "source": "Annexe 2 et annexe 6 arrete 4 septembre 2014"
+      }
+    ],
+    "specific_pieces_fiche": [
+      {
+        "document": "Pour les dispositifs solaires thermiques mentionnés au a) et au b), la preuve de réalisation de l’opération mentionne : - la mise en place d’un dispositif solaire thermique et les caractéristiques des capteurs associés ; - l’usage pour lequel le dispositif solaire thermique individuel est installé (production de chauffage et production d’eau chaude sanitaire ou production d’eau chaude sanitaire uniquement) ;",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "Pour les dispositifs solaires thermiques mentionnés au a) et au b), la preuve de réalisation de l’opération mentionne :\n- la mise en place d’un dispositif solaire thermique et les caractéristiques des capteurs associés ;\n- l’usage pour lequel le dispositif solaire thermique individuel est installé (production de chauffage et production\nd’eau chaude sanitaire ou production d’eau chaude sanitaire uniquement) ;",
+        "confidence": "high"
+      },
+      {
+        "document": "- l’énergie du système d’appoint séparé, neuf ou existant, accompagnant le dispositif solaire ; - la nature du fluide circulant dans les capteurs solaires, dans les conditions de pose et d’utilisation de l’équipement (eau ou eau glycolée) ; - la surface hors-tout totale des capteurs solaires thermiques mis en place en m² ; - la puissance de sortie disponible des capteurs solaires en W/m² ; - le nombre de ballons d’eau chaude solaires installés ; - la capacité de stockage de chaque ballon d'eau chaude solaire installé (en litres) ; - la classe d’efficacité énergétique des ballons d'eau chaude solaires installés dont la capacité de stockage est inférieure ou égale à 500 litres, selon le règlement (UE) n° 812/2013 susmentionné ; - l'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n° 813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau selon le règlement (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "- l’énergie du système d’appoint séparé, neuf ou existant, accompagnant le dispositif solaire ;\n- la nature du fluide circulant dans les capteurs solaires, dans les conditions de pose et d’utilisation de l’équipement\n(eau ou eau glycolée) ;\n- la surface hors-tout totale des capteurs solaires thermiques mis en place en m² ;\n- la puissance de sortie disponible des capteurs solaires en W/m² ;\n- le nombre de ballons d’eau chaude solaires installés ;\n- la capacité de stockage de chaque ballon d'eau chaude solaire installé (en litres) ;\n- la classe d’efficacité énergétique des ballons d'eau chaude solaires installés dont la capacité de stockage est\ninférieure ou égale à 500 litres, selon le règlement (UE) n° 812/2013 susmentionné ;\n- l'efficacité énergétique saisonnière pour la production de chauffage, définie selon le règlement (UE) n°\n813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-eau selon le règlement\n(UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré.",
+        "confidence": "high"
+      },
+      {
+        "document": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place des éléments constitutifs du dispositif solaire thermique avec leurs marques et références, ainsi que les caractéristiques de l’installation (l’usage pour le- quel le dispositif solaire thermique individuel est installé, l’énergie du système d’appoint séparé neuf ou existant accompagnant le dispositif solaire, la surface hors-tout totale des capteurs thermiques installés en m², le nombre et la capacité en litres des ballons d’eau chaude solaires installés, la nature du fluide circulant dans les capteurs solaires) et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination européenne des organismes d'accréditation.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place des éléments constitutifs du dispositif\nsolaire thermique avec leurs marques et références, ainsi que les caractéristiques de l’installation (l’usage pour le-\nquel le dispositif solaire thermique individuel est installé, l’énergie du système d’appoint séparé neuf ou existant\naccompagnant le dispositif solaire, la surface hors-tout totale des capteurs thermiques installés en m², le nombre et\nla capacité en litres des ballons d’eau chaude solaires installés, la nature du fluide circulant dans les capteurs solaires)\net elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen\net accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre\norganisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination\neuropéenne des organismes d'accréditation.",
+        "confidence": "high"
+      },
+      {
+        "document": "Ce document indique que les équipements de marques et références installés constituent un dispositif solaire thermique et précise les caractéristiques des capteurs associés, la puissance de sortie disponible des capteurs solaires installés en W/m², l’efficacité énergétique pour la production de chauffage et la production d’eau chaude sanitaire selon le règlement (UE) n°813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe- eau selon le règlement (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré, ainsi que la classe d’efficacité énergétique selon le règlement (UE) n° 812/2013 susmentionné des ballons d'eau chaude solaires dont la capacité de stockage est inférieure ou égale à 500 litres.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "Ce document indique que les équipements de marques et références installés constituent un dispositif solaire\nthermique et précise les caractéristiques des capteurs associés, la puissance de sortie disponible des capteurs solaires\ninstallés en W/m², l’efficacité énergétique pour la production de chauffage et la production d’eau chaude sanitaire\nselon le règlement (UE) n°813/2013 susmentionné ou l’efficacité énergétique pour le chauffage de l'eau du chauffe-\neau selon le règlement (UE) n° 814/2013 susmentionné pour le profil de soutirage déclaré, ainsi que la classe\nd’efficacité énergétique selon le règlement (UE) n° 812/2013 susmentionné des ballons d'eau chaude solaires dont\nla capacité de stockage est inférieure ou égale à 500 litres.",
+        "confidence": "high"
+      },
+      {
+        "document": "Les documents justificatifs spécifiques à l’opération sont : - la certification QB ou Solar Keymark ou équivalente des capteurs solaires ; - la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-168 vA78-3 à compter du 01-01-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "Les documents justificatifs spécifiques à l’opération sont :\n- la certification QB ou Solar Keymark ou équivalente des capteurs solaires ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé.",
+        "confidence": "high"
+      }
+    ],
+    "pieces_precarite": [
+      {
+        "document": "Avis d'imposition ou de non-imposition N-1 ou N-2 de chaque foyer fiscal",
+        "timing": "Au dossier",
+        "obligatoire": "si_precarite",
+        "source": "Annexe 5 section 8 arrete 4 septembre 2014 et article 3-1 arrete 29 decembre 2014"
+      }
+    ],
+    "pieces_coup_de_pouce": [
+      {
+        "document": "Pieces Coup de pouce applicables selon la charte et la fiche",
+        "timing": "Au dossier",
+        "obligatoire": "si_coup_de_pouce",
+        "source": "Annexes Coup de pouce arrete 29 decembre 2014 modifie",
+        "needs_human_review": true
+      }
+    ]
+  },
   "attestation_fields": [],
   "control_points": [
     {

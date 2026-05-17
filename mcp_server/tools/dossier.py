@@ -15,6 +15,7 @@ from mcp_server.utils.loader import (
     load_rules,
     require_known_code,
 )
+from mcp_server.utils.paths import REPO_ROOT
 
 
 def _blocking_texts(eligibility: dict[str, Any]) -> list[str]:
@@ -188,4 +189,81 @@ def generate_dossier(code: str, operation: dict[str, Any], company: dict[str, An
         "kwh_cumac": kwh.get("kwh_cumac"),
         "warnings": [warning.get("text") or warning.get("message") for warning in check_eligibility(normalized_code, operation).get("warnings", [])],
         "source_files": source_files,
+    }
+
+
+def get_cadre_contribution(code: str, operation: dict[str, Any], company: dict[str, Any]) -> dict[str, Any]:
+    """Render the annexe 8 contribution frame as Markdown."""
+    try:
+        normalized_code = require_known_code(code)
+    except FicheNotFoundError as exc:
+        return error_response(exc.code)
+    from document_engine.generators.generate_document_pack import load_fiche
+    from document_engine.generators.render_template import build_context, render_string
+
+    template_path = REPO_ROOT / "document_engine" / "templates" / "cadre_contribution" / "cadre_contribution_generic.md"
+    prepared_operation = _operation_input_from_mcp(normalized_code, operation, {}, None)
+    fiche = load_fiche(normalized_code)
+    markdown = render_string(template_path.read_text(encoding="utf-8"), build_context(company, prepared_operation, normalized_code, fiche))
+    return {
+        "code": normalized_code,
+        "document": markdown,
+        "source_files": [template_path.relative_to(REPO_ROOT).as_posix()],
+    }
+
+
+def _get_nested(data: dict[str, Any], dotted: str) -> Any:
+    current: Any = data
+    for part in dotted.split("."):
+        if not isinstance(current, dict):
+            return None
+        current = current.get(part)
+    return current
+
+
+def get_annexe6_row(code: str, operation: dict[str, Any]) -> dict[str, Any]:
+    """Return the annexe 6 recap row for an operation."""
+    try:
+        normalized_code = require_known_code(code)
+    except FicheNotFoundError as exc:
+        return error_response(exc.code)
+    curated, curated_path = load_curated(normalized_code)
+    extracted, extracted_path = load_extracted_json(normalized_code)
+    fiche = extracted or curated or {}
+    op = operation.get("operation", {}) if isinstance(operation.get("operation"), dict) else operation
+    client = operation.get("client", {}) if isinstance(operation.get("client"), dict) else {}
+    site = operation.get("site", {}) if isinstance(operation.get("site"), dict) else {}
+    company = operation.get("company", {}) if isinstance(operation.get("company"), dict) else {}
+    technical = operation.get("technical", {}) if isinstance(operation.get("technical"), dict) else {}
+    invoice = operation.get("invoice", {}) if isinstance(operation.get("invoice"), dict) else {}
+    calculation = operation.get("calculation", {}) if isinstance(operation.get("calculation"), dict) else {}
+    compliance = operation.get("compliance", {}) if isinstance(operation.get("compliance"), dict) else {}
+    contribution = operation.get("contribution", {}) if isinstance(operation.get("contribution"), dict) else {}
+
+    row = {
+        "reference_interne_demandeur": op.get("case_id") or operation.get("case_id"),
+        "code_fiche": normalized_code,
+        "secteur": fiche.get("sector"),
+        "beneficiaire_nom": client.get("name") or operation.get("client_name"),
+        "beneficiaire_adresse_complete": ", ".join(str(part) for part in [site.get("address"), site.get("postal_code"), site.get("city")] if part),
+        "beneficiaire_telephone": client.get("phone"),
+        "beneficiaire_email": client.get("email"),
+        "beneficiaire_siret_si_pm": client.get("siret"),
+        "date_engagement": op.get("engagement_date") or operation.get("date_engagement"),
+        "date_achevement": invoice.get("date") or op.get("completion_date") or operation.get("date_facture"),
+        "montant_kwh_cumac": calculation.get("total_kwh_cumac") or operation.get("kwh_cumac"),
+        "professionnel_raison_sociale": company.get("legal_name") or operation.get("professional_name"),
+        "professionnel_siret": company.get("siret") or operation.get("professional_siret"),
+        "qualification_rge_reference": technical.get("professional_qualification") or operation.get("rge_reference"),
+        "qualification_rge_organisme": technical.get("rge_qualifier") or operation.get("rge_qualifier"),
+        "qualification_rge_validite": technical.get("rge_valid_until") or operation.get("qualification_rge_validite"),
+        "montant_contribution_eur": contribution.get("amount") or operation.get("contribution_amount"),
+        "precarite_energetique": compliance.get("precarity_status") or "non",
+        "coup_de_pouce": compliance.get("coup_de_pouce_status") or "non",
+        "type_coup_de_pouce": compliance.get("coup_de_pouce_type"),
+    }
+    return {
+        "code": normalized_code,
+        "annexe6_row": row,
+        "source_files": existing_source_files(curated_path, extracted_path),
     }

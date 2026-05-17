@@ -248,48 +248,121 @@
       "confidence": "high"
     }
   ],
-  "required_documents": [
-    {
-      "text": "La preuve de la réalisation de l’opération mentionne : - la mise en place d’une ou de plusieurs pompe(s) à chaleur air/eau avec ses marque(s) et référence(s) ; - pour chaque pompe à chaleur installée au titre de la présente opération : - l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ; - le type d’application choisi pour l’installation de la pompe à chaleur (basse, moyenne ou haute température) ; - la puissance thermique nominale de la pompe à chaleur installée : - pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique nominale suivant le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné (soit Prated à la température de conception de référence de -10°C) déterminée selon l’application de la PAC installée ; - pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance mesurée aux conditions de performance nominale de la norme EN 14511-2, au régime de température d’air à +7°C et pour une température à la sortie de l'échangeur thermique intérieur déterminée selon l’application de la PAC installée ;",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "La preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une ou de plusieurs pompe(s) à chaleur air/eau avec ses marque(s) et référence(s) ;\n- pour chaque pompe à chaleur installée au titre de la présente opération :\n- l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- le type d’application choisi pour l’installation de la pompe à chaleur (basse, moyenne ou haute\ntempérature) ;\n- la puissance thermique nominale de la pompe à chaleur installée :\n- pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique\nnominale suivant le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les\nconditions climatiques moyennes définies par le règlement susmentionné (soit Prated à la\ntempérature de conception de référence de -10°C) déterminée selon l’application de la PAC\ninstallée ;\n- pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance mesurée aux\nconditions de performance nominale de la norme EN 14511-2, au régime de température d’air à\n+7°C et pour une température à la sortie de l'échangeur thermique intérieur déterminée selon\nl’application de la PAC installée ;",
-      "confidence": "high"
-    },
-    {
-      "text": "- et la performance énergétique de la pompe à chaleur installée : selon la puissance thermique nominale de la pompe à chaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon l’application de la PAC installée ou le COP explicitement mesuré selon la norme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C.",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "- et la performance énergétique de la pompe à chaleur installée : selon la puissance thermique nominale de\nla pompe à chaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la\ncommission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement\nsusmentionné) déterminée selon l’application de la PAC installée ou le COP explicitement mesuré selon la\nnorme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C.",
-      "confidence": "high"
-    },
-    {
-      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination européenne des organismes d'accréditation.",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique\neuropéen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou\ntout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la\ncoordination européenne des organismes d'accréditation.",
-      "confidence": "high"
-    },
-    {
-      "text": "Ce document indique que : - l’équipement de marque et référence mis en place est une ou plusieurs pompe(s) à chaleur air/eau ; - l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ; - le type d’application choisi pour l’installation de la pompe à chaleur (basse, moyenne ou haute température) ; - la puissance thermique nominale de chaque pompe à chaleur installée : - pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique nominale selon le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné (soit Prated à la température de conception de référence de -10°C) déterminée selon l’application de la PAC installée ; - pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance thermique nominale mesurée aux conditions de performance nominale de la norme EN 14511-2, au régime de température d’air à +7°C et pour une température à la sortie de l'échangeur thermique intérieur déterminée selon l’application de la PAC installée ; - et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe à chaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon l’application de la PAC installée ou le COP explicitement mesuré selon la norme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C.",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "Ce document indique que :\n- l’équipement de marque et référence mis en place est une ou plusieurs pompe(s) à chaleur air/eau ;\n- l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- le type d’application choisi pour l’installation de la pompe à chaleur (basse, moyenne ou haute température) ;\n- la puissance thermique nominale de chaque pompe à chaleur installée :\n- pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique nominale\nselon le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques\nmoyennes définies par le règlement susmentionné (soit Prated à la température de conception de référence\nde -10°C) déterminée selon l’application de la PAC installée ;\n- pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance thermique nominale\nmesurée aux conditions de performance nominale de la norme EN 14511-2, au régime de température d’air\nà +7°C et pour une température à la sortie de l'échangeur thermique intérieur déterminée selon l’application\nde la PAC installée ;\n- et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe à\nchaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août\n2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon\nl’application de la PAC installée ou le COP explicitement mesuré selon la norme EN 14511-2 pour une température\nà la sortie de l'échangeur thermique intérieur de 35°C.",
-      "confidence": "high"
-    },
-    {
-      "text": "Le document justificatif spécifique à l’opération est l’étude préalable de dimensionnement susmentionnée.",
-      "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "Le document justificatif spécifique à l’opération est l’étude préalable de dimensionnement susmentionnée.",
-      "confidence": "high"
-    }
-  ],
+  "required_documents": {
+    "common_pieces_annexe5": [
+      {
+        "document": "Cadre de contribution (annexe 8)",
+        "timing": "Avant ou max 14j apres devis signe pour PP/copropriete, et avant travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 3 et annexe 8 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Devis signe et date par le beneficiaire",
+        "timing": "Avant travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 4 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Attestation sur l'honneur (parties A+B+C)",
+        "timing": "Apres travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 5 et annexe 7 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Facture de travaux",
+        "timing": "Apres travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 2 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Certificat RGE ou qualification professionnelle valide a la date d'engagement",
+        "timing": "A la date d'engagement",
+        "obligatoire": true,
+        "source": "Arrete du 22 decembre 2014 modifie et fiche FOS"
+      },
+      {
+        "document": "K-bis ou SIRENE si beneficiaire personne morale",
+        "timing": "Au dossier",
+        "obligatoire": "si_pm",
+        "source": "Annexe 5 section 1 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Tableau recapitulatif annexe 6",
+        "timing": "Au depot PNCEE",
+        "obligatoire": true,
+        "source": "Annexe 2 et annexe 6 arrete 4 septembre 2014"
+      }
+    ],
+    "specific_pieces_fiche": [
+      {
+        "document": "La preuve de la réalisation de l’opération mentionne : - la mise en place d’une ou de plusieurs pompe(s) à chaleur air/eau avec ses marque(s) et référence(s) ; - pour chaque pompe à chaleur installée au titre de la présente opération : - l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ; - le type d’application choisi pour l’installation de la pompe à chaleur (basse, moyenne ou haute température) ; - la puissance thermique nominale de la pompe à chaleur installée : - pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique nominale suivant le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné (soit Prated à la température de conception de référence de -10°C) déterminée selon l’application de la PAC installée ; - pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance mesurée aux conditions de performance nominale de la norme EN 14511-2, au régime de température d’air à +7°C et pour une température à la sortie de l'échangeur thermique intérieur déterminée selon l’application de la PAC installée ;",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "La preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une ou de plusieurs pompe(s) à chaleur air/eau avec ses marque(s) et référence(s) ;\n- pour chaque pompe à chaleur installée au titre de la présente opération :\n- l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- le type d’application choisi pour l’installation de la pompe à chaleur (basse, moyenne ou haute\ntempérature) ;\n- la puissance thermique nominale de la pompe à chaleur installée :\n- pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique\nnominale suivant le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les\nconditions climatiques moyennes définies par le règlement susmentionné (soit Prated à la\ntempérature de conception de référence de -10°C) déterminée selon l’application de la PAC\ninstallée ;\n- pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance mesurée aux\nconditions de performance nominale de la norme EN 14511-2, au régime de température d’air à\n+7°C et pour une température à la sortie de l'échangeur thermique intérieur déterminée selon\nl’application de la PAC installée ;",
+        "confidence": "high"
+      },
+      {
+        "document": "- et la performance énergétique de la pompe à chaleur installée : selon la puissance thermique nominale de la pompe à chaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon l’application de la PAC installée ou le COP explicitement mesuré selon la norme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "- et la performance énergétique de la pompe à chaleur installée : selon la puissance thermique nominale de\nla pompe à chaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la\ncommission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement\nsusmentionné) déterminée selon l’application de la PAC installée ou le COP explicitement mesuré selon la\nnorme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C.",
+        "confidence": "high"
+      },
+      {
+        "document": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la coordination européenne des organismes d'accréditation.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique\neuropéen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou\ntout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de la\ncoordination européenne des organismes d'accréditation.",
+        "confidence": "high"
+      },
+      {
+        "document": "Ce document indique que : - l’équipement de marque et référence mis en place est une ou plusieurs pompe(s) à chaleur air/eau ; - l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ; - le type d’application choisi pour l’installation de la pompe à chaleur (basse, moyenne ou haute température) ; - la puissance thermique nominale de chaque pompe à chaleur installée : - pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique nominale selon le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques moyennes définies par le règlement susmentionné (soit Prated à la température de conception de référence de -10°C) déterminée selon l’application de la PAC installée ; - pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance thermique nominale mesurée aux conditions de performance nominale de la norme EN 14511-2, au régime de température d’air à +7°C et pour une température à la sortie de l'échangeur thermique intérieur déterminée selon l’application de la PAC installée ; - et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe à chaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon l’application de la PAC installée ou le COP explicitement mesuré selon la norme EN 14511-2 pour une température à la sortie de l'échangeur thermique intérieur de 35°C.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "Ce document indique que :\n- l’équipement de marque et référence mis en place est une ou plusieurs pompe(s) à chaleur air/eau ;\n- l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- le type d’application choisi pour l’installation de la pompe à chaleur (basse, moyenne ou haute température) ;\n- la puissance thermique nominale de chaque pompe à chaleur installée :\n- pour les pompes à chaleur de puissance thermique nominale < 400kW : la puissance thermique nominale\nselon le règlement (EU) n°813/2013 de la commission du 2 août 2013 pour les conditions climatiques\nmoyennes définies par le règlement susmentionné (soit Prated à la température de conception de référence\nde -10°C) déterminée selon l’application de la PAC installée ;\n- pour les pompes à chaleur de puissance thermique nominale > 400kW : la puissance thermique nominale\nmesurée aux conditions de performance nominale de la norme EN 14511-2, au régime de température d’air\nà +7°C et pour une température à la sortie de l'échangeur thermique intérieur déterminée selon l’application\nde la PAC installée ;\n- et la performance énergétique de l’équipement installé : selon la puissance thermique nominale de la pompe à\nchaleur, l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août\n2013 (pour les conditions climatiques moyennes définies par le règlement susmentionné) déterminée selon\nl’application de la PAC installée ou le COP explicitement mesuré selon la norme EN 14511-2 pour une température\nà la sortie de l'échangeur thermique intérieur de 35°C.",
+        "confidence": "high"
+      },
+      {
+        "document": "Le document justificatif spécifique à l’opération est l’étude préalable de dimensionnement susmentionnée.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Tertiaire_BAT/BAT-TH-163 vA81-2 à compter du 30-04-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "Le document justificatif spécifique à l’opération est l’étude préalable de dimensionnement susmentionnée.",
+        "confidence": "high"
+      }
+    ],
+    "pieces_precarite": [
+      {
+        "document": "Avis d'imposition ou de non-imposition N-1 ou N-2 de chaque foyer fiscal",
+        "timing": "Au dossier",
+        "obligatoire": "si_precarite",
+        "source": "Annexe 5 section 8 arrete 4 septembre 2014 et article 3-1 arrete 29 decembre 2014"
+      }
+    ],
+    "pieces_coup_de_pouce": [
+      {
+        "document": "Pieces Coup de pouce applicables selon la charte et la fiche",
+        "timing": "Au dossier",
+        "obligatoire": "si_coup_de_pouce",
+        "source": "Annexes Coup de pouce arrete 29 decembre 2014 modifie",
+        "needs_human_review": true
+      }
+    ]
+  },
   "attestation_fields": [],
   "control_points": [
     {

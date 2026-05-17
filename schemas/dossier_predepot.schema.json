@@ -50,6 +50,27 @@
       "additionalProperties": false
     },
     "document_check": { "$ref": "https://github.com/omarou15/fiches-cee/schemas/document_check.schema.json" },
+    "cadre_contribution": {
+      "type": ["object", "null"],
+      "properties": {
+        "required": { "type": "boolean" },
+        "status": { "type": ["string", "null"] },
+        "date": { "type": ["string", "null"] },
+        "source": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "chronology": {
+      "type": ["object", "null"],
+      "properties": {
+        "valid": { "type": "boolean" },
+        "blocking_points": { "type": "array" },
+        "warnings": { "type": "array" },
+        "dates": { "type": "object", "additionalProperties": true },
+        "source": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
     "missing_questions": {
       "type": "array",
       "items": {

@@ -139,32 +139,101 @@
       "confidence": "high"
     }
   ],
-  "required_documents": [
-    {
-      "text": "Étude préalable de dimensionnement datée et signée.",
-      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
-      "page": 2,
-      "section_title": "Conditions pour la délivrance de certificats",
-      "quote": "L’installation fait l’objet d’une étude préalable de dimensionnement, datée et signée par le professionnel.",
-      "confidence": "high"
-    },
-    {
-      "text": "Preuve de réalisation mentionnant marque, référence, Prated à -10°C, usage, type d’application et Etas.",
-      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
-      "page": 3,
-      "section_title": "Conditions pour la délivrance de certificats",
-      "quote": "La preuve de la réalisation de l’opération mentionne : - la mise en place ... avec ses marque(s) et référence(s)",
-      "confidence": "high"
-    },
-    {
-      "text": "Décision de qualification ou de certification du professionnel.",
-      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
-      "page": 3,
-      "section_title": "Conditions pour la délivrance de certificats",
-      "quote": "la décision de qualification ou de certification du professionnel",
-      "confidence": "high"
-    }
-  ],
+  "required_documents": {
+    "common_pieces_annexe5": [
+      {
+        "document": "Cadre de contribution (annexe 8)",
+        "timing": "Avant ou max 14j apres devis signe pour PP/copropriete, et avant travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 3 et annexe 8 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Devis signe et date par le beneficiaire",
+        "timing": "Avant travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 4 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Attestation sur l'honneur (parties A+B+C)",
+        "timing": "Apres travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 5 et annexe 7 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Facture de travaux",
+        "timing": "Apres travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 2 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Certificat RGE ou qualification professionnelle valide a la date d'engagement",
+        "timing": "A la date d'engagement",
+        "obligatoire": true,
+        "source": "Arrete du 22 decembre 2014 modifie et fiche FOS"
+      },
+      {
+        "document": "K-bis ou SIRENE si beneficiaire personne morale",
+        "timing": "Au dossier",
+        "obligatoire": "si_pm",
+        "source": "Annexe 5 section 1 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Tableau recapitulatif annexe 6",
+        "timing": "Au depot PNCEE",
+        "obligatoire": true,
+        "source": "Annexe 2 et annexe 6 arrete 4 septembre 2014"
+      }
+    ],
+    "specific_pieces_fiche": [
+      {
+        "document": "Étude préalable de dimensionnement datée et signée.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+        "page": 2,
+        "section_title": "Conditions pour la délivrance de certificats",
+        "quote": "L’installation fait l’objet d’une étude préalable de dimensionnement, datée et signée par le professionnel.",
+        "confidence": "high"
+      },
+      {
+        "document": "Preuve de réalisation mentionnant marque, référence, Prated à -10°C, usage, type d’application et Etas.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+        "page": 3,
+        "section_title": "Conditions pour la délivrance de certificats",
+        "quote": "La preuve de la réalisation de l’opération mentionne : - la mise en place ... avec ses marque(s) et référence(s)",
+        "confidence": "high"
+      },
+      {
+        "document": "Décision de qualification ou de certification du professionnel.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf",
+        "page": 3,
+        "section_title": "Conditions pour la délivrance de certificats",
+        "quote": "la décision de qualification ou de certification du professionnel",
+        "confidence": "high"
+      }
+    ],
+    "pieces_precarite": [
+      {
+        "document": "Avis d'imposition ou de non-imposition N-1 ou N-2 de chaque foyer fiscal",
+        "timing": "Au dossier",
+        "obligatoire": "si_precarite",
+        "source": "Annexe 5 section 8 arrete 4 septembre 2014 et article 3-1 arrete 29 decembre 2014"
+      }
+    ],
+    "pieces_coup_de_pouce": [
+      {
+        "document": "Pieces Coup de pouce applicables selon la charte et la fiche",
+        "timing": "Au dossier",
+        "obligatoire": "si_coup_de_pouce",
+        "source": "Annexes Coup de pouce arrete 29 decembre 2014 modifie",
+        "needs_human_review": true
+      }
+    ]
+  },
   "control_points": [
     {
       "text": "Vérifier que la PAC n’est pas utilisée uniquement pour l’ECS.",
@@ -214,7 +283,11 @@
         "label": "Zone climatique",
         "unit": null,
         "value_type": "enum",
-        "values": ["H1", "H2", "H3"],
+        "values": [
+          "H1",
+          "H2",
+          "H3"
+        ],
         "description": "Zone climatique utilisée dans le tableau de montant."
       },
       {
@@ -222,7 +295,10 @@
         "label": "Usage de la PAC",
         "unit": null,
         "value_type": "enum",
-        "values": ["chauffage", "chauffage_et_ecs"],
+        "values": [
+          "chauffage",
+          "chauffage_et_ecs"
+        ],
         "description": "Usage retenu dans le tableau de montant."
       },
       {
@@ -230,7 +306,13 @@
         "label": "Plage Etas",
         "unit": "%",
         "value_type": "enum",
-        "values": ["111_126", "126_150", "150_175", "175_190", "190_plus"],
+        "values": [
+          "111_126",
+          "126_150",
+          "150_175",
+          "175_190",
+          "190_plus"
+        ],
         "description": "Plage d’efficacité énergétique saisonnière."
       }
     ],
@@ -242,20 +324,104 @@
     }
   },
   "site_data_requirements": [
-    {"field": "apartment_count_heated_by_pac", "unit": "appartement", "required": true, "reason": "variable N de calcul BAR-TH-179", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "climate_zone", "unit": null, "required": true, "reason": "selection de la ligne H1/H2/H3", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "pac_usage", "unit": null, "required": true, "reason": "chauffage ou chauffage et ECS", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "etas_percent", "unit": "%", "required": true, "reason": "selection de la plage Etas", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "application_temperature", "unit": null, "required": true, "reason": "controle du seuil Etas 35/55 deg C", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "pac_nominal_power_prated_minus_10_kw", "unit": "kW", "required": true, "reason": "controle puissance PAC et facteur R", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "boiler_room_useful_power_after_works_kw", "unit": "kW", "required": true, "reason": "calcul du facteur R", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "backup_equipment_excluded", "unit": null, "required": true, "reason": "la puissance chaufferie ne comptabilise pas les secours", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "heated_surface", "unit": "m2", "required": true, "reason": "donnee de l'etude de dimensionnement", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "emitter_types", "unit": null, "required": true, "reason": "choix de l'application basse ou moyenne/haute temperature", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "tbase", "unit": "degC", "required": true, "reason": "donnee de l'etude de dimensionnement", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "heat_losses", "unit": "kW", "required": true, "reason": "donnee de l'etude de dimensionnement", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "supply_temperature", "unit": "degC", "required": true, "reason": "donnee de l'etude de dimensionnement", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"},
-    {"field": "indoor_setpoint_temperature", "unit": "degC", "required": true, "reason": "donnee de l'etude de dimensionnement", "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"}
+    {
+      "field": "apartment_count_heated_by_pac",
+      "unit": "appartement",
+      "required": true,
+      "reason": "variable N de calcul BAR-TH-179",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "climate_zone",
+      "unit": null,
+      "required": true,
+      "reason": "selection de la ligne H1/H2/H3",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "pac_usage",
+      "unit": null,
+      "required": true,
+      "reason": "chauffage ou chauffage et ECS",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "etas_percent",
+      "unit": "%",
+      "required": true,
+      "reason": "selection de la plage Etas",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "application_temperature",
+      "unit": null,
+      "required": true,
+      "reason": "controle du seuil Etas 35/55 deg C",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "pac_nominal_power_prated_minus_10_kw",
+      "unit": "kW",
+      "required": true,
+      "reason": "controle puissance PAC et facteur R",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "boiler_room_useful_power_after_works_kw",
+      "unit": "kW",
+      "required": true,
+      "reason": "calcul du facteur R",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "backup_equipment_excluded",
+      "unit": null,
+      "required": true,
+      "reason": "la puissance chaufferie ne comptabilise pas les secours",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "heated_surface",
+      "unit": "m2",
+      "required": true,
+      "reason": "donnee de l'etude de dimensionnement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "emitter_types",
+      "unit": null,
+      "required": true,
+      "reason": "choix de l'application basse ou moyenne/haute temperature",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "tbase",
+      "unit": "degC",
+      "required": true,
+      "reason": "donnee de l'etude de dimensionnement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "heat_losses",
+      "unit": "kW",
+      "required": true,
+      "reason": "donnee de l'etude de dimensionnement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "supply_temperature",
+      "unit": "degC",
+      "required": true,
+      "reason": "donnee de l'etude de dimensionnement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    },
+    {
+      "field": "indoor_setpoint_temperature",
+      "unit": "degC",
+      "required": true,
+      "reason": "donnee de l'etude de dimensionnement",
+      "source_file": "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.pdf"
+    }
   ],
   "compliance_risks": [
     {

@@ -26,6 +26,11 @@ BAR_TH_179_SOURCE = "Residentiel_BAR/BAR-TH-179 vA81-2 à compter du 30-04-2026.
 BAR_TH_179_EFFECTIVE_DATE = "2026-04-30"
 BAR_TH_179_ENGAGEMENT_DEADLINE = "2030-12-31"
 
+try:
+    from scripts.validate_operation import has_chronology_inputs, validate_chronology
+except ModuleNotFoundError:  # pragma: no cover - direct script execution fallback
+    from validate_operation import has_chronology_inputs, validate_chronology
+
 
 def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -848,9 +853,38 @@ def build_dossier(operation: dict[str, Any]) -> dict[str, Any]:
 
     support_level = detect_support_level(fiche_code)
     if fiche_code == "BAR-TH-179" and support_level == "supported_full":
-        return build_bar_th_179_dossier(operation)
+        dossier = build_bar_th_179_dossier(operation)
+    else:
+        dossier = build_generic_draft_dossier(operation, fiche_code, support_level)
+    if has_chronology_inputs(operation):
+        apply_chronology_result(dossier, validate_chronology(operation))
+    return dossier
 
-    return build_generic_draft_dossier(operation, fiche_code, support_level)
+
+def apply_chronology_result(dossier: dict[str, Any], chronology: dict[str, Any]) -> None:
+    dossier["chronology"] = chronology
+    for item in chronology.get("blocking_points", []):
+        dossier.setdefault("missing_questions", []).append(
+            {
+                "id": f"chronology_{len(dossier.get('missing_questions', [])) + 1}",
+                "field_path": item.get("field", "chronology"),
+                "question": item.get("text", "Chronologie documentaire non conforme."),
+                "expected_input": "dates ISO AAAA-MM-JJ coherentes avec la chronologie CEE",
+                "blocking": True,
+            }
+        )
+        dossier.setdefault("risks", []).append(
+            {
+                "id": "chronology_blocking_point",
+                "severity": item.get("severity", "high"),
+                "text": item.get("text", "Chronologie documentaire non conforme."),
+                "source": item.get("source"),
+            }
+        )
+    if chronology.get("blocking_points"):
+        dossier["status"] = "incomplet_questions" if dossier.get("status") == "pret_predepot" else dossier.get("status", "incomplet_questions")
+        if isinstance(dossier.get("eligibility"), dict):
+            dossier["eligibility"]["eligible"] = None if dossier["eligibility"].get("eligible") is True else dossier["eligibility"].get("eligible")
 
 
 

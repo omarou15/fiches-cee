@@ -248,40 +248,111 @@
       "confidence": "high"
     }
   ],
-  "required_documents": [
-    {
-      "text": "La preuve de la réalisation de l’opération mentionne : - la mise en place d’une pompe à chaleur de type air/eau avec ses marque et référence ; - et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute température) ; - et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ; - et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes) déterminée selon l’application de la PAC installée ; - et l’installation d’un régulateur ainsi que la classe de celui-ci ; - et, dans le cas d’un système déporté à la PAC installée, permettant la production de l’eau chaude sanitaire par celle-ci, la mise en place du système déporté avec ses marque et référence.",
-      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "La preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une pompe à chaleur de type air/eau avec ses marque et référence ;\n- et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute\ntempérature) ;\n- et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013\n(pour des conditions climatiques moyennes) déterminée selon l’application de la PAC installée ;\n- et l’installation d’un régulateur ainsi que la classe de celui-ci ;\n- et, dans le cas d’un système déporté à la PAC installée, permettant la production de l’eau chaude sanitaire par\ncelle-ci, la mise en place du système déporté avec ses marque et référence.",
-      "confidence": "high"
-    },
-    {
-      "text": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne des organismes d'accréditation.",
-      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique\neuropéen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou\ntout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de\nEuropean co-operation for Accreditation (EA), coordination européenne des organismes d'accréditation.",
-      "confidence": "high"
-    },
-    {
-      "text": "Ce document indique : - que l’équipement de marque et référence mis en place est une pompe à chaleur de type air/eau ; - et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute température) ; - et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ; - et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes), déterminée selon l’application de la PAC installée ; - et que l’équipement est équipé d’un régulateur, en précisant la classe de celui-ci ;",
-      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "Ce document indique :\n- que l’équipement de marque et référence mis en place est une pompe à chaleur de type air/eau ;\n- et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute\ntempérature) ;\n- et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013\n(pour des conditions climatiques moyennes), déterminée selon l’application de la PAC installée ;\n- et que l’équipement est équipé d’un régulateur, en précisant la classe de celui-ci ;",
-      "confidence": "high"
-    },
-    {
-      "text": "Les documents justificatifs spécifiques à l’opération sont : - la note de dimensionnement susmentionnée ; - la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé ; - la fiche d’information sur le produit de la PAC, mentionnée à l'article 3 du Règlement (UE) 2017/1369 établissant un cadre pour l'étiquetage énergétique (dont le texte d’application spécifique au chauffage centralisé est le règlement écoconception 811/2013).",
-      "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "Les documents justificatifs spécifiques à l’opération sont :\n- la note de dimensionnement susmentionnée ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé ;\n- la fiche d’information sur le produit de la PAC, mentionnée à l'article 3 du Règlement (UE) 2017/1369 établissant\nun cadre pour l'étiquetage énergétique (dont le texte d’application spécifique au chauffage centralisé est le règlement\nécoconception 811/2013).",
-      "confidence": "high"
-    }
-  ],
+  "required_documents": {
+    "common_pieces_annexe5": [
+      {
+        "document": "Cadre de contribution (annexe 8)",
+        "timing": "Avant ou max 14j apres devis signe pour PP/copropriete, et avant travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 3 et annexe 8 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Devis signe et date par le beneficiaire",
+        "timing": "Avant travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 4 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Attestation sur l'honneur (parties A+B+C)",
+        "timing": "Apres travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 5 et annexe 7 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Facture de travaux",
+        "timing": "Apres travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 2 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Certificat RGE ou qualification professionnelle valide a la date d'engagement",
+        "timing": "A la date d'engagement",
+        "obligatoire": true,
+        "source": "Arrete du 22 decembre 2014 modifie et fiche FOS"
+      },
+      {
+        "document": "K-bis ou SIRENE si beneficiaire personne morale",
+        "timing": "Au dossier",
+        "obligatoire": "si_pm",
+        "source": "Annexe 5 section 1 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Tableau recapitulatif annexe 6",
+        "timing": "Au depot PNCEE",
+        "obligatoire": true,
+        "source": "Annexe 2 et annexe 6 arrete 4 septembre 2014"
+      }
+    ],
+    "specific_pieces_fiche": [
+      {
+        "document": "La preuve de la réalisation de l’opération mentionne : - la mise en place d’une pompe à chaleur de type air/eau avec ses marque et référence ; - et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute température) ; - et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ; - et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes) déterminée selon l’application de la PAC installée ; - et l’installation d’un régulateur ainsi que la classe de celui-ci ; - et, dans le cas d’un système déporté à la PAC installée, permettant la production de l’eau chaude sanitaire par celle-ci, la mise en place du système déporté avec ses marque et référence.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "La preuve de la réalisation de l’opération mentionne :\n- la mise en place d’une pompe à chaleur de type air/eau avec ses marque et référence ;\n- et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute\ntempérature) ;\n- et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013\n(pour des conditions climatiques moyennes) déterminée selon l’application de la PAC installée ;\n- et l’installation d’un régulateur ainsi que la classe de celui-ci ;\n- et, dans le cas d’un système déporté à la PAC installée, permettant la production de l’eau chaude sanitaire par\ncelle-ci, la mise en place du système déporté avec ses marque et référence.",
+        "confidence": "high"
+      },
+      {
+        "document": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et référence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique européen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de European co-operation for Accreditation (EA), coordination européenne des organismes d'accréditation.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "A défaut, la preuve de réalisation de l’opération mentionne la mise en place d’un équipement avec ses marque et\nréférence et elle est complétée par un document issu du fabricant ou d’un organisme établi dans l'Espace économique\neuropéen et accrédité selon la norme NF EN ISO/IEC 17065 par le Comité français d'accréditation (COFRAC) ou\ntout autre organisme d'accréditation signataire de l'accord européen multilatéral pertinent pris dans le cadre de\nEuropean co-operation for Accreditation (EA), coordination européenne des organismes d'accréditation.",
+        "confidence": "high"
+      },
+      {
+        "document": "Ce document indique : - que l’équipement de marque et référence mis en place est une pompe à chaleur de type air/eau ; - et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute température) ; - et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ; - et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013 (pour des conditions climatiques moyennes), déterminée selon l’application de la PAC installée ; - et que l’équipement est équipé d’un régulateur, en précisant la classe de celui-ci ;",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "Ce document indique :\n- que l’équipement de marque et référence mis en place est une pompe à chaleur de type air/eau ;\n- et le type d’application choisi pour l’installation de la pompe à chaleur (basse température ; moyenne ou haute\ntempérature) ;\n- et l’usage de la pompe à chaleur (chauffage ; chauffage et eau chaude sanitaire) ;\n- et l’efficacité énergétique saisonnière (Etas) selon le règlement (EU) n° 813/2013 de la commission du 2 août 2013\n(pour des conditions climatiques moyennes), déterminée selon l’application de la PAC installée ;\n- et que l’équipement est équipé d’un régulateur, en précisant la classe de celui-ci ;",
+        "confidence": "high"
+      },
+      {
+        "document": "Les documents justificatifs spécifiques à l’opération sont : - la note de dimensionnement susmentionnée ; - la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles prévues à l’article 2 du décret susvisé ; - la fiche d’information sur le produit de la PAC, mentionnée à l'article 3 du Règlement (UE) 2017/1369 établissant un cadre pour l'étiquetage énergétique (dont le texte d’application spécifique au chauffage centralisé est le règlement écoconception 811/2013).",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Residentiel_BAR/BAR-TH-171 vA78-4 à compter du 01-01-2026.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "Les documents justificatifs spécifiques à l’opération sont :\n- la note de dimensionnement susmentionnée ;\n- la décision de qualification ou de certification du professionnel délivrée selon les mêmes exigences que celles\nprévues à l’article 2 du décret susvisé ;\n- la fiche d’information sur le produit de la PAC, mentionnée à l'article 3 du Règlement (UE) 2017/1369 établissant\nun cadre pour l'étiquetage énergétique (dont le texte d’application spécifique au chauffage centralisé est le règlement\nécoconception 811/2013).",
+        "confidence": "high"
+      }
+    ],
+    "pieces_precarite": [
+      {
+        "document": "Avis d'imposition ou de non-imposition N-1 ou N-2 de chaque foyer fiscal",
+        "timing": "Au dossier",
+        "obligatoire": "si_precarite",
+        "source": "Annexe 5 section 8 arrete 4 septembre 2014 et article 3-1 arrete 29 decembre 2014"
+      }
+    ],
+    "pieces_coup_de_pouce": [
+      {
+        "document": "Pieces Coup de pouce applicables selon la charte et la fiche",
+        "timing": "Au dossier",
+        "obligatoire": "si_coup_de_pouce",
+        "source": "Annexes Coup de pouce arrete 29 decembre 2014 modifie",
+        "needs_human_review": true
+      }
+    ]
+  },
   "attestation_fields": [],
   "control_points": [
     {

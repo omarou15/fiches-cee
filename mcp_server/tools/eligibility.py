@@ -234,8 +234,15 @@ def list_required_documents(code: str) -> dict[str, Any]:
     curated, curated_path = load_curated(normalized_code)
     extracted, extracted_path = load_extracted_json(normalized_code)
     fiche = curated or extracted or {}
+    required = fiche.get("required_documents")
+    if isinstance(required, dict):
+        return {
+            "code": normalized_code,
+            "required_documents": required,
+            "source_files": existing_source_files(curated_path, extracted_path),
+        }
     documents: list[dict[str, Any]] = []
-    for item in fiche.get("required_documents") or []:
+    for item in required or []:
         if isinstance(item, dict):
             documents.append(
                 {
@@ -252,4 +259,3 @@ def list_required_documents(code: str) -> dict[str, Any]:
         "required_documents": documents,
         "source_files": existing_source_files(curated_path, extracted_path),
     }
-

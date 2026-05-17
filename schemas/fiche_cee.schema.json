@@ -133,8 +133,15 @@
       "items": { "type": "string" }
     },
     "required_documents": {
-      "type": "array",
-      "items": { "$ref": "#/$defs/text_item" }
+      "anyOf": [
+        {
+          "type": "array",
+          "items": { "$ref": "#/$defs/text_item" }
+        },
+        {
+          "$ref": "#/$defs/required_documents_structured"
+        }
+      ]
     },
     "attestation_fields": {
       "type": "array",
@@ -299,6 +306,49 @@
           "enum": ["low", "medium", "high"]
         },
         "source": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "required_document_item": {
+      "type": "object",
+      "required": ["document"],
+      "properties": {
+        "document": { "type": ["string", "null"] },
+        "timing": { "type": ["string", "null"] },
+        "obligatoire": { "type": ["boolean", "string", "null"] },
+        "source": { "type": ["string", "null"] },
+        "source_file": { "type": ["string", "null"] },
+        "page": { "type": ["integer", "null"] },
+        "section_title": { "type": ["string", "null"] },
+        "quote": { "type": ["string", "null"] },
+        "confidence": {
+          "type": ["string", "null"],
+          "enum": ["low", "medium", "high", null]
+        },
+        "needs_human_review": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "required_documents_structured": {
+      "type": "object",
+      "required": ["common_pieces_annexe5", "specific_pieces_fiche", "pieces_precarite", "pieces_coup_de_pouce"],
+      "properties": {
+        "common_pieces_annexe5": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/required_document_item" }
+        },
+        "specific_pieces_fiche": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/required_document_item" }
+        },
+        "pieces_precarite": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/required_document_item" }
+        },
+        "pieces_coup_de_pouce": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/required_document_item" }
+        }
       },
       "additionalProperties": false
     },

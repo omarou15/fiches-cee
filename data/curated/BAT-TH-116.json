@@ -171,32 +171,101 @@
       "confidence": "high"
     }
   ],
-  "required_documents": [
-    {
-      "text": "La preuve de la réalisation de l’opération mentionne la mise en place d’un système de gestion technique du bâtiment assurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la norme NF EN ISO 52120-1 : 2022.",
-      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d’un système de gestion technique du bâtiment\nassurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la\nnorme NF EN ISO 52120-1 : 2022.",
-      "confidence": "high"
-    },
-    {
-      "text": "A défaut, la preuve de la réalisation mentionne la mise en place d’un système avec ses marque et référence et elle est accompagnée d’un document issu du professionnel réalisant l’opération.",
-      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "A défaut, la preuve de la réalisation mentionne la mise en place d’un système avec ses marque et référence et elle\nest accompagnée d’un document issu du professionnel réalisant l’opération.",
-      "confidence": "high"
-    },
-    {
-      "text": "Ce document indique que le système de marque et référence installé est un système de gestion technique du bâtiment assurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la norme NF EN ISO 52120-1 : 2022.",
-      "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
-      "page": 1,
-      "section_title": "Pi?ces et preuves",
-      "quote": "Ce document indique que le système de marque et référence installé est un système de gestion technique du bâtiment\nassurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la\nnorme NF EN ISO 52120-1 : 2022.",
-      "confidence": "high"
-    }
-  ],
+  "required_documents": {
+    "common_pieces_annexe5": [
+      {
+        "document": "Cadre de contribution (annexe 8)",
+        "timing": "Avant ou max 14j apres devis signe pour PP/copropriete, et avant travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 3 et annexe 8 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Devis signe et date par le beneficiaire",
+        "timing": "Avant travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 4 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Attestation sur l'honneur (parties A+B+C)",
+        "timing": "Apres travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 5 et annexe 7 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Facture de travaux",
+        "timing": "Apres travaux",
+        "obligatoire": true,
+        "source": "Annexe 5 section 2 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Certificat RGE ou qualification professionnelle valide a la date d'engagement",
+        "timing": "A la date d'engagement",
+        "obligatoire": true,
+        "source": "Arrete du 22 decembre 2014 modifie et fiche FOS"
+      },
+      {
+        "document": "K-bis ou SIRENE si beneficiaire personne morale",
+        "timing": "Au dossier",
+        "obligatoire": "si_pm",
+        "source": "Annexe 5 section 1 arrete 4 septembre 2014"
+      },
+      {
+        "document": "Tableau recapitulatif annexe 6",
+        "timing": "Au depot PNCEE",
+        "obligatoire": true,
+        "source": "Annexe 2 et annexe 6 arrete 4 septembre 2014"
+      }
+    ],
+    "specific_pieces_fiche": [
+      {
+        "document": "La preuve de la réalisation de l’opération mentionne la mise en place d’un système de gestion technique du bâtiment assurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la norme NF EN ISO 52120-1 : 2022.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "La preuve de la réalisation de l’opération mentionne la mise en place d’un système de gestion technique du bâtiment\nassurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la\nnorme NF EN ISO 52120-1 : 2022.",
+        "confidence": "high"
+      },
+      {
+        "document": "A défaut, la preuve de la réalisation mentionne la mise en place d’un système avec ses marque et référence et elle est accompagnée d’un document issu du professionnel réalisant l’opération.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "A défaut, la preuve de la réalisation mentionne la mise en place d’un système avec ses marque et référence et elle\nest accompagnée d’un document issu du professionnel réalisant l’opération.",
+        "confidence": "high"
+      },
+      {
+        "document": "Ce document indique que le système de marque et référence installé est un système de gestion technique du bâtiment assurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la norme NF EN ISO 52120-1 : 2022.",
+        "timing": "Selon fiche FOS",
+        "obligatoire": true,
+        "source_file": "Tertiaire_BAT/BAT-TH-116 vA62-6 à compter du 01-01-2025_1.pdf",
+        "page": 1,
+        "section_title": "Pi?ces et preuves",
+        "quote": "Ce document indique que le système de marque et référence installé est un système de gestion technique du bâtiment\nassurant, par un système d’automatisation centralisé, les fonctions de régulation de classe B ou A au sens de la\nnorme NF EN ISO 52120-1 : 2022.",
+        "confidence": "high"
+      }
+    ],
+    "pieces_precarite": [
+      {
+        "document": "Avis d'imposition ou de non-imposition N-1 ou N-2 de chaque foyer fiscal",
+        "timing": "Au dossier",
+        "obligatoire": "si_precarite",
+        "source": "Annexe 5 section 8 arrete 4 septembre 2014 et article 3-1 arrete 29 decembre 2014"
+      }
+    ],
+    "pieces_coup_de_pouce": [
+      {
+        "document": "Pieces Coup de pouce applicables selon la charte et la fiche",
+        "timing": "Au dossier",
+        "obligatoire": "si_coup_de_pouce",
+        "source": "Annexes Coup de pouce arrete 29 decembre 2014 modifie",
+        "needs_human_review": true
+      }
+    ]
+  },
   "attestation_fields": [],
   "control_points": [
     {
