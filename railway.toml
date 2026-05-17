@@ -1,0 +1,5 @@
+[deploy]
+startCommand = "python mcp_server/server.py"
+healthcheckPath = "/health"
+healthcheckTimeout = 30
+
