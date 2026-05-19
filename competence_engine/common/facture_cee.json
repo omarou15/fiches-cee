@@ -1,0 +1,655 @@
+{
+  "id": "facture_cee",
+  "title": "Facture conforme pour dossier CEE",
+  "category": "common_document",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Donner a un agent IA une grille stable pour generer ou controler une facture utilisee comme preuve de realisation dans un dossier CEE, en separant obligations de facturation, exigences CEE, pratiques d'operateurs et points propres a la fiche.",
+  "scope": {
+    "document": "facture",
+    "cee_period": "P6 2026-2030",
+    "applies_to_all_standardized_operations": true,
+    "limits": [
+      "La facture peut servir de preuve de realisation, mais certains cas exigent aussi PV de reception, attestation d'installation, DOE, DGD ou piece specifique de la fiche.",
+      "La date d'achevement CEE doit etre issue de la preuve de realisation applicable ; pour le cas courant, elle correspond a la facture finale ou facture de solde.",
+      "Les champs techniques obligatoires dependent toujours de la fiche CEE et ne doivent pas etre inventes depuis un modele generique."
+    ]
+  },
+  "applies_to": ["*"],
+  "source_policy": {
+    "official_source_required_for": [
+      "mentions obligatoires de facture",
+      "date d'achevement CEE",
+      "delai de depot apres achevement",
+      "preuve de realisation",
+      "mentions techniques imposees par la fiche",
+      "validite RGE si exigee"
+    ],
+    "operator_practice_allowed_for": [
+      "mention du demandeur ou mandataire CEE sur facture",
+      "presentation de la prime CEE sur facture",
+      "tolerances de controle entre devis et facture",
+      "checklists de mandataires",
+      "references internes dossier"
+    ],
+    "no_hallucination_rules": [
+      "Ne jamais creer une facture definitive avec un numero reel sans validation de l'entreprise.",
+      "Ne jamais inventer une date d'achevement ; demander facture finale, PV ou preuve applicable.",
+      "Ne jamais inventer marque, modele, surface, puissance, Etas, COP, resistance thermique ou metrage.",
+      "Ne jamais corriger une facture emise en la modifiant directement ; signaler avoir ou nouvelle facture selon le processus comptable de l'entreprise.",
+      "Si la fiche exige une mention technique absente, bloquer en mode strict ou marquer [A COMPLETER] en mode draft."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "invoice.number",
+      "label": "Numero unique de facture",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "La facture doit comporter un numero unique fonde sur une sequence chronologique continue.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CODE_COMMERCE_L441_9"],
+      "if_applicable": null,
+      "ai_instruction": "En mode draft, generer un numero provisoire clairement marque brouillon."
+    },
+    {
+      "field": "invoice.issue_date",
+      "label": "Date d'emission de la facture",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Mention obligatoire de facturation et repere documentaire.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CODE_COMMERCE_L441_9"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas confondre date d'emission et date d'achevement des travaux."
+    },
+    {
+      "field": "invoice.works_completion_date",
+      "label": "Date d'achevement ou fin de prestation",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Date critique pour la preuve de realisation CEE et le delai de depot.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "FAQ_CEE_MTE", "ARRETE_2014_09_04"],
+      "if_applicable": null,
+      "ai_instruction": "Si absente de la facture, chercher une preuve de realisation admissible ; sinon poser une question bloquante."
+    },
+    {
+      "field": "company.legal_name",
+      "label": "Raison sociale du vendeur ou installateur",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Identification de l'emetteur de la facture.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE"],
+      "if_applicable": null,
+      "ai_instruction": "Comparer avec devis, AH et certificat RGE."
+    },
+    {
+      "field": "company.siret",
+      "label": "SIRET ou identifiant de l'entreprise",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Identification administrative du vendeur ou prestataire.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CGI_242_NONIES_A"],
+      "if_applicable": null,
+      "ai_instruction": "Verifier la coherence avec le professionnel declare en partie C de l'AH."
+    },
+    {
+      "field": "company.address",
+      "label": "Adresse de l'entreprise",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Mention obligatoire d'identification des parties.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CODE_COMMERCE_L441_9"],
+      "if_applicable": null,
+      "ai_instruction": "Demander si absente."
+    },
+    {
+      "field": "client.name",
+      "label": "Nom ou raison sociale du client",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "La facture doit identifier l'acheteur ou beneficiaire facture.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CODE_COMMERCE_L441_9"],
+      "if_applicable": null,
+      "ai_instruction": "Comparer avec beneficiaire CEE ; si payeur different, documenter le lien."
+    },
+    {
+      "field": "client.address",
+      "label": "Adresse de facturation du client",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Mention obligatoire, distincte du site de travaux si besoin.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CODE_COMMERCE_L441_9"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas remplacer l'adresse chantier par l'adresse de facturation si elles different."
+    },
+    {
+      "field": "site.address",
+      "label": "Adresse complete des travaux",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Permet de rattacher la preuve de realisation a l'operation CEE.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Bloquer si le site n'est pas identifiable ou incoherent avec devis/AH."
+    },
+    {
+      "field": "invoice.lines",
+      "label": "Detail des prestations, quantites, prix unitaires et TVA",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "La facture doit decrire les biens ou services rendus avec quantite, denomination precise et prix.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CODE_COMMERCE_L441_9", "CGI_242_NONIES_A"],
+      "if_applicable": null,
+      "ai_instruction": "Refuser une facture trop globale pour controler la fiche CEE."
+    },
+    {
+      "field": "invoice.totals",
+      "label": "Totaux HT, TVA et TTC",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Obligation generale de facturation.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CGI_242_NONIES_A"],
+      "if_applicable": null,
+      "ai_instruction": "Controler la coherence arithmetique des lignes et totaux."
+    },
+    {
+      "field": "invoice.payment_terms",
+      "label": "Conditions de paiement",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Les conditions d'escompte, penalites et indemnite forfaitaire sont des mentions selon le cas.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CODE_COMMERCE_L441_9"],
+      "if_applicable": "Certaines mentions sont surtout pertinentes en B2B.",
+      "ai_instruction": "Adapter les mentions au type de client et au statut de l'entreprise."
+    },
+    {
+      "field": "related_quote.number",
+      "label": "Reference du devis ou acte d'engagement",
+      "status": "required",
+      "evidence_level": "operator_practice",
+      "reason": "Permet de relier la facture a l'acte d'engagement CEE.",
+      "source_refs": ["ARRETE_2014_09_04", "OPERATOR_PRACTICE_FACTURE_CEE"],
+      "if_applicable": "Si l'operation dispose d'un devis, bon de commande, ordre de service ou acte d'engagement.",
+      "ai_instruction": "Si non imprimee sur la facture, verifier la reference dans le dossier."
+    },
+    {
+      "field": "operation.fiche_required_technical_fields",
+      "label": "Mentions techniques exigees par la fiche CEE",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "La facture ou les documents fabricants doivent permettre de verifier les criteres de la fiche.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Charger les champs depuis data/curated/{CODE}.json, rules/{CODE}.rules.json ou la fiche source."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "invoice.purchase_order_number",
+      "label": "Numero de bon de commande ou engagement",
+      "status": "recommended",
+      "evidence_level": "official",
+      "reason": "Mention applicable lorsque le bon de commande a ete etabli.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE"],
+      "if_applicable": "Si un bon de commande ou engagement public existe.",
+      "ai_instruction": "Ne pas l'inventer ; demander la reference."
+    },
+    {
+      "field": "company.vat_number",
+      "label": "Numero de TVA intracommunautaire",
+      "status": "recommended",
+      "evidence_level": "official",
+      "reason": "Mention obligatoire selon le statut et les seuils applicables.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CGI_242_NONIES_A"],
+      "if_applicable": "Si l'entreprise est assujettie ou si le contexte l'exige.",
+      "ai_instruction": "Si franchise TVA, utiliser la mention appropriee au lieu d'un numero invente."
+    },
+    {
+      "field": "company.insurance_decennale",
+      "label": "Assurance professionnelle ou decennale",
+      "status": "recommended",
+      "evidence_level": "official",
+      "reason": "Les artisans doivent mentionner l'assurance lorsque celle-ci est obligatoire pour leur activite.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE"],
+      "if_applicable": "Si l'activite est soumise a assurance obligatoire.",
+      "ai_instruction": "Marquer [A COMPLETER] si assureur ou numero police absent."
+    },
+    {
+      "field": "contribution.amount_final",
+      "label": "Prime CEE ou contribution deduite ou versee",
+      "status": "recommended",
+      "evidence_level": "operator_practice",
+      "reason": "Pratique de tracabilite du reste a charge et du role incitatif.",
+      "source_refs": ["OPERATOR_PRACTICE_FACTURE_CEE"],
+      "if_applicable": "Si la prime est deduite de la facture ou exigee par la chaine CEE.",
+      "ai_instruction": "Verifier la coherence avec cadre contribution et annexe 6."
+    },
+    {
+      "field": "subcontractor.identity",
+      "label": "Sous-traitant intervenant",
+      "status": "recommended",
+      "evidence_level": "operator_practice",
+      "reason": "Reduit les incoherences de controle lorsque l'entreprise executante est differente.",
+      "source_refs": ["OPERATOR_PRACTICE_FACTURE_CEE"],
+      "if_applicable": "Si sous-traitance declaree dans AH, devis, controle ou chantier.",
+      "ai_instruction": "Comparer avec partie C de l'AH et certificat RGE."
+    },
+    {
+      "field": "invoice.page_numbering",
+      "label": "Pagination de la facture",
+      "status": "recommended",
+      "evidence_level": "business_practice",
+      "reason": "Facilite le controle des factures multipages.",
+      "source_refs": ["OPERATOR_PRACTICE_FACTURE_CEE"],
+      "if_applicable": "Si facture multipage.",
+      "ai_instruction": "Signaler si facture multipage non paginee."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "operation.deposit_deadline",
+      "label": "Date limite theorique de depot PNCEE",
+      "status": "deducible",
+      "evidence_level": "official_or_fiche",
+      "reason": "Deduite de la date d'achevement lorsque celle-ci est confirmee.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_09_04"],
+      "if_applicable": null,
+      "ai_instruction": "Calculer seulement si works_completion_date est confirmee."
+    },
+    {
+      "field": "operation.technical_family",
+      "label": "Famille technique des mentions a controler",
+      "status": "deducible",
+      "evidence_level": "official_or_fiche",
+      "reason": "Deducible du code fiche et des curated/rules.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Utiliser le code fiche pour charger les champs techniques attendus."
+    }
+  ],
+  "blocking_missing_inputs": [
+    {
+      "field": "invoice.number",
+      "question": "Quel est le numero unique de la facture finale ou facture de solde ?",
+      "severity": "high",
+      "why_blocking": "Sans numero, la preuve de realisation n'est pas correctement identifiable.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE"]
+    },
+    {
+      "field": "invoice.issue_date",
+      "question": "Quelle est la date d'emission de la facture ?",
+      "severity": "high",
+      "why_blocking": "La facture doit etre datee pour etre controlee et rapprochee de l'AH.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE"]
+    },
+    {
+      "field": "invoice.works_completion_date",
+      "question": "Quelle est la date d'achevement des travaux retenue comme preuve de realisation ?",
+      "severity": "high",
+      "why_blocking": "Elle declenche le delai de depot CEE et doit etre coherente avec AH et travaux.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_09_04"]
+    },
+    {
+      "field": "site.address",
+      "question": "Quelle est l'adresse complete du chantier facture ?",
+      "severity": "high",
+      "why_blocking": "Le site facture doit correspondre au site CEE.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "field": "operation.fiche_required_technical_fields",
+      "question": "Quelles mentions techniques exigees par la fiche apparaissent sur la facture ou ses annexes ?",
+      "severity": "high",
+      "why_blocking": "Sans ces valeurs, l'eligibilite technique ne peut pas etre prouvee.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "invoice_number_sequence",
+      "title": "Numero unique et sequence de facture",
+      "severity": "high",
+      "logic": "invoice.number doit etre non vide et identifie comme numero de facture ; la sequence reelle reste a valider par l'entreprise.",
+      "on_failure": "Bloquer la facture finale et demander le numero officiel.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CODE_COMMERCE_L441_9"]
+    },
+    {
+      "id": "invoice_identity_seller",
+      "title": "Vendeur ou prestataire identifiable",
+      "severity": "high",
+      "logic": "company.legal_name, company.siret et company.address doivent etre presents.",
+      "on_failure": "Demander le profil entreprise complet avant generation stricte.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE"]
+    },
+    {
+      "id": "invoice_identity_buyer_site",
+      "title": "Client et chantier identifies",
+      "severity": "high",
+      "logic": "client.name, client.address et site.address doivent etre presents.",
+      "on_failure": "Bloquer si le beneficiaire ou le site CEE ne sont pas identifiables.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "invoice_line_items_detail",
+      "title": "Prestations suffisamment detaillees",
+      "severity": "high",
+      "logic": "invoice.lines doit contenir au moins une ligne avec denomination precise, quantite, unite, prix unitaire et TVA.",
+      "on_failure": "Refuser une facture globale qui ne permet pas de controler la fiche.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "CODE_COMMERCE_L441_9"]
+    },
+    {
+      "id": "invoice_technical_fields",
+      "title": "Mentions techniques de la fiche presentes",
+      "severity": "high",
+      "logic": "Les champs exiges par data/curated/{CODE}.json ou la fiche source doivent etre retrouves dans la facture ou les annexes admises.",
+      "on_failure": "Creer une question bloquante par champ technique manquant.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "invoice_totals",
+      "title": "Totaux coherents",
+      "severity": "medium",
+      "logic": "Somme des lignes HT, TVA par taux et total TTC doivent etre coherents.",
+      "on_failure": "Signaler correction administrative avant signature ou emission definitive.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE"]
+    }
+  ],
+  "chronology_checks": [
+    {
+      "id": "chronology_invoice_after_works_start",
+      "title": "Facture posterieure ou egale au debut travaux",
+      "severity": "high",
+      "logic": "invoice.works_completion_date >= operation.date_debut_travaux si les deux dates sont connues.",
+      "on_failure": "Bloquer pour incoherence chronologique.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "chronology_invoice_after_engagement",
+      "title": "Achevement posterieur a l'engagement",
+      "severity": "high",
+      "logic": "invoice.works_completion_date >= operation.date_engagement si les deux dates sont connues.",
+      "on_failure": "Bloquer si la facture prouve un achevement avant engagement.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"]
+    },
+    {
+      "id": "chronology_ah_after_invoice_completion",
+      "title": "AH signee apres achevement",
+      "severity": "high",
+      "logic": "date_ah_signee >= invoice.works_completion_date.",
+      "on_failure": "Bloquer ou demander une AH signee apres travaux.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "chronology_deposit_within_12_months",
+      "title": "Depot dans le delai de 12 mois apres achevement",
+      "severity": "high",
+      "logic": "date_depot_pncee <= invoice.works_completion_date + 365 jours.",
+      "on_failure": "Marquer forclusion potentielle et ne pas envoyer sans validation responsable.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "chronology_rge_at_engagement",
+      "title": "RGE valide a la date d'engagement",
+      "severity": "high",
+      "logic": "Si RGE requis par la fiche, professional.rge_valid_until >= operation.date_engagement.",
+      "on_failure": "Bloquer ou demander certificat valide a l'engagement.",
+      "source_refs": ["SERVICE_PUBLIC_RGE", "FICHE_CEE_SOURCE"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "consistency_invoice_quote_identity",
+      "title": "Facture coherente avec le devis",
+      "severity": "high",
+      "logic": "Client, site, nature des travaux, references equipement et quantites doivent concorder ou etre justifies par avenant.",
+      "on_failure": "Lister les ecarts et demander justification avant depot.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "consistency_invoice_ah",
+      "title": "Facture coherente avec l'AH",
+      "severity": "high",
+      "logic": "Beneficiaire, adresse, date d'achevement, entreprise et parametres techniques doivent concorder avec parties A, B et C.",
+      "on_failure": "Marquer risque PNCEE high et demander correction documentaire.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "consistency_invoice_cadre_contribution",
+      "title": "Facture coherente avec le cadre contribution",
+      "severity": "medium",
+      "logic": "Operation, beneficiaire, site et prime CEE doivent rester coherents avec le cadre de contribution.",
+      "on_failure": "Signaler risque de preuve RAI incomplete ou confuse.",
+      "source_refs": ["ARRETE_2014_09_04", "OPERATOR_PRACTICE_FACTURE_CEE"]
+    },
+    {
+      "id": "consistency_invoice_technical_annexes",
+      "title": "Annexes techniques coherentes avec facture",
+      "severity": "high",
+      "logic": "Fiche technique fabricant, PV, attestation de mise en service ou rapport doivent confirmer les valeurs manquantes sur facture.",
+      "on_failure": "Demander les annexes ou bloquer les champs techniques manquants.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "invoice_missing_final_invoice",
+      "title": "Facture finale ou preuve de realisation absente",
+      "severity": "high",
+      "trigger_condition": "invoice.number, invoice.issue_date ou invoice.works_completion_date absent.",
+      "affected_documents": ["facture", "dossier_predepot"],
+      "blocking": true,
+      "correction_action": "Fournir la facture finale, facture de solde ou preuve de realisation admissible.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "invoice_too_global",
+      "title": "Facture trop globale pour qualifier l'operation CEE",
+      "severity": "high",
+      "trigger_condition": "invoice.lines ne detaille pas les lots, equipements, surfaces, puissances ou prestations eligibles.",
+      "affected_documents": ["facture", "fiche_cee"],
+      "blocking": true,
+      "correction_action": "Obtenir une facture detaillee ou des annexes admises permettant d'identifier les travaux.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "technical_mentions_missing",
+      "title": "Mentions techniques de la fiche absentes",
+      "severity": "high",
+      "trigger_condition": "Champs techniques exiges par la fiche absents de la facture et des annexes.",
+      "affected_documents": ["facture", "fiche_cee", "ah"],
+      "blocking": true,
+      "correction_action": "Ajouter les justificatifs fabricant ou corriger la preuve de realisation selon les pratiques comptables.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "completion_after_deposit_deadline",
+      "title": "Depot hors delai apres achevement",
+      "severity": "high",
+      "trigger_condition": "date_depot_pncee > invoice.works_completion_date + 365 jours.",
+      "affected_documents": ["facture", "annexe6", "dossier_pncee"],
+      "blocking": true,
+      "correction_action": "Ne pas deposer sans validation juridique ; delai potentiellement forclos.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "invoice_ah_mismatch",
+      "title": "Incoherence entre facture et attestation sur l'honneur",
+      "severity": "high",
+      "trigger_condition": "Beneficiaire, site, date, entreprise ou parametres techniques differents entre facture et AH.",
+      "affected_documents": ["facture", "ah"],
+      "blocking": true,
+      "correction_action": "Corriger les pieces avant signature ou produire justification documentee.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "rge_missing_if_required",
+      "title": "Professionnel non justifie RGE si la fiche l'exige",
+      "severity": "high",
+      "trigger_condition": "requires_rge == true and no valid rge certificate at engagement date.",
+      "affected_documents": ["facture", "certificat_rge", "ah"],
+      "blocking": true,
+      "correction_action": "Fournir certificat RGE valide a l'engagement ou verifier sous-traitant qualifie.",
+      "source_refs": ["SERVICE_PUBLIC_RGE", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "invoice_prime_traceability_missing",
+      "title": "Prime CEE ou demandeur difficile a tracer",
+      "severity": "medium",
+      "trigger_condition": "Prime CEE, cadre contribution ou demandeur absent des pieces de rapprochement.",
+      "affected_documents": ["facture", "cadre_contribution", "annexe6"],
+      "blocking": false,
+      "correction_action": "Verifier que le cadre contribution et l'annexe 6 tracent correctement le montant.",
+      "source_refs": ["ARRETE_2014_09_04", "OPERATOR_PRACTICE_FACTURE_CEE"]
+    },
+    {
+      "id": "subcontractor_not_declared",
+      "title": "Sous-traitant non declare ou incoherent",
+      "severity": "medium",
+      "trigger_condition": "Sous-traitant present sur chantier ou AH mais absent de facture/dossier.",
+      "affected_documents": ["facture", "ah", "certificat_rge"],
+      "blocking": false,
+      "correction_action": "Documenter le sous-traitant avec SIRET, role et qualification si applicable.",
+      "source_refs": ["OPERATOR_PRACTICE_FACTURE_CEE"]
+    },
+    {
+      "id": "credit_note_or_correction_untracked",
+      "title": "Avoir ou correction de facture non trace",
+      "severity": "medium",
+      "trigger_condition": "Facture corrigee sans avoir/reference claire ou nouvelle facture non reliee.",
+      "affected_documents": ["facture", "avoir"],
+      "blocking": false,
+      "correction_action": "Relier l'avoir et la facture corrigee au dossier et recontroler la chronologie.",
+      "source_refs": ["SERVICE_PUBLIC_FACTURE", "OPERATOR_PRACTICE_FACTURE_CEE"]
+    }
+  ],
+  "output_contract": {
+    "draft_mode": {
+      "can_generate_with_missing_values": true,
+      "missing_value_placeholder": "[A COMPLETER]",
+      "assumption_marker": "[HYPOTHESE A VALIDER]",
+      "draft_notice": "Facture brouillon generee automatiquement, a valider par l'entreprise avant emission comptable."
+    },
+    "strict_mode": {
+      "block_if_missing": [
+        "invoice.number",
+        "invoice.issue_date",
+        "invoice.works_completion_date",
+        "client.name",
+        "site.address",
+        "invoice.lines",
+        "operation.fiche_required_technical_fields"
+      ],
+      "block_if_chronology_high_risk": true
+    },
+    "recommended_markdown_sections": [
+      "Identification facture",
+      "Vendeur ou installateur",
+      "Client et site des travaux",
+      "Reference devis et dossier CEE",
+      "Detail des prestations",
+      "Mentions techniques CEE",
+      "Totaux HT TVA TTC",
+      "Conditions de paiement",
+      "Pieces et annexes associees"
+    ]
+  },
+  "source_references": [
+    {
+      "id": "SERVICE_PUBLIC_FACTURE",
+      "title": "Service Public Entreprendre - Mentions obligatoires sur une facture",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://entreprendre.service-public.gouv.fr/vosdroits/F31808"
+      ],
+      "notes": "Source officielle d'information administrative sur les factures."
+    },
+    {
+      "id": "CODE_COMMERCE_L441_9",
+      "title": "Code de commerce - Article L441-9",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038414397"
+      ],
+      "notes": "Base legale des mentions de facture commerciales."
+    },
+    {
+      "id": "CGI_242_NONIES_A",
+      "title": "Code general des impots - Annexe II, article 242 nonies A",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046863996"
+      ],
+      "notes": "Mentions de factures en matiere de TVA."
+    },
+    {
+      "id": "SERVICE_PUBLIC_FACTURATION_ELECTRONIQUE",
+      "title": "Service Public Entreprendre - Facturation electronique",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://entreprendre.service-public.gouv.fr/actualites/A15683"
+      ],
+      "notes": "Calendrier de generalisation de la facturation electronique et nouvelles mentions."
+    },
+    {
+      "id": "ARRETE_2014_09_04",
+      "title": "Arrete du 4 septembre 2014 modifie - dossier de demande CEE et pieces a archiver",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029460644"
+      ],
+      "notes": "Texte pivot pour preuve de realisation, AH et pieces du dossier CEE."
+    },
+    {
+      "id": "FAQ_CEE_MTE",
+      "title": "Questions-reponses officielles sur le dispositif CEE",
+      "type": "ministry_guidance",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/questions-reponses-dispositif-cee"
+      ],
+      "notes": "Guidance ministerielle sur achevement, depot, RAI et cas particuliers."
+    },
+    {
+      "id": "SERVICE_PUBLIC_RGE",
+      "title": "Service Public Entreprendre - Obtenir le label RGE",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://entreprendre.service-public.gouv.fr/vosdroits/F32251"
+      ],
+      "notes": "Information officielle sur le label RGE."
+    },
+    {
+      "id": "FICHE_CEE_SOURCE",
+      "title": "Fiche CEE officielle applicable",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-standardisees-deconomies-denergie"
+      ],
+      "notes": "Toujours charger la fiche et sa partie A selon le code de l'operation."
+    },
+    {
+      "id": "OPERATOR_PRACTICE_FACTURE_CEE",
+      "title": "Pratiques d'operateurs CEE sur les factures et controles documentaires",
+      "type": "operator_practice",
+      "reliability": "medium",
+      "urls": [
+        "https://www.pensermieux.com/mentions-factures-cee/",
+        "https://www.optima-energie.fr/blog/cee/dossier-cee-les-erreurs-a-ne-pas-commettre/",
+        "https://www.hellio.com/actualites/reglementation/operation-standardisee-cee"
+      ],
+      "notes": "A utiliser comme pratique documentaire et non comme source normative unique."
+    }
+  ],
+  "implementation_notes": [
+    "Cette competence complete devis_cee pour couvrir le couple engagement / preuve de realisation.",
+    "Le generateur de facture doit accepter un mode draft, mais une facture comptable definitive doit toujours etre validee par l'entreprise.",
+    "Les champs techniques sont indexes par fiche et doivent etre tires des curated/rules/fiches, pas de cette competence generique.",
+    "Les nouvelles mentions de facturation electronique 2026-2027 sont referencees mais doivent etre activees selon le statut de l'entreprise et la date d'emission."
+  ]
+}

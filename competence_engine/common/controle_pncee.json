@@ -1,0 +1,804 @@
+{
+  "id": "controle_pncee",
+  "title": "Controle PNCEE et matrice de risques CEE",
+  "category": "common_control",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Donner a un agent IA une matrice de controle pre-depot pour detecter les risques de rejet, demande de complement, controle PNCEE/COFRAC et sanction, en separant les obligations officielles des pratiques de controle.",
+  "scope": {
+    "control_layer": "pre_depot_and_post_delivery_risk_matrix",
+    "cee_period": "P6 2026-2030",
+    "applies_to_all_standardized_operations": true,
+    "applies_to_specific_operations": true,
+    "official_control_types": [
+      "instruction administrative",
+      "demande de complement",
+      "controle par contact",
+      "controle sur site",
+      "controle avant depot par le demandeur lorsque requis",
+      "controle apres delivrance"
+    ],
+    "limits": [
+      "Les taux de controle par fiche et les listes de fiches controlees doivent etre maintenus par veille officielle.",
+      "Les retours terrain et rapports sectoriels peuvent orienter les risques, mais ne remplacent pas l'arrete controle applicable.",
+      "La matrice signale un risque ; la decision finale de depot ou non depot reste humaine.",
+      "L'archivage est encode a 9 ans selon R.222-4, pas 6 ans."
+    ],
+    "archive_rule": {
+      "duration_years": 9,
+      "starting_point": "delivrance du certificat d'economies d'energie",
+      "source_ref": "CODE_ENERGIE_R222_4"
+    }
+  },
+  "applies_to": ["*"],
+  "source_policy": {
+    "official_source_required_for": [
+      "sanctions",
+      "delais de depot",
+      "duree d'archivage",
+      "controles obligatoires",
+      "conditions de role actif et incitatif",
+      "criteres techniques de fiche",
+      "regles de non-cumul",
+      "composition du dossier"
+    ],
+    "operator_practice_allowed_for": [
+      "motifs frequents de rejet observes",
+      "niveau de severite metier",
+      "tolerances internes de controle",
+      "photos et pieces recommandees",
+      "score de fraude ou signaux faibles"
+    ],
+    "no_hallucination_rules": [
+      "Ne jamais inventer qu'une fiche est soumise a controle 100 % sans source officielle maintenue.",
+      "Ne jamais transformer une pratique de mandataire en rejet automatique PNCEE.",
+      "Ne jamais utiliser 6 ans comme duree d'archivage actuelle sans signaler la divergence avec R.222-4.",
+      "Ne jamais ignorer la tolerance PP/copro : le RAI peut intervenir au plus tard 14 jours apres engagement et toujours avant travaux lorsque cette regle est applicable.",
+      "Ne jamais conclure a une fraude ; signaler potentiel_fraud_review_required et escalader a validation humaine."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "beneficiary.type",
+      "label": "Type de beneficiaire",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Conditionne la chronologie RAI, les pieces et les justificatifs.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"],
+      "if_applicable": null,
+      "ai_instruction": "Distinguer personne_physique, copropriete, personne_morale, collectivite."
+    },
+    {
+      "field": "operation.cee_code",
+      "label": "Code fiche ou operation specifique",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Charge les seuils, pieces, non-cumuls et controles specifiques.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas evaluer la technique sans fiche chargee."
+    },
+    {
+      "field": "dates.date_cadre_contribution",
+      "label": "Date du cadre contribution ou RAI",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Point central de la chronologie d'incitativite.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"],
+      "if_applicable": null,
+      "ai_instruction": "Si absente, creer blocking_point RAI manquant."
+    },
+    {
+      "field": "dates.date_engagement",
+      "label": "Date d'engagement",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Permet de verifier fiche applicable, RGE, RAI, travaux et delais.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"],
+      "if_applicable": null,
+      "ai_instruction": "Conserver engagement_source : devis, bon_commande, ordre_service, contrat ou acte_engagement."
+    },
+    {
+      "field": "dates.date_debut_travaux",
+      "label": "Date de debut travaux",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Permet de controler que les travaux n'ont pas commence avant engagement ou RAI applicable.",
+      "source_refs": ["ARRETE_2014_09_04"],
+      "if_applicable": null,
+      "ai_instruction": "Si inconnue, warning ou blocage selon fiche sensible."
+    },
+    {
+      "field": "dates.date_facture",
+      "label": "Date de facture ou achevement",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Declenche le delai de depot et la coherence avec AH.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas supposer depuis date emission brouillon."
+    },
+    {
+      "field": "dates.date_depot_pncee",
+      "label": "Date de depot PNCEE/EMMY",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Controle du delai de depot apres achevement.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_12_29"],
+      "if_applicable": "Si depot prepare ou effectue.",
+      "ai_instruction": "Si depot futur, calculer date limite et afficher warning."
+    },
+    {
+      "field": "professional.rge_certificate",
+      "label": "Certificat RGE ou qualification",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Bloquant lorsque la fiche ou le dispositif exige un professionnel qualifie.",
+      "source_refs": ["FICHE_CEE_SOURCE", "FAQ_CEE_MTE"],
+      "if_applicable": "Si RGE/qualification exigee par fiche.",
+      "ai_instruction": "Verifier validite a date d'engagement."
+    },
+    {
+      "field": "documents.required_documents",
+      "label": "Pieces obligatoires et statut",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Base de la completude documentaire.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Chaque piece doit etre present|missing|not_applicable|needs_review."
+    },
+    {
+      "field": "technical.fiche_criteria",
+      "label": "Criteres techniques de fiche",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Les seuils techniques determinent l'eligibilite.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Charger curated/rules ou texte fiche avant evaluation."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "controls.pre_deposit_controls",
+      "label": "Rapports de controle avant depot",
+      "status": "recommended",
+      "evidence_level": "official",
+      "reason": "Certaines fiches ou lots exigent des controles satisfaisants avant depot.",
+      "source_refs": ["ARRETE_CONTROLES_2021"],
+      "if_applicable": "Si fiche, lot ou dispositif soumis a controle avant depot.",
+      "ai_instruction": "Si la liste de fiches controlees n'est pas maintenue, marquer needs_review."
+    },
+    {
+      "field": "documents.photos",
+      "label": "Photos et preuves terrain",
+      "status": "recommended",
+      "evidence_level": "operator_practice",
+      "reason": "Utile pour limiter les demandes de complement et controles terrain.",
+      "source_refs": ["MTE_BILAN_CONTROLES_2022", "OPERATOR_PRACTICE_CONTROLS"],
+      "if_applicable": "Si fiche a risque ou controle terrain probable.",
+      "ai_instruction": "Taguer les photos par critere prouve."
+    },
+    {
+      "field": "duplicate_check.operation_key",
+      "label": "Cle anti-doublon",
+      "status": "recommended",
+      "evidence_level": "business_practice",
+      "reason": "Evite double valorisation interne ou conflit de dossier.",
+      "source_refs": ["MTE_BILAN_CONTROLES_2022"],
+      "if_applicable": null,
+      "ai_instruction": "Construire une cle beneficiaire/site/code/date."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "risk_matrix.applicable_risks",
+      "label": "Risques applicables",
+      "status": "deducible",
+      "evidence_level": "business_practice",
+      "reason": "Deducible du type de fiche, beneficiaire, pieces et dates.",
+      "source_refs": ["FICHE_CEE_SOURCE", "ARRETE_2014_09_04"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas executer les risques non applicables."
+    },
+    {
+      "field": "controls.required_pre_deposit_control",
+      "label": "Controle avant depot requis",
+      "status": "deducible",
+      "evidence_level": "official",
+      "reason": "Deducible depuis l'arrete controle et la liste maintenue des fiches/taux.",
+      "source_refs": ["ARRETE_CONTROLES_2021"],
+      "if_applicable": "Si la fiche est dans une liste officielle maintenue.",
+      "ai_instruction": "Si la liste n'est pas a jour, retourner needs_review."
+    }
+  ],
+  "method_steps": [
+    {
+      "id": "load_sources",
+      "title": "Charger les sources de verite",
+      "instruction": "Charger fiche, rules/curated, pieces annexe 5, arrete controles et competences devis/facture/AH/DPT.",
+      "output": "control_context",
+      "source_refs": ["FICHE_CEE_SOURCE", "ARRETE_2014_09_04", "ARRETE_CONTROLES_2021"]
+    },
+    {
+      "id": "normalize_case",
+      "title": "Normaliser le dossier",
+      "instruction": "Transformer dates, pieces, beneficiaire, site, professionnel, technique et calcul en schema commun.",
+      "output": "normalized_operation",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "run_chronology",
+      "title": "Verifier la chronologie",
+      "instruction": "Appliquer RAI, engagement, debut travaux, facture, AH, depot et RGE a l'engagement.",
+      "output": "chronology_result",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"]
+    },
+    {
+      "id": "run_document_completeness",
+      "title": "Verifier les pieces",
+      "instruction": "Verifier devis, facture, AH, RGE, cadre contribution, annexe 6, pieces fiche, precarite et coup de pouce.",
+      "output": "document_result",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "run_technical_compliance",
+      "title": "Verifier la technique",
+      "instruction": "Comparer les valeurs prouvees aux seuils fiche et signaler toute valeur manquante, incoherente ou inferieure au seuil.",
+      "output": "technical_result",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "run_pre_deposit_control_check",
+      "title": "Verifier les controles avant depot",
+      "instruction": "Si la fiche ou le lot exige un controle, verifier existence, statut satisfaisant et organisme applicable.",
+      "output": "pre_deposit_control_result",
+      "source_refs": ["ARRETE_CONTROLES_2021"]
+    },
+    {
+      "id": "classify_risks",
+      "title": "Classer les risques",
+      "instruction": "Classer chaque anomalie en high, medium ou low, avec blocking true seulement si la source ou la pratique metier le justifie.",
+      "output": "risk_matrix_result",
+      "source_refs": ["CODE_ENERGIE_L222_2", "MTE_BILAN_CONTROLES_2022"]
+    }
+  ],
+  "blocking_missing_inputs": [
+    {
+      "field": "operation.cee_code",
+      "question": "Quel code fiche ou operation specifique doit etre controle ?",
+      "severity": "high",
+      "why_blocking": "Impossible de charger les risques techniques et pieces sans code.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "field": "dates.date_engagement",
+      "question": "Quelle est la date d'engagement et sa piece source ?",
+      "severity": "high",
+      "why_blocking": "La date d'engagement conditionne RGE, fiche applicable et chronologie.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"]
+    },
+    {
+      "field": "dates.date_facture",
+      "question": "Quelle est la date d'achevement/facture retenue ?",
+      "severity": "high",
+      "why_blocking": "Elle conditionne le delai de depot.",
+      "source_refs": ["FAQ_CEE_MTE"]
+    },
+    {
+      "field": "documents.required_documents",
+      "question": "Quelles pieces obligatoires sont presentes, manquantes ou non applicables ?",
+      "severity": "high",
+      "why_blocking": "La matrice ne peut pas conclure pret_predepot sans statut des pieces.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "field": "technical.fiche_criteria",
+      "question": "Quelles valeurs techniques prouvent le respect de la fiche ?",
+      "severity": "high",
+      "why_blocking": "Une valeur technique absente ou non sourcee peut rendre le dossier non eligible.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "rai_tolerance_pp_copro",
+      "title": "RAI avec tolerance PP/copro preservee",
+      "severity": "high",
+      "logic": "Si beneficiaire in personne_physique|copropriete, date_cadre_contribution <= date_engagement + 14 jours et date_cadre_contribution < date_debut_travaux.",
+      "on_failure": "Blocking high : RAI non conforme au cas PP/copro.",
+      "source_refs": ["FAQ_CEE_MTE", "MTE_SPECIFIC_OPERATIONS"]
+    },
+    {
+      "id": "rai_no_tolerance_pm",
+      "title": "RAI personne morale au plus tard a l'engagement",
+      "severity": "high",
+      "logic": "Si beneficiaire personne_morale|collectivite, date_cadre_contribution <= date_engagement.",
+      "on_failure": "Blocking high : incitativite non securisee.",
+      "source_refs": ["FAQ_CEE_MTE"]
+    },
+    {
+      "id": "works_after_engagement",
+      "title": "Travaux apres engagement",
+      "severity": "high",
+      "logic": "date_debut_travaux > date_engagement.",
+      "on_failure": "Blocking high : travaux engages trop tot.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "deposit_deadline",
+      "title": "Depot dans le delai applicable",
+      "severity": "high",
+      "logic": "date_depot_pncee <= date_facture + 365 jours si date_depot connue.",
+      "on_failure": "Blocking high : delai depot depasse.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_12_29"]
+    },
+    {
+      "id": "rge_valid_at_engagement",
+      "title": "RGE valide a l'engagement si requis",
+      "severity": "high",
+      "logic": "Si fiche.requires_rge, rge_valid_from <= date_engagement <= rge_valid_to.",
+      "on_failure": "Blocking high : qualification non valide a l'engagement.",
+      "source_refs": ["FICHE_CEE_SOURCE", "FAQ_CEE_MTE"]
+    },
+    {
+      "id": "ah_after_completion",
+      "title": "AH signee apres travaux",
+      "severity": "high",
+      "logic": "date_ah_signee >= date_facture ou date_achevement.",
+      "on_failure": "Blocking high ou correction AH a evaluer selon cas.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "required_documents_status",
+      "title": "Toutes pieces obligatoires statutées",
+      "severity": "high",
+      "logic": "Chaque piece requise doit etre present|missing|not_applicable|needs_review.",
+      "on_failure": "Ne pas marquer pret_predepot.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "archive_duration_current_law",
+      "title": "Archivage actuel a 9 ans",
+      "severity": "medium",
+      "logic": "Toute sortie doit indiquer 9 ans selon R.222-4 si elle mentionne l'archivage.",
+      "on_failure": "Corriger la sortie et signaler divergence avec sources anciennes.",
+      "source_refs": ["CODE_ENERGIE_R222_4"]
+    }
+  ],
+  "chronology_checks": [
+    {
+      "id": "chrono_rai",
+      "title": "Role actif et incitatif",
+      "severity": "high",
+      "logic": "Appliquer tolerance PP/copro ou absence de tolerance PM selon type beneficiaire.",
+      "on_failure": "Risque de rejet/incitativite non prouvee.",
+      "source_refs": ["FAQ_CEE_MTE", "MTE_SPECIFIC_OPERATIONS"]
+    },
+    {
+      "id": "chrono_engagement_works_completion_deposit",
+      "title": "Engagement, travaux, achevement, depot",
+      "severity": "high",
+      "logic": "date_engagement < date_debut_travaux <= date_facture <= date_depot_pncee + delai applicable.",
+      "on_failure": "Bloquer ou demander revue responsable selon champ.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "identity_consistency",
+      "title": "Identite coherente",
+      "severity": "high",
+      "logic": "Beneficiaire, site, SIREN/SIRET et representants coherents entre RAI, devis, facture, AH et annexe 6.",
+      "on_failure": "Risque high si divergence non justifiee.",
+      "source_refs": ["ARRETE_2014_09_04", "MTE_MODALITES_DEPOT"]
+    },
+    {
+      "id": "technical_thresholds",
+      "title": "Seuils techniques respectes",
+      "severity": "high",
+      "logic": "Chaque valeur technique prouvee doit respecter le seuil fiche applicable.",
+      "on_failure": "Bloquer eligibility ou demander preuve/correction.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "non_cumulation",
+      "title": "Non-cumul et doublons",
+      "severity": "high",
+      "logic": "Operation_key absent des doublons internes et non-cumul fiche respecte.",
+      "on_failure": "Bloquer ou escalader a revue humaine.",
+      "source_refs": ["ARRETE_2014_09_04", "MTE_BILAN_CONTROLES_2022"]
+    },
+    {
+      "id": "pre_deposit_control_satisfactory",
+      "title": "Controle avant depot satisfaisant si requis",
+      "severity": "high",
+      "logic": "Si required_pre_deposit_control == true, control_report.status == satisfactory.",
+      "on_failure": "Ne pas marquer pret_predepot.",
+      "source_refs": ["ARRETE_CONTROLES_2021"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "R1_RAI_INVALID_FOR_BENEFICIARY_TYPE",
+      "title": "Role actif et incitatif non conforme au type de beneficiaire",
+      "severity": "high",
+      "trigger_condition": "beneficiary.type in ['personne_physique','copropriete'] ? (rai_date == null || rai_date > engagement_date + 14 days || rai_date >= works_start_date) : (rai_date == null || rai_date > engagement_date)",
+      "affected_documents": ["cadre_contribution", "devis", "operation"],
+      "blocking": true,
+      "correction_action": "Ne pas deposer tant que la chronologie RAI n'est pas prouvee conforme ; si la chronologie est cassee, escalader a revue responsable.",
+      "source_refs": ["FAQ_CEE_MTE", "MTE_SPECIFIC_OPERATIONS", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "R2_DEVIS_NON_SIGNE_OU_NON_DATE",
+      "title": "Devis ou acte d'engagement non signe/date",
+      "severity": "high",
+      "trigger_condition": "engagement_source == 'devis' && (quote_signed != true || quote_date == null)",
+      "affected_documents": ["devis"],
+      "blocking": true,
+      "correction_action": "Obtenir l'acte d'engagement signe/date ou identifier une source d'engagement recevable.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "R3_TRAVAUX_AVANT_ENGAGEMENT",
+      "title": "Travaux commences avant engagement",
+      "severity": "high",
+      "trigger_condition": "works_start_date != null && engagement_date != null && works_start_date <= engagement_date",
+      "affected_documents": ["devis", "facture", "planning"],
+      "blocking": true,
+      "correction_action": "Bloquer le depot et demander revue responsable ; non-conformite difficilement regularisable.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"]
+    },
+    {
+      "id": "R4_DEPOT_HORS_DELAI",
+      "title": "Depot PNCEE hors delai apres achevement",
+      "severity": "high",
+      "trigger_condition": "deposit_date != null && invoice_date != null && deposit_date > invoice_date + 365 days",
+      "affected_documents": ["facture", "annexe6", "dossier_pncee"],
+      "blocking": true,
+      "correction_action": "Ne pas deposer sans validation juridique ; risque de forclusion.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_12_29"]
+    },
+    {
+      "id": "R5_RGE_EXPIRE_OU_NON_PROUVE",
+      "title": "RGE ou qualification non valide a l'engagement",
+      "severity": "high",
+      "trigger_condition": "rge_required == true && (rge_valid_from == null || rge_valid_to == null || engagement_date < rge_valid_from || engagement_date > rge_valid_to)",
+      "affected_documents": ["certificat_rge", "devis", "ah"],
+      "blocking": true,
+      "correction_action": "Fournir certificat valide a l'engagement ou revoir l'eligibilite de l'operation.",
+      "source_refs": ["FICHE_CEE_SOURCE", "FAQ_CEE_MTE"]
+    },
+    {
+      "id": "R6_SIREN_SIRET_INVALIDE",
+      "title": "SIREN/SIRET invalide ou incoherent",
+      "severity": "high",
+      "trigger_condition": "siren_or_siret_present == false || siren_or_siret_valid == false",
+      "affected_documents": ["kbis", "sirene", "annexe6", "ah"],
+      "blocking": true,
+      "correction_action": "Verifier l'identifiant officiel et corriger les pieces avant depot.",
+      "source_refs": ["MTE_MODALITES_DEPOT", "MTE_BILAN_CONTROLES_2022"]
+    },
+    {
+      "id": "R7_INCOHERENCE_IDENTITE_ADRESSE",
+      "title": "Incoherence beneficiaire ou adresse entre pieces",
+      "severity": "high",
+      "trigger_condition": "beneficiary_or_site_mismatch_between_documents == true",
+      "affected_documents": ["cadre_contribution", "devis", "facture", "ah", "annexe6"],
+      "blocking": true,
+      "correction_action": "Aligner les pieces ou documenter le lien juridique beneficiaire/payeur/representant.",
+      "source_refs": ["ARRETE_2014_09_04", "MTE_MODALITES_DEPOT"]
+    },
+    {
+      "id": "R8_MANDAT_ABSENT_SI_REQUIS",
+      "title": "Mandat ou delegation absent si requis",
+      "severity": "high",
+      "trigger_condition": "mandate_required == true && mandate_present != true",
+      "affected_documents": ["mandat", "dossier_demande"],
+      "blocking": true,
+      "correction_action": "Fournir mandat signe, perimetre et date avant tout depot.",
+      "source_refs": ["ARRETE_2014_09_04", "MTE_MODALITES_DEPOT"]
+    },
+    {
+      "id": "R9_FACTURE_NON_CONFORME",
+      "title": "Facture non conforme ou insuffisante pour la fiche",
+      "severity": "high",
+      "trigger_condition": "invoice_missing_required_fields == true || invoice_missing_fiche_technical_fields == true",
+      "affected_documents": ["facture"],
+      "blocking": true,
+      "correction_action": "Demander facture conforme, avoir/nouvelle facture ou annexes admises selon le cas.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "R10_AH_NON_CONFORME",
+      "title": "Attestation sur l'honneur absente ou non conforme",
+      "severity": "high",
+      "trigger_condition": "ah_required == true && (ah_present != true || ah_missing_required_fields == true || ah_signatures_missing == true)",
+      "affected_documents": ["ah"],
+      "blocking": true,
+      "correction_action": "Generer ou corriger l'AH selon le modele applicable, puis faire signer apres travaux.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "R11_PIECE_OBLIGATOIRE_ABSENTE",
+      "title": "Piece obligatoire absente",
+      "severity": "high",
+      "trigger_condition": "any required_document.status == 'missing' and required_document.obligatoire == true",
+      "affected_documents": ["dossier_predepot", "pieces"],
+      "blocking": true,
+      "correction_action": "Demander la piece manquante ou marquer non applicable avec justification sourcee.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "R12_NON_CUMUL_INCOHERENT",
+      "title": "Non-cumul ou double valorisation non securise",
+      "severity": "high",
+      "trigger_condition": "non_cumulation_required == true && (non_cumulation_attested != true || duplicate_detected == true)",
+      "affected_documents": ["ah", "dossier_interne", "annexe6"],
+      "blocking": true,
+      "correction_action": "Bloquer et verifier doublons internes/externes, fiches incompatibles et declaration AH.",
+      "source_refs": ["ARRETE_2014_09_04", "MTE_BILAN_CONTROLES_2022"]
+    },
+    {
+      "id": "R13_EQUIPEMENT_NON_CONFORME",
+      "title": "Equipement non conforme a la fiche",
+      "severity": "high",
+      "trigger_condition": "equipment_type_or_model_not_matching_fiche == true",
+      "affected_documents": ["devis", "facture", "fiche_technique", "ah"],
+      "blocking": true,
+      "correction_action": "Ne pas deposer ; demander preuve fabricant ou revoir fiche/eligibilite.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "R14_SEUIL_TECHNIQUE_NON_ATTEINT",
+      "title": "Seuil technique non atteint",
+      "severity": "high",
+      "trigger_condition": "technical_value < fiche_threshold for any blocking criterion",
+      "affected_documents": ["fiche_technique", "ah", "calcul"],
+      "blocking": true,
+      "correction_action": "Bloquer ; remplacer l'equipement ou changer de fiche seulement si legalement justifie.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "R15_METRE_INCOHERENT_OU_SURESTIME",
+      "title": "Metre, surface ou longueur incoherent",
+      "severity": "high",
+      "trigger_condition": "declared_metering_inconsistent_with_sources == true",
+      "affected_documents": ["devis", "facture", "ah", "photos", "plans"],
+      "blocking": true,
+      "correction_action": "Demander plans, releves, photos et validation humaine ; ne jamais conclure fraude automatiquement.",
+      "source_refs": ["MTE_BILAN_CONTROLES_2022", "COUR_DES_COMPTES_2024"]
+    },
+    {
+      "id": "R16_PRE_CONTROL_MANQUANT_SI_REQUIS",
+      "title": "Controle avant depot manquant ou non satisfaisant si requis",
+      "severity": "high",
+      "trigger_condition": "required_pre_deposit_control == true && (control_report_present != true || control_status != 'satisfactory')",
+      "affected_documents": ["rapport_controle", "dossier_predepot"],
+      "blocking": true,
+      "correction_action": "Obtenir controle satisfaisant ou corriger les non-conformites avant depot.",
+      "source_refs": ["ARRETE_CONTROLES_2021"]
+    },
+    {
+      "id": "R17_PHOTOS_PREUVES_INSUFFISANTES",
+      "title": "Photos ou preuves terrain insuffisantes",
+      "severity": "medium",
+      "trigger_condition": "photos_required_or_expected == true && photo_evidence_sufficient != true",
+      "affected_documents": ["photos", "rapport_controle", "dpt"],
+      "blocking": false,
+      "correction_action": "Completer les preuves disponibles avant depot ou justifier l'absence.",
+      "source_refs": ["ARRETE_CONTROLES_2021", "OPERATOR_PRACTICE_CONTROLS"]
+    },
+    {
+      "id": "R18_PRECARITE_JUSTIFICATIFS_INCOMPLETS",
+      "title": "Justificatifs precarite incomplets ou incoherents",
+      "severity": "high",
+      "trigger_condition": "precarite_enabled == true && precarite_documents_valid != true",
+      "affected_documents": ["avis_imposition", "ah", "precarite"],
+      "blocking": true,
+      "correction_action": "Demander justificatifs de revenus/composition foyer ou retirer la bonification precarite.",
+      "source_refs": ["ARRETE_2014_09_04", "ARRETE_2014_12_29"]
+    },
+    {
+      "id": "R19_COUP_DE_POUCE_CONDITIONS_NON_PROUVEES",
+      "title": "Conditions Coup de pouce non prouvees",
+      "severity": "high",
+      "trigger_condition": "coup_de_pouce_enabled == true && coup_de_pouce_conditions_valid != true",
+      "affected_documents": ["cadre_contribution", "ah", "pieces_coup_de_pouce"],
+      "blocking": true,
+      "correction_action": "Verifier charte, dates, pieces et conditions avant de demander la bonification.",
+      "source_refs": ["ARRETE_2014_12_29", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "R20_ANNEXE6_INCOHERENTE",
+      "title": "Tableau annexe 6 incoherent",
+      "severity": "high",
+      "trigger_condition": "annexe6_fields_mismatch_dossier == true",
+      "affected_documents": ["annexe6", "dpt", "dossier_emmy"],
+      "blocking": true,
+      "correction_action": "Corriger tableau recapitulatif avant depot.",
+      "source_refs": ["MTE_MODALITES_DEPOT", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "R21_ARCHIVAGE_OBSOLETE_6_ANS",
+      "title": "Regle d'archivage obsolete indiquee a 6 ans",
+      "severity": "medium",
+      "trigger_condition": "generated_output_mentions_archive_years == 6",
+      "affected_documents": ["dpt", "readme", "controle_interne"],
+      "blocking": false,
+      "correction_action": "Remplacer par 9 ans selon R.222-4 et ajouter note de divergence si source ancienne.",
+      "source_refs": ["CODE_ENERGIE_R222_4"]
+    },
+    {
+      "id": "R22_SIGNAUX_FRAUDE_OU_FAUX_TRAVAUX",
+      "title": "Signaux forts de fraude ou travaux inexistants",
+      "severity": "high",
+      "trigger_condition": "strong_fraud_signals == true",
+      "affected_documents": ["dossier_complet", "controle_site", "beneficiary_contact"],
+      "blocking": true,
+      "correction_action": "Bloquer automatiquement le statut pret_predepot et escalader a revue humaine ; ne pas accuser ni qualifier juridiquement sans instruction.",
+      "source_refs": ["MTE_BILAN_CONTROLES_2022", "COUR_DES_COMPTES_2024", "CODE_ENERGIE_L222_2"]
+    }
+  ],
+  "output_contract": {
+    "draft_mode": {
+      "can_generate_with_missing_values": true,
+      "missing_value_placeholder": "[A COMPLETER]",
+      "assumption_marker": "[HYPOTHESE A VALIDER]",
+      "draft_notice": "Matrice de controle pre-depot generee automatiquement, a valider par le responsable dossier."
+    },
+    "strict_mode": {
+      "block_if_high_risk_blocking": true,
+      "block_if_required_source_missing": true,
+      "block_if_chronology_unchecked": true,
+      "block_if_fiche_control_status_unknown_when_required": true
+    },
+    "status_mapping": {
+      "no_blocking_no_medium": "pret_predepot",
+      "medium_or_missing_review": "a_risque",
+      "missing_required_data": "incomplet_questions",
+      "high_blocking": "blocked"
+    },
+    "risk_result_fields": [
+      "risk_id",
+      "title",
+      "severity",
+      "blocking",
+      "triggered",
+      "evidence",
+      "correction_action",
+      "source_refs"
+    ]
+  },
+  "source_references": [
+    {
+      "id": "ARRETE_2014_09_04",
+      "title": "Arrete du 4 septembre 2014 modifie - dossier de demande CEE et pieces a archiver",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029460644"
+      ],
+      "notes": "Texte pivot pour composition du dossier et pieces."
+    },
+    {
+      "id": "ARRETE_2014_12_29",
+      "title": "Arrete du 29 decembre 2014 modifie - modalites d'application du dispositif CEE",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000030068017"
+      ],
+      "notes": "Modalites generales, delais, bonifications et precarite selon versions applicables."
+    },
+    {
+      "id": "ARRETE_CONTROLES_2021",
+      "title": "Arrete du 28 septembre 2021 relatif aux controles CEE",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044162882"
+      ],
+      "notes": "Cadre officiel des controles CEE et referentiels associes."
+    },
+    {
+      "id": "CODE_ENERGIE_L222_2",
+      "title": "Code de l'energie - Article L222-2",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051830576"
+      ],
+      "notes": "Sanctions administratives CEE, annulation, rejet, suspension et sanctions pecuniaires."
+    },
+    {
+      "id": "CODE_ENERGIE_R222_4",
+      "title": "Code de l'energie - Article R222-4",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041943074"
+      ],
+      "notes": "Archivage des justificatifs pendant neuf ans a compter de la delivrance du CEE."
+    },
+    {
+      "id": "FAQ_CEE_MTE",
+      "title": "Questions-reponses officielles sur le dispositif CEE",
+      "type": "ministry_guidance",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/questions-reponses-dispositif-cee"
+      ],
+      "notes": "Guidance ministerielle sur RAI, beneficiaire, depot et cas particuliers."
+    },
+    {
+      "id": "MTE_SPECIFIC_OPERATIONS",
+      "title": "Ministere - Operations specifiques d'economies d'energie",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-specifiques-deconomies-denergie"
+      ],
+      "notes": "La page rappelle notamment la tolerance RAI PP/copro dans une Q/R operations specifiques."
+    },
+    {
+      "id": "MTE_MODALITES_DEPOT",
+      "title": "Ministere - Modalites detaillees de depot CEE",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/modalites-detaillees-deposer-dossier-demande-certificats-deconomies-denergie"
+      ],
+      "notes": "Composition des demandes, tableaux recapitulatif et erreurs de recevabilite."
+    },
+    {
+      "id": "MTE_BILAN_CONTROLES_2022",
+      "title": "Ministere - Controle du dispositif des CEE, bilan 2022",
+      "type": "official",
+      "reliability": "medium",
+      "urls": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/Contr%C3%B4le%20du%20dispositif%20des%20CEE%20-%20Bilan%202022_VF.pdf"
+      ],
+      "notes": "Retour institutionnel sur controles et non-conformites ; a utiliser pour tendances, pas comme seul fondement d'un blocage."
+    },
+    {
+      "id": "COUR_DES_COMPTES_2024",
+      "title": "Cour des comptes - rapport 2024 sur les certificats d'economies d'energie",
+      "type": "official",
+      "reliability": "medium",
+      "urls": [
+        "https://www.ccomptes.fr/sites/default/files/2024-09/20240917-Certificats-economie-energie_0.pdf"
+      ],
+      "notes": "Analyse publique des risques, fraudes et gouvernance ; utile en controle interne."
+    },
+    {
+      "id": "FICHE_CEE_SOURCE",
+      "title": "Fiche CEE officielle applicable",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-standardisees-deconomies-denergie"
+      ],
+      "notes": "Source des seuils techniques, pieces propres, non-cumul et conditions."
+    },
+    {
+      "id": "OPERATOR_PRACTICE_CONTROLS",
+      "title": "Pratiques operateurs et retours terrain de controle CEE",
+      "type": "operator_practice",
+      "reliability": "medium",
+      "urls": [
+        "https://opera-energie.com/dossier-cee/",
+        "https://www.hellio.com/actualites/reglementation/controle-cee",
+        "https://www.calculcee.fr/article/controles-des-fiches-cee-niveaux-d-obligation-et-modalites-des-controles-a-effectuer/"
+      ],
+      "notes": "A utiliser comme matrice operationnelle, pas comme source normative unique."
+    }
+  ],
+  "implementation_notes": [
+    "Cette competence doit etre appelee par dossier_agent.py ou un futur validate_dpt.py pour produire blocking_points, warnings et risk_flags.",
+    "La logique RAI doit rester coherente avec scripts/validate_operation.py : tolerance PP/copro jusqu'a 14 jours apres engagement et avant travaux.",
+    "Les listes de fiches avec controles obligatoires doivent etre maintenues dans un fichier dedie et non figees ici sans veille.",
+    "Les signaux de fraude doivent bloquer le statut pret_predepot mais rester formules comme signaux a revue humaine, pas accusation."
+  ]
+}

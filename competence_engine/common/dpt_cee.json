@@ -1,0 +1,701 @@
+{
+  "id": "dpt_cee",
+  "title": "DPT CEE - dossier technique et dossier de preuves pre-depot",
+  "category": "common_document",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Normaliser le DPT comme dossier metier pre-depot regroupant synthese technique, preuves, calculs, controles et risques PNCEE, sans faire croire que le terme DPT est une categorie reglementaire officielle.",
+  "scope": {
+    "document": "dpt",
+    "official_definition": {
+      "dpt_defined_by_cee_regulation": false,
+      "official_terms": [
+        "dossier de demande de CEE",
+        "dossier technique pour operations specifiques",
+        "pieces justificatives a archiver",
+        "tableau recapitulatif annexe 6"
+      ],
+      "business_usage": "DPT est utilise ici comme terme metier/CRM pour dossier technique pre-depot et dossier de preuves."
+    },
+    "cee_period": "P6 2026-2030",
+    "applies_to_all_standardized_operations": true,
+    "applies_to_specific_operations": true,
+    "archive_rule": {
+      "duration_years": 9,
+      "starting_point": "delivrance du certificat d'economies d'energie",
+      "source_ref": "CODE_ENERGIE_R222_4",
+      "note": "Certaines pages anciennes mentionnent 6 ans ; le code de l'energie R.222-4 en vigueur indique neuf ans."
+    },
+    "limits": [
+      "Le DPT ne remplace ni les pieces originales ni le depot EMMY.",
+      "Pour une operation standardisee, les pieces justificatives operationnelles sont archivees et ne sont pas toutes transmises au PNCEE au depot initial.",
+      "Pour une operation specifique, le dossier technique officiel doit suivre les exigences applicables et le guide ADEME/DGEC/ATEE pour installations fixes.",
+      "Les commentaires PNCEE et arbitrages juridiques doivent rester a valider humainement."
+    ]
+  },
+  "applies_to": ["*"],
+  "source_policy": {
+    "official_source_required_for": [
+      "composition officielle du dossier de demande",
+      "distinction operations standardisees/specifiques/programmes",
+      "pieces annexe 2, annexe 4, annexe 5 et annexe 6",
+      "dossier technique operation specifique",
+      "delai et duree d'archivage",
+      "controles CEE et obligations avant depot"
+    ],
+    "operator_practice_allowed_for": [
+      "nom DPT",
+      "ordre de presentation du rapport",
+      "matrice interne de risques",
+      "pack PDF pre-depot",
+      "noms internes des onglets ou dossiers"
+    ],
+    "no_hallucination_rules": [
+      "Ne jamais presenter le terme DPT comme un terme officiel CEE.",
+      "Ne jamais remplacer une piece source par un resume DPT.",
+      "Ne jamais inventer une piece justificative comme presente ; utiliser present|missing|not_applicable|needs_review.",
+      "Ne jamais inventer un calcul CEE, un TRB, une duree de vie ou une situation de reference.",
+      "Si le dossier est specifique, charger le guide technique applicable avant de generer une structure definitive.",
+      "Si une source ancienne contredit R.222-4 sur l'archivage, utiliser R.222-4 et signaler la divergence."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "dossier.operation_type",
+      "label": "Type d'operation",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Les pieces et le contenu varient selon operation standardisee, specifique ou programme.",
+      "source_refs": ["MTE_MODALITES_DEPOT"],
+      "if_applicable": null,
+      "ai_instruction": "Demander standardized|specific|programme si absent."
+    },
+    {
+      "field": "operation.cee_code",
+      "label": "Code fiche ou code operation specifique",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Permet de charger les exigences fiche, calculs, pieces et tableaux.",
+      "source_refs": ["MTE_STANDARDIZED_OPERATIONS", "MTE_SPECIFIC_OPERATIONS"],
+      "if_applicable": null,
+      "ai_instruction": "Pour une operation specifique, utiliser le format SPE-YYY(Y)-XX si disponible."
+    },
+    {
+      "field": "beneficiary.identity",
+      "label": "Identite du beneficiaire",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "L'identification du beneficiaire conditionne les pieces et le tableau recapitulatif.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"],
+      "if_applicable": null,
+      "ai_instruction": "Distinguer personne physique, personne morale, copropriete, collectivite."
+    },
+    {
+      "field": "site.address",
+      "label": "Adresse precise du site",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "L'adresse doit localiser l'operation de maniere fiable.",
+      "source_refs": ["MTE_MODALITES_DEPOT"],
+      "if_applicable": null,
+      "ai_instruction": "Signaler les adresses vagues du type 2/10 rue X."
+    },
+    {
+      "field": "cee_applicant.identity",
+      "label": "Demandeur CEE ou acteur deposant",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Seuls les acteurs eligibles peuvent deposer une demande PNCEE/EMMY.",
+      "source_refs": ["MTE_MODALITES_DEPOT", "MTE_DISPOSITIF_CEE"],
+      "if_applicable": null,
+      "ai_instruction": "Si l'installateur n'est pas demandeur eligible, identifier obligataire, delegataire, mandataire ou regroupeur."
+    },
+    {
+      "field": "documents.cadre_contribution",
+      "label": "Preuve du role actif et incitatif",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Piece critique de la chaine dossier et cause majeure de rejet si absente ou tardive.",
+      "source_refs": ["ARRETE_2014_09_04"],
+      "if_applicable": null,
+      "ai_instruction": "Controler date et coherence avec devis/debut travaux."
+    },
+    {
+      "field": "documents.engagement_proof",
+      "label": "Preuve d'engagement",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Devis signe, bon de commande, ordre de service ou acte equivalent determine la chronologie.",
+      "source_refs": ["ARRETE_2014_09_04", "MTE_MODALITES_DEPOT"],
+      "if_applicable": null,
+      "ai_instruction": "Identifier la source de date d'engagement, ne pas la supposer."
+    },
+    {
+      "field": "documents.realisation_proof",
+      "label": "Preuve de realisation",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Facture, PV, DOE, DGD ou piece applicable prouve l'achevement et les travaux.",
+      "source_refs": ["ARRETE_2014_09_04", "MTE_MODALITES_DEPOT"],
+      "if_applicable": null,
+      "ai_instruction": "Pour les personnes morales et marches publics, chercher les pieces complementaires applicables."
+    },
+    {
+      "field": "documents.attestation_honneur",
+      "label": "Attestation sur l'honneur",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Piece normative des operations standardisees et support des engagements beneficiaire/professionnel.",
+      "source_refs": ["ARRETE_2014_09_04"],
+      "if_applicable": "Selon operation et cadre applicable.",
+      "ai_instruction": "Verifier coherence parties A, B, C avec DPT."
+    },
+    {
+      "field": "technical.characteristics",
+      "label": "Caracteristiques techniques prouvees",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Les criteres techniques doivent etre rattaches a la fiche, aux preuves et au calcul.",
+      "source_refs": ["MTE_STANDARDIZED_OPERATIONS", "FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Chaque champ technique doit pointer vers une piece source."
+    },
+    {
+      "field": "calculation.kwh_cumac",
+      "label": "Calcul CEE",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Le DPT doit expliquer la formule, les variables et le volume demande.",
+      "source_refs": ["FICHE_CEE_SOURCE", "MTE_MODALITES_DEPOT"],
+      "if_applicable": null,
+      "ai_instruction": "Utiliser rules/{CODE}.rules.json si disponible, sinon marquer needs_review."
+    },
+    {
+      "field": "documents.annexe6_table",
+      "label": "Tableau recapitulatif annexe 6",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Les tableaux recapitulatif doivent etre transmis via EMMY selon l'annexe 6.",
+      "source_refs": ["MTE_MODALITES_DEPOT", "ARRETE_2014_09_04"],
+      "if_applicable": "Demandes standardisees et specifiques.",
+      "ai_instruction": "Verifier coherence des colonnes avec identite, adresse, dates et montant CEE."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "workflow.events",
+      "label": "Historique dossier",
+      "status": "recommended",
+      "evidence_level": "business_practice",
+      "reason": "Permet de reconstituer les versions, demandes de complements et corrections.",
+      "source_refs": ["OPERATOR_PRACTICE_DPT"],
+      "if_applicable": null,
+      "ai_instruction": "Ajouter evenement, date, auteur, source."
+    },
+    {
+      "field": "documents.photos",
+      "label": "Photos avant/apres ou photos de preuves",
+      "status": "recommended",
+      "evidence_level": "operator_practice",
+      "reason": "Souvent utile en controle terrain ou controle interne selon la fiche.",
+      "source_refs": ["ARRETE_CONTROLES_2021", "OPERATOR_PRACTICE_DPT"],
+      "if_applicable": "Si la fiche, un controle ou l'operateur l'exige.",
+      "ai_instruction": "Taguer date, lieu, piece prouvee et criteres visibles."
+    },
+    {
+      "field": "specific.audit_report",
+      "label": "Audit energetique ou etude",
+      "status": "recommended",
+      "evidence_level": "official",
+      "reason": "Element central pour operations specifiques installations fixes.",
+      "source_refs": ["MTE_SPECIFIC_OPERATIONS", "GUIDE_SPECIFIC_2025"],
+      "if_applicable": "Operation specifique.",
+      "ai_instruction": "En operation standardisee, ne pas exiger sauf fiche ou charte."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "dossier.support_level",
+      "label": "Niveau de support du toolkit",
+      "status": "deducible",
+      "evidence_level": "business_practice",
+      "reason": "Deducible de la presence rules/{CODE}.rules.json et data/curated/{CODE}.json.",
+      "source_refs": ["OPERATOR_PRACTICE_DPT"],
+      "if_applicable": null,
+      "ai_instruction": "supported_full, supported_partial ou supported_generic."
+    },
+    {
+      "field": "dossier.required_evidence",
+      "label": "Pieces attendues",
+      "status": "deducible",
+      "evidence_level": "official_or_fiche",
+      "reason": "Deducible depuis annexe 5, fiche, charte et type de beneficiaire.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Retourner une structure present/missing/not_applicable/needs_review."
+    }
+  ],
+  "method_steps": [
+    {
+      "id": "clarify_operation_type",
+      "title": "Identifier le type d'operation",
+      "instruction": "Qualifier l'operation comme standardisee, specifique ou programme et charger les sources applicables.",
+      "output": "operation_type_with_source",
+      "source_refs": ["MTE_MODALITES_DEPOT"]
+    },
+    {
+      "id": "build_metadata_section",
+      "title": "Construire les metadonnees dossier",
+      "instruction": "Rassembler identifiants, statut, demandeur, mandataire, code fiche, periode, coup de pouce et precarite.",
+      "output": "metadata_section",
+      "source_refs": ["MTE_MODALITES_DEPOT", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "build_beneficiary_site_section",
+      "title": "Documenter beneficiaire et site",
+      "instruction": "Identifier beneficiaire, representant, site, adresse fiable, typologie et pieces d'identification.",
+      "output": "beneficiary_site_section",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "build_cee_frame_section",
+      "title": "Documenter le cadre CEE",
+      "instruction": "Lister fiche, version, dates, support complet/partiel, chartes, precarite, mandats et regles applicables.",
+      "output": "cee_frame_section",
+      "source_refs": ["MTE_STANDARDIZED_OPERATIONS", "MTE_MODALITES_DEPOT"]
+    },
+    {
+      "id": "build_technical_body",
+      "title": "Construire le corps technique",
+      "instruction": "Decrire contexte, travaux, existant, solution installee, caracteristiques et pieces sources.",
+      "output": "technical_body_section",
+      "source_refs": ["FICHE_CEE_SOURCE", "GUIDE_SPECIFIC_2025"]
+    },
+    {
+      "id": "build_calculation_section",
+      "title": "Construire les calculs CEE",
+      "instruction": "Rattacher formule, variables, tables, volume kWh cumac, duree de vie, bonus et incertitudes aux sources.",
+      "output": "calculation_section",
+      "source_refs": ["FICHE_CEE_SOURCE", "GUIDE_SPECIFIC_2025"]
+    },
+    {
+      "id": "build_evidence_map",
+      "title": "Mapper les pieces justificatives",
+      "instruction": "Associer chaque piece aux champs et criteres qu'elle prouve, avec statut et localisation.",
+      "output": "evidence_map",
+      "source_refs": ["ARRETE_2014_09_04", "MTE_MODALITES_DEPOT"]
+    },
+    {
+      "id": "run_internal_controls",
+      "title": "Executer les controles internes",
+      "instruction": "Controle chronologie, identite, site, technique, calcul, pieces, precarite, coup de pouce et annexe 6.",
+      "output": "internal_controls_and_risks",
+      "source_refs": ["ARRETE_CONTROLES_2021", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "prepare_outputs",
+      "title": "Preparer les sorties pre-depot",
+      "instruction": "Generer rapport Markdown/PDF, manifest, questions bloquantes, fichiers d'export et commentaires a valider.",
+      "output": "dpt_outputs",
+      "source_refs": ["MTE_MODALITES_DEPOT", "OPERATOR_PRACTICE_DPT"]
+    }
+  ],
+  "fiche_specific_requirements": [
+    {
+      "code": "*",
+      "requirement": "Pour les operations standardisees, charger les pieces communes annexe 5 et les pieces propres a la fiche.",
+      "status": "explicit_in_fiche",
+      "timing": "Avant depot et archivage pendant la duree reglementaire.",
+      "source_refs": ["ARRETE_2014_09_04", "MTE_STANDARDIZED_OPERATIONS"],
+      "notes": "Le DPT doit indiquer les pieces presentes, manquantes et non applicables."
+    },
+    {
+      "code": "SPE-*",
+      "requirement": "Pour les operations specifiques en installations fixes, structurer le dossier technique selon les exigences officielles et le guide 2025 applicable.",
+      "status": "explicit_in_fiche",
+      "timing": "Constitution avant demande PNCEE ; fiche synthetique possible en amont en cas de doute.",
+      "source_refs": ["MTE_SPECIFIC_OPERATIONS", "GUIDE_SPECIFIC_2025"],
+      "notes": "Inclure situation initiale, reference, apres travaux, gains, duree de vie, CEE et TRB si applicable."
+    }
+  ],
+  "blocking_missing_inputs": [
+    {
+      "field": "dossier.operation_type",
+      "question": "L'operation est-elle standardisee, specifique ou programme ?",
+      "severity": "high",
+      "why_blocking": "Le contenu officiel du dossier change selon le type d'operation.",
+      "source_refs": ["MTE_MODALITES_DEPOT"]
+    },
+    {
+      "field": "operation.cee_code",
+      "question": "Quel est le code fiche CEE ou code operation specifique ?",
+      "severity": "high",
+      "why_blocking": "Impossible de charger les exigences, pieces et calculs sans code.",
+      "source_refs": ["MTE_STANDARDIZED_OPERATIONS", "MTE_SPECIFIC_OPERATIONS"]
+    },
+    {
+      "field": "beneficiary.identity",
+      "question": "Qui est le beneficiaire CEE exact et quel est son statut ?",
+      "severity": "high",
+      "why_blocking": "Les pieces et tableaux dependent du statut beneficiaire.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"]
+    },
+    {
+      "field": "site.address",
+      "question": "Quelle est l'adresse precise du site de l'operation ?",
+      "severity": "high",
+      "why_blocking": "L'adresse doit localiser l'operation et rester coherente entre les pieces.",
+      "source_refs": ["MTE_MODALITES_DEPOT"]
+    },
+    {
+      "field": "documents.engagement_proof",
+      "question": "Quelle piece prouve l'engagement de l'operation ?",
+      "severity": "high",
+      "why_blocking": "La chronologie CEE ne peut pas etre controlee sans preuve d'engagement.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "field": "documents.realisation_proof",
+      "question": "Quelle piece prouve la realisation et l'achevement de l'operation ?",
+      "severity": "high",
+      "why_blocking": "Le dossier ne peut pas etre pret sans preuve de realisation.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "field": "calculation.kwh_cumac",
+      "question": "Quel calcul CEE, formule et variables justifient le volume demande ?",
+      "severity": "high",
+      "why_blocking": "Un DPT pre-depot doit justifier le volume demande.",
+      "source_refs": ["FICHE_CEE_SOURCE", "GUIDE_SPECIFIC_2025"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "dpt_term_not_official",
+      "title": "DPT marque comme usage metier",
+      "severity": "medium",
+      "logic": "Le rapport doit indiquer que DPT est une structure interne et ne remplace pas les termes officiels.",
+      "on_failure": "Ajouter une note de clarification dans l'introduction.",
+      "source_refs": ["MTE_MODALITES_DEPOT"]
+    },
+    {
+      "id": "operation_type_loaded",
+      "title": "Sources chargees selon type d'operation",
+      "severity": "high",
+      "logic": "standardized -> fiche + annexe 5 ; specific -> annexe 4 + guide applicable ; programme -> annexe programme applicable.",
+      "on_failure": "Bloquer et demander le type d'operation.",
+      "source_refs": ["MTE_MODALITES_DEPOT", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "evidence_status_complete",
+      "title": "Chaque piece a un statut",
+      "severity": "high",
+      "logic": "Chaque piece attendue doit etre present|missing|not_applicable|needs_review.",
+      "on_failure": "Completer le mapping des preuves avant pre-depot.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "field_evidence_linked",
+      "title": "Chaque champ critique pointe vers une preuve",
+      "severity": "high",
+      "logic": "Les champs identite, dates, technique, calcul et precarite doivent pointer vers au moins une source.",
+      "on_failure": "Creer une question bloquante ou une piece manquante.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "annexe6_consistency",
+      "title": "Annexe 6 coherente avec le DPT",
+      "severity": "high",
+      "logic": "Beneficiaire, adresse, code, dates, professionnel et kWh cumac du tableau doivent correspondre au DPT.",
+      "on_failure": "Bloquer pre-depot ou creer demande de correction.",
+      "source_refs": ["MTE_MODALITES_DEPOT", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "archive_duration_current_law",
+      "title": "Duree d'archivage conforme au Code de l'energie",
+      "severity": "medium",
+      "logic": "Le DPT doit afficher 9 ans a compter de la delivrance CEE pour les justificatifs selon R.222-4.",
+      "on_failure": "Remplacer toute mention generique de 6 ans par la regle R.222-4, avec note de divergence si besoin.",
+      "source_refs": ["CODE_ENERGIE_R222_4"]
+    }
+  ],
+  "chronology_checks": [
+    {
+      "id": "chronology_complete",
+      "title": "Chronologie dossier complete",
+      "severity": "high",
+      "logic": "Cadre contribution, engagement, debut travaux, achevement, AH et depot doivent etre ordonnes selon les regles applicables.",
+      "on_failure": "Ajouter blocking_point chronologie.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "deposit_deadline",
+      "title": "Delai de depot respecte",
+      "severity": "high",
+      "logic": "Le depot doit respecter le delai applicable apres achevement de l'operation.",
+      "on_failure": "Marquer risque de forclusion ou demande de validation responsable.",
+      "source_refs": ["FAQ_CEE_MTE", "MTE_MODALITES_DEPOT"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "identity_site_consistency",
+      "title": "Beneficiaire et site coherents",
+      "severity": "high",
+      "logic": "Beneficiaire, adresse, SIREN/SIRET et representant doivent etre coherents dans devis, facture, AH, annexe 6 et DPT.",
+      "on_failure": "Creer risque PNCEE high.",
+      "source_refs": ["ARRETE_2014_09_04", "MTE_MODALITES_DEPOT"]
+    },
+    {
+      "id": "technical_consistency",
+      "title": "Technique coherente avec fiche et preuves",
+      "severity": "high",
+      "logic": "Marque, modele, puissance, surface, rendement, COP/Etas ou metrage doivent respecter la fiche et les preuves.",
+      "on_failure": "Bloquer le statut pret_predepot.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "calculation_consistency",
+      "title": "Calcul CEE coherent",
+      "severity": "high",
+      "logic": "Variables, tables, bonus, facteurs correctifs et kWh cumac doivent etre sourcés et reproductibles.",
+      "on_failure": "Marquer needs_human_review et demander correction calcul.",
+      "source_refs": ["FICHE_CEE_SOURCE", "GUIDE_SPECIFIC_2025"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "dpt_confused_with_official_document",
+      "title": "DPT presente comme document officiel unique",
+      "severity": "medium",
+      "trigger_condition": "Le rapport indique que le DPT remplace les pieces officielles ou le dossier EMMY.",
+      "affected_documents": ["dpt", "dossier_predepot"],
+      "blocking": false,
+      "correction_action": "Ajouter la clarification : DPT = dossier interne de synthese et preuves.",
+      "source_refs": ["MTE_MODALITES_DEPOT"]
+    },
+    {
+      "id": "missing_evidence_mapping",
+      "title": "Pieces non rattachees aux champs critiques",
+      "severity": "high",
+      "trigger_condition": "Champs critiques sans source_file, document_id, page ou statut.",
+      "affected_documents": ["dpt", "evidence_map"],
+      "blocking": true,
+      "correction_action": "Rattacher chaque champ a une piece ou creer une piece manquante.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "specific_operation_without_technical_dossier",
+      "title": "Operation specifique sans dossier technique conforme",
+      "severity": "high",
+      "trigger_condition": "operation_type == specific and missing specific technical sections.",
+      "affected_documents": ["dpt", "dossier_technique_specifique"],
+      "blocking": true,
+      "correction_action": "Construire le dossier technique selon les sources applicables et le guide 2025.",
+      "source_refs": ["MTE_SPECIFIC_OPERATIONS", "GUIDE_SPECIFIC_2025"]
+    },
+    {
+      "id": "annexe6_inconsistent",
+      "title": "Tableau annexe 6 incoherent",
+      "severity": "high",
+      "trigger_condition": "Annexe 6 ne correspond pas aux pieces et au calcul du DPT.",
+      "affected_documents": ["annexe6", "dpt"],
+      "blocking": true,
+      "correction_action": "Corriger annexe 6 ou pieces sources avant depot.",
+      "source_refs": ["MTE_MODALITES_DEPOT", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "wrong_archive_duration",
+      "title": "Duree d'archivage obsolete ou incorrecte",
+      "severity": "medium",
+      "trigger_condition": "Le DPT indique uniquement 6 ans d'archivage pour les justificatifs.",
+      "affected_documents": ["dpt", "README", "privacy"],
+      "blocking": false,
+      "correction_action": "Indiquer la regle R.222-4 : 9 ans a compter de la delivrance du CEE.",
+      "source_refs": ["CODE_ENERGIE_R222_4"]
+    },
+    {
+      "id": "technical_criteria_unproven",
+      "title": "Criteres techniques non prouves",
+      "severity": "high",
+      "trigger_condition": "Criteres fiche declares sans preuve facture, fiche technique, note ou PV.",
+      "affected_documents": ["dpt", "fiche_cee", "preuves"],
+      "blocking": true,
+      "correction_action": "Demander les pieces techniques et pointer les pages/champs.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "chronology_blocking",
+      "title": "Chronologie CEE cassee",
+      "severity": "high",
+      "trigger_condition": "RAI, engagement, travaux, facture, AH ou depot ne respectent pas l'ordre applicable.",
+      "affected_documents": ["dpt", "cadre_contribution", "devis", "facture", "ah"],
+      "blocking": true,
+      "correction_action": "Ne pas envoyer le dossier tant que le point n'est pas resolu ou qualifie.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    }
+  ],
+  "output_contract": {
+    "draft_mode": {
+      "can_generate_with_missing_values": true,
+      "missing_value_placeholder": "[A COMPLETER]",
+      "assumption_marker": "[HYPOTHESE A VALIDER]",
+      "draft_notice": "DPT interne pre-depot genere automatiquement ; ne remplace pas les pieces officielles ni le depot EMMY."
+    },
+    "strict_mode": {
+      "block_if_missing": [
+        "dossier.operation_type",
+        "operation.cee_code",
+        "beneficiary.identity",
+        "site.address",
+        "documents.engagement_proof",
+        "documents.realisation_proof",
+        "calculation.kwh_cumac"
+      ],
+      "block_if_evidence_unmapped": true,
+      "block_if_specific_without_technical_dossier": true
+    },
+    "sections": [
+      "Metadonnees dossier et operation",
+      "Beneficiaire et site",
+      "Cadre CEE",
+      "Description technique",
+      "Calculs CEE",
+      "Pieces justificatives et preuves",
+      "Controles internes et risques PNCEE",
+      "Workflow et historisation"
+    ],
+    "evidence_status_enum": [
+      "present",
+      "missing",
+      "not_applicable",
+      "needs_review"
+    ],
+    "required_outputs": [
+      "dpt.md",
+      "evidence_map.json",
+      "blocking_points.json",
+      "risques_pncee.md",
+      "dossier_manifest.json"
+    ]
+  },
+  "source_references": [
+    {
+      "id": "MTE_MODALITES_DEPOT",
+      "title": "Ministere - Modalites detaillees pour deposer un dossier de demande de CEE",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/modalites-detaillees-deposer-dossier-demande-certificats-deconomies-denergie"
+      ],
+      "notes": "Source officielle sur composition des dossiers, tableaux et operations standardisees/specifiques."
+    },
+    {
+      "id": "MTE_DISPOSITIF_CEE",
+      "title": "Ministere - Dispositif des certificats d'economies d'energie",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/dispositif-certificats-deconomies-denergie"
+      ],
+      "notes": "Page officielle generale du dispositif."
+    },
+    {
+      "id": "MTE_STANDARDIZED_OPERATIONS",
+      "title": "Ministere - Operations standardisees d'economies d'energie",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-standardisees-deconomies-denergie"
+      ],
+      "notes": "Source officielle des fiches standardisees et parties A."
+    },
+    {
+      "id": "MTE_SPECIFIC_OPERATIONS",
+      "title": "Ministere - Operations specifiques d'economies d'energie",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-specifiques-deconomies-denergie"
+      ],
+      "notes": "Source officielle pour operations specifiques et fiche synthetique."
+    },
+    {
+      "id": "GUIDE_SPECIFIC_2025",
+      "title": "Guide technique CEE operations specifiques installations fixes 2025",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide-CEE-ope-sp%C3%A9cifique-inst-fixes-2025.pdf"
+      ],
+      "notes": "Guide technique officiel cite pour les operations specifiques installations fixes."
+    },
+    {
+      "id": "ARRETE_2014_09_04",
+      "title": "Arrete du 4 septembre 2014 modifie - dossier de demande CEE et pieces a archiver",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029460644"
+      ],
+      "notes": "Texte pivot pour annexes 2, 4, 5, 6 et pieces."
+    },
+    {
+      "id": "CODE_ENERGIE_R222_4",
+      "title": "Code de l'energie - Article R222-4",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041943074"
+      ],
+      "notes": "Duree d'archivage des documents justificatifs : neuf ans a compter de la delivrance du CEE."
+    },
+    {
+      "id": "ARRETE_CONTROLES_2021",
+      "title": "Arrete du 28 septembre 2021 relatif aux controles CEE",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://aida.ineris.fr/reglementation/arrete-280921-relatif-controles-cadre-dispositif-certificats-deconomies-denergie"
+      ],
+      "notes": "Cadre de controle CEE."
+    },
+    {
+      "id": "FAQ_CEE_MTE",
+      "title": "Questions-reponses officielles sur le dispositif CEE",
+      "type": "ministry_guidance",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/questions-reponses-dispositif-cee"
+      ],
+      "notes": "Guidance ministerielle sur beneficiaire, pieces et cas particuliers."
+    },
+    {
+      "id": "FICHE_CEE_SOURCE",
+      "title": "Fiche CEE officielle applicable",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-standardisees-deconomies-denergie"
+      ],
+      "notes": "La fiche et sa partie A restent la source des criteres techniques."
+    },
+    {
+      "id": "OPERATOR_PRACTICE_DPT",
+      "title": "Usage metier DPT et dossier de preuves pre-depot",
+      "type": "secondary_analysis",
+      "reliability": "medium",
+      "urls": [
+        "https://ecogreenenergy.fr/cee-dossier-operation-specifique/",
+        "https://www.ecovertaconsult.com/article-cee"
+      ],
+      "notes": "Sources utiles pour comprendre l'usage metier, pas pour creer une obligation reglementaire."
+    }
+  ],
+  "implementation_notes": [
+    "Cette competence doit alimenter un futur generateur DPT et le document_engine/templates/dpt.",
+    "Le DPT doit utiliser les competences devis_cee, facture_cee, note_dimensionnement_chauffage et controle_pncee lorsqu'elles sont disponibles.",
+    "La duree d'archivage est encodee a 9 ans selon R.222-4, malgre les mentions anciennes de 6 ans dans certaines pages.",
+    "Pour les fiches en supported_generic, le DPT doit rester en draft avec [A COMPLETER] et validation technique obligatoire."
+  ]
+}

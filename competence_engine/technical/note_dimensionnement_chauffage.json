@@ -1,0 +1,712 @@
+{
+  "id": "note_dimensionnement_chauffage",
+  "title": "Note de dimensionnement chauffage pour dossier CEE",
+  "category": "technical_method",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Donner a un agent IA une methode encadree pour preparer, controler ou demander les informations d'une note de dimensionnement chauffage/PAC/chaudiere dans un dossier CEE, sans remplacer la validation du professionnel qualifie.",
+  "scope": {
+    "document": "note_dimensionnement",
+    "cee_period": "P6 2026-2030",
+    "families": [
+      "PAC air/eau individuelle ou collective",
+      "PAC eau/eau ou sol/eau",
+      "PAC hybride",
+      "chaudiere ou generateur biomasse lorsque la fiche l'exige",
+      "solaire thermique seulement si la fiche, la charte ou l'operateur l'exige explicitement"
+    ],
+    "limits": [
+      "La note peut etre pre-redigee par l'IA, mais la validation et la signature relevent du professionnel qualifie.",
+      "La methode simplifiee de deperditions est une estimation et ne remplace pas une etude EN 12831 ou une etude thermique opposable.",
+      "L'obligation de note doit toujours etre confirmee dans la fiche CEE applicable ou dans les pieces specifiques exigees."
+    ]
+  },
+  "applies_to": [
+    "BAR-TH-171",
+    "BAR-TH-179",
+    "BAR-TH-113",
+    "BAR-TH-159",
+    "heating_generator_fiches_when_required_by_fiche"
+  ],
+  "source_policy": {
+    "official_source_required_for": [
+      "obligation de note de dimensionnement",
+      "moment de remise au beneficiaire",
+      "pieces justificatives specifiques",
+      "seuils Etas ou puissance",
+      "facteur R BAR-TH-179",
+      "donnees techniques exigees par la fiche"
+    ],
+    "operator_practice_allowed_for": [
+      "gabarit de presentation de la note",
+      "methode simplifiee G x V x Delta T",
+      "tolerances de sous-dimensionnement ou surdimensionnement",
+      "visa beneficiaire lorsque non exige par la fiche",
+      "checklists de controle"
+    ],
+    "no_hallucination_rules": [
+      "Ne jamais inventer marque, modele, puissance nominale, Etas, COP, classe regulateur ou puissance d'autres generateurs.",
+      "Ne jamais inventer la surface chauffee ni le nombre de logements ; si une estimation est proposee, elle doit etre marquee a valider.",
+      "Ne jamais presenter un calcul simplifie comme conforme EN 12831.",
+      "Ne jamais conclure que la note est obligatoire pour une fiche sans preuve dans la fiche, les documents justificatifs ou une source officielle.",
+      "En mode strict, bloquer si Tbase, surface chauffee, puissance generateur ou donnees fabricant sont absentes."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "operation.cee_code",
+      "label": "Code fiche CEE vise",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "L'obligation, le contenu et les seuils dependent de la fiche.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Charger data/curated/{CODE}.json ou data/text/{CODE}.txt avant de rediger la note."
+    },
+    {
+      "field": "site.address",
+      "label": "Adresse du site",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Permet d'identifier le batiment, la zone climatique, l'altitude et les hypotheses de Tbase.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Demander l'adresse complete si absente."
+    },
+    {
+      "field": "building.type",
+      "label": "Type de batiment",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Le perimetre chauffe et la fiche applicable dependent du type de batiment.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas supposer maison, collectif ou tertiaire si le dossier ne l'indique pas."
+    },
+    {
+      "field": "building.heated_area_m2",
+      "label": "Surface chauffee desservie par le generateur",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "La surface desservie sert au calcul des deperditions et au controle de coherence.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"],
+      "if_applicable": null,
+      "ai_instruction": "Si la surface est estimee, la marquer comme hypothese a valider."
+    },
+    {
+      "field": "building.emitters_type",
+      "label": "Type d'emetteurs",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Le type d'application basse/moyenne/haute temperature et l'Etas a considerer dependent des emetteurs pour certaines fiches PAC.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL"],
+      "if_applicable": "Principalement pour PAC et generateurs lies au chauffage.",
+      "ai_instruction": "Demander plancher, radiateurs, ventilo-convecteurs ou mixte."
+    },
+    {
+      "field": "climate.t_base_c",
+      "label": "Temperature exterieure de base Tbase",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Les fiches PAC imposent le dimensionnement par rapport aux deperditions calculees a T = Tbase.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"],
+      "if_applicable": null,
+      "ai_instruction": "L'IA peut proposer une valeur issue d'une table, mais le professionnel doit la valider."
+    },
+    {
+      "field": "climate.t_setpoint_c",
+      "label": "Temperature interieure de consigne",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Elle intervient dans le Delta T du calcul de deperditions.",
+      "source_refs": ["FICHE_BAR_TH_179_LOCAL", "OPERATOR_PRACTICE_DIMENSIONING"],
+      "if_applicable": null,
+      "ai_instruction": "Utiliser une valeur par defaut uniquement en mode estimation et la marquer a valider."
+    },
+    {
+      "field": "calculation.heat_losses_kw",
+      "label": "Deperditions thermiques a Tbase",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "La note justifie la puissance du generateur par rapport aux deperditions.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"],
+      "if_applicable": null,
+      "ai_instruction": "Si calcule par estimation, indiquer methode, hypotheses, confiance et validation requise."
+    },
+    {
+      "field": "generator.brand",
+      "label": "Marque du generateur",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "La preuve de realisation et la note doivent etre coherentes avec l'equipement installe.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"],
+      "if_applicable": null,
+      "ai_instruction": "Ne jamais inventer ; demander devis, facture ou fiche technique."
+    },
+    {
+      "field": "generator.model",
+      "label": "Reference du generateur",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "La reference permet de verifier puissance, Etas et fiche technique.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"],
+      "if_applicable": null,
+      "ai_instruction": "Ne jamais inventer ; demander document fabricant."
+    },
+    {
+      "field": "generator.nominal_power_kw",
+      "label": "Puissance thermique nominale du generateur",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Elle est comparee aux deperditions et intervient dans certains calculs CEE.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"],
+      "if_applicable": null,
+      "ai_instruction": "Pour BAR-TH-179, distinguer puissance PAC et puissance utile totale chaufferie."
+    },
+    {
+      "field": "generator.etas_or_eta_percent",
+      "label": "Etas ou rendement saisonnier",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Les seuils d'eligibilite PAC/chaudiere dependent de la performance declaree.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"],
+      "if_applicable": "Si la fiche utilise Etas, etaS ou rendement.",
+      "ai_instruction": "Ne pas deduire depuis la marque ; demander fiche produit ou attestation fabricant."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "building.construction_year",
+      "label": "Annee de construction",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Aide a choisir un coefficient de deperdition si la methode simplifiee est utilisee.",
+      "source_refs": ["OPERATOR_PRACTICE_DIMENSIONING"],
+      "if_applicable": null,
+      "ai_instruction": "Marquer toute valeur deduite comme hypothese."
+    },
+    {
+      "field": "building.insulation_level",
+      "label": "Niveau d'isolation",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Influence les deperditions.",
+      "source_refs": ["OPERATOR_PRACTICE_DIMENSIONING"],
+      "if_applicable": null,
+      "ai_instruction": "Utiliser des classes simples bonne/moyenne/faible/inconnue et demander validation."
+    },
+    {
+      "field": "building.heated_volume_m3",
+      "label": "Volume chauffe",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Necessaire pour un calcul simplifie volumique.",
+      "source_refs": ["OPERATOR_PRACTICE_DIMENSIONING"],
+      "if_applicable": "Si methode G x V x Delta T.",
+      "ai_instruction": "Peut etre estime depuis surface x hauteur, avec statut estimated."
+    },
+    {
+      "field": "professional.rge_certificate",
+      "label": "Qualification professionnelle ou RGE",
+      "status": "recommended",
+      "evidence_level": "official_or_fiche",
+      "reason": "Les fiches exigent souvent un professionnel qualifie pour l'operation.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"],
+      "if_applicable": "Si exige par la fiche.",
+      "ai_instruction": "Comparer avec AH partie C et certificat."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "climate.zone",
+      "label": "Zone climatique H1/H2/H3",
+      "status": "deducible",
+      "evidence_level": "official_or_fiche",
+      "reason": "Peut etre deduite d'un code postal via une table officielle ou interne.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": "Si la fiche ou le calcul CEE utilise la zone.",
+      "ai_instruction": "Conserver la source de deduction et demander validation si ambigu."
+    },
+    {
+      "field": "generator.application_temp",
+      "label": "Application basse ou moyenne/haute temperature",
+      "status": "deducible",
+      "evidence_level": "official_or_fiche",
+      "reason": "Deducible des emetteurs pour BAR-TH-171 selon la fiche.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL"],
+      "if_applicable": "PAC chauffage avec emetteurs connus.",
+      "ai_instruction": "Si emetteurs mixtes, classer moyenne/haute sauf regle fiche contraire."
+    },
+    {
+      "field": "calculation.factor_r_bar_th_179",
+      "label": "Facteur R BAR-TH-179",
+      "status": "deducible",
+      "evidence_level": "official_or_fiche",
+      "reason": "Deducible de la puissance PAC et de la puissance utile chaufferie apres travaux.",
+      "source_refs": ["FICHE_BAR_TH_179_LOCAL"],
+      "if_applicable": "BAR-TH-179 uniquement.",
+      "ai_instruction": "Ne calculer que si toutes les puissances sont confirmees."
+    }
+  ],
+  "method_steps": [
+    {
+      "id": "identify_fiche_requirement",
+      "title": "Verifier l'obligation de note dans la fiche",
+      "instruction": "Lire la fiche et les documents justificatifs specifiques pour confirmer que la note est obligatoire, le moment de remise et les informations attendues.",
+      "output": "note_required, timing, source_quote",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "define_heated_scope",
+      "title": "Definir le perimetre chauffe",
+      "instruction": "Identifier les surfaces, pieces ou logements desservis par le reseau ou le generateur concerne par l'operation.",
+      "output": "heated_scope",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"]
+    },
+    {
+      "id": "compute_or_collect_heat_losses",
+      "title": "Calculer ou collecter les deperditions a Tbase",
+      "instruction": "Utiliser une etude fournie si disponible. Sinon, produire une estimation marquee a valider, en documentant Tbase, consigne et methode.",
+      "output": "heat_losses_kw_with_status",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL", "OPERATOR_PRACTICE_DIMENSIONING"]
+    },
+    {
+      "id": "compare_generator_power",
+      "title": "Comparer puissance generateur et besoins",
+      "instruction": "Comparer la puissance nominale confirmee du generateur aux deperditions et signaler sous-dimensionnement ou surdimensionnement evident.",
+      "output": "dimensioning_assessment",
+      "source_refs": ["FICHE_CEE_SOURCE", "OPERATOR_PRACTICE_DIMENSIONING"]
+    },
+    {
+      "id": "apply_fiche_specific_controls",
+      "title": "Appliquer les controles propres a la fiche",
+      "instruction": "Verifier Etas, application temperature, usage, non-cumul, facteur R ou autre regle selon le code fiche.",
+      "output": "fiche_specific_controls",
+      "source_refs": ["FICHE_CEE_SOURCE", "FICHE_BAR_TH_179_LOCAL", "FICHE_BAR_TH_171_LOCAL"]
+    },
+    {
+      "id": "prepare_professional_signature",
+      "title": "Preparer la validation professionnelle",
+      "instruction": "Identifier le professionnel, sa qualification et les hypotheses qui doivent etre validees avant signature.",
+      "output": "professional_validation_block",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    }
+  ],
+  "calculation_methods": [
+    {
+      "id": "heat_loss_simple_gvdt",
+      "title": "Estimation simplifiee des deperditions",
+      "status": "estimation",
+      "formula_or_method": "Q_loss_W = G * V * (T_setpoint - T_base)",
+      "inputs": [
+        "heat_loss_coefficient_G_w_per_m3K",
+        "heated_volume_m3",
+        "climate.t_setpoint_c",
+        "climate.t_base_c"
+      ],
+      "outputs": ["heat_losses_kw"],
+      "limits": [
+        "Estimation a valider par un professionnel.",
+        "Ne doit pas etre presentee comme calcul EN 12831.",
+        "Les coefficients G doivent etre sourcés ou justifies."
+      ],
+      "source_refs": ["OPERATOR_PRACTICE_DIMENSIONING"]
+    },
+    {
+      "id": "heat_loss_en12831_structure",
+      "title": "Structure de calcul detaille type EN 12831",
+      "status": "professional_method",
+      "formula_or_method": "Structure par parois, ponts thermiques, ventilation, temperatures et volumes ; les valeurs detaillees doivent etre renseignees/validees par thermicien.",
+      "inputs": [
+        "surfaces_by_wall",
+        "u_values",
+        "thermal_bridges",
+        "ventilation_losses",
+        "design_temperatures"
+      ],
+      "outputs": ["heat_losses_kw"],
+      "limits": [
+        "L'IA peut preparer le tableau mais ne valide pas seule les coefficients.",
+        "Un calcul opposable doit etre valide par un professionnel competent."
+      ],
+      "source_refs": ["OPERATOR_PRACTICE_DIMENSIONING"]
+    },
+    {
+      "id": "dimensioning_ratio",
+      "title": "Ratio puissance generateur / deperditions",
+      "status": "professional_method",
+      "formula_or_method": "coverage_ratio = generator.nominal_power_kw / heat_losses_kw",
+      "inputs": ["generator.nominal_power_kw", "heat_losses_kw"],
+      "outputs": ["coverage_ratio", "under_or_over_sizing_flag"],
+      "limits": [
+        "Les seuils de sous/surdimensionnement ne sont pas generiques ; ils doivent etre adaptes par fiche et professionnel.",
+        "Un ecart important doit produire une question ou une justification."
+      ],
+      "source_refs": ["FICHE_CEE_SOURCE", "OPERATOR_PRACTICE_DIMENSIONING"]
+    },
+    {
+      "id": "bar_th_179_factor_r",
+      "title": "Facteur R BAR-TH-179",
+      "status": "official_or_fiche",
+      "formula_or_method": "Si puissance PAC installee / puissance utile chaufferie apres travaux < 40 %, R = puissance PAC installee / puissance utile chaufferie apres travaux ; sinon R = 1.",
+      "inputs": [
+        "generator.pac_nominal_power_kw",
+        "boiler_room.total_useful_power_after_works_kw",
+        "boiler_room.backup_equipment_excluded"
+      ],
+      "outputs": ["factor_r"],
+      "limits": [
+        "Ne pas inclure les equipements de secours dans la puissance utile de chaufferie.",
+        "Ne calculer que si toutes les puissances sont confirmees."
+      ],
+      "source_refs": ["FICHE_BAR_TH_179_LOCAL"]
+    }
+  ],
+  "fiche_specific_requirements": [
+    {
+      "code": "BAR-TH-171",
+      "requirement": "Le professionnel redige une note de dimensionnement du generateur par rapport aux deperditions calculees a T = Tbase ; la PAC doit etre conforme aux preconisations de la note.",
+      "status": "explicit_in_fiche",
+      "timing": "Remise au beneficiaire a l'engagement de l'operation ; actualisee et remise a l'achevement si necessaire.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL"],
+      "notes": "La fiche locale mentionne egalement les documents justificatifs specifiques incluant la note."
+    },
+    {
+      "code": "BAR-TH-179",
+      "requirement": "Etude prealable de dimensionnement avec surface chauffee, emetteurs, temperature depart, consigne, Tbase, deperditions, puissance PAC, taux de couverture, marque/reference, Etas et generateurs conserves.",
+      "status": "explicit_in_fiche",
+      "timing": "Selon la fiche locale structuree, document critique du dossier ; verifier la version source applicable.",
+      "source_refs": ["FICHE_BAR_TH_179_LOCAL"],
+      "notes": "La fiche utilise aussi le facteur R si la puissance PAC installee est inferieure a 40 % de la puissance utile chaufferie."
+    },
+    {
+      "code": "BAR-TH-168",
+      "requirement": "Dimensionnement solaire thermique a confirmer dans la fiche et les documents justificatifs applicables.",
+      "status": "to_confirm",
+      "timing": null,
+      "source_refs": ["FICHE_CEE_SOURCE", "OPERATOR_PRACTICE_DIMENSIONING"],
+      "notes": "Ne pas marquer obligatoire sans preuve dans la fiche ou la charte applicable."
+    },
+    {
+      "code": "BAT-TH-116",
+      "requirement": "GTB : ne pas utiliser cette competence comme note de dimensionnement chauffage sauf demande specifique ; privilegier competence GTB/documentation fonctionnelle.",
+      "status": "not_systematic",
+      "timing": null,
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "notes": "Une competence GTB dediee sera preferable."
+    }
+  ],
+  "professional_validation": {
+    "required": true,
+    "must_validate": [
+      "Tbase retenue",
+      "methode de calcul de deperditions",
+      "coefficients G ou valeurs U",
+      "surface et volume chauffes",
+      "puissance nominale et application temperature",
+      "conclusion de dimensionnement",
+      "hypotheses d'hybridation ou de chaufferie collective"
+    ],
+    "signature_block": [
+      "nom du professionnel",
+      "raison sociale",
+      "SIRET",
+      "qualification ou certification",
+      "date",
+      "signature/cachet"
+    ],
+    "ai_rule": "L'IA peut generer un brouillon marque a valider, mais ne doit pas produire une note definitive signee."
+  },
+  "blocking_missing_inputs": [
+    {
+      "field": "operation.cee_code",
+      "question": "Quelle fiche CEE doit etre traitee pour savoir si une note de dimensionnement est obligatoire ?",
+      "severity": "high",
+      "why_blocking": "L'obligation et le contenu dependent de la fiche.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "field": "building.heated_area_m2",
+      "question": "Quelle surface est chauffee par le generateur concerne ?",
+      "severity": "high",
+      "why_blocking": "La surface est indispensable au perimetre des deperditions.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"]
+    },
+    {
+      "field": "climate.t_base_c",
+      "question": "Quelle temperature exterieure de base Tbase est retenue pour le site ?",
+      "severity": "high",
+      "why_blocking": "Les fiches PAC citent explicitement les deperditions calculees a T = Tbase.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"]
+    },
+    {
+      "field": "calculation.heat_losses_kw",
+      "question": "Quelles sont les deperditions thermiques calculees a Tbase ?",
+      "severity": "high",
+      "why_blocking": "La note sert a justifier le dimensionnement du generateur par rapport aux deperditions.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"]
+    },
+    {
+      "field": "generator.nominal_power_kw",
+      "question": "Quelle est la puissance nominale du generateur installe ?",
+      "severity": "high",
+      "why_blocking": "Impossible de comparer puissance et besoins sans cette valeur.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "field": "generator.brand_model",
+      "question": "Quelle est la marque et reference exacte de l'equipement ?",
+      "severity": "high",
+      "why_blocking": "Les performances doivent etre rattachees a un equipement identifiable.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"]
+    },
+    {
+      "field": "boiler_room.total_useful_power_after_works_kw",
+      "question": "Pour BAR-TH-179, quelle est la puissance utile totale de la chaufferie apres travaux hors secours ?",
+      "severity": "high",
+      "why_blocking": "Cette valeur est necessaire au calcul du facteur R.",
+      "source_refs": ["FICHE_BAR_TH_179_LOCAL"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "note_requirement_confirmed",
+      "title": "Obligation de note confirmee par la fiche",
+      "severity": "high",
+      "logic": "La fiche ou le curated doit indiquer explicitement que la note/etude de dimensionnement est requise.",
+      "on_failure": "Ne pas marquer la note obligatoire ; basculer en recommandation ou a confirmer.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "heat_losses_positive",
+      "title": "Deperditions positives et sourcees",
+      "severity": "high",
+      "logic": "calculation.heat_losses_kw > 0 avec methode et statut confirmed|estimated|professional_validation_required.",
+      "on_failure": "Demander etude ou calcul de deperditions.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"]
+    },
+    {
+      "id": "generator_power_positive",
+      "title": "Puissance generateur positive",
+      "severity": "high",
+      "logic": "generator.nominal_power_kw > 0 et source documentee.",
+      "on_failure": "Demander fiche technique, devis ou facture.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "note_matches_devis_facture_ah",
+      "title": "Coherence avec devis, facture et AH",
+      "severity": "high",
+      "logic": "Surface, usage, marque, reference, puissance, Etas et beneficiaire doivent etre coherents avec les autres pieces.",
+      "on_failure": "Creer un risque PNCEE high et demander correction documentaire.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "professional_signature_required",
+      "title": "Validation professionnelle presente",
+      "severity": "high",
+      "logic": "La note finale doit identifier le professionnel et sa qualification/signature si le dossier est en mode strict.",
+      "on_failure": "Generer seulement un brouillon a valider.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    }
+  ],
+  "chronology_checks": [
+    {
+      "id": "note_timing_by_fiche",
+      "title": "Remise au beneficiaire selon la fiche",
+      "severity": "high",
+      "logic": "La date de remise de la note doit respecter le timing indique par la fiche, par exemple engagement et actualisation pour BAR-TH-171.",
+      "on_failure": "Signaler un risque de piece justificative non conforme.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_CEE_SOURCE"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "bar_th_179_factor_r_consistency",
+      "title": "Facteur R coherent avec les puissances",
+      "severity": "high",
+      "logic": "Pour BAR-TH-179, si puissance PAC / puissance chaufferie < 40 %, R doit etre egal au rapport ; sinon R = 1.",
+      "on_failure": "Bloquer le calcul CEE ou demander correction.",
+      "source_refs": ["FICHE_BAR_TH_179_LOCAL"]
+    },
+    {
+      "id": "application_temp_etas_consistency",
+      "title": "Application temperature coherente avec Etas",
+      "severity": "high",
+      "logic": "Pour PAC, l'application basse ou moyenne/haute temperature doit correspondre aux emetteurs et au seuil Etas applicable.",
+      "on_failure": "Demander fiche technique et verification professionnel.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "missing_dimensioning_note",
+      "title": "Note de dimensionnement absente alors que la fiche l'exige",
+      "severity": "high",
+      "trigger_condition": "note_required == true and note_document missing.",
+      "affected_documents": ["note_dimensionnement", "dossier_predepot", "ah"],
+      "blocking": true,
+      "correction_action": "Obtenir une note redigee et validee par le professionnel avant depot.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "missing_tbase_or_heat_losses",
+      "title": "Tbase ou deperditions absentes",
+      "severity": "high",
+      "trigger_condition": "climate.t_base_c missing or calculation.heat_losses_kw missing.",
+      "affected_documents": ["note_dimensionnement"],
+      "blocking": true,
+      "correction_action": "Faire renseigner Tbase et deperditions a Tbase par le professionnel ou l'etude.",
+      "source_refs": ["FICHE_BAR_TH_171_LOCAL", "FICHE_BAR_TH_179_LOCAL"]
+    },
+    {
+      "id": "generator_data_invented_or_missing",
+      "title": "Donnees generateur absentes ou non sourcees",
+      "severity": "high",
+      "trigger_condition": "brand/model/power/Etas missing or generated without source.",
+      "affected_documents": ["note_dimensionnement", "devis", "facture", "fiche_technique"],
+      "blocking": true,
+      "correction_action": "Demander fiche technique fabricant, devis ou facture.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "bar_th_179_wrong_factor_r",
+      "title": "Facteur R BAR-TH-179 incorrect",
+      "severity": "high",
+      "trigger_condition": "R absent ou incoherent avec puissance PAC / puissance chaufferie.",
+      "affected_documents": ["note_dimensionnement", "calcul_kwh_cumac"],
+      "blocking": true,
+      "correction_action": "Recalculer R avec les puissances confirmees et exclusion des secours.",
+      "source_refs": ["FICHE_BAR_TH_179_LOCAL"]
+    },
+    {
+      "id": "oversizing_or_undersizing_unjustified",
+      "title": "Puissance incoherente avec deperditions sans justification",
+      "severity": "medium",
+      "trigger_condition": "generator power very far from heat losses and no professional justification.",
+      "affected_documents": ["note_dimensionnement"],
+      "blocking": false,
+      "correction_action": "Demander justification professionnelle ou recalcul detaille.",
+      "source_refs": ["OPERATOR_PRACTICE_DIMENSIONING"]
+    },
+    {
+      "id": "note_not_validated_by_professional",
+      "title": "Note non validee par professionnel",
+      "severity": "high",
+      "trigger_condition": "strict mode and missing professional signature/qualification.",
+      "affected_documents": ["note_dimensionnement"],
+      "blocking": true,
+      "correction_action": "Faire valider et signer la note par le professionnel qualifie.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "note_inconsistent_with_other_documents",
+      "title": "Incoherence note / devis / facture / AH",
+      "severity": "high",
+      "trigger_condition": "surface, usage, power, Etas, brand/model or beneficiary differ between documents.",
+      "affected_documents": ["note_dimensionnement", "devis", "facture", "ah"],
+      "blocking": true,
+      "correction_action": "Aligner les pieces ou documenter la justification avant depot.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"]
+    }
+  ],
+  "output_contract": {
+    "draft_mode": {
+      "can_generate_with_missing_values": true,
+      "missing_value_placeholder": "[A COMPLETER]",
+      "assumption_marker": "[HYPOTHESE A VALIDER]",
+      "draft_notice": "Brouillon de note de dimensionnement genere automatiquement, a verifier et signer par un professionnel qualifie."
+    },
+    "strict_mode": {
+      "block_if_missing": [
+        "operation.cee_code",
+        "site.address",
+        "building.heated_area_m2",
+        "climate.t_base_c",
+        "calculation.heat_losses_kw",
+        "generator.brand",
+        "generator.model",
+        "generator.nominal_power_kw"
+      ],
+      "block_for_bar_th_179_if_missing": [
+        "boiler_room.total_useful_power_after_works_kw",
+        "calculation.factor_r"
+      ],
+      "block_if_no_professional_validation": true
+    },
+    "recommended_markdown_sections": [
+      "Identification operation et fiche CEE",
+      "Beneficiaire et site",
+      "Perimetre chauffe",
+      "Hypotheses climatiques",
+      "Calcul des deperditions",
+      "Equipement installe",
+      "Comparaison puissance / besoins",
+      "Controles specifiques fiche",
+      "Conclusion et hypotheses a valider",
+      "Signature professionnel"
+    ]
+  },
+  "source_references": [
+    {
+      "id": "FICHE_CEE_SOURCE",
+      "title": "Fiche CEE officielle applicable",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-standardisees-deconomies-denergie"
+      ],
+      "notes": "Toujours verifier la fiche et sa version applicable."
+    },
+    {
+      "id": "FICHE_BAR_TH_171_LOCAL",
+      "title": "BAR-TH-171 - Texte extrait et curated du depot",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://github.com/omarou15/fiches-cee/blob/main/data/text/BAR-TH-171.txt",
+        "https://github.com/omarou15/fiches-cee/blob/main/data/curated/BAR-TH-171.json"
+      ],
+      "notes": "Le texte local indique explicitement la note de dimensionnement a T = Tbase et la remise au beneficiaire."
+    },
+    {
+      "id": "FICHE_BAR_TH_179_LOCAL",
+      "title": "BAR-TH-179 - Texte extrait et curated du depot",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://github.com/omarou15/fiches-cee/blob/main/data/text/BAR-TH-179.txt",
+        "https://github.com/omarou15/fiches-cee/blob/main/data/curated/BAR-TH-179.json"
+      ],
+      "notes": "Le texte local contient Tbase, deperditions, puissance PAC et facteur R."
+    },
+    {
+      "id": "ARRETE_2014_09_04",
+      "title": "Arrete du 4 septembre 2014 modifie - dossier de demande CEE et pieces a archiver",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029460644"
+      ],
+      "notes": "Texte pivot pour dossier, AH et pieces a archiver."
+    },
+    {
+      "id": "OPERATOR_PRACTICE_DIMENSIONING",
+      "title": "Pratiques et modeles operateurs de note de dimensionnement",
+      "type": "operator_practice",
+      "reliability": "medium",
+      "urls": [
+        "https://faq.hellio.com/note-dimensionnement-chauffage-prime-certificats-economies-energie",
+        "https://aide.cap-renov.fr/fr/article/comment-realiser-une-note-de-dimensionnement-avec-cap-renov-1894fdt/",
+        "https://sonergia.fr/pdf/B2B2C/PROS-CHA/Note-de-dimensionnement.pdf"
+      ],
+      "notes": "A utiliser pour structurer un brouillon ou des controles, pas comme source normative unique."
+    }
+  ],
+  "implementation_notes": [
+    "Cette competence doit alimenter document_engine/templates/note_dimensionnement et inference_engine pour distinguer confirmed/deduced/estimated/missing.",
+    "Les fiches GTB et ventilation doivent recevoir des competences separees plutot qu'une note de dimensionnement chauffage generique.",
+    "BAR-TH-168 solaire thermique reste a confirmer fiche par fiche avant de l'inclure en obligation stricte.",
+    "Les methodes de deperditions estimees doivent toujours porter needs_human_validation = true."
+  ]
+}

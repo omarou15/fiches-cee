@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-05-19",
+  "purpose": "Index des competences metier reutilisables par un agent IA CEE.",
+  "competences": [
+    {
+      "id": "devis_cee",
+      "title": "Devis conforme pour dossier CEE",
+      "category": "common_document",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/common/devis_cee.json",
+      "applies_to": ["*"],
+      "notes": "Premiere competence issue du retour Perplexity fourni par l'utilisateur, avec separation obligations officielles / pratiques operateurs / points a confirmer."
+    },
+    {
+      "id": "facture_cee",
+      "title": "Facture conforme pour dossier CEE",
+      "category": "common_document",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/common/facture_cee.json",
+      "applies_to": ["*"],
+      "notes": "Competence issue du retour facture fourni par l'utilisateur, avec separation facturation officielle / preuve de realisation CEE / pratiques operateurs."
+    },
+    {
+      "id": "note_dimensionnement_chauffage",
+      "title": "Note de dimensionnement chauffage pour dossier CEE",
+      "category": "technical_method",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/technical/note_dimensionnement_chauffage.json",
+      "applies_to": [
+        "BAR-TH-171",
+        "BAR-TH-179",
+        "BAR-TH-113",
+        "BAR-TH-159",
+        "heating_generator_fiches_when_required_by_fiche"
+      ],
+      "notes": "Competence technique issue du retour note de dimensionnement, avec separation exigences fiche / methodes professionnelles / estimations a valider."
+    },
+    {
+      "id": "dpt_cee",
+      "title": "DPT CEE - dossier technique et dossier de preuves pre-depot",
+      "category": "common_document",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/common/dpt_cee.json",
+      "applies_to": ["*"],
+      "notes": "Competence de structuration DPT issue du retour utilisateur, avec clarification DPT non officiel et archivage corrige selon Code de l'energie R.222-4."
+    },
+    {
+      "id": "controle_pncee",
+      "title": "Controle PNCEE et matrice de risques CEE",
+      "category": "common_control",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/common/controle_pncee.json",
+      "applies_to": ["*"],
+      "notes": "Matrice de controle pre-depot issue du retour utilisateur, avec tolerance RAI PP/copro conservee, archivage 9 ans et risques classes high/medium/low."
+    }
+  ]
+}

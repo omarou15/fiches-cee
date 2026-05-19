@@ -1,0 +1,315 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarou15/fiches-cee/competence_engine/schemas/competence.schema.json",
+  "title": "CEE agent competence",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "category",
+    "status",
+    "version",
+    "purpose",
+    "applies_to",
+    "source_policy",
+    "required_inputs",
+    "validation_checks",
+    "compliance_risks",
+    "source_references"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_\\-]+$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "common_document",
+        "common_control",
+        "technical_method",
+        "fiche_specific",
+        "calculation"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft_from_user_research",
+        "needs_official_review",
+        "validated"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "applies_to": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_policy": {
+      "type": "object",
+      "required": ["official_source_required_for", "operator_practice_allowed_for", "no_hallucination_rules"],
+      "properties": {
+        "official_source_required_for": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "operator_practice_allowed_for": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "no_hallucination_rules": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": true
+    },
+    "required_inputs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/input_field" }
+    },
+    "recommended_inputs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/input_field" }
+    },
+    "deducible_inputs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/input_field" }
+    },
+    "method_steps": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/method_step" }
+    },
+    "calculation_methods": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/calculation_method" }
+    },
+    "fiche_specific_requirements": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/fiche_requirement" }
+    },
+    "professional_validation": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "blocking_missing_inputs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/blocking_missing_input" }
+    },
+    "validation_checks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/validation_check" }
+    },
+    "chronology_checks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/validation_check" }
+    },
+    "consistency_checks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/validation_check" }
+    },
+    "compliance_risks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/compliance_risk" }
+    },
+    "output_contract": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "source_references": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source_reference" }
+    },
+    "implementation_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "input_field": {
+      "type": "object",
+      "required": ["field", "label", "status", "evidence_level", "reason"],
+      "properties": {
+        "field": { "type": "string" },
+        "label": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": ["required", "recommended", "deducible", "estimated", "optional"]
+        },
+        "evidence_level": {
+          "type": "string",
+          "enum": [
+            "official",
+            "official_or_fiche",
+            "professional_method",
+            "estimation",
+            "operator_practice",
+            "business_practice",
+            "to_confirm"
+          ]
+        },
+        "reason": { "type": "string" },
+        "source_refs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "if_applicable": { "type": ["string", "null"] },
+        "ai_instruction": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "method_step": {
+      "type": "object",
+      "required": ["id", "title", "instruction", "output"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "instruction": { "type": "string" },
+        "output": { "type": "string" },
+        "source_refs": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "calculation_method": {
+      "type": "object",
+      "required": ["id", "title", "status", "formula_or_method", "inputs", "outputs", "limits"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": ["official_or_fiche", "professional_method", "estimation", "operator_practice", "to_confirm"]
+        },
+        "formula_or_method": { "type": "string" },
+        "inputs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "outputs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "limits": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "source_refs": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "fiche_requirement": {
+      "type": "object",
+      "required": ["code", "requirement", "status", "timing", "source_refs"],
+      "properties": {
+        "code": { "type": "string" },
+        "requirement": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": ["explicit_in_fiche", "operator_practice", "to_confirm", "not_systematic"]
+        },
+        "timing": { "type": ["string", "null"] },
+        "source_refs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "notes": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "blocking_missing_input": {
+      "type": "object",
+      "required": ["field", "question", "severity", "why_blocking"],
+      "properties": {
+        "field": { "type": "string" },
+        "question": { "type": "string" },
+        "severity": { "type": "string", "enum": ["high", "medium", "low"] },
+        "why_blocking": { "type": "string" },
+        "source_refs": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "validation_check": {
+      "type": "object",
+      "required": ["id", "title", "severity", "logic", "on_failure"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "severity": { "type": "string", "enum": ["high", "medium", "low"] },
+        "logic": { "type": "string" },
+        "on_failure": { "type": "string" },
+        "source_refs": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "compliance_risk": {
+      "type": "object",
+      "required": ["id", "title", "severity", "trigger_condition", "affected_documents", "blocking", "correction_action", "source_refs"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "severity": { "type": "string", "enum": ["high", "medium", "low"] },
+        "trigger_condition": { "type": "string" },
+        "affected_documents": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "blocking": { "type": "boolean" },
+        "correction_action": { "type": "string" },
+        "source_refs": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "source_reference": {
+      "type": "object",
+      "required": ["id", "title", "type", "reliability", "urls"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": ["official", "legal_text", "ministry_guidance", "operator_practice", "secondary_analysis"]
+        },
+        "reliability": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "urls": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        },
+        "notes": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    }
+  }
+}

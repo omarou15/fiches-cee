@@ -1,0 +1,627 @@
+{
+  "id": "devis_cee",
+  "title": "Devis conforme pour dossier CEE",
+  "category": "common_document",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Donner a un agent IA une grille stable pour generer ou controler un devis de travaux utilise dans un dossier CEE, sans melanger obligations legales, exigences CEE, pratiques d'operateurs et points a confirmer.",
+  "scope": {
+    "document": "devis",
+    "cee_period": "P6 2026-2030",
+    "applies_to_all_standardized_operations": true,
+    "limits": [
+      "Cette competence ne remplace pas le texte officiel de la fiche CEE applicable.",
+      "Les pratiques d'operateurs doivent etre marquees comme pratiques, pas comme obligations reglementaires.",
+      "Les mentions exactes du devis peuvent varier selon le statut du professionnel, le client et le type de travaux."
+    ]
+  },
+  "applies_to": ["*"],
+  "source_policy": {
+    "official_source_required_for": [
+      "mentions legales obligatoires du devis",
+      "date d'engagement CEE",
+      "role actif et incitatif",
+      "delais et chronologie CEE",
+      "qualification RGE",
+      "conditions propres a la fiche CEE"
+    ],
+    "operator_practice_allowed_for": [
+      "formulation commerciale de la prime CEE",
+      "mention de variabilite de la contribution",
+      "presentation de la marque CEE",
+      "champs internes de suivi dossier",
+      "checklists anti-rejet issues de retours terrain"
+    ],
+    "no_hallucination_rules": [
+      "Si une performance technique exigee par la fiche n'est pas fournie, demander la valeur ou bloquer en mode strict.",
+      "Ne jamais inventer un montant de contribution CEE ; utiliser le calcul disponible ou marquer a completer.",
+      "Ne jamais supposer qu'un professionnel est RGE sans certificat ou champ fourni.",
+      "Ne jamais transformer une recommandation d'operateur en obligation legale.",
+      "Si la source officielle manque pour une regle, marquer evidence_level = to_confirm."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "company.legal_name",
+      "label": "Raison sociale ou nom de l'entreprise",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Identification du professionnel emetteur du devis.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS", "ARRETE_2017_01_24"],
+      "if_applicable": null,
+      "ai_instruction": "Demander la raison sociale si absente."
+    },
+    {
+      "field": "company.address",
+      "label": "Adresse de l'entreprise",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Le client doit identifier le professionnel avant engagement.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS", "ARRETE_2017_01_24"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas generer un devis final sans adresse entreprise."
+    },
+    {
+      "field": "company.siret",
+      "label": "SIRET ou SIREN de l'entreprise",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Identification administrative du professionnel.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS"],
+      "if_applicable": null,
+      "ai_instruction": "Accepter SIREN si SIRET non disponible, mais signaler la precision manquante."
+    },
+    {
+      "field": "client.name",
+      "label": "Nom ou raison sociale du client",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Le devis doit identifier le cocontractant et permettre la coherence avec AH et facture.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS"],
+      "if_applicable": null,
+      "ai_instruction": "Verifier la coherence avec le beneficiaire CEE."
+    },
+    {
+      "field": "site.address",
+      "label": "Adresse complete du chantier",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Le site de l'operation doit etre rattache sans ambiguite au dossier CEE.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS", "FAQ_CEE_MTE"],
+      "if_applicable": null,
+      "ai_instruction": "Bloquer si l'adresse chantier est absente ou trop vague."
+    },
+    {
+      "field": "quote.number",
+      "label": "Numero du devis",
+      "status": "required",
+      "evidence_level": "business_practice",
+      "reason": "Necessaire pour tracer le document dans le dossier et le rapprocher de la facture.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS"],
+      "if_applicable": null,
+      "ai_instruction": "Generer un numero brouillon si mode draft, demander validation en mode strict."
+    },
+    {
+      "field": "quote.issue_date",
+      "label": "Date d'edition du devis",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Repere documentaire et commercial du devis.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS", "ARRETE_2017_01_24"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas confondre avec la date de signature du beneficiaire."
+    },
+    {
+      "field": "quote.signature_date",
+      "label": "Date de signature du devis par le beneficiaire",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Date centrale pour determiner l'engagement de l'operation lorsque le devis est l'acte d'engagement.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_09_04"],
+      "if_applicable": null,
+      "ai_instruction": "Bloquer en mode strict si absente."
+    },
+    {
+      "field": "quote.signature_present",
+      "label": "Signature ou acceptation du beneficiaire",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Sans acceptation, le devis ne prouve pas l'engagement.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_09_04"],
+      "if_applicable": null,
+      "ai_instruction": "Demander le devis signe si absent."
+    },
+    {
+      "field": "quote.lines",
+      "label": "Lignes detaillees des travaux",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "La nature, les quantites et les prix permettent de comprendre l'operation.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS", "ARRETE_2017_01_24"],
+      "if_applicable": null,
+      "ai_instruction": "Chaque ligne doit avoir description, quantite, unite et prix."
+    },
+    {
+      "field": "quote.totals",
+      "label": "Totaux HT, TVA et TTC",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Le devis doit presenter le prix et la TVA de maniere lisible.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS", "ARRETE_2017_01_24"],
+      "if_applicable": null,
+      "ai_instruction": "Controler que la somme des lignes est coherente avec les totaux."
+    },
+    {
+      "field": "quote.payment_terms",
+      "label": "Conditions de paiement",
+      "status": "required",
+      "evidence_level": "official",
+      "reason": "Information precontractuelle et commerciale.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS"],
+      "if_applicable": null,
+      "ai_instruction": "Signaler les acomptes car ils peuvent influencer la chronologie CEE."
+    },
+    {
+      "field": "operation.cee_code",
+      "label": "Code de fiche CEE vise",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Le devis doit permettre de rattacher les travaux a la fiche controlee.",
+      "source_refs": ["ARRETE_2014_09_04", "FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Si le code n'est pas imprime sur le devis, verifier que le descriptif permet le rattachement."
+    },
+    {
+      "field": "operation.fiche_required_technical_fields",
+      "label": "Caracteristiques techniques exigees par la fiche",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Etas, COP, puissance, surface, resistance thermique ou autre champ selon la fiche.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Charger data/curated/{CODE}.json ou data/json/{CODE}.json pour connaitre les champs."
+    },
+    {
+      "field": "contribution.amount_estimated",
+      "label": "Montant previsionnel de la contribution CEE",
+      "status": "required",
+      "evidence_level": "operator_practice",
+      "reason": "Le montant peut etre porte par le cadre de contribution ou par une mention du devis ; il aide a prouver le role incitatif.",
+      "source_refs": ["ARRETE_2014_09_04", "OPERATOR_PRACTICE_DEVIS_CEE"],
+      "if_applicable": "Obligatoire dans le dossier RAI ; pas toujours obligatoire comme mention imprimee sur le devis si un cadre de contribution separe existe.",
+      "ai_instruction": "Si absent du devis, verifier l'existence du cadre de contribution avant de bloquer."
+    },
+    {
+      "field": "professional.rge_certificate",
+      "label": "Qualification RGE ou qualification professionnelle",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Obligatoire lorsque la fiche CEE ou le type de travaux l'exige.",
+      "source_refs": ["SERVICE_PUBLIC_RGE", "FICHE_CEE_SOURCE"],
+      "if_applicable": "Seulement si la fiche ou le dispositif exige une qualification.",
+      "ai_instruction": "Controler la validite a la date d'engagement, pas seulement a la date de facture."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "company.vat_number",
+      "label": "Numero de TVA intracommunautaire",
+      "status": "recommended",
+      "evidence_level": "official",
+      "reason": "Mention utile selon le statut et les obligations de facturation.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS"],
+      "if_applicable": "Si l'entreprise est assujettie.",
+      "ai_instruction": "Marquer a completer si non fourni."
+    },
+    {
+      "field": "company.insurance_decennale",
+      "label": "Assurance professionnelle ou decennale",
+      "status": "recommended",
+      "evidence_level": "official",
+      "reason": "Les artisans du batiment doivent mentionner l'assurance lorsque celle-ci est obligatoire pour leur activite.",
+      "source_refs": ["SERVICE_PUBLIC_DOCUMENTS_COMMERCIAUX"],
+      "if_applicable": "Si l'activite est soumise a assurance obligatoire.",
+      "ai_instruction": "Ne pas inventer assureur ni numero de police."
+    },
+    {
+      "field": "quote.validity_period",
+      "label": "Duree de validite de l'offre",
+      "status": "recommended",
+      "evidence_level": "business_practice",
+      "reason": "Permet d'encadrer l'offre commerciale.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS"],
+      "if_applicable": null,
+      "ai_instruction": "En mode draft, proposer une duree mais demander validation."
+    },
+    {
+      "field": "contribution.variability_notice",
+      "label": "Mention de variabilite de la contribution CEE",
+      "status": "recommended",
+      "evidence_level": "operator_practice",
+      "reason": "Pratique frequente lorsque le montant depend du volume CEE final.",
+      "source_refs": ["OPERATOR_PRACTICE_DEVIS_CEE"],
+      "if_applicable": "Si une prime estimee est affichee.",
+      "ai_instruction": "Presenter comme brouillon a valider par l'operateur CEE."
+    },
+    {
+      "field": "subcontractor.identity",
+      "label": "Sous-traitant et qualification",
+      "status": "recommended",
+      "evidence_level": "operator_practice",
+      "reason": "Evite les incoherences entre devis, AH, facture et controle terrain.",
+      "source_refs": ["OPERATOR_PRACTICE_REJECTION_FEEDBACK"],
+      "if_applicable": "Si sous-traitance declaree ou probable.",
+      "ai_instruction": "Si un sous-traitant apparait dans une autre piece, le signaler dans le devis ou le dossier."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "operation.fiche_family",
+      "label": "Famille de fiche",
+      "status": "deducible",
+      "evidence_level": "official_or_fiche",
+      "reason": "Deducible du code fiche, par exemple BAR-TH-179 -> TH.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Extraire depuis le code fiche."
+    },
+    {
+      "field": "operation.sector",
+      "label": "Secteur CEE",
+      "status": "deducible",
+      "evidence_level": "official_or_fiche",
+      "reason": "Deducible du prefixe fiche, par exemple BAR ou BAT.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Extraire depuis le code fiche et confirmer avec l'index."
+    }
+  ],
+  "blocking_missing_inputs": [
+    {
+      "field": "quote.signature_date",
+      "question": "Quelle est la date de signature du devis par le beneficiaire ?",
+      "severity": "high",
+      "why_blocking": "La date de signature sert a verifier l'engagement et la chronologie CEE.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_09_04"]
+    },
+    {
+      "field": "site.address",
+      "question": "Quelle est l'adresse complete du site de l'operation ?",
+      "severity": "high",
+      "why_blocking": "Le dossier doit rattacher les travaux a un site sans ambiguite.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS", "ARRETE_2014_09_04"]
+    },
+    {
+      "field": "operation.cee_code",
+      "question": "Quelle fiche CEE doit etre valorisee ?",
+      "severity": "high",
+      "why_blocking": "Sans fiche, l'IA ne peut pas verifier les criteres techniques ni le calcul.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "field": "operation.fiche_required_technical_fields",
+      "question": "Quelles sont les valeurs techniques exigees par la fiche et visibles dans le devis ou les documents fabricant ?",
+      "severity": "high",
+      "why_blocking": "Les criteres techniques de la fiche ne doivent pas etre supposes.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "devis_identity_company",
+      "title": "Entreprise emettrice identifiable",
+      "severity": "high",
+      "logic": "company.legal_name, company.address et company.siret doivent etre presents.",
+      "on_failure": "Bloquer le devis final et demander le profil entreprise complet.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS"]
+    },
+    {
+      "id": "devis_identity_client_site",
+      "title": "Client et chantier identifies",
+      "severity": "high",
+      "logic": "client.name et site.address doivent etre presents et coherents avec AH et facture.",
+      "on_failure": "Bloquer le dossier CEE si l'adresse ou le beneficiaire est ambigu.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "devis_signature",
+      "title": "Devis accepte par le beneficiaire",
+      "severity": "high",
+      "logic": "quote.signature_present == true et quote.signature_date non null.",
+      "on_failure": "Demander le devis signe et date avant de marquer le dossier pret.",
+      "source_refs": ["FAQ_CEE_MTE"]
+    },
+    {
+      "id": "devis_fiche_match",
+      "title": "Descriptif compatible avec la fiche CEE",
+      "severity": "high",
+      "logic": "operation.cee_code doit correspondre a la nature des travaux et aux champs techniques declares.",
+      "on_failure": "Marquer risque PNCEE high et demander verification metier.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "devis_totals",
+      "title": "Totaux coherents",
+      "severity": "medium",
+      "logic": "Somme des lignes HT + TVA doit etre coherente avec total TTC, sauf ecart explique.",
+      "on_failure": "Signaler une correction administrative avant signature.",
+      "source_refs": ["SERVICE_PUBLIC_DEVIS"]
+    }
+  ],
+  "chronology_checks": [
+    {
+      "id": "chronology_engagement_source",
+      "title": "Source de la date d'engagement identifiee",
+      "severity": "high",
+      "logic": "operation.date_engagement doit etre fournie avec engagement_source = devis|bon_commande|ordre_service|contrat_travaux|acte_engagement.",
+      "on_failure": "Ne pas deduire la date d'engagement depuis une hypothese ; poser une question bloquante.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "chronology_rai_pp_copro",
+      "title": "Cadre contribution PP/copro dans la fenetre autorisee",
+      "severity": "high",
+      "logic": "Si beneficiaire personne physique ou copropriete, date_cadre_contribution <= date_engagement + 14 jours et date_cadre_contribution < date_debut_travaux.",
+      "on_failure": "Marquer rejet automatique probable pour role actif et incitatif non securise.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "chronology_rai_pm",
+      "title": "Cadre contribution personne morale au plus tard a l'engagement",
+      "severity": "high",
+      "logic": "Si beneficiaire personne morale hors copropriete, date_cadre_contribution <= date_engagement.",
+      "on_failure": "Marquer rejet automatique probable pour role actif et incitatif posterieur.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "chronology_works_after_engagement",
+      "title": "Travaux posterieurs a l'engagement",
+      "severity": "high",
+      "logic": "date_debut_travaux > date_engagement.",
+      "on_failure": "Bloquer le dossier, car les travaux ne doivent pas commencer avant l'engagement.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"]
+    },
+    {
+      "id": "chronology_rge_at_engagement",
+      "title": "RGE valide a la date d'engagement",
+      "severity": "high",
+      "logic": "Si RGE requis, professional.rge_valid_until >= date_engagement.",
+      "on_failure": "Bloquer ou demander preuve de qualification valide a la date d'engagement.",
+      "source_refs": ["SERVICE_PUBLIC_RGE", "FICHE_CEE_SOURCE"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "consistency_devis_ah",
+      "title": "Devis coherent avec l'attestation sur l'honneur",
+      "severity": "high",
+      "logic": "Beneficiaire, adresse, code fiche, entreprise et caracteristiques techniques doivent concorder.",
+      "on_failure": "Signaler incoherence documentaire et demander correction avant signature.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "consistency_devis_facture",
+      "title": "Devis coherent avec la facture",
+      "severity": "high",
+      "logic": "Nature des travaux, references equipement, quantites et adresse doivent concorder, sauf justification documentee.",
+      "on_failure": "Risque de demande de complement ou rejet ; produire une liste d'ecarts.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "consistency_devis_contribution",
+      "title": "Devis coherent avec le cadre contribution",
+      "severity": "medium",
+      "logic": "Meme beneficiaire, meme site, meme operation et montant de contribution coherent avec le dossier.",
+      "on_failure": "Signaler risque RAI et demander alignement documentaire.",
+      "source_refs": ["ARRETE_2014_09_04", "OPERATOR_PRACTICE_DEVIS_CEE"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "devis_absent_or_unsigned",
+      "title": "Devis absent, non signe ou non date",
+      "severity": "high",
+      "trigger_condition": "quote.signature_present != true or quote.signature_date is null",
+      "affected_documents": ["devis", "dossier_predepot"],
+      "blocking": true,
+      "correction_action": "Obtenir le devis accepte et date par le beneficiaire ou l'acte d'engagement equivalent.",
+      "source_refs": ["FAQ_CEE_MTE", "ARRETE_2014_09_04"]
+    },
+    {
+      "id": "rai_not_secured",
+      "title": "Role actif et incitatif non securise avant travaux",
+      "severity": "high",
+      "trigger_condition": "date_cadre_contribution absente ou posterieure aux limites applicables.",
+      "affected_documents": ["cadre_contribution", "devis"],
+      "blocking": true,
+      "correction_action": "Verifier le document RAI disponible ; si la chronologie est cassee, ne pas envoyer le dossier.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "works_before_engagement",
+      "title": "Travaux commences avant engagement",
+      "severity": "high",
+      "trigger_condition": "date_debut_travaux <= date_engagement",
+      "affected_documents": ["devis", "facture", "planning"],
+      "blocking": true,
+      "correction_action": "Ne pas deposer le dossier sans analyse juridique ; la non-conformite est en principe bloquante.",
+      "source_refs": ["ARRETE_2014_09_04", "FAQ_CEE_MTE"]
+    },
+    {
+      "id": "fiche_or_technical_fields_missing",
+      "title": "Fiche ou donnees techniques insuffisantes",
+      "severity": "high",
+      "trigger_condition": "operation.cee_code absent ou champs techniques fiche manquants.",
+      "affected_documents": ["devis", "fiche_cee", "facture", "ah"],
+      "blocking": true,
+      "correction_action": "Identifier la fiche correcte et renseigner les performances exigees depuis le devis, la fiche technique ou la note.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "rge_missing_if_required",
+      "title": "Qualification RGE ou professionnelle absente si requise",
+      "severity": "high",
+      "trigger_condition": "requires_rge == true and no valid rge certificate at engagement date.",
+      "affected_documents": ["devis", "certificat_rge", "ah"],
+      "blocking": true,
+      "correction_action": "Fournir le certificat valide a la date d'engagement ou verifier le sous-traitant qualifie.",
+      "source_refs": ["SERVICE_PUBLIC_RGE", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "identity_inconsistency",
+      "title": "Incoherence beneficiaire ou adresse entre les pieces",
+      "severity": "high",
+      "trigger_condition": "client/site differents entre devis, AH, facture ou cadre contribution.",
+      "affected_documents": ["devis", "ah", "facture", "cadre_contribution"],
+      "blocking": true,
+      "correction_action": "Aligner les pieces ou documenter le lien juridique beneficiaire/payeur/mandataire.",
+      "source_refs": ["ARRETE_2014_09_04"]
+    },
+    {
+      "id": "contribution_amount_ambiguous",
+      "title": "Contribution CEE absente ou ambigue dans le dossier",
+      "severity": "medium",
+      "trigger_condition": "Montant de contribution non visible dans le devis et cadre contribution absent.",
+      "affected_documents": ["devis", "cadre_contribution", "annexe6"],
+      "blocking": false,
+      "correction_action": "Completer le cadre contribution ou clarifier la prime estimee avant signature.",
+      "source_refs": ["ARRETE_2014_09_04", "OPERATOR_PRACTICE_DEVIS_CEE"]
+    },
+    {
+      "id": "subcontractor_not_declared",
+      "title": "Sous-traitant non declare alors qu'il intervient",
+      "severity": "medium",
+      "trigger_condition": "Sous-traitant detecte dans AH/facture/controle mais absent du devis ou dossier.",
+      "affected_documents": ["devis", "ah", "facture"],
+      "blocking": false,
+      "correction_action": "Ajouter ou documenter le sous-traitant avec SIRET et qualification si applicable.",
+      "source_refs": ["OPERATOR_PRACTICE_REJECTION_FEEDBACK"]
+    }
+  ],
+  "output_contract": {
+    "draft_mode": {
+      "can_generate_with_missing_values": true,
+      "missing_value_placeholder": "[A COMPLETER]",
+      "assumption_marker": "[HYPOTHESE A VALIDER]"
+    },
+    "strict_mode": {
+      "block_if_missing": [
+        "quote.signature_date",
+        "quote.signature_present",
+        "site.address",
+        "operation.cee_code",
+        "operation.fiche_required_technical_fields"
+      ],
+      "block_if_chronology_high_risk": true
+    },
+    "recommended_markdown_sections": [
+      "Identification entreprise",
+      "Identification client et site",
+      "Description detaillee des travaux",
+      "References CEE et fiche visee",
+      "Contribution CEE estimee",
+      "Prix et TVA",
+      "Conditions de paiement",
+      "Signature beneficiaire"
+    ]
+  },
+  "source_references": [
+    {
+      "id": "SERVICE_PUBLIC_DEVIS",
+      "title": "Service Public Entreprendre - Devis obligatoire : activites concernees",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://entreprendre.service-public.gouv.fr/vosdroits/F31144"
+      ],
+      "notes": "Source officielle d'information administrative sur les devis."
+    },
+    {
+      "id": "ARRETE_2017_01_24",
+      "title": "Arrete du 24 janvier 2017 relatif a la publicite des prix des prestations de depannage, reparation et entretien dans le batiment",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033935513/"
+      ],
+      "notes": "Texte officiel relatif aux informations precontractuelles pour certaines prestations du batiment."
+    },
+    {
+      "id": "ARRETE_2014_09_04",
+      "title": "Arrete du 4 septembre 2014 modifie - dossier de demande CEE et pieces a archiver",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029460644"
+      ],
+      "notes": "Texte pivot pour les pieces du dossier CEE."
+    },
+    {
+      "id": "FAQ_CEE_MTE",
+      "title": "Questions-reponses officielles sur le dispositif CEE",
+      "type": "ministry_guidance",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/questions-reponses-dispositif-cee"
+      ],
+      "notes": "Guidance ministerielle a relire pour les cas particuliers."
+    },
+    {
+      "id": "SERVICE_PUBLIC_RGE",
+      "title": "Service Public Entreprendre - Obtenir le label RGE",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://entreprendre.service-public.gouv.fr/vosdroits/F32251"
+      ],
+      "notes": "Information officielle sur le label RGE."
+    },
+    {
+      "id": "SERVICE_PUBLIC_DOCUMENTS_COMMERCIAUX",
+      "title": "Service Public Entreprendre - Documents commerciaux d'une societe",
+      "type": "official",
+      "reliability": "high",
+      "urls": [
+        "https://entreprendre.service-public.gouv.fr/vosdroits/F37371"
+      ],
+      "notes": "Mention d'assurance lorsque l'activite est soumise a assurance obligatoire."
+    },
+    {
+      "id": "FICHE_CEE_SOURCE",
+      "title": "Fiche CEE officielle applicable",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-standardisees-deconomies-denergie"
+      ],
+      "notes": "Toujours charger la fiche et sa partie A selon le code de l'operation."
+    },
+    {
+      "id": "OPERATOR_PRACTICE_DEVIS_CEE",
+      "title": "Pratiques d'operateurs CEE sur les mentions de devis",
+      "type": "operator_practice",
+      "reliability": "medium",
+      "urls": [
+        "https://www.pensermieux.com/mention-cee-devis-artisans/",
+        "https://faq.hellio.com/obtenir-prime-cee-devis-signe"
+      ],
+      "notes": "A utiliser comme pratique documentaire, pas comme source normative unique."
+    },
+    {
+      "id": "OPERATOR_PRACTICE_REJECTION_FEEDBACK",
+      "title": "Retours terrain sur motifs de refus CEE",
+      "type": "operator_practice",
+      "reliability": "medium",
+      "urls": [
+        "https://www.optima-energie.fr/blog/cee/dossier-cee-les-erreurs-a-ne-pas-commettre/",
+        "https://www.hellio.com/actualites/reglementation/controle-cee"
+      ],
+      "notes": "A confirmer par les textes ou Q/R pour les blocages stricts."
+    }
+  ],
+  "implementation_notes": [
+    "Cette competence est la premiere brique de competence_engine et sera enrichie avec les retours facture, note de dimensionnement, DPT et controle PNCEE.",
+    "Le moteur document_engine pourra lire cette competence pour savoir quoi demander avant de generer un devis strict.",
+    "Les champs de performance restent toujours tires de data/curated/{CODE}.json, rules/{CODE}.rules.json ou de la fiche officielle."
+  ]
+}
