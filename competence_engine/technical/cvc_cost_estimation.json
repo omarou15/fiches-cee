@@ -1,0 +1,346 @@
+{
+  "id": "cvc_cost_estimation",
+  "title": "Estimation de couts CVC et controle de devis",
+  "category": "technical_method",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Fournir a l'agent IA une methode prudente pour cadrer des ordres de grandeur CVC, detecter un devis aberrant et structurer une consultation, sans transformer des ratios indicatifs en prix contractuels.",
+  "scope": {
+    "families": [
+      "PAC individuelle et collective",
+      "chaufferie collective",
+      "emetteurs de chaleur",
+      "CTA et ventilation",
+      "GTB/GTC",
+      "calorifugeage",
+      "mise en service et equilibrage"
+    ],
+    "limits": [
+      "Tous les prix issus du corpus local sont des ordres de grandeur indicatifs.",
+      "Les estimations doivent etre confirmees par consultation d'entreprises et ne remplacent jamais un devis.",
+      "Les aides CEE, primes et reste a charge doivent etre calcules par les modules reglementaires, pas par cette competence."
+    ]
+  },
+  "applies_to": [
+    "audit_scenarios",
+    "DPT",
+    "quote_review",
+    "CVC_related_fiches"
+  ],
+  "source_policy": {
+    "official_source_required_for": [
+      "montants CEE",
+      "primes et conditions d'aide",
+      "obligations de devis/facture",
+      "index de revision officiellement applicable a un marche"
+    ],
+    "operator_practice_allowed_for": [
+      "ordre de grandeur budgetaire",
+      "controle de coherence d'un devis",
+      "structure de BPU",
+      "alertes sur postes oublies",
+      "preparation de consultation"
+    ],
+    "no_hallucination_rules": [
+      "Ne jamais presenter un ratio comme prix ferme.",
+      "Ne jamais inventer un devis entreprise ou un montant facture.",
+      "Toujours marquer les couts comme estimated tant qu'ils ne proviennent pas d'une piece contractuelle.",
+      "Toujours signaler les exclusions : genie civil, emetteurs, acces, depose, electricite, equilibrage, mise en service."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "cost.scope",
+      "label": "Perimetre de chiffrage",
+      "status": "required",
+      "evidence_level": "business_practice",
+      "reason": "Les couts changent selon ce qui est inclus : production, distribution, emission, regulation, depose, MOE.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"],
+      "if_applicable": null,
+      "ai_instruction": "Demander inclus/exclus avant tout ordre de grandeur."
+    },
+    {
+      "field": "site.complexity",
+      "label": "Complexite du site",
+      "status": "required",
+      "evidence_level": "business_practice",
+      "reason": "Acces, region, contraintes d'exploitation et existant peuvent faire varier fortement le prix.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"],
+      "if_applicable": null,
+      "ai_instruction": "Classer simple/standard/complexe avec justification."
+    },
+    {
+      "field": "technical.quantities",
+      "label": "Quantites techniques",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Puissance, surface, longueur, nombre d'emetteurs ou points GTB pilotent le budget.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas inventer les quantites ; demander metrees, plans ou devis."
+    },
+    {
+      "field": "cost.price_date",
+      "label": "Date de valeur des prix",
+      "status": "required",
+      "evidence_level": "business_practice",
+      "reason": "Les prix CVC sont temporels et sensibles aux indices.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"],
+      "if_applicable": null,
+      "ai_instruction": "Indiquer l'annee de reference et le besoin d'actualisation."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "cost.market_quotes",
+      "label": "Devis entreprises consultes",
+      "status": "recommended",
+      "evidence_level": "business_practice",
+      "reason": "Une consultation de plusieurs entreprises est la seule base robuste pour un cout contractuel.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"],
+      "if_applicable": "Avant decision ou depot strict.",
+      "ai_instruction": "Recommander au moins trois consultations quand le dossier repose sur l'estimation."
+    },
+    {
+      "field": "cost.exclusions",
+      "label": "Exclusions et travaux induits",
+      "status": "recommended",
+      "evidence_level": "business_practice",
+      "reason": "Les ecarts viennent souvent de postes exclus : genie civil, emetteurs, electricite, calorifugeage, mise en service.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"],
+      "if_applicable": null,
+      "ai_instruction": "Lister systematiquement les exclusions."
+    },
+    {
+      "field": "cost.region",
+      "label": "Region et conditions de marche",
+      "status": "recommended",
+      "evidence_level": "business_practice",
+      "reason": "Les variations regionales peuvent etre significatives.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"],
+      "if_applicable": null,
+      "ai_instruction": "Marquer comme hypothese si non renseigne."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "cost.preliminary_range",
+      "label": "Fourchette budgetaire preliminaire",
+      "status": "deducible",
+      "evidence_level": "estimation",
+      "reason": "Peut etre deduite de ratios et quantites pour orienter un scenario.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"],
+      "if_applicable": "Phase audit, DTG, DPT brouillon.",
+      "ai_instruction": "Toujours sortir min/max, confiance et besoin de consultation."
+    }
+  ],
+  "method_steps": [
+    {
+      "id": "define_scope",
+      "title": "Definir inclus et exclus",
+      "instruction": "Identifier le lot exact : production, reseaux, emetteurs, regulation, electricite, depose, essais, MOE.",
+      "output": "cost_scope",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    },
+    {
+      "id": "collect_quantities",
+      "title": "Collecter quantites",
+      "instruction": "Collecter kW, m2, ml, nombre d'equipements, points GTB, deposes et contraintes d'acces.",
+      "output": "quantity_table",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    },
+    {
+      "id": "select_estimation_basis",
+      "title": "Choisir base d'estimation",
+      "instruction": "Utiliser ratio par kW, par m2, par ml ou BPU selon le niveau de detail disponible.",
+      "output": "estimation_basis",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    },
+    {
+      "id": "flag_uncertainty",
+      "title": "Qualifier l'incertitude",
+      "instruction": "Affecter une fourchette, les exclusions et les conditions de validation par devis.",
+      "output": "uncertainty_and_validation",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    }
+  ],
+  "calculation_methods": [
+    {
+      "id": "ratio_by_kw",
+      "title": "Estimation par kW installe",
+      "status": "estimation",
+      "formula_or_method": "cost_range = installed_power_kw x unit_cost_range_eur_per_kw.",
+      "inputs": ["technical.installed_power_kw", "cost.unit_cost_range_eur_per_kw"],
+      "outputs": ["cost.preliminary_range"],
+      "limits": [
+        "Utilisable en phase amont seulement.",
+        "Tres sensible aux inclus/exclus et a la puissance.",
+        "Doit etre valide par devis."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    },
+    {
+      "id": "ratio_by_area",
+      "title": "Estimation par surface",
+      "status": "estimation",
+      "formula_or_method": "cost_range = heated_area_m2 x unit_cost_range_eur_per_m2.",
+      "inputs": ["building.heated_area_m2", "cost.unit_cost_range_eur_per_m2"],
+      "outputs": ["cost.preliminary_range"],
+      "limits": [
+        "Adaptee aux scenarios d'audit, pas aux devis.",
+        "Ne capte pas les contraintes de chaufferie ou d'acces."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    },
+    {
+      "id": "bpu_sum",
+      "title": "Somme de bordereau de prix",
+      "status": "estimation",
+      "formula_or_method": "total = somme(quantity_i x unit_price_i) + allowances + contingencies.",
+      "inputs": ["cost.bpu_items", "cost.allowances", "cost.contingencies"],
+      "outputs": ["cost.preliminary_total"],
+      "limits": [
+        "Les prix unitaires doivent etre dates et sources.",
+        "Ne pas publier comme devis sans entreprise signataire."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    }
+  ],
+  "fiche_specific_requirements": [
+    {
+      "code": "*",
+      "requirement": "Les couts n'etablissent pas l'eligibilite CEE ; ils servent au DPT, a l'audit et aux controles de coherence.",
+      "status": "not_systematic",
+      "timing": null,
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"],
+      "notes": "Le montant de contribution CEE est gere par les modules dossier/devis/cadre contribution."
+    }
+  ],
+  "professional_validation": {
+    "required": true,
+    "must_validate": [
+      "perimetre inclus/exclus",
+      "quantites",
+      "base de prix",
+      "actualisation des prix",
+      "coherence avec devis entreprises",
+      "risques de travaux induits"
+    ],
+    "ai_rule": "L'IA peut produire une fourchette estimee et des alertes, mais pas un prix contractuel."
+  },
+  "blocking_missing_inputs": [
+    {
+      "field": "cost.scope",
+      "question": "Quel est le perimetre exact du chiffrage et ses exclusions ?",
+      "severity": "high",
+      "why_blocking": "Un prix sans perimetre est trompeur et non comparable.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    },
+    {
+      "field": "technical.quantities",
+      "question": "Quelles quantites techniques sont confirmees ?",
+      "severity": "high",
+      "why_blocking": "Les ratios ne peuvent pas s'appliquer sans quantite.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "estimate_not_contractual",
+      "title": "Estimation marquee non contractuelle",
+      "severity": "high",
+      "logic": "if cost source is ratio or local corpus then output must include estimated=true and consultation_required=true.",
+      "on_failure": "Bloquer la sortie publique du chiffrage.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    },
+    {
+      "id": "three_quotes_recommended",
+      "title": "Consultation de marche recommandee",
+      "severity": "medium",
+      "logic": "if strict decision or investment decision then at least three market_quotes are recommended or a justification is present.",
+      "on_failure": "Ajouter needs_human_review et recommandation de consultation.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    },
+    {
+      "id": "exclusions_listed",
+      "title": "Exclusions listees",
+      "severity": "medium",
+      "logic": "cost.exclusions should be present for every estimate.",
+      "on_failure": "Demander inclus/exclus.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "quote_outlier_detection",
+      "title": "Controle devis aberrant",
+      "severity": "medium",
+      "logic": "compare quote total to preliminary_range and flag if outside justified tolerance.",
+      "on_failure": "Demander detail BPU ou explication des postes induits.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "estimate_used_as_invoice",
+      "title": "Estimation utilisee comme facture ou devis",
+      "severity": "high",
+      "trigger_condition": "cost.estimated == true and document_type in ['invoice','signed_quote'].",
+      "affected_documents": ["devis", "facture", "dpt"],
+      "blocking": true,
+      "correction_action": "Remplacer par une piece contractuelle signee ou facture conforme.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    },
+    {
+      "id": "hidden_induced_works",
+      "title": "Travaux induits non chiffres",
+      "severity": "medium",
+      "trigger_condition": "cost.exclusions missing or known induced works absent.",
+      "affected_documents": ["audit", "devis", "dpt"],
+      "blocking": false,
+      "correction_action": "Lister genie civil, electricite, depose, emetteurs, mise en service, equilibrage et MOE.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    },
+    {
+      "id": "outdated_price_basis",
+      "title": "Base de prix obsolete",
+      "severity": "medium",
+      "trigger_condition": "price_date older than accepted window and no indexation.",
+      "affected_documents": ["audit", "dpt", "scenario"],
+      "blocking": false,
+      "correction_action": "Actualiser ou confirmer par consultation.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_COSTS"]
+    }
+  ],
+  "output_contract": {
+    "draft_sections": [
+      "Perimetre chiffrage",
+      "Quantites",
+      "Base de prix",
+      "Fourchette estimee",
+      "Exclusions",
+      "Incertitude",
+      "Validation par consultation"
+    ],
+    "strict_mode": {
+      "requires_estimated_marker": true,
+      "requires_consultation_notice": true,
+      "never_use_as_invoice_or_signed_quote": true
+    }
+  },
+  "source_references": [
+    {
+      "id": "LOCAL_TECHNICAL_CORPUS_COSTS",
+      "title": "Corpus technique local prive - prix CVC",
+      "type": "secondary_analysis",
+      "reliability": "low",
+      "urls": [],
+      "notes": "Synthese distillee depuis un corpus prive non publie ; les prix sont indicatifs et doivent etre confirmes par consultation."
+    }
+  ],
+  "implementation_notes": [
+    "Les montants de cette competence ne doivent jamais alimenter une facture.",
+    "Un champ source_status=estimated est obligatoire pour toute sortie de cout non issue d'un devis.",
+    "Le moteur de controle doit recommander une consultation de marche, idealement trois devis, avant decision."
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "id": "ecs_dimensioning",
+  "title": "Dimensionnement ECS et controle sanitaire",
+  "category": "technical_method",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Aider l'agent IA a cadrer une production d'eau chaude sanitaire dans un dossier CEE ou audit, en distinguant besoins, stockage, puissance, pertes de boucle et risques legionelle.",
+  "scope": {
+    "families": [
+      "ECS collective",
+      "ECS tertiaire",
+      "solaire thermique en prechauffage",
+      "PAC ECS",
+      "production combinee chauffage + ECS"
+    ],
+    "limits": [
+      "Les ratios de puisage sont indicatifs et doivent etre adaptes au site.",
+      "Les exigences sanitaires et temperatures doivent etre confirmees par les textes applicables au type d'etablissement.",
+      "Les fiches CEE solaires ou thermodynamiques doivent etre chargees separement."
+    ]
+  },
+  "applies_to": [
+    "BAR-TH-168",
+    "BAR-TH-143",
+    "BAT-TH-*",
+    "RES-CH-*",
+    "ecs_related_fiches"
+  ],
+  "source_policy": {
+    "official_source_required_for": [
+      "obligations sanitaires par type d'etablissement",
+      "criteres CEE solaire thermique ou PAC ECS",
+      "pieces justificatives exigibles",
+      "certifications capteurs, ballons ou PAC"
+    ],
+    "operator_practice_allowed_for": [
+      "estimation du profil de puisage",
+      "choix preliminaire instantane/accumulation/semi-accumulation",
+      "alerte sur pertes de boucle",
+      "questions de validation technique"
+    ],
+    "no_hallucination_rules": [
+      "Ne jamais inventer le profil de puisage, le nombre d'usagers ou le volume de ballon.",
+      "Ne jamais conclure sur la conformite sanitaire sans source et validation professionnelle.",
+      "Ne pas utiliser une PAC ou un solaire thermique basse temperature sans post-chauffage documente si le risque sanitaire l'exige.",
+      "Marquer tout ratio de besoin ECS comme estimation."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "site.use_type",
+      "label": "Usage du batiment",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Le profil ECS depend fortement de l'usage : logement, hotel, hopital, sport, restauration.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"],
+      "if_applicable": null,
+      "ai_instruction": "Demander l'usage et l'occupation avant tout calcul."
+    },
+    {
+      "field": "ecs.draw_profile",
+      "label": "Profil de puisage ECS",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Le dimensionnement instantane ou semi-accumulation depend des pointes.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"],
+      "if_applicable": null,
+      "ai_instruction": "Si absent, produire une liste de questions et non un calcul final."
+    },
+    {
+      "field": "ecs.target_temperature_c",
+      "label": "Temperature cible de production",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "La temperature impacte energie stockee, hygienisation et performance du generateur.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"],
+      "if_applicable": null,
+      "ai_instruction": "Verifier si l'usage impose une exigence sanitaire renforcee."
+    },
+    {
+      "field": "ecs.distribution_loop",
+      "label": "Boucle de distribution ECS",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "La boucle peut etre le premier poste de pertes et conditionne le maintien en temperature.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"],
+      "if_applicable": "ECS collective ou reseau long.",
+      "ai_instruction": "Demander longueur, isolation, temperatures depart/retour et plages de fonctionnement."
+    },
+    {
+      "field": "ecs.production_mode",
+      "label": "Mode de production",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Instantane, accumulation et semi-accumulation utilisent des methodes differentes.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"],
+      "if_applicable": null,
+      "ai_instruction": "Classer le mode avant de calculer."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "ecs.storage_volume_l",
+      "label": "Volume de stockage",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Necessaire pour verifier accumulation, stratification et risque de stagnation.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"],
+      "if_applicable": "Avec stockage.",
+      "ai_instruction": "Ne pas inventer ; demander fiche technique ou schema."
+    },
+    {
+      "field": "ecs.heat_exchanger_power_kw",
+      "label": "Puissance echangeur ou generateur ECS",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Controle la reconstitution et la couverture de pointe.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"],
+      "if_applicable": "Production instantanee, accumulation ou semi-accumulation.",
+      "ai_instruction": "Comparer au profil de puisage."
+    },
+    {
+      "field": "ecs.post_heating",
+      "label": "Post-chauffage haute temperature",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Les systemes solaires et PAC ECS peuvent necessiter une finition haute temperature.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"],
+      "if_applicable": "Solaire thermique, PAC ECS, prechauffage.",
+      "ai_instruction": "Demander le schema de post-chauffage si absent."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "ecs.v60_l",
+      "label": "Volume equivalent a 60 C",
+      "status": "deducible",
+      "evidence_level": "professional_method",
+      "reason": "Uniformise les besoins a differentes temperatures d'usage.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"],
+      "if_applicable": "Calcul de besoins ECS.",
+      "ai_instruction": "Conserver la temperature d'usage source."
+    }
+  ],
+  "method_steps": [
+    {
+      "id": "qualify_use",
+      "title": "Qualifier l'usage et l'occupation",
+      "instruction": "Identifier le type de site, les usagers, les periodes d'occupation et les pointes ECS.",
+      "output": "ecs_use_profile",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    },
+    {
+      "id": "select_production_mode",
+      "title": "Choisir le mode de calcul",
+      "instruction": "Orienter vers instantane, accumulation ou semi-accumulation selon le profil et le niveau d'exigence.",
+      "output": "selected_ecs_method",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    },
+    {
+      "id": "check_loop_losses",
+      "title": "Verifier les pertes de boucle",
+      "instruction": "Controler isolation, arret programme, temperature retour et points singuliers.",
+      "output": "loop_loss_assessment",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    },
+    {
+      "id": "check_sanitary_risk",
+      "title": "Controler le risque legionelle",
+      "instruction": "Verifier maintien en temperature, bras morts, stagnation et post-chauffage pour systemes basse temperature.",
+      "output": "sanitary_risk_flags",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    }
+  ],
+  "calculation_methods": [
+    {
+      "id": "v60_conversion",
+      "title": "Conversion volume equivalent 60 C",
+      "status": "professional_method",
+      "formula_or_method": "V60 = Vx x (Tx - 10) / (60 - 10).",
+      "inputs": ["ecs.volume_at_use_temperature_l", "ecs.use_temperature_c"],
+      "outputs": ["ecs.v60_l"],
+      "limits": [
+        "Temperature eau froide 10 C prise comme hypothese ; a ajuster si necessaire.",
+        "Ne remplace pas un profil de puisage mesure."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    },
+    {
+      "id": "instant_power",
+      "title": "Puissance production instantanee",
+      "status": "professional_method",
+      "formula_or_method": "E_10min_kWh = 1.16 x V60_10min x 50 / 1000 ; P_inst_kW = E_10min x 6 + P_distribution.",
+      "inputs": ["ecs.v60_10min_l", "ecs.loop_losses_kw"],
+      "outputs": ["ecs.instant_power_kw"],
+      "limits": [
+        "Dimensionne sur pointe courte ; verifier simultaneite reelle.",
+        "Ajouter les pertes de distribution si boucle presente."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    },
+    {
+      "id": "storage_volume",
+      "title": "Volume de stockage accumulation",
+      "status": "professional_method",
+      "formula_or_method": "V_ballon_l = E_day_kWh x 1000 / (1.16 x (T_storage - 10) x storage_efficiency).",
+      "inputs": ["ecs.daily_energy_kwh", "ecs.storage_temperature_c", "ecs.storage_efficiency"],
+      "outputs": ["ecs.storage_volume_l"],
+      "limits": [
+        "Le coefficient d'efficacite depend de la stratification.",
+        "Le volume final doit etre valide par un professionnel."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    },
+    {
+      "id": "accumulation_power",
+      "title": "Puissance de reconstitution accumulation",
+      "status": "professional_method",
+      "formula_or_method": "P_accu_kW = E_day_kWh / (recovery_time_h x 0.9) + P_distribution.",
+      "inputs": ["ecs.daily_energy_kwh", "ecs.recovery_time_h", "ecs.loop_losses_kw"],
+      "outputs": ["ecs.accumulation_power_kw"],
+      "limits": [
+        "Hypothese de rendement/reconstitution a verifier selon generateur.",
+        "Le temps de reconstitution doit etre compatible avec l'exploitation."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    }
+  ],
+  "fiche_specific_requirements": [
+    {
+      "code": "BAR-TH-168",
+      "requirement": "Pour solaire thermique, verifier surface capteurs, volume stockage, appoint et post-chauffage dans la fiche applicable.",
+      "status": "to_confirm",
+      "timing": null,
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "notes": "Le solaire doit souvent etre traite comme prechauffage avec finition haute temperature."
+    }
+  ],
+  "professional_validation": {
+    "required": true,
+    "must_validate": [
+      "profil de puisage",
+      "mode de production",
+      "volume de stockage",
+      "puissance echangeur ou generateur",
+      "temperatures sanitaires",
+      "isolation et fonctionnement de boucle",
+      "post-chauffage pour systemes basse temperature"
+    ],
+    "ai_rule": "L'IA produit un cadrage et des alertes, pas une validation sanitaire ou un dimensionnement final."
+  },
+  "blocking_missing_inputs": [
+    {
+      "field": "site.use_type",
+      "question": "Quel est l'usage du batiment et le profil d'occupation ?",
+      "severity": "high",
+      "why_blocking": "Le besoin ECS depend de l'usage et des pointes.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    },
+    {
+      "field": "ecs.production_mode",
+      "question": "La production est-elle instantanee, accumulation, semi-accumulation ou prechauffage ?",
+      "severity": "high",
+      "why_blocking": "La methode de calcul depend du mode.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "sanitary_temperature_documented",
+      "title": "Temperatures sanitaires documentees",
+      "severity": "high",
+      "logic": "target_temperature_c and return_loop_temperature_c are present when collective ECS is present.",
+      "on_failure": "Demander schema ECS et parametres de regulation.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    },
+    {
+      "id": "post_heating_for_low_temp_source",
+      "title": "Post-chauffage si source basse temperature",
+      "severity": "high",
+      "logic": "if solar_or_heat_pump_preheating then post_heating must be documented.",
+      "on_failure": "Signaler risque sanitaire et technique.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "ecs_power_vs_draw_profile",
+      "title": "Puissance coherente avec profil ECS",
+      "severity": "medium",
+      "logic": "heat_exchanger_power_kw should cover selected draw profile or recovery window.",
+      "on_failure": "Demander recalcul ou justification.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "legionella_risk_unaddressed",
+      "title": "Risque legionelle non traite",
+      "severity": "high",
+      "trigger_condition": "collective_ecs == true and sanitary_temperature_or_post_heating missing.",
+      "affected_documents": ["dpt", "note_technique", "facture", "schema_hydraulique"],
+      "blocking": true,
+      "correction_action": "Demander validation sanitaire, temperatures et schema de production.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    },
+    {
+      "id": "loop_losses_ignored",
+      "title": "Pertes de boucle ECS ignorees",
+      "severity": "medium",
+      "trigger_condition": "distribution_loop == true and loop_losses_kw missing.",
+      "affected_documents": ["audit", "dpt", "devis"],
+      "blocking": false,
+      "correction_action": "Demander isolation, longueurs, temperatures et horaires de boucle.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    },
+    {
+      "id": "ecs_profile_estimated_as_final",
+      "title": "Profil ECS estime utilise comme final",
+      "severity": "medium",
+      "trigger_condition": "draw_profile.status == estimated and strict_mode == true.",
+      "affected_documents": ["audit", "note_technique"],
+      "blocking": false,
+      "correction_action": "Faire valider par le BET ou exploiter mesures/consommations.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_ECS"]
+    }
+  ],
+  "output_contract": {
+    "draft_sections": [
+      "Usage et occupation",
+      "Profil de puisage",
+      "Mode de production",
+      "Stockage et puissance",
+      "Boucle ECS et pertes",
+      "Controle sanitaire",
+      "Questions a valider"
+    ],
+    "strict_mode": {
+      "requires_professional_validation": true,
+      "block_if_sanitary_risk_unaddressed": true
+    }
+  },
+  "source_references": [
+    {
+      "id": "FICHE_CEE_SOURCE",
+      "title": "Fiche CEE officielle applicable",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-standardisees-deconomies-denergie"
+      ],
+      "notes": "Source obligatoire pour criteres CEE."
+    },
+    {
+      "id": "LOCAL_TECHNICAL_CORPUS_ECS",
+      "title": "Corpus technique local prive - ECS",
+      "type": "secondary_analysis",
+      "reliability": "medium",
+      "urls": [],
+      "notes": "Synthese distillee depuis un corpus prive non publie ; aide methodologique uniquement."
+    }
+  ],
+  "implementation_notes": [
+    "Cette competence est utile pour BAR-TH-168 et les operations ECS, mais ne doit pas declarer une piece obligatoire sans fiche source.",
+    "Ajouter un statut source_status aux profils de puisage.",
+    "Les controles sanitaires doivent etre presentes comme risques a valider, pas comme avis juridique."
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "id": "building_heat_losses",
+  "title": "Calcul et controle des deperditions batiment",
+  "category": "technical_method",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Structurer les donnees et controles de deperditions thermiques utiles aux notes de dimensionnement, audits, DPT et controles de coherence CEE.",
+  "scope": {
+    "families": [
+      "chauffage residentiel",
+      "chauffage collectif",
+      "batiment tertiaire",
+      "isolation enveloppe",
+      "dimensionnement generateur"
+    ],
+    "limits": [
+      "Cette competence structure un calcul ou un pre-controle, mais ne certifie pas une etude EN 12831.",
+      "Les valeurs U, R, lambda et ponts thermiques doivent etre sourcees ou validees par un professionnel.",
+      "Les seuils CEE d'isolation doivent etre charges depuis la fiche applicable."
+    ]
+  },
+  "applies_to": [
+    "BAR-TH-171",
+    "BAR-TH-179",
+    "BAR-TH-113",
+    "BAR-TH-159",
+    "BAR-EN-*",
+    "BAT-EN-*",
+    "heating_and_envelope_fiches"
+  ],
+  "source_policy": {
+    "official_source_required_for": [
+      "seuils R minimaux CEE",
+      "methode reglementaire DPE ou audit lorsqu'elle est exigee",
+      "Tbase officielle si le dossier l'impose",
+      "valeurs conventionnelles utilisees dans un calcul opposable"
+    ],
+    "operator_practice_allowed_for": [
+      "pre-diagnostic thermique",
+      "estimation rapide G x V x Delta T",
+      "alerte sur incoherence surface/puissance",
+      "tableau de collecte de parois"
+    ],
+    "no_hallucination_rules": [
+      "Ne jamais inventer une composition de paroi, une valeur U, un pont thermique ou une ventilation.",
+      "Ne jamais melanger une estimation DPE, un audit et un dimensionnement EN 12831 sans indiquer la methode.",
+      "Toute valeur par defaut doit etre marquee estimated et needs_human_review.",
+      "Les seuils CEE par fiche doivent rester dans les curated/rules, pas dans cette competence generale."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "building.heated_area_m2",
+      "label": "Surface chauffee",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Base du perimetre de calcul et des controles de coherence.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"],
+      "if_applicable": null,
+      "ai_instruction": "Demander le perimetre exact chauffe par le generateur ou les travaux."
+    },
+    {
+      "field": "building.envelope_surfaces",
+      "label": "Surfaces par paroi",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Les deperditions par transmission utilisent Q = U x A x Delta T.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"],
+      "if_applicable": "Calcul detaille.",
+      "ai_instruction": "Distinguer murs, toiture, plancher, baies et parois sur locaux non chauffes."
+    },
+    {
+      "field": "building.u_values",
+      "label": "Coefficients U par paroi",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Chaque paroi doit avoir un coefficient de transmission thermique source.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"],
+      "if_applicable": "Calcul detaille.",
+      "ai_instruction": "Si U n'est pas fourni, demander composition de paroi et valeurs lambda/R."
+    },
+    {
+      "field": "climate.t_base_c",
+      "label": "Temperature exterieure de base",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Le dimensionnement chauffage s'effectue au point de temperature de base.",
+      "source_refs": ["COMPETENCE_NOTE_DIMENSIONNEMENT"],
+      "if_applicable": "Dimensionnement generateur.",
+      "ai_instruction": "Proposer une valeur seulement avec source et validation requise."
+    },
+    {
+      "field": "climate.t_setpoint_c",
+      "label": "Temperature interieure de consigne",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Delta T = T_interieur - T_exterieur sert aux pertes.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas imposer une consigne sans contexte d'usage."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "building.thermal_bridges",
+      "label": "Ponts thermiques",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Les ponts thermiques peuvent degrader fortement la performance reelle.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"],
+      "if_applicable": "Calcul detaille ou audit.",
+      "ai_instruction": "Demander lineaires et coefficients psi si l'etude les traite."
+    },
+    {
+      "field": "building.ventilation_losses",
+      "label": "Pertes par ventilation et infiltration",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Les pertes de renouvellement d'air peuvent etre determinantes.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"],
+      "if_applicable": "Dimensionnement chauffage.",
+      "ai_instruction": "Distinguer ventilation mecanique, naturelle et infiltrations."
+    },
+    {
+      "field": "building.layer_composition",
+      "label": "Composition des parois",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Permet de recalculer R = e/lambda puis U = 1/somme R.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"],
+      "if_applicable": "Si U non fourni.",
+      "ai_instruction": "Garder les valeurs lambda et epaisseurs comme champs sources."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "building.r_values",
+      "label": "Resistances thermiques R",
+      "status": "deducible",
+      "evidence_level": "professional_method",
+      "reason": "R peut etre calcule depuis epaisseur et conductivite.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"],
+      "if_applicable": "Paroi composee ou isolation.",
+      "ai_instruction": "Marquer needs_human_review si lambda ou epaisseur est estimee."
+    },
+    {
+      "field": "building.heat_loss_specific_w_per_k",
+      "label": "Deperditions specifiques W/K",
+      "status": "deducible",
+      "evidence_level": "professional_method",
+      "reason": "Somme des pertes par transmission, ponts thermiques et ventilation.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"],
+      "if_applicable": "Note de dimensionnement.",
+      "ai_instruction": "Conserver le detail par poste."
+    }
+  ],
+  "method_steps": [
+    {
+      "id": "define_scope",
+      "title": "Definir le perimetre chauffe",
+      "instruction": "Identifier les surfaces et volumes reellement desservis par le generateur ou par les travaux.",
+      "output": "heated_scope",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    },
+    {
+      "id": "collect_envelope",
+      "title": "Collecter parois et valeurs U",
+      "instruction": "Rassembler surfaces, compositions, valeurs lambda/R/U et preuves sources.",
+      "output": "envelope_table",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    },
+    {
+      "id": "compute_losses",
+      "title": "Calculer les pertes par poste",
+      "instruction": "Calculer transmission, ponts thermiques et ventilation separement, puis sommer.",
+      "output": "heat_losses_breakdown",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    },
+    {
+      "id": "classify_confidence",
+      "title": "Qualifier le niveau de preuve",
+      "instruction": "Marquer chaque donnee comme confirmed, estimated ou professional_validation_required.",
+      "output": "confidence_map",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    }
+  ],
+  "calculation_methods": [
+    {
+      "id": "r_value_from_lambda",
+      "title": "Resistance thermique d'une couche",
+      "status": "professional_method",
+      "formula_or_method": "R = e / lambda.",
+      "inputs": ["layer.thickness_m", "layer.lambda_w_per_mk"],
+      "outputs": ["layer.r_m2k_per_w"],
+      "limits": [
+        "Lambda doit etre source ou issu d'une table validee.",
+        "R n'inclut pas les resistances superficielles."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    },
+    {
+      "id": "u_value_from_r_sum",
+      "title": "Coefficient U d'une paroi",
+      "status": "professional_method",
+      "formula_or_method": "U = 1 / (Rsi + somme(R_couches) + Rse).",
+      "inputs": ["wall.rsi", "wall.layer_r_values", "wall.rse"],
+      "outputs": ["wall.u_w_per_m2k"],
+      "limits": [
+        "Les resistances superficielles dependent de l'orientation et du contexte.",
+        "Les ponts thermiques de structure peuvent reduire la performance effective."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    },
+    {
+      "id": "transmission_losses",
+      "title": "Deperditions par transmission",
+      "status": "professional_method",
+      "formula_or_method": "Q_W = U x A x DeltaT.",
+      "inputs": ["wall.u_w_per_m2k", "wall.area_m2", "climate.delta_t_k"],
+      "outputs": ["wall.heat_loss_w"],
+      "limits": [
+        "Formule stationnaire simplifiee.",
+        "Ne couvre pas les gains solaires, l'inertie ou les variations dynamiques."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    },
+    {
+      "id": "simple_gvdt_estimate",
+      "title": "Estimation globale G x V x Delta T",
+      "status": "estimation",
+      "formula_or_method": "Q_W = G x V x (T_setpoint - T_base).",
+      "inputs": ["building.g_w_per_m3k", "building.heated_volume_m3", "climate.t_setpoint_c", "climate.t_base_c"],
+      "outputs": ["building.heat_losses_kw"],
+      "limits": [
+        "Estimation rapide seulement.",
+        "Ne pas presenter comme EN 12831 ou preuve opposable."
+      ],
+      "source_refs": ["COMPETENCE_NOTE_DIMENSIONNEMENT"]
+    }
+  ],
+  "fiche_specific_requirements": [
+    {
+      "code": "BAR-EN-*",
+      "requirement": "Les seuils R minimaux d'isolation doivent etre verifies dans la fiche applicable, pas dans cette competence generale.",
+      "status": "to_confirm",
+      "timing": null,
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "notes": "Cette competence aide a ne pas confondre R et U."
+    },
+    {
+      "code": "BAR-TH-171",
+      "requirement": "Les deperditions a Tbase alimentent la note de dimensionnement PAC.",
+      "status": "explicit_in_fiche",
+      "timing": "Selon fiche applicable.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "notes": "Utiliser avec note_dimensionnement_chauffage."
+    },
+    {
+      "code": "BAR-TH-179",
+      "requirement": "Les deperditions concernent les surfaces desservies par le reseau de chauffage.",
+      "status": "explicit_in_fiche",
+      "timing": "Selon fiche applicable.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "notes": "Attention au perimetre collectif."
+    }
+  ],
+  "professional_validation": {
+    "required": true,
+    "must_validate": [
+      "composition des parois",
+      "valeurs lambda, R et U",
+      "ponts thermiques",
+      "ventilation et infiltrations",
+      "Tbase et consigne",
+      "resultat global de deperditions"
+    ],
+    "ai_rule": "L'IA peut structurer le tableau et signaler les incoherences, pas certifier seule les deperditions."
+  },
+  "blocking_missing_inputs": [
+    {
+      "field": "building.heated_area_m2",
+      "question": "Quelle surface chauffee appartient au perimetre de calcul ?",
+      "severity": "high",
+      "why_blocking": "Le perimetre conditionne les deperditions et la puissance.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    },
+    {
+      "field": "building.u_values",
+      "question": "Quelles valeurs U ou compositions de parois sont disponibles ?",
+      "severity": "high",
+      "why_blocking": "Impossible de calculer Q = U x A x Delta T sans U ou composition.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "r_and_u_not_confused",
+      "title": "R et U non confondus",
+      "severity": "high",
+      "logic": "R fields must be m2.K/W and U fields must be W/m2.K; CEE insulation thresholds use R when fiche says R.",
+      "on_failure": "Bloquer le controle technique et demander correction unite.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "losses_positive",
+      "title": "Deperditions positives",
+      "severity": "high",
+      "logic": "heat_losses_kw > 0 and each wall area and U value are positive when provided.",
+      "on_failure": "Demander correction des entrees.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    },
+    {
+      "id": "source_quality_marked",
+      "title": "Qualite des donnees marquee",
+      "severity": "medium",
+      "logic": "Every U/R/lambda/default value must have source status confirmed|estimated|to_confirm.",
+      "on_failure": "Ajouter needs_human_review.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "heat_losses_vs_pac_power",
+      "title": "Deperditions coherentes avec puissance PAC",
+      "severity": "medium",
+      "logic": "heat_losses_kw should be compared to generator power and surface ratios for outlier detection.",
+      "on_failure": "Demander revue thermique.",
+      "source_refs": ["COMPETENCE_NOTE_DIMENSIONNEMENT"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "estimated_losses_used_as_final",
+      "title": "Estimation deperditions utilisee comme calcul final",
+      "severity": "high",
+      "trigger_condition": "heat_losses.status == estimated and strict_mode == true.",
+      "affected_documents": ["note_dimensionnement", "audit", "dpt"],
+      "blocking": true,
+      "correction_action": "Faire valider ou remplacer par un calcul professionnel.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    },
+    {
+      "id": "missing_ventilation_losses",
+      "title": "Pertes ventilation/infiltration absentes",
+      "severity": "medium",
+      "trigger_condition": "detailed_heat_loss == true and ventilation_losses missing.",
+      "affected_documents": ["note_dimensionnement", "audit"],
+      "blocking": false,
+      "correction_action": "Demander debit de ventilation, infiltrations ou justification d'exclusion.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER"]
+    },
+    {
+      "id": "wrong_unit_r_u",
+      "title": "Confusion unite R/U",
+      "severity": "high",
+      "trigger_condition": "R value used where U expected or U value used where R expected.",
+      "affected_documents": ["devis", "facture", "ah", "note_dimensionnement"],
+      "blocking": true,
+      "correction_action": "Corriger l'unite et recalculer le controle fiche.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER", "FICHE_CEE_SOURCE"]
+    }
+  ],
+  "output_contract": {
+    "draft_sections": [
+      "Perimetre chauffe",
+      "Hypotheses climatiques",
+      "Parois et valeurs U/R",
+      "Ponts thermiques",
+      "Ventilation et infiltration",
+      "Synthese deperditions",
+      "Donnees a valider"
+    ],
+    "strict_mode": {
+      "requires_professional_validation": true,
+      "block_if_estimated_final": true
+    }
+  },
+  "source_references": [
+    {
+      "id": "FICHE_CEE_SOURCE",
+      "title": "Fiche CEE officielle applicable",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-standardisees-deconomies-denergie"
+      ],
+      "notes": "Source obligatoire pour les seuils d'eligibilite."
+    },
+    {
+      "id": "LOCAL_TECHNICAL_CORPUS_HEAT_TRANSFER",
+      "title": "Corpus technique local prive - transfert thermique batiment",
+      "type": "secondary_analysis",
+      "reliability": "medium",
+      "urls": [],
+      "notes": "Synthese distillee depuis un corpus prive non publie ; aide methodologique uniquement."
+    },
+    {
+      "id": "COMPETENCE_NOTE_DIMENSIONNEMENT",
+      "title": "Competence note_dimensionnement_chauffage",
+      "type": "secondary_analysis",
+      "reliability": "medium",
+      "urls": [],
+      "notes": "Competence interne deja disponible dans le moteur."
+    }
+  ],
+  "implementation_notes": [
+    "Appeler cette competence avant les competences PAC et note de dimensionnement lorsque les deperditions sont absentes.",
+    "Conserver un champ source_status pour chaque valeur thermique.",
+    "Ne pas dupliquer ici les seuils techniques de chaque fiche."
+  ]
+}

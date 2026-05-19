@@ -1,0 +1,344 @@
+{
+  "id": "gtb_bacs_method",
+  "title": "GTB/BACS - methodologie de preuve et controle fonctionnel",
+  "category": "technical_method",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Structurer les informations attendues pour une operation GTB/BACS, notamment BAT-TH-116, en separant fonctions reelles, classe de regulation, preuves fabricant et commissionnement.",
+  "scope": {
+    "families": [
+      "GTB tertiaire",
+      "BACS",
+      "BAT-TH-116",
+      "decret tertiaire et suivi energie",
+      "commissionnement CVC"
+    ],
+    "limits": [
+      "Les obligations du decret BACS et les seuils BAT-TH-116 doivent etre confirmes par source officielle a jour.",
+      "La classe A/B/C/D doit etre prouvee par documents fabricant ou etude, pas deduite par l'IA.",
+      "Cette competence ne remplace pas un rapport de commissionnement."
+    ]
+  },
+  "applies_to": [
+    "BAT-TH-116",
+    "BAT-TH-*",
+    "GTB_related_fiches"
+  ],
+  "source_policy": {
+    "official_source_required_for": [
+      "eligibilite BAT-TH-116",
+      "classe de regulation exigible",
+      "calendrier et obligations BACS",
+      "pieces justificatives CEE"
+    ],
+    "operator_practice_allowed_for": [
+      "check-list de fonctions GTB",
+      "preuves de commissionnement",
+      "captures IHM",
+      "mapping points GTB",
+      "questions a poser au fournisseur"
+    ],
+    "no_hallucination_rules": [
+      "Ne jamais attribuer une classe NF EN ISO 52120-1 sans preuve.",
+      "Ne jamais supposer que tous les usages CVC sont pilotes si le synoptique ou la liste de points ne le prouve pas.",
+      "Ne pas confondre supervision simple et regulation automatique optimisee.",
+      "En mode strict, demander schema, liste de points, notice, PV de mise en service et preuve de classe."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "operation.cee_code",
+      "label": "Code fiche CEE",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "La fiche definit le perimetre et les pieces attendues.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Charger la fiche avant d'exiger une classe ou une fonction."
+    },
+    {
+      "field": "building.sector",
+      "label": "Secteur et usage du batiment",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Le contexte tertiaire et les usages pilotes conditionnent l'eligibilite.",
+      "source_refs": ["FICHE_CEE_SOURCE", "LOCAL_TECHNICAL_CORPUS_GTB"],
+      "if_applicable": null,
+      "ai_instruction": "Demander type de site, surfaces et usages CVC."
+    },
+    {
+      "field": "gtb.system_brand_model",
+      "label": "Marque et reference du systeme GTB",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "La preuve technique repose sur un systeme identifiable.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Ne jamais inventer ; demander devis, facture ou fiche technique."
+    },
+    {
+      "field": "gtb.regulation_class",
+      "label": "Classe de regulation",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "La classe A/B/C/D conditionne la performance attendue et souvent la preuve BAT-TH-116.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB", "FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Exiger une preuve documentaire ; ne pas deduire depuis le nom commercial."
+    },
+    {
+      "field": "gtb.controlled_functions",
+      "label": "Fonctions et usages controles",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "La GTB doit controler des usages reels : chauffage, refroidissement, ventilation, ECS, eclairage selon perimetre.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB", "FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Demander liste de points ou synoptique."
+    },
+    {
+      "field": "gtb.commissioning_report",
+      "label": "PV de mise en service ou commissionnement",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Prouve que les fonctions declarees sont parametrees et operationnelles.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"],
+      "if_applicable": "Operation en mode strict.",
+      "ai_instruction": "Si absent, creer un warning ou blocage selon fiche."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "gtb.points_list",
+      "label": "Liste de points GTB",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Permet de verifier capteurs, actionneurs, protocoles et usages couverts.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"],
+      "if_applicable": null,
+      "ai_instruction": "Demander export automate ou DOE."
+    },
+    {
+      "field": "gtb.screenshots",
+      "label": "Captures IHM/supervision",
+      "status": "recommended",
+      "evidence_level": "business_practice",
+      "reason": "Aide a prouver supervision, consignes et alarmes.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"],
+      "if_applicable": "Controle documentaire ou DPT.",
+      "ai_instruction": "Les etiqueter par usage et date."
+    },
+    {
+      "field": "energy_metering.submetering",
+      "label": "Comptage et sous-comptage",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Les donnees d'exploitation renforcent la preuve de suivi energetique.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"],
+      "if_applicable": "GTB orientee energie ou decret tertiaire.",
+      "ai_instruction": "Distinguer comptage, supervision et regulation."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "gtb.missing_function_flags",
+      "label": "Fonctions manquantes",
+      "status": "deducible",
+      "evidence_level": "professional_method",
+      "reason": "La comparaison perimetre/fonctions peut produire des alertes.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas transformer en rejet CEE sans fiche source."
+    }
+  ],
+  "method_steps": [
+    {
+      "id": "load_bat_th_116",
+      "title": "Charger la fiche applicable",
+      "instruction": "Lire BAT-TH-116 ou la fiche GTB concernee pour connaitre classe, perimetre et justificatifs.",
+      "output": "fiche_gtb_requirements",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "map_controlled_systems",
+      "title": "Mapper les usages controles",
+      "instruction": "Lister les usages reellement pilotes et les points associes : capteurs, regulateurs, actionneurs.",
+      "output": "controlled_systems_matrix",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"]
+    },
+    {
+      "id": "verify_class_evidence",
+      "title": "Verifier la preuve de classe",
+      "instruction": "Rechercher notice fabricant, attestation, etude ou rapport explicitant la classe NF EN ISO 52120-1.",
+      "output": "class_evidence_status",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "check_commissioning",
+      "title": "Controler mise en service",
+      "instruction": "Verifier PV, parametres, captures IHM et concordance avec devis/facture.",
+      "output": "commissioning_assessment",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"]
+    }
+  ],
+  "calculation_methods": [
+    {
+      "id": "gtb_coverage_matrix",
+      "title": "Matrice de couverture fonctionnelle",
+      "status": "professional_method",
+      "formula_or_method": "Pour chaque usage energetique: expected_function -> evidence -> status present/missing/to_confirm.",
+      "inputs": ["gtb.controlled_functions", "gtb.points_list", "gtb.evidence_documents"],
+      "outputs": ["gtb.coverage_matrix"],
+      "limits": [
+        "La matrice ne prouve pas la classe a elle seule.",
+        "La fiche CEE determine les fonctions strictement exigees."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB", "FICHE_CEE_SOURCE"]
+    }
+  ],
+  "fiche_specific_requirements": [
+    {
+      "code": "BAT-TH-116",
+      "requirement": "Verifier mise en place d'un systeme GTB, fonctions assurees, classe de regulation et preuve de mise en service selon la version de fiche applicable.",
+      "status": "explicit_in_fiche",
+      "timing": "Au dossier et a l'achevement.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "notes": "La fiche officielle est prioritaire sur cette synthese."
+    }
+  ],
+  "professional_validation": {
+    "required": true,
+    "must_validate": [
+      "classe NF EN ISO 52120-1",
+      "perimetre des usages pilotes",
+      "liste de points et architecture",
+      "parametrage et commissionnement",
+      "coherence facture / DOE / captures IHM"
+    ],
+    "ai_rule": "L'IA peut produire une matrice de preuves ; la classe et la conformite fonctionnelle doivent etre validees par documents et professionnel."
+  },
+  "blocking_missing_inputs": [
+    {
+      "field": "gtb.regulation_class",
+      "question": "Quelle classe de regulation est prouvee par le fabricant ou le BET ?",
+      "severity": "high",
+      "why_blocking": "La classe ne doit pas etre inventee et peut conditionner la fiche.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "field": "gtb.controlled_functions",
+      "question": "Quels usages sont reellement controles par la GTB ?",
+      "severity": "high",
+      "why_blocking": "Sans fonctions, impossible de verifier le perimetre de l'operation.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "class_has_evidence",
+      "title": "Classe de regulation prouvee",
+      "severity": "high",
+      "logic": "regulation_class must have evidence document reference.",
+      "on_failure": "Bloquer en mode strict et demander notice/attestation.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "controlled_functions_not_empty",
+      "title": "Fonctions controles presentes",
+      "severity": "high",
+      "logic": "controlled_functions length > 0 and each function has evidence.",
+      "on_failure": "Demander liste de points ou synoptique.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"]
+    },
+    {
+      "id": "commissioning_present",
+      "title": "Mise en service documentee",
+      "severity": "medium",
+      "logic": "commissioning_report or equivalent evidence is present.",
+      "on_failure": "Creer une demande de complement.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "gtb_quote_invoice_doe_consistency",
+      "title": "Coherence devis facture DOE",
+      "severity": "high",
+      "logic": "brand, model, functions and class should be coherent across quote, invoice, technical datasheet and commissioning report.",
+      "on_failure": "Creer un risque high et demander correction documentaire.",
+      "source_refs": ["FICHE_CEE_SOURCE", "LOCAL_TECHNICAL_CORPUS_GTB"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "class_declared_without_proof",
+      "title": "Classe declaree sans preuve",
+      "severity": "high",
+      "trigger_condition": "gtb.regulation_class present and evidence missing.",
+      "affected_documents": ["devis", "facture", "dpt", "fiche_technique"],
+      "blocking": true,
+      "correction_action": "Demander attestation fabricant ou note BET justifiant la classe.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "supervision_only_declared_as_gtb",
+      "title": "Supervision simple confondue avec GTB regulante",
+      "severity": "high",
+      "trigger_condition": "system has dashboards only and no automatic control/action points.",
+      "affected_documents": ["devis", "facture", "doe"],
+      "blocking": true,
+      "correction_action": "Verifier actionneurs, regulateurs et fonctions automatiques avant depot.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"]
+    },
+    {
+      "id": "commissioning_missing",
+      "title": "Commissionnement absent",
+      "severity": "medium",
+      "trigger_condition": "commissioning_report missing.",
+      "affected_documents": ["dpt", "doe", "facture"],
+      "blocking": false,
+      "correction_action": "Demander PV de mise en service, captures et parametres.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_GTB"]
+    }
+  ],
+  "output_contract": {
+    "draft_sections": [
+      "Perimetre BAT-TH-116",
+      "Systeme GTB installe",
+      "Classe de regulation et preuve",
+      "Usages controles",
+      "Liste de points",
+      "Commissionnement",
+      "Risques et pieces manquantes"
+    ],
+    "strict_mode": {
+      "requires_class_evidence": true,
+      "requires_professional_validation": true
+    }
+  },
+  "source_references": [
+    {
+      "id": "FICHE_CEE_SOURCE",
+      "title": "Fiche CEE officielle applicable",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-standardisees-deconomies-denergie"
+      ],
+      "notes": "Source obligatoire pour BAT-TH-116."
+    },
+    {
+      "id": "LOCAL_TECHNICAL_CORPUS_GTB",
+      "title": "Corpus technique local prive - GTB/BACS",
+      "type": "secondary_analysis",
+      "reliability": "medium",
+      "urls": [],
+      "notes": "Synthese distillee depuis un corpus prive non publie ; aide methodologique uniquement."
+    }
+  ],
+  "implementation_notes": [
+    "Cette competence doit remplacer l'usage abusif de note_dimensionnement_chauffage pour BAT-TH-116.",
+    "Ajouter a terme une extraction automatique de liste de points GTB depuis DOE ou PDF fournisseur.",
+    "Les obligations BACS et dates doivent etre verifiees avec sources officielles a jour avant affichage public strict."
+  ]
+}

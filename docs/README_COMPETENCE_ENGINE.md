@@ -25,7 +25,13 @@ competence_engine/
     facture_cee.json
 
   technical/
+    audit_nf_en_16247.json
+    building_heat_losses.json
+    cvc_cost_estimation.json
+    ecs_dimensioning.json
+    gtb_bacs_method.json
     note_dimensionnement_chauffage.json
+    pac_hydraulic_integration.json
 
   index.json
 ```
@@ -40,6 +46,8 @@ Chaque competence doit separer :
 - `secondary_analysis` : analyse non officielle.
 
 Une pratique d'operateur peut guider un brouillon, mais ne doit jamais etre presentee comme obligation reglementaire sans source officielle.
+
+Un corpus prive local peut alimenter une competence, mais il ne doit pas etre copie dans le depot. La bonne pratique est de distiller uniquement les champs, controles, risques et methodes generiques, puis de marquer la source comme `secondary_analysis`. Voir `external_knowledge/README.md`.
 
 ## Statuts
 
@@ -104,3 +112,51 @@ En mode strict, toute valeur absente ou non sourcee doit produire une question b
 - controle puissance generateur / besoins ;
 - facteur R BAR-TH-179 ;
 - risques de rejet lies a l'absence de note ou aux incoherences techniques.
+
+`competence_engine/technical/pac_hydraulic_integration.json`
+
+- puissance PAC disponible a Tbase, et non simple puissance catalogue ;
+- compatibilite emetteurs / regime d'eau / application temperature ;
+- inertie hydraulique et volume tampon estime ;
+- bivalence et appoint ;
+- risques de cycles courts, performance degradee ou donnees fabricant absentes.
+
+`competence_engine/technical/building_heat_losses.json`
+
+- collecte des surfaces, valeurs R/U/lambda et temperatures ;
+- calculs R = e/lambda, U = 1/somme R, Q = U x A x DeltaT ;
+- distinction R vs U pour les controles CEE isolation ;
+- statut des valeurs : confirme, estime, a valider ;
+- renvoi vers validation professionnelle pour tout calcul opposable.
+
+`competence_engine/technical/ecs_dimensioning.json`
+
+- profils de puisage ECS ;
+- choix instantane / accumulation / semi-accumulation ;
+- volume equivalent 60 C, puissance echangeur et volume de stockage ;
+- pertes de boucle ECS ;
+- risques sanitaires type legionelle et besoin de post-chauffage pour systemes basse temperature.
+
+`competence_engine/technical/gtb_bacs_method.json`
+
+- preuve de classe GTB/BACS ;
+- fonctions controlees et liste de points ;
+- distinction supervision simple vs regulation automatique ;
+- commissionnement, captures IHM, DOE et coherences devis/facture ;
+- usage dedie BAT-TH-116 au lieu d'une note de dimensionnement chauffage.
+
+`competence_engine/technical/audit_nf_en_16247.json`
+
+- contact preliminaire, demarrage, collecte, terrain, analyse, rapport ;
+- perimetre, donnees energetiques, reference et qualite des donnees ;
+- separation mesure / calcul / simulation / estimation ;
+- lien avec DPT et operations specifiques CEE ;
+- interdiction d'inventer economies, couts ou TRB.
+
+`competence_engine/technical/cvc_cost_estimation.json`
+
+- chiffrage indicatif CVC par ratios ou BPU ;
+- perimetre inclus/exclus, quantites et date de valeur ;
+- alerte sur travaux induits et base de prix obsolete ;
+- prix toujours marques `estimated` tant qu'ils ne viennent pas d'un devis ;
+- validation par consultation, idealement trois entreprises.

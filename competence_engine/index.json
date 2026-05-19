@@ -52,6 +52,60 @@
       "path": "competence_engine/common/controle_pncee.json",
       "applies_to": ["*"],
       "notes": "Matrice de controle pre-depot issue du retour utilisateur, avec tolerance RAI PP/copro conservee, archivage 9 ans et risques classes high/medium/low."
+    },
+    {
+      "id": "pac_hydraulic_integration",
+      "title": "Integration hydraulique d'une PAC",
+      "category": "technical_method",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/technical/pac_hydraulic_integration.json",
+      "applies_to": ["BAR-TH-171", "BAR-TH-172", "BAR-TH-179", "BAR-TH-180", "PAC_related_fiches"],
+      "notes": "Competence technique distillee depuis un corpus prive local : puissance a Tbase, emetteurs, volume tampon, bivalence et risques hydrauliques."
+    },
+    {
+      "id": "building_heat_losses",
+      "title": "Calcul et controle des deperditions batiment",
+      "category": "technical_method",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/technical/building_heat_losses.json",
+      "applies_to": ["BAR-TH-171", "BAR-TH-179", "BAR-EN-*", "BAT-EN-*", "heating_and_envelope_fiches"],
+      "notes": "Competence technique distillee depuis un corpus prive local : R=e/lambda, U=1/somme R, Q=U*A*DeltaT, qualite des donnees et validation professionnelle."
+    },
+    {
+      "id": "ecs_dimensioning",
+      "title": "Dimensionnement ECS et controle sanitaire",
+      "category": "technical_method",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/technical/ecs_dimensioning.json",
+      "applies_to": ["BAR-TH-168", "BAR-TH-143", "BAT-TH-*", "RES-CH-*", "ecs_related_fiches"],
+      "notes": "Competence technique distillee depuis un corpus prive local : profils ECS, stockage, puissance, pertes de boucle et risque legionelle."
+    },
+    {
+      "id": "gtb_bacs_method",
+      "title": "GTB/BACS - methodologie de preuve et controle fonctionnel",
+      "category": "technical_method",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/technical/gtb_bacs_method.json",
+      "applies_to": ["BAT-TH-116", "BAT-TH-*", "GTB_related_fiches"],
+      "notes": "Competence technique distillee depuis un corpus prive local : classe de regulation, fonctions controlees, liste de points et commissionnement."
+    },
+    {
+      "id": "audit_nf_en_16247",
+      "title": "Audit energetique NF EN 16247 - structure et controles",
+      "category": "technical_method",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/technical/audit_nf_en_16247.json",
+      "applies_to": ["specific_operations", "SPE-*", "audit_required_fiches", "DPT"],
+      "notes": "Competence technique distillee depuis un corpus prive local : processus d'audit, donnees, visite, reference, rapport et tracabilite DPT."
+    },
+    {
+      "id": "cvc_cost_estimation",
+      "title": "Estimation de couts CVC et controle de devis",
+      "category": "technical_method",
+      "status": "draft_from_user_research",
+      "path": "competence_engine/technical/cvc_cost_estimation.json",
+      "applies_to": ["audit_scenarios", "DPT", "quote_review", "CVC_related_fiches"],
+      "notes": "Competence technique distillee depuis un corpus prive local : ordres de grandeur CVC, fourchettes estimees, exclusions et validation par consultation."
     }
   ]
 }

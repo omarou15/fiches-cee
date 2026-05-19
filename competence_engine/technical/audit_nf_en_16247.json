@@ -1,0 +1,384 @@
+{
+  "id": "audit_nf_en_16247",
+  "title": "Audit energetique NF EN 16247 - structure et controles",
+  "category": "technical_method",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Donner a l'agent IA une trame de controle et de generation encadree pour un audit energetique conforme a la logique NF EN 16247, utile aux operations specifiques CEE, DPT et scenarios de travaux.",
+  "scope": {
+    "families": [
+      "audit batiment",
+      "audit procedes",
+      "operation specifique CEE",
+      "DPT",
+      "scenarios de renovation"
+    ],
+    "limits": [
+      "La norme NF EN 16247 est citee comme methode professionnelle ; l'acces au texte complet reste externe.",
+      "Le guide ADEME operations specifiques et les textes CEE officiels priment pour une demande CEE specifique.",
+      "L'IA ne remplace pas l'auditeur qualifie."
+    ]
+  },
+  "applies_to": [
+    "specific_operations",
+    "SPE-*",
+    "audit_required_fiches",
+    "DPT"
+  ],
+  "source_policy": {
+    "official_source_required_for": [
+      "contenu obligatoire du dossier technique specifique CEE",
+      "eligibilite operation specifique",
+      "TRB, duree de vie et calcul CEE",
+      "obligation reglementaire d'audit"
+    ],
+    "operator_practice_allowed_for": [
+      "structure de rapport",
+      "checklist de collecte",
+      "matrice de donnees",
+      "pre-redaction de synthese",
+      "classification des actions"
+    ],
+    "no_hallucination_rules": [
+      "Ne jamais inventer des consommations, mesures, economies ou couts.",
+      "Ne jamais declarer un audit conforme si le perimetre, les donnees et la visite ne sont pas documentes.",
+      "Indiquer si un resultat provient de mesure, calcul, simulation ou estimation.",
+      "Ne pas generer de TRB CEE sans CAPEX, economies annuelles et regles applicables."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "audit.scope",
+      "label": "Perimetre de l'audit",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Le perimetre conditionne les donnees, les visites et les conclusions.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"],
+      "if_applicable": null,
+      "ai_instruction": "Demander sites, batiments, usages, procedes et exclusions."
+    },
+    {
+      "field": "audit.objectives",
+      "label": "Objectifs et degre d'approfondissement",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Le niveau de detail est fixe au contact preliminaire.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas supposer un niveau detaille si le cadrage est absent."
+    },
+    {
+      "field": "site.energy_data",
+      "label": "Donnees energetiques",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "La reference et les economies reposent sur les consommations et facteurs d'activite.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"],
+      "if_applicable": null,
+      "ai_instruction": "Demander factures, releves, sous-comptages et periode."
+    },
+    {
+      "field": "audit.site_visit",
+      "label": "Travail sur place",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "L'audit doit observer les conditions reelles d'exploitation.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"],
+      "if_applicable": null,
+      "ai_instruction": "Si aucune visite n'est documentee, creer un risque high."
+    },
+    {
+      "field": "audit.reference_situation",
+      "label": "Situation de reference",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Les gains et scenarios doivent se comparer a une reference explicite.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT", "GUIDE_SPECIFIC_OPERATIONS"],
+      "if_applicable": "Operations specifiques CEE ou scenarios.",
+      "ai_instruction": "Demander methode de normalisation, periode et facteurs d'activite."
+    },
+    {
+      "field": "audit.recommendations",
+      "label": "Opportunites d'amelioration",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Le rapport doit hierarchiser les actions et expliquer economies, couts et precision.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas inventer economies ou couts ; utiliser [A COMPLETER]."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "audit.measurements",
+      "label": "Mesures et campagnes",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Les mesures renforcent la qualite et la verification des hypotheses.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"],
+      "if_applicable": "Selon niveau d'approfondissement.",
+      "ai_instruction": "Indiquer appareils, dates et limites de precision."
+    },
+    {
+      "field": "audit.m_and_v_plan",
+      "label": "Plan de mesure et verification",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Utile pour suivre les actions et justifier les gains.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"],
+      "if_applicable": "Actions a fort enjeu.",
+      "ai_instruction": "Proposer un brouillon seulement si les donnees source existent."
+    },
+    {
+      "field": "audit.data_quality",
+      "label": "Qualite des donnees",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "Le rapport doit commenter coherence, precision et difficultes.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"],
+      "if_applicable": null,
+      "ai_instruction": "Marquer les trous de donnees explicitement."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "audit.norm_parts",
+      "label": "Parties EN 16247 applicables",
+      "status": "deducible",
+      "evidence_level": "professional_method",
+      "reason": "Partie 1 socle commun ; parties 2 batiments, 3 procedes, 4 transport selon mission.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"],
+      "if_applicable": null,
+      "ai_instruction": "Deduire uniquement depuis le perimetre declare."
+    }
+  ],
+  "method_steps": [
+    {
+      "id": "preliminary_contact",
+      "title": "Contact preliminaire",
+      "instruction": "Cadrer objectifs, perimetre, niveau d'approfondissement, moyens et livrables attendus.",
+      "output": "audit_brief",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "id": "kickoff",
+      "title": "Reunion de demarrage",
+      "instruction": "Informer les parties, organiser acces, planning, documents et interlocuteurs.",
+      "output": "kickoff_minutes",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "id": "data_collection",
+      "title": "Recueil de donnees",
+      "instruction": "Rassembler documentation, consommations, facteurs d'activite, plans, DOE, contrats et mesures.",
+      "output": "data_room_index",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "id": "field_work",
+      "title": "Travail sur place",
+      "instruction": "Observer exploitation, installations, mesures et ecarts par rapport aux documents.",
+      "output": "site_visit_findings",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "id": "analysis",
+      "title": "Analyse et reference",
+      "instruction": "Etablir reference, usages significatifs, opportunites et scenarios avec hypotheses tracees.",
+      "output": "analysis_model",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT", "GUIDE_SPECIFIC_OPERATIONS"]
+    },
+    {
+      "id": "report",
+      "title": "Rapport et restitution",
+      "instruction": "Documenter synthese, contexte, donnees, analyses, recommandations, couts, economies, precision et suivi.",
+      "output": "audit_report",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    }
+  ],
+  "calculation_methods": [
+    {
+      "id": "baseline_normalization",
+      "title": "Normalisation de reference",
+      "status": "professional_method",
+      "formula_or_method": "Construire une reference a partir des consommations, du climat, de l'occupation et/ou des facteurs de production pertinents.",
+      "inputs": ["site.energy_data", "site.activity_data", "weather_data", "audit.scope"],
+      "outputs": ["audit.reference_situation"],
+      "limits": [
+        "La methode exacte depend du site et doit etre expliquee.",
+        "Les facteurs de normalisation doivent etre sources."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "id": "action_savings",
+      "title": "Economies par action",
+      "status": "professional_method",
+      "formula_or_method": "Economies = consommation_reference - consommation_apres_action, avec hypotheses et interactions documentees.",
+      "inputs": ["audit.reference_situation", "action.model", "action.interactions"],
+      "outputs": ["action.energy_savings", "action.precision_level"],
+      "limits": [
+        "Ne jamais inventer les economies.",
+        "Les interactions entre actions doivent etre explicitees."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    }
+  ],
+  "fiche_specific_requirements": [
+    {
+      "code": "SPE-*",
+      "requirement": "Pour une operation specifique CEE, articuler audit, situation initiale, reference, situation apres travaux, economies, volume CEE, duree de vie et TRB selon le guide applicable.",
+      "status": "explicit_in_fiche",
+      "timing": "Avant depot d'une operation specifique.",
+      "source_refs": ["GUIDE_SPECIFIC_OPERATIONS"],
+      "notes": "La competence DPT porte le dossier de preuves ; celle-ci structure l'audit."
+    }
+  ],
+  "professional_validation": {
+    "required": true,
+    "must_validate": [
+      "perimetre et exclusions",
+      "donnees energetiques",
+      "reference et normalisation",
+      "mesures terrain",
+      "economies et couts",
+      "niveau de precision",
+      "rapport final"
+    ],
+    "ai_rule": "L'IA peut pre-rediger a partir de donnees sources, mais l'auditeur conserve la responsabilite technique."
+  },
+  "blocking_missing_inputs": [
+    {
+      "field": "audit.scope",
+      "question": "Quel est le perimetre exact de l'audit ?",
+      "severity": "high",
+      "why_blocking": "Impossible de structurer les donnees ou la norme applicable sans perimetre.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "field": "site.energy_data",
+      "question": "Quelles consommations et facteurs d'activite sont disponibles ?",
+      "severity": "high",
+      "why_blocking": "La reference et les gains ne peuvent pas etre calcules.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "field": "audit.site_visit",
+      "question": "Une visite ou observation terrain est-elle documentee ?",
+      "severity": "high",
+      "why_blocking": "Le processus d'audit repose sur le travail sur place.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "audit_process_complete",
+      "title": "Processus d'audit complet",
+      "severity": "high",
+      "logic": "preliminary_contact, kickoff, data_collection, field_work, analysis, report are present or explicitly not applicable.",
+      "on_failure": "Marquer audit incomplete et demander les pieces manquantes.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "id": "results_source_marked",
+      "title": "Origine des resultats indiquee",
+      "severity": "high",
+      "logic": "Each saving/cost/result must be tagged measurement|calculation|simulation|estimation.",
+      "on_failure": "Ajouter needs_human_review.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "id": "report_has_core_sections",
+      "title": "Sections coeur du rapport presentes",
+      "severity": "medium",
+      "logic": "summary, context, audit_scope, data, analysis, recommendations and appendices are present.",
+      "on_failure": "Demander complement de rapport.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "audit_to_dpt_traceability",
+      "title": "Tracabilite audit vers DPT",
+      "severity": "medium",
+      "logic": "DPT technical sections should link to audit findings, reference and calculations.",
+      "on_failure": "Ajouter mapping de preuves.",
+      "source_refs": ["GUIDE_SPECIFIC_OPERATIONS"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "audit_without_field_work",
+      "title": "Audit sans travail terrain documente",
+      "severity": "high",
+      "trigger_condition": "site_visit missing and audit declared final.",
+      "affected_documents": ["audit", "dpt"],
+      "blocking": true,
+      "correction_action": "Documenter la visite ou requalifier le document en pre-etude.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "id": "savings_without_source",
+      "title": "Economies non sourcees",
+      "severity": "high",
+      "trigger_condition": "action.energy_savings present without method/source.",
+      "affected_documents": ["audit", "dpt", "calcul_cee"],
+      "blocking": true,
+      "correction_action": "Documenter calcul, mesure ou simulation.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_AUDIT"]
+    },
+    {
+      "id": "specific_operation_missing_ademe_structure",
+      "title": "Operation specifique sans structure technique ADEME",
+      "severity": "high",
+      "trigger_condition": "operation_type == specific and guide_specific_sections missing.",
+      "affected_documents": ["dpt", "audit", "calcul_cee"],
+      "blocking": true,
+      "correction_action": "Completer les sections guide operation specifique avant depot.",
+      "source_refs": ["GUIDE_SPECIFIC_OPERATIONS"]
+    }
+  ],
+  "output_contract": {
+    "draft_sections": [
+      "Contact preliminaire",
+      "Perimetre et objectifs",
+      "Donnees collectees",
+      "Travail sur place",
+      "Reference",
+      "Analyse energetique",
+      "Actions et scenarios",
+      "Rapport et restitution",
+      "Annexes et preuves"
+    ],
+    "strict_mode": {
+      "requires_professional_validation": true,
+      "block_if_savings_unsourced": true,
+      "block_if_site_visit_missing": true
+    }
+  },
+  "source_references": [
+    {
+      "id": "LOCAL_TECHNICAL_CORPUS_AUDIT",
+      "title": "Corpus technique local prive - audit NF EN 16247",
+      "type": "secondary_analysis",
+      "reliability": "medium",
+      "urls": [],
+      "notes": "Synthese distillee depuis un corpus prive non publie ; aide methodologique uniquement."
+    },
+    {
+      "id": "GUIDE_SPECIFIC_OPERATIONS",
+      "title": "Guide officiel operations specifiques CEE",
+      "type": "ministry_guidance",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide-CEE-ope-sp%C3%A9cifique-inst-fixes-2025_0.pdf"
+      ],
+      "notes": "Source prioritaire pour les dossiers CEE specifiques installations fixes."
+    }
+  ],
+  "implementation_notes": [
+    "Cette competence doit etre reliee a dpt_cee pour les operations specifiques.",
+    "Les rapports generes doivent afficher le statut des donnees et les limites de precision.",
+    "Ajouter a terme des extracteurs de factures energie et tableaux de mesures."
+  ]
+}

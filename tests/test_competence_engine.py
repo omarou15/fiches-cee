@@ -37,6 +37,31 @@ def test_competence_index_points_to_existing_files():
         assert (ROOT / entry["path"]).exists()
 
 
+def test_local_private_corpus_is_not_leaked_in_competences():
+    scanned_files = list(COMPETENCE_ROOT.rglob("*.json")) + list((ROOT / "external_knowledge").rglob("*"))
+    scanned_files = [path for path in scanned_files if path.is_file()]
+    forbidden = [
+        "C:\\Users\\omaro",
+        "ENERGY" + "CO",
+        "Energy" + "co",
+        "energy" + "co_rag_base",
+    ]
+
+    for path in scanned_files:
+        text = path.read_text(encoding="utf-8")
+        for marker in forbidden:
+            assert marker not in text, f"{path} leaks private marker {marker}"
+
+
+def test_private_corpus_example_requires_official_confirmation():
+    config = load_json(ROOT / "external_knowledge" / "examples" / "local_corpus.example.json")
+
+    assert config["visibility"] == "private_local_only"
+    assert "absolute_local_path" in config["forbidden_outputs"]
+    assert "legal_requirement" in config["source_policy"]["requires_official_confirmation_for"]
+    assert "thermal_calculation" in config["source_policy"]["requires_professional_validation_for"]
+
+
 def test_devis_cee_distinguishes_official_and_operator_practice():
     devis = load_json(COMPETENCE_ROOT / "common" / "devis_cee.json")
     source_types = {source["type"] for source in devis["source_references"]}
@@ -169,6 +194,91 @@ def test_note_dimensionnement_does_not_mark_solar_as_systematic():
 
     assert requirements["BAR-TH-168"]["status"] == "to_confirm"
     assert requirements["BAT-TH-116"]["status"] == "not_systematic"
+
+
+def test_new_technical_competences_are_indexed():
+    index = load_json(COMPETENCE_ROOT / "index.json")
+    indexed_ids = {entry["id"] for entry in index["competences"]}
+
+    assert {
+        "pac_hydraulic_integration",
+        "building_heat_losses",
+        "ecs_dimensioning",
+        "gtb_bacs_method",
+        "audit_nf_en_16247",
+        "cvc_cost_estimation",
+    } <= indexed_ids
+
+
+def test_pac_hydraulic_integration_blocks_catalog_power_at_tbase():
+    pac = load_json(COMPETENCE_ROOT / "technical" / "pac_hydraulic_integration.json")
+    method_ids = {method["id"] for method in pac["calculation_methods"]}
+    risk_ids = {risk["id"] for risk in pac["compliance_risks"]}
+    blocking_fields = {item["field"] for item in pac["blocking_missing_inputs"]}
+
+    assert "power_derating_at_tbase" in method_ids
+    assert "buffer_tank_volume_estimate" in method_ids
+    assert "catalog_power_used_as_tbase_power" in risk_ids
+    assert "generator.power_at_tbase_kw" in blocking_fields
+    assert any("A7/W35" in rule for rule in pac["source_policy"]["no_hallucination_rules"])
+
+
+def test_building_heat_losses_has_core_formulas_and_r_u_guardrail():
+    heat = load_json(COMPETENCE_ROOT / "technical" / "building_heat_losses.json")
+    methods = {method["id"]: method for method in heat["calculation_methods"]}
+    risk_ids = {risk["id"] for risk in heat["compliance_risks"]}
+    check_ids = {check["id"] for check in heat["validation_checks"]}
+
+    assert methods["r_value_from_lambda"]["formula_or_method"] == "R = e / lambda."
+    assert "U = 1 /" in methods["u_value_from_r_sum"]["formula_or_method"]
+    assert "Q_W = U x A x DeltaT." in methods["transmission_losses"]["formula_or_method"]
+    assert "wrong_unit_r_u" in risk_ids
+    assert "r_and_u_not_confused" in check_ids
+
+
+def test_ecs_dimensioning_tracks_legionella_and_low_temp_sources():
+    ecs = load_json(COMPETENCE_ROOT / "technical" / "ecs_dimensioning.json")
+    method_ids = {method["id"] for method in ecs["calculation_methods"]}
+    risk_ids = {risk["id"] for risk in ecs["compliance_risks"]}
+    check_ids = {check["id"] for check in ecs["validation_checks"]}
+
+    assert {"v60_conversion", "instant_power", "storage_volume", "accumulation_power"} <= method_ids
+    assert "legionella_risk_unaddressed" in risk_ids
+    assert "post_heating_for_low_temp_source" in check_ids
+
+
+def test_gtb_bacs_method_requires_class_evidence_not_guessing():
+    gtb = load_json(COMPETENCE_ROOT / "technical" / "gtb_bacs_method.json")
+    risk_ids = {risk["id"] for risk in gtb["compliance_risks"]}
+    blocking_fields = {item["field"] for item in gtb["blocking_missing_inputs"]}
+
+    assert "class_declared_without_proof" in risk_ids
+    assert "supervision_only_declared_as_gtb" in risk_ids
+    assert "gtb.regulation_class" in blocking_fields
+    assert any("Ne jamais attribuer une classe" in rule for rule in gtb["source_policy"]["no_hallucination_rules"])
+
+
+def test_audit_nf_en_16247_preserves_process_and_data_quality():
+    audit = load_json(COMPETENCE_ROOT / "technical" / "audit_nf_en_16247.json")
+    step_ids = {step["id"] for step in audit["method_steps"]}
+    risk_ids = {risk["id"] for risk in audit["compliance_risks"]}
+    check_ids = {check["id"] for check in audit["validation_checks"]}
+
+    assert {"preliminary_contact", "kickoff", "data_collection", "field_work", "analysis", "report"} <= step_ids
+    assert "audit_without_field_work" in risk_ids
+    assert "savings_without_source" in risk_ids
+    assert "results_source_marked" in check_ids
+
+
+def test_cvc_cost_estimation_never_treats_estimate_as_contractual():
+    costs = load_json(COMPETENCE_ROOT / "technical" / "cvc_cost_estimation.json")
+    check_ids = {check["id"] for check in costs["validation_checks"]}
+    risk_ids = {risk["id"] for risk in costs["compliance_risks"]}
+
+    assert "estimate_not_contractual" in check_ids
+    assert "three_quotes_recommended" in check_ids
+    assert "estimate_used_as_invoice" in risk_ids
+    assert costs["output_contract"]["strict_mode"]["never_use_as_invoice_or_signed_quote"] is True
 
 
 def test_dpt_cee_declares_dpt_as_business_usage_not_official_term():

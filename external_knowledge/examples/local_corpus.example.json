@@ -1,0 +1,37 @@
+{
+  "id": "local_private_corpus",
+  "title": "Local private RAG corpus",
+  "enabled": false,
+  "visibility": "private_local_only",
+  "root_env_var": "CEE_EXTERNAL_RAG_ROOT",
+  "include_globs": ["*.md", "**/*.md"],
+  "exclude_globs": ["**/.git/**", "**/.claude/**", "**/secrets/**"],
+  "allowed_outputs": [
+    "distilled_competence_json",
+    "field_checklist",
+    "risk_matrix",
+    "source_summary_without_private_names"
+  ],
+  "forbidden_outputs": [
+    "raw_document_copy",
+    "absolute_local_path",
+    "client_or_company_private_name",
+    "unsourced_regulatory_value"
+  ],
+  "source_policy": {
+    "default_source_type": "secondary_analysis",
+    "requires_official_confirmation_for": [
+      "legal_requirement",
+      "cee_eligibility_threshold",
+      "document_retention_duration",
+      "penalty_or_deadline",
+      "official_template_content"
+    ],
+    "requires_professional_validation_for": [
+      "thermal_calculation",
+      "hydraulic_design",
+      "audit_conclusion",
+      "cost_estimate_used_for_decision"
+    ]
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "id": "pac_hydraulic_integration",
+  "title": "Integration hydraulique d'une PAC",
+  "category": "technical_method",
+  "status": "draft_from_user_research",
+  "version": "2026-05-19",
+  "purpose": "Donner a l'agent IA une methode de cadrage technique pour verifier ou preparer une integration PAC air/eau, eau/eau ou geothermique dans un dossier CEE, sans remplacer l'etude du BET CVC ou du professionnel qualifie.",
+  "scope": {
+    "families": [
+      "PAC air/eau individuelle ou collective",
+      "PAC eau/eau",
+      "PAC geothermique",
+      "PAC hybride avec appoint",
+      "renovation de chaufferie avec reseau hydraulique existant"
+    ],
+    "limits": [
+      "Les valeurs de volume tampon, bivalence et compatibilite emetteurs sont des pratiques techniques a valider par un professionnel.",
+      "Les seuils CEE, Etas et pieces justificatives restent charges depuis la fiche officielle.",
+      "Ne pas utiliser cette competence pour inventer une puissance, une reference produit ou une performance fabricant."
+    ]
+  },
+  "applies_to": [
+    "BAR-TH-171",
+    "BAR-TH-172",
+    "BAR-TH-179",
+    "BAR-TH-180",
+    "PAC_related_fiches"
+  ],
+  "source_policy": {
+    "official_source_required_for": [
+      "seuils d'eligibilite CEE",
+      "definition de la puissance nominale retenue par la fiche",
+      "pieces justificatives exigees",
+      "qualification professionnelle requise",
+      "facteur R ou coefficients CEE"
+    ],
+    "operator_practice_allowed_for": [
+      "premier cadrage de volume tampon",
+      "alerte sur compatibilite emetteurs",
+      "analyse de bivalence",
+      "check-list de mise en service hydraulique",
+      "signalement de risques de surconsommation"
+    ],
+    "no_hallucination_rules": [
+      "Ne jamais utiliser la puissance catalogue A7/W35 comme puissance disponible a Tbase sans courbe fabricant.",
+      "Ne jamais inventer le schema hydraulique, le type d'emetteur ou l'existence d'un appoint.",
+      "Ne jamais valider seul la bivalence, le vase d'expansion, les debits ou la loi d'eau.",
+      "En mode strict, demander les fiches techniques fabricant et le schema hydraulique si absents."
+    ]
+  },
+  "required_inputs": [
+    {
+      "field": "operation.cee_code",
+      "label": "Code fiche CEE",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "Les exigences CEE et les seuils sont portes par la fiche applicable.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "if_applicable": null,
+      "ai_instruction": "Charger la fiche officielle ou le curated avant tout controle strict."
+    },
+    {
+      "field": "generator.technology",
+      "label": "Technologie PAC",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Air/eau, eau/eau et geothermie n'ont pas les memes contraintes de source froide, hydraulique et inertie.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": null,
+      "ai_instruction": "Ne pas deduire la technologie depuis une marque seule."
+    },
+    {
+      "field": "generator.nominal_power_kw",
+      "label": "Puissance nominale PAC",
+      "status": "required",
+      "evidence_level": "official_or_fiche",
+      "reason": "La puissance sert au dimensionnement, au calcul d'inertie et aux controles fiche.",
+      "source_refs": ["FICHE_CEE_SOURCE", "LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": null,
+      "ai_instruction": "Demander une fiche technique ou une facture ; ne pas interpoler."
+    },
+    {
+      "field": "generator.power_at_tbase_kw",
+      "label": "Puissance disponible a Tbase",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Une PAC air/eau perd de la puissance et du COP quand la temperature exterieure baisse ; la puissance nominale catalogue ne suffit pas.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": "PAC aerothermique ou cas avec source froide variable.",
+      "ai_instruction": "Utiliser la courbe fabricant ; si absente, bloquer en mode strict."
+    },
+    {
+      "field": "building.heat_losses_kw",
+      "label": "Deperditions a Tbase",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "La PAC et l'appoint sont dimensionnes par rapport au besoin de chauffage a Tbase.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC", "COMPETENCE_BUILDING_HEAT_LOSSES"],
+      "if_applicable": null,
+      "ai_instruction": "Renvoyer vers la competence building_heat_losses si la valeur est absente."
+    },
+    {
+      "field": "hydraulic.emitters_type",
+      "label": "Type d'emetteurs",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Radiateurs haute temperature, radiateurs basse temperature, plancher chauffant et ventilo-convecteurs ont des regimes d'eau differents.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": null,
+      "ai_instruction": "Demander le regime d'eau et le type d'emetteurs si non prouve."
+    },
+    {
+      "field": "hydraulic.supply_temperature_c",
+      "label": "Temperature depart chauffage cible",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "La temperature depart conditionne COP, Etas et compatibilite des emetteurs.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": null,
+      "ai_instruction": "Distinguer basse temperature, moyenne temperature et haute temperature."
+    },
+    {
+      "field": "hydraulic.buffer_tank_volume_l",
+      "label": "Volume tampon ou bouteille de decouplage",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "L'inertie limite les cycles courts et decouple PAC et reseau secondaire.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": "PAC hydraulique avec reseau secondaire.",
+      "ai_instruction": "Si absent, generer une alerte et demander schema hydraulique."
+    },
+    {
+      "field": "hydraulic.backup_or_bivalence",
+      "label": "Appoint ou mode de bivalence",
+      "status": "required",
+      "evidence_level": "professional_method",
+      "reason": "Un sous-dimensionnement volontaire peut etre acceptable uniquement si appoint et regulation sont documentes.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": "PAC dimensionnee sous 100 % des deperditions ou PAC hybride.",
+      "ai_instruction": "Demander le point de bivalence et le mode de regulation."
+    }
+  ],
+  "recommended_inputs": [
+    {
+      "field": "hydraulic.water_law",
+      "label": "Loi d'eau et courbe de chauffe",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "La regulation climatique conditionne la performance saisonniere.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": null,
+      "ai_instruction": "Verifier presence d'une sonde exterieure et parametrage."
+    },
+    {
+      "field": "hydraulic.expansion_vessel",
+      "label": "Vase d'expansion",
+      "status": "recommended",
+      "evidence_level": "professional_method",
+      "reason": "La dilation de l'eau et la pression reseau doivent etre traitees dans le schema.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": "Reseau hydraulique ferme.",
+      "ai_instruction": "Ne pas dimensionner sans volume reseau et pressions."
+    },
+    {
+      "field": "commissioning.balancing_report",
+      "label": "Rapport d'equilibrage hydraulique",
+      "status": "recommended",
+      "evidence_level": "business_practice",
+      "reason": "Un reseau desequilibre degrade le confort et le COP reel.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": "Collectif, tertiaire ou reseau existant.",
+      "ai_instruction": "Le demander en piece complementaire si les deltas de temperature sont incoherents."
+    }
+  ],
+  "deducible_inputs": [
+    {
+      "field": "hydraulic.application_temperature",
+      "label": "Application basse/moyenne/haute temperature",
+      "status": "deducible",
+      "evidence_level": "official_or_fiche",
+      "reason": "Peut etre deduite du type d'emetteur et du regime d'eau, puis comparee a la fiche.",
+      "source_refs": ["FICHE_CEE_SOURCE", "LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": "Fiches PAC avec seuils Etas par application.",
+      "ai_instruction": "Si le reseau est mixte ou ambigu, demander validation professionnelle."
+    },
+    {
+      "field": "hydraulic.buffer_tank_min_l_estimate",
+      "label": "Volume tampon minimal estime",
+      "status": "deducible",
+      "evidence_level": "estimation",
+      "reason": "Peut servir d'alerte de coherence preliminaire.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"],
+      "if_applicable": null,
+      "ai_instruction": "Marquer comme estimation non normative."
+    }
+  ],
+  "method_steps": [
+    {
+      "id": "load_cee_fiche",
+      "title": "Charger la fiche CEE",
+      "instruction": "Lire les criteres CEE avant tout controle technique pour distinguer obligation reglementaire et bonne pratique CVC.",
+      "output": "fiche_requirements",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "check_power_at_tbase",
+      "title": "Verifier la puissance a Tbase",
+      "instruction": "Comparer la puissance disponible a Tbase aux deperditions ; ne pas se contenter de la puissance catalogue nominale.",
+      "output": "power_at_tbase_assessment",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "id": "check_emitters",
+      "title": "Verifier la compatibilite emetteurs",
+      "instruction": "Comparer regime d'eau, type d'emetteurs et application temperature ; signaler les radiateurs haute temperature comme risque de performance.",
+      "output": "emitters_compatibility",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "id": "check_hydraulic_inertia",
+      "title": "Verifier l'inertie hydraulique",
+      "instruction": "Evaluer si bouteille de decouplage ou ballon tampon est present et coherent avec la puissance PAC.",
+      "output": "buffer_tank_assessment",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "id": "check_bivalence",
+      "title": "Verifier appoint et bivalence",
+      "instruction": "Identifier le point de bivalence, le mode alternant ou simultane, et l'impact sur les consommations et la note de dimensionnement.",
+      "output": "bivalence_assessment",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    }
+  ],
+  "calculation_methods": [
+    {
+      "id": "buffer_tank_volume_estimate",
+      "title": "Estimation de volume tampon",
+      "status": "estimation",
+      "formula_or_method": "Air/eau: 15 a 20 L par kW PAC ; eau/eau: 20 a 30 L par kW PAC.",
+      "inputs": ["generator.technology", "generator.nominal_power_kw"],
+      "outputs": ["hydraulic.buffer_tank_min_l_estimate"],
+      "limits": [
+        "Ordre de grandeur non normatif.",
+        "A valider selon notice fabricant, debit minimal, volume reseau et regulation.",
+        "Ne remplace pas le dimensionnement du BET CVC."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "id": "power_derating_at_tbase",
+      "title": "Correction de puissance a Tbase",
+      "status": "professional_method",
+      "formula_or_method": "Lire la courbe fabricant pour obtenir la puissance utile au couple temperature source froide / temperature depart eau correspondant a Tbase.",
+      "inputs": ["generator.manufacturer_curve", "climate.t_base_c", "hydraulic.supply_temperature_c"],
+      "outputs": ["generator.power_at_tbase_kw"],
+      "limits": [
+        "Ne pas remplacer par une regle generale si la courbe fabricant est absente.",
+        "Le COP nominal a A7/W35 n'est pas un point de dimensionnement hiver."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "id": "bivalence_temperature",
+      "title": "Point de bivalence simplifie",
+      "status": "estimation",
+      "formula_or_method": "T_biv = T_setpoint - (PAC_power_kw / heat_loss_specific_kw_per_K).",
+      "inputs": ["climate.t_setpoint_c", "generator.power_at_tbase_or_curve_kw", "building.heat_loss_specific_kw_per_K"],
+      "outputs": ["hydraulic.bivalence_temperature_c"],
+      "limits": [
+        "Approche simplifiee pour pre-controle.",
+        "La regulation reelle, l'hysteresis et les puissances par temperature doivent etre validees."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "id": "coverage_ratio_at_tbase",
+      "title": "Taux de couverture puissance a Tbase",
+      "status": "professional_method",
+      "formula_or_method": "coverage_ratio = generator.power_at_tbase_kw / building.heat_losses_kw.",
+      "inputs": ["generator.power_at_tbase_kw", "building.heat_losses_kw"],
+      "outputs": ["coverage_ratio_at_tbase"],
+      "limits": [
+        "Un ratio inferieur a 1 n'est pas automatiquement non conforme si appoint et fiche le permettent.",
+        "Un ratio eleve peut indiquer surdimensionnement et cycles courts."
+      ],
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC", "FICHE_CEE_SOURCE"]
+    }
+  ],
+  "fiche_specific_requirements": [
+    {
+      "code": "BAR-TH-179",
+      "requirement": "Pour PAC collective, articuler puissance PAC, puissance utile chaufferie, facteur R, emetteurs et deperditions.",
+      "status": "explicit_in_fiche",
+      "timing": "A verifier dans la fiche applicable et dans la note de dimensionnement.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "notes": "Cette competence complete la note de dimensionnement, elle ne remplace pas le calcul CEE."
+    },
+    {
+      "code": "BAR-TH-171",
+      "requirement": "Pour PAC individuelle, verifier application temperature et puissance conforme a la note de dimensionnement.",
+      "status": "explicit_in_fiche",
+      "timing": "A l'engagement et/ou achevement selon fiche applicable.",
+      "source_refs": ["FICHE_CEE_SOURCE"],
+      "notes": "La compatibilite emetteurs est critique pour le seuil Etas."
+    }
+  ],
+  "professional_validation": {
+    "required": true,
+    "must_validate": [
+      "puissance disponible a Tbase",
+      "regime d'eau et compatibilite emetteurs",
+      "volume tampon ou bouteille de decouplage",
+      "debits, circulateurs et equilibrage",
+      "vase d'expansion et pressions",
+      "point de bivalence et regulation"
+    ],
+    "ai_rule": "L'IA produit un pre-controle et des questions ; la validation hydraulique finale appartient au BET CVC ou installateur qualifie."
+  },
+  "blocking_missing_inputs": [
+    {
+      "field": "generator.power_at_tbase_kw",
+      "question": "Quelle est la puissance PAC disponible a Tbase selon la courbe fabricant ?",
+      "severity": "high",
+      "why_blocking": "La puissance nominale catalogue ne prouve pas la couverture des deperditions en conditions hiver.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "field": "building.heat_losses_kw",
+      "question": "Quelles sont les deperditions du batiment a Tbase ?",
+      "severity": "high",
+      "why_blocking": "Impossible de controler le dimensionnement sans besoin de reference.",
+      "source_refs": ["COMPETENCE_BUILDING_HEAT_LOSSES"]
+    },
+    {
+      "field": "hydraulic.emitters_type",
+      "question": "Quels emetteurs et quel regime d'eau sont desservis par la PAC ?",
+      "severity": "high",
+      "why_blocking": "La performance et le seuil d'application temperature dependent des emetteurs.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    }
+  ],
+  "validation_checks": [
+    {
+      "id": "power_at_tbase_present",
+      "title": "Puissance a Tbase documentee",
+      "severity": "high",
+      "logic": "generator.power_at_tbase_kw is present or manufacturer_curve is attached.",
+      "on_failure": "Bloquer le dimensionnement strict et demander fiche fabricant.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "id": "emitters_temperature_consistency",
+      "title": "Compatibilite emetteurs / regime d'eau",
+      "severity": "high",
+      "logic": "hydraulic.supply_temperature_c is compatible with hydraulic.emitters_type and CEE application temperature.",
+      "on_failure": "Signaler risque de COP/Etas non conforme ou de confort insuffisant.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC", "FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "buffer_volume_reasonable",
+      "title": "Volume tampon coherent",
+      "severity": "medium",
+      "logic": "buffer_tank_volume_l is present and compared against buffer_tank_volume_estimate.",
+      "on_failure": "Demander schema hydraulique ou justification fabricant.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    }
+  ],
+  "consistency_checks": [
+    {
+      "id": "pac_note_devis_facture_consistency",
+      "title": "Coherence PAC avec devis facture AH",
+      "severity": "high",
+      "logic": "brand, model, power, use, emitters and application temperature should match note, quote, invoice and AH.",
+      "on_failure": "Creer un risque documentaire high.",
+      "source_refs": ["FICHE_CEE_SOURCE"]
+    },
+    {
+      "id": "bivalence_with_backup",
+      "title": "Bivalence documentee si couverture partielle",
+      "severity": "high",
+      "logic": "if coverage_ratio_at_tbase < 1 then backup_or_bivalence must be documented.",
+      "on_failure": "Demander appoint, schema de regulation et justification.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    }
+  ],
+  "compliance_risks": [
+    {
+      "id": "catalog_power_used_as_tbase_power",
+      "title": "Puissance catalogue utilisee comme puissance a Tbase",
+      "severity": "high",
+      "trigger_condition": "power_at_tbase_kw missing and nominal_catalog_power used for winter sizing.",
+      "affected_documents": ["note_dimensionnement", "devis", "fiche_technique"],
+      "blocking": true,
+      "correction_action": "Demander la courbe fabricant et recalculer la couverture a Tbase.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "id": "high_temp_emitters_with_low_temp_pac",
+      "title": "Radiateurs haute temperature avec PAC basse temperature",
+      "severity": "high",
+      "trigger_condition": "emitters require high supply temperature and PAC declared as low temperature without emitter adaptation.",
+      "affected_documents": ["note_dimensionnement", "devis", "facture"],
+      "blocking": true,
+      "correction_action": "Demander verification emetteurs, regime d'eau et solution d'adaptation.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "id": "missing_hydraulic_inertia",
+      "title": "Inertie hydraulique non documentee",
+      "severity": "medium",
+      "trigger_condition": "buffer_tank_volume_l missing for hydraulic PAC integration.",
+      "affected_documents": ["schema_hydraulique", "note_dimensionnement"],
+      "blocking": false,
+      "correction_action": "Demander schema hydraulique et justification du volume minimal.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    },
+    {
+      "id": "bivalence_uncontrolled",
+      "title": "Bivalence ou appoint non maitrise",
+      "severity": "medium",
+      "trigger_condition": "coverage_ratio_at_tbase < 1 and backup/control strategy missing.",
+      "affected_documents": ["note_dimensionnement", "schema_regulation"],
+      "blocking": false,
+      "correction_action": "Documenter le point de bivalence, l'hysteresis et l'appoint.",
+      "source_refs": ["LOCAL_TECHNICAL_CORPUS_PAC"]
+    }
+  ],
+  "output_contract": {
+    "strict_mode": {
+      "block_if_missing": [
+        "operation.cee_code",
+        "generator.technology",
+        "generator.nominal_power_kw",
+        "generator.power_at_tbase_kw",
+        "building.heat_losses_kw",
+        "hydraulic.emitters_type",
+        "hydraulic.supply_temperature_c"
+      ],
+      "requires_professional_validation": true
+    },
+    "draft_sections": [
+      "Fiche et perimetre",
+      "PAC et source froide",
+      "Puissance a Tbase",
+      "Energie et emetteurs",
+      "Hydraulique primaire/secondaire",
+      "Bivalence et appoint",
+      "Risques et questions BET"
+    ]
+  },
+  "source_references": [
+    {
+      "id": "FICHE_CEE_SOURCE",
+      "title": "Fiche CEE officielle applicable",
+      "type": "legal_text",
+      "reliability": "high",
+      "urls": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/operations-standardisees-deconomies-denergie"
+      ],
+      "notes": "Source obligatoire pour seuils CEE et pieces justificatives."
+    },
+    {
+      "id": "LOCAL_TECHNICAL_CORPUS_PAC",
+      "title": "Corpus technique local prive - PAC et hydraulique",
+      "type": "secondary_analysis",
+      "reliability": "medium",
+      "urls": [],
+      "notes": "Synthese distillee depuis un corpus prive non publie ; utiliser comme aide methodologique, pas comme source reglementaire."
+    },
+    {
+      "id": "COMPETENCE_BUILDING_HEAT_LOSSES",
+      "title": "Competence building_heat_losses",
+      "type": "secondary_analysis",
+      "reliability": "medium",
+      "urls": [],
+      "notes": "Competence interne pour structurer les deperditions."
+    }
+  ],
+  "implementation_notes": [
+    "Cette competence doit etre appelee par note_dimensionnement_chauffage avant la conclusion puissance/besoin.",
+    "Les alertes techniques doivent devenir needs_human_review plutot que rejet reglementaire sauf si la fiche officielle le rend bloquant.",
+    "Ne pas publier les fichiers sources du corpus local dans ce depot."
+  ]
+}
