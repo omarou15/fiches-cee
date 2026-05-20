@@ -46,6 +46,30 @@ python scripts/dossier_agent.py examples/dossier_agent/bar_th_179_complete.json 
 
 `dossiers_local/` est ignore par Git.
 
+## Moteur dossier unifie
+
+Le dossier pivot est decrit par `schemas/dossier_cee.schema.json`. Il accepte
+les blocs usuels `beneficiary`, `client`, `site`, `operation`, `quote`,
+`invoice`, `documents`, `calculation`, `technical`, `building`, `climate`,
+`generator`, `boiler_room` et `dpt`.
+
+Les validateurs deterministes vivent dans `scripts/dossier_validators.py` :
+
+- `validate_quote` controle le devis et la date d'engagement.
+- `validate_invoice` controle la facture comme preuve de realisation.
+- `validate_dimensioning_note` controle la note quand la fiche la rend explicite.
+- `validate_dpt` controle le dossier technique/preuves interne.
+- `run_control_matrix` consolide les risques PNCEE.
+- `validate_dossier_cee` execute l'ensemble.
+
+`dossier_agent.py` appelle ce moteur en mode `advisory` par defaut pour enrichir
+les dossiers sans casser les anciens statuts. Pour bloquer reellement un dossier
+incomplet, passer `validation_mode: "strict"` dans l'operation d'entree.
+
+Les memes fonctions sont exposees par le MCP : `validate_quote`,
+`validate_invoice`, `validate_dimensioning_note`, `validate_dpt`,
+`run_control_matrix` et `validate_dossier_cee`.
+
 ## Donnees BAR-TH-179 exigees
 
 Pour calculer et controler un dossier BAR-TH-179, l'agent doit obtenir au minimum :

@@ -22,6 +22,12 @@ from mcp_server.tools.competences import list_competences as list_competences_to
 from mcp_server.tools.dossier import generate_dossier as generate_dossier_tool  # noqa: E402
 from mcp_server.tools.dossier import get_annexe6_row as get_annexe6_row_tool  # noqa: E402
 from mcp_server.tools.dossier import get_cadre_contribution as get_cadre_contribution_tool  # noqa: E402
+from mcp_server.tools.dossier_validation import run_control_matrix as run_control_matrix_tool  # noqa: E402
+from mcp_server.tools.dossier_validation import validate_dimensioning_note as validate_dimensioning_note_tool  # noqa: E402
+from mcp_server.tools.dossier_validation import validate_dossier_cee as validate_dossier_cee_tool  # noqa: E402
+from mcp_server.tools.dossier_validation import validate_dpt as validate_dpt_tool  # noqa: E402
+from mcp_server.tools.dossier_validation import validate_invoice as validate_invoice_tool  # noqa: E402
+from mcp_server.tools.dossier_validation import validate_quote as validate_quote_tool  # noqa: E402
 from mcp_server.tools.eligibility import (  # noqa: E402
     check_eligibility as check_eligibility_tool,
     find_control_risks as find_control_risks_tool,
@@ -135,6 +141,42 @@ def generate_dossier(
 ) -> dict[str, Any]:
     """Generate an inline CEE dossier pack from operation and company data."""
     return generate_dossier_tool(code=code, operation=operation, company=company, mode=mode)
+
+
+@mcp.tool
+def validate_quote(code: str, dossier: dict[str, Any], mode: str = "strict") -> dict[str, Any]:
+    """Validate quote/devis fields and CEE engagement readiness."""
+    return validate_quote_tool(code=code, dossier=dossier, mode=mode)
+
+
+@mcp.tool
+def validate_invoice(code: str, dossier: dict[str, Any], mode: str = "strict") -> dict[str, Any]:
+    """Validate invoice/facture fields as CEE proof of completion."""
+    return validate_invoice_tool(code=code, dossier=dossier, mode=mode)
+
+
+@mcp.tool
+def validate_dimensioning_note(code: str, dossier: dict[str, Any], mode: str = "strict") -> dict[str, Any]:
+    """Validate heating dimensioning note inputs and professional validation needs."""
+    return validate_dimensioning_note_tool(code=code, dossier=dossier, mode=mode)
+
+
+@mcp.tool
+def validate_dpt(code: str, dossier: dict[str, Any], mode: str = "strict") -> dict[str, Any]:
+    """Validate DPT/pre-deposit technical proof dossier structure."""
+    return validate_dpt_tool(code=code, dossier=dossier, mode=mode)
+
+
+@mcp.tool
+def run_control_matrix(code: str, dossier: dict[str, Any], mode: str = "strict") -> dict[str, Any]:
+    """Run the consolidated PNCEE/COFRAC control matrix over a dossier."""
+    return run_control_matrix_tool(code=code, dossier=dossier, mode=mode)
+
+
+@mcp.tool
+def validate_dossier_cee(code: str, dossier: dict[str, Any], mode: str = "strict") -> dict[str, Any]:
+    """Validate quote, invoice, dimensioning note, DPT and control matrix together."""
+    return validate_dossier_cee_tool(code=code, dossier=dossier, mode=mode)
 
 
 @mcp.tool

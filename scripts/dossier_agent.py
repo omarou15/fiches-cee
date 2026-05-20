@@ -28,8 +28,10 @@ BAR_TH_179_ENGAGEMENT_DEADLINE = "2030-12-31"
 
 try:
     from scripts.validate_operation import has_chronology_inputs, validate_chronology
+    from scripts.dossier_validators import validate_dossier_cee
 except ModuleNotFoundError:  # pragma: no cover - direct script execution fallback
     from validate_operation import has_chronology_inputs, validate_chronology
+    from dossier_validators import validate_dossier_cee
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -858,7 +860,46 @@ def build_dossier(operation: dict[str, Any]) -> dict[str, Any]:
         dossier = build_generic_draft_dossier(operation, fiche_code, support_level)
     if has_chronology_inputs(operation):
         apply_chronology_result(dossier, validate_chronology(operation))
+    apply_documentary_validation(dossier, operation)
     return dossier
+
+
+def apply_documentary_validation(dossier: dict[str, Any], operation: dict[str, Any]) -> None:
+    validation_mode = str(operation.get("dossier_validation_mode") or operation.get("validation_mode") or "advisory")
+    engine_mode = "strict" if validation_mode == "strict" else "advisory"
+    validation = validate_dossier_cee(operation, mode=engine_mode)
+    dossier["document_validations"] = validation["document_validations"]
+    dossier["control_matrix"] = validation["control_matrix"]
+    dossier["competences_used"] = validation["competences_used"]
+    if validation_mode != "strict" or not validation.get("blocking_points"):
+        return
+
+    existing_ids = {item.get("id") for item in dossier.get("missing_questions", []) if isinstance(item, dict)}
+    for item in validation.get("blocking_points", []):
+        question_id = f"validation_{item.get('risk_id') or item.get('id')}"
+        if question_id in existing_ids:
+            continue
+        dossier.setdefault("missing_questions", []).append(
+            {
+                "id": question_id,
+                "field_path": item.get("field", "dossier"),
+                "question": item.get("title") or item.get("text") or "Validation documentaire bloquante.",
+                "expected_input": "piece source conforme ou justification de non-applicabilite",
+                "blocking": True,
+            }
+        )
+        dossier.setdefault("risks", []).append(
+            {
+                "id": item.get("risk_id") or "documentary_validation_blocking_point",
+                "severity": item.get("severity", "high"),
+                "text": item.get("title") or item.get("text") or "Validation documentaire bloquante.",
+                "source": item.get("source"),
+            }
+        )
+    if dossier.get("status") == "pret_predepot":
+        dossier["status"] = "incomplet_questions"
+    if isinstance(dossier.get("eligibility"), dict) and dossier["eligibility"].get("eligible") is True:
+        dossier["eligibility"]["eligible"] = None
 
 
 def apply_chronology_result(dossier: dict[str, Any], chronology: dict[str, Any]) -> None:

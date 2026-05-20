@@ -76,6 +76,13 @@ Le serveur MCP expose maintenant les competences directement :
 
 Ces outils servent a eviter qu'un agent lise tout le depot. Il peut d'abord trouver les competences utiles, puis charger uniquement les fichiers necessaires.
 
+Le moteur dossier consomme aussi ces competences via `scripts/dossier_validators.py`.
+Il expose cote MCP les outils stricts `validate_quote`, `validate_invoice`,
+`validate_dimensioning_note`, `validate_dpt`, `run_control_matrix` et
+`validate_dossier_cee`. Dans `dossier_agent.py`, le meme moteur est appele en
+mode `advisory` par defaut ; le mode `strict` bloque les champs critiques
+manquants et alimente les questions bloquantes.
+
 ## Calculs rules structurés
 
 Le moteur `compute_kwh_cumac` utilise les `rules/*.rules.json` quand une table de calcul exploitable existe. Cette couche couvre maintenant les calculateurs structurés suivants :

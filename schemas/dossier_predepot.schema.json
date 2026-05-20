@@ -71,6 +71,25 @@
       },
       "additionalProperties": true
     },
+    "document_validations": {
+      "type": ["object", "null"],
+      "description": "Validations documentaires issues du moteur de competences CEE.",
+      "additionalProperties": true
+    },
+    "control_matrix": {
+      "type": ["object", "null"],
+      "description": "Matrice de controle PNCEE consolidee par le moteur dossier.",
+      "properties": {
+        "status": { "type": ["string", "null"] },
+        "risk_flags": { "type": "array" },
+        "source_files": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "competences_used": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
     "missing_questions": {
       "type": "array",
       "items": {
