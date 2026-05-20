@@ -66,6 +66,28 @@ Pour une operation, l'agent doit lire dans cet ordre :
 
 En mode strict, toute valeur absente ou non sourcee doit produire une question bloquante ou un champ `[A COMPLETER]`.
 
+## Outils MCP
+
+Le serveur MCP expose maintenant les competences directement :
+
+- `list_competences(category, status, applies_to)` : inventaire filtrable des competences ;
+- `get_competence(competence_id)` : contenu complet d'une competence ;
+- `find_competences(code, task)` : selection des competences pertinentes pour une fiche et/ou une tache.
+
+Ces outils servent a eviter qu'un agent lise tout le depot. Il peut d'abord trouver les competences utiles, puis charger uniquement les fichiers necessaires.
+
+## Calculs rules structurés
+
+Le moteur `compute_kwh_cumac` utilise les `rules/*.rules.json` quand une table de calcul exploitable existe. Cette couche couvre maintenant les calculateurs structurés suivants :
+
+- `BAR-TH-168` : montant par m2 de capteurs selon zone et usage ;
+- `BAR-TH-171` : montant de base selon type de logement et Etas, facteur surface, facteur zone ;
+- `BAR-TH-179` : table PAC collective existante, avec facteur R ;
+- `BAT-TH-116` : GTB, somme des montants par usage, facteur zone, surface geree ;
+- `BAT-TH-162` / `BAT-TH-163` : montants PAC tertiaire selon puissance, Etas/COP, zone, usage le cas echeant, facteur secteur et surface.
+
+Si une variable critique manque, le moteur refuse de calculer et retourne `needs_human_review: true`.
+
 ## Competences communes disponibles
 
 `competence_engine/common/devis_cee.json`

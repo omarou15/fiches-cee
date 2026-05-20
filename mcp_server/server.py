@@ -16,6 +16,9 @@ from starlette.responses import JSONResponse  # noqa: E402
 
 from mcp_server.tools.calcul import compute_kwh_cumac as compute_kwh_cumac_tool  # noqa: E402
 from mcp_server.tools.chronology import check_chronology as check_chronology_tool  # noqa: E402
+from mcp_server.tools.competences import find_competences as find_competences_tool  # noqa: E402
+from mcp_server.tools.competences import get_competence as get_competence_tool  # noqa: E402
+from mcp_server.tools.competences import list_competences as list_competences_tool  # noqa: E402
 from mcp_server.tools.dossier import generate_dossier as generate_dossier_tool  # noqa: E402
 from mcp_server.tools.dossier import get_annexe6_row as get_annexe6_row_tool  # noqa: E402
 from mcp_server.tools.dossier import get_cadre_contribution as get_cadre_contribution_tool  # noqa: E402
@@ -41,10 +44,12 @@ mcp = FastMCP(
 
 def health_payload() -> dict[str, Any]:
     codes = all_codes()
+    competences = list_competences_tool()
     return {
         "status": "ok",
         "fiches_count": len(codes),
         "supported_full": sum(1 for code in codes if support_level(code) == "supported_full"),
+        "competences_count": competences.get("count", 0),
     }
 
 
@@ -97,6 +102,28 @@ def list_required_documents(code: str) -> dict[str, Any]:
 def search_cee(query: str, sector: str | None = None, max_results: int = 10) -> dict[str, Any]:
     """Search CEE fiches by keyword."""
     return search_cee_tool(query=query, sector=sector, max_results=max_results)
+
+
+@mcp.tool
+def list_competences(
+    category: str | None = None,
+    status: str | None = None,
+    applies_to: str | None = None,
+) -> dict[str, Any]:
+    """List reusable CEE agent competences with optional filters."""
+    return list_competences_tool(category=category, status=status, applies_to=applies_to)
+
+
+@mcp.tool
+def get_competence(competence_id: str) -> dict[str, Any]:
+    """Return a full CEE agent competence by id."""
+    return get_competence_tool(competence_id=competence_id)
+
+
+@mcp.tool
+def find_competences(code: str | None = None, task: str | None = None) -> dict[str, Any]:
+    """Find competences relevant to a fiche code and/or task label."""
+    return find_competences_tool(code=code, task=task)
 
 
 @mcp.tool
